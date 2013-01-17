@@ -1,4 +1,4 @@
-MODUS
+MODUS PRACTICE LIBRARY
 =====
 
 The MODUS Practice Library contains practices defined in the Eclipse Process Framework (EPF) that we
