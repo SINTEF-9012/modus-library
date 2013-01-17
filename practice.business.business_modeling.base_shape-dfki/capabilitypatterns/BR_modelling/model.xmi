@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_tkQE8Yi2Ed609piMjO-xvw" guid="_tkQE8Yi2Ed609piMjO-xvw">
+    <resourceDescriptors xmi:id="_tkQE8oi2Ed609piMjO-xvw" id="-ewif5ptjv-vUxZx15eOPMw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_tjDyIIi2Ed609piMjO-xvw" name="BR_modelling" guid="_tjDyIIi2Ed609piMjO-xvw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_-gZnwItNEd6ICpAXmDeg7g" name="Create a new BusinessRules view" guid="_-gZnwItNEd6ICpAXmDeg7g">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_-gZnwYtNEd6ICpAXmDeg7g" name="Create a new BusinessRules view" guid="_-gZnwYtNEd6ICpAXmDeg7g" presentationName="Create a new BusinessRules view" isOptional="true" superActivities="_tjDyIYi2Ed609piMjO-xvw" breakdownElements="_-gaO0ItNEd6ICpAXmDeg7g _-gaO0YtNEd6ICpAXmDeg7g _-gaO0otNEd6ICpAXmDeg7g _-gaO04tNEd6ICpAXmDeg7g _-gaO1ItNEd6ICpAXmDeg7g _-ga14ItNEd6ICpAXmDeg7g _-ga14YtNEd6ICpAXmDeg7g _-ga14otNEd6ICpAXmDeg7g _-gbc8ItNEd6ICpAXmDeg7g _-gbc8YtNEd6ICpAXmDeg7g _-gbc8otNEd6ICpAXmDeg7g _-gcEAItNEd6ICpAXmDeg7g _-gcEAYtNEd6ICpAXmDeg7g _-gcEAotNEd6ICpAXmDeg7g _-gcrEItNEd6ICpAXmDeg7g _-gcrEYtNEd6ICpAXmDeg7g _-lN2UItNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-gaO0ItNEd6ICpAXmDeg7g" name="Analyst" guid="_-gaO0ItNEd6ICpAXmDeg7g" presentationName="Analyst" briefDescription="This worker is mainly involved in the processes related to the requirements of the customers. " isPlanned="false" superActivities="_-gZnwYtNEd6ICpAXmDeg7g" modifies="_-lN2UItNEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j42cYNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_WCuvQFd9Ed637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-gaO0YtNEd6ICpAXmDeg7g" name="Business_Process_Modeller" guid="_-gaO0YtNEd6ICpAXmDeg7g" presentationName="Business Process Modeller" briefDescription="This worker is involved in the design of the composition workflow and all the issues around it like security, transactions or exception handling." isPlanned="false" superActivities="_-gZnwYtNEd6ICpAXmDeg7g" modifies="_-lN2UItNEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j42cYdeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_WCvWUVd9Ed637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-gaO0otNEd6ICpAXmDeg7g" name="Business Analyst" guid="_-gaO0otNEd6ICpAXmDeg7g" presentationName="Business Analyst" briefDescription="Responsible for analyzing the business needs of clients to help identify business problems and propose solutions." isPlanned="false" superActivities="_-gZnwYtNEd6ICpAXmDeg7g" modifies="_-lN2UItNEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j42cYteMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_WCvWUFd9Ed637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-gaO04tNEd6ICpAXmDeg7g" name="Designer" guid="_-gaO04tNEd6ICpAXmDeg7g" presentationName="Designer" isPlanned="false" superActivities="_-gZnwYtNEd6ICpAXmDeg7g" modifies="_-lN2UItNEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j42cY9eMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_WCvWUld9Ed637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-gaO1ItNEd6ICpAXmDeg7g" name="User" guid="_-gaO1ItNEd6ICpAXmDeg7g" presentationName="User" isPlanned="false" superActivities="_-gZnwYtNEd6ICpAXmDeg7g" modifies="_-lN2UItNEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j42cZNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_WCvWU1d9Ed637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-ga14ItNEd6ICpAXmDeg7g" name="Create AND Connector(Business Rules View)" guid="_-ga14ItNEd6ICpAXmDeg7g" presentationName="Create an AND connector element" briefDescription="Creation of AND Connector Elements&#xD;&#xA;&#xD;&#xA;The AND element is a connector element. &#xD;&#xA;&#xD;&#xA;You need an AND if you have two possibilities and you want to start them parallel. &#xD;&#xA;" superActivities="_-gZnwYtNEd6ICpAXmDeg7g" isSynchronizedWithSource="false" output="_-lN2UItNEd6ICpAXmDeg7g" performedPrimarilyBy="_-gaO0ItNEd6ICpAXmDeg7g _-gaO0YtNEd6ICpAXmDeg7g _-gaO0otNEd6ICpAXmDeg7g _-gaO04tNEd6ICpAXmDeg7g _-gaO1ItNEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j43qgteMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_IuQYoJ1yEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_VapjsFgOEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-Ge73c188_E2NMMETGmi-pg#_latQgFgaEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YLf6imKL0G6I5U_8O3FMww#_yCvHQFeGEd637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-ga14YtNEd6ICpAXmDeg7g" name="Create Condition" guid="_-ga14YtNEd6ICpAXmDeg7g" presentationName="Create a condition" briefDescription="Creation of Conditions&#xD;&#xA;&#xD;&#xA;The condition element is a part of the if construction. &#xD;&#xA;" superActivities="_-gZnwYtNEd6ICpAXmDeg7g" output="_-lN2UItNEd6ICpAXmDeg7g" performedPrimarilyBy="_-gaO0ItNEd6ICpAXmDeg7g _-gaO0YtNEd6ICpAXmDeg7g _-gaO0otNEd6ICpAXmDeg7g _-gaO04tNEd6ICpAXmDeg7g _-gaO1ItNEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j44RkNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="2"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_IuQYoJ1yEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_xUrMgFg4Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-GUFEZ5EphOq2_gUITmEiIg#_-2FjEFg4Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-GUFEZ5EphOq2_gUITmEiIg#_o5Pb0Fg5Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YLf6imKL0G6I5U_8O3FMww#_yCvHQFeGEd637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-ga14otNEd6ICpAXmDeg7g" name="Create Connector" guid="_-ga14otNEd6ICpAXmDeg7g" presentationName="Create a Connector" briefDescription="Creation of Connectors&#xD;&#xA;&#xD;&#xA;A connection element is needed to get a connection between keywords, statements, connectors or conditions. &#xD;&#xA;&#xD;&#xA;Its the relationship between those elements. &#xD;&#xA;&#xD;&#xA;There are three connectors: AND, OR and XOR &#xD;&#xA;" superActivities="_-gZnwYtNEd6ICpAXmDeg7g" output="_-lN2UItNEd6ICpAXmDeg7g" performedPrimarilyBy="_-gaO0ItNEd6ICpAXmDeg7g _-gaO0YtNEd6ICpAXmDeg7g _-gaO0otNEd6ICpAXmDeg7g _-gaO04tNEd6ICpAXmDeg7g _-gaO1ItNEd6ICpAXmDeg7g">
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_IuQYoJ1yEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_7WznUFgNEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-Ge73c188_E2NMMETGmi-pg#_latQgFgaEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YLf6imKL0G6I5U_8O3FMww#_yCvHQFeGEd637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-gbc8ItNEd6ICpAXmDeg7g" name="Create ELSE Keyword" guid="_-gbc8ItNEd6ICpAXmDeg7g" presentationName="Create an ELSE Keyword" briefDescription="Creation of ELSE Keywords&#xD;&#xA;&#xD;&#xA;The ELSE construct is an add on for the IF construct. &#xD;&#xA;&#xD;&#xA;The ELSE construct is used if you have two alternatives. &#xD;&#xA;" superActivities="_-gZnwYtNEd6ICpAXmDeg7g" output="_-lN2UItNEd6ICpAXmDeg7g" performedPrimarilyBy="_-gaO0ItNEd6ICpAXmDeg7g _-gaO0YtNEd6ICpAXmDeg7g _-gaO0otNEd6ICpAXmDeg7g _-gaO04tNEd6ICpAXmDeg7g _-gaO1ItNEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j43qgNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_IuQYoJ1yEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_ly82wFgtEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-Mc-2lXiAaqzoRPTzDD_YmA#_thcMcFgtEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-r6cScDStjYzHxUbF-t2O6g#_-A07kFgjEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YLf6imKL0G6I5U_8O3FMww#_yCvHQFeGEd637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-gbc8YtNEd6ICpAXmDeg7g" name="Create IF Keyword" guid="_-gbc8YtNEd6ICpAXmDeg7g" presentationName="Create an if keyword" briefDescription="Creation of IF Keywords&#xD;&#xA;&#xD;&#xA;The IF construct uses a logical expression to decide, if there will be used one/several statements or conditions. &#xD;&#xA;" superActivities="_-gZnwYtNEd6ICpAXmDeg7g" linkToPredecessor="_-gcrE4tNEd6ICpAXmDeg7g" output="_-lN2UItNEd6ICpAXmDeg7g" performedPrimarilyBy="_-gaO0ItNEd6ICpAXmDeg7g _-gaO0YtNEd6ICpAXmDeg7g _-gaO0otNEd6ICpAXmDeg7g _-gaO04tNEd6ICpAXmDeg7g _-gaO1ItNEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j43DcNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_IuQYoJ1yEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_2sBUYFgnEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-2bwBz0OuYXI3ZQy7-v70ZA#_NgACgFgoEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-r6cScDStjYzHxUbF-t2O6g#_-A07kFgjEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YLf6imKL0G6I5U_8O3FMww#_yCvHQFeGEd637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-gbc8otNEd6ICpAXmDeg7g" name="Create Keyword" guid="_-gbc8otNEd6ICpAXmDeg7g" presentationName="Create a keyword" briefDescription="Creation of Keywords&#xD;&#xA;&#xD;&#xA;A Keyword is an element which is used to build if, else and check constructs." superActivities="_-gZnwYtNEd6ICpAXmDeg7g" output="_-lN2UItNEd6ICpAXmDeg7g" performedPrimarilyBy="_-gaO0ItNEd6ICpAXmDeg7g _-gaO0YtNEd6ICpAXmDeg7g _-gaO0otNEd6ICpAXmDeg7g _-gaO04tNEd6ICpAXmDeg7g _-gaO1ItNEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j45fsNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="2"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_IuQYoJ1yEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_cgX9UFgbEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-r6cScDStjYzHxUbF-t2O6g#_-A07kFgjEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YLf6imKL0G6I5U_8O3FMww#_yCvHQFeGEd637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-gcEAItNEd6ICpAXmDeg7g" name="Create OR Connector(Business Rules View)" guid="_-gcEAItNEd6ICpAXmDeg7g" presentationName="Create an OR connector element" briefDescription="Creation of OR Connector Elements&#xD;&#xA;&#xD;&#xA;The OR element is a connector element. &#xD;&#xA;&#xD;&#xA;You need an OR if you have two possibilities and one or two of them are true. &#xD;&#xA;" superActivities="_-gZnwYtNEd6ICpAXmDeg7g" output="_-lN2UItNEd6ICpAXmDeg7g" performedPrimarilyBy="_-gaO0ItNEd6ICpAXmDeg7g _-gaO0YtNEd6ICpAXmDeg7g _-gaO0otNEd6ICpAXmDeg7g _-gaO04tNEd6ICpAXmDeg7g _-gaO1ItNEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j444odeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_IuQYoJ1yEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_NzPUIFgTEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-Ge73c188_E2NMMETGmi-pg#_latQgFgaEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YLf6imKL0G6I5U_8O3FMww#_yCvHQFeGEd637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-gcEAYtNEd6ICpAXmDeg7g" name="Create Statement" guid="_-gcEAYtNEd6ICpAXmDeg7g" presentationName="Create a statement" briefDescription="Creation of Statements&#xD;&#xA;&#xD;&#xA;The statement element is the description of the true or false options of the if construct." superActivities="_-gZnwYtNEd6ICpAXmDeg7g" output="_-lN2UItNEd6ICpAXmDeg7g" performedPrimarilyBy="_-gaO0ItNEd6ICpAXmDeg7g _-gaO0YtNEd6ICpAXmDeg7g _-gaO0otNEd6ICpAXmDeg7g _-gaO04tNEd6ICpAXmDeg7g _-gaO1ItNEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j444oNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="2"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_IuQYoJ1yEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_mN1a8Fg4Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-BZ3QjWo1eOF6Wh4LLbIEVA#_6yntoFg4Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-BZ3QjWo1eOF6Wh4LLbIEVA#_heEDsFg5Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YLf6imKL0G6I5U_8O3FMww#_yCvHQFeGEd637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-gcEAotNEd6ICpAXmDeg7g" name="Create THEN Keyword" guid="_-gcEAotNEd6ICpAXmDeg7g" presentationName="Create a THEN Keyword" briefDescription="Creation of THEN Keywords&#xD;&#xA;&#xD;&#xA;The THEN construct is a part of the if construct. &#xD;&#xA;&#xD;&#xA;If the IF part of the if-construct is true, the THEN keyword introduces the statement/Condition, which has to performed. &#xD;&#xA;" superActivities="_-gZnwYtNEd6ICpAXmDeg7g" linkToPredecessor="_-gcrEotNEd6ICpAXmDeg7g" output="_-lN2UItNEd6ICpAXmDeg7g" performedPrimarilyBy="_-gaO0ItNEd6ICpAXmDeg7g _-gaO0YtNEd6ICpAXmDeg7g _-gaO0otNEd6ICpAXmDeg7g _-gaO04tNEd6ICpAXmDeg7g _-gaO1ItNEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j44RkdeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_IuQYoJ1yEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_3xABoFg2Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-mY9GP-4gTxBbkRXfc6le0A#_85GHYFg3Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-r6cScDStjYzHxUbF-t2O6g#_-A07kFgjEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YLf6imKL0G6I5U_8O3FMww#_yCvHQFeGEd637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-gcrEItNEd6ICpAXmDeg7g" name="Create XOR Connector(Business Rules View)" guid="_-gcrEItNEd6ICpAXmDeg7g" presentationName="Create a XOR connector element" briefDescription="Creation of XOR Connector Elements&#xD;&#xA;&#xD;&#xA;The XOR element is a connector element. &#xD;&#xA;&#xD;&#xA;You need an exclusive OR if you have two possibilities but only one of them has to be true. &#xD;&#xA;" superActivities="_-gZnwYtNEd6ICpAXmDeg7g" output="_-lN2UItNEd6ICpAXmDeg7g" performedPrimarilyBy="_-gaO0ItNEd6ICpAXmDeg7g _-gaO0YtNEd6ICpAXmDeg7g _-gaO0otNEd6ICpAXmDeg7g _-gaO04tNEd6ICpAXmDeg7g _-gaO1ItNEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j43qgdeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_IuQYoJ1yEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_p4dSYFgTEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-Ge73c188_E2NMMETGmi-pg#_latQgFgaEd6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YLf6imKL0G6I5U_8O3FMww#_yCvHQFeGEd637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-gcrEYtNEd6ICpAXmDeg7g" name="Create Business Rules" guid="_-gcrEYtNEd6ICpAXmDeg7g" presentationName="Create a Business Rule" briefDescription="Creation of Business Rules" superActivities="_-gZnwYtNEd6ICpAXmDeg7g" output="_-lN2UItNEd6ICpAXmDeg7g" performedPrimarilyBy="_-gaO0ItNEd6ICpAXmDeg7g _-gaO0YtNEd6ICpAXmDeg7g _-gaO0otNEd6ICpAXmDeg7g _-gaO04tNEd6ICpAXmDeg7g _-gaO1ItNEd6ICpAXmDeg7g">
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_IuQYoJ1yEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_KgUF4FeGEd637brWif56XQ"/>
+        <selectedSteps href="uma://-YLf6imKL0G6I5U_8O3FMww#_yCvHQFeGEd637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_-gcrEotNEd6ICpAXmDeg7g" guid="_-gcrEotNEd6ICpAXmDeg7g" pred="_-ga14YtNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_-gcrE4tNEd6ICpAXmDeg7g" guid="_-gcrE4tNEd6ICpAXmDeg7g" pred="_-gbc8otNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_-lN2UItNEd6ICpAXmDeg7g" name="Business Rule_Model" guid="_-lN2UItNEd6ICpAXmDeg7g" presentationName="Business Rule Model" briefDescription="This model is relevant for creating business rules" isPlanned="false" superActivities="_-gZnwYtNEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j42cZdeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_j444oteMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_42En0FApEd6NGfjlGBNnwA"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_-AFV8FAmEd6NGfjlGBNnwA"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_tjDyIYi2Ed609piMjO-xvw" name="BR_modelling" guid="_tjDyIYi2Ed609piMjO-xvw" presentationName="Create a BR view" briefDescription="Creation of BR models" breakdownElements="_-gZnwYtNEd6ICpAXmDeg7g">
+      <methodElementProperty xmi:id="_j45fsdeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-ewif5ptjv-vUxZx15eOPMw" href="uma://-ewif5ptjv-vUxZx15eOPMw#-ewif5ptjv-vUxZx15eOPMw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_v3TIYK3TEd6jJcdBhS8YNw" guid="_v3TIYK3TEd6jJcdBhS8YNw">
+    <resourceDescriptors xmi:id="_v3TIYa3TEd6jJcdBhS8YNw" id="-FLoiaWEhaqcE2iGhTIDzBA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_vJiqgK3TEd6jJcdBhS8YNw" name="SWS_PSM_Modelling" guid="_vJiqgK3TEd6jJcdBhS8YNw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_vJiqna3TEd6jJcdBhS8YNw" name="WSMO modelling" guid="_vJiqna3TEd6jJcdBhS8YNw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_vJiqqK3TEd6jJcdBhS8YNw" name="WSMO modelling" guid="_vJiqqK3TEd6jJcdBhS8YNw" presentationName="WSMO modelling" superActivities="_vJiqia3TEd6jJcdBhS8YNw" breakdownElements="_vJiqoq3TEd6jJcdBhS8YNw _vJiqn63TEd6jJcdBhS8YNw _vJiqpa3TEd6jJcdBhS8YNw _vJiqp63TEd6jJcdBhS8YNw _vJiqo63TEd6jJcdBhS8YNw _vJiqpK3TEd6jJcdBhS8YNw _vJiqpq3TEd6jJcdBhS8YNw _vJiqoa3TEd6jJcdBhS8YNw _vJiqoK3TEd6jJcdBhS8YNw _T_uB8O8YEd6tIICneCdnag _T_uB8e8YEd6tIICneCdnag _z-6RwPqlEd68-aqICre0mw _z-6RwfqlEd68-aqICre0mw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_vJiqoq3TEd6jJcdBhS8YNw" name="SWS_requirements" guid="_vJiqoq3TEd6jJcdBhS8YNw" presentationName="Semantic Web Service Requirements Specification" briefDescription="Semantic Web Service Business Requirements." isPlanned="false" superActivities="_vJiqqK3TEd6jJcdBhS8YNw">
+        <methodElementProperty xmi:id="_kCT6YNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_VgmRUrJ8Ed6WTpR2FpAgWw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_vJiqpa3TEd6jJcdBhS8YNw" name="SWS_engineer" guid="_vJiqpa3TEd6jJcdBhS8YNw" presentationName="Semantic Web Service engineer" briefDescription="Responsible for modelling Semantic Web Services and goals." isPlanned="false" superActivities="_vJiqqK3TEd6jJcdBhS8YNw" modifies="_z-6RwfqlEd68-aqICre0mw">
+        <methodElementProperty xmi:id="_kCUhcNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_kCW9sNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <Role href="uma://_kwazABFxEd6C2PqX2OSy5A#_j9KeADszEd-Ux61kS3X6hw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_vJiqp63TEd6jJcdBhS8YNw" name="implement_WSMO_ontologies" guid="_vJiqp63TEd6jJcdBhS8YNw" presentationName="Implement WSMO ontologies" briefDescription="Implement WSMO ontologies at PSM level." superActivities="_vJiqqK3TEd6jJcdBhS8YNw" mandatoryInput="_z-6RwPqlEd68-aqICre0mw _z-6RwfqlEd68-aqICre0mw" output="_z-6RwfqlEd68-aqICre0mw" performedPrimarilyBy="_vJiqo63TEd6jJcdBhS8YNw">
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_n4_8QFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_Bo6psKkPEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-gf7K8poGk0EKS4TOsRecdQ#_NsNccKkPEd6RxrScOu9Dlg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_vJiqo63TEd6jJcdBhS8YNw" name="ontology_engineer" guid="_vJiqo63TEd6jJcdBhS8YNw" presentationName="Ontology engineer" briefDescription="Responsible to model a given domain as an ontology." isPlanned="false" superActivities="_vJiqqK3TEd6jJcdBhS8YNw" modifies="_T_uB8e8YEd6tIICneCdnag _z-6RwfqlEd68-aqICre0mw">
+        <methodElementProperty xmi:id="_kCT6YdeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <methodElementProperty xmi:id="_kCVvkNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://_kwazABFxEd6C2PqX2OSy5A#_gwAwEDs0Ed-Ux61kS3X6hw"/>
+        <responsibleForExclude href="uma://_kwazABFxEd6C2PqX2OSy5A#_Kff7QBfEEd61O54aE5cSOg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_vJiqpK3TEd6jJcdBhS8YNw" name="implement_WSMO_web_services" guid="_vJiqpK3TEd6jJcdBhS8YNw" presentationName="Implement WSMO Web Services" briefDescription="Implement WSMO Web Services at PSM level" superActivities="_vJiqqK3TEd6jJcdBhS8YNw" mandatoryInput="_z-6RwPqlEd68-aqICre0mw _z-6RwfqlEd68-aqICre0mw" output="_z-6RwfqlEd68-aqICre0mw" performedPrimarilyBy="_vJiqpa3TEd6jJcdBhS8YNw">
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_n4_8QFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_CKhsgKkQEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-MdtebDFLkHeQj25LC-lgiw#_Lf3rQKkQEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-MdtebDFLkHeQj25LC-lgiw#_Mw9fsKkQEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-MdtebDFLkHeQj25LC-lgiw#_Oia2QKkQEd6RxrScOu9Dlg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_vJiqpq3TEd6jJcdBhS8YNw" name="implement_WSMO_goals" guid="_vJiqpq3TEd6jJcdBhS8YNw" presentationName="Implement WSMO goals" briefDescription="Implement WSMO goals at PSM level" superActivities="_vJiqqK3TEd6jJcdBhS8YNw" mandatoryInput="_z-6RwPqlEd68-aqICre0mw _z-6RwfqlEd68-aqICre0mw" output="_z-6RwfqlEd68-aqICre0mw" performedPrimarilyBy="_vJiqpa3TEd6jJcdBhS8YNw">
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_n4_8QFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_r1pfwKkQEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-1gYhUxI8tWKOrQ4YMUaMFA#_4LR_sKkQEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-1gYhUxI8tWKOrQ4YMUaMFA#_5LFP0KkQEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-1gYhUxI8tWKOrQ4YMUaMFA#_90GpYKkQEd6RxrScOu9Dlg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_vJiqoa3TEd6jJcdBhS8YNw" name="implement_WSMO_mediators" guid="_vJiqoa3TEd6jJcdBhS8YNw" presentationName="Implement WSMO mediators" briefDescription="Implement WSMO mediators at PSM level" superActivities="_vJiqqK3TEd6jJcdBhS8YNw" mandatoryInput="_z-6RwPqlEd68-aqICre0mw _z-6RwfqlEd68-aqICre0mw" output="_z-6RwfqlEd68-aqICre0mw" performedPrimarilyBy="_vJiqpa3TEd6jJcdBhS8YNw">
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_n4_8QFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_bZSlkKkREd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-3h5-qbRWTuM0usctNdUMCg#_hml1UKkREd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-3h5-qbRWTuM0usctNdUMCg#_kCFAUKkREd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-3h5-qbRWTuM0usctNdUMCg#_lNJFQKkREd6RxrScOu9Dlg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_T_uB8O8YEd6tIICneCdnag" name="implement_OO_mappings_1" guid="_T_uB8O8YEd6tIICneCdnag" presentationName="Implement OO mappings" briefDescription="Implement ontology-to-ontology mappings" superActivities="_vJiqqK3TEd6jJcdBhS8YNw" isSynchronizedWithSource="false" mandatoryInput="_vJiqn63TEd6jJcdBhS8YNw _vJiqoq3TEd6jJcdBhS8YNw" output="_T_uB8e8YEd6tIICneCdnag" performedPrimarilyBy="_vJiqo63TEd6jJcdBhS8YNw">
+        <methodElementProperty xmi:id="_kCWWoNeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_vJiqn63TEd6jJcdBhS8YNw/mandatoryInput/_vJiqoq3TEd6jJcdBhS8YNw/mandatoryInput"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_n4_8QFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_TvJOAKm5Ed6h0djySBNI9g"/>
+        <selectedSteps href="uma://-TL6bidLlhczCIu1LUjeO6w#_kOaqkKm-Ed6h0djySBNI9g"/>
+        <mandatoryInputExclude href="uma://_kwazABFxEd6C2PqX2OSy5A#_VgmRU7J8Ed6WTpR2FpAgWw"/>
+        <mandatoryInputExclude href="uma://_kwazABFxEd6C2PqX2OSy5A#_VgmRVLJ8Ed6WTpR2FpAgWw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_T_uB8e8YEd6tIICneCdnag" name="SWS_OO_mapping_model" guid="_T_uB8e8YEd6tIICneCdnag" presentationName="OO mapping model" briefDescription="Ontology-to-ontology mapping model, in abstract mapping language." isPlanned="false" superActivities="_vJiqqK3TEd6jJcdBhS8YNw">
+        <methodElementProperty xmi:id="_kCWWodeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_n4_8QFXHEd6iZIDJYUIm8w"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_VgmRULJ8Ed6WTpR2FpAgWw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_vJiqoK3TEd6jJcdBhS8YNw" name="implement_OO_mappings" guid="_vJiqoK3TEd6jJcdBhS8YNw" presentationName="Implement OO mappings" briefDescription="Implement ontology-to-ontology mappings" superActivities="_vJiqqK3TEd6jJcdBhS8YNw" isSynchronizedWithSource="false" mandatoryInput="_vJiqn63TEd6jJcdBhS8YNw _vJiqoq3TEd6jJcdBhS8YNw" performedPrimarilyBy="_vJiqo63TEd6jJcdBhS8YNw">
+        <methodElementProperty xmi:id="_kCXkwNeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_vJiqn63TEd6jJcdBhS8YNw/mandatoryInput/_vJiqoq3TEd6jJcdBhS8YNw/mandatoryInput"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_n4_8QFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_TvJOAKm5Ed6h0djySBNI9g"/>
+        <selectedSteps href="uma://-TL6bidLlhczCIu1LUjeO6w#_kOaqkKm-Ed6h0djySBNI9g"/>
+        <mandatoryInputExclude href="uma://_kwazABFxEd6C2PqX2OSy5A#_VgmRU7J8Ed6WTpR2FpAgWw"/>
+        <mandatoryInputExclude href="uma://_kwazABFxEd6C2PqX2OSy5A#_VgmRVLJ8Ed6WTpR2FpAgWw"/>
+        <outputExclude href="uma://_kwazABFxEd6C2PqX2OSy5A#_VgmRULJ8Ed6WTpR2FpAgWw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_z-6RwPqlEd68-aqICre0mw" name="SWS_requirements" guid="_z-6RwPqlEd68-aqICre0mw" presentationName="Semantic Web Service Requirements Specification" briefDescription="Semantic Web Service Requirements Specification." isPlanned="false" superActivities="_vJiqqK3TEd6jJcdBhS8YNw">
+        <methodElementProperty xmi:id="_kCUhcdeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_VgmRU7J8Ed6WTpR2FpAgWw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_z-6RwfqlEd68-aqICre0mw" name="SWS_WSMO_model" guid="_z-6RwfqlEd68-aqICre0mw" presentationName="WSMO model" briefDescription="WSMO model for Semantic Web Services." isPlanned="false" superActivities="_vJiqqK3TEd6jJcdBhS8YNw">
+        <methodElementProperty xmi:id="_kCUhcteMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_n4_8QFXHEd6iZIDJYUIm8w"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_VgmRVLJ8Ed6WTpR2FpAgWw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_vJiqn63TEd6jJcdBhS8YNw" name="WSMO_model" guid="_vJiqn63TEd6jJcdBhS8YNw" presentationName="WSMO model" isPlanned="false" superActivities="_vJiqqK3TEd6jJcdBhS8YNw"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_vJiqia3TEd6jJcdBhS8YNw" name="SWS_PSM_Modelling" guid="_vJiqia3TEd6jJcdBhS8YNw" presentationName="SWS PSM (WSMO) modelling" briefDescription="Capability pattern for the PSM-level modelling activity of MEMOS (WSMO modelling)." breakdownElements="_vJiqqK3TEd6jJcdBhS8YNw">
+      <methodElementProperty xmi:id="_kCXkwdeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-FLoiaWEhaqcE2iGhTIDzBA" href="uma://-FLoiaWEhaqcE2iGhTIDzBA#-FLoiaWEhaqcE2iGhTIDzBA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

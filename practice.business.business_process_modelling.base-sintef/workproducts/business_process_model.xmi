@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-lPOTb46sAViU6qo01c0xFw" name="business_process_model,_t_xQYOEAEd-uaoNIhpFKqA" guid="-lPOTb46sAViU6qo01c0xFw" changeDate="2010-11-03T02:49:15.605+0100">
+  <mainDescription>&lt;p align=&quot;left&quot;>&#xD;
+    A BPMN model defines the business processes of the domain which are relevant to the service-oriented architecture, and&#xD;
+    which will enable the goals to be met, and the roles of the resources that perform those processes. It includes a full&#xD;
+    definition of the roles in the business, focusing on those fulfilled by the system or component to be developed.&#xD;
+    Business process descriptions bring real business vision and constitute an excellent formalization and analysis tool&#xD;
+    when constructing systems. In the context of a development project they are used in business-oriented activities&#xD;
+    related to requirements, specifications and analysis.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    Business processes may be at a number of levels of detail, from a high level description of the business processes down&#xD;
+    to task flows which is a set of detailed specifications for the business services that the service-oriented&#xD;
+    architecture will provide. BPMN is designed to cover many types of modelling and allows the creation of end-to-end&#xD;
+    business processes. It allows the specification of private processes (both non-executable and executable), public&#xD;
+    processes, choreographies and collaborations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A business process is a sequence of actions carried out by different actors working together. This&#xD;
+    model&amp;nbsp;formalizes the business process and&amp;nbsp;defines:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the business processes of the domain which are relevant to the Product, and which will enable the goals to be met,&#xD;
+        and:&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the roles of the resources that perform those processes.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;This&amp;nbsp;model may be at a number of levels of detail, from a high level description of the business processes&#xD;
+    down to the WARM, which is a set of detailed specifications for the business services that each IT element in the&#xD;
+    Product will provide. It includes a full definition of the roles in the business, focusing on those fulfilled by the&#xD;
+    system or component to be developed.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The Business Process and Roles model is generally prepared at the same time as the associated Business Resource&#xD;
+        model.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To build a Business Process model the Business Modelling Conceptual Model (or metamodel) is used.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Each business process is defined in terms of its steps, and each step performed by a resource at a higher level of&#xD;
+    detail may then be treated as a process performed by a community (of resources) and further analysed at a lower level&#xD;
+    of detail. Eventually, using the WARM concepts of Human Step, Tool Step and Immediate Step, &quot;leaf&quot; steps will be&#xD;
+    defined, and assigned to specific elements of the Product to be developed. The time to stop analysing is when, by&#xD;
+    analysing the processes, the Product's role in them is defined, and when there are no more questions about the business&#xD;
+    to be answered.&#xD;
+&lt;/p></mainDescription>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To describe the business processes and the associated roles.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  <notation>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../practice.business.business_process_modelling.base-sintef/guidances/guidelines/bpmn_guidance_8B5E1EB4.html&quot;&#xD;
+         guid=&quot;_IDtNEMNCEeCGkIgyjTMixA&quot;>Business Process Model and Notation (BPMN)&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></notation>
+</org.eclipse.epf.uma:ArtifactDescription>

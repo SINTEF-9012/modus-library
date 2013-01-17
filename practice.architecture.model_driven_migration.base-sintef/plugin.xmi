@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_zVqawJ1wEeCOw7xpsfr5Cw" guid="_zVqawJ1wEeCOw7xpsfr5Cw">
+    <subManagers xmi:id="_zWI74J1wEeCOw7xpsfr5Cw" href="uma://_TxI1gOaAEd-5YeUvCnM2dQ#_zWI74J1wEeCOw7xpsfr5Cw"/>
+    <subManagers xmi:id="_PzX1wKGIEeC6m4lNxCxazg" href="uma://_Px-uoKGIEeC6m4lNxCxazg#_PzX1wKGIEeC6m4lNxCxazg"/>
+    <resourceDescriptors xmi:id="_zVro4J1wEeCOw7xpsfr5Cw" id="-B_VyxY-MqQdl_Br86Pv1vg" uri="guidances/roadmaps/how_to_adopt_model_driven_migration.xmi"/>
+    <resourceDescriptors xmi:id="_zVusMJ1wEeCOw7xpsfr5Cw" id="-RDzdJUsWXdF5s7gEWlPjGQ" uri="guidances/practices/model_driven_migration.xmi"/>
+    <resourceDescriptors xmi:id="_zVwhYJ1wEeCOw7xpsfr5Cw" id="-1bN_aR03o52SQgFUVNmz1A" uri="workproducts/as_is_architecture_model.xmi"/>
+    <resourceDescriptors xmi:id="_zVy9oJ1wEeCOw7xpsfr5Cw" id="-PwoMuZ9xcWToIAzbfpoF4A" uri="tasks/define_as_is_architecture_model.xmi"/>
+    <resourceDescriptors xmi:id="_zV0y0J1wEeCOw7xpsfr5Cw" id="-tTMHwFSfFhfJfXNBesuyWw" uri="tasks/define_service_migration_model.xmi"/>
+    <resourceDescriptors xmi:id="_zV2A8J1wEeCOw7xpsfr5Cw" id="-3Xz5ykeLZW-DsTb3YmHxwA" uri="tasks/identify_candidate_services.xmi"/>
+    <resourceDescriptors xmi:id="_zV4dMJ1wEeCOw7xpsfr5Cw" id="-HXSxIwPDqycqJjwqtUWNIQ" uri="workproducts/service_migration_model.xmi"/>
+    <resourceDescriptors xmi:id="_zV5rUJ1wEeCOw7xpsfr5Cw" id="-muKDNQDEVooK2pU1GYy3BQ" uri="tasks/define_service_interfaces.xmi"/>
+    <resourceDescriptors xmi:id="_zV65cJ1wEeCOw7xpsfr5Cw" id="-wK4BLW8T7mN4vhJutFfxRA" uri="tasks/define_operation_behaviours.xmi"/>
+    <resourceDescriptors xmi:id="_zV8HkJ1wEeCOw7xpsfr5Cw" id="-wfmraUHdn0EyUAMQ0WlCgw" uri="tasks/generate_web_services.xmi"/>
+    <resourceDescriptors xmi:id="_zV98wJ1wEeCOw7xpsfr5Cw" id="-Sz2X0xX3nmUJssMPIMWuvg" uri="tasks/implement_business_logic.xmi"/>
+    <resourceDescriptors xmi:id="_zV_K4J1wEeCOw7xpsfr5Cw" id="-N_fhL1ARuKYZ9Nojy-J4TA" uri="tasks/perform_unit_and_integration_test.xmi"/>
+    <resourceDescriptors xmi:id="_zWBAEJ1wEeCOw7xpsfr5Cw" id="-GIi0-af9Dz2OQKtwk0LsEA" uri="guidances/supportingmaterials/release_info_model_driven_migration.xmi"/>
+    <resourceDescriptors xmi:id="_zWC1QJ1wEeCOw7xpsfr5Cw" id="-_U5OGd1Wcizt4vPk5aLpyQ" uri="guidances/supportingmaterials/uml_profile_for_migration.xmi"/>
+    <resourceDescriptors xmi:id="_zWEqcJ1wEeCOw7xpsfr5Cw" id="-hYxhZUtztuE40wD3vQwOMg" uri="guidances/examples/oil_spill_example.xmi"/>
+    <resourceDescriptors xmi:id="_zWIU0J1wEeCOw7xpsfr5Cw" id="_TxI1gOaAEd-5YeUvCnM2dQ" uri="capabilitypatterns/model_driven_migration.remics/model.xmi"/>
+    <resourceDescriptors xmi:id="_Py_bQKGIEeC6m4lNxCxazg" id="_Px-uoKGIEeC6m4lNxCxazg" uri="capabilitypatterns/model_driven_migration/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Jsb3MNnCEd6zvIb1dP7WTA" name="practice.architecture.model_driven_migration.base-sintef" guid="_Jsb3MNnCEd6zvIb1dP7WTA" briefDescription="This plugin contains the Model-driven migration practice." authors="Brian Elvesæter (SINTEF), Parastoo Mohagheghi (SINTEF), Arnor Solberg (SINTEF)" changeDate="2011-06-27T15:01:46.928+0200">
+    <methodElementProperty xmi:id="_zVn-gJ1wEeCOw7xpsfr5Cw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jsb3MdnCEd6zvIb1dP7WTA" name="Content" guid="_Jsb3MdnCEd6zvIb1dP7WTA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jsb3MtnCEd6zvIb1dP7WTA" name="Categories" guid="_Jsb3MtnCEd6zvIb1dP7WTA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jsb3M9nCEd6zvIb1dP7WTA" name="Domains" guid="_Jsb3M9nCEd6zvIb1dP7WTA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_tgke0OXVEd-o7-eCfuNF5g" name="architecture_modelling_domain.assign" guid="_tgke0OXVEd-o7-eCfuNF5g" variabilityType="contributes" workProducts="_c9ZAUOG3Ed-AyrTFSpVP8g">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_iESMoNxcEd-LYKXkOhPACw#_JQuH8N0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jsb3NNnCEd6zvIb1dP7WTA" name="Disciplines" guid="_Jsb3NNnCEd6zvIb1dP7WTA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_CxpHUOHGEd-AyrTFSpVP8g" name="architecture_modelling_discipline.assign" guid="_CxpHUOHGEd-AyrTFSpVP8g" variabilityType="contributes" tasks="_NDPVAOXOEd-o7-eCfuNF5g _PPjWoFCtEeCQQoyAiE5Lcw _Iy6qYFCtEeCQQoyAiE5Lcw _I8f5oFCsEeCQQoyAiE5Lcw _Q5NRgFCsEeCQQoyAiE5Lcw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_iESMoNxcEd-LYKXkOhPACw#_Fx_-UN0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jsb3NdnCEd6zvIb1dP7WTA" name="RoleSets" guid="_Jsb3NdnCEd6zvIb1dP7WTA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jsb3NtnCEd6zvIb1dP7WTA" name="WP Types" guid="_Jsb3NtnCEd6zvIb1dP7WTA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jsb3N9nCEd6zvIb1dP7WTA" name="Tools" guid="_Jsb3N9nCEd6zvIb1dP7WTA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jsb3ONnCEd6zvIb1dP7WTA" name="StandardCategories" guid="_Jsb3ONnCEd6zvIb1dP7WTA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jsb3OdnCEd6zvIb1dP7WTA" name="CustomCategories" guid="_Jsb3OdnCEd6zvIb1dP7WTA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jsb3OtnCEd6zvIb1dP7WTA" name="Hidden" guid="_Jsb3OtnCEd6zvIb1dP7WTA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Jsb3O9nCEd6zvIb1dP7WTA" name="Custom Categories" guid="_Jsb3O9nCEd6zvIb1dP7WTA"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Jsb3PNnCEd6zvIb1dP7WTA" name="CoreContent" guid="_Jsb3PNnCEd6zvIb1dP7WTA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_XQbnsNnCEd6zvIb1dP7WTA" name="model_driven_migration" guid="_XQbnsNnCEd6zvIb1dP7WTA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_Zv_KQNxTEd-LYKXkOhPACw" name="how_to_adopt_model_driven_migration" guid="_Zv_KQNxTEd-LYKXkOhPACw" presentationName="How to adopt the Model-driven migration practice" briefDescription="This roadmap describes how to adopt the Model-driven migration practice.">
+            <presentation xmi:id="-B_VyxY-MqQdl_Br86Pv1vg" href="uma://-B_VyxY-MqQdl_Br86Pv1vg#-B_VyxY-MqQdl_Br86Pv1vg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_WfseMNxTEd-LYKXkOhPACw" name="model_driven_migration" guid="_WfseMNxTEd-LYKXkOhPACw" presentationName="Model-driven migration" briefDescription="This practice describes a architecture driven modernization approach to reverse engineering." contentReferences="_sTZKsJsnEeCui_A0lCfdaQ _6rkKIJsnEeCui_A0lCfdaQ _3E5LIOGrEd-AyrTFSpVP8g _kbzucFCsEeCQQoyAiE5Lcw _xFPUIFCsEeCQQoyAiE5Lcw _NDPVAOXOEd-o7-eCfuNF5g _PPjWoFCtEeCQQoyAiE5Lcw _Iy6qYFCtEeCQQoyAiE5Lcw _I8f5oFCsEeCQQoyAiE5Lcw _Q5NRgFCsEeCQQoyAiE5Lcw _2inLQOXOEd-o7-eCfuNF5g _2O158FCmEeCQQoyAiE5Lcw _5s0csFCmEeCQQoyAiE5Lcw _Zv_KQNxTEd-LYKXkOhPACw">
+            <presentation xmi:id="-RDzdJUsWXdF5s7gEWlPjGQ" href="uma://-RDzdJUsWXdF5s7gEWlPjGQ#-RDzdJUsWXdF5s7gEWlPjGQ"/>
+            <activityReferences href="uma://_Px-uoKGIEeC6m4lNxCxazg#_Px-uoaGIEeC6m4lNxCxazg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_3E5LIOGrEd-AyrTFSpVP8g" name="as_is_architecture_model" guid="_3E5LIOGrEd-AyrTFSpVP8g" presentationName="As-is architecture model" briefDescription="&lt;TBD>">
+            <presentation xmi:id="-1bN_aR03o52SQgFUVNmz1A" href="uma://-1bN_aR03o52SQgFUVNmz1A#-1bN_aR03o52SQgFUVNmz1A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_c9ZAUOG3Ed-AyrTFSpVP8g" name="architecture_model.assign" guid="_c9ZAUOG3Ed-AyrTFSpVP8g" variabilityType="contributes" deliveredWorkProducts="_3E5LIOGrEd-AyrTFSpVP8g">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_vIqTYOG2Ed-AyrTFSpVP8g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_NDPVAOXOEd-o7-eCfuNF5g" name="define_as_is_architecture_model" guid="_NDPVAOXOEd-o7-eCfuNF5g" presentationName="Define as-is architeture model" briefDescription="This task describes how to define an as-is architecture model." performedBy="_2inLQOXOEd-o7-eCfuNF5g" output="_3E5LIOGrEd-AyrTFSpVP8g">
+            <presentation xmi:id="-PwoMuZ9xcWToIAzbfpoF4A" href="uma://-PwoMuZ9xcWToIAzbfpoF4A#-PwoMuZ9xcWToIAzbfpoF4A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_2inLQOXOEd-o7-eCfuNF5g" name="system_architect.assign" guid="_2inLQOXOEd-o7-eCfuNF5g" variabilityType="contributes" responsibleFor="_3E5LIOGrEd-AyrTFSpVP8g _xFPUIFCsEeCQQoyAiE5Lcw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_2O158FCmEeCQQoyAiE5Lcw" name="system_developer.assign" guid="_2O158FCmEeCQQoyAiE5Lcw" variabilityType="contributes" responsibleFor="_kbzucFCsEeCQQoyAiE5Lcw _p_CtgFCsEeCQQoyAiE5Lcw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJxhntEd6VV7P4WguglA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_5s0csFCmEeCQQoyAiE5Lcw" name="tester.assign" guid="_5s0csFCmEeCQQoyAiE5Lcw" variabilityType="contributes" responsibleFor="_24QboFCsEeCQQoyAiE5Lcw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_0ZM4MclgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_I8f5oFCsEeCQQoyAiE5Lcw" name="define_service_migration_model" guid="_I8f5oFCsEeCQQoyAiE5Lcw" presentationName="Define service migration model" briefDescription="This task describes how to define a service migration model" supportingMaterials="_sTZKsJsnEeCui_A0lCfdaQ" performedBy="_2O158FCmEeCQQoyAiE5Lcw" output="_kbzucFCsEeCQQoyAiE5Lcw" additionallyPerformedBy="_2inLQOXOEd-o7-eCfuNF5g _5s0csFCmEeCQQoyAiE5Lcw">
+            <presentation xmi:id="-tTMHwFSfFhfJfXNBesuyWw" href="uma://-tTMHwFSfFhfJfXNBesuyWw#-tTMHwFSfFhfJfXNBesuyWw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Q5NRgFCsEeCQQoyAiE5Lcw" name="identify_candidate_services" guid="_Q5NRgFCsEeCQQoyAiE5Lcw" presentationName="Identify candidate services" briefDescription="This tast describes how to find identify service candidates that can be migrated." performedBy="_2inLQOXOEd-o7-eCfuNF5g" output="_xFPUIFCsEeCQQoyAiE5Lcw" additionallyPerformedBy="_2O158FCmEeCQQoyAiE5Lcw">
+            <presentation xmi:id="-3Xz5ykeLZW-DsTb3YmHxwA" href="uma://-3Xz5ykeLZW-DsTb3YmHxwA#-3Xz5ykeLZW-DsTb3YmHxwA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kbzucFCsEeCQQoyAiE5Lcw" name="service_migration_model" guid="_kbzucFCsEeCQQoyAiE5Lcw" presentationName="Service migration model">
+            <presentation xmi:id="-HXSxIwPDqycqJjwqtUWNIQ" href="uma://-HXSxIwPDqycqJjwqtUWNIQ#-HXSxIwPDqycqJjwqtUWNIQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_p_CtgFCsEeCQQoyAiE5Lcw" name="web_service_implementation" guid="_p_CtgFCsEeCQQoyAiE5Lcw" presentationName="Web service implementation"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_xFPUIFCsEeCQQoyAiE5Lcw" name="candidate_services" guid="_xFPUIFCsEeCQQoyAiE5Lcw" presentationName="Candidate services"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_24QboFCsEeCQQoyAiE5Lcw" name="validation_and_release_report" guid="_24QboFCsEeCQQoyAiE5Lcw" presentationName="Validation and release report"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Iy6qYFCtEeCQQoyAiE5Lcw" name="define_service_interfaces" guid="_Iy6qYFCtEeCQQoyAiE5Lcw" presentationName="Define service interfaces" supportingMaterials="_sTZKsJsnEeCui_A0lCfdaQ" performedBy="_2O158FCmEeCQQoyAiE5Lcw" output="_kbzucFCsEeCQQoyAiE5Lcw">
+            <presentation xmi:id="-muKDNQDEVooK2pU1GYy3BQ" href="uma://-muKDNQDEVooK2pU1GYy3BQ#-muKDNQDEVooK2pU1GYy3BQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_PPjWoFCtEeCQQoyAiE5Lcw" name="define_operation_behaviours" guid="_PPjWoFCtEeCQQoyAiE5Lcw" presentationName="Define operation behaviours" briefDescription="This task describes how to define operation behaviours." supportingMaterials="_sTZKsJsnEeCui_A0lCfdaQ" performedBy="_2O158FCmEeCQQoyAiE5Lcw" output="_kbzucFCsEeCQQoyAiE5Lcw">
+            <presentation xmi:id="-wK4BLW8T7mN4vhJutFfxRA" href="uma://-wK4BLW8T7mN4vhJutFfxRA#-wK4BLW8T7mN4vhJutFfxRA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_nYSRMFCtEeCQQoyAiE5Lcw" name="generate_web_services" guid="_nYSRMFCtEeCQQoyAiE5Lcw" presentationName="Generate Web services" briefDescription="This task describes how to gennerate web services." performedBy="_2O158FCmEeCQQoyAiE5Lcw" output="_p_CtgFCsEeCQQoyAiE5Lcw">
+            <presentation xmi:id="-wfmraUHdn0EyUAMQ0WlCgw" href="uma://-wfmraUHdn0EyUAMQ0WlCgw#-wfmraUHdn0EyUAMQ0WlCgw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_qvuHEFCtEeCQQoyAiE5Lcw" name="implement_business_logic" guid="_qvuHEFCtEeCQQoyAiE5Lcw" presentationName="Implement business logic" briefDescription="This task describes how to implement business logic." performedBy="_2O158FCmEeCQQoyAiE5Lcw" output="_p_CtgFCsEeCQQoyAiE5Lcw">
+            <presentation xmi:id="-Sz2X0xX3nmUJssMPIMWuvg" href="uma://-Sz2X0xX3nmUJssMPIMWuvg#-Sz2X0xX3nmUJssMPIMWuvg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_tr-c0FCtEeCQQoyAiE5Lcw" name="perform_unit_and_integration_test" guid="_tr-c0FCtEeCQQoyAiE5Lcw" presentationName="Perform unit and integration testing" briefDescription="This task describes how to perform unit and integration testing." performedBy="_5s0csFCmEeCQQoyAiE5Lcw" output="_24QboFCsEeCQQoyAiE5Lcw">
+            <presentation xmi:id="-N_fhL1ARuKYZ9Nojy-J4TA" href="uma://-N_fhL1ARuKYZ9Nojy-J4TA#-N_fhL1ARuKYZ9Nojy-J4TA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RlnJ0NxTEd-LYKXkOhPACw" name="release_info" guid="_RlnJ0NxTEd-LYKXkOhPACw">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_fviR4NxTEd-LYKXkOhPACw" name="release_info_model_driven_migration" guid="_fviR4NxTEd-LYKXkOhPACw" presentationName="Practice: Model-driven migration" briefDescription="Model-driven migration release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-GIi0-af9Dz2OQKtwk0LsEA" href="uma://-GIi0-af9Dz2OQKtwk0LsEA#-GIi0-af9Dz2OQKtwk0LsEA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_TGUuoNxTEd-LYKXkOhPACw" name="tool_mentors" guid="_TGUuoNxTEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o_i0UJsnEeCui_A0lCfdaQ" name="migration_profile" guid="_o_i0UJsnEeCui_A0lCfdaQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_sTZKsJsnEeCui_A0lCfdaQ" name="uml_profile_for_migration" guid="_sTZKsJsnEeCui_A0lCfdaQ" presentationName="UML profile for migration" briefDescription="UML profile for migration" examples="_6rkKIJsnEeCui_A0lCfdaQ">
+            <presentation xmi:id="-_U5OGd1Wcizt4vPk5aLpyQ" href="uma://-_U5OGd1Wcizt4vPk5aLpyQ#-_U5OGd1Wcizt4vPk5aLpyQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_6rkKIJsnEeCui_A0lCfdaQ" name="oil_spill_example" guid="_6rkKIJsnEeCui_A0lCfdaQ" presentationName="Oil spill example">
+            <presentation xmi:id="-hYxhZUtztuE40wD3vQwOMg" href="uma://-hYxhZUtztuE40wD3vQwOMg#-hYxhZUtztuE40wD3vQwOMg"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Jsb3PdnCEd6zvIb1dP7WTA" name="CapabilityPatterns" guid="_Jsb3PdnCEd6zvIb1dP7WTA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Ss_38OaAEd-5YeUvCnM2dQ" name="model_driven_migration.remics" guid="_Ss_38OaAEd-5YeUvCnM2dQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_TxI1gOaAEd-5YeUvCnM2dQ" href="uma://_TxI1gOaAEd-5YeUvCnM2dQ#_TxI1gOaAEd-5YeUvCnM2dQ"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_E5apoKGIEeC6m4lNxCxazg" name="model_driven_migration" guid="_E5apoKGIEeC6m4lNxCxazg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_Px-uoKGIEeC6m4lNxCxazg" href="uma://_Px-uoKGIEeC6m4lNxCxazg#_Px-uoKGIEeC6m4lNxCxazg"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Jsb3PtnCEd6zvIb1dP7WTA" name="DeliveryProcesses" guid="_Jsb3PtnCEd6zvIb1dP7WTA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Jsb3P9nCEd6zvIb1dP7WTA" name="ProcessContributions" guid="_Jsb3P9nCEd6zvIb1dP7WTA"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_yLWzUNxbEd-LYKXkOhPACw#_yLWzUNxbEd-LYKXkOhPACw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

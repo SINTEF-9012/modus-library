@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-gm7tin_AjCJm6YTd61YENg" name="Specify_interfaces_and_messages,_ZC3u4Fa3Ed-wludSfbytXA" guid="-gm7tin_AjCJm6YTd61YENg" authors="Brian Elvesæter (SINTEF), Cyril Carrez (SINTEF), Svein G. Johnsen (SINTEF)" changeDate="2010-05-10T19:31:30.617+0200" changeDescription="0.4: Revised description according to SoaML methodology book chapter.|0.3: Updated description and steps.|0.2: Revised and aligned with new set of work products defined in the framework library.|0.1: Initial outline." version="0.4">
+  <mainDescription>&lt;p>&#xD;
+    This task defines the guided procedure for specifying the interfaces and messages of a service interface.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_ZC3u5Fa3Ed-wludSfbytXA" name="1. Decide on document-centric or RPC-style." guid="_ZC3u5Fa3Ed-wludSfbytXA">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Decide for each interface whether the operations should follow a document-centric or RPC-style approach. The choice&#xD;
+    affects how to model the operation signatures (parameters and responses). The choice may differ from interface to&#xD;
+    interface within the same services architecture, depending on, e.g. technology platform choices and whether we are&#xD;
+    specifying public external services or private internal services.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_ZC3u41a3Ed-wludSfbytXA" name="2. Define the message types and service data." guid="_ZC3u41a3Ed-wludSfbytXA">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Message types are represented as UML classes with the stereotype &amp;lt;&amp;lt;MessageType&amp;gt;&amp;gt;. Service data are&#xD;
+    represented as UML classes with the stereotype &amp;lt;&amp;lt;entity&amp;gt;&amp;gt;. The specification of message types and service&#xD;
+    data are closely linked to the specification of the operations in the interfaces. For a document-centric approach you&#xD;
+    will typically only specify one input parameter and one response parameter that are types as message types. A message&#xD;
+    type is a kind of value object that represents information exchanged between participants. This information consists of&#xD;
+    data passed into, and/or returned from the invocation of an operation or event signal defined in an interface. A&#xD;
+    message type is in the domain or service-specific content and does not include header or other implementation or&#xD;
+    protocol-specific information.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_ZC3u4Va3Ed-wludSfbytXA" name="3. Detail the structure and properties of the message types and service." guid="_ZC3u4Va3Ed-wludSfbytXA">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Both message types and service data may have properties that can be either modelled as UML properties or associated UML&#xD;
+    classes. Define the necessary properties and associated classes to store the information to be exchanged between the&#xD;
+    consumer of the service and the provider of the service.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An interface&amp;nbsp;defines the information shown in the table:&#xD;
+&lt;/p>&#xD;
+&lt;table title=&quot;&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;85%&quot;>&#xD;
+    &lt;tbody>&#xD;
+        &lt;tr>&#xD;
+            &lt;th abbr=&quot;&quot; scope=&quot;col&quot;>&#xD;
+                Function&#xD;
+            &lt;/th>&#xD;
+            &lt;th abbr=&quot;&quot; scope=&quot;col&quot;>&#xD;
+                Metadata&#xD;
+            &lt;/th>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                An indication of what the service does or is about.&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                The ServiceInterface name.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                The service defined by the ServiceInterface that will be provided by any Participant having a Service typed&#xD;
+                by the ServiceInterface, or used by a Participant having a Request typed by the ServiceInterface.&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                The provided Interfaces containing Operations modeling the capabilities. As in UML2, provided interfaces&#xD;
+                are designated using an InterfaceRealization between the ServiceInterface and other Interfaces.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                Any service interaction consumers are expected to provide or consume in order to use or interact with a&#xD;
+                Service typed by this ServiceInterface.&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                Required Interfaces containing Operations modeling the needs. As in UML2, required interfaces are&#xD;
+                designated using a Usage between the ServiceInterface and other Interfaces.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                &lt;p>&#xD;
+                    The detailed specification of an interaction providing value as part of a service including:&#xD;
+                &lt;/p>&#xD;
+                &lt;ol>&#xD;
+                    &lt;li>&#xD;
+                        Its name, often a verb phrase indicating what it does.&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        Any required or optional service data inputs and outputs.&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        Any preconditions consumers are expected to meet before using the capability.&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        Any post conditions consumers participants can expect, and other providers must provide upon&#xD;
+                        successful use of the service.&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        Any exceptions or fault conditions that might be raised if the capability cannot be provided for&#xD;
+                        some reason even though the preconditions have been met.&#xD;
+                    &lt;/li>&#xD;
+                &lt;/ol>&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                Each atomic interaction of a ServiceInterface is modeled as an Operation or event reception in its provided&#xD;
+                or required Interfaces. From UML2, an Operation has Parameters defining its inputs and outputs,&#xD;
+                preconditions and post-conditions, and may raise Exceptions. Operation Parameters may also be typed by a&#xD;
+                MessageType.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                Any communication protocol or rules that determine when a consumer can use the capabilities or in what&#xD;
+                order.&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                An ownedBehavior of the ServiceInterface. This behavior expresses the expected interaction between the&#xD;
+                consumers and providers of services typed by this ServiceInterface. The onwedBehavior could be any&#xD;
+                Behavior&lt;br />&#xD;
+                including Activity, Interaction, StateMachine, ProtocolStateMachine, or OpaqueBehavior.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                Requirements any implementer must meet when providing the service.&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                This is the same ownedBehavior that defines the consumer protocol just viewed from an implementation rather&#xD;
+                than a usage perspective.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                Constraints that reflect what successful use of the service is intended to accomplish and how it would be&#xD;
+                evaluated.&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                UML2 Constraints in ownedRules of the ServiceInterface.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                Policies for using the service such as security and transaction scopes for&lt;br />&#xD;
+                maintaining integrity or recovering from the inability to successfully&amp;nbsp;perform the service or any&#xD;
+                required service.&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                Policies may also be expressed as constraints.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                Qualities of service consumers should expect and providers are expected to provide such as: cost,&#xD;
+                availability, performance, footprint, suitability to the task, competitive information, etc.&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                The OMG QoS specification may be used to model qualities of service constraints for a ServiceInterface.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                A service composed of other services as a composite service.&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                Service point or request point ports on the service interface.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+    &lt;/tbody>&#xD;
+&lt;/table>&#xD;
+&lt;br />&#xD;
+&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_JhIj4KMCEeCs2vaY4B2J3g" name="4. Apply &lt;&lt;signal>> stereotype on the methods that should handle events." guid="_JhIj4KMCEeCs2vaY4B2J3g"/>
+  <sections xmi:id="_O-KNQKMCEeCs2vaY4B2J3g" name="5. Define OCL constraints on methods on the interface." guid="_O-KNQKMCEeCs2vaY4B2J3g"/>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To&amp;nbsp;specify the interfaces and messages of a service interface.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

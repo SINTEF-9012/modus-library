@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_pC8WkQzdEeC0l9qo9DKfjQ" guid="_pC8WkQzdEeC0l9qo9DKfjQ">
+    <resourceDescriptors xmi:id="_pC8WkgzdEeC0l9qo9DKfjQ" id="-Yl_988WD_MXJ947_oD77-A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_3AgdoQzdEeC0l9qo9DKfjQ" id="-bMiNhyEnXqIJD-TULN60HQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_3AqOoAzdEeC0l9qo9DKfjQ" id="-QE7ZS-zy2ocqgjLP3Hr_sA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_3AqOoQzdEeC0l9qo9DKfjQ" id="-xzNRo33Ypv5h75E3MCaztg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_3Az_oAzdEeC0l9qo9DKfjQ" id="-SvSRHlFba_Rpaorl67cLcQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_3Az_oQzdEeC0l9qo9DKfjQ" id="-4tIpy7sBRXxd1-66VttDuQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_3A9JkAzdEeC0l9qo9DKfjQ" id="-XOSCFSN_u95kEOTuJAukmA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_3BG6kAzdEeC0l9qo9DKfjQ" id="-goBUKXtyYNHKyx6INfthkw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_3BG6kQzdEeC0l9qo9DKfjQ" id="-GfB7t9EdjRBrQhq12kxKBw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_pBdI0AzdEeC0l9qo9DKfjQ" name="Requirements engineering" guid="_pBdI0AzdEeC0l9qo9DKfjQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_q79tsAzdEeC0l9qo9DKfjQ" name="extract_feature_model" guid="_q79tsAzdEeC0l9qo9DKfjQ" presentationName="Extract model elements" isPlanned="false" superActivities="_pBdI0QzdEeC0l9qo9DKfjQ" mandatoryInput="_q8QooAzdEeC0l9qo9DKfjQ" output="_q8QoogzdEeC0l9qo9DKfjQ" performedPrimarilyBy="_q79tsQzdEeC0l9qo9DKfjQ">
+      <presentation xmi:id="-bMiNhyEnXqIJD-TULN60HQ" href="uma://-Yl_988WD_MXJ947_oD77-A#-bMiNhyEnXqIJD-TULN60HQ"/>
+      <Task href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_cZ2iIO2vEd--BOZpIYnXRA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_q79tsQzdEeC0l9qo9DKfjQ" name="requirements_analyst" guid="_q79tsQzdEeC0l9qo9DKfjQ" presentationName="Requirements analyst" briefDescription="This worker is mainly involved in the processes related to the requirements of the customers. " isPlanned="false" superActivities="_pBdI0QzdEeC0l9qo9DKfjQ" modifies="_q8QoogzdEeC0l9qo9DKfjQ _q82ehwzdEeC0l9qo9DKfjQ _q82ehAzdEeC0l9qo9DKfjQ _q82egQzdEeC0l9qo9DKfjQ" responsibleFor="_q82ehwzdEeC0l9qo9DKfjQ _q82ehAzdEeC0l9qo9DKfjQ _q82egQzdEeC0l9qo9DKfjQ _q8QoogzdEeC0l9qo9DKfjQ">
+      <methodElementProperty xmi:id="_q79tsgzdEeC0l9qo9DKfjQ" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-QE7ZS-zy2ocqgjLP3Hr_sA" href="uma://-Yl_988WD_MXJ947_oD77-A#-QE7ZS-zy2ocqgjLP3Hr_sA"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIpisBntEd6VV7P4WguglA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_q8QooAzdEeC0l9qo9DKfjQ" name="textual_requirements" guid="_q8QooAzdEeC0l9qo9DKfjQ" presentationName="Textual requirements" isPlanned="false" superActivities="_pBdI0QzdEeC0l9qo9DKfjQ">
+      <methodElementProperty xmi:id="_q8QooQzdEeC0l9qo9DKfjQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_WB0C8O5oEd-0xPxjwuNm4A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_q8QoogzdEeC0l9qo9DKfjQ" name="feature_model" guid="_q8QoogzdEeC0l9qo9DKfjQ" presentationName="Feature model" briefDescription="The feature model is generated based on automatic analysis of natural language in the ArborCraft tool, then it is refined in subsequent steps. " isPlanned="false" superActivities="_pBdI0QzdEeC0l9qo9DKfjQ">
+      <methodElementProperty xmi:id="_q8QoowzdEeC0l9qo9DKfjQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_pUl3EO2rEd--BOZpIYnXRA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_q82egQzdEeC0l9qo9DKfjQ" name="requirements_model" guid="_q82egQzdEeC0l9qo9DKfjQ" presentationName="Requirements model" briefDescription="This model contains the information about variability and adaptation of the system. It is realised by a feature model which contains information about the variability, context, and functional and non-functional goals." isPlanned="false" superActivities="_pBdI0QzdEeC0l9qo9DKfjQ" deliverableParts="_q82ehAzdEeC0l9qo9DKfjQ _q8QoogzdEeC0l9qo9DKfjQ _q82ehwzdEeC0l9qo9DKfjQ">
+      <methodElementProperty xmi:id="_q82eggzdEeC0l9qo9DKfjQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_iESMoNxcEd-LYKXkOhPACw#_2t4YUOG2Ed-AyrTFSpVP8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_q82ehAzdEeC0l9qo9DKfjQ" name="context" guid="_q82ehAzdEeC0l9qo9DKfjQ" presentationName="Context" briefDescription="We need to be able to relate the identified context entities to the features/goals that are affected by this context." isPlanned="false" superActivities="_pBdI0QzdEeC0l9qo9DKfjQ">
+      <methodElementProperty xmi:id="_q82ehQzdEeC0l9qo9DKfjQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_7IO30O2rEd--BOZpIYnXRA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_q82ehwzdEeC0l9qo9DKfjQ" name="goal" guid="_q82ehwzdEeC0l9qo9DKfjQ" presentationName="Goals" briefDescription="While feature models can reflect the set of available functions, a system needs to be justified in terms of stakeholder needs and wishes. Goal models justify existence of all functional requirements (hard goals) and quality measures (soft goals) of a software system in terms of stakeholder intentions. This approach is supported by ArborCraftExt (through its integrated EA-Miner component)." isPlanned="false" superActivities="_pBdI0QzdEeC0l9qo9DKfjQ">
+      <methodElementProperty xmi:id="_q82eiAzdEeC0l9qo9DKfjQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_uNNy4O2rEd--BOZpIYnXRA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_r4_WoAzdEeC0l9qo9DKfjQ" name="recover_goals" guid="_r4_WoAzdEeC0l9qo9DKfjQ" presentationName="Recover goals" isPlanned="false" superActivities="_pBdI0QzdEeC0l9qo9DKfjQ" mandatoryInput="_q8QoogzdEeC0l9qo9DKfjQ" output="_q82ehwzdEeC0l9qo9DKfjQ" performedPrimarilyBy="_q79tsQzdEeC0l9qo9DKfjQ">
+      <presentation xmi:id="-xzNRo33Ypv5h75E3MCaztg" href="uma://-Yl_988WD_MXJ947_oD77-A#-xzNRo33Ypv5h75E3MCaztg"/>
+      <Task href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_Eo9N4O2xEd--BOZpIYnXRA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sM8NYAzdEeC0l9qo9DKfjQ" name="enrich_models" guid="_sM8NYAzdEeC0l9qo9DKfjQ" presentationName="Enrich feature model" isPlanned="false" superActivities="_pBdI0QzdEeC0l9qo9DKfjQ" linkToPredecessor="_MmOzcQzfEeC0l9qo9DKfjQ" mandatoryInput="_q8QoogzdEeC0l9qo9DKfjQ" output="_q8QoogzdEeC0l9qo9DKfjQ" performedPrimarilyBy="_q79tsQzdEeC0l9qo9DKfjQ">
+      <presentation xmi:id="-SvSRHlFba_Rpaorl67cLcQ" href="uma://-Yl_988WD_MXJ947_oD77-A#-SvSRHlFba_Rpaorl67cLcQ"/>
+      <Task href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_MqbZoO5kEd-0xPxjwuNm4A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_soVI4AzdEeC0l9qo9DKfjQ" name="refine_context_and_variability" guid="_soVI4AzdEeC0l9qo9DKfjQ" presentationName="Refine context and adaptation" isPlanned="false" superActivities="_pBdI0QzdEeC0l9qo9DKfjQ" mandatoryInput="_q8QoogzdEeC0l9qo9DKfjQ _q82ehwzdEeC0l9qo9DKfjQ" output="_q82ehAzdEeC0l9qo9DKfjQ" performedPrimarilyBy="_q79tsQzdEeC0l9qo9DKfjQ">
+      <presentation xmi:id="-4tIpy7sBRXxd1-66VttDuQ" href="uma://-Yl_988WD_MXJ947_oD77-A#-4tIpy7sBRXxd1-66VttDuQ"/>
+      <Task href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_x1ds4O5kEd-0xPxjwuNm4A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_tI7UgAzdEeC0l9qo9DKfjQ" name="similarity_assessment" guid="_tI7UgAzdEeC0l9qo9DKfjQ" presentationName="Similarity assessment" isPlanned="false" superActivities="_pBdI0QzdEeC0l9qo9DKfjQ" mandatoryInput="_q82egQzdEeC0l9qo9DKfjQ" output="_q82egQzdEeC0l9qo9DKfjQ" performedPrimarilyBy="_q79tsQzdEeC0l9qo9DKfjQ">
+      <presentation xmi:id="-XOSCFSN_u95kEOTuJAukmA" href="uma://-Yl_988WD_MXJ947_oD77-A#-XOSCFSN_u95kEOTuJAukmA"/>
+      <Task href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_M_cK4O5lEd-0xPxjwuNm4A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_tXqUEAzdEeC0l9qo9DKfjQ" name="composition_support" guid="_tXqUEAzdEeC0l9qo9DKfjQ" presentationName="Composition" isPlanned="false" superActivities="_pBdI0QzdEeC0l9qo9DKfjQ" mandatoryInput="_q82egQzdEeC0l9qo9DKfjQ" output="_q82egQzdEeC0l9qo9DKfjQ" performedPrimarilyBy="_q79tsQzdEeC0l9qo9DKfjQ">
+      <presentation xmi:id="-goBUKXtyYNHKyx6INfthkw" href="uma://-Yl_988WD_MXJ947_oD77-A#-goBUKXtyYNHKyx6INfthkw"/>
+      <Task href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_uwDJMO5mEd-0xPxjwuNm4A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_tjH9MAzdEeC0l9qo9DKfjQ" name="synchronise" guid="_tjH9MAzdEeC0l9qo9DKfjQ" presentationName="Synchronise models" isPlanned="false" superActivities="_pBdI0QzdEeC0l9qo9DKfjQ" mandatoryInput="_q82egQzdEeC0l9qo9DKfjQ" output="_q82egQzdEeC0l9qo9DKfjQ" performedPrimarilyBy="_q79tsQzdEeC0l9qo9DKfjQ">
+      <presentation xmi:id="-GfB7t9EdjRBrQhq12kxKBw" href="uma://-Yl_988WD_MXJ947_oD77-A#-GfB7t9EdjRBrQhq12kxKBw"/>
+      <Task href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_WcxWEO5nEd-0xPxjwuNm4A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_MmOzcQzfEeC0l9qo9DKfjQ" guid="_MmOzcQzfEeC0l9qo9DKfjQ" pred="_r4_WoAzdEeC0l9qo9DKfjQ"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_pBdI0QzdEeC0l9qo9DKfjQ" name="Requirements engineering" guid="_pBdI0QzdEeC0l9qo9DKfjQ" presentationName="Requirements engineering" breakdownElements="_q79tsAzdEeC0l9qo9DKfjQ _q79tsQzdEeC0l9qo9DKfjQ _q8QooAzdEeC0l9qo9DKfjQ _q8QoogzdEeC0l9qo9DKfjQ _q82egQzdEeC0l9qo9DKfjQ _q82ehAzdEeC0l9qo9DKfjQ _q82ehwzdEeC0l9qo9DKfjQ _r4_WoAzdEeC0l9qo9DKfjQ _sM8NYAzdEeC0l9qo9DKfjQ _soVI4AzdEeC0l9qo9DKfjQ _tI7UgAzdEeC0l9qo9DKfjQ _tXqUEAzdEeC0l9qo9DKfjQ _tjH9MAzdEeC0l9qo9DKfjQ">
+      <presentation xmi:id="-Yl_988WD_MXJ947_oD77-A" href="uma://-Yl_988WD_MXJ947_oD77-A#-Yl_988WD_MXJ947_oD77-A"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_Uw9rsAOIEeCKOY6tSwZy2A"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_Uw9rsAOIEeCKOY6tSwZy2A"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

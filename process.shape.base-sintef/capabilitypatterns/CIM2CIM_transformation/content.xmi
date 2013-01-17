@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-1w76EaIvMA1P-cI_U4sp1g" name="CIM2CIM_transformation_abstract,_s8KswTKVEd-_UuW8yPwQuw" guid="-1w76EaIvMA1P-cI_U4sp1g">
+    <mainDescription>&lt;p>&#xD;
+    Create a&amp;nbsp;CIM model out of&amp;nbsp;another CIM model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    First You have to model a CIM model, choose one of the provided CIM process modelling capability patterns.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    After that you can build another&amp;nbsp;CIM model out of the CIM model.&#xD;
+&lt;/p></mainDescription>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-CT6qwYcE7hwLf2Bt_j50IA" name="EPC2BPMN,_Osv1NkJWEd-wN_tDdvqWug" guid="-CT6qwYcE7hwLf2Bt_j50IA">
+    <keyConsiderations>CIM2CIM transformation</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The process defines&amp;nbsp;the transformation logic from CIM EPC process model to CIM BPMN process model in SHAPE&#xD;
+    methodology&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is an automated tool which transforms your epc input model to a bpmn output model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See the Steps page for detailled constructs.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Z6OdlCuyZtyHj3Yjogm48w" name="Process_model,_Osv1NUJWEd-wN_tDdvqWug" guid="-Z6OdlCuyZtyHj3Yjogm48w">
+    <refinedDescription>The EPC&amp;nbsp; metamodel is used to configure the structure and privacy of processes on a language based meta level. The&#xD;
+executing instances are here exemplary applications and organisation units. The core element of the EPC concept is the&#xD;
+flow, which is expressed with the flow element class. This element can be divided into events, which stand at the beginning&#xD;
+and at the end of each process and the time consuming function element. The control of the process flow is ensured by&#xD;
+connectors which follow a predicate logic. Between different functions or different processes messages can be exchanged.&#xD;
+The flow between different processes is possible by the flow connection element. &lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qq0wRt_yCcTrCJ3s5h74Ew" name="BPMN_model,_Osv1NEJWEd-wN_tDdvqWug" guid="-qq0wRt_yCcTrCJ3s5h74Ew">
+    <refinedDescription>&lt;p>&#xD;
+    BPMN is intended to provide a standard notation that is understandable by all business stakeholders (i.e. business&#xD;
+    analysts, technical developers,and business managers), aiming at bridging the communication gap that frequently occurs&#xD;
+    between business process design and implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    BPMN distinguishes 3 basic types of sub-models of a business process :&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Private (internal) business processes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Abstract (public) processes, and&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Collaboration (global) processes.&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;p>&#xD;
+    Modeling in BPMN is made by simple diagrams with a small set of graphical elements. It should make it easy for business&#xD;
+    users as well as developers to understand the flow and the process. The four basic categories of elements are as&#xD;
+    follows:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Flow Objects (Events, Activities, Gateways)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Connecting Objects (Sequence Flow, Message Flow, Association)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Swimlanes (Pool, Lane)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Artefacts&amp;nbsp;(Data Object, Group, Annotation)&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;p>&#xD;
+    These four categories of elements give us the opportunity to make a simple business process diagram (BPD). It is also&#xD;
+    allowed in BPD to make your own type of a Flow Object or an Artifact to make the diagram more understandable.&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

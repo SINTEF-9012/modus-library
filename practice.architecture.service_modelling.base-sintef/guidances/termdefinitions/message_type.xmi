@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-83VGnDeFyMCORBhZ9g7XnA" name="new_term_definition,_NLYswJzbEeCjAYLMIp9ZDA" guid="-83VGnDeFyMCORBhZ9g7XnA" changeDate="2011-06-22T16:23:48.026+0200">
+  <mainDescription>&lt;p>&#xD;
+    The specification of information exchanged between service consumers and providers.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A MessageType is a kind of value object that represents information exchanged between participant requests and&#xD;
+    services. This information consists of data passed into, and/or returned from the invocation of an operation or event&#xD;
+    signal defined in a service interface. A MessageType is in the domain or service-specific content and does not include&#xD;
+    header or other implementation or protocol-specific information.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    MessageTypes are used to aggregate inputs, outputs and exceptions to service operations as in WSDL. MessageTypes&#xD;
+    represent “pure data” that may be communicated between parties – it is then up to the parties, based on the SOA&#xD;
+    specification, to interpret this data and act accordingly. As “pure data” message types may not have dependencies on&#xD;
+    the environment, location or information system of either party – this restriction rules out many common implementation&#xD;
+    techniques such as “memory pointers”, which may be found inside of an application. Good design practices suggest that&#xD;
+    the content and structure of messages provide for rich interaction of the parties without unnecessarily coupling or&#xD;
+    restricting their behavior or internal concerns.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The terms Data Transfer Object (DTO), Service Data Object (SDO) or value objects used in some technologies are similar&#xD;
+    in concept, though they tend to imply certain implementation techniques. A DTO represents data that can be freely&#xD;
+    exchanged between address spaces, and does not rely on specific location information to relate parts of the data. An&#xD;
+    SDO is a standard implementation of a DTO. A Value Object is a Class without identity and where equality is defined by&#xD;
+    value not reference. Also in the business world (or areas of business where EDI is commonplace) the term Document is&#xD;
+    frequently used. All these concepts can be represented by a MessageType.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note: MessageType should generally only be applied to DataType since it is intended have no identity. However, it is&#xD;
+    recognized that many existing models do not clearly distinguish identity, either mixing Class and DataType, or only&#xD;
+    using Class. Recognizing this, SoaML allows MessageType to be applied to Class as well as DataType. In this case, the&#xD;
+    identity implied by the Class is not considered in the MessageType. The Class is treated as if it were a DataType.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

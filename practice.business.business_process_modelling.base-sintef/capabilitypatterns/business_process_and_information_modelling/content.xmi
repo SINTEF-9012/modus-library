@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-NRMo0NoM-u4wHHLzFbpI9g" name="business_process_modelling,_TGmZ0eZ3Ed-5YeUvCnM2dQ" guid="-NRMo0NoM-u4wHHLzFbpI9g">
+    <mainDescription>&lt;p>&#xD;
+    This capability pattern describes a baseline workflow for business process and information modelling.&#xD;
+&lt;/p></mainDescription>
+    <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To model business processes and business information.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wNttRz7qSqUI7BpKCplkLA" name="define_business_process_model,_WCNywObtEd-nztBGQnvNAA" guid="-wNttRz7qSqUI7BpKCplkLA">
+    <refinedDescription>&lt;p>&#xD;
+    A business process is a sequence of actions carried out by different actors working together to deliver a tangible&#xD;
+    result and bring added business value to the company. A business process model generally describes the business and not&#xD;
+    the IT system. A business process is transversal, and is generally based on several structures and applications of one&#xD;
+    or several organizations. Business process descriptions bring real business vision&amp;nbsp;and constitute an excellent&#xD;
+    formalization and analysis tool when constructing systems. In the context of a development project&amp;nbsp;they&#xD;
+    are&amp;nbsp;used in business-oriented activities related to requirements, specifications and analysis.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Business process model is derived through a set of activities that encompass brain-storming sessions, structured&#xD;
+    workshops, interviews and feed-back sessions, and detailed modelling using a BPMN2 modelling tool.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jtBIY4PjYdnoaowRHavC5w" name="business_process_model,_WCXjwObtEd-nztBGQnvNAA" guid="-jtBIY4PjYdnoaowRHavC5w">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    A BPMN model defines the business processes of the domain which are relevant to the service-oriented architecture, and&#xD;
+    which will enable the goals to be met, and the roles of the resources that perform those processes. It includes a full&#xD;
+    definition of the roles in the business, focusing on those fulfilled by the system or component to be developed.&#xD;
+    Business process descriptions bring real business vision and constitute an excellent formalization and analysis tool&#xD;
+    when constructing systems. In the context of a development project they are used in business-oriented activities&#xD;
+    related to requirements, specifications and analysis.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    Business processes may be at a number of levels of detail, from a high level description of the business processes down&#xD;
+    to task flows which is a set of detailed specifications for the business services that the service-oriented&#xD;
+    architecture will provide. BPMN is designed to cover many types of modelling and allows the creation of end-to-end&#xD;
+    business processes. It allows the specification of private processes (both non-executable and executable), public&#xD;
+    processes, choreographies and collaborations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A business process is a sequence of actions carried out by different actors working together. This&#xD;
+    model&amp;nbsp;formalizes the business process and&amp;nbsp;defines:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the business processes of the domain which are relevant to the Product, and which will enable the goals to be met,&#xD;
+        and:&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the roles of the resources that perform those processes.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;This&amp;nbsp;model may be at a number of levels of detail, from a high level description of the business processes&#xD;
+    down to the WARM, which is a set of detailed specifications for the business services that each IT element in the&#xD;
+    Product will provide. It includes a full definition of the roles in the business, focusing on those fulfilled by the&#xD;
+    system or component to be developed.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The Business Process and Roles model is generally prepared at the same time as the associated Business Resource&#xD;
+        model.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To build a Business Process model the Business Modelling Conceptual Model (or metamodel) is used.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Each business process is defined in terms of its steps, and each step performed by a resource at a higher level of&#xD;
+    detail may then be treated as a process performed by a community (of resources) and further analysed at a lower level&#xD;
+    of detail. Eventually, using the WARM concepts of Human Step, Tool Step and Immediate Step, &quot;leaf&quot; steps will be&#xD;
+    defined, and assigned to specific elements of the Product to be developed. The time to stop analysing is when, by&#xD;
+    analysing the processes, the Product's role in them is defined, and when there are no more questions about the business&#xD;
+    to be answered.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-VDcVIXTYdYeQgOlZ1BH71w" name="define_business_information_model,_Wb5eEObtEd-nztBGQnvNAA" guid="-VDcVIXTYdYeQgOlZ1BH71w">
+    <refinedDescription>&lt;p>&#xD;
+    Methods and techniques:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The Business Resource Model is generally prepared at the same time as the associated Business Process &amp;amp; Roles&#xD;
+        model, and methods and techniques used are similar, i.e. activities that include brain-storming sessions,&#xD;
+        structured workshops, interviews and feed-back sessions, and detailed modelling using a UML tool.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The Resources that are of concern to the business will mostly, but not entirely, be discovered from consideration&#xD;
+        of the things that have to happen in the business (as contained in the Business Process Model). All resources&#xD;
+        either make those things happen, or are involved in those things that happen, in that, what happens, happens to&#xD;
+        them.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        In addition, reference should be made to, and consistency maintained with, the Context Statement, since that is a&#xD;
+        representation at a high level of all the main things of interest to the Product.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The set of business concepts are then refined into a class model, at the level of detail being considered which&#xD;
+        defines the interesting attributes of and relationships between all the resources (both actors and artefacts)&#xD;
+        identified in the Business Process Model.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The conceptual model used is the same as for the Business Process model, namely the Business Modelling Conceptual&#xD;
+        Model, with additional freedom to add any relevant associations, attributes and state machines, as provided by&#xD;
+        standard UML.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Packaging of this class model is a modelling choice, but dependencies can be reduced by confining resources to the&#xD;
+        communities with which they are involved. Thus, each «Community» package would contain two packages, one with the&#xD;
+        relevant Business Process Model, the other with the relevant Business Resource Model.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-G8mPv0gD6itd3ZDm5EAMhg" name="business_information_model,_Wb6FIObtEd-nztBGQnvNAA" guid="-G8mPv0gD6itd3ZDm5EAMhg">
+    <refinedDescription>&lt;p>&#xD;
+    The Business information model&amp;nbsp;identifies and defines the main things (and concepts) of the domain that are&#xD;
+    relevant to the Product, these being, in general, those things that do things in the business (including the Product&#xD;
+    itself), and those things that have things done to or with them, and details the relationships between these concepts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Product comprises a complete and consistent set of models for the Product, namely Business Model, Requirements Model,&#xD;
+    Architecture Model and one or more Platform Specific Model together with the corresponding Executables.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Business Resource Model takes the form of a UML class model as part of the PIM for the Product (see the example&#xD;
+    model structure). In cases where it is useful it may be accompanied by state machine models for any of the resources&#xD;
+    modelled.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-lvoa0VVIpaHGTba_2qSxDA" name="business_architecture_model,_dYmUwcNHEeCGkIgyjTMixA" guid="-lvoa0VVIpaHGTba_2qSxDA">
+    <refinedDescription>&lt;img alt=&quot;&quot; src=&quot;./../../practice.architecture.service_modelling.base-sintef/workproducts/./resources/business_architecture_model.png&quot; width=&quot;600&quot; height=&quot;228&quot; />&lt;br />&#xD;
+&lt;p>&#xD;
+    This&amp;nbsp;work product is&amp;nbsp;represented as a SoaML model&amp;nbsp;that defines the business view of the service-oriented&#xD;
+    architecture in a platform-indepent manner.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-upoB8hjRNxzRIQYH8oqxRg" name="business_goals,_gjGmpi0DEeKyWralSrmW_A" guid="-upoB8hjRNxzRIQYH8oqxRg">
+    <refinedDescription>Business Motivation Model (BMM) is a business-level modelling technique that supports the modelling of the business goals&#xD;
+and objectives, the means and policies to achieve them, and the influencing factors that drive and control the work&#xD;
+involved. This is typically used to define the overall business strategy in early phases of an engineering project.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dSwyI2uRJRCqtNuNFBvOCQ" name="business_processes,_gjGmrC0DEeKyWralSrmW_A" guid="-dSwyI2uRJRCqtNuNFBvOCQ">
+    <refinedDescription>Business Process Modeling Notation (BPMN), is designed to communicate a wide variety of information on business processes&#xD;
+to a wide variety of audiences, providing a standard notation that is readily understandable by all business stakeholders.&#xD;
+Business process descriptions bring real business vision and constitute an excellent formalization and analysis tool when&#xD;
+constructing systems. In the context of a development project they are used in business-oriented activities related to&#xD;
+requirements, specifications and analysis. &lt;br />&#xD;
+&lt;br />&#xD;
+Business processes may be at a number of levels of detail, from a high level description of the business processes down to&#xD;
+task flows which comprise a set of detailed specifications for the business services to be realized in the service-oriented&#xD;
+architecture. BPMN is designed to cover many types of modelling and allows the creation of end-to-end business processes.&#xD;
+It allows the specification of private processes (both non-executable and executable), public processes, choreographies and&#xD;
+collaborations.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-fHy_PV80KOWwATFsm4M-cg" name="capabilities,_gjGmsi0DEeKyWralSrmW_A" guid="-fHy_PV80KOWwATFsm4M-cg">
+    <refinedDescription>Capabilities identify or specify a cohesive set of functions or resources that a service provided by one or more&#xD;
+participants might offer. Capabilities can be used by themselves or in conjunction with participants to represent general&#xD;
+functionality or abilities that a participant must have. Capabilities are used to identify needed services, and to organize&#xD;
+them into catalogues in order to communicate the needs and capabilities of a service area, whether that be business or&#xD;
+technology focused, prior to allocating those services to particular participants. Capabilities can have usage dependencies&#xD;
+on other capabilities to show how these capabilities are related. Capabilities can also be organized into architectural&#xD;
+layers to support separation of concern within the resulting service architecture.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-r9BlBpwpMlUpd1n6dd4B_g" name="service_contracts_and_choreographies,_gjGmtS0DEeKyWralSrmW_A" guid="-r9BlBpwpMlUpd1n6dd4B_g">
+    <refinedDescription>&lt;p>&#xD;
+    A service contract approach defines service specifications (the service contract) that define the roles each&#xD;
+    participant plays in the service (such as provider and consumer) and the interfaces they implement to play that role in&#xD;
+    that service. The service contract represents an agreement between the involved participants for how the service is to&#xD;
+    be provided and consumed. This agreement includes the interfaces, choreography and any other terms and conditions.&#xD;
+    Service contracts are frequently part of one or more services architectures that define how a set of participants&#xD;
+    provide and use services for a particular business purpose or process.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    An important part of the service contract is the choreography. A choreography is a specification of what is transmitted&#xD;
+    and when it is transmitted between participants to enact a service exchange. The choreography defines what happens&#xD;
+    between the provider and consumer participants without defining their internal processes - their internal processes do&#xD;
+    have to be compatible with their service contracts.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-W6OFiUCrJzyCdkC7y91yRA" name="services_architectures,_gjGmuC0DEeKyWralSrmW_A" guid="-W6OFiUCrJzyCdkC7y91yRA">
+    <refinedDescription>&lt;p>&#xD;
+    A services architecture is a high level description of how participants work together for a purpose by providing and&#xD;
+    using services expressed as service contracts. The services architecture defines the requirements for the types of&#xD;
+    participants and service realizations that fulfill specific roles. A role defines the basic function (or set of&#xD;
+    functions) that an entity may perform in a particular context. In contrast, a participant specifies the type of a party&#xD;
+    that fills the role in the context of a specific services architecture. Both service contracts and participants can be&#xD;
+    reused when composing different services in other services architectures.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

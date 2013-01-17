@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_NVOV0EtREeGtMvzv9BhHAQ" guid="_NVOV0EtREeGtMvzv9BhHAQ">
+    <resourceDescriptors xmi:id="_NVOV0UtREeGtMvzv9BhHAQ" id="-gKpI2-iyN-F7AYk2J76DEg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_BcBBQEtTEeGtMvzv9BhHAQ" id="-Cz7e-Xs6VhCBVU7a3AP5BQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_NU2iYEtREeGtMvzv9BhHAQ" name="mathematica_development" guid="_NU2iYEtREeGtMvzv9BhHAQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_7JnPEEtSEeGtMvzv9BhHAQ" name="produce_mathematica_source" guid="_7JnPEEtSEeGtMvzv9BhHAQ" presentationName="Produce mathematica source" superActivities="_NU2iYUtREeGtMvzv9BhHAQ" output="_7JodMEtSEeGtMvzv9BhHAQ" performedPrimarilyBy="_7Jn2IEtSEeGtMvzv9BhHAQ">
+      <Task href="uma://_rmJTgEgYEeGo_NnI1Un8pQ#_WUBkQEgZEeGo_NnI1Un8pQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_7Jn2IEtSEeGtMvzv9BhHAQ" name="domain_expert" guid="_7Jn2IEtSEeGtMvzv9BhHAQ" presentationName="Domain expert" briefDescription="Has expert knowledge about a particular domain that is being modelled." isPlanned="false" superActivities="_NU2iYUtREeGtMvzv9BhHAQ" modifies="_7JodMEtSEeGtMvzv9BhHAQ _7ZXiUUtSEeGtMvzv9BhHAQ">
+      <methodElementProperty xmi:id="_7Jn2IUtSEeGtMvzv9BhHAQ" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-Cz7e-Xs6VhCBVU7a3AP5BQ" href="uma://-gKpI2-iyN-F7AYk2J76DEg#-Cz7e-Xs6VhCBVU7a3AP5BQ"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_UEhLEIcdEd6EVeogAa9sog"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_7JodMEtSEeGtMvzv9BhHAQ" name="mathematica_source" guid="_7JodMEtSEeGtMvzv9BhHAQ" presentationName="Mathematica source" isPlanned="false" superActivities="_NU2iYUtREeGtMvzv9BhHAQ">
+      <methodElementProperty xmi:id="_7JodMUtSEeGtMvzv9BhHAQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_rmJTgEgYEeGo_NnI1Un8pQ#_Qxfv0EgZEeGo_NnI1Un8pQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_7ZXiUEtSEeGtMvzv9BhHAQ" name="compile_mathematica_source" guid="_7ZXiUEtSEeGtMvzv9BhHAQ" presentationName="Compile Mathematica source" superActivities="_NU2iYUtREeGtMvzv9BhHAQ" linkToPredecessor="_-Zay8EtSEeGtMvzv9BhHAQ" mandatoryInput="_7JodMEtSEeGtMvzv9BhHAQ" output="_7ZXiUUtSEeGtMvzv9BhHAQ" performedPrimarilyBy="_7Jn2IEtSEeGtMvzv9BhHAQ">
+      <Task href="uma://_rmJTgEgYEeGo_NnI1Un8pQ#_Lrew4EgcEeGo_NnI1Un8pQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_7ZXiUUtSEeGtMvzv9BhHAQ" name="mathematica_executable" guid="_7ZXiUUtSEeGtMvzv9BhHAQ" presentationName="Mathematica executable" isPlanned="false" superActivities="_NU2iYUtREeGtMvzv9BhHAQ">
+      <methodElementProperty xmi:id="_7ZYJYEtSEeGtMvzv9BhHAQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_rmJTgEgYEeGo_NnI1Un8pQ#_Gquz0EgcEeGo_NnI1Un8pQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_-Zay8EtSEeGtMvzv9BhHAQ" guid="_-Zay8EtSEeGtMvzv9BhHAQ" pred="_7JnPEEtSEeGtMvzv9BhHAQ"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_NU2iYUtREeGtMvzv9BhHAQ" name="mathematica_development" guid="_NU2iYUtREeGtMvzv9BhHAQ" presentationName="Mathematica development" breakdownElements="_7JnPEEtSEeGtMvzv9BhHAQ _7Jn2IEtSEeGtMvzv9BhHAQ _7JodMEtSEeGtMvzv9BhHAQ _7ZXiUEtSEeGtMvzv9BhHAQ _7ZXiUUtSEeGtMvzv9BhHAQ">
+      <presentation xmi:id="-gKpI2-iyN-F7AYk2J76DEg" href="uma://-gKpI2-iyN-F7AYk2J76DEg#-gKpI2-iyN-F7AYk2J76DEg"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_jsO_oEtHEeGtMvzv9BhHAQ"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_jsO_oEtHEeGtMvzv9BhHAQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

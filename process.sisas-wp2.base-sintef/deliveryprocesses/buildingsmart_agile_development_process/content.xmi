@@ -1,0 +1,2308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WcRAgHOp938dz98yJro7Ng" name="estimating_the_backlog,_nWJ6ddVYEeCbz_HpayPmUw" guid="-WcRAgHOp938dz98yJro7Ng">
+    <refinedDescription>&lt;p>&#xD;
+    Prior to release planning and periodically as the product backlog evolves and the team gains insight through experience&#xD;
+    the Scrum Team will estimate the size of items on the Product Backlog.&amp;nbsp;&amp;nbsp; This is key information to help&#xD;
+    the&amp;nbsp;Product Owner make prioritization decisions (some items may become less of a priority if the&amp;nbsp;Product&#xD;
+    Owner learns that major effort will be required to deliver them).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Estimations are relative and&amp;nbsp;are measured in “points” rather than real-world units of effort.&amp;nbsp; To the&#xD;
+    uninitiated this may&amp;nbsp;seem unpredicatable but after the first few sprints Scrum teams can empirically derive&amp;nbsp;a&#xD;
+    velocity&amp;nbsp;that allows them to&amp;nbsp;accurately predict delivery capability.&amp;nbsp;&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-O9Q4E9I7LsCuYUzQx2Jqpw" name="prioritizing_the_backlog,_jISkw1OkEeCEwfF5AiV8xA" guid="-O9Q4E9I7LsCuYUzQx2Jqpw">
+    <refinedDescription>&lt;p>&#xD;
+    The Product Backlog is a prioritized list of work to be completed by the team.&amp;nbsp; It is continuously updated by the&#xD;
+    Product Owner&amp;nbsp;based on&amp;nbsp;feedback from the end-user (as they are exposed to new product increments) and&#xD;
+    also&amp;nbsp;in response to&amp;nbsp;the&amp;nbsp;evolving technical and business landscape.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is important that the&amp;nbsp;team provides the Product Owner with sizing estimates&amp;nbsp;for the&amp;nbsp;Product Backlog&#xD;
+    items to enable the&amp;nbsp;Product Owner to balance&amp;nbsp;business need with&amp;nbsp;the estimated cost of implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Scrum update:&lt;/strong> The Product Backlog is “ordered,” instead of “prioritized,” providing flexibility to the&#xD;
+    Product Owner to optimize value in his or her unique circumstances.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zNs3hsIx-QDksNJf-dNO0g" name="sprint_planning_meeting,_jISkxlOkEeCEwfF5AiV8xA" guid="-zNs3hsIx-QDksNJf-dNO0g">
+    <keyConsiderations>The product owner doesn't have to describe every item being tracked on the product backlog. Depending on the size of the&#xD;
+backlog and the speed of the team it may be sufficient to describe only the high priority items, saving the discussion of&#xD;
+lower priority items for the next sprint planning meeting. Typically, the Scrum team will provide guidance when they start&#xD;
+to get further into the backlog list than they know could be done in the next sprint.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The Sprint Planning Meeting is attended by the Product Owner, Scrum Master, the entire Scrum Team, and any interested&#xD;
+    and appropriate management or customer representatives.&lt;br />&#xD;
+    &lt;br />&#xD;
+    During the sprint planning meeting the product owner describes the highest priority features to the team. The team asks&#xD;
+    enough questions during this meeting so that they can go off after the meeting and determine which tasks they will move&#xD;
+    from the product backlog to the sprint backlog.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Collectively, the Scrum team and the product owner define a sprint goal, which is a short description of what the&#xD;
+    sprint will attempt to achieve. The success of the sprint will later be assessed during the Sprint Review Meeting&#xD;
+    against the sprint goal, rather than against each specific item selected from the product backlog.&lt;br />&#xD;
+    &lt;br />&#xD;
+    After the sprint planning meeting, the Scrum team meets separately to discuss what they heard and decide how much they&#xD;
+    can commit to during the coming sprint. In some cases there will be negotiation with the product owner but it will&#xD;
+    always be up to the team to determine how much they can commit to completing.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-k_JVCpQeAfvU5nFDGBc6uA" name="sprint_retrospective,_jISkylOkEeCEwfF5AiV8xA" guid="-k_JVCpQeAfvU5nFDGBc6uA">
+    <keyConsiderations>&lt;p>&#xD;
+    The &lt;a class=&quot;elementLink&quot; href=&quot;./../../Scrum/roles/scrum_team_8D8F2B3.html&quot; guid=&quot;_O65KUOF6Edyp34pwdTOSVQ&quot;>Scrum&#xD;
+    Team&lt;/a>, the &lt;a class=&quot;elementLink&quot; href=&quot;./../../Scrum/roles/product_owner_10E7BD3.html&quot;&#xD;
+    guid=&quot;_QcnRMOF5Edyp34pwdTOSVQ&quot;>Product Owner&lt;/a>, and the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../Scrum/roles/scrummaster_357FCB70.html&quot; guid=&quot;_Bw-twOF6Edyp34pwdTOSVQ&quot;>ScrumMaster&lt;/a> will all attend,&#xD;
+    and a neutral outsider will facilitate the meeting.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The Sprint Retrospective is an opportunity for the team to discuss what's working and what's not working, and agree on&#xD;
+    changes to try.&amp;nbsp; One approach taken is that the whole team gathers and discusses what they’d like to&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Start doing&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Stop doing&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Continue doing&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6Kn7so-fo0UMXWw6_RSVew" name="sprint_review_meeting,_jISk1FOkEeCEwfF5AiV8xA" guid="-6Kn7so-fo0UMXWw6_RSVew">
+    <keyConsiderations>The sprint review meeting is intentionally kept very informal, typically with rules forbidding the use of PowerPoint slides&#xD;
+and allowing no more than two hours of preparation time for the meeting. A sprint review meeting should not become a&#xD;
+distraction or significant detour for the team; rather, it should be a natural result of the sprint.&lt;br /></keyConsiderations>
+    <refinedDescription>At the end of each sprint a sprint review meeting is held. During this meeting the Scrum team shows what they accomplished&#xD;
+during the sprint. Typically this takes the form of a demo of the new features.&lt;br />&#xD;
+&lt;br />&#xD;
+Participants in the sprint review typically include the Product Owner, the Scrum team, the ScrumMaster, management,&#xD;
+customers, and engineers from other projects.&lt;br />&#xD;
+&lt;br />&#xD;
+During the sprint review the project is assessed against the sprint goal determined during the Sprint planning meeting.&#xD;
+Ideally the team has completed each product backlog item brought into the sprint, but it is more important that they&#xD;
+achieve the overall goal of the sprint.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-rNvTrBArk2UUM6bPGA_BGw" name="the_daily_scrum,_jISk01OkEeCEwfF5AiV8xA" guid="-rNvTrBArk2UUM6bPGA_BGw">
+    <keyConsiderations>&lt;p>&#xD;
+    There is an old joke in which a chicken and a pig are talking and the chicken says, &quot;Let's start a restaurant.&quot; The pig&#xD;
+    replies, &quot;Good idea, but what should we call it?&quot; &quot;How about 'Ham and Eggs'&quot; says the chicken. &quot;No thanks,&quot; says the&#xD;
+    pig, &quot;I'd be committed, you'd only be involved.&quot; The joke is meant to point out the difference between those who are&#xD;
+    committed on a project and those who are only involved. Scrum affords special status to those who are committed and&#xD;
+    many teams enforce a rule in which only those who are committed are allowed to talk during the daily scrum.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Any impediments that are raised become the ScrumMaster's responsibility to resolve as quickly as possible. Typical&#xD;
+    impediments are:&lt;br />&#xD;
+    &lt;br />&#xD;
+    * My ____ broke and I need a new one today.&lt;br />&#xD;
+    * I still haven't got the software I ordered a month ago.&lt;br />&#xD;
+    * I need help debugging a problem with ______.&lt;br />&#xD;
+    * I'm struggling to learn ______ and would like to pair with someone on it.&lt;br />&#xD;
+    * I can't get the vendor's tech support group to call me back.&lt;br />&#xD;
+    * Our new contractor can't start because no one is here to sign her contract.&lt;br />&#xD;
+    * I can't get the ____ group to give me any time and I need to meet with them.&lt;br />&#xD;
+    * The department VP has asked me to work on something else &quot;for a day or two.&quot;&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>On each day of a sprint, the team holds daily meetings (“the daily scrum”). Meetings are typically held in the same&#xD;
+location and at the same time each day. Ideally the daily scrums are held in the morning as they help set the context for&#xD;
+the coming day's work.&lt;br />&#xD;
+&lt;br />&#xD;
+All team members are required to attend the daily scrum. Anyone else (for example, a departmental VP, a salesperson, or a&#xD;
+developer from another project) is allowed to attend but is there only to listen. This makes the daily scrums an excellent&#xD;
+way for a Scrum team to disseminate status information--if you're interested in hearing where things are at, attend that&#xD;
+day's meeting.&lt;br />&#xD;
+&lt;br />&#xD;
+The daily scrum is not used as a problem-solving or issue resolution meeting. Issues that are raised are taken offline and&#xD;
+usually dealt with by the relevant sub-group immediately after the daily scrum. During the daily scrum each team member&#xD;
+provides answers to the following three questions:&lt;br />&#xD;
+&lt;br />&#xD;
+1. What did you do yesterday?&lt;br />&#xD;
+2. What will you do today?&lt;br />&#xD;
+3. Are there any impediments in your way?&lt;br />&#xD;
+&lt;br />&#xD;
+By focusing on what each person accomplished yesterday and will accomplish today the team gains an excellent understanding&#xD;
+of what work has been done and what work remains. The daily scrum is not a status update meeting in which a boss is&#xD;
+collecting information about who is behind schedule. Rather, it is a meeting in which team members make commitments to each&#xD;
+other. If a programmer stands up and says &quot;Today I will finish the data storage module&quot; everyone knows that in tomorrow's&#xD;
+meeting he will say whether or not he did finish. This has the wonderful effect of helping a team realize the significance&#xD;
+of these commitments and that their commitments are to each other, not to some far-off customer or salesman.&lt;br />&#xD;
+&lt;br />&#xD;
+In cases where the ScrumMaster cannot remove these impediments directly himself (e.g., usually the more technical issues)&#xD;
+he still takes responsibility for making sure someone on the team does quickly resolve the issue.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zF-Vawz8xjcWal1kiJwu5A" name="scrum_team,_jISk0lOkEeCEwfF5AiV8xA" guid="-zF-Vawz8xjcWal1kiJwu5A">
+    <refinedDescription>&lt;p>&#xD;
+    The Team:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Is cross-functional, with seven (plus/minus two) members;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Selects the Sprint goal and specifies work results;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Has the right to do everything within the boundaries of the project guidelines to reach the Sprint goal;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Organizes itself and its work; and&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Demos work results to the Product Owner.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Scrum teams do not include any of the traditional software engineering roles such as programmer, designer, tester, or&#xD;
+    architect. Everyone on the project works together to complete the set of work they have collectively committed to&#xD;
+    complete within a sprint. Scrum teams develop a deep form of camaraderie and a feeling that &quot;we're all in this&#xD;
+    together.&quot;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A&amp;nbsp;typical Scrum team&amp;nbsp;is 5-9 people but can be scaled using a Scrum of Scrums.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_sJiALv3nD1qnc1EKmmOVQ" name="product_owner,_jISkyVOkEeCEwfF5AiV8xA" guid="-_sJiALv3nD1qnc1EKmmOVQ">
+    <refinedDescription>&lt;p>&#xD;
+    The Product Owner has the following responsibilities:&#xD;
+&lt;/p>&#xD;
+&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        Define the features of the product;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Decide on release date and content;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Be responsible for the profitability of the product (ROI);&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Prioritize features according to market value;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Adjust features and priority every 30 days, as needed; and&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Accept or reject work results.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The product owner is responsible for the first of the three Scrum ceremonies&amp;nbsp;:&amp;nbsp;Sprint Planning&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Scrum Team looks at the prioritized Product Backlog and slices off the top priority items and commits to completing&#xD;
+    them during a sprint. These items become the Sprint Backlog.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In return for the Scrum team's commitment to completing the selected tasks, the Product Owner commits that he or she&#xD;
+    will not throw new requirements at the team during the sprint. Requirements are allowed to change but only outside the&#xD;
+    sprint. Once the team starts on a sprint it remains maniacally focused on the goal of that sprint.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9ePhhuR1L58qQIxStbCJwg" name="scrummaster,_jISkzVOkEeCEwfF5AiV8xA" guid="-9ePhhuR1L58qQIxStbCJwg">
+    <keyConsiderations>&lt;p>&#xD;
+    The ScrumMaster:&#xD;
+&lt;/p>&#xD;
+&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        is not the project manager but a facilitative team leader and Scrum process manager&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        monitors sprint tasks to ensure sprint success but does not create/assign tasks (the team creates/assigns tasks)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        is part of the team: he shares responsibility with the other team members&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        must regularly, physically meet the other team members&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The Scrum Master:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Represents management to the project (liaison);&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is responsible for enacting Scrum values and practices;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Runs The Daily Scrum meetings;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Removes impediments;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Shields the team from external interferences;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensures that the team is fully functional and productive; and&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Enables close cooperation across all roles and functions.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h4>&#xD;
+    Scrum Master Service to the Product Owner&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The Scrum Master serves the Product Owner in several ways, including:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Finding techniques for effective Product Backlog management;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Clearly communicating vision, goals, and Product Backlog items to the Development Team;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Teaching the Scrum Team to create clear and concise Product Backlog items;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Understanding long-term product planning in an empirical environment;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Understanding and practicing agility; and,&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Facilitating Scrum events as requested or needed.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h4>&#xD;
+    Scrum Master Service to the Development Team&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The Scrum Master serves the Development Team in several ways, including:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Coaching the Development Team in self-organization and cross-functionality;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Teaching and leading the Development Team to create high-value products;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Removing impediments to the Development Team’s progress;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Facilitating Scrum events as requested or needed; and,&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Coaching the Development Team in organizational environments in which Scrum is not yet fully adopted and&#xD;
+        understood.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h4>&#xD;
+    Scrum Master Service to the Organization&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The Scrum Master serves the organization in several ways, including:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Leading and coaching the organization in its Scrum adoption;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Planning Scrum implementations within the organization;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Helping employees and stakeholders understand and enact Scrum and empirical product development;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Causing change that increases the productivity of the Scrum Team; and,&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Working with other Scrum Masters to increase the effectiveness of the application of Scrum in the organization.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Zciuk1mONvROs-65vo9uCQ" name="product_backlog,_jISkzlOkEeCEwfF5AiV8xA" guid="-Zciuk1mONvROs-65vo9uCQ">
+    <refinedDescription>&lt;p>&#xD;
+    When a project is initiated there is no comprehensive, time-consuming effort to write down all foreseeable tasks or&#xD;
+    requirements. Typically, a project writes down everything obvious, which is almost always more than enough for a first&#xD;
+    sprint. The Product Backlog is then allowed to grow and change as more is learned about the product and its customers.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    During the &lt;a class=&quot;elementLink&quot; href=&quot;./../../Scrum/tasks/sprint_planning_meeting_9F0B8F28.html&quot;&#xD;
+    guid=&quot;_4gCKAOF9Edyp34pwdTOSVQ&quot;>Sprint Planning Meeting&lt;/a> the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../Scrum/roles/product_owner_10E7BD3.html&quot; guid=&quot;_QcnRMOF5Edyp34pwdTOSVQ&quot;>Product Owner&lt;/a> prioritizes the&#xD;
+    items in the Product Backlog and describes them to the team. The team then determines which items they can complete&#xD;
+    during the coming Sprint. The team then moves items from the Product Backlog to the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../Scrum/workproducts/sprint_backlog_7A5B8A37.html&quot; guid=&quot;_Q5Ki8OF8Edyp34pwdTOSVQ&quot;>Sprint Backlog&lt;/a>. In&#xD;
+    doing they expand each Product Backlog item into one or more Sprint Backlog tasks so they can more effectively share&#xD;
+    work during the Sprint. Conceptually, the team starts at the top of the prioritized Product Backlog list and draws a&#xD;
+    line after the lowest of the high priority items they feel they can complete. In practice it is not unusual to see a&#xD;
+    team select, for example, the top five items and then two items from lower on the list but that are associated with the&#xD;
+    initial five.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Product backlog items can be technical tasks (&quot;Refactor the Login class to throw an exception&quot;) or more user-centric&#xD;
+    (&quot;Allow undo on the setup screen&quot;). A very interesting prospect is expressing Scrum backlog items in the form of&#xD;
+    Extreme Programming's User Stories.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Product Backlog can be maintained in an Excel spreadsheet. An example from a real project is shown below. This&#xD;
+    Excel spreadsheet shows each product backlog item assigned a general priority (Very High, High, etc.) by the Product&#xD;
+    Owner. Estimates have been developed by the developers but it is understood that they are very imprecise and are useful&#xD;
+    only for rough assignments of tasks into the various sprints.&#xD;
+&lt;/p>&lt;img height=&quot;482&quot; alt=&quot;&quot; src=&quot;./../../practice.mgmt.scrum.base-sintef/workproducts/resources/productbacklog.jpg&quot; width=&quot;500&quot; /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-W1SrxIeYG_TeJa9836Fshg" name="sprint_backlog,_jISkzFOkEeCEwfF5AiV8xA" guid="-W1SrxIeYG_TeJa9836Fshg">
+    <refinedDescription>&lt;p>&#xD;
+    Items on the sprint backlog are drawn from the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.mgmt.scrum.base-sintef/workproducts/product_backlog_68345C16.html&quot;&#xD;
+    guid=&quot;_OZIPIOF8Edyp34pwdTOSVQ&quot;>Product Backlog&lt;/a>, by the team based on the priorities set by the &lt;a&#xD;
+    class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.scrum.base-sintef/roles/product_owner_10E7BD3.html&quot;&#xD;
+    guid=&quot;_QcnRMOF5Edyp34pwdTOSVQ&quot;>Product Owner&lt;/a> and the team's perception of the time it will take to complete the&#xD;
+    various features.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is critical that the team selects the items and size of the sprint backlog. Because they are the ones committing to&#xD;
+    completing the tasks they must be the ones to choose what they are committing to.&#xD;
+&lt;/p>&#xD;
+&lt;div id=&quot;content&quot;>&#xD;
+    &lt;p>&#xD;
+        The sprint backlog is very commonly maintained as an Excel spreadsheet but it is also possible to use your defect&#xD;
+        tracking system or any of a number of software products designed specifically for Scrum or agile. An example of the&#xD;
+        Sprint Backlog in Excel looks like this:&#xD;
+    &lt;/p>&#xD;
+    &lt;img alt=&quot;Sprint backlog&quot; src=&quot;./../../practice.mgmt.scrum.base-sintef/workproducts/resources/sprintbacklog.gif&quot; width=&quot;400&quot; height=&quot;188&quot; /> &#xD;
+    &lt;p>&#xD;
+        During the Sprint the &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../practice.mgmt.scrum.base-sintef/roles/scrum_master_357FCB70.html&quot;&#xD;
+        guid=&quot;_Bw-twOF6Edyp34pwdTOSVQ&quot;>Scrum Master&lt;/a> maintains the sprint backlog by updating it to reflect which tasks&#xD;
+        are completed and how long the team thinks it will take to complete those that are not yet done.&#xD;
+    &lt;/p>&#xD;
+&lt;/div></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-oEsQYBGgpD5mD0sROH4UUA" name="taskboard,_jISkx1OkEeCEwfF5AiV8xA" guid="-oEsQYBGgpD5mD0sROH4UUA">
+    <refinedDescription>&lt;p>&#xD;
+    The task board shows all the work the team is&amp;nbsp;doing during a sprint. It is updated&amp;nbsp;continuously throughout&#xD;
+    the sprint–if someone thinks of a new task they&amp;nbsp;write a new card and puts it on the board. Either during or&#xD;
+    before&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../Scrum/tasks/the_daily_scrum_C8FB7908.html&quot;&#xD;
+    guid=&quot;_oSM0AOF-Edyp34pwdTOSVQ&quot;>The Daily Scrum&lt;/a>, estimates are changed (up or down) and cards are moved around the&#xD;
+    board.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The task board might look like this:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span class=&quot;articleImage&quot;>&lt;img style=&quot;WIDTH: 461px; HEIGHT: 336px&quot; height=&quot;447&quot; alt=&quot;&quot;&#xD;
+    src=&quot;./../../practice.mgmt.scrum.base-sintef/workproducts/resources/MockedTaskBoard.jpg&quot; width=&quot;600&quot; />&lt;a&#xD; 
+    href=&quot;http://www.mountaingoatsoftware.com/system/hidden_asset/file/29/MockedTaskBoard.jpg&quot; >&lt;u>&lt;font&#xD;
+    color=&quot;#0000ff&quot;>&amp;nbsp;&lt;/font>&lt;/u>&lt;/a>&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span class=&quot;articleImage&quot;>&lt;br />&#xD;
+    &amp;nbsp;&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Each row on the task board is a product backlog item (in this&amp;nbsp; particular example stories). During the &lt;a&#xD;
+    class=&quot;elementLinkWithUserText&quot; href=&quot;./../../Scrum/tasks/sprint_planning_meeting_9F0B8F28.html&quot;&#xD;
+    guid=&quot;_4gCKAOF9Edyp34pwdTOSVQ&quot;>sprint planning meeting&lt;/a> the team selects the product backlog items they can complete&#xD;
+    during the coming sprint. Each product backlog item is turned into multiple &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../Scrum/workproducts/sprint_backlog_7A5B8A37.html&quot; guid=&quot;_Q5Ki8OF8Edyp34pwdTOSVQ&quot;>sprint backlog&lt;/a> items.&#xD;
+    Each of these is represented by one task card that is placed on the task board. Each task card starts on the task board&#xD;
+    in the “To Do” column. The columns are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Story&lt;/b>–The story description (“As a user I want to…”) shown on that row.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>To Do&lt;/b>–This holds all the cards that are not done or in process.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Work In Process&lt;/b>–Any card being worked on goes here. The programmer who chooses to work on it moves it over&#xD;
+        when she’s ready to start the task. Often this happens during the Daily Scrum when someone says, “I’m going to work&#xD;
+        on the boojum today.”&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>To Verify&lt;/b>–A lot of tasks have corresponding test task cards. So, if there’s a “Code the boojum class” card&#xD;
+        there is likely one or more task cards related to testing: “Test the boojum”, “Write FitNesse tests for the&#xD;
+        boojum,” “Write FitNesse fixture for the boojum,” etc. Some task cards don’t often get corresponding test cards&#xD;
+        (“Fix Bug #321 in Bugzilla”) so those are placed in the “To Verify” column.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Done&lt;/b>–Cards pile up over here when they’re done. They’re removed at the end of the sprint.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Wf5T_jFYYErDnjL2cvCaew" name="potentially_shippable_product_incremement,_tuwQsdVXEeCSuohv1oAxXQ" guid="-Wf5T_jFYYErDnjL2cvCaew">
+    <keyConsiderations>&lt;p>&#xD;
+    There is much debate&amp;nbsp;about the difference between &quot;potentially shippable (done)&quot; and&amp;nbsp;&quot;shippable&quot;.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Mike Cohn states:&#xD;
+&lt;/p>&#xD;
+&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>&#xD;
+    &lt;p>&#xD;
+        .. &quot;potentially shippable&quot; and &quot;shippable&quot; are not the same thing. Some large or complex projects will require the&#xD;
+        use of &quot;release sprint&quot; or &quot;hardening sprint&quot; at the end of a release cycle (say 6 two-week sprints then a 2-week&#xD;
+        release sprint). The release sprint is not a dumping ground for sloppy work; rather it is a place where some&#xD;
+        hardening of the system can occur.&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;p>&#xD;
+    One thing is clear Scrum teams&amp;nbsp;need to agree&amp;nbsp;on their definition of &quot;potentially shippable&quot;&#xD;
+    and&amp;nbsp;&quot;shippable&quot; and to&amp;nbsp;come to a shared&amp;nbsp;understanding with the Product Owner.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    Scrum requires that each sprint deliver a potentially shippable product increment.&amp;nbsp; The increment must consist of&#xD;
+    thoroughly tested code that has been built into an executable, and the user operation of the functionality is&#xD;
+    documeneted&amp;nbsp;either in Help files or user documentation.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QZdProj9W4aeBA4PlvtBaA" name="development_team,_sxul0RQjEeG7hs90RB7LQA" guid="-QZdProj9W4aeBA4PlvtBaA">
+    <keyConsiderations>&lt;h4>&#xD;
+    Development Team Size&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    Optimal Development Team size is small enough to remain nimble and large enough to complete significant work. Fewer&#xD;
+    than three Development Team members decreases interaction and results in smaller productivity gains. Smaller&#xD;
+    Development Teams may encounter skill constraints during the Sprint, causing the Development Team to be unable to&#xD;
+    deliver a potentially releasable Increment. Having more than nine members requires too much coordination. Large&#xD;
+    Development Teams generate too much complexity for an empirical process to manage. The Product Owner and Scrum Master&#xD;
+    roles are not included in this count unless they are also executing the work of the Sprint Backlog.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The Development Team consists of professionals who do the work of delivering a potentially releasable Increment of&#xD;
+    &quot;Done&quot; product at the end of each Sprint. Only members of the Development Team create the Increment.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Development Teams are structured and empowered by the organization to organize and manage their own work. The resulting&#xD;
+    synergy optimizes the Development Team’s overall efficiency and effectiveness. Development Teams have the following&#xD;
+    characteristics:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        They are self-organizing. No one (not even the Scrum Master) tells the Development Team how to turn Product Backlog&#xD;
+        into Increments of potentially releasable functionality;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Development Teams are cross-functional, with all of the skills as a team necessary to create a product Increment;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Scrum recognizes no titles for Development Team members other than Developer, regardless of the work being&#xD;
+        performed by the person; there are no exceptions to this rule;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Individual Development Team members may have specialized skills and areas of focus, but accountability belongs to&#xD;
+        the Development Team as a whole; and,&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Development Teams do not contain sub-teams dedicated to particular domains like testing or business analysis.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Wq_cXyCIe7fNjvrw7EEtGA" name="create_test_cases,_y0QSSdVUEeCSuohv1oAxXQ" guid="-Wq_cXyCIe7fNjvrw7EEtGA">
+    <keyConsiderations>&lt;p>&#xD;
+    Develop test cases in parallel with requirements so that Analysts and Stakeholders can agree with the specific&#xD;
+    conditions of satisfaction for each requirement. The test cases act as acceptance criteria by expanding on the intent&#xD;
+    of the system&amp;nbsp;through actual scenarios of use.&amp;nbsp;This allows team members to measure progress in terms of&#xD;
+    passing test cases.&amp;nbsp;&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6lJMJZpxMTbL97n_6iqJTw" name="run_tests,_y0QSStVUEeCSuohv1oAxXQ" guid="-6lJMJZpxMTbL97n_6iqJTw">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Run all tests as frequently as possible. Ideally, run all test scripts against each build deployed to the test&#xD;
+        environment. If this is impractical, run regression tests for existing functionality, and&amp;nbsp;focus the test cycle&#xD;
+        on work items completed in the new build.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Even test scripts that are expected to fail provide valuable feedback. However, once a test script is passing, it&#xD;
+        should not fail&amp;nbsp;against subsequent builds of the solution.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-F_oUinWEbauiifTd9VNliQ" name="tester,_y0QSRNVUEeCSuohv1oAxXQ" guid="-F_oUinWEbauiifTd9VNliQ">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following&amp;nbsp;tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying the tests&amp;nbsp;that need to&amp;nbsp;be performed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identifying the most appropriate implementation approach for a given test&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Implementing individual tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Setting up and running the tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Logging outcomes and verifying that the tests have been run&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Analyzing and guiding the recovery from execution errors&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Communicating test results to the team&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-GAkW0CF16KX-D1VDvj805A" name="requirements_analyst,_y0QSQNVUEeCSuohv1oAxXQ" guid="-GAkW0CF16KX-D1VDvj805A">
+    <refinedDescription>This role&amp;nbsp;has a very important role at the beginning of the development, because it gathers and analyzes the&#xD;
+requirements which the service composition has to fulfil.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-GBFFjf4NBqV0Xqnh8xqt_Q" name="system_developer,_nWGQEtVYEeCbz_HpayPmUw" guid="-GBFFjf4NBqV0Xqnh8xqt_Q">
+    <refinedDescription>This worker is involved in the implementation of the business process, obtaining services needed to be part of the&#xD;
+composition and developing the final script which can be executed by a specialized engine.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ptb6nbVAXwOXBN5ctyjxNg" name="test_case,_y0QSR9VUEeCSuohv1oAxXQ" guid="-ptb6nbVAXwOXBN5ctyjxNg">
+    <refinedDescription>&lt;p>&#xD;
+    A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
+    test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
+    formal environments, you can create test cases by identifying a unique ID, name, associated test data, and expected&#xD;
+    results.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Test cases can be derived from many sources, and typically include a subset of the requirements (such as use cases,&#xD;
+    performance characteristics, and reliability concerns) and other types of quality attributes. For more information on&#xD;
+    types of tests and their relationships to quality test attributes, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Concept: Testing Qualitative Requirements&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-35hLuXiQaElQDIZOL15fBw" name="test_log,_y0QSTdVUEeCSuohv1oAxXQ" guid="-35hLuXiQaElQDIZOL15fBw">
+    <refinedDescription>This artifact provides a detailed, typically time-based record that both verifies that a set of tests were run, and&#xD;
+provides information that relates to the success of those tests. The focus is typically on providing an accurate audit&#xD;
+trail, which enables you to undertake a post-run diagnosis of failures. This raw data is subsequently analyzed to determine&#xD;
+the results of an aspect of the test effort.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-YZoxCnl8nquME9SevR875g" name="non_functional_requirements,_tvPY4dVXEeCSuohv1oAxXQ" guid="-YZoxCnl8nquME9SevR875g"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-K45LhqZt8MzaaimjZWqNlQ" name="system_boundary_model,_tvR1IdVXEeCSuohv1oAxXQ" guid="-K45LhqZt8MzaaimjZWqNlQ">
+    <refinedDescription>&lt;h3 class=&quot;underlined_5&quot;>&#xD;
+    System Boundary Model&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    The &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/system_boundary_model_4296FE34.html&quot;&#xD;
+    guid=&quot;_NUjPIN0VEd-xB8a51ZHHaA&quot;>System boundary model&lt;/a> describes the system boundaries, the actors and their&#xD;
+    responsibilities, and the services offered by the system. Interactions between the system and its environment are&#xD;
+    identified and might also be detailed by modelling stimuli and responses using UML sequence diagrams.&#xD;
+&lt;/p>&#xD;
+&lt;a id=&quot;N1004D&quot; name=&quot;N1004D&quot;>&lt;/a>&lt;a id=&quot;Goals&quot; name=&quot;Goals&quot;>&lt;/a> &#xD;
+&lt;h4>&#xD;
+    Goals&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/system_boundary_model_4296FE34.html&quot;&#xD;
+    guid=&quot;_NUjPIN0VEd-xB8a51ZHHaA&quot;>System boundary model&lt;/a>&amp;nbsp;should:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identify and describe system boundaries, main services and actors.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Assure a common understanding of the system and its purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify interactions between the system and its environment.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;a id=&quot;N1005A&quot; name=&quot;N1005A&quot;>&lt;/a>&lt;a id=&quot;Methods+and+techniques&quot; name=&quot;Methods+and+techniques&quot;>&lt;/a> &#xD;
+&lt;h4>&#xD;
+    Methods and techniques&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The starting point for the development of the System &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/system_boundary_model_4296FE34.html&quot;&#xD;
+    guid=&quot;_NUjPIN0VEd-xB8a51ZHHaA&quot;>System boundary model&lt;/a> is provided by the Business Model work products, the Context&#xD;
+    Statement, Vision for Change, Business Process and Role Model and Business Resource Model. Other important sources are&#xD;
+    the business stakeholders, who should be involved when determining the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/system_boundary_model_4296FE34.html&quot;&#xD;
+    guid=&quot;_NUjPIN0VEd-xB8a51ZHHaA&quot;>System boundary model&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Defining the boundaries of the system means finding out what is inside the system and what is outside the system (the&#xD;
+    &lt;em>outside&lt;/em> is what the system interfaces with). The boundaries of the system are determined by the roles of the&#xD;
+    system in the Business Model. In the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/system_boundary_model_4296FE34.html&quot;&#xD;
+    guid=&quot;_NUjPIN0VEd-xB8a51ZHHaA&quot;>System boundary model&lt;/a>, the boundaries of the system are defined in terms of actors&#xD;
+    and use cases. The actors are outside the system and represent the roles in the Business Model that interact with the&#xD;
+    system roles (roles inside the system boundary); the use cases are inside and represent the behaviour of the system&#xD;
+    roles.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Thus, UML actors are used to denote anything that interfaces with the system. Some examples are people, software,&#xD;
+    hardware devices, data stores or networks. In the model we let each UML actor define a particular role and thereby&#xD;
+    abstract the actual person or software system currently fulfilling the role. Hence, several actors may represent one&#xD;
+    physical person, because that person takes on different roles with regard to the system. On the other hand, one actor&#xD;
+    might represent several physical people, because they all take on the same role with regard to the system. Each role&#xD;
+    specifying interactions with the system may be represented by one or more actors (hence, roles are recursive). To help&#xD;
+    in defining actors the following questions might be helpful to elaborate:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Who uses the system?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Who maintains the system?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What other systems use this system?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Who gets information from the system?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Who provides information to the system?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Does anything happen automatically at present time?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Who starts up and shuts down the system?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Each actor needs a descriptive name and a brief description that is one or two sentences long. This description should&#xD;
+    define the role represented by the actor with regard to the system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Identify use cases: When the main actors are identified, the next step is to go through the list of actors and identify&#xD;
+    use cases for each one. Use cases describe things that the actors want the system to do. At this stage, people that&#xD;
+    will play roles defined by the actors should be involved.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To help identify use cases the following questions might be helpful to elaborate:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        What services are required from the system by the actor?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Which events are/will be initiated by the actor, and which events are the actor interested in?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Which events occur and who is/will be notified about them?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    When dealing with existing systems, go through the list of actors and identify what services the system actually&#xD;
+    provides. Important sources of information would then be the user manuals, other documentation, source code, table&#xD;
+    structures and information gathered by studying system behaviour at runtime.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Relate to goals! The use cases should be related to goals, this because the purpose of the use cases should be to&#xD;
+    attain goals. It is important to be able to answer why to each use case. If you can't give a good answer to the&#xD;
+    &quot;why-question&quot;, then it is probably not a proper use case. The relation to the goals is implicitly the answer to the&#xD;
+    why question.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Describe stimuli and responses for the use cases identified. Each actor communicates with the system through a set of&#xD;
+    use cases in order to reach their goals. The stimuli/response describe the stimuli sent to the system by the actor, and&#xD;
+    the responses back from the system. We can use UML sequence diagrams to model the most important stimuli/responses.&#xD;
+&lt;/p>&#xD;
+&lt;a id=&quot;N10089&quot; name=&quot;N10089&quot;>&lt;/a>&lt;a id=&quot;Deliverables+and+notation&quot; name=&quot;Deliverables+and+notation&quot;>&lt;/a> &#xD;
+&lt;h4>&#xD;
+    Deliverables and notation&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The work product contains the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        UML Use Case diagram showing the system boundary, the actors and the actors responsibilities.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        UML Use Case diagram exploring the system boundary use case that identifies the needs. Each use case should be&#xD;
+        numbered for later reference&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        General extra requirements that applies for the complete system are associated with the System Boundary&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;a id=&quot;N10096&quot; name=&quot;N10096&quot;>&lt;/a>&lt;a id=&quot;Example&quot; name=&quot;Example&quot;>&lt;/a> &#xD;
+&lt;h4>&#xD;
+    Example&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    Figure 2 shows an example of parts of a system boundary for a meeting room booking example, which is described in a UML&#xD;
+    use case diagram. The actors represent initiating system actors or external systems used by the meeting reservation&#xD;
+    system (e.g. the Email information system).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/./resources/system_boundary_example.png&quot; width=&quot;600&quot; height=&quot;595&quot; />&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-w1YmaT0ufO5FiqLsEHHxxw" name="use_case_scenario_model,_tvTqUdVXEeCSuohv1oAxXQ" guid="-w1YmaT0ufO5FiqLsEHHxxw">
+    <refinedDescription>&lt;p>&#xD;
+    This model describes the system in terms of actors, use cases and scenario descriptions. The model:&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Includes more detailed descriptions of the system resulting from further analysis using the common use case&#xD;
+        detailing technique, by diving into a use case discovering new use cases and actors.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use case scenarios are also described in this work product.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UrAmSyWLcMsZyPkPVihMMQ" name="case_study_description,_s0ZfVBQjEeG7hs90RB7LQA" guid="-UrAmSyWLcMsZyPkPVihMMQ"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BN_VqFC_LSnT3hOgAg_V8A" name="system_architecture_model,_OX4LAaLvEeCs2vaY4B2J3g" guid="-BN_VqFC_LSnT3hOgAg_V8A">
+    <refinedDescription>&lt;img alt=&quot;&quot; src=&quot;./../../practice.architecture.service_modelling.base-sintef/workproducts/./resources/system_architecture_model.png&quot; width=&quot;600&quot; height=&quot;228&quot; />&lt;br />&#xD;
+&lt;p>&#xD;
+    This&amp;nbsp;work product is&amp;nbsp;represented as a SoaML model&amp;nbsp;that&amp;nbsp;defines&amp;nbsp;the IT view of the&#xD;
+    service-oriented architecture in a platform-indepent manner.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-krL1hU7xvdkkwIjiOP-FuQ" name="Specify_service_interfaces,_5Tt6EKMBEeCs2vaY4B2J3g" guid="-krL1hU7xvdkkwIjiOP-FuQ">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>The service contracts specified in&#xD;
+    the business architecture modelling are refined to&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+    size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>service interfaces in the service architecture modelling. SoaML allows for two&#xD;
+    types&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>of service&#xD;
+    interfaces:&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Medi&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Medi&quot;>&lt;strong>Simple&#xD;
+            interfaces:&lt;/strong>&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>The simple&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-ReguItal&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-ReguItal&quot;>interface&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>focuses attention on a one-way interaction&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>provided by a participant on a port&#xD;
+            represented as a UML interface. The&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>participant receives operations on this port and may provide results to the&#xD;
+            caller.&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>This&#xD;
+            kind of one-way interface can be used with ”anonymous” callers and the&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>participant makes no assumptions about the&#xD;
+            caller or the choreography of the&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>service. The one-way service corresponds most directly to simpler remote&#xD;
+            procedure&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>call&#xD;
+            (RPC) style Web services.&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Medi&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Medi&quot;>&lt;strong>Service interface&#xD;
+            based:&lt;/strong>&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>A&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-ReguItal&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-ReguItal&quot;>service interface&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+            size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>based approach allows for bidirectional&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>services, those where there are ”callbacks”&#xD;
+            from the provider to the&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>consumer as part of a conversation between the parties. A service interface&#xD;
+            defines&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>the&#xD;
+            interface and responsibilities of a participant to provide or consume a&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>service. It is used as the type of a service&#xD;
+            or a request port. A service interface&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>may include specific protocols, commands and information exchange by&#xD;
+            which&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>actions&#xD;
+            are initiated and the result of the real world effects are made available as&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>specified through the functionality portion&#xD;
+            of a service.&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>Interfaces and service interfaces are&#xD;
+    modelled as UML interfaces and classes and specified using UML class diagrams.&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-MWXTyiDJSHtM-YSkQq0Kdw" name="system_architect,_5Tt6EaMBEeCs2vaY4B2J3g" guid="-MWXTyiDJSHtM-YSkQq0Kdw">
+    <refinedDescription>This worker is involved in the design of the components which compose the software system. This worker is involved in the&#xD;
+design of the architecture of the system, with its components and their interfaces.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-VJ3z9IJhNgo8dM7dgKd2jw" name="service_contracts_and_choreographies,_vLIOkaMDEeCs2vaY4B2J3g" guid="-VJ3z9IJhNgo8dM7dgKd2jw">
+    <refinedDescription>&lt;p>&#xD;
+    A service contract approach defines service specifications (the service contract) that define the roles each&#xD;
+    participant plays in the service (such as provider and consumer) and the interfaces they implement to play that role in&#xD;
+    that service. The service contract represents an agreement between the involved participants for how the service is to&#xD;
+    be provided and consumed. This agreement includes the interfaces, choreography and any other terms and conditions.&#xD;
+    Service contracts are frequently part of one or more services architectures that define how a set of participants&#xD;
+    provide and use services for a particular business purpose or process.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    An important part of the service contract is the choreography. A choreography is a specification of what is transmitted&#xD;
+    and when it is transmitted between participants to enact a service exchange. The choreography defines what happens&#xD;
+    between the provider and consumer participants without defining their internal processes - their internal processes do&#xD;
+    have to be compatible with their service contracts.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-41U_4QROByoQ2XJmbX8Whg" name="Specify_interfaces_and_messages,_r5VjIKMCEeCs2vaY4B2J3g" guid="-41U_4QROByoQ2XJmbX8Whg">
+    <refinedDescription>&lt;p>&#xD;
+    This task defines the guided procedure for specifying the interfaces and messages of a service interface.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WIzK7lph184crcu2U7FRlA" name="Specify_service_choreographies,_r5VjIaMCEeCs2vaY4B2J3g" guid="-WIzK7lph184crcu2U7FRlA">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    The behaviour of a service interface expresses the expected interaction between the consumers and providers of&#xD;
+    services. It can be specified as any UML behavior, the most common ones being activity, interaction or state machine.&#xD;
+    In the modelling steps below we outline the use of interactions in the form of sequence diagrams.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-M2JPpoPZiESO33nI0_UWjw" name="Specify_software_components,_sbjfYKMCEeCs2vaY4B2J3g" guid="-M2JPpoPZiESO33nI0_UWjw">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Software components are modelled as components with composite structures using class diagrams in UML.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-hP84m67rqitH_nLSt4DOzg" name="services_architectures,_sfbSwKMCEeCs2vaY4B2J3g" guid="-hP84m67rqitH_nLSt4DOzg">
+    <refinedDescription>&lt;p>&#xD;
+    A services architecture is a high level description of how participants work together for a purpose by providing and&#xD;
+    using services expressed as service contracts. The services architecture defines the requirements for the types of&#xD;
+    participants and service realizations that fulfill specific roles. A role defines the basic function (or set of&#xD;
+    functions) that an entity may perform in a particular context. In contrast, a participant specifies the type of a party&#xD;
+    that fills the role in the context of a specific services architecture. Both service contracts and participants can be&#xD;
+    reused when composing different services in other services architectures.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8s-en2kCU3XeIVILnr3Rtg" name="architecture_model.rename,_HIqD8b0JEeCaJPhuvOwBFQ" guid="-8s-en2kCU3XeIVILnr3Rtg"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-1SYnvvpLMBkuKyv_xsM0yw" name="as_is_architecture_model,_RShLgdVVEeCSuohv1oAxXQ" guid="-1SYnvvpLMBkuKyv_xsM0yw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xLqTr5Af0s_2pbjY5xen3g" name="behavior_diagram,_RSjAsdVVEeCSuohv1oAxXQ" guid="-xLqTr5Af0s_2pbjY5xen3g"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Ws2L5ZimXLzHf1CvwQ64Kg" name="community_services_architecture,_RSkO0dVVEeCSuohv1oAxXQ" guid="-Ws2L5ZimXLzHf1CvwQ64Kg"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gYTadalj6sAZ-Kj23fXEAw" name="participant_services_architecture,_RSk14dVVEeCSuohv1oAxXQ" guid="-gYTadalj6sAZ-Kj23fXEAw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Br83nnwMW5vCWWsrwkdHpQ" name="requirement_diagram_and_use_case_diagram,_RSmEAdVVEeCSuohv1oAxXQ" guid="-Br83nnwMW5vCWWsrwkdHpQ"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-X-yj5PKIFb8iWcoYJhSMvQ" name="logical_architecture,_RSmrEdVVEeCSuohv1oAxXQ" guid="-X-yj5PKIFb8iWcoYJhSMvQ"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aU07WfLOQFwqZlX9INoAqQ" name="matlab_or_modelica_mathematical_model,_RSn5MdVVEeCSuohv1oAxXQ" guid="-aU07WfLOQFwqZlX9INoAqQ"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-0KYhv349zh-CryjmCvdmMw" name="service_specification,_RSpHUdVVEeCSuohv1oAxXQ" guid="-0KYhv349zh-CryjmCvdmMw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-uNX2JvwbVfc6rD4NR9JV8Q" name="structure_diagram,_RSpuYdVVEeCSuohv1oAxXQ" guid="-uNX2JvwbVfc6rD4NR9JV8Q"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-LZgP3j6MQDizId7wWK9bVw" name="define_context_statement,_ehlk4Nz_Ed-xB8a51ZHHaA" guid="-LZgP3j6MQDizId7wWK9bVw">
+    <refinedDescription>&lt;p>&#xD;
+    The purpose of the Context Statement is to define the scope of a business model and to position it in its context. This&#xD;
+    may be done by identifying relationships to some other business models or by developing and getting agreement to a more&#xD;
+    informal representation of the target business being modelled in its environment. This informal representation takes&#xD;
+    the form of a domain picture aiming to give an overall understanding of the domain. It focuses on describing&#xD;
+    stakeholders and their relationships and identifies stakeholders concerns. It typically covers key value-chains and&#xD;
+    information flows. The emphasis is on the process of building it, agreeing it with subject matter experts and thereby&#xD;
+    understanding the context. Thus, it may not be maintained in subsequent phases of the development of the Product.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-F94IhjYNKAfbo_O6hAxZ7g" name="define_vision_statement,_ehlk4dz_Ed-xB8a51ZHHaA" guid="-F94IhjYNKAfbo_O6hAxZ7g">
+    <refinedDescription>This document would be produced by a series of meetings, and the preparation and circulation drafts until agreement on its&#xD;
+content is achieved by the Business Stakeholders identified at the start of the Project.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5ncFC76e-Zz5CI2UlFtsBQ" name="context_statement,_ehlk4tz_Ed-xB8a51ZHHaA" guid="-5ncFC76e-Zz5CI2UlFtsBQ">
+    <refinedDescription>&lt;p>&#xD;
+    The Context statement should describe the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Business level: business value, criticality, …&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Domain model in a rich picture (or more formal) including main concepts, their relations and interactions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Architecture level: current architecture (high level) with interactions, components, topology and deployment&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Technological level: existing artefacts, platforms, technologies&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Organizational level: people and competences&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Problems with the current system or solutions&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The notation used for the Context Statement depends on the existence or not of a higher level Business Model. Where&#xD;
+    that exists, the notation will be the notation of the subsets of that model used. Where no higher level model exists,&#xD;
+    the notation may be a Rich Picture or a set of Use Cases. In all cases, it will be accompanied by a list giving details&#xD;
+    of all Business Stakeholders.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bq8DFK9Eh4QqhuhCRRHM2Q" name="vision_statement,_ehlk5Nz_Ed-xB8a51ZHHaA" guid="-bq8DFK9Eh4QqhuhCRRHM2Q">
+    <refinedDescription>&lt;p>&#xD;
+    The Vision statement should describe the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Opportunities and risks&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Cost and schedule goals&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Business goals&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    This work product adds detail to the scope given in the Context Statement, so that Business Stakeholders can make&#xD;
+    informed judgements about approving the (appropriate phase of) development of the Product.&#xD;
+&lt;/p>&#xD;
+This work product is a statement of what to improve, the motivation (i.e. what is wrong with the current situation), a&#xD;
+description or indication of what the improvements might be and a gap analysis (a clear understanding of difference between&#xD;
+the current and desired situations).</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_A0Q44z1cLupFrdTZKu8lQ" name="business analyst,_3FUwUeGoEd-AyrTFSpVP8g" guid="-_A0Q44z1cLupFrdTZKu8lQ">
+    <refinedDescription>Responsible for analyzing the business needs of clients to help identify business problems and propose solutions.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_gwT2HqRu_yCMDiqGFk3Rg" name="define_business_process_model,_WCNywObtEd-nztBGQnvNAA" guid="-_gwT2HqRu_yCMDiqGFk3Rg">
+    <refinedDescription>&lt;p>&#xD;
+    A business process is a sequence of actions carried out by different actors working together to deliver a tangible&#xD;
+    result and bring added business value to the company. A business process model generally describes the business and not&#xD;
+    the IT system. A business process is transversal, and is generally based on several structures and applications of one&#xD;
+    or several organizations. Business process descriptions bring real business vision&amp;nbsp;and constitute an excellent&#xD;
+    formalization and analysis tool when constructing systems. In the context of a development project&amp;nbsp;they&#xD;
+    are&amp;nbsp;used in business-oriented activities related to requirements, specifications and analysis.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Business process model is derived through a set of activities that encompass brain-storming sessions, structured&#xD;
+    workshops, interviews and feed-back sessions, and detailed modelling using a BPMN2 modelling tool.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HkMfxfgqfIaSK6-bMap48Q" name="business_process_model,_WCXjwObtEd-nztBGQnvNAA" guid="-HkMfxfgqfIaSK6-bMap48Q">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    A BPMN model defines the business processes of the domain which are relevant to the service-oriented architecture, and&#xD;
+    which will enable the goals to be met, and the roles of the resources that perform those processes. It includes a full&#xD;
+    definition of the roles in the business, focusing on those fulfilled by the system or component to be developed.&#xD;
+    Business process descriptions bring real business vision and constitute an excellent formalization and analysis tool&#xD;
+    when constructing systems. In the context of a development project they are used in business-oriented activities&#xD;
+    related to requirements, specifications and analysis.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    Business processes may be at a number of levels of detail, from a high level description of the business processes down&#xD;
+    to task flows which is a set of detailed specifications for the business services that the service-oriented&#xD;
+    architecture will provide. BPMN is designed to cover many types of modelling and allows the creation of end-to-end&#xD;
+    business processes. It allows the specification of private processes (both non-executable and executable), public&#xD;
+    processes, choreographies and collaborations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A business process is a sequence of actions carried out by different actors working together. This&#xD;
+    model&amp;nbsp;formalizes the business process and&amp;nbsp;defines:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the business processes of the domain which are relevant to the Product, and which will enable the goals to be met,&#xD;
+        and:&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the roles of the resources that perform those processes.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;This&amp;nbsp;model may be at a number of levels of detail, from a high level description of the business processes&#xD;
+    down to the WARM, which is a set of detailed specifications for the business services that each IT element in the&#xD;
+    Product will provide. It includes a full definition of the roles in the business, focusing on those fulfilled by the&#xD;
+    system or component to be developed.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The Business Process and Roles model is generally prepared at the same time as the associated Business Resource&#xD;
+        model.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To build a Business Process model the Business Modelling Conceptual Model (or metamodel) is used.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Each business process is defined in terms of its steps, and each step performed by a resource at a higher level of&#xD;
+    detail may then be treated as a process performed by a community (of resources) and further analysed at a lower level&#xD;
+    of detail. Eventually, using the WARM concepts of Human Step, Tool Step and Immediate Step, &quot;leaf&quot; steps will be&#xD;
+    defined, and assigned to specific elements of the Product to be developed. The time to stop analysing is when, by&#xD;
+    analysing the processes, the Product's role in them is defined, and when there are no more questions about the business&#xD;
+    to be answered.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-3MsKnhZG0VthAaDQR2TNFQ" name="define_business_information_model,_Wb5eEObtEd-nztBGQnvNAA" guid="-3MsKnhZG0VthAaDQR2TNFQ">
+    <refinedDescription>&lt;p>&#xD;
+    Methods and techniques:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The Business Resource Model is generally prepared at the same time as the associated Business Process &amp;amp; Roles&#xD;
+        model, and methods and techniques used are similar, i.e. activities that include brain-storming sessions,&#xD;
+        structured workshops, interviews and feed-back sessions, and detailed modelling using a UML tool.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The Resources that are of concern to the business will mostly, but not entirely, be discovered from consideration&#xD;
+        of the things that have to happen in the business (as contained in the Business Process Model). All resources&#xD;
+        either make those things happen, or are involved in those things that happen, in that, what happens, happens to&#xD;
+        them.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        In addition, reference should be made to, and consistency maintained with, the Context Statement, since that is a&#xD;
+        representation at a high level of all the main things of interest to the Product.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The set of business concepts are then refined into a class model, at the level of detail being considered which&#xD;
+        defines the interesting attributes of and relationships between all the resources (both actors and artefacts)&#xD;
+        identified in the Business Process Model.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The conceptual model used is the same as for the Business Process model, namely the Business Modelling Conceptual&#xD;
+        Model, with additional freedom to add any relevant associations, attributes and state machines, as provided by&#xD;
+        standard UML.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Packaging of this class model is a modelling choice, but dependencies can be reduced by confining resources to the&#xD;
+        communities with which they are involved. Thus, each «Community» package would contain two packages, one with the&#xD;
+        relevant Business Process Model, the other with the relevant Business Resource Model.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JaTFf9wzdBglkNH6OUlSPA" name="business_information_model,_Wb6FIObtEd-nztBGQnvNAA" guid="-JaTFf9wzdBglkNH6OUlSPA">
+    <refinedDescription>&lt;p>&#xD;
+    The Business information model&amp;nbsp;identifies and defines the main things (and concepts) of the domain that are&#xD;
+    relevant to the Product, these being, in general, those things that do things in the business (including the Product&#xD;
+    itself), and those things that have things done to or with them, and details the relationships between these concepts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Product comprises a complete and consistent set of models for the Product, namely Business Model, Requirements Model,&#xD;
+    Architecture Model and one or more Platform Specific Model together with the corresponding Executables.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Business Resource Model takes the form of a UML class model as part of the PIM for the Product (see the example&#xD;
+    model structure). In cases where it is useful it may be accompanied by state machine models for any of the resources&#xD;
+    modelled.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-X5180nFmr94WiLn8TfPm8w" name="business_architecture_model,_FsxiUbzpEeCaJPhuvOwBFQ" guid="-X5180nFmr94WiLn8TfPm8w">
+    <refinedDescription>&lt;img alt=&quot;&quot; src=&quot;./../../practice.architecture.service_modelling.base-sintef/workproducts/./resources/business_architecture_model.png&quot; width=&quot;600&quot; height=&quot;228&quot; />&lt;br />&#xD;
+&lt;p>&#xD;
+    This&amp;nbsp;work product is&amp;nbsp;represented as a SoaML model&amp;nbsp;that defines the business view of the service-oriented&#xD;
+    architecture in a platform-indepent manner.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IUO-bNTl0bqzTRl0EC4bbw" name="elicit_requirements,_nmisQOKnEd-Knc6oCYT2Zw" guid="-IUO-bNTl0bqzTRl0EC4bbw">
+    <refinedDescription>&lt;p>&#xD;
+    Non-functional requirements are requirements that do not fit into the use case template. For instance, some&#xD;
+    non-functional requirements may be general for the whole system to be developed. These are described separately instead&#xD;
+    of being described with every use case. The distribution aspect of the system as well as interoperation with legacy&#xD;
+    systems and different software and hardware components might also be better described separate from the use cases.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-DAZpZWwPwK2UZocJye11sw" name="requirements_analyst,_nmpZ8OKnEd-Knc6oCYT2Zw" guid="-DAZpZWwPwK2UZocJye11sw">
+    <refinedDescription>This role&amp;nbsp;has a very important role at the beginning of the development, because it gathers and analyzes the&#xD;
+requirements which the service composition has to fulfil.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-nnIKa0JJRTisj5ABQrXG1Q" name="non_functional_requirements,_nmqBAuKnEd-Knc6oCYT2Zw" guid="-nnIKa0JJRTisj5ABQrXG1Q"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-sz84PZiV2AbsPb0jKB1-kg" name="define_system_boundary_model,_0ajxUOKnEd-Knc6oCYT2Zw" guid="-sz84PZiV2AbsPb0jKB1-kg">
+    <refinedDescription>&lt;p>&#xD;
+    The System Boundary Model describes the system boundaries, the actors and their responsibilities, and the services&#xD;
+    offered by the system. Interactions between the system and its environment are identified and might also be detailed by&#xD;
+    modelling stimuli and responses using UML sequence diagrams.&#xD;
+&lt;/p>&#xD;
+&lt;a id=&quot;N1004D&quot; name=&quot;N1004D&quot;>&lt;/a>&lt;a id=&quot;Goals&quot; name=&quot;Goals&quot;>&lt;/a> &#xD;
+&lt;h4>&#xD;
+    Goals&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The System Boundary Model should:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identify and describe system boundaries, main services and actors.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Who uses the system?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Who maintains the system?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                What other systems use this system?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Who gets information from the system?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Who provides information to the system?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Does anything happen automatically at present time?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Who starts up and shuts down the system?&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Assure a common understanding of the system and its purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify interactions between the system and its environment.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                What services are required from the system by the actor?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Which events are/will be initiated by the actor, and which events are the actor interested in?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Which events occur and who is/will be notified about them?&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BtloQx6UXjRqDAO59REojw" name="system_boundary_model,_0akYYOKnEd-Knc6oCYT2Zw" guid="-BtloQx6UXjRqDAO59REojw">
+    <refinedDescription>&lt;h3 class=&quot;underlined_5&quot;>&#xD;
+    System Boundary Model&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    The &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/system_boundary_model_4296FE34.html&quot;&#xD;
+    guid=&quot;_NUjPIN0VEd-xB8a51ZHHaA&quot;>System boundary model&lt;/a> describes the system boundaries, the actors and their&#xD;
+    responsibilities, and the services offered by the system. Interactions between the system and its environment are&#xD;
+    identified and might also be detailed by modelling stimuli and responses using UML sequence diagrams.&#xD;
+&lt;/p>&#xD;
+&lt;a id=&quot;N1004D&quot; name=&quot;N1004D&quot;>&lt;/a>&lt;a id=&quot;Goals&quot; name=&quot;Goals&quot;>&lt;/a> &#xD;
+&lt;h4>&#xD;
+    Goals&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/system_boundary_model_4296FE34.html&quot;&#xD;
+    guid=&quot;_NUjPIN0VEd-xB8a51ZHHaA&quot;>System boundary model&lt;/a>&amp;nbsp;should:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identify and describe system boundaries, main services and actors.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Assure a common understanding of the system and its purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify interactions between the system and its environment.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;a id=&quot;N1005A&quot; name=&quot;N1005A&quot;>&lt;/a>&lt;a id=&quot;Methods+and+techniques&quot; name=&quot;Methods+and+techniques&quot;>&lt;/a> &#xD;
+&lt;h4>&#xD;
+    Methods and techniques&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The starting point for the development of the System &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/system_boundary_model_4296FE34.html&quot;&#xD;
+    guid=&quot;_NUjPIN0VEd-xB8a51ZHHaA&quot;>System boundary model&lt;/a> is provided by the Business Model work products, the Context&#xD;
+    Statement, Vision for Change, Business Process and Role Model and Business Resource Model. Other important sources are&#xD;
+    the business stakeholders, who should be involved when determining the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/system_boundary_model_4296FE34.html&quot;&#xD;
+    guid=&quot;_NUjPIN0VEd-xB8a51ZHHaA&quot;>System boundary model&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Defining the boundaries of the system means finding out what is inside the system and what is outside the system (the&#xD;
+    &lt;em>outside&lt;/em> is what the system interfaces with). The boundaries of the system are determined by the roles of the&#xD;
+    system in the Business Model. In the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/system_boundary_model_4296FE34.html&quot;&#xD;
+    guid=&quot;_NUjPIN0VEd-xB8a51ZHHaA&quot;>System boundary model&lt;/a>, the boundaries of the system are defined in terms of actors&#xD;
+    and use cases. The actors are outside the system and represent the roles in the Business Model that interact with the&#xD;
+    system roles (roles inside the system boundary); the use cases are inside and represent the behaviour of the system&#xD;
+    roles.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Thus, UML actors are used to denote anything that interfaces with the system. Some examples are people, software,&#xD;
+    hardware devices, data stores or networks. In the model we let each UML actor define a particular role and thereby&#xD;
+    abstract the actual person or software system currently fulfilling the role. Hence, several actors may represent one&#xD;
+    physical person, because that person takes on different roles with regard to the system. On the other hand, one actor&#xD;
+    might represent several physical people, because they all take on the same role with regard to the system. Each role&#xD;
+    specifying interactions with the system may be represented by one or more actors (hence, roles are recursive). To help&#xD;
+    in defining actors the following questions might be helpful to elaborate:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Who uses the system?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Who maintains the system?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What other systems use this system?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Who gets information from the system?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Who provides information to the system?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Does anything happen automatically at present time?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Who starts up and shuts down the system?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Each actor needs a descriptive name and a brief description that is one or two sentences long. This description should&#xD;
+    define the role represented by the actor with regard to the system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Identify use cases: When the main actors are identified, the next step is to go through the list of actors and identify&#xD;
+    use cases for each one. Use cases describe things that the actors want the system to do. At this stage, people that&#xD;
+    will play roles defined by the actors should be involved.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To help identify use cases the following questions might be helpful to elaborate:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        What services are required from the system by the actor?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Which events are/will be initiated by the actor, and which events are the actor interested in?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Which events occur and who is/will be notified about them?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    When dealing with existing systems, go through the list of actors and identify what services the system actually&#xD;
+    provides. Important sources of information would then be the user manuals, other documentation, source code, table&#xD;
+    structures and information gathered by studying system behaviour at runtime.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Relate to goals! The use cases should be related to goals, this because the purpose of the use cases should be to&#xD;
+    attain goals. It is important to be able to answer why to each use case. If you can't give a good answer to the&#xD;
+    &quot;why-question&quot;, then it is probably not a proper use case. The relation to the goals is implicitly the answer to the&#xD;
+    why question.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Describe stimuli and responses for the use cases identified. Each actor communicates with the system through a set of&#xD;
+    use cases in order to reach their goals. The stimuli/response describe the stimuli sent to the system by the actor, and&#xD;
+    the responses back from the system. We can use UML sequence diagrams to model the most important stimuli/responses.&#xD;
+&lt;/p>&#xD;
+&lt;a id=&quot;N10089&quot; name=&quot;N10089&quot;>&lt;/a>&lt;a id=&quot;Deliverables+and+notation&quot; name=&quot;Deliverables+and+notation&quot;>&lt;/a> &#xD;
+&lt;h4>&#xD;
+    Deliverables and notation&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The work product contains the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        UML Use Case diagram showing the system boundary, the actors and the actors responsibilities.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        UML Use Case diagram exploring the system boundary use case that identifies the needs. Each use case should be&#xD;
+        numbered for later reference&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        General extra requirements that applies for the complete system are associated with the System Boundary&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;a id=&quot;N10096&quot; name=&quot;N10096&quot;>&lt;/a>&lt;a id=&quot;Example&quot; name=&quot;Example&quot;>&lt;/a> &#xD;
+&lt;h4>&#xD;
+    Example&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    Figure 2 shows an example of parts of a system boundary for a meeting room booking example, which is described in a UML&#xD;
+    use case diagram. The actors represent initiating system actors or external systems used by the meeting reservation&#xD;
+    system (e.g. the Email information system).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/./resources/system_boundary_example.png&quot; width=&quot;600&quot; height=&quot;595&quot; />&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-q44Robdx8V4hOPbMHb8bng" name="detail_use_case_scenarios,_05XNMOKnEd-Knc6oCYT2Zw" guid="-q44Robdx8V4hOPbMHb8bng">
+    <refinedDescription>&lt;p>&#xD;
+    The &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/use_case_scenario_model_9DF725B1.html&quot;&#xD;
+    guid=&quot;_SMZu4N0VEd-xB8a51ZHHaA&quot;>Use case scenario model&lt;/a> digs into the identified use cases and describes these in&#xD;
+    detail. The major input to determining the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/use_case_scenario_model_9DF725B1.html&quot;&#xD;
+    guid=&quot;_SMZu4N0VEd-xB8a51ZHHaA&quot;>Use case scenario model&lt;/a> is the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/system_boundary_model_4296FE34.html&quot;&#xD;
+    guid=&quot;_NUjPIN0VEd-xB8a51ZHHaA&quot;>System boundary model&lt;/a>, but the Business Model work products and early versions of&#xD;
+    the Architecture Model are also valuable input.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/guidances/templates/use_case_template_4C60C8BB.html&quot;&#xD;
+    guid=&quot;_u2nlkH1QEeCbp4UejqxsXg&quot;>Use case template&lt;/a> is the baseline for developing the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/use_case_scenario_model_9DF725B1.html&quot;&#xD;
+    guid=&quot;_SMZu4N0VEd-xB8a51ZHHaA&quot;>Use case scenario model&lt;/a>. Each use case identified in the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/workproducts/system_boundary_model_4296FE34.html&quot;&#xD;
+    guid=&quot;_NUjPIN0VEd-xB8a51ZHHaA&quot;>System boundary model&lt;/a> is detailed using the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/guidances/templates/use_case_template_4C60C8BB.html&quot;&#xD;
+    guid=&quot;_u2nlkH1QEeCbp4UejqxsXg&quot;>Use case template&lt;/a>. The &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.use_case_modelling.base-sintef/guidances/templates/use_case_template_4C60C8BB.html&quot;&#xD;
+    guid=&quot;_u2nlkH1QEeCbp4UejqxsXg&quot;>Use case template&lt;/a> consists of the following parts:&#xD;
+&lt;/p>&#xD;
+&lt;table style=&quot;PAGE-BREAK-BEFORE: always&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; bordercolor=&quot;#00000a&quot; cellpadding=&quot;7&quot; width=&quot;638&quot;>&#xD;
+    &lt;colgroup>&#xD;
+        &lt;col width=&quot;189&quot; />&#xD;
+        &lt;col width=&quot;419&quot; />&#xD;
+    &lt;/colgroup>&#xD;
+    &lt;tbody>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td bgcolor=&quot;#e5e5e5&quot; height=&quot;23&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &lt;b>Use case template&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td bgcolor=&quot;#e5e5e5&quot; width=&quot;419&quot;>&#xD;
+                &lt;p>&#xD;
+                    &lt;b>Description&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Use case name&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p>&#xD;
+                    &amp;lt; The name is the goal as a short active verb phrase. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Use case ID&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &amp;lt; A unique identification of for the use case, e.g. UC01. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Revision&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &amp;lt; Revision number for the use case. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Reference&lt;br />&#xD;
+                    &lt;font color=&quot;#c00000&quot;>(optional)&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &amp;lt; URL pointing to the use case element in a UML model. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Use case diagram&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &amp;lt; UML use case diagram for the actual use case. The diagram should include extend and include&#xD;
+                    relationships if there is any. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Status&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-BOTTOM: 0cm&quot;>&#xD;
+                    &amp;lt; Status of the use case. One of the following:&#xD;
+                &lt;/p>&#xD;
+                &lt;ul>&#xD;
+                    &lt;li>&#xD;
+                        &lt;p style=&quot;MARGIN-BOTTOM: 0cm&quot;>&#xD;
+                            Active&#xD;
+                        &lt;/p>&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        &lt;p style=&quot;MARGIN-BOTTOM: 0cm&quot;>&#xD;
+                            Deprecated&#xD;
+                        &lt;/p>&#xD;
+                    &lt;/li>&#xD;
+                &lt;/ul>&#xD;
+                &lt;p>&#xD;
+                    In the case of a deprecated use case please provide a reason, e.g. in the ‘notes’ field. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Priority of accomplishment &lt;font color=&quot;#c00000&quot;>(optional)&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-BOTTOM: 0cm&quot;>&#xD;
+                    &amp;lt; One of the following:&#xD;
+                &lt;/p>&#xD;
+                &lt;ul>&#xD;
+                    &lt;li>&#xD;
+                        &lt;p style=&quot;MARGIN-BOTTOM: 0cm&quot;>&#xD;
+                            Must have: The system must implement this goal/assumption to be accepted.&#xD;
+                        &lt;/p>&#xD;
+                    &lt;/li>&#xD;
+                &lt;/ul>&#xD;
+                &lt;ul>&#xD;
+                    &lt;li>&#xD;
+                        &lt;p style=&quot;MARGIN-BOTTOM: 0cm&quot;>&#xD;
+                            Should have: The system should implement this goal/assumption: some deviation from the&#xD;
+                            goal/assumption as stated may be acceptable.&#xD;
+                        &lt;/p>&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        &lt;p>&#xD;
+                            Could have: The system should implement this goal/assumption, but may be accepted without it.&#xD;
+                            &amp;gt;&#xD;
+                        &lt;/p>&#xD;
+                    &lt;/li>&#xD;
+                &lt;/ul>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Goal&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p>&#xD;
+                    &amp;lt; Description of the goal(s) for the use case. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Summary&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p>&#xD;
+                    &amp;lt; A short textual description of the use case. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Category&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &amp;lt; Categorisation of use cases according to an overall reference architecture defining scope, levels&#xD;
+                    and main architectural elements. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Actors&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &amp;lt; All users that interact with the system, including other systems relied upon to accomplish use&#xD;
+                    case. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Primary actor&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &amp;lt; A role name or description for the primary actor. The primary actor initiates the use case. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Stakeholder&lt;br />&#xD;
+                    &lt;font color=&quot;#c00000&quot;>(optional)&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &amp;lt; A list of stakeholder, i.e. individuals or organisations, that has an interest in the solution of&#xD;
+                    the problem. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-BOTTOM: 0cm&quot;>&#xD;
+                    Facade&lt;br />&#xD;
+                    &lt;font color=&quot;#c00000&quot;>(optional)&lt;/font>&#xD;
+                &lt;/p>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &lt;br />&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;419&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &amp;lt; A (simplified) interface for the use case. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Preconditions&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &amp;lt; Description of the pre conditions for the use case, i.e. what we expect is already the state of&#xD;
+                    the world. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Triggers&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p>&#xD;
+                    &amp;lt; The action upon the system that starts the use case. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Main success scenario&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &amp;lt; Description of the use case scenarios. This includes the primary scenario and related secondary&#xD;
+                    scenarios. The scenarios are described as a scenario of steps from trigger to goal delivery, and any&#xD;
+                    cleanup after. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Extensions&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &amp;lt; Extensions are actions that will be executed additionally to the main scenario, optional actions,&#xD;
+                    which refine the main actions, e.g. condition causing branching. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Alternative paths&lt;br />&#xD;
+                    &lt;font color=&quot;#c00000&quot;>(optional)&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &amp;lt; Alternative paths are actions which replace another action in the main scenario or from the&#xD;
+                    extension actions. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Post conditions&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &amp;lt; Description of the post conditions for the use case. The post condition will often correspond to&#xD;
+                    the goals. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Non-functional requirements&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &amp;lt; Description of non-functional requirements for this use case. These could be linked to a database&#xD;
+                    containing the non-functional requirements for the system. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;24&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Notes&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    &amp;lt; All important information that don’t match another item in the template. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;23&quot; width=&quot;189&quot;>&#xD;
+                &lt;p align=&quot;left&quot;>&#xD;
+                    Author and date&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;419&quot;>&#xD;
+                &lt;p style=&quot;PAGE-BREAK-AFTER: avoid&quot; align=&quot;left&quot;>&#xD;
+                    &amp;lt; When and by whom the use case (version) was created. &amp;gt;&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+    &lt;/tbody>&#xD;
+&lt;/table></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AEmxduObGOLXO-NGOb4Q6A" name="use_case_scenario_model,_05XNMeKnEd-Knc6oCYT2Zw" guid="-AEmxduObGOLXO-NGOb4Q6A">
+    <refinedDescription>&lt;p>&#xD;
+    This model describes the system in terms of actors, use cases and scenario descriptions. The model:&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Includes more detailed descriptions of the system resulting from further analysis using the common use case&#xD;
+        detailing technique, by diving into a use case discovering new use cases and actors.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use case scenarios are also described in this work product.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZUvu-1PfjGngv34AfQEwzA" name="develop_prototype,_1UPyYOKnEd-Knc6oCYT2Zw" guid="-ZUvu-1PfjGngv34AfQEwzA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qFKZ1iO3IDW0BP7aKpCL3w" name="prototype,_1UPyYeKnEd-Knc6oCYT2Zw" guid="-qFKZ1iO3IDW0BP7aKpCL3w"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5JVUkqV-Nir-a9rXdCUV-A" name="case_study_description,_mBLThBQtEeGgOd2_jEsctg" guid="-5JVUkqV-Nir-a9rXdCUV-A"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-uChuMby56qUGY_tkmQl6Hw" name="Specify_capabilities,_Bmd1OiavEd-W88dSHyarAQ" guid="-uChuMby56qUGY_tkmQl6Hw">
+    <refinedDescription>&lt;p>&#xD;
+    Identify and specify&amp;nbsp;capabilities that may be exposed as services. Capabilities represent an abstraction of the&#xD;
+    ability to affect change. Capabilities identify or specify a cohesive set of functions or resources that a service&#xD;
+    provided by one or more participants might offer. Capabilities can be used by themselves or in conjunction with&#xD;
+    participants to represent general functionality or abilities that a participant must have.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The specification of capabilities is optional in our practice. Capabilities represent high-level services with abstract&#xD;
+    operations. For large business architectures it may be a good idea to start with capability modelling to help&#xD;
+    identifying needed services, whereas for more technical architectures it might be easier to focus on the IT services&#xD;
+    directly. Once you have defined the capabilities, these can later be used to identify candidate services.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6DXOzYAsXoJ4pNnrdc9BPw" name="business_architecture_model,_-6RrgaGkEeC1A-PuG6Rlow" guid="-6DXOzYAsXoJ4pNnrdc9BPw">
+    <refinedDescription>&lt;img alt=&quot;&quot; src=&quot;./../../practice.architecture.service_modelling.base-sintef/workproducts/./resources/business_architecture_model.png&quot; width=&quot;600&quot; height=&quot;228&quot; />&lt;br />&#xD;
+&lt;p>&#xD;
+    This&amp;nbsp;work product is&amp;nbsp;represented as a SoaML model&amp;nbsp;that defines the business view of the service-oriented&#xD;
+    architecture in a platform-indepent manner.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-g5OuqGebSF87hrwZjpCNlA" name="business_processes,_-6SSkaGkEeC1A-PuG6Rlow" guid="-g5OuqGebSF87hrwZjpCNlA">
+    <refinedDescription>&lt;p>&#xD;
+    Business Process Modeling Notation (BPMN), is designed to communicate a wide variety of information on business&#xD;
+    processes to a wide variety of audiences, providing a standard notation that is readily understandable by all business&#xD;
+    stakeholders. Business process descriptions bring real business vision and constitute an excellent formalization and&#xD;
+    analysis tool when constructing systems. In the context of a development project they are used in business-oriented&#xD;
+    activities related to requirements, specifications and analysis.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Business processes may be at a number of levels of detail, from a high level description of the business processes down&#xD;
+    to task flows which comprise a set of detailed specifications for the business services to be realized in the&#xD;
+    service-oriented architecture. BPMN is designed to cover many types of modelling and allows the creation of end-to-end&#xD;
+    business processes. It allows the specification of private processes (both non-executable and executable), public&#xD;
+    processes, choreographies and collaborations.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qizDY8-5uZCDzIIP2ru25A" name="specify_services_architecture,_ZI50MKGoEeC1A-PuG6Rlow" guid="-qizDY8-5uZCDzIIP2ru25A">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Services architectures are modelled as UML collaborations with the stereotype &amp;lt;&amp;lt;ServicesArchitecture&amp;gt;&amp;gt;. A&#xD;
+    services architecture has components at two levels of granularity:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            The community services architecture is a ”top level” view of how independent participants work together for&#xD;
+            some purpose. The services architecture of a community does not assume or require any single controlling entity&#xD;
+            or process.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            A participant may also have a participant services architecture, which specifies how parts of that participant&#xD;
+            (e.g., departments within an organization) work together to provide the services of the owning participant.&#xD;
+            Participants that realize this specification must adhere to the architecture it specifies.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    We recommend to create a UML package for each services architecture.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--jTW73vdmtA-e2Zsm75n5g" name="business_information_model,_83AkQaJJEeC6g8wb3xknIg" guid="--jTW73vdmtA-e2Zsm75n5g"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Ld5JBvZGeyqIjuUQK-At0w" name="business_process_model,_83ByYaJJEeC6g8wb3xknIg" guid="-Ld5JBvZGeyqIjuUQK-At0w"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4QOsbfxf7w_Pcnv6X8Hrgw" name="specify_service_contracts_and_choreographies,_T9cu0KJfEeCKp9wzOHzvHg" guid="-4QOsbfxf7w_Pcnv6X8Hrgw">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    SoaML allows different approaches to specify services. In our practice, we have chosen to combine two different&#xD;
+    approaches, as we see one fits more at the business level (service contract approach) and the other at the IT level&#xD;
+    (service interface approach). In the business architecture modelling we suggest to use service contracts that are&#xD;
+    further refined to service interfaces in the system architecture modelling. The specification of service contracts can&#xD;
+    be seen as the refinement of a services architecture. Service contracts are specified as UML collaborations in UML&#xD;
+    collaboration diagrams.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    An important part of the service contract is the choreography. The choreography is a specification of what is&#xD;
+    transmitted and when it is transmitted between parties to enact a service exchange. The choreography specifies&#xD;
+    exchanges between the parties - the data, assets and obligations that go between the parties. The choreography defines&#xD;
+    what happens between the provider and consumer participants without defining their internal processes - their internal&#xD;
+    processes do have to be compatible with their service contracts. The behaviour of the service contract can be described&#xD;
+    at the business level using any UML behaviour, e.g. state machines, activity diagrams and sequence diagrams. We&#xD;
+    recommend to model the behaviour of any complex service contracts in order to get a better understanding of the&#xD;
+    interaction between the roles. This model will later be refined at the IT level.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is advisable to create a separate UML Package for the specification of the ServiceContract. Place this package in&#xD;
+    the package that contains the ServicesArchitecture. The ServiceContract package will be used for the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Specifying&amp;nbsp;the Collaboration for the ServiceContract.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specifying&amp;nbsp;the ServiceInterfaces that represents the consumer and provider role in the ServiceContract.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specifying the Interaction that describes the behaviour of the ServiceContract.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Service Diagrams for the ServiceContract.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pBWQmgMzkiOxg5B4sfS5cw" name="service_contracts_and_choreographies,_YfYB4aJfEeCKp9wzOHzvHg" guid="-pBWQmgMzkiOxg5B4sfS5cw">
+    <refinedDescription>&lt;p>&#xD;
+    A service contract approach defines service specifications (the service contract) that define the roles each&#xD;
+    participant plays in the service (such as provider and consumer) and the interfaces they implement to play that role in&#xD;
+    that service. The service contract represents an agreement between the involved participants for how the service is to&#xD;
+    be provided and consumed. This agreement includes the interfaces, choreography and any other terms and conditions.&#xD;
+    Service contracts are frequently part of one or more services architectures that define how a set of participants&#xD;
+    provide and use services for a particular business purpose or process.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    An important part of the service contract is the choreography. A choreography is a specification of what is transmitted&#xD;
+    and when it is transmitted between participants to enact a service exchange. The choreography defines what happens&#xD;
+    between the provider and consumer participants without defining their internal processes - their internal processes do&#xD;
+    have to be compatible with their service contracts.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-NwwSUVxoBkCTqbCXQvqZEw" name="capabilities,_a0688aJfEeCKp9wzOHzvHg" guid="-NwwSUVxoBkCTqbCXQvqZEw">
+    <refinedDescription>Capabilities identify or specify a cohesive set of functions or resources that a service provided by one or more&#xD;
+participants might offer. Capabilities can be used by themselves or in conjunction with participants to represent general&#xD;
+functionality or abilities that a participant must have. Capabilities are used to identify needed services, and to organize&#xD;
+them into catalogues in order to communicate the needs and capabilities of a service area, whether that be business or&#xD;
+technology focused, prior to allocating those services to particular participants. Capabilities can have usage dependencies&#xD;
+on other capabilities to show how these capabilities are related. Capabilities can also be organized into architectural&#xD;
+layers to support separation of concern within the resulting service architecture.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-1vqiW97y9Q5FOssO0INjjA" name="services_architectures,_4MLK0aJfEeCKp9wzOHzvHg" guid="-1vqiW97y9Q5FOssO0INjjA">
+    <refinedDescription>&lt;p>&#xD;
+    A services architecture is a high level description of how participants work together for a purpose by providing and&#xD;
+    using services expressed as service contracts. The services architecture defines the requirements for the types of&#xD;
+    participants and service realizations that fulfill specific roles. A role defines the basic function (or set of&#xD;
+    functions) that an entity may perform in a particular context. In contrast, a participant specifies the type of a party&#xD;
+    that fills the role in the context of a specific services architecture. Both service contracts and participants can be&#xD;
+    reused when composing different services in other services architectures.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-skBJHyxosq2IUpMqrWDrgg" name="define_business_goals,_c8GPYKJgEeCKp9wzOHzvHg" guid="-skBJHyxosq2IUpMqrWDrgg">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    The purpose of the BMM is to agree with the business stakeholders the business goals that will be met by implementing&#xD;
+    the service-oriented architecture, so that a set of required high level business processes can be identified for&#xD;
+    further analysis. BMM provides a scheme or structure for developing, communicating, and managing business plans in an&#xD;
+    organized manner. In particular, the BMM supports the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            It identifies factors that motivate the establishment of business plans.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            It identifies and defines the elements of business plans.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            It indicates how all these factors and elements inter-relate.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    Among these elements you find business policies and business rule that provide governance for and guidance to the&#xD;
+    business. Once produced and agreed, the BMM serves as a reference that ensures that a full assessment may be made of&#xD;
+    all the business implications of any proposed changes to the service-oriented architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    The specification of the goals and company’s motivations are defined in a business goals diagram. The goals can be&#xD;
+    structured by applying containers within the BMM model. The containers contain one or more goals diagrams in which you&#xD;
+    can define the goals and their relationships.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2sAaREBVTQrK1dOEvqsElg" name="business_goals,_c8G2cKJgEeCKp9wzOHzvHg" guid="-2sAaREBVTQrK1dOEvqsElg">
+    <refinedDescription>Business Motivation Model (BMM) is a business-level modelling technique that supports the modelling of the business goals&#xD;
+and objectives, the means and policies to achieve them, and the influencing factors that drive and control the work&#xD;
+involved. This is typically used to define the overall business strategy in early phases of an engineering project.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KbOnGhX-555WjPi-jaT4qw" name="refine_business_processes,_QznWcKJnEeCSHZtOJbuQWQ" guid="-KbOnGhX-555WjPi-jaT4qw">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Modelling in BPMN is made by simple diagrams with a small set of graphical elements. It should make it easy for&#xD;
+    business users as well as developers to understand the flow and the process.&lt;font size=&quot;2&quot;&#xD;
+    face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&amp;nbsp;Business processes may be at a number of&#xD;
+    levels of detail, from a high level description of the business processes down to task flows which comprise a set of&#xD;
+    detailed specifications for the business services to be realized in the service-oriented architecture.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    Typically, BPMN is used to define business processes on the CIM level. The definitions are then mapped to more&#xD;
+    technical models on the PIM and PSM level. Our practice&amp;nbsp;does not address the full scope of business modelling at&#xD;
+    the CIM level, but rather assumes that some kind of business process models or descriptions already exist that have&#xD;
+    been developed using existing BPMN guidelines. However, typically these models must be further refined and mapped to&#xD;
+    SoaML concepts for describing the business perspective of an SOA.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    We propose to refine business processes in separate BPMN diagrams that are linked to SoaML concepts. Ideally, this&#xD;
+    should be done in a modelling tool that allows to create integrated models using both BPMN and SoaML language&#xD;
+    constructs. This ensures a tool-supported consistency between the modelling of the business processes, information and&#xD;
+    organization as outlined here. In the case of using separate tools for modelling BMM, BPMN and SoaML, manual&#xD;
+    consistency checks must be applied.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>The BPMN modelling in the BAM&#xD;
+    consists of process, information and organization modelling steps.&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Asft8rEgOZauBxKs509FPA" name="business_information_model,_dUuhYMNHEeCGkIgyjTMixA" guid="-Asft8rEgOZauBxKs509FPA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QBld9HEXHahQdDzhO5EO6Q" name="business_process_model,_dUvvgcNHEeCGkIgyjTMixA" guid="-QBld9HEXHahQdDzhO5EO6Q"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-LVsiX3dNFV-u_roetFBE4g" name="implement_web_service,_-pNJoJzCEeCwZfi5IJDs5w" guid="-LVsiX3dNFV-u_roetFBE4g">
+    <refinedDescription>&lt;p>&#xD;
+    Follow the written steps.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EpiayidLfgN2pawHc9Kdzg" name="system_developer,_-pOXwJzCEeCwZfi5IJDs5w" guid="-EpiayidLfgN2pawHc9Kdzg">
+    <refinedDescription>This worker is involved in the implementation of the business process, obtaining services needed to be part of the&#xD;
+composition and developing the final script which can be executed by a specialized engine.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-iJkB_zhm-5pPKzxSPv3yXg" name="deploy_web_service,_TKhRkJzDEeCwZfi5IJDs5w" guid="-iJkB_zhm-5pPKzxSPv3yXg">
+    <refinedDescription>Follow the written steps. For the deployment step please&amp;nbsp;select and follow the instructions in the approtiate tool&#xD;
+mentor.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-YwUn8nqUOHnzngYC7qTOKw" name="generate_web_service_files,_Ie6M0KGMEeC6m4lNxCxazg" guid="-YwUn8nqUOHnzngYC7qTOKw">
+    <refinedDescription>&lt;p>&#xD;
+    Please select and follow the instructions in the approtiate tool mentor. Based upon the tool your are using different&#xD;
+    artefacts may be generated, e.g.:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Annotated Java source files&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        XSD, WSDL and/or BPEL files&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yiUWVdCa6TWIUVvX6LJeig" name="architecture_model.rename,_g1hJ4dVWEeCSuohv1oAxXQ" guid="-yiUWVdCa6TWIUVvX6LJeig"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Rub6hIJwFXMXXhczIp_C3Q" name="implement_javaserver_faces,_L6q28BQoEeG7hs90RB7LQA" guid="-Rub6hIJwFXMXXhczIp_C3Q">
+    <refinedDescription>&amp;lt;TBD&amp;gt;</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-V2yhY5OjqjHz0sVgr-gQTw" name="implement_java_persistence,_MdoaEBQoEeG7hs90RB7LQA" guid="-V2yhY5OjqjHz0sVgr-gQTw">
+    <refinedDescription>&amp;lt;TBD&amp;gt;</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Ug_xGILXoaTXS4-eavXFoA" name="case_study_description,_yIRN4RQ9EeGTU829fpxEZg" guid="-Ug_xGILXoaTXS4-eavXFoA">
+    <refinedDescription>&lt;font face=&quot;Calibri&quot;>Each case study shall be described with the following elements:&lt;/font> &#xD;
+&lt;table border=&quot;1&quot; rules=&quot;groups&quot; cellspacing=&quot;1&quot; bordercolor=&quot;#c0504d&quot; cellpadding=&quot;7&quot; width=&quot;624&quot;>&#xD;
+    &lt;colgroup>&#xD;
+        &lt;col width=&quot;124&quot; />&#xD;
+        &lt;col width=&quot;469&quot; />&#xD;
+    &lt;/colgroup>&#xD;
+    &lt;tbody>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;50&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>Element&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>Description&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+    &lt;/tbody>&#xD;
+    &lt;tbody>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;50&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>Case title&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>A short name for the case study and more specifically the scenario being&#xD;
+                    studied.&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;50&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>Operational description&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>Give a textual description of what the case study is about; the business&#xD;
+                    goal (i.e the logistics service identified) and the solution chosen for achieving this goal (i.e&#xD;
+                    delivering this service)&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;50&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>Cargo Type&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>Describe the type of cargo&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;50&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>Transport Mode&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>Identify the transport modes involved&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;50&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>FInest Components&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>Specify Finest Components which the Case Study is a priori most relevant&#xD;
+                    for&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;50&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>Involved Actors&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>For each case study, describe the companies selected for representing the&#xD;
+                    transport operations covered by the case study.&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;50&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>Challenges&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>Describe business-, operational, technical challenges that the case study&#xD;
+                    addresses, i.e the problems that the case actors face.&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;134&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>Related Finest R&amp;amp;D areas&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>Specify Finest R&amp;amp;D areas which the Case Study a priori contribute most&#xD;
+                    to&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+    &lt;/tbody>&#xD;
+&lt;/table>&#xD;
+&lt;p class=&quot;western&quot;>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AKjEG_7dCkeRnoPL1B2ksg" name="case_study_description,_yFb8VBQ9EeGTU829fpxEZg" guid="-AKjEG_7dCkeRnoPL1B2ksg">
+    <refinedDescription>&lt;font face=&quot;Calibri&quot;>Each case study shall be described with the following elements:&lt;/font> &#xD;
+&lt;table border=&quot;1&quot; rules=&quot;groups&quot; cellspacing=&quot;1&quot; bordercolor=&quot;#c0504d&quot; cellpadding=&quot;7&quot; width=&quot;624&quot;>&#xD;
+    &lt;colgroup>&#xD;
+        &lt;col width=&quot;124&quot; />&#xD;
+        &lt;col width=&quot;469&quot; />&#xD;
+    &lt;/colgroup>&#xD;
+    &lt;tbody>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;50&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>Element&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>Description&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+    &lt;/tbody>&#xD;
+    &lt;tbody>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;50&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>Case title&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>A short name for the case study and more specifically the scenario being&#xD;
+                    studied.&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;50&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>Operational description&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>Give a textual description of what the case study is about; the business&#xD;
+                    goal (i.e the logistics service identified) and the solution chosen for achieving this goal (i.e&#xD;
+                    delivering this service)&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;50&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>Cargo Type&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>Describe the type of cargo&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;50&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>Transport Mode&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>Identify the transport modes involved&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;50&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>FInest Components&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>Specify Finest Components which the Case Study is a priori most relevant&#xD;
+                    for&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;50&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>Involved Actors&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>For each case study, describe the companies selected for representing the&#xD;
+                    transport operations covered by the case study.&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;50&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>Challenges&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>Describe business-, operational, technical challenges that the case study&#xD;
+                    addresses, i.e the problems that the case actors face.&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td height=&quot;134&quot; width=&quot;124&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;b>&lt;font face=&quot;Calibri, serif&quot;>Related Finest R&amp;amp;D areas&lt;/font>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td width=&quot;469&quot;>&#xD;
+                &lt;p style=&quot;MARGIN-TOP: 0cm&quot; class=&quot;western&quot;>&#xD;
+                    &lt;font face=&quot;Calibri, serif&quot;>Specify Finest R&amp;amp;D areas which the Case Study a priori contribute most&#xD;
+                    to&lt;/font>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+    &lt;/tbody>&#xD;
+&lt;/table>&#xD;
+&lt;p class=&quot;western&quot;>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Ebw1GS712mUr3ZuaNM5aFg" name="business_information_model,_yFu3QRQ9EeGTU829fpxEZg" guid="-Ebw1GS712mUr3ZuaNM5aFg">
+    <refinedDescription>&lt;p>&#xD;
+    The Business information model&amp;nbsp;identifies and defines the main things (and concepts) of the domain that are&#xD;
+    relevant to the Product, these being, in general, those things that do things in the business (including the Product&#xD;
+    itself), and those things that have things done to or with them, and details the relationships between these concepts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Product comprises a complete and consistent set of models for the Product, namely Business Model, Requirements Model,&#xD;
+    Architecture Model and one or more Platform Specific Model together with the corresponding Executables.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Business Resource Model takes the form of a UML class model as part of the PIM for the Product (see the example&#xD;
+    model structure). In cases where it is useful it may be accompanied by state machine models for any of the resources&#xD;
+    modelled.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-A_RhnwW3xYdUCHhi359SbA" name="business_process_model,_yFu3RBQ9EeGTU829fpxEZg" guid="-A_RhnwW3xYdUCHhi359SbA">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    A BPMN model defines the business processes of the domain which are relevant to the service-oriented architecture, and&#xD;
+    which will enable the goals to be met, and the roles of the resources that perform those processes. It includes a full&#xD;
+    definition of the roles in the business, focusing on those fulfilled by the system or component to be developed.&#xD;
+    Business process descriptions bring real business vision and constitute an excellent formalization and analysis tool&#xD;
+    when constructing systems. In the context of a development project they are used in business-oriented activities&#xD;
+    related to requirements, specifications and analysis.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    Business processes may be at a number of levels of detail, from a high level description of the business processes down&#xD;
+    to task flows which is a set of detailed specifications for the business services that the service-oriented&#xD;
+    architecture will provide. BPMN is designed to cover many types of modelling and allows the creation of end-to-end&#xD;
+    business processes. It allows the specification of private processes (both non-executable and executable), public&#xD;
+    processes, choreographies and collaborations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A business process is a sequence of actions carried out by different actors working together. This&#xD;
+    model&amp;nbsp;formalizes the business process and&amp;nbsp;defines:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the business processes of the domain which are relevant to the Product, and which will enable the goals to be met,&#xD;
+        and:&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the roles of the resources that perform those processes.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;This&amp;nbsp;model may be at a number of levels of detail, from a high level description of the business processes&#xD;
+    down to the WARM, which is a set of detailed specifications for the business services that each IT element in the&#xD;
+    Product will provide. It includes a full definition of the roles in the business, focusing on those fulfilled by the&#xD;
+    system or component to be developed.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The Business Process and Roles model is generally prepared at the same time as the associated Business Resource&#xD;
+        model.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To build a Business Process model the Business Modelling Conceptual Model (or metamodel) is used.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Each business process is defined in terms of its steps, and each step performed by a resource at a higher level of&#xD;
+    detail may then be treated as a process performed by a community (of resources) and further analysed at a lower level&#xD;
+    of detail. Eventually, using the WARM concepts of Human Step, Tool Step and Immediate Step, &quot;leaf&quot; steps will be&#xD;
+    defined, and assigned to specific elements of the Product to be developed. The time to stop analysing is when, by&#xD;
+    analysing the processes, the Product's role in them is defined, and when there are no more questions about the business&#xD;
+    to be answered.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-g8bdN7hQ9iqX9MK4fcmxvQ" name="system_information_model,_1guXcRQ9EeGTU829fpxEZg" guid="-g8bdN7hQ9iqX9MK4fcmxvQ">
+    <refinedDescription>&amp;lt;TBD&amp;gt;</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-F_5CyHiqV9YFf9IJpYDvbg" name="define_scoping_statements,_PI_DMdz_Ed-xB8a51ZHHaA" guid="-F_5CyHiqV9YFf9IJpYDvbg">
+    <mainDescription>This capability pattern describes a baseline workflow for how to define scoping statements.</mainDescription>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-LFdH_2DOEkhPZeaIWbHoPw" name="define_context_statement,_ehlk4Nz_Ed-xB8a51ZHHaA" guid="-LFdH_2DOEkhPZeaIWbHoPw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-u8kzMUV4iPKRHl8kdcJScA" name="define_vision_statement,_ehlk4dz_Ed-xB8a51ZHHaA" guid="-u8kzMUV4iPKRHl8kdcJScA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7tQ-sBh35rFMeTJQaSeOIA" name="context_statement,_ehlk4tz_Ed-xB8a51ZHHaA" guid="-7tQ-sBh35rFMeTJQaSeOIA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-azi7JNgCTDi34Fx12puxIg" name="vision_statement,_ehlk5Nz_Ed-xB8a51ZHHaA" guid="-azi7JNgCTDi34Fx12puxIg"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Qh4EGc5llsjLu7f_hMSHGw" name="business analyst,_3FUwUeGoEd-AyrTFSpVP8g" guid="-Qh4EGc5llsjLu7f_hMSHGw"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-MEW5dpsLfXB4tpJ3BgC-5g" name="use_case_modelling,_c5O1AeKnEd-Knc6oCYT2Zw" guid="-MEW5dpsLfXB4tpJ3BgC-5g">
+    <mainDescription>This capability pattern describes a baseline workflow for use case modelling.</mainDescription>
+    <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To define your system functionality, i.e. services,&amp;nbsp;and requirements.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UVZ8rlphCbi1NRGJQuseNw" name="elicit_requirements,_nmisQOKnEd-Knc6oCYT2Zw" guid="-UVZ8rlphCbi1NRGJQuseNw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ymiMHfCAl9Y-qqYeWewPUQ" name="requirements_analyst,_nmpZ8OKnEd-Knc6oCYT2Zw" guid="-ymiMHfCAl9Y-qqYeWewPUQ"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pXsmtmMzE35qYMxk0mIzkA" name="non_functional_requirements,_nmqBAuKnEd-Knc6oCYT2Zw" guid="-pXsmtmMzE35qYMxk0mIzkA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-i2IfAF3FbOlU2xjy2uyb4w" name="define_system_boundary_model,_0ajxUOKnEd-Knc6oCYT2Zw" guid="-i2IfAF3FbOlU2xjy2uyb4w"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dY1ltdYESBEMg5-G-CwMvA" name="system_boundary_model,_0akYYOKnEd-Knc6oCYT2Zw" guid="-dY1ltdYESBEMg5-G-CwMvA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WEGB97XbDHP0rQK4dDWjkA" name="detail_use_case_scenarios,_05XNMOKnEd-Knc6oCYT2Zw" guid="-WEGB97XbDHP0rQK4dDWjkA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ANEy8DOcpyWQD8MYkTXZmg" name="use_case_scenario_model,_05XNMeKnEd-Knc6oCYT2Zw" guid="-ANEy8DOcpyWQD8MYkTXZmg"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-DPO8Ra16cuhHQo8fAeDK6w" name="develop_prototype,_1UPyYOKnEd-Knc6oCYT2Zw" guid="-DPO8Ra16cuhHQo8fAeDK6w"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-R1-JO9hGXC2gsvKd1C-Ikw" name="prototype,_1UPyYeKnEd-Knc6oCYT2Zw" guid="-R1-JO9hGXC2gsvKd1C-Ikw"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-DeAOAVpOk_uJSf5XQIdTtQ" name="jee_ws_development,_7lYMQZzCEeCwZfi5IJDs5w" guid="-DeAOAVpOk_uJSf5XQIdTtQ"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-LVsiX3dNFV-u_roetFBE4g" name="implement_web_service,_-pNJoJzCEeCwZfi5IJDs5w" guid="-LVsiX3dNFV-u_roetFBE4g"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EpiayidLfgN2pawHc9Kdzg" name="system_developer,_-pOXwJzCEeCwZfi5IJDs5w" guid="-EpiayidLfgN2pawHc9Kdzg"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-iJkB_zhm-5pPKzxSPv3yXg" name="deploy_web_service,_TKhRkJzDEeCwZfi5IJDs5w" guid="-iJkB_zhm-5pPKzxSPv3yXg"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-YwUn8nqUOHnzngYC7qTOKw" name="generate_web_service_files,_Ie6M0KGMEeC6m4lNxCxazg" guid="-YwUn8nqUOHnzngYC7qTOKw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Rub6hIJwFXMXXhczIp_C3Q" name="implement_javaserver_faces,_L6q28BQoEeG7hs90RB7LQA" guid="-Rub6hIJwFXMXXhczIp_C3Q"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-V2yhY5OjqjHz0sVgr-gQTw" name="implement_java_persistence,_MdoaEBQoEeG7hs90RB7LQA" guid="-V2yhY5OjqjHz0sVgr-gQTw"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-PpW8cmaGobPuTh5y2wepzA" name="system_information_modelling,_C6t7kRHGEeGJLqiKwS3dqQ" guid="-PpW8cmaGobPuTh5y2wepzA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-kOuBioqMGQQCMll-c8SY_A" name="define_system_information_model,_cq3jEBQ7EeGgOd2_jEsctg" guid="-kOuBioqMGQQCMll-c8SY_A"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yUnr1SQHvrZIq9RExYXOhw" name="system_architect,_cq3jERQ7EeGgOd2_jEsctg" guid="-yUnr1SQHvrZIq9RExYXOhw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zpbzQaPhRKgWaIcP5RaM6A" name="system_information_model,_cq3jExQ7EeGgOd2_jEsctg" guid="-zpbzQaPhRKgWaIcP5RaM6A"/>
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-Ns1RlwHpT641YLQAUjpHUQ" name="buildingsmart_delivery_process,_kVMcMb6hEeCzZIVdfIDtYQ" guid="-Ns1RlwHpT641YLQAUjpHUQ"/>
+</xmi:XMI>

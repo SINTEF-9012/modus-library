@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-bVCQ91Z3gCZlDZwLmzIQog" name="value_delivery_modelling_workflow,_d6CfcaDNEeCXF5ZuS3W32Q" guid="-bVCQ91Z3gCZlDZwLmzIQog"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qaK6rChyNLoQWKgHOEm44A" name="business_analyst,_lRg94aF-EeCKTcfDSRMRtw" guid="-qaK6rChyNLoQWKgHOEm44A">
+    <refinedDescription>Responsible for analyzing the business needs of clients to help identify business problems and propose solutions.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-apSJEVto_SgzXMACq46X2w" name="define_value_delivery_model,_lRg94KF-EeCKTcfDSRMRtw" guid="-apSJEVto_SgzXMACq46X2w">
+    <refinedDescription>&lt;p>&#xD;
+    A Value Delivery Model can be expressed using the VDML modelling language. To define a VDML model we have defined four&#xD;
+    different VDML modelling tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../practice.business.value_delivery_modelling.base-sintef/tasks/define_business_network_and_collaboration_9F121DE4.html&quot;&#xD;
+         guid=&quot;_ddF78Cf1EeKbT_45B08XTA&quot;>Define business network and collaboration&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../practice.business.value_delivery_modelling.base-sintef/tasks/define_organizations_and_capabilities_CA60528A.html&quot;&#xD;
+         guid=&quot;_9S528Cf1EeKbT_45B08XTA&quot;>Define organizations and capabilities&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../practice.business.value_delivery_modelling.base-sintef/tasks/define_activities_CAA4237A.html&quot;&#xD;
+        guid=&quot;_LaleYCdpEeKDGNEPRzZzCg&quot;>Define activities&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../practice.business.value_delivery_modelling.base-sintef/tasks/define_value_2A430D58.html&quot;&#xD;
+        guid=&quot;_B5gOoCf2EeKbT_45B08XTA&quot;>Define values&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Packaging value delivery modeling elements into value delivery models, does not imply that the entire business system&#xD;
+    has to be defined by a single value delivery model. As there might be different people (business analysts) responsible&#xD;
+    for modeling and analysis of different sub-scopes of the business system, and models of different sub-scopes of the&#xD;
+    business system might have their own life cycles, versions, etc. It is possible therefore that elements in one value&#xD;
+    delivery model, representing a part of the business system, are associated with elements in other value delivery&#xD;
+    models.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Various associations in VDML can be across value delivery model boundaries. Examples of these associations are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Libraries:&lt;/strong> One value delivery model might use elements from libraries that are contained in other&#xD;
+        value delivery models and/or SMM models.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Collaborations:&lt;/strong> A delegation context in one value delivery model might relate to a collaboration&#xD;
+        in another.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Stores:&lt;/strong> A deliverable flow in one value delivery model might associate to a store, via one of its&#xD;
+        ports, in another value delivery model.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-iP43Rqow3jFnSZLRXdUWDw" name="define_activities,_sj0OACf2EeKbT_45B08XTA" guid="-iP43Rqow3jFnSZLRXdUWDw">
+    <refinedDescription>&lt;p>&#xD;
+    Activities may be designed by following these steps:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Define which capability is required in order to perform the work. This capability requirement can be defined based&#xD;
+        on a reference to a capability in a capability library.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Find organization units that provide capability offers for the capability that is required, and select one&#xD;
+        capability offer. This selection might be supported by assessment of measurements of performance and value&#xD;
+        contribution. Performance and value measurement will be discussed in 3.1.5.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        When the capability offer is supported by a capability method, which it typically the case with broader&#xD;
+        capabilities, delegate the work of the activity to that method, and assign the activity performing role to the&#xD;
+        organization that provides the capability offer of choice.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        When the capability is more atomic, no method might be defined, but the capability offer might be supported&#xD;
+        directly by resources, including people. These resources can then be considered for use by the activity. A subset&#xD;
+        of them may also be assigned the activity performing role.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It is also possible to define assignment of method roles specifically in the context of the delegation to that&#xD;
+        method.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Note that more variations are possible, such as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        When an organization unit provides just one capability offer, and all it does is performed in the context of just&#xD;
+        that capability, there might be no need to organize activities in a separately defined capability method. Rather&#xD;
+        the organization unit, as collaboration, can contain activities directly, and activities can delegate their work to&#xD;
+        the organization unit directly. It is even possible to delegate work to communities and business networks, though&#xD;
+        matching of required capability versus offered capability cannot be performed explicitly then.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        When an organization unit provides a capability offer that matches the capability that is required by an activity,&#xD;
+        and the activity delegates its work to that method accordingly, the activity performing role maybe be assigned to&#xD;
+        the method itself, instead of to the organization unit that provides the capability offer.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-XhuQgAQzS8AvjEo8ebVveg" name="define_business_network_and_collaboration,_sj0OASf2EeKbT_45B08XTA" guid="-XhuQgAQzS8AvjEo8ebVveg">
+    <refinedDescription>&lt;p>&#xD;
+    According to VDML modelling collaboration is fundamental to modelling business systems. The essence of what is going on&#xD;
+    in business is “collaboration”. Value is created through collaboration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    VDML defines a collaboration as a “collection of participants working together for a shared purpose”, whereby a&#xD;
+    participant is defined as “anyone or anything that can fill a role in a collaboration”. Participants can be actors&#xD;
+    (human or automatons) or collaborations by themselves, or roles of actors or collaborations. An actor is “an individual&#xD;
+    (indivisible) participant, which might be human (a person) or non human (e.g. a software agent or machine)”.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Basically a business system is constructed as a collaboration of collaborations. An entire enterprise or business&#xD;
+    network is a collaboration, and so is any team, project, process, taskforce, etc. VDML also provides the means to align&#xD;
+    collaborations with each other and to construct collaborations from other collaborations and individuals (actors).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Participants participate in a collaboration, and as such, collaborate, through roles. Each collaboration defines and&#xD;
+    contains a set of roles, a role being “an expected behavior pattern or capability profile associated with participation&#xD;
+    in a collaboration”. Roles define what is expected from participants, and what they have to perform, in the specific&#xD;
+    context of a collaboration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The definition of role introduces the term “capability”. Capability expectations of roles come from capability&#xD;
+    requirements of activities that roles have to perform in collaborations.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pSawUCIT4iZnLV-zzTCg8g" name="define_organizations_and_capabilities,_sj0OAif2EeKbT_45B08XTA" guid="-pSawUCIT4iZnLV-zzTCg8g">
+    <refinedDescription>&lt;p>&#xD;
+    A value delivery modeling tool can also use a capability library to guide the modeling user in productively&#xD;
+    discovering:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Activities; as will be discussed later, an activity defines its capability requirement by referencing a capability&#xD;
+        in the library.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Capability offers; multiple capability offers might refer to the same capability in the library.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Capability resources; resources are business items, which can reference business items definitions, associated with&#xD;
+        capability definitions in the library.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Inputs and outputs that capability methods need to handle, given the capability that they support; we will discuss&#xD;
+        details of this later.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The linkage between capability offer and capability will also provide the opportunity to rationalize capability offers,&#xD;
+    by e.g. comparing them, e.g. based on the capability methods and resources that support these, or based on performance&#xD;
+    measurements (see 3.1.5), and based on these comparisons, deciding to e.g. combine capability offers where appropriate,&#xD;
+    e.g. to improve economy-of-scale.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-MeTfm0-1sQBd4F1k2woeDw" name="define_value,_sj0OAyf2EeKbT_45B08XTA" guid="-MeTfm0-1sQBd4F1k2woeDw">
+    <refinedDescription>&lt;p>&#xD;
+    There are different ways to measure the “gain” (or lack of it) in a business network (or “business model”). The&#xD;
+    metamodel diagram of Business Networks in Figure 15 defines two measured characteristics, to measure “gain” per party:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Profit. Above we discussed modeling and measurement of profit. A profit is realized when the price that the&#xD;
+        recipient pays is higher than the provider’s cost.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Value margin. Value margin is the margin that the recipient party in a business network might realize and can be&#xD;
+        defined as the difference between proposition value of value propositions received, and “fair market value”, or as&#xD;
+        the difference between proposition value and the price that is paid to providers (providing parties in the same&#xD;
+        business network) of the corresponding value propositions.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Profit is defined from the perspective of the provider of a value proposition. Value margin is defined from the&#xD;
+    perspective of the recipient of it. Profit alone is not a sufficient indicator for healthiness of the business network&#xD;
+    (“business model”). It is possible that a party realizes profit, but is observing a negative value margin. For&#xD;
+    instance, when the recipient of the value proposition associates “equivalent economic value” to a value proposition,&#xD;
+    lower than the “fair market price”, or in other words: when the recipient party judges price to pay as higher than the&#xD;
+    value it receives.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Measurement of value margin requires that proposition value is measured in economic (monetary) terms. The VDML&#xD;
+    metamodel supports modeling of such custom measured characteristics of measureable elements, such as value proposition,&#xD;
+    value proposition component, business item and store.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vIJAYAsIg3WZ1DqOUuqimA" name="activities,_snraUCf2EeKbT_45B08XTA" guid="-vIJAYAsIg3WZ1DqOUuqimA">
+    <refinedDescription>&lt;p>&#xD;
+    An activity represents “work contributed to a collaboration by a participant in a role of the collaboration”. A role&#xD;
+    may contribute to multiple activities in the same collaboration. As the VDML ontology diagram in the figure&#xD;
+    below&amp;nbsp;highlights, roles perform activities, and activities require capabilities. Activities also create and/or&#xD;
+    consume value.&#xD;
+&lt;/p>&#xD;
+&lt;img alt=&quot;&quot; src=&quot;./../../practice.business.value_delivery_modelling.base-sintef/workproducts/resources/vdml_figure41.png&quot; width=&quot;496&quot; height=&quot;246&quot; />&lt;br />&#xD;
+&lt;br />&#xD;
+&lt;strong>Figure 41. VDML high-level ontology: Activity highlighted&lt;/strong></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZK5l7hqTOA6kM6CFgos6KQ" name="value,_snsBYCf2EeKbT_45B08XTA" guid="-ZK5l7hqTOA6kM6CFgos6KQ">
+    <refinedDescription>&lt;p>&#xD;
+    As the VDML ontology diagram in Figure 91 highlights, roles, based on their collaboration with each other, provide&#xD;
+    and/or receive value propositions. Value propositions articulate values. A value proposition is “an expression of the&#xD;
+    values offered to a recipient in terms of the recipient’s level of satisfaction”. In VDML “value” is defined as “a&#xD;
+    measurable benefit delivered to a recipient in association with a business item”. Any value should be identifiable and&#xD;
+    measurable, either objectively or subjectively. A value may have an objective measure, whereas the measure of the&#xD;
+    recipient’s level of satisfaction is subjective. Though values need not be intrinsic in a deliverable, but may often&#xD;
+    relate to a transaction, a relationship, a corporate “image” or reputation, etc., values are not actually received by&#xD;
+    recipients when there is no deliverable (or business item) exchanged whatsoever. Delivery of business items is the&#xD;
+    basis of exchanging values. Note again that deliverables need not be tangible. They are often intangible. Many values&#xD;
+    maybe associated with intangibles. As discussed in 3.1.4, roles perform activity. Activities create and consume value.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./../../practice.business.value_delivery_modelling.base-sintef/workproducts/resources/vdml_figure91.png&quot; width=&quot;480&quot; height=&quot;237&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 91. VDML high-level ontology: Value highlighted&lt;/strong>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2TeINdbbPPQg7CQdd-Sjpw" name="organizations_and_capabilities,_snraUif2EeKbT_45B08XTA" guid="-2TeINdbbPPQg7CQdd-Sjpw">
+    <refinedDescription>&lt;p>&#xD;
+    Organization units are the building blocks to define the more formal and structured parts of organizations. An&#xD;
+    organization can be defined as “an administrative or functional structure normally interpreted as a network of&#xD;
+    organization units at a higher level in an organizational hierarchy”. An organization unit is “an administrative or&#xD;
+    functional organizational collaboration, with responsibility for defined resources, including a collaboration that&#xD;
+    occurs in the typical organization hierarchy, such as business units and departments (and also the company itself), as&#xD;
+    well as less formal organizational collaboration such as a committee, project, or task force”.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Organization units provide capabilities. A capability is “the ability to perform a particular kind of work and deliver&#xD;
+    desired value”. We will discuss about value later, but analyze capabilities in more detail first. Organization units&#xD;
+    that provide capabilities do need capability methods and/or resources to support these capabilities. The same or&#xD;
+    different organization units own these. A resource is “anything that is used or consumed in the production of a&#xD;
+    deliverable”. A capability method is “a reusable template for a collaboration configured for participants to perform&#xD;
+    activities to deliver a capability and to contribute value in a particular situation”. We will discuss about activities&#xD;
+    later. Both organization units and capability methods are collaborations of roles. As will be discussed later,&#xD;
+    capability methods, especially the more structured ones, are a perfect basis for process discovery. In particular,&#xD;
+    process definitions that comply with the BPMN standard (see BPMN (2011)), can be generated from capability methods&#xD;
+    (model transformation).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    These concepts, as highlighted, in the VDML ontology diagram in Figure 24.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./../../practice.business.value_delivery_modelling.base-sintef/workproducts/resources/vdml_figure24.png&quot; width=&quot;523&quot; height=&quot;259&quot; />&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 24. VDML high-level ontology: Organization Unit and Capability highlighted&lt;/strong>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_0wauMSdVEeKDGNEPRzZzCg" guid="_0wauMSdVEeKDGNEPRzZzCg">
+    <resourceDescriptors xmi:id="_sLBTwSdXEeKDGNEPRzZzCg" id="-B89TWRyukUrHOF_7v8vHjQ" uri="roles/it_architect.xmi"/>
+    <resourceDescriptors xmi:id="_uXRI4SdXEeKDGNEPRzZzCg" id="-BH6nq4TldkuABnxzVPGG_Q" uri="roles/business_architect.xmi"/>
+    <resourceDescriptors xmi:id="_cRrDMSdcEeKDGNEPRzZzCg" id="-3CGy9ZjYqlKtBIv_2J4xVA" uri="rolesets/main_role_set.xmi"/>
+    <resourceDescriptors xmi:id="_IU9OwSyOEeKglPds0ggRbw" id="-6z014ju9DgPUtptbXy4SdQ" uri="rolesets/other_role_set.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_0wQ9MCdVEeKDGNEPRzZzCg" name="core.default.role_def.extend_neffics-sintef" guid="_0wQ9MCdVEeKDGNEPRzZzCg" briefDescription="This plugin defines the default set of roles for NEFFICS." authors="Brian Elvesæter (SINTEF)" changeDate="2012-11-05T15:34:13.691+0100">
+    <methodElementProperty xmi:id="_0wauMydVEeKDGNEPRzZzCg" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_3rtaoCdVEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0wQ9MSdVEeKDGNEPRzZzCg" name="Content" guid="_0wQ9MSdVEeKDGNEPRzZzCg">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0wQ9MidVEeKDGNEPRzZzCg" name="Categories" guid="_0wQ9MidVEeKDGNEPRzZzCg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0wQ9MydVEeKDGNEPRzZzCg" name="Domains" guid="_0wQ9MydVEeKDGNEPRzZzCg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0wQ9NCdVEeKDGNEPRzZzCg" name="Disciplines" guid="_0wQ9NCdVEeKDGNEPRzZzCg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0wQ9NSdVEeKDGNEPRzZzCg" name="RoleSets" guid="_0wQ9NSdVEeKDGNEPRzZzCg">
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_Wf-xYCdcEeKDGNEPRzZzCg" name="main_role_set" guid="_Wf-xYCdcEeKDGNEPRzZzCg" presentationName="Main roles" briefDescription="This category lists all the main roles for the NEFFICS Methodology" roles="_vIOEsCdXEeKDGNEPRzZzCg _uWhiACdXEeKDGNEPRzZzCg _qSz08CdXEeKDGNEPRzZzCg _r5dpsCdXEeKDGNEPRzZzCg">
+            <methodElementProperty xmi:id="_XMdc4CdcEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <presentation xmi:id="-3CGy9ZjYqlKtBIv_2J4xVA" href="uma://-3CGy9ZjYqlKtBIv_2J4xVA#-3CGy9ZjYqlKtBIv_2J4xVA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_-ZPzkCyNEeKglPds0ggRbw" name="other_role_set" guid="_-ZPzkCyNEeKglPds0ggRbw" presentationName="Other roles" briefDescription="This category lists all other additional roles for the NEFFICS Methodology.">
+            <methodElementProperty xmi:id="__plaECyNEeKglPds0ggRbw" name="me_edited" value="true"/>
+            <presentation xmi:id="-6z014ju9DgPUtptbXy4SdQ" href="uma://-6z014ju9DgPUtptbXy4SdQ#-6z014ju9DgPUtptbXy4SdQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0wQ9NidVEeKDGNEPRzZzCg" name="WP Types" guid="_0wQ9NidVEeKDGNEPRzZzCg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0wQ9NydVEeKDGNEPRzZzCg" name="Tools" guid="_0wQ9NydVEeKDGNEPRzZzCg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0wQ9OCdVEeKDGNEPRzZzCg" name="StandardCategories" guid="_0wQ9OCdVEeKDGNEPRzZzCg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0wQ9OSdVEeKDGNEPRzZzCg" name="CustomCategories" guid="_0wQ9OSdVEeKDGNEPRzZzCg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0wQ9OidVEeKDGNEPRzZzCg" name="Hidden" guid="_0wQ9OidVEeKDGNEPRzZzCg">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_0wQ9OydVEeKDGNEPRzZzCg" name="Custom Categories" guid="_0wQ9OydVEeKDGNEPRzZzCg"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0wQ9PCdVEeKDGNEPRzZzCg" name="CoreContent" guid="_0wQ9PCdVEeKDGNEPRzZzCg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_m43doCdXEeKDGNEPRzZzCg" name="neffics_roles" guid="_m43doCdXEeKDGNEPRzZzCg">
+          <methodElementProperty xmi:id="_ncbdsCdXEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_qSz08CdXEeKDGNEPRzZzCg" name="solution_architect" guid="_qSz08CdXEeKDGNEPRzZzCg" presentationName="Solution Architect" briefDescription="This worker is involved in the design of the composition workflow and all the issues around it like security, transactions or exception handling.">
+            <methodElementProperty xmi:id="_1DlP4CdXEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_r5dpsCdXEeKDGNEPRzZzCg" name="it_architect" guid="_r5dpsCdXEeKDGNEPRzZzCg" presentationName="IT Architect" briefDescription="Works on developing and maintaining a service-oriented architecture for the IT portfolio of a company.">
+            <methodElementProperty xmi:id="_yoHTACdXEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <presentation xmi:id="-B89TWRyukUrHOF_7v8vHjQ" href="uma://-B89TWRyukUrHOF_7v8vHjQ#-B89TWRyukUrHOF_7v8vHjQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_uWhiACdXEeKDGNEPRzZzCg" name="business_architect" guid="_uWhiACdXEeKDGNEPRzZzCg" presentationName="Business Architect" briefDescription="Responsible for analyzing the business needs of clients to help identify business problems and propose solutions.">
+            <methodElementProperty xmi:id="_2_p7ACdXEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <presentation xmi:id="-BH6nq4TldkuABnxzVPGG_Q" href="uma://-BH6nq4TldkuABnxzVPGG_Q#-BH6nq4TldkuABnxzVPGG_Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_vIOEsCdXEeKDGNEPRzZzCg" name="innovation_manager" guid="_vIOEsCdXEeKDGNEPRzZzCg" presentationName="Innovation Manager">
+            <methodElementProperty xmi:id="_wvwqQCdXEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0wQ9PSdVEeKDGNEPRzZzCg" name="CapabilityPatterns" guid="_0wQ9PSdVEeKDGNEPRzZzCg"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0wQ9PidVEeKDGNEPRzZzCg" name="DeliveryProcesses" guid="_0wQ9PidVEeKDGNEPRzZzCg"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0wQ9PydVEeKDGNEPRzZzCg" name="ProcessContributions" guid="_0wQ9PydVEeKDGNEPRzZzCg"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

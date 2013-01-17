@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-5d-HsCKCXTvVrCaBjFALWg" name="define_practice,_yXfBcNeSEd-Mq_S1iaxctg" guid="-5d-HsCKCXTvVrCaBjFALWg" changeDate="2011-06-08T17:43:29.407+0200">
+  <mainDescription>This task describes how to define a practice.</mainDescription>
+  <sections xmi:id="_F_9IoJKaEeCbV-Oof7KymA" name="1. Create a practice method plugin." guid="_F_9IoJKaEeCbV-Oof7KymA">
+    <sectionDescription>&lt;p>&#xD;
+    Create a method plugin. In the case of a base plugin name it:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>practice.[discipline_name].[practice_name].base-[organization_name]&lt;/strong>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In the case of an extended plugin name it:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>practice.[discipline_name].[practice_name].extended_[extension_name]-[organization_name]&lt;/strong>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Enter&amp;nbsp;the following information:&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Brief description&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Authors&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Copyright&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_GvPBcJZ0EeCsnZfHiYhT2A" name="2. Define structure of the method plugin." guid="_GvPBcJZ0EeCsnZfHiYhT2A">
+    <sectionDescription>&lt;p>&#xD;
+    Create the following content packages:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>[practice]:&lt;/strong> For&amp;nbsp;each specific practice to be defined in this plugin. Separate practices can&#xD;
+        be factored out into separate plugins later.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>[concept_domain]:&lt;/strong>&amp;nbsp;For each specific concept domain, e.g. a particular specification or&#xD;
+        standard.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>release_info:&lt;/strong> A &quot;release_info&quot; content package.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>tool_mentors:&lt;/strong> A &quot;tool_mentors&quot; content package. Each tool should have their own subpackage within&#xD;
+        this package. These tool mentors can be factored out into separate plugins later.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_IfrTYJKaEeCbV-Oof7KymA" name="3. Create a practice guidance." guid="_IfrTYJKaEeCbV-Oof7KymA">
+    <sectionDescription>Create a practice guidance. This guidance is used to reference all the elements that is part of the navigation structure of&#xD;
+the practice.</sectionDescription>
+  </sections>
+  <sections xmi:id="_KM2m4JKaEeCbV-Oof7KymA" name="4. Create a practice roadmap." guid="_KM2m4JKaEeCbV-Oof7KymA">
+    <sectionDescription>Define a practice roadmap that describes how to adopt the practice. Provide a link to the recommended workflow.</sectionDescription>
+  </sections>
+  <sections xmi:id="_L9EnUJKaEeCbV-Oof7KymA" name="5. Define the method content." guid="_L9EnUJKaEeCbV-Oof7KymA">
+    <sectionDescription>&lt;p>&#xD;
+    Define the method content in terms of:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Roles:&lt;/strong> The roles should contribute to existing roles defined in the MODUS Methodology Framework.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Tasks:&lt;/strong> The&amp;nbsp;tasks should have a primary role and possibly input and output work products.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Work products:&lt;/strong> The work products are the modelling artefacts that are mandated by the&#xD;
+        practice.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_OJhQwJKaEeCbV-Oof7KymA" name="6. Define a recommended workflow." guid="_OJhQwJKaEeCbV-Oof7KymA">
+    <sectionDescription>Define a recommened workflow as a capability pattern. The workflow should sequence the tasks that are defined in the&#xD;
+practice.</sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To define a practice.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

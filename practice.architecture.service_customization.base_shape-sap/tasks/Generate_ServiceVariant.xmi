@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-bQzRkf3umLvNtPgf4oXeRg" name="Generate_ServiceVariant,_cF2SIHXjEd6y559hJOP-yw" guid="-bQzRkf3umLvNtPgf4oXeRg" changeDate="2010-05-19T11:34:19.628+0200" changeDescription="2.0: revision wrt. to final version of the SHAPE Service Variability technique |1.0: initial version" version="2.0">
+  <mainDescription>This provides the guidance for the SHAPE Service Variability tool for creating a SoaML Service Description for a customized&#xD;
+service variant that has been defined within a Service Variability Resolution Model. The SoaML Service Description is&#xD;
+generated automatically from a chosen Service Variability Resolution Model, and &lt;span lang=&quot;EN-US&quot;&#xD;
+style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: NO-BOK; mso-bidi-language: AR-SA&quot;>can&#xD;
+be used for invoking the original service as well as within subsequent service modeling and engineering techniques.&lt;/span></mainDescription>
+  <sections xmi:id="_GWOHgHXkEd6y559hJOP-yw" name="Choose_ServiceVariabilityResolutionModel" guid="_GWOHgHXkEd6y559hJOP-yw">
+    <sectionDescription>&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Open the Service Variability Tool&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Select the Service Variability Resolution Model that describes the customized service variant for which a SoaML&#xD;
+        service description shall be created&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></sectionDescription>
+  </sections>
+  <sections xmi:id="_US1MUHXkEd6y559hJOP-yw" name="Generate_ServiceVariant_Description" guid="_US1MUHXkEd6y559hJOP-yw">
+    <sectionDescription>&lt;p>&#xD;
+    As the final step for creating a customized service variant, a conventional service description&amp;nbsp;for the Service&#xD;
+    Variant is created. This can then be used to can be used to invoke&amp;nbsp;the original service, or further employ it in&#xD;
+    service compositions or other application scenarios. &amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For this, the Service Variability Tool generates a conventional service description from the resolution model created&#xD;
+    in the previous step. The explicit variability modeling and the validation of the usage conditions throughout the&#xD;
+    customization process ensures that the generated service variant model is valid for properly and correctly invoking the&#xD;
+    original service.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+    &lt;span lang=&quot;EN-US&quot; style=&quot;mso-ansi-language: EN-US&quot;>This feature is accessible by invoking the transformation from the&#xD;
+    SHAPE context menu of the respective variability resolution model&lt;/span>&lt;span lang=&quot;EN-US&quot;&#xD;
+    style=&quot;mso-ansi-language: EN-US&quot;>. The generated SoaML description of the service variant is stored folder ‘Variants’&#xD;
+    of the EMF engineering project, and can be used for invoking the original service as well as within subsequent service&#xD;
+    modeling and engineering techniques.&lt;/span>&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>guidance for the SHAPE Service Variability tool for creating a service variant</purpose>
+</org.eclipse.epf.uma:TaskDescription>

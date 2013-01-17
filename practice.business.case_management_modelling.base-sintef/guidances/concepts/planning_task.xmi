@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-wHtDK4OghWKAroL_22OO1A" name="planning_task,_Em6HIJwTEeCb2cFFaexWpQ" guid="-wHtDK4OghWKAroL_22OO1A" changeDate="2011-08-12T16:17:22.258+0200">
+  <mainDescription>&lt;p>&#xD;
+    Planning, or creating or extending the plan, is performed in planning tasks. Planning tasks can be performed by human&#xD;
+    performers, but can also be system-automated tasks. Planning can be performed in two “modes”:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Ad-hoc, just by a human case participant whenever an authorized participant sees the need&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        When specified in the plan, human-interactively as well as automatic.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+Ad-hoc planning: &lt;br />&#xD;
+&lt;br />&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        On-the-fly, at any moment a human case worker wants to plan something.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Based on the planning pallet that is globally defined for the case type.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        An ad hoc planning task is not defined in design-time. It is created in “run-time” and inserted in the plan,&#xD;
+        on-the-fly.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    “Planned” planning:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A planning task can be specified in a case model. It may be placed in the plan at runtime or incorporated in a plan&#xD;
+        fragment or complex task to occur based on an event or completion of other work.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

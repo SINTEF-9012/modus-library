@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ywqsH9f4Wcecf3aTkDYJ8w" name="new_term_definition,_wDfbcJzYEeCjAYLMIp9ZDA" guid="-ywqsH9f4Wcecf3aTkDYJ8w">
+  <mainDescription>&lt;p>&#xD;
+    Provides the definition of a service. Defines the specification of a service interaction as the type of a «Service» or&#xD;
+    «Request» port.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A ServiceInterface defines the interface and responsibilities of a participant to provide or consume a service. It is&#xD;
+    used as the type of a Service or Request Port. A ServiceInterface is the means for specifying how a participant is to&#xD;
+    interact to provide or consume a Service. A ServiceInterface may include specific protocols, commands and information&#xD;
+    exchange by which actions are initiated and the result of the real world effects are made available as specified&#xD;
+    through the functionality portion of a service. A ServiceInterface may address the concepts associated with ownership,&#xD;
+    ownership domains, actions communicated between legal peers, trust, business transactions, authority, delegation, etc.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Service port or Request port or role may be typed by either a ServiceInterface or a simple UML2 Interface. In the&#xD;
+    latter case, there is no protocol associated with the Service. Consumers simply invoke the operations of the Interface.&#xD;
+    A ServiceInterface may also specify various protocols for using the functional capabilities defined by the servicer&#xD;
+    interface. This provides reusable protocol definitions in different Participants providing or consuming the same&#xD;
+    Service.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A ServiceInterface may specify “parts” and “owned behaviors” to further define the responsibilities of participants in&#xD;
+    the service. The parts of a ServiceInterface are typed by the Interfaces realized (provided) and used (required) by the&#xD;
+    ServiceInterface and represent the potential consumers and providers of the functional capabilities defined in those&#xD;
+    interfaces. The owned behaviors of the ServiceInterface specify how the functional capabilities are to be used by&#xD;
+    consumers and implemented by providers. A ServiceInterface therefore represents a formal agreement between consumer&#xD;
+    Requests and providers that may be used to match needs and capabilities.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A service interface may it self have service ports or request ports that define more granular services that serve to&#xD;
+    make up a larger composite service. This allows “enterprise scale” services to be composed from multiple, smaller&#xD;
+    services between the same parties. Internal to a participant connections can be made for the entire service or any one&#xD;
+    of the sub-services, allowing delegation of responsibility for specific parts of the service contract.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    One or more ServiceInterfaces may also be combined in a ServiceContract which can further specify and constrain related&#xD;
+    services provided and consumed by Participants.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

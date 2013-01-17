@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_fP84QMqdEd2_R_cDZp0miQ" guid="_fP84QMqdEd2_R_cDZp0miQ">
+    <resourceDescriptors xmi:id="_fP84QcqdEd2_R_cDZp0miQ" id="-jK265nrp8X9ro6MpYapCww" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_fOT5gMqdEd2_R_cDZp0miQ" name="Service_negotiation" guid="_fOT5gMqdEd2_R_cDZp0miQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_kkJVwMqdEd2_R_cDZp0miQ" name="Negotiate on price and quality" guid="_kkJVwMqdEd2_R_cDZp0miQ" presentationName="Negotiate on price and quality" superActivities="_fOT5gcqdEd2_R_cDZp0miQ" linkToPredecessor="_wvyzQcqdEd2_R_cDZp0miQ" additionallyPerformedBy="_kkJVwsqdEd2_R_cDZp0miQ" mandatoryInput="_kkJVw8qdEd2_R_cDZp0miQ" optionalInput="_kkJVxMqdEd2_R_cDZp0miQ" output="_kkJVxcqdEd2_R_cDZp0miQ" performedPrimarilyBy="_kkJVwcqdEd2_R_cDZp0miQ">
+      <methodElementProperty xmi:id="_j-4L4NeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_kkJVwcqdEd2_R_cDZp0miQ/performedPrimarilyBy/_kkJVwsqdEd2_R_cDZp0miQ/additionallyPerformedBy/_kkJVw8qdEd2_R_cDZp0miQ/mandatoryInput/_kkJVxMqdEd2_R_cDZp0miQ/optionalInput/_kkJVxcqdEd2_R_cDZp0miQ/output"/>
+      <Task href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_Pe1I4MqdEd2_R_cDZp0miQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_kkJVwcqdEd2_R_cDZp0miQ" name="Service Provider" guid="_kkJVwcqdEd2_R_cDZp0miQ" presentationName="Service Provider" superActivities="_fOT5gcqdEd2_R_cDZp0miQ" modifies="_kkJVxcqdEd2_R_cDZp0miQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_kkJVwsqdEd2_R_cDZp0miQ" name="Service Consumer" guid="_kkJVwsqdEd2_R_cDZp0miQ" presentationName="Service Consumer" superActivities="_fOT5gcqdEd2_R_cDZp0miQ" modifies="_kkJVxMqdEd2_R_cDZp0miQ _kkJVw8qdEd2_R_cDZp0miQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_kkJVw8qdEd2_R_cDZp0miQ" name="SLA Proposal" guid="_kkJVw8qdEd2_R_cDZp0miQ" presentationName="SLA Proposal" briefDescription="It is the proposals exchanged during the negotiation process, in the pre-agreement phase, by the involved parties for the improvement of the level of service &#xD;&#xA;This WP could be a join between ontology and natural_language_description of the SHAPE framework" superActivities="_fOT5gcqdEd2_R_cDZp0miQ">
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_W2nrQMqcEd2_R_cDZp0miQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_kkJVxMqdEd2_R_cDZp0miQ" name="SLA Request" guid="_kkJVxMqdEd2_R_cDZp0miQ" presentationName="SLA Request" briefDescription="It is a Service level Agreement made by the consumer&#xD;&#xA;&#xD;&#xA;This WP could be a join between ontology and natural_language_description of the SHAPE framework" superActivities="_fOT5gcqdEd2_R_cDZp0miQ">
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_KZrpcMqcEd2_R_cDZp0miQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_kkJVxcqdEd2_R_cDZp0miQ" name="SLA Contract" guid="_kkJVxcqdEd2_R_cDZp0miQ" presentationName="SLA Contract" briefDescription="It is a formal negotiated agreement between two parties. It is a contract that exists between customers and their service provider, or between service providers. It transcripts the common understanding about services, priorities, responsibilities, guarantee, etc. with the main purpose to agree on the level of service. For example, it may specify the levels of availability, serviceability, performance, operation or other attributes of the service like billing and even penalties in the case of violation of the SLA.&#xD;&#xA;This WP could be a join between ontology and natural_language_description of the SHAPE framework" superActivities="_fOT5gcqdEd2_R_cDZp0miQ">
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_q1yIYMqcEd2_R_cDZp0miQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_l5YqYMqdEd2_R_cDZp0miQ" name="Identify Service Level requirements" guid="_l5YqYMqdEd2_R_cDZp0miQ" presentationName="Identify Service Level requirements" superActivities="_fOT5gcqdEd2_R_cDZp0miQ" additionallyPerformedBy="_kkJVwcqdEd2_R_cDZp0miQ" optionalInput="_l5YqYcqdEd2_R_cDZp0miQ" output="_kkJVxMqdEd2_R_cDZp0miQ" performedPrimarilyBy="_kkJVwsqdEd2_R_cDZp0miQ">
+      <methodElementProperty xmi:id="_j-6BENeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_kkJVwsqdEd2_R_cDZp0miQ/performedPrimarilyBy/_kkJVwcqdEd2_R_cDZp0miQ/additionallyPerformedBy/_l5YqYcqdEd2_R_cDZp0miQ/optionalInput/_kkJVxMqdEd2_R_cDZp0miQ/output"/>
+      <Task href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_4XkSYMqcEd2_R_cDZp0miQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_l5YqYcqdEd2_R_cDZp0miQ" name="Service Specification" guid="_l5YqYcqdEd2_R_cDZp0miQ" presentationName="Service Specification" briefDescription="A Service Specification is usually defined by the Service Developer and may include both functional and non-functional information such as information on the service interface, the service behaviour, service exceptions, test suites, commercial conditions applying to the service (pricing, policies, SLA negotiation parameters) and communication mechanisms.&#xD;&#xA;&#xD;&#xA;This WP could be developed as the &quot;soaml_service_diagram&quot; of the Shape framework" isPlanned="false" isOptional="true" superActivities="_fOT5gcqdEd2_R_cDZp0miQ">
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_VARm8MqXEd2_R_cDZp0miQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nmUGQMqdEd2_R_cDZp0miQ" name="Evaluate available service levels" guid="_nmUGQMqdEd2_R_cDZp0miQ" presentationName="Evaluate available service levels" superActivities="_fOT5gcqdEd2_R_cDZp0miQ" linkToPredecessor="_wVtfUMqdEd2_R_cDZp0miQ" additionallyPerformedBy="_kkJVwcqdEd2_R_cDZp0miQ" mandatoryInput="_kkJVxMqdEd2_R_cDZp0miQ" optionalInput="_l5YqYcqdEd2_R_cDZp0miQ" output="_kkJVw8qdEd2_R_cDZp0miQ" performedPrimarilyBy="_kkJVwsqdEd2_R_cDZp0miQ">
+      <methodElementProperty xmi:id="_j-5aANeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_kkJVwsqdEd2_R_cDZp0miQ/performedPrimarilyBy/_kkJVwcqdEd2_R_cDZp0miQ/additionallyPerformedBy/_kkJVxMqdEd2_R_cDZp0miQ/mandatoryInput/_l5YqYcqdEd2_R_cDZp0miQ/optionalInput/_kkJVw8qdEd2_R_cDZp0miQ/output"/>
+      <Task href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_DObHMMqdEd2_R_cDZp0miQ"/>
+      <outputExclude href="uma://_kwazABFxEd6C2PqX2OSy5A#_Kff7QBfEEd61O54aE5cSOg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_wVtfUMqdEd2_R_cDZp0miQ" guid="_wVtfUMqdEd2_R_cDZp0miQ" pred="_l5YqYMqdEd2_R_cDZp0miQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_wvyzQcqdEd2_R_cDZp0miQ" guid="_wvyzQcqdEd2_R_cDZp0miQ" pred="_nmUGQMqdEd2_R_cDZp0miQ"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_fOT5gcqdEd2_R_cDZp0miQ" name="Service_negotiation" guid="_fOT5gcqdEd2_R_cDZp0miQ" presentationName="Service negotiation" breakdownElements="_l5YqYMqdEd2_R_cDZp0miQ _nmUGQMqdEd2_R_cDZp0miQ _kkJVwMqdEd2_R_cDZp0miQ _kkJVwcqdEd2_R_cDZp0miQ _kkJVwsqdEd2_R_cDZp0miQ _kkJVw8qdEd2_R_cDZp0miQ _kkJVxMqdEd2_R_cDZp0miQ _kkJVxcqdEd2_R_cDZp0miQ _l5YqYcqdEd2_R_cDZp0miQ">
+      <methodElementProperty xmi:id="_j-6oINeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-jK265nrp8X9ro6MpYapCww" href="uma://-jK265nrp8X9ro6MpYapCww#-jK265nrp8X9ro6MpYapCww"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

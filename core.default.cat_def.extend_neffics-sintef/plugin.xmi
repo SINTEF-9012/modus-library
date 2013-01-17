@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_XzbKUBWsEeGINOUzJIOMxA" guid="_XzbKUBWsEeGINOUzJIOMxA">
+    <resourceDescriptors xmi:id="_7fNRUBWsEeGINOUzJIOMxA" id="-_CC3AY2HrJdwRsnzhcK-NQ" uri="disciplines/networked_innovation_discipline.xmi"/>
+    <resourceDescriptors xmi:id="_Ff4YUCdaEeKDGNEPRzZzCg" id="-ITVkCtU0d-_Kb87alD2rkw" uri="disciplines/networked_business_value_analysis_discipline.xmi"/>
+    <resourceDescriptors xmi:id="_cG02UC0IEeKyWralSrmW_A" id="-oJnx28ebzQNsbi00Tns2Eg" uri="disciplines/networked_process_and_service_modelling_discipline.xmi"/>
+    <resourceDescriptors xmi:id="_rQXBQC0IEeKyWralSrmW_A" id="-iZRv9EyUaEExJnsYx7-5gw" uri="disciplines/software_architecture_discipline.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Xy_FcBWsEeGINOUzJIOMxA" name="core.default.cat_def.extend_neffics-sintef" guid="_Xy_FcBWsEeGINOUzJIOMxA" briefDescription="This plugin contains additional Disciplines and Domains for NEFFICS." authors="Brian Elvesæter (SINTEF)" changeDate="2011-11-23T09:24:27.549+0100">
+    <methodElementProperty xmi:id="_Xzk7UBWsEeGINOUzJIOMxA" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="__-E5cCdVEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Xy_FcRWsEeGINOUzJIOMxA" name="Content" guid="_Xy_FcRWsEeGINOUzJIOMxA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Xy_FchWsEeGINOUzJIOMxA" name="Categories" guid="_Xy_FchWsEeGINOUzJIOMxA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Xy_FcxWsEeGINOUzJIOMxA" name="Domains" guid="_Xy_FcxWsEeGINOUzJIOMxA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_-LTEIBWsEeGINOUzJIOMxA" name="networked_innovation_domain" guid="_-LTEIBWsEeGINOUzJIOMxA" presentationName="Networked Innovation" briefDescription="This is the list of work products related to the Networked Innovation domain.">
+            <methodElementProperty xmi:id="_1z0vICdZEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_254_UCdZEeKDGNEPRzZzCg" name="networked_business_value_analysis_domain" guid="_254_UCdZEeKDGNEPRzZzCg" presentationName="Networked Business Value Analysis" briefDescription="This is the list of work products related to the Networked Business Value Analysis domain.">
+            <methodElementProperty xmi:id="_4d3TgCdZEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_6SPsEC0IEeKyWralSrmW_A" name="networked_process_and_service_modelling_domain" guid="_6SPsEC0IEeKyWralSrmW_A" presentationName="Networked Process and Service Modelling" briefDescription="This is the list of work products related to the Networked Process and Service Modelling domain.">
+            <methodElementProperty xmi:id="_9AKD0C0IEeKyWralSrmW_A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_BMRe8C0JEeKyWralSrmW_A" name="software_architecture_domain" guid="_BMRe8C0JEeKyWralSrmW_A" presentationName="Software Architecture" briefDescription="This is the list of work products related to the Software Architecture domain.">
+            <methodElementProperty xmi:id="_ErBdwC0JEeKyWralSrmW_A" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Xy_FdBWsEeGINOUzJIOMxA" name="Disciplines" guid="_Xy_FdBWsEeGINOUzJIOMxA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_r65O4BWsEeGINOUzJIOMxA" name="networked_innovation_discipline" guid="_r65O4BWsEeGINOUzJIOMxA" presentationName="Networked Innovation" briefDescription="This discipline covers Innovation Management and Leadership.">
+            <methodElementProperty xmi:id="_TZBH0CdZEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <presentation xmi:id="-_CC3AY2HrJdwRsnzhcK-NQ" href="uma://-_CC3AY2HrJdwRsnzhcK-NQ#-_CC3AY2HrJdwRsnzhcK-NQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_vy6VkCdZEeKDGNEPRzZzCg" name="networked_business_value_analysis_discipline" guid="_vy6VkCdZEeKDGNEPRzZzCg" presentationName="Networked Business Value Analysis" briefDescription="This discipline covers Value Delivery Modelling and Business Value Analysis.">
+            <methodElementProperty xmi:id="_yfCkoCdZEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <presentation xmi:id="-ITVkCtU0d-_Kb87alD2rkw" href="uma://-ITVkCtU0d-_Kb87alD2rkw#-ITVkCtU0d-_Kb87alD2rkw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_kmsbEC0HEeKyWralSrmW_A" name="networked_process_and_service_modelling_discipline" guid="_kmsbEC0HEeKyWralSrmW_A" presentationName="Networked Process and Services Modelling" briefDescription="This discipline covers Service Modelling, Case Management Modelling and Business Process Modelling.">
+            <methodElementProperty xmi:id="_m-djsC0HEeKyWralSrmW_A" name="me_edited" value="true"/>
+            <presentation xmi:id="-oJnx28ebzQNsbi00Tns2Eg" href="uma://-oJnx28ebzQNsbi00Tns2Eg#-oJnx28ebzQNsbi00Tns2Eg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_dCks4C0IEeKyWralSrmW_A" name="software_architecture_discipline" guid="_dCks4C0IEeKyWralSrmW_A" presentationName="Software Architecture" briefDescription="This discipline covers Software Architecture specification and realization.">
+            <methodElementProperty xmi:id="_f6QEoC0IEeKyWralSrmW_A" name="me_edited" value="true"/>
+            <presentation xmi:id="-iZRv9EyUaEExJnsYx7-5gw" href="uma://-iZRv9EyUaEExJnsYx7-5gw#-iZRv9EyUaEExJnsYx7-5gw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Xy_FdRWsEeGINOUzJIOMxA" name="RoleSets" guid="_Xy_FdRWsEeGINOUzJIOMxA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Xy_FdhWsEeGINOUzJIOMxA" name="WP Types" guid="_Xy_FdhWsEeGINOUzJIOMxA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Xy_FdxWsEeGINOUzJIOMxA" name="Tools" guid="_Xy_FdxWsEeGINOUzJIOMxA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Xy_FeBWsEeGINOUzJIOMxA" name="StandardCategories" guid="_Xy_FeBWsEeGINOUzJIOMxA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Xy_FeRWsEeGINOUzJIOMxA" name="CustomCategories" guid="_Xy_FeRWsEeGINOUzJIOMxA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Xy_FehWsEeGINOUzJIOMxA" name="Hidden" guid="_Xy_FehWsEeGINOUzJIOMxA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Xy_FexWsEeGINOUzJIOMxA" name="Custom Categories" guid="_Xy_FexWsEeGINOUzJIOMxA" categorizedElements="_YGUGwCmxEeK5vc5kbcw8xg"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_YGUGwCmxEeK5vc5kbcw8xg" name="modelling_languages" guid="_YGUGwCmxEeK5vc5kbcw8xg" presentationName="Modelling languages" categorizedElements="_1qG70CmxEeK5vc5kbcw8xg _3QdOkCmxEeK5vc5kbcw8xg _4c07ECmxEeK5vc5kbcw8xg _56S-oCmxEeK5vc5kbcw8xg">
+            <methodElementProperty xmi:id="_aiUPICmxEeK5vc5kbcw8xg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_1qG70CmxEeK5vc5kbcw8xg" name="vdml" guid="_1qG70CmxEeK5vc5kbcw8xg" presentationName="VDML">
+            <methodElementProperty xmi:id="_2sov0CmxEeK5vc5kbcw8xg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_3QdOkCmxEeK5vc5kbcw8xg" name="bpmn" guid="_3QdOkCmxEeK5vc5kbcw8xg" presentationName="BPMN">
+            <methodElementProperty xmi:id="_3_NyACmxEeK5vc5kbcw8xg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_4c07ECmxEeK5vc5kbcw8xg" name="cmmn" guid="_4c07ECmxEeK5vc5kbcw8xg" presentationName="CMMN">
+            <methodElementProperty xmi:id="_5c8UQCmxEeK5vc5kbcw8xg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_56S-oCmxEeK5vc5kbcw8xg" name="serviceml" guid="_56S-oCmxEeK5vc5kbcw8xg" presentationName="ServiceML">
+            <methodElementProperty xmi:id="_8M0a4CmxEeK5vc5kbcw8xg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Xy_FfBWsEeGINOUzJIOMxA" name="CoreContent" guid="_Xy_FfBWsEeGINOUzJIOMxA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_JQU30BWtEeGINOUzJIOMxA" name="neffics_deliverables" guid="_JQU30BWtEeGINOUzJIOMxA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_MI6OgBWtEeGINOUzJIOMxA" name="innovation_model" guid="_MI6OgBWtEeGINOUzJIOMxA" presentationName="Innovation Model">
+            <methodElementProperty xmi:id="_QTbMsCdVEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_GLXWgLVlEeG-o5qJTdyH5A" name="business_model" guid="_GLXWgLVlEeG-o5qJTdyH5A" presentationName="Business Model">
+            <methodElementProperty xmi:id="_Hj_9YLVlEeG-o5qJTdyH5A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_4zQQcLVlEeG-o5qJTdyH5A" name="service_model" guid="_4zQQcLVlEeG-o5qJTdyH5A" presentationName="Service Model">
+            <methodElementProperty xmi:id="_5wSgcLVlEeG-o5qJTdyH5A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_ttDGkMEiEeGgb_xjjvFwfg" name="value_delivery_model" guid="_ttDGkMEiEeGgb_xjjvFwfg" presentationName="Value Delivery Model">
+            <methodElementProperty xmi:id="_wLKu0MEiEeGgb_xjjvFwfg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_yoXxEMEiEeGgb_xjjvFwfg" name="business_process_model" guid="_yoXxEMEiEeGgb_xjjvFwfg" presentationName="Business Process Model">
+            <methodElementProperty xmi:id="_2C8agMEiEeGgb_xjjvFwfg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_-3L3UMEiEeGgb_xjjvFwfg" name="business_values" guid="_-3L3UMEiEeGgb_xjjvFwfg" presentationName="Business Values">
+            <methodElementProperty xmi:id="_AF6UQMEjEeGgb_xjjvFwfg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_aOXL0CdVEeKDGNEPRzZzCg" name="case_management_model" guid="_aOXL0CdVEeKDGNEPRzZzCg" presentationName="Case Management Model">
+            <methodElementProperty xmi:id="_bjKbkCdVEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Xy_FfRWsEeGINOUzJIOMxA" name="CapabilityPatterns" guid="_Xy_FfRWsEeGINOUzJIOMxA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Xy_FfhWsEeGINOUzJIOMxA" name="DeliveryProcesses" guid="_Xy_FfhWsEeGINOUzJIOMxA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Xy_FfxWsEeGINOUzJIOMxA" name="ProcessContributions" guid="_Xy_FfxWsEeGINOUzJIOMxA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_KbzGMNa7Ed-d6Ia20mQhAw" guid="_KbzGMNa7Ed-d6Ia20mQhAw">
+    <subManagers xmi:id="_PKxy8dz_Ed-xB8a51ZHHaA" href="uma://_PI_DMNz_Ed-xB8a51ZHHaA#_PKxy8dz_Ed-xB8a51ZHHaA"/>
+    <resourceDescriptors xmi:id="_wIwlUda8Ed-d6Ia20mQhAw" id="-933rMrNXE9LL7XW8oLSjGA" uri="workproducts/context_statement.xmi"/>
+    <resourceDescriptors xmi:id="_DvHKwdbGEd-d6Ia20mQhAw" id="-5FS2K-bCXz2vlYPKws57pQ" uri="workproducts/vision_statement.xmi"/>
+    <resourceDescriptors xmi:id="_QWkagNbGEd-d6Ia20mQhAw" id="-QftojvqJ6ELLvSkdTxEw8A" uri="tasks/define_vision_statement.xmi"/>
+    <resourceDescriptors xmi:id="_DloCIdbHEd-d6Ia20mQhAw" id="-LEXJ0YrOW4L3BjVqds4d0Q" uri="tasks/define_context_statement.xmi"/>
+    <resourceDescriptors xmi:id="_nnOoINbHEd-d6Ia20mQhAw" id="-bS6314b4zRgNqlGSQnbFbA" uri="guidances/practices/business_modelling_scoping.xmi"/>
+    <resourceDescriptors xmi:id="_uwzOYN0TEd-xB8a51ZHHaA" id="-bKfrqnMIAyPU8_lPhdPv3g" uri="guidances/supportingmaterials/release_info_business_modelling_scoping.xmi"/>
+    <resourceDescriptors xmi:id="_mn5mwOEHEd-QcdsL5iaWCQ" id="-vlojnzTo6fnIPmnKbG5rFw" uri="guidances/roadmaps/how_to_adopt_business_modelling_scoping.xmi"/>
+    <resourceDescriptors xmi:id="_PJSlMdz_Ed-xB8a51ZHHaA" id="_PI_DMNz_Ed-xB8a51ZHHaA" uri="capabilitypatterns/define_scoping_statements/model.xmi"/>
+    <resourceDescriptors xmi:id="_zRv4ERQ1EeGgOd2_jEsctg" id="-05-TkdBsA_a1TW3pjR2_dg" uri="guidances/examples/buildingsmart_rich_picture.xmi"/>
+    <resourceDescriptors xmi:id="_Acu2MBQ3EeGgOd2_jEsctg" id="-jLnD0Lym6Ixceb-EiUoxgw" uri="guidances/examples/sport_event_rich_picture.xmi"/>
+    <resourceDescriptors xmi:id="_cirg8S8uEeKCfteVlJj9Dg" id="-PCwalPXjNjX5wFwaMtLXVQ" uri="guidances/examples/sisas_tutorial.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_KbpVMNa7Ed-d6Ia20mQhAw" name="practice.business.business_modelling_scoping.base-sintef" guid="_KbpVMNa7Ed-d6Ia20mQhAw" briefDescription="This plugin contains the COMET business modelling scoping practice." authors="Brian Elvesæter (SINTEF)" changeDate="2010-10-26T15:40:50.432+0200">
+    <methodElementProperty xmi:id="_kNvuUNeMEd-Mq_S1iaxctg" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_KbpVMda7Ed-d6Ia20mQhAw" name="Content" guid="_KbpVMda7Ed-d6Ia20mQhAw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_KbpVMta7Ed-d6Ia20mQhAw" name="Categories" guid="_KbpVMta7Ed-d6Ia20mQhAw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_KbpVM9a7Ed-d6Ia20mQhAw" name="Domains" guid="_KbpVM9a7Ed-d6Ia20mQhAw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_FDy4kOXWEd-o7-eCfuNF5g" name="business_modelling_domain.assign" guid="_FDy4kOXWEd-o7-eCfuNF5g" variabilityType="contributes" workProducts="_VAi30OGyEd-AyrTFSpVP8g">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_iESMoNxcEd-LYKXkOhPACw#_SgtFkN0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_KbpVNNa7Ed-d6Ia20mQhAw" name="Disciplines" guid="_KbpVNNa7Ed-d6Ia20mQhAw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_H48cANbIEd-d6Ia20mQhAw" name="business_modelling_discipline.assign" guid="_H48cANbIEd-d6Ia20mQhAw" variabilityType="contributes" tasks="_ustH8NbFEd-d6Ia20mQhAw _xiozQNbFEd-d6Ia20mQhAw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_iESMoNxcEd-LYKXkOhPACw#_-ftccN0BEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_KbpVNda7Ed-d6Ia20mQhAw" name="RoleSets" guid="_KbpVNda7Ed-d6Ia20mQhAw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_KbpVNta7Ed-d6Ia20mQhAw" name="WP Types" guid="_KbpVNta7Ed-d6Ia20mQhAw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_KbpVN9a7Ed-d6Ia20mQhAw" name="Tools" guid="_KbpVN9a7Ed-d6Ia20mQhAw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_KbpVONa7Ed-d6Ia20mQhAw" name="StandardCategories" guid="_KbpVONa7Ed-d6Ia20mQhAw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_KbpVOda7Ed-d6Ia20mQhAw" name="CustomCategories" guid="_KbpVOda7Ed-d6Ia20mQhAw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_KbpVOta7Ed-d6Ia20mQhAw" name="Hidden" guid="_KbpVOta7Ed-d6Ia20mQhAw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_KbpVO9a7Ed-d6Ia20mQhAw" name="Custom Categories" guid="_KbpVO9a7Ed-d6Ia20mQhAw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_KbpVPNa7Ed-d6Ia20mQhAw" name="CoreContent" guid="_KbpVPNa7Ed-d6Ia20mQhAw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ixiskNa8Ed-d6Ia20mQhAw" name="business_modelling_scoping" guid="_ixiskNa8Ed-d6Ia20mQhAw" presentationName="Context statement">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ustH8NbFEd-d6Ia20mQhAw" name="define_context_statement" guid="_ustH8NbFEd-d6Ia20mQhAw" presentationName="Define context statement" briefDescription="Define context statement." examples="_es_akBQ1EeGgOd2_jEsctg _-Dpe8BQ2EeGgOd2_jEsctg" performedBy="_jWOu8NxXEd-LYKXkOhPACw" output="_njcVUNa8Ed-d6Ia20mQhAw" additionallyPerformedBy="_xSIpINxXEd-LYKXkOhPACw">
+            <presentation xmi:id="-LEXJ0YrOW4L3BjVqds4d0Q" href="uma://-LEXJ0YrOW4L3BjVqds4d0Q#-LEXJ0YrOW4L3BjVqds4d0Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_xiozQNbFEd-d6Ia20mQhAw" name="define_vision_statement" guid="_xiozQNbFEd-d6Ia20mQhAw" presentationName="Define vision statement" briefDescription="Define vision statement." performedBy="_jWOu8NxXEd-LYKXkOhPACw" output="_5gNc4Na8Ed-d6Ia20mQhAw" additionallyPerformedBy="_xSIpINxXEd-LYKXkOhPACw">
+            <presentation xmi:id="-QftojvqJ6ELLvSkdTxEw8A" href="uma://-QftojvqJ6ELLvSkdTxEw8A#-QftojvqJ6ELLvSkdTxEw8A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_hswNwNbHEd-d6Ia20mQhAw" name="business_modelling_scoping" guid="_hswNwNbHEd-d6Ia20mQhAw" presentationName="Business modelling scoping" briefDescription="This practice describes how to scope your business modelling by defining a set of scoping statements." contentReferences="_es_akBQ1EeGgOd2_jEsctg _MuTpQC8uEeKCfteVlJj9Dg _-Dpe8BQ2EeGgOd2_jEsctg _njcVUNa8Ed-d6Ia20mQhAw _5gNc4Na8Ed-d6Ia20mQhAw _ustH8NbFEd-d6Ia20mQhAw _xiozQNbFEd-d6Ia20mQhAw _jWOu8NxXEd-LYKXkOhPACw _xSIpINxXEd-LYKXkOhPACw _a77q8NuNEd-pTLmXJigeaQ">
+            <methodElementProperty xmi:id="_ut7JYC8uEeKCfteVlJj9Dg" name="me_edited" value="true"/>
+            <presentation xmi:id="-bS6314b4zRgNqlGSQnbFbA" href="uma://-bS6314b4zRgNqlGSQnbFbA#-bS6314b4zRgNqlGSQnbFbA"/>
+            <activityReferences href="uma://_PI_DMNz_Ed-xB8a51ZHHaA#_PI_DMdz_Ed-xB8a51ZHHaA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_a77q8NuNEd-pTLmXJigeaQ" name="how_to_adopt_business_modelling_scoping" guid="_a77q8NuNEd-pTLmXJigeaQ" presentationName="How to adopt the business modelling scoping practice" briefDescription="This roadmap describes how to adopt the business modelling scoping practice.">
+            <presentation xmi:id="-vlojnzTo6fnIPmnKbG5rFw" href="uma://-vlojnzTo6fnIPmnKbG5rFw#-vlojnzTo6fnIPmnKbG5rFw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_jWOu8NxXEd-LYKXkOhPACw" name="business_analyst.assign" guid="_jWOu8NxXEd-LYKXkOhPACw" variabilityType="contributes" responsibleFor="_njcVUNa8Ed-d6Ia20mQhAw _5gNc4Na8Ed-d6Ia20mQhAw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_VHH-AOEPEd-QcdsL5iaWCQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_xSIpINxXEd-LYKXkOhPACw" name="stakeholder.assign" guid="_xSIpINxXEd-LYKXkOhPACw" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_K7n0EOaFEd-2NJepU9I_bg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_VAi30OGyEd-AyrTFSpVP8g" name="business_model.assign" guid="_VAi30OGyEd-AyrTFSpVP8g" variabilityType="contributes" deliveredWorkProducts="_njcVUNa8Ed-d6Ia20mQhAw _5gNc4Na8Ed-d6Ia20mQhAw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_DETUsOGyEd-AyrTFSpVP8g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_njcVUNa8Ed-d6Ia20mQhAw" name="context_statement" guid="_njcVUNa8Ed-d6Ia20mQhAw" presentationName="Context statement" briefDescription="The context statement places the subject of study, e.g. software system, within its environment." examples="_es_akBQ1EeGgOd2_jEsctg _-Dpe8BQ2EeGgOd2_jEsctg">
+            <presentation xmi:id="-933rMrNXE9LL7XW8oLSjGA" href="uma://-933rMrNXE9LL7XW8oLSjGA#-933rMrNXE9LL7XW8oLSjGA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_5gNc4Na8Ed-d6Ia20mQhAw" name="vision_statement" guid="_5gNc4Na8Ed-d6Ia20mQhAw" presentationName="Vision statement" briefDescription="Vision of the software to be developed.">
+            <presentation xmi:id="-5FS2K-bCXz2vlYPKws57pQ" href="uma://-5FS2K-bCXz2vlYPKws57pQ#-5FS2K-bCXz2vlYPKws57pQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_es_akBQ1EeGgOd2_jEsctg" name="buildingsmart_rich_picture" guid="_es_akBQ1EeGgOd2_jEsctg" presentationName="buildingSMART: Rich picture" briefDescription="buildingSMART: Rich picture">
+            <presentation xmi:id="-05-TkdBsA_a1TW3pjR2_dg" href="uma://-05-TkdBsA_a1TW3pjR2_dg#-05-TkdBsA_a1TW3pjR2_dg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_-Dpe8BQ2EeGgOd2_jEsctg" name="sport_event_rich_picture" guid="_-Dpe8BQ2EeGgOd2_jEsctg" presentationName="Sport event: Rich picture" briefDescription="Sport event: Rich picture">
+            <presentation xmi:id="-jLnD0Lym6Ixceb-EiUoxgw" href="uma://-jLnD0Lym6Ixceb-EiUoxgw#-jLnD0Lym6Ixceb-EiUoxgw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_MuTpQC8uEeKCfteVlJj9Dg" name="sisas_tutorial" guid="_MuTpQC8uEeKCfteVlJj9Dg" presentationName="SiSaS: Business Modelling Scoping tutorial" briefDescription="SiSaS: Business Modelling Scoping tutorial">
+            <methodElementProperty xmi:id="_cilaUC8uEeKCfteVlJj9Dg" name="me_edited" value="true"/>
+            <presentation xmi:id="-PCwalPXjNjX5wFwaMtLXVQ" href="uma://-PCwalPXjNjX5wFwaMtLXVQ#-PCwalPXjNjX5wFwaMtLXVQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RJ03sNuNEd-pTLmXJigeaQ" name="release_info" guid="_RJ03sNuNEd-pTLmXJigeaQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_ThcPUNuNEd-pTLmXJigeaQ" name="release_info_business_modelling_scoping" guid="_ThcPUNuNEd-pTLmXJigeaQ" presentationName="Practice: Business modelling scoping" briefDescription="Business modelling scoping practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <methodElementProperty xmi:id="__7674C8tEeKCfteVlJj9Dg" name="me_edited" value="true"/>
+            <presentation xmi:id="-bKfrqnMIAyPU8_lPhdPv3g" href="uma://-bKfrqnMIAyPU8_lPhdPv3g#-bKfrqnMIAyPU8_lPhdPv3g"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_KbpVPda7Ed-d6Ia20mQhAw" name="CapabilityPatterns" guid="_KbpVPda7Ed-d6Ia20mQhAw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_GqRA8OEREd-QcdsL5iaWCQ" name="business_modelling_scoping" guid="_GqRA8OEREd-QcdsL5iaWCQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_PI_DMNz_Ed-xB8a51ZHHaA" href="uma://_PI_DMNz_Ed-xB8a51ZHHaA#_PI_DMNz_Ed-xB8a51ZHHaA"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_KbpVPta7Ed-d6Ia20mQhAw" name="DeliveryProcesses" guid="_KbpVPta7Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_KbpVP9a7Ed-d6Ia20mQhAw" name="ProcessContributions" guid="_KbpVP9a7Ed-d6Ia20mQhAw"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_A118oMYaEdyXeo04os5BOw#_A118oMYaEdyXeo04os5BOw"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

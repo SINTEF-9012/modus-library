@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_L8RpYRz1Ed60rOWMCnTZyg" guid="_L8RpYRz1Ed60rOWMCnTZyg">
+    <resourceDescriptors xmi:id="_L8RpYhz1Ed60rOWMCnTZyg" id="-b6Ui8EwpBjkvBWa9gIp9Hw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_fFzVUJHiEeC1cpVMwFmQkQ" id="-pG0OhFR7rqbwD9UeGOyhvg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_fF0jcJHiEeC1cpVMwFmQkQ" id="-A_jmjS94jfwL070rmlPqFw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_fF1KgJHiEeC1cpVMwFmQkQ" id="-r4-Ih31XvImvbjwH7Wg_Vg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_fF2YoJHiEeC1cpVMwFmQkQ" id="-wU4ChdZCQxOlvDbloHV3uw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_fF3mwJHiEeC1cpVMwFmQkQ" id="-9YSem14A8Tw_oFHWj-k44Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_fF5b8JHiEeC1cpVMwFmQkQ" id="-6qyNbbZWNQeuCVlXdEav7g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_fF6qEJHiEeC1cpVMwFmQkQ" id="-itlmVImS-p0fPeDGBXAw6A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_fF7RIJHiEeC1cpVMwFmQkQ" id="--q_h3w6ZRmjKPqxX1Xkabw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_lndEcJHiEeC1cpVMwFmQkQ" id="-rcZO0Y2i8Ij1mt-yk0AYAQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_wSlxcJHiEeC1cpVMwFmQkQ" id="-AGY4E141-gXH3HBXVrOTPg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_L7YRgBz1Ed60rOWMCnTZyg" name="language_engineering" guid="_L7YRgBz1Ed60rOWMCnTZyg">
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_52tcgd27Ed-ms9NsV3fnQQ" name="language_engineer" guid="_52tcgd27Ed-ms9NsV3fnQQ" presentationName="Language engineer" isPlanned="false" superActivities="_L7YRgRz1Ed60rOWMCnTZyg" modifies="_sGah4VYLEeCmC7fuNTHhhQ _sGmIEVYLEeCmC7fuNTHhhQ _52tch927Ed-ms9NsV3fnQQ _52tchN27Ed-ms9NsV3fnQQ _sGtc0VYLEeCmC7fuNTHhhQ">
+      <methodElementProperty xmi:id="_52tcgt27Ed-ms9NsV3fnQQ" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_I4PvwBoYEd6Vpr8V6Jy-eA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_52tchN27Ed-ms9NsV3fnQQ" name="language_abstract_syntax_metamodel" guid="_52tchN27Ed-ms9NsV3fnQQ" presentationName="Language abstract syntax (metamodel)" briefDescription="Specification of the abstract syntax (metamodel) of the modelling language." isPlanned="false" superActivities="_L7YRgRz1Ed60rOWMCnTZyg">
+      <methodElementProperty xmi:id="_52tchd27Ed-ms9NsV3fnQQ" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-pG0OhFR7rqbwD9UeGOyhvg" href="uma://-b6Ui8EwpBjkvBWa9gIp9Hw#-pG0OhFR7rqbwD9UeGOyhvg"/>
+      <WorkProduct href="uma://_C7QigLzIEd-GWpfvmLDtFA#_BthqgB0CEd65QJax4GT0MQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_52tch927Ed-ms9NsV3fnQQ" name="language_concrete_syntax" guid="_52tch927Ed-ms9NsV3fnQQ" presentationName="Language concrete syntax" briefDescription="Specification of the graphical (and possible textual) syntax of the modelling language." isPlanned="false" superActivities="_L7YRgRz1Ed60rOWMCnTZyg">
+      <methodElementProperty xmi:id="_52tciN27Ed-ms9NsV3fnQQ" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-A_jmjS94jfwL070rmlPqFw" href="uma://-b6Ui8EwpBjkvBWa9gIp9Hw#-A_jmjS94jfwL070rmlPqFw"/>
+      <WorkProduct href="uma://_C7QigLzIEd-GWpfvmLDtFA#_v0qykB0BEd65QJax4GT0MQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_G6SUYFYJEeCmC7fuNTHhhQ" name="define_language_domain" guid="_G6SUYFYJEeCmC7fuNTHhhQ" presentationName="Define language domain" briefDescription="This task describes how to define the domain of the modelling language." superActivities="_L7YRgRz1Ed60rOWMCnTZyg" additionallyPerformedBy="_BYcIgVYhEeCmC7fuNTHhhQ" output="_sGah4VYLEeCmC7fuNTHhhQ" performedPrimarilyBy="_52tcgd27Ed-ms9NsV3fnQQ">
+      <presentation xmi:id="-r4-Ih31XvImvbjwH7Wg_Vg" href="uma://-b6Ui8EwpBjkvBWa9gIp9Hw#-r4-Ih31XvImvbjwH7Wg_Vg"/>
+      <Task href="uma://_C7QigLzIEd-GWpfvmLDtFA#_1R8QkB0iEd65QJax4GT0MQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_sGah4VYLEeCmC7fuNTHhhQ" name="language_domain_model" guid="_sGah4VYLEeCmC7fuNTHhhQ" presentationName="Language domain model" briefDescription="Specification of the domain model or conceptual model of the domain that the modelling language should cover." isPlanned="false" superActivities="_L7YRgRz1Ed60rOWMCnTZyg">
+      <methodElementProperty xmi:id="_sGah4lYLEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-wU4ChdZCQxOlvDbloHV3uw" href="uma://-b6Ui8EwpBjkvBWa9gIp9Hw#-wU4ChdZCQxOlvDbloHV3uw"/>
+      <WorkProduct href="uma://_C7QigLzIEd-GWpfvmLDtFA#_fMcrUCXaEd-wiJ8m5XAddw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_sGmIEVYLEeCmC7fuNTHhhQ" name="language_semantics" guid="_sGmIEVYLEeCmC7fuNTHhhQ" presentationName="Language semantics" briefDescription="Specification of the semantics of the modelling language." isPlanned="false" superActivities="_L7YRgRz1Ed60rOWMCnTZyg">
+      <methodElementProperty xmi:id="_sGmIElYLEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-9YSem14A8Tw_oFHWj-k44Q" href="uma://-b6Ui8EwpBjkvBWa9gIp9Hw#-9YSem14A8Tw_oFHWj-k44Q"/>
+      <WorkProduct href="uma://_C7QigLzIEd-GWpfvmLDtFA#_mNuKoBz6Ed60rOWMCnTZyg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_sGtc0VYLEeCmC7fuNTHhhQ" name="language_quality_report" guid="_sGtc0VYLEeCmC7fuNTHhhQ" presentationName="Language quality report" briefDescription="Quality report of the specified modelling language." isPlanned="false" superActivities="_L7YRgRz1Ed60rOWMCnTZyg">
+      <methodElementProperty xmi:id="_sGtc0lYLEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-6qyNbbZWNQeuCVlXdEav7g" href="uma://-b6Ui8EwpBjkvBWa9gIp9Hw#-6qyNbbZWNQeuCVlXdEav7g"/>
+      <WorkProduct href="uma://_C7QigLzIEd-GWpfvmLDtFA#_GDJ1sBz8Ed60rOWMCnTZyg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_FnONMFYNEeCmC7fuNTHhhQ" name="specify_semantics" guid="_FnONMFYNEeCmC7fuNTHhhQ" presentationName="Specify semantics" briefDescription="This task describes how to specify the semantics of the modelling language." superActivities="_L7YRgRz1Ed60rOWMCnTZyg" linkToPredecessor="_kthy0JHiEeC1cpVMwFmQkQ" mandatoryInput="_52tchN27Ed-ms9NsV3fnQQ" optionalInput="_sGah4VYLEeCmC7fuNTHhhQ" output="_sGmIEVYLEeCmC7fuNTHhhQ" performedPrimarilyBy="_52tcgd27Ed-ms9NsV3fnQQ">
+      <presentation xmi:id="-itlmVImS-p0fPeDGBXAw6A" href="uma://-b6Ui8EwpBjkvBWa9gIp9Hw#-itlmVImS-p0fPeDGBXAw6A"/>
+      <Task href="uma://_C7QigLzIEd-GWpfvmLDtFA#_VJ42MBz6Ed60rOWMCnTZyg"/>
+      <selectedSteps href="uma://-1iAEWVebw1l-qHQMaFM5lQ#_fHo3wB0FEd65QJax4GT0MQ"/>
+      <selectedSteps href="uma://-1iAEWVebw1l-qHQMaFM5lQ#_jJbSMB0FEd65QJax4GT0MQ"/>
+      <selectedSteps href="uma://-1iAEWVebw1l-qHQMaFM5lQ#_jw6wAB0FEd65QJax4GT0MQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_YwBqEFYNEeCmC7fuNTHhhQ" name="specify_concrete_syntax" guid="_YwBqEFYNEeCmC7fuNTHhhQ" presentationName="Specify concrete syntax" briefDescription="This task describes how to specify the concrete syntax of the modelling language." superActivities="_L7YRgRz1Ed60rOWMCnTZyg" linkToPredecessor="_ktldMJHiEeC1cpVMwFmQkQ" mandatoryInput="_52tchN27Ed-ms9NsV3fnQQ" optionalInput="_sGah4VYLEeCmC7fuNTHhhQ" output="_52tch927Ed-ms9NsV3fnQQ" performedPrimarilyBy="_52tcgd27Ed-ms9NsV3fnQQ">
+      <presentation xmi:id="--q_h3w6ZRmjKPqxX1Xkabw" href="uma://-b6Ui8EwpBjkvBWa9gIp9Hw#--q_h3w6ZRmjKPqxX1Xkabw"/>
+      <Task href="uma://_C7QigLzIEd-GWpfvmLDtFA#_Jeu2oBz6Ed60rOWMCnTZyg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_4Fn-gFYOEeCmC7fuNTHhhQ" guid="_4Fn-gFYOEeCmC7fuNTHhhQ" pred="_FnONMFYNEeCmC7fuNTHhhQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_8dEf4FYOEeCmC7fuNTHhhQ" guid="_8dEf4FYOEeCmC7fuNTHhhQ" pred="_YwBqEFYNEeCmC7fuNTHhhQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_BYcIgVYhEeCmC7fuNTHhhQ" name="domain_expert" guid="_BYcIgVYhEeCmC7fuNTHhhQ" presentationName="Domain expert" isPlanned="false" superActivities="_L7YRgRz1Ed60rOWMCnTZyg">
+      <methodElementProperty xmi:id="_BYcIglYhEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_eTQf0BoYEd6Vpr8V6Jy-eA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_BYiPIVYhEeCmC7fuNTHhhQ" name="model_quality_checker" guid="_BYiPIVYhEeCmC7fuNTHhhQ" presentationName="Model quality checker" isPlanned="false" superActivities="_L7YRgRz1Ed60rOWMCnTZyg">
+      <methodElementProperty xmi:id="_BYiPIlYhEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_igD3cBoYEd6Vpr8V6Jy-eA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_jV__MJHiEeC1cpVMwFmQkQ" name="specify_abstract_syntax" guid="_jV__MJHiEeC1cpVMwFmQkQ" presentationName="Specify abstract syntax" briefDescription="This task describes how to specify the abstract syntax of the modelling language.This task describes how to specify the semantics of the modelling language." superActivities="_L7YRgRz1Ed60rOWMCnTZyg" linkToPredecessor="_lIepcJHiEeC1cpVMwFmQkQ" mandatoryInput="_sGah4VYLEeCmC7fuNTHhhQ" output="_52tchN27Ed-ms9NsV3fnQQ" performedPrimarilyBy="_52tcgd27Ed-ms9NsV3fnQQ">
+      <presentation xmi:id="-rcZO0Y2i8Ij1mt-yk0AYAQ" href="uma://-b6Ui8EwpBjkvBWa9gIp9Hw#-rcZO0Y2i8Ij1mt-yk0AYAQ"/>
+      <Task href="uma://_C7QigLzIEd-GWpfvmLDtFA#_vMwUcBz1Ed60rOWMCnTZyg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_kthy0JHiEeC1cpVMwFmQkQ" guid="_kthy0JHiEeC1cpVMwFmQkQ" pred="_jV__MJHiEeC1cpVMwFmQkQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_ktldMJHiEeC1cpVMwFmQkQ" guid="_ktldMJHiEeC1cpVMwFmQkQ" pred="_jV__MJHiEeC1cpVMwFmQkQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_lIepcJHiEeC1cpVMwFmQkQ" guid="_lIepcJHiEeC1cpVMwFmQkQ" pred="_G6SUYFYJEeCmC7fuNTHhhQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_vkFFoJHiEeC1cpVMwFmQkQ" name="check_language_quality" guid="_vkFFoJHiEeC1cpVMwFmQkQ" presentationName="Check language quality" briefDescription="This task describes how to check the quality of the modelling language." superActivities="_L7YRgRz1Ed60rOWMCnTZyg" linkToPredecessor="_xwGRQJHiEeC1cpVMwFmQkQ _xwIGcJHiEeC1cpVMwFmQkQ" additionallyPerformedBy="_BYiPIVYhEeCmC7fuNTHhhQ" output="_sGtc0VYLEeCmC7fuNTHhhQ" performedPrimarilyBy="_52tcgd27Ed-ms9NsV3fnQQ">
+      <presentation xmi:id="-AGY4E141-gXH3HBXVrOTPg" href="uma://-b6Ui8EwpBjkvBWa9gIp9Hw#-AGY4E141-gXH3HBXVrOTPg"/>
+      <Task href="uma://_C7QigLzIEd-GWpfvmLDtFA#_MsvDsBz6Ed60rOWMCnTZyg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_xwGRQJHiEeC1cpVMwFmQkQ" guid="_xwGRQJHiEeC1cpVMwFmQkQ" pred="_YwBqEFYNEeCmC7fuNTHhhQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_xwIGcJHiEeC1cpVMwFmQkQ" guid="_xwIGcJHiEeC1cpVMwFmQkQ" pred="_FnONMFYNEeCmC7fuNTHhhQ"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_L7YRgRz1Ed60rOWMCnTZyg" name="language_engineering" guid="_L7YRgRz1Ed60rOWMCnTZyg" presentationName="Language engineering" breakdownElements="_G6SUYFYJEeCmC7fuNTHhhQ _jV__MJHiEeC1cpVMwFmQkQ _YwBqEFYNEeCmC7fuNTHhhQ _FnONMFYNEeCmC7fuNTHhhQ _52tcgd27Ed-ms9NsV3fnQQ _52tchN27Ed-ms9NsV3fnQQ _52tch927Ed-ms9NsV3fnQQ _sGah4VYLEeCmC7fuNTHhhQ _sGmIEVYLEeCmC7fuNTHhhQ _sGtc0VYLEeCmC7fuNTHhhQ _BYcIgVYhEeCmC7fuNTHhhQ _BYiPIVYhEeCmC7fuNTHhhQ _vkFFoJHiEeC1cpVMwFmQkQ">
+      <methodElementProperty xmi:id="_kBCIANeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-b6Ui8EwpBjkvBWa9gIp9Hw" href="uma://-b6Ui8EwpBjkvBWa9gIp9Hw#-b6Ui8EwpBjkvBWa9gIp9Hw"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_n-8CEFX-EeCmC7fuNTHhhQ"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_n-8CEFX-EeCmC7fuNTHhhQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

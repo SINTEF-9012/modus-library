@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_eSvXQQeWEeCk4NIWYgM-Lg" guid="_eSvXQQeWEeCk4NIWYgM-Lg">
+    <resourceDescriptors xmi:id="_eSvXQgeWEeCk4NIWYgM-Lg" id="-hGExcDupyMM2qSWM8NHmwQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_4_79MQeXEeCk4NIWYgM-Lg" id="-388RPjN-CPRBKAZfAUvZxA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_eR_wYAeWEeCk4NIWYgM-Lg" name="deployment" guid="_eR_wYAeWEeCk4NIWYgM-Lg">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_01f9EAeXEeCk4NIWYgM-Lg" name="generate_code" guid="_01f9EAeXEeCk4NIWYgM-Lg" presentationName="Generate code" briefDescription="This task details how to perpare the component types and use them to generate code skeletons for the OSGi runtime." isPlanned="false" superActivities="_eR_wYQeWEeCk4NIWYgM-Lg" mandatoryInput="_01f9EweXEeCk4NIWYgM-Lg" output="_01f9FQeXEeCk4NIWYgM-Lg" performedPrimarilyBy="_01f9EQeXEeCk4NIWYgM-Lg">
+      <Task href="uma://_QSaGcPJVEd-FpZGj9I_2_g#_7_iYQPJWEd-FpZGj9I_2_g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_01f9EQeXEeCk4NIWYgM-Lg" name="system_developer" guid="_01f9EQeXEeCk4NIWYgM-Lg" presentationName="System developer" briefDescription="This is the worker who builds the services." isPlanned="false" superActivities="_eR_wYQeWEeCk4NIWYgM-Lg" modifies="_01f9FQeXEeCk4NIWYgM-Lg _01puEQeXEeCk4NIWYgM-Lg _01puFAeXEeCk4NIWYgM-Lg" responsibleFor="_01puFAeXEeCk4NIWYgM-Lg _01puEQeXEeCk4NIWYgM-Lg _01f9FQeXEeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_01f9EgeXEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-388RPjN-CPRBKAZfAUvZxA" href="uma://-hGExcDupyMM2qSWM8NHmwQ#-388RPjN-CPRBKAZfAUvZxA"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJxhntEd6VV7P4WguglA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_01f9EweXEeCk4NIWYgM-Lg" name="architectural_aspects_model" guid="_01f9EweXEeCk4NIWYgM-Lg" presentationName="Architectural aspects model" briefDescription="In the DiVA approach, the variability in the system is implemented by separating the variants defined in the adaptation models in aspect models which can be woven in the base application whenever this variant is selected in a configuration during reasoning." isPlanned="false" superActivities="_eR_wYQeWEeCk4NIWYgM-Lg" deliverableParts="_01y4AQeXEeCk4NIWYgM-Lg _01y4BAeXEeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_01f9FAeXEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_ijALQO5rEd-0xPxjwuNm4A#_PKMBgPJSEd-FpZGj9I_2_g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_01f9FQeXEeCk4NIWYgM-Lg" name="OSGi_factories" guid="_01f9FQeXEeCk4NIWYgM-Lg" presentationName="OSGi factories" briefDescription="An OSGi factory is a code skeleton from the component types, for the OSGi runtime." isPlanned="false" superActivities="_eR_wYQeWEeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_01f9FgeXEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_QSaGcPJVEd-FpZGj9I_2_g#_0pX4cPJVEd-FpZGj9I_2_g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_01puEQeXEeCk4NIWYgM-Lg" name="adaptation_reasoner" guid="_01puEQeXEeCk4NIWYgM-Lg" presentationName="Adaptation_reasoner" briefDescription="Which of the available reasoners to use during runtime." isPlanned="false" superActivities="_eR_wYQeWEeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_01puEgeXEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_QSaGcPJVEd-FpZGj9I_2_g#_1g7OsPJZEd-FpZGj9I_2_g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_01puFAeXEeCk4NIWYgM-Lg" name="deployed_diva_system" guid="_01puFAeXEeCk4NIWYgM-Lg" presentationName="Deployed DiVA system" isPlanned="false" superActivities="_eR_wYQeWEeCk4NIWYgM-Lg" deliverableParts="_01f9FQeXEeCk4NIWYgM-Lg _01puEQeXEeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_01puFQeXEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_QSaGcPJVEd-FpZGj9I_2_g#_TVpYgPJWEd-FpZGj9I_2_g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_01y4AQeXEeCk4NIWYgM-Lg" name="aspect_models" guid="_01y4AQeXEeCk4NIWYgM-Lg" presentationName="Aspect models" briefDescription="For each variant in the adaptation model, one aspect should be defined in order to implement the feature provided by this variant in the application." isPlanned="false">
+      <methodElementProperty xmi:id="_01y4AgeXEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_ijALQO5rEd-0xPxjwuNm4A#_Z3M90PJSEd-FpZGj9I_2_g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_01y4BAeXEeCk4NIWYgM-Lg" name="base_architecture_model" guid="_01y4BAeXEeCk4NIWYgM-Lg" presentationName="Base architecture model" briefDescription="The base model includes the general architecture of the application and the components which should be present in all configurations of the system." isPlanned="false">
+      <methodElementProperty xmi:id="_01y4BQeXEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_ijALQO5rEd-0xPxjwuNm4A#_VTSGsPJSEd-FpZGj9I_2_g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_1FmOkAeXEeCk4NIWYgM-Lg" name="select_runtime_reasoner" guid="_1FmOkAeXEeCk4NIWYgM-Lg" presentationName="Select runtime reasoner" briefDescription="An important part of developing an adaptive system is to select a good reasoner and reasoning strategy. The adaptation reasoning framework provides reasoning on the adaptation model to get valid configurations for a given context scenario. " isPlanned="false" superActivities="_eR_wYQeWEeCk4NIWYgM-Lg" mandatoryInput="_1FvYgAeXEeCk4NIWYgM-Lg" output="_01puEQeXEeCk4NIWYgM-Lg" performedPrimarilyBy="_01f9EQeXEeCk4NIWYgM-Lg">
+      <Task href="uma://_QSaGcPJVEd-FpZGj9I_2_g#_p4_0MPJXEd-FpZGj9I_2_g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_1FvYgAeXEeCk4NIWYgM-Lg" name="architecture_model" guid="_1FvYgAeXEeCk4NIWYgM-Lg" presentationName="Architecture model" briefDescription="This deliverable constitutes the DiVA adaptation model that is used at runtime to drive system adaptation" isPlanned="false" superActivities="_eR_wYQeWEeCk4NIWYgM-Lg" deliverableParts="_1HrSMQeXEeCk4NIWYgM-Lg _1HrSNAeXEeCk4NIWYgM-Lg _1HrSNweXEeCk4NIWYgM-Lg _1HrSOgeXEeCk4NIWYgM-Lg _1HrSPQeXEeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_1FvYgQeXEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_iESMoNxcEd-LYKXkOhPACw#_vIqTYOG2Ed-AyrTFSpVP8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_1HrSMQeXEeCk4NIWYgM-Lg" name="variant_model" guid="_1HrSMQeXEeCk4NIWYgM-Lg" presentationName="Variant model" briefDescription="This work product contains the variability of the system, i.e. the parts of the system that can change during adaptation." isPlanned="false">
+      <methodElementProperty xmi:id="_1HrSMgeXEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_g5Y9gOzIEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_1HrSNAeXEeCk4NIWYgM-Lg" name="context_model" guid="_1HrSNAeXEeCk4NIWYgM-Lg" presentationName="Context model" briefDescription="The context elements that affect system adaptation" isPlanned="false">
+      <methodElementProperty xmi:id="_1HrSNQeXEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_c9aQIOzIEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_1HrSNweXEeCk4NIWYgM-Lg" name="test_cases" guid="_1HrSNweXEeCk4NIWYgM-Lg" presentationName="Test cases" briefDescription="Test cases are defined and used to test the adaptation model." isPlanned="false">
+      <methodElementProperty xmi:id="_1HrSOAeXEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_kqpooOzIEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_1HrSOgeXEeCk4NIWYgM-Lg" name="constraints_model" guid="_1HrSOgeXEeCk4NIWYgM-Lg" presentationName="Constraints model" briefDescription="The constraints on the variability and context of the adaptation model, to control number of possible configurations." isPlanned="false">
+      <methodElementProperty xmi:id="_1HrSOweXEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_pAFbAOzMEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_1HrSPQeXEeCk4NIWYgM-Lg" name="adaptation_policies" guid="_1HrSPQeXEeCk4NIWYgM-Lg" presentationName="Adaptation policies" briefDescription="This artifact contains the adaptation policies of the adaptation model, i.e. Properties, QoS impacts and Priority rules" isPlanned="false">
+      <methodElementProperty xmi:id="_1HrSPgeXEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_sa1qoOzMEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_1UyhIAeXEeCk4NIWYgM-Lg" name="deploy_and_execute" guid="_1UyhIAeXEeCk4NIWYgM-Lg" presentationName="Deploy the OSGi factories and DiVA runtime" briefDescription="This task describes how to deploy the OSGi factories and DiVA@Runtime. In other words, it explains how to deploy the DiVA components responsible for the dynamic adaptations of the business application." isPlanned="false" superActivities="_eR_wYQeWEeCk4NIWYgM-Lg" linkToPredecessor="_tjbBIAeYEeCk4NIWYgM-Lg _tjbBIQeYEeCk4NIWYgM-Lg" mandatoryInput="_01f9FQeXEeCk4NIWYgM-Lg _01puEQeXEeCk4NIWYgM-Lg _1FvYgAeXEeCk4NIWYgM-Lg" output="_01puFAeXEeCk4NIWYgM-Lg" performedPrimarilyBy="_01f9EQeXEeCk4NIWYgM-Lg">
+      <Task href="uma://_QSaGcPJVEd-FpZGj9I_2_g#_BYiAwPJYEd-FpZGj9I_2_g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_tjbBIAeYEeCk4NIWYgM-Lg" guid="_tjbBIAeYEeCk4NIWYgM-Lg" pred="_01f9EAeXEeCk4NIWYgM-Lg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_tjbBIQeYEeCk4NIWYgM-Lg" guid="_tjbBIQeYEeCk4NIWYgM-Lg" pred="_1FmOkAeXEeCk4NIWYgM-Lg"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_eR_wYQeWEeCk4NIWYgM-Lg" name="deployment" guid="_eR_wYQeWEeCk4NIWYgM-Lg" presentationName="Deployment" briefDescription="This capability pattern defines the guided procedure for deploying and executing a DiVA system." breakdownElements="_01f9EAeXEeCk4NIWYgM-Lg _01f9EQeXEeCk4NIWYgM-Lg _01f9EweXEeCk4NIWYgM-Lg _01f9FQeXEeCk4NIWYgM-Lg _01puEQeXEeCk4NIWYgM-Lg _01puFAeXEeCk4NIWYgM-Lg _1FmOkAeXEeCk4NIWYgM-Lg _1FvYgAeXEeCk4NIWYgM-Lg _1UyhIAeXEeCk4NIWYgM-Lg">
+      <presentation xmi:id="-hGExcDupyMM2qSWM8NHmwQ" href="uma://-hGExcDupyMM2qSWM8NHmwQ#-hGExcDupyMM2qSWM8NHmwQ"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_Uw9rsAOIEeCKOY6tSwZy2A"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_Uw9rsAOIEeCKOY6tSwZy2A"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

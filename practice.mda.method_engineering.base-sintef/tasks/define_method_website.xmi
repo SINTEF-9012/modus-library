@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-6TgzU-Z90_zg1JOrse63Ig" name="define_methodology_website,_Spw54NtgEd-pTLmXJigeaQ" guid="-6TgzU-Z90_zg1JOrse63Ig" changeDate="2011-06-08T17:44:55.265+0200">
+  <mainDescription>This task describes how to define a method website.</mainDescription>
+  <sections xmi:id="__5IXMJZxEeCsnZfHiYhT2A" name="1. Create a publish method plugin." guid="__5IXMJZxEeCsnZfHiYhT2A">
+    <sectionDescription>&lt;p>&#xD;
+    Create a method plugin with the following name:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>publish.[method_name].base-[organization_name]&lt;/strong>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Enter&amp;nbsp;the following information:&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Brief description&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Authors&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Copyright&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_-3xq4JsyEeCUVsvAQA6WrA" name="2. Add plugin references for the publish method plugin." guid="_-3xq4JsyEeCUVsvAQA6WrA">
+    <sectionDescription>&lt;p>&#xD;
+    Select the following core plugins to include in the configuration:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        core.default.nav_view.*&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        core.default.release_copyright.*&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        core.default.role_def.*&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Select the practice plugins&amp;nbsp;to include in the configuration:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        practices.*&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Select the process plugins&amp;nbsp;to include in the configuration:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        process.*&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_moeq8JZ0EeCsnZfHiYhT2A" name="3. Define guidance elements for your method website." guid="_moeq8JZ0EeCsnZfHiYhT2A">
+    <sectionDescription>&lt;p>&#xD;
+    Define the following guidance elements for your method website:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>getting_started_[method_name]_method:&lt;/strong> Getting starting guidance.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>release_info_[method_name]_method:&lt;/strong> Release information.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>welcome.[method_name]:&lt;/strong> Welcome page that &lt;strong>replaces&lt;/strong> the default welcome page.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_-mfjQJZ0EeCsnZfHiYhT2A" name="4. Define custom categories for navigation tree." guid="_-mfjQJZ0EeCsnZfHiYhT2A">
+    <sectionDescription>&lt;p>&#xD;
+    Define custom categories for the elements that should be visible in the navigation tree. These categories&#xD;
+    &lt;strong>contributes&lt;/strong> to the default navigation categories. Typical categories to be defined are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>delivery_process_list.[method_name]&lt;/strong>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>getting_started_list.[method_name]&lt;/strong>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>release_info.[method_name]&lt;/strong>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>role_set_list.[method_name]&lt;/strong>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>structured_practice_list.[method_name]&lt;/strong>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>tool_list.[method_name]&lt;/strong>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_K2CekJsxEeCUVsvAQA6WrA" name="5. Select plugins and packages for configuration." guid="_K2CekJsxEeCUVsvAQA6WrA">
+    <sectionDescription>&lt;p>&#xD;
+    Select the following core plugins to include in the configuration:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        core.default.nav_view.*&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        core.default.release_copyright.*&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        core.default.role_def.*&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Select the practice plugins&amp;nbsp;to include in the configuration:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        practices.*&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Select the process plugins&amp;nbsp;to include in the configuration:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        process.*&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_i30nUJZ1EeCsnZfHiYhT2A" name="6. Add navigation view to the publish configuration." guid="_i30nUJZ1EeCsnZfHiYhT2A">
+    <sectionDescription>&lt;p>&#xD;
+    You should have already create a publish configuration for your publish plugin. Add a default view to your&#xD;
+    configuration. The default view is named &lt;strong>Methodology&lt;/strong> and can be found in the following plugin:&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>navigation_view_generic.sintef&lt;/strong>&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To define a method website.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

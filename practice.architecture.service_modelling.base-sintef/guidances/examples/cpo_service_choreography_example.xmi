@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-WZd85rwiw2fJflLKJaVZUg" name="new_example,_8jiQgL6WEeCOB4Yzghr2dQ" guid="-WZd85rwiw2fJflLKJaVZUg" changeDate="2011-08-04T14:43:00.496+0200">
+  <mainDescription>&lt;h3>&#xD;
+    Cell Phone Operator (CPO): Service choreography&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Figure 16 specifies the behaviour of the service interface PlaceOrderInterface using an interaction diagram. The&#xD;
+    service interface describes a bi-directional service with a call-back at the client-side (see &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.architecture.service_modelling.base-sintef/guidances/examples/cpo_interfaces_and_messages_example_31B93979.html&quot;&#xD;
+     guid=&quot;_0sB-ML6VEeCOB4Yzghr2dQ&quot;>CPO: Interfaces and messages example&lt;/a>). The customer invokes the operation&#xD;
+    placeOrder on the interface MobileServicesOrder. A message type OrderResponse is returned to the customer. Then the CPO&#xD;
+    invokes the callback confirmOrderAndPay on the interface CustomerOrder at the customer-side which triggers a signal&#xD;
+    forcing the customer to confirm and pay for the order and invoke the operation payBill.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/cpo_system_service_choreography_example.png&quot; width=&quot;410&quot; height=&quot;307&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 16:&lt;/strong> Service choreography or service interface behaviour defined as a UML interaction (UML&#xD;
+    sequence diagram)&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

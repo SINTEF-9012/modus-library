@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_-lo7IKCaEeCDeuCvIJDK3A" guid="_-lo7IKCaEeCDeuCvIJDK3A">
+    <resourceDescriptors xmi:id="_QPJGINVZEeCbz_HpayPmUw" id="-2QG4E3PjEfQ6qBaqRNCmag" uri="guidances/supportingmaterials/welcome.sisas-wp1.xmi"/>
+    <resourceDescriptors xmi:id="_TDW6MNVZEeCbz_HpayPmUw" id="-S1gfZuXtKueQI1yK5IIpGw" uri="guidances/supportingmaterials/getting_started_sisas-wp1_method.xmi"/>
+    <resourceDescriptors xmi:id="_fVpLMNVZEeCbz_HpayPmUw" id="-tNJ8s-muDdEtODPS3RdIEQ" uri="guidances/supportingmaterials/release_info_sisas-wp1_method.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_-lfxMKCaEeCDeuCvIJDK3A" name="publish.sisas-wp1.base-sintef" guid="_-lfxMKCaEeCDeuCvIJDK3A" briefDescription="This plugin contains the FINEST method website structure." authors="Brian Elvesæter (SINTEF)" changeDate="2011-11-18T11:48:05.526+0100">
+    <methodElementProperty xmi:id="_-lo7IqCaEeCDeuCvIJDK3A" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-lfxMaCaEeCDeuCvIJDK3A" name="Content" guid="_-lfxMaCaEeCDeuCvIJDK3A">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-lfxMqCaEeCDeuCvIJDK3A" name="Categories" guid="_-lfxMqCaEeCDeuCvIJDK3A">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-lfxM6CaEeCDeuCvIJDK3A" name="Domains" guid="_-lfxM6CaEeCDeuCvIJDK3A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-lfxNKCaEeCDeuCvIJDK3A" name="Disciplines" guid="_-lfxNKCaEeCDeuCvIJDK3A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-lfxNaCaEeCDeuCvIJDK3A" name="RoleSets" guid="_-lfxNaCaEeCDeuCvIJDK3A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-lfxNqCaEeCDeuCvIJDK3A" name="WP Types" guid="_-lfxNqCaEeCDeuCvIJDK3A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-lfxN6CaEeCDeuCvIJDK3A" name="Tools" guid="_-lfxN6CaEeCDeuCvIJDK3A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-lfxOKCaEeCDeuCvIJDK3A" name="StandardCategories" guid="_-lfxOKCaEeCDeuCvIJDK3A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-lfxOaCaEeCDeuCvIJDK3A" name="CustomCategories" guid="_-lfxOaCaEeCDeuCvIJDK3A">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-lfxOqCaEeCDeuCvIJDK3A" name="Hidden" guid="_-lfxOqCaEeCDeuCvIJDK3A">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_-lfxO6CaEeCDeuCvIJDK3A" name="Custom Categories" guid="_-lfxO6CaEeCDeuCvIJDK3A" categorizedElements="_lKRCEKCcEeCzt7DuRwruAQ _AxJuINVZEeCbz_HpayPmUw _6MM9YA-CEeGUrJHR_a_BCQ"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_lKRCEKCcEeCzt7DuRwruAQ" name="structured_practice_list.sisas" guid="_lKRCEKCcEeCzt7DuRwruAQ" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_RJ__ECLJEd2ct852UDqXGQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_KbpVMNa7Ed-d6Ia20mQhAw#_hswNwNbHEd-d6Ia20mQhAw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_WT4R4DwEEd-wzrbdBPyHjA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_8vpggJ5CEeCPm6RiYJY55g#_f8k1YZ5QEeCOkvcSVgl5mQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_yHcxoLzIEd-GWpfvmLDtFA#_grQtoNadEd-0IssHA-UzUw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_HIVxoJ5OEeCOkvcSVgl5mQ#_BSjioZ5REeCOkvcSVgl5mQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_bcvpIDwEEd-wzrbdBPyHjA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_lhfrkDwEEd-wzrbdBPyHjA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_Psr-oNhIEd-luNMZUPxfLg#_sL2DsDwEEd-wzrbdBPyHjA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_Hz9OMG5KEdyAHIxjZ9kpqw#_9z1PgJ6NEdyQN-zRFaRrCQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_6Ab_EOF4Edyp34pwdTOSVQ#_hhlSMA-MEeGvZJJrUZdBHA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_AxJuINVZEeCbz_HpayPmUw" name="release_info.sisas" guid="_AxJuINVZEeCbz_HpayPmUw" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_irqswCLOEd2ct852UDqXGQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_KbpVMNa7Ed-d6Ia20mQhAw#_ThcPUNuNEd-pTLmXJigeaQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_NsBCMNrLEd-RHtsSMqnPrA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_8vpggJ5CEeCPm6RiYJY55g#_20jvMJ5PEeCOkvcSVgl5mQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_yHcxoLzIEd-GWpfvmLDtFA#_vjEuENuNEd-pTLmXJigeaQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_HIVxoJ5OEeCOkvcSVgl5mQ#_1PARMJ5QEeCOkvcSVgl5mQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_Ts6JQNqtEd-RHtsSMqnPrA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_cRTMMNqtEd-RHtsSMqnPrA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_Psr-oNhIEd-luNMZUPxfLg#_Mm3_ANuPEd-pTLmXJigeaQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_Hz9OMG5KEdyAHIxjZ9kpqw#_9dA3EWmVEd2wW88Ut0zE5w"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_6Ab_EOF4Edyp34pwdTOSVQ#_vAUaIQ-KEeGvZJJrUZdBHA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_6MM9YA-CEeGUrJHR_a_BCQ" name="delivery_process_list.sisas" guid="_6MM9YA-CEeGUrJHR_a_BCQ" shapeicon="customcategories/resources/delproc_lg_dgm32.gif" nodeicon="customcategories/resources/delproc_obj.gif" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCIHYsRdEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_nWBXkNVYEeCbz_HpayPmUw#_nWKhgNVYEeCbz_HpayPmUw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_IVeKQNVQEeCSuohv1oAxXQ#_IVfYZtVQEeCSuohv1oAxXQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-lfxPKCaEeCDeuCvIJDK3A" name="CoreContent" guid="_-lfxPKCaEeCDeuCvIJDK3A">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MDY3YNVZEeCbz_HpayPmUw" name="sisas-wp1_method" guid="_MDY3YNVZEeCbz_HpayPmUw">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_QOfl4NVZEeCbz_HpayPmUw" name="welcome.sisas-wp1" guid="_QOfl4NVZEeCbz_HpayPmUw" presentationName="Welcome" briefDescription="Welcome to the SiSaS method website." shapeicon="guidances/supportingmaterials/resources/micL.gif" nodeicon="guidances/supportingmaterials/resources/mic.gif" variabilityType="replaces">
+            <presentation xmi:id="-2QG4E3PjEfQ6qBaqRNCmag" href="uma://-2QG4E3PjEfQ6qBaqRNCmag#-2QG4E3PjEfQ6qBaqRNCmag"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_g910gCapEd21TMX858E1gw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_TCkQANVZEeCbz_HpayPmUw" name="getting_started_sisas-wp1_method" guid="_TCkQANVZEeCbz_HpayPmUw" presentationName="SiSaS method" briefDescription="Advice for using the SiSaS method's practices." shapeicon="guidances/supportingmaterials/resources/icon_introL.gif" nodeicon="guidances/supportingmaterials/resources/mic.gif">
+            <presentation xmi:id="-S1gfZuXtKueQI1yK5IIpGw" href="uma://-S1gfZuXtKueQI1yK5IIpGw#-S1gfZuXtKueQI1yK5IIpGw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_fU91wNVZEeCbz_HpayPmUw" name="release_info_sisas-wp1_method" guid="_fU91wNVZEeCbz_HpayPmUw" presentationName="Method: SiSaS method" briefDescription="SiSaS method release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-tNJ8s-muDdEtODPS3RdIEQ" href="uma://-tNJ8s-muDdEtODPS3RdIEQ#-tNJ8s-muDdEtODPS3RdIEQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_-lfxPaCaEeCDeuCvIJDK3A" name="CapabilityPatterns" guid="_-lfxPaCaEeCDeuCvIJDK3A"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_-lfxPqCaEeCDeuCvIJDK3A" name="DeliveryProcesses" guid="_-lfxPqCaEeCDeuCvIJDK3A"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_-lfxP6CaEeCDeuCvIJDK3A" name="ProcessContributions" guid="_-lfxP6CaEeCDeuCvIJDK3A"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_7J4wUNq1Ed-RHtsSMqnPrA#_7J4wUNq1Ed-RHtsSMqnPrA"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_8vpggJ5CEeCPm6RiYJY55g#_8vpggJ5CEeCPm6RiYJY55g"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_yLWzUNxbEd-LYKXkOhPACw#_yLWzUNxbEd-LYKXkOhPACw"/>
+    <bases href="uma://_W7PiIKCdEeCzt7DuRwruAQ#_W7PiIKCdEeCzt7DuRwruAQ"/>
+    <bases href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_1zV0AC5mEd6lwuZlFT8K0A"/>
+    <bases href="uma://_KbpVMNa7Ed-d6Ia20mQhAw#_KbpVMNa7Ed-d6Ia20mQhAw"/>
+    <bases href="uma://_7TPU4McSEd-2_-I8Ok7trA#_7TPU4McSEd-2_-I8Ok7trA"/>
+    <bases href="uma://_Psr-oNhIEd-luNMZUPxfLg#_Psr-oNhIEd-luNMZUPxfLg"/>
+    <bases href="uma://_yHcxoLzIEd-GWpfvmLDtFA#_yHcxoLzIEd-GWpfvmLDtFA"/>
+    <bases href="uma://_Hz9OMG5KEdyAHIxjZ9kpqw#_Hz9OMG5KEdyAHIxjZ9kpqw"/>
+    <bases href="uma://_IItp4MuXEdyLOriywSJkoQ#_IItp4MuXEdyLOriywSJkoQ"/>
+    <bases href="uma://_6Ab_EOF4Edyp34pwdTOSVQ#_6Ab_EOF4Edyp34pwdTOSVQ"/>
+    <bases href="uma://_HIVxoJ5OEeCOkvcSVgl5mQ#_HIVxoJ5OEeCOkvcSVgl5mQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

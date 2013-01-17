@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-TL6bidLlhczCIu1LUjeO6w" name=",_TvJOAKm5Ed6h0djySBNI9g" guid="-TL6bidLlhczCIu1LUjeO6w" authors="Mick Kerrigan, Davide Cerri (UIBK)" changeDate="2009-09-25T11:54:23.263+0200" version="0.1">
+  <sections xmi:id="_kOaqkKm-Ed6h0djySBNI9g" name="Create mappings" guid="_kOaqkKm-Ed6h0djySBNI9g">
+    <sectionDescription>Two approaches can be defined to implementing the mappings. A bottom-up approach to creating mappings means that the&#xD;
+engineer starts by creating mappings from the most primitive ontological concepts in the source and target ontologies, and&#xD;
+then builds upon these mappings to create more complex mappings between more complex ontological concepts. Using this&#xD;
+approach allows the mappings between primitive ontological concepts to act as a minimal agreed upon set of mappings between&#xD;
+the source and target ontologies, making the creation of more complex mappings much easier. Intuitively a top-down approach&#xD;
+to creating mappings happens from the opposite end as the bottom-up approach with the&amp;nbsp;engineer creating mappings for&#xD;
+the more complex ontological concepts first and then addressing less complex ontological concepts as they are reached&#xD;
+through the mapping process. This approach is much more useful when the identified breadth of mappings required is much&#xD;
+smaller than the breadth of the source ontologies. In such a scenario using a bottom-up approach, the engineer would risk&#xD;
+creating unnecessary mappings between primitive ontological concepts.</sectionDescription>
+  </sections>
+  <purpose>The aim of this task is to define mappings between different ontologies.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

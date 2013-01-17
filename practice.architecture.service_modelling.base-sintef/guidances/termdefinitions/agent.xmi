@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-61b8hGtH8Ym5hISWNjy5fA" name="new_term_definition,_CNJTAJzaEeCjAYLMIp9ZDA" guid="-61b8hGtH8Ym5hISWNjy5fA">
+  <mainDescription>&lt;p>&#xD;
+    An Agent is a classification of autonomous entities that can adapt to and interact with their environment.&amp;nbsp; It&#xD;
+    describes a set of agent instances that have features, constraints, and semantics in common.&amp;nbsp; Agents in SoaML are&#xD;
+    also participants, providing and using services.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In general, agents can be software agents, hardware agents, firmware agents, robotic agents, human agents, and so on.&#xD;
+    While software developers naturally think of IT systems as being constructed of only software agents, a combination of&#xD;
+    agent mechanisms might in fact be used from shop-floor manufacturing to warfare systems.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    These properties are mainly covered by a set of core aspects each focusing on different viewpoints of an agent system.&#xD;
+    Even if these aspects do not directly appear in the SoaML metamodel, we can relate them to SoaML-related concepts. Each&#xD;
+    aspect of an agent may be expressed as a services architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Depending on the viewpoint of an agent system, various aspects are prominent. Even if these aspects do not directly&#xD;
+    appear in the SoaML metamodel, we can relate them to SoaML-related concepts.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Agent aspect – describes single autonomous entities and the capabilities each can possess to solve tasks within an&#xD;
+        agent system. In SoaML, the stereotype Agent describes a set of agent instances that provides particular service&#xD;
+        capabilities.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Collaboration aspect – describes how single autonomous entities collaborate within the multiagent systems (MAS) and&#xD;
+        how complex organizational structures can be defined. In SoaML, a ServicesArchtiecture describes how aspects of&#xD;
+        agents interact for a purpose. Collaboration can involve situations such as cooperation and competition.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Role aspect – covers feasible specializations and how they could be related to each role type. In SoaML, the&#xD;
+        concept of a role is especially used in the context of service contracts. Like in agent systems, the role type&#xD;
+        indicates which responsibilities an actor has to take on.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interaction aspect – describes how the interactions between autonomous entities or groups/organizations take place.&#xD;
+        Each interaction specification includes both the actors involved and the order which messages are exchanged between&#xD;
+        these actors in a protocol-like manner. In SoaML, contracts take the role of interaction protocols in agent&#xD;
+        systems. Like interaction protocols, a services contract takes a role centered view of the business requirements&#xD;
+        which makes it easier to bridge the gap between the process requirements and message exchange.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Behavioral aspect – describes how plans are composed by complex control structures and simple atomic tasks such as&#xD;
+        sending a message and specifying information flows between those constructs. In SoaML, a ServiceInterface is a&#xD;
+        BehavioredClassifier and can thus contain ownedBehaviors that can be represented by UML2 Behaviours in the form of&#xD;
+        an Interaction, Activity, StateMachine, ProtocolStateMachine, or OpaqueBehavior.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Organization/Group aspect – Agents can form social units called groups. A group can be formed to take advantage of&#xD;
+        the synergies of its members, resulting in an entity that enables products and processes that are not possible from&#xD;
+        any single individual.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Q-JOYN8JjGmU9qcg0y637g" name=",_qqN3wElzEd6Hx5Ue-mZZOA" guid="-Q-JOYN8JjGmU9qcg0y637g" changeDate="2009-05-25T23:33:56.439+0200">
+  <mainDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>Intermediate Events occur between a Start Event and an End&#xD;
+    Event. It will affect the flow of the process, but will not start or (directly) terminate the process.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>Start&#xD;
+    and most Intermediate Events have “Triggers” that define the cause for the event. There are multiple ways that these&#xD;
+    events can be triggered. End Events may define a “Result” that is a consequence of a Sequence Flow&#xD;
+    ending.&lt;/font>&lt;/font>&lt;/font>&lt;/font>&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_f2CxQEl4Ed6Hx5Ue-mZZOA" name="Create a new Intermediate Event" guid="_f2CxQEl4Ed6Hx5Ue-mZZOA">
+    <sectionDescription>&lt;p>&#xD;
+    Choose the Intermediateevent out of the elementbar.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You have several opportunities:&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>(None, Message, Timer, Error, Cancel, Compensation, Rule, Link,&#xD;
+    Multiple)&lt;/font>&lt;/font>&#xD;
+&lt;/p>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_LUk04EoTEd6hxdrjXE4Gog" name="Name the intermediate event" guid="_LUk04EoTEd6hxdrjXE4Gog">
+    <sectionDescription>&lt;p>&#xD;
+    Click on the&amp;nbsp;intermediateevent and name the it under properities.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

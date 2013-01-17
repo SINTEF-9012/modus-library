@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-aLi-crS2WihKiC9QGNrxUQ" name=",_MPGEYKjyEd6RxrScOu9Dlg" guid="-aLi-crS2WihKiC9QGNrxUQ" authors="Mick Kerrigan, Davide Cerri (UIBK)" changeDate="2009-09-25T09:26:03.335+0200" version="0.1">
+  <mainDescription>In this activity the designer should create a detailed design description for each of the Web Service and Goal capabilities&#xD;
+defined in the high level architecture.</mainDescription>
+  <sections xmi:id="_UBo-MKjzEd6RxrScOu9Dlg" name="Design preconditions" guid="_UBo-MKjzEd6RxrScOu9Dlg">
+    <sectionDescription>The aim of this&amp;nbsp;step is for the designer to identify all the conditions that must hold over the information space&#xD;
+prior to the service being executed. In this&amp;nbsp;step the designer should create a list of the different preconditions&#xD;
+that should be described in the capability. The preconditions should be described in natural language and documents the&#xD;
+needed state of the information space prior to being able to execute the service. For example:&amp;nbsp;&quot;a valid creditcard&#xD;
+number should be provided&quot;,&amp;nbsp;&quot;a date range when the customer wants the engineer to visit them should be&#xD;
+specified&quot;,&amp;nbsp;&quot;a series of integers should be available to enable the computation&quot;. The designer should try to be&#xD;
+consistent in the specification of the preconditions, irrespective of whether the capability is part of a Web Service or&#xD;
+Goal.</sectionDescription>
+  </sections>
+  <sections xmi:id="_U8qcAKjzEd6RxrScOu9Dlg" name="Design postconditions" guid="_U8qcAKjzEd6RxrScOu9Dlg">
+    <sectionDescription>The aim of this&amp;nbsp;step is for the designer to identify all the conditions that will hold over the information space&#xD;
+after the service has been executed. The designer should produce a list of the different postconditions that should be&#xD;
+described in the capability. The postconditions should describe, in natural lanaguge, the changes that will occur to the&#xD;
+information space as a result of service execution. For example: &quot;a purchase confirmation will be provided&quot;, &quot;the date when&#xD;
+the engineer will come to your premises will be generated&quot;, &quot;the result of the mathematical operation will be returned&quot;.&#xD;
+Again the designer should try to specify postconditions in a consistent manner for capabilities in Web Services and Goal&#xD;
+descriptions.</sectionDescription>
+  </sections>
+  <sections xmi:id="_WlCvEKjzEd6RxrScOu9Dlg" name="Design assumptions" guid="_WlCvEKjzEd6RxrScOu9Dlg">
+    <sectionDescription>The aim of this&amp;nbsp;step is for the designer to identify all the things that must be true about the real world before the&#xD;
+service should be executed. The designer should produce a list of assumptions, in natural language, that should be part of&#xD;
+the capability of the Web Service or Goal. The assumptions describe the conditions that should hold in the real world prior&#xD;
+to the execution of the service. For example: &quot;the account associated with the provided credit card should have enough&#xD;
+credit available for the purchase&quot;, &quot;the customer should be able to be present at their residence in the date range they&#xD;
+provide&quot;. As can be seen from the example above, it is usually the case that the assumptions on the service can not be&#xD;
+checked in a computational manner prior to service execution.</sectionDescription>
+  </sections>
+  <sections xmi:id="_YKkicKjzEd6RxrScOu9Dlg" name="Design effects" guid="_YKkicKjzEd6RxrScOu9Dlg">
+    <sectionDescription>The aim of this&amp;nbsp;step is for the designer to identify all the real world effects that will occur after the service has&#xD;
+been executed. In this&amp;nbsp;step the designer should create a list effects, in natural language, that should be part of the&#xD;
+capability. The effects describe the changes to the state of the real world as a result of executing the service. For&#xD;
+example: &quot;the products ordered will be delivered to the customer&quot;, &quot;the engineer will visit the customer on the specified&#xD;
+day in order to fix the appliance&quot;. As effects in the capability describe the real world, it is not possible to&#xD;
+computationally check within a broker service that the effects of the service really occur.</sectionDescription>
+  </sections>
+  <purpose>Design Semantic Web Service capabilities at PIM level, using the Semantic Web Service extension of&amp;nbsp;SoaML.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

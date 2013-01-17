@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-dGZOfC9leY_Gz3YZ1ERvEg" name="new_term_definition,_I9zHcJzaEeCjAYLMIp9ZDA" guid="-dGZOfC9leY_Gz3YZ1ERvEg">
+  <mainDescription>&lt;p>&#xD;
+    CollaborationUse is extended to indicate whether the role to part bindings are strictly enforced or loose.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A CollaborationUse explicitly indicates the ability of an owning Classifier to fulfill a ServiceContract or adhere to a&#xD;
+    ServicesArchitecture. A Classifier may contain any number of CollaborationUses which indicate what it fulfills. The&#xD;
+    CollaborationUse has roleBindings that indicate what role each part in the owning Classifier plays. If the&#xD;
+    CollaborationUse is strict, then the parts must be compatible with the roles they are bound to, and the owning&#xD;
+    Classifier must have behaviors that are behaviorally compatible with the ownedBehavior of the CollaborationUse’s&#xD;
+    Collaboration type.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note that as a ServiceContract is binding on the ServiceInterfaces named in that contract, a CollaborationUse is not&#xD;
+    required if the types are compatible.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

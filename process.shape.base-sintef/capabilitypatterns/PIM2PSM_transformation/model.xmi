@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_LSek4qdiEd68f4Walh_OYQ" guid="_LSek4qdiEd68f4Walh_OYQ">
+    <resourceDescriptors xmi:id="_LSek46diEd68f4Walh_OYQ" id="-BZYfnsoYSDE24NPvrJjhmA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_73ZboeENEd-QcdsL5iaWCQ" id="-6ZjtiSmkeVkEgtc5FUACsQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_73ZbouENEd-QcdsL5iaWCQ" id="-cSLwtiD24tXcjkGLymcASw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_73jMoOENEd-QcdsL5iaWCQ" id="-D1Lf_RiZ-Mg7scP-cSxL1w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_73jMoeENEd-QcdsL5iaWCQ" id="-yVjuS_WUUWcoWnHigtRj7A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_73jMo-ENEd-QcdsL5iaWCQ" id="-VKRcoyXl77cMtBP6bFsXOg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_73s9oOENEd-QcdsL5iaWCQ" id="-AwP-3lLFL0mXhGKTq-N6tQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_LRlNAKdiEd68f4Walh_OYQ" name="PIM2PSM_transformation" guid="_LRlNAKdiEd68f4Walh_OYQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ILpdMKdqEd68f4Walh_OYQ" name="SoaML2WS transformation" guid="_ILpdMKdqEd68f4Walh_OYQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_ILpdOKdqEd68f4Walh_OYQ" name="SoaML2WS transformation" guid="_ILpdOKdqEd68f4Walh_OYQ" presentationName="SoaML2WS transformation" briefDescription="This process defines the methodology logic for the PIM2PSM activity within the SHAPE methodology." isOptional="true" superActivities="_LRlNAadiEd68f4Walh_OYQ" breakdownElements="_ILpdN6dqEd68f4Walh_OYQ _ILpdNKdqEd68f4Walh_OYQ _ILpdMqdqEd68f4Walh_OYQ _ILpdNadqEd68f4Walh_OYQ _ZPj7grMuEd6PFsH-DLYRGQ _ZPj7hLMuEd6PFsH-DLYRGQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ILpdN6dqEd68f4Walh_OYQ" name="SoaML2XSD" guid="_ILpdN6dqEd68f4Walh_OYQ" presentationName="SoaML2XSD" briefDescription="This method defines the guided procedure for transforming SoaML models to XSD files." superActivities="_ILpdOKdqEd68f4Walh_OYQ" output="_ZPj7hLMuEd6PFsH-DLYRGQ" performedPrimarilyBy="_ZPj7grMuEd6PFsH-DLYRGQ">
+        <methodElementProperty xmi:id="_j5n4cNeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_ZPj7hLMuEd6PFsH-DLYRGQ/output"/>
+        <presentation xmi:id="-6ZjtiSmkeVkEgtc5FUACsQ" href="uma://-BZYfnsoYSDE24NPvrJjhmA#-6ZjtiSmkeVkEgtc5FUACsQ"/>
+        <toolmentor href="uma://_Psr-oNhIEd-luNMZUPxfLg#_pyapQH0JEd63rfdoUaFg2Q"/>
+        <additionallyPerformedByExclude href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+        <outputExclude href="uma://_Psr-oNhIEd-luNMZUPxfLg#_-4Jz4IGeEd6tqIeaIOtuNA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ILpdMqdqEd68f4Walh_OYQ" name="SoaML2BPEL" guid="_ILpdMqdqEd68f4Walh_OYQ" presentationName="SoaML2BPEL" briefDescription="This method defines the guided procedure for transforming SoaML models to BPEL files." isOptional="true" superActivities="_ILpdOKdqEd68f4Walh_OYQ" optionalInput="_ILpdNadqEd68f4Walh_OYQ" output="_ILpdNadqEd68f4Walh_OYQ" performedPrimarilyBy="_ZPj7grMuEd6PFsH-DLYRGQ">
+        <methodElementProperty xmi:id="_j5mqVNeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_ILpdNadqEd68f4Walh_OYQ/optionalInput"/>
+        <presentation xmi:id="-cSLwtiD24tXcjkGLymcASw" href="uma://-BZYfnsoYSDE24NPvrJjhmA#-cSLwtiD24tXcjkGLymcASw"/>
+        <toolmentor href="uma://_Psr-oNhIEd-luNMZUPxfLg#_pyapQH0JEd63rfdoUaFg2Q"/>
+        <additionallyPerformedByExclude href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ILpdNadqEd68f4Walh_OYQ" name="WS_BPEL_Document" guid="_ILpdNadqEd68f4Walh_OYQ" presentationName="BPEL Document" briefDescription="BPEL Document." isPlanned="false" superActivities="_ILpdOKdqEd68f4Walh_OYQ">
+        <methodElementProperty xmi:id="_j5mqVdeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <presentation xmi:id="-D1Lf_RiZ-Mg7scP-cSxL1w" href="uma://-BZYfnsoYSDE24NPvrJjhmA#-D1Lf_RiZ-Mg7scP-cSxL1w"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ILpdNKdqEd68f4Walh_OYQ" name="SoaML2WSDL" guid="_ILpdNKdqEd68f4Walh_OYQ" presentationName="SoaML2WSDL" briefDescription="This method defines the guided procedure for transforming SoaML models to WSDL files." superActivities="_ILpdOKdqEd68f4Walh_OYQ" isSynchronizedWithSource="false">
+        <presentation xmi:id="-yVjuS_WUUWcoWnHigtRj7A" href="uma://-BZYfnsoYSDE24NPvrJjhmA#-yVjuS_WUUWcoWnHigtRj7A"/>
+        <toolmentor href="uma://_Psr-oNhIEd-luNMZUPxfLg#_pyapQH0JEd63rfdoUaFg2Q"/>
+        <performedPrimarilyByExcluded href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJxhntEd6VV7P4WguglA"/>
+        <additionallyPerformedByExclude href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+        <outputExclude href="uma://_Psr-oNhIEd-luNMZUPxfLg#_m44XUIGeEd6tqIeaIOtuNA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_ZPj7grMuEd6PFsH-DLYRGQ" name="service_developer" guid="_ZPj7grMuEd6PFsH-DLYRGQ" presentationName="Service developer" briefDescription="This is the worker who builds the services." isPlanned="false" superActivities="_ILpdOKdqEd68f4Walh_OYQ" modifies="_ZPj7hLMuEd6PFsH-DLYRGQ _ILpdNadqEd68f4Walh_OYQ">
+        <methodElementProperty xmi:id="_j5mqUteMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJxhntEd6VV7P4WguglA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ZPj7hLMuEd6PFsH-DLYRGQ" name="WS_WSDL_Document" guid="_ZPj7hLMuEd6PFsH-DLYRGQ" presentationName="WSDL Document" briefDescription="WSDL Document." isPlanned="false" superActivities="_ILpdOKdqEd68f4Walh_OYQ">
+        <presentation xmi:id="-VKRcoyXl77cMtBP6bFsXOg" href="uma://-BZYfnsoYSDE24NPvrJjhmA#-VKRcoyXl77cMtBP6bFsXOg"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_XreBMKdqEd68f4Walh_OYQ" name="SoaML2JEE transformation" guid="_XreBMKdqEd68f4Walh_OYQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_XreBMadqEd68f4Walh_OYQ" name="SoaML2JEE transformation" guid="_XreBMadqEd68f4Walh_OYQ" presentationName="SoaML2JEE transformation" briefDescription="This process defines the methodology logic for the PIM2PSM activity within the SHAPE methodology." isOptional="true" superActivities="_LRlNAadiEd68f4Walh_OYQ" breakdownElements="_XreBNKdqEd68f4Walh_OYQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_XreBNKdqEd68f4Walh_OYQ" name="SoaML2JEE" guid="_XreBNKdqEd68f4Walh_OYQ" presentationName="SoaML2JEE" briefDescription="This method defines the guided procedure for transforming SoaML models to skeleton JEE source files." superActivities="_XreBMadqEd68f4Walh_OYQ">
+        <presentation xmi:id="-AwP-3lLFL0mXhGKTq-N6tQ" href="uma://-BZYfnsoYSDE24NPvrJjhmA#-AwP-3lLFL0mXhGKTq-N6tQ"/>
+        <toolmentor href="uma://_Psr-oNhIEd-luNMZUPxfLg#_kH0d8H0JEd63rfdoUaFg2Q"/>
+        <performedPrimarilyByExcluded href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJxhntEd6VV7P4WguglA"/>
+        <additionallyPerformedByExclude href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Jg1moLJvEd6x8-VWlsTWPQ" name="SWS PIM2PSM transformation" guid="_Jg1moLJvEd6x8-VWlsTWPQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_Jg1mobJvEd6x8-VWlsTWPQ" name="SWS PIM2PSM transformation" guid="_Jg1mobJvEd6x8-VWlsTWPQ" presentationName="SWS PIM2PSM transformation" isOptional="true" superActivities="_LRlNAadiEd68f4Walh_OYQ" breakdownElements="_Jg1mpLJvEd6x8-VWlsTWPQ _Jg1mp7JvEd6x8-VWlsTWPQ _Jg1mprJvEd6x8-VWlsTWPQ _Jg1morJvEd6x8-VWlsTWPQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Jg1mpLJvEd6x8-VWlsTWPQ" name="SoaML_SWS_model" guid="_Jg1mpLJvEd6x8-VWlsTWPQ" presentationName="SoaML Semantic Web Service extension model" briefDescription="SoaML Semantic Web Service extension model." isPlanned="false" superActivities="_Jg1mobJvEd6x8-VWlsTWPQ">
+        <methodElementProperty xmi:id="_j5nRYteMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_j5n4cdeMEd-Mq_S1iaxctg" name="descriptor_customization" value="1"/>
+        <WorkProduct href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_VgmRUbJ8Ed6WTpR2FpAgWw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Jg1mp7JvEd6x8-VWlsTWPQ" name="WSMO_model" guid="_Jg1mp7JvEd6x8-VWlsTWPQ" presentationName="WSMO model" briefDescription="WSMO model for Semantic Web Services." isPlanned="false" superActivities="_Jg1mobJvEd6x8-VWlsTWPQ">
+        <methodElementProperty xmi:id="_j5mqUNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="1"/>
+        <methodElementProperty xmi:id="_j5nRY9eMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <toolmentor href="uma://_IHangNxHEd-LYKXkOhPACw#_n4_8QFXHEd6iZIDJYUIm8w"/>
+        <WorkProduct href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_VgmRVLJ8Ed6WTpR2FpAgWw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Jg1mprJvEd6x8-VWlsTWPQ" name="transform_SWS-SoaML_to_WSMO" guid="_Jg1mprJvEd6x8-VWlsTWPQ" presentationName="Transform SoaML Semantic Web Service model to WSMO" briefDescription="Transform SoaML Semantic Web Service model (PIM level) to WSMO (PSM level)" superActivities="_Jg1mobJvEd6x8-VWlsTWPQ" mandatoryInput="_Jg1mpLJvEd6x8-VWlsTWPQ" output="_Jg1mp7JvEd6x8-VWlsTWPQ" performedPrimarilyBy="_Jg1morJvEd6x8-VWlsTWPQ">
+        <methodElementProperty xmi:id="_j5nRYNeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_Jg1morJvEd6x8-VWlsTWPQ/performedPrimarilyBy"/>
+        <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_aKTHEKkKEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-zCyesnuE3A7Tv065axpNxQ#_mxyzEKkKEd6RxrScOu9Dlg"/>
+        <performedPrimarilyByExcluded href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJxBntEd6VV7P4WguglA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_Jg1morJvEd6x8-VWlsTWPQ" name="SWS_engineer" guid="_Jg1morJvEd6x8-VWlsTWPQ" presentationName="Semantic Web Service engineer" isPlanned="false" superActivities="_Jg1mobJvEd6x8-VWlsTWPQ" modifies="_Jg1mp7JvEd6x8-VWlsTWPQ">
+        <methodElementProperty xmi:id="_j5ofgNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+      </processElements>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_PKxrAK3XEd6kfoQIYikXPw" name="apply_transformation PIM4Agents2JACK" guid="_PKxrAK3XEd6kfoQIYikXPw" presentationName="apply transformation PIM4Agents2JACK" briefDescription="Apply transformation on created PIM4Agents model" superActivities="_LRlNAadiEd68f4Walh_OYQ" mandatoryInput="_ZOqjobMuEd6PFsH-DLYRGQ" output="_ZOqjorMuEd6PFsH-DLYRGQ">
+      <toolmentor href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_Yb__QIWJEd6Lb6GZuo4wTA"/>
+      <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_hVvwEHwmEd6zE6DaMH4mBQ"/>
+      <selectedSteps href="uma://-rGBEJ3t4efn4CDWsnZAkOQ#_7w4LEHwmEd6zE6DaMH4mBQ"/>
+      <performedPrimarilyByExcluded href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJxBntEd6VV7P4WguglA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Qc6BQK3XEd6kfoQIYikXPw" name="apply_transformation PIM4Agents2JADE" guid="_Qc6BQK3XEd6kfoQIYikXPw" presentationName="apply_transformation PIM4Agents2JADE" briefDescription="Apply transformation on created PIM4Agents model" superActivities="_LRlNAadiEd68f4Walh_OYQ" mandatoryInput="_ZOqjobMuEd6PFsH-DLYRGQ" output="_ZOqjo7MuEd6PFsH-DLYRGQ">
+      <toolmentor href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_Z_-PoIXaEd6w3Jx1uPAP3A"/>
+      <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#__GcocIXZEd6w3Jx1uPAP3A"/>
+      <selectedSteps href="uma://-VTgWaX2Nr0sYLofJXbEoKw#_ODGN8IXaEd6w3Jx1uPAP3A"/>
+      <performedPrimarilyByExcluded href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJxBntEd6VV7P4WguglA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ZOqjobMuEd6PFsH-DLYRGQ" name="PIM4Agents_model" guid="_ZOqjobMuEd6PFsH-DLYRGQ" presentationName="PIM4Agents model" isPlanned="false" superActivities="_LRlNAadiEd68f4Walh_OYQ">
+      <methodElementProperty xmi:id="_j5mDQNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_IHangNxHEd-LYKXkOhPACw#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+      <toolmentor href="uma://_IHangNxHEd-LYKXkOhPACw#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_2hxTmIGlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ZOqjorMuEd6PFsH-DLYRGQ" name="JACK_model" guid="_ZOqjorMuEd6PFsH-DLYRGQ" presentationName="JACK model" briefDescription="XML-like file that can be imported into the JACK IDE" isPlanned="false" superActivities="_LRlNAadiEd68f4Walh_OYQ">
+      <methodElementProperty xmi:id="_j5mDQdeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <toolmentor href="uma://_IHangNxHEd-LYKXkOhPACw#_Y7zn8IcOEd6w3Jx1uPAP3A"/>
+      <WorkProduct href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_EWjHgIGlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ZOqjo7MuEd6PFsH-DLYRGQ" name="JADE_model" guid="_ZOqjo7MuEd6PFsH-DLYRGQ" presentationName="JADE model" briefDescription="JAVA files defined with the JADE libaries" isPlanned="false" superActivities="_LRlNAadiEd68f4Walh_OYQ">
+      <methodElementProperty xmi:id="_j5mqUdeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <toolmentor href="uma://_IHangNxHEd-LYKXkOhPACw#_RvXPYIcOEd6w3Jx1uPAP3A"/>
+      <WorkProduct href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_OuH2gIcPEd6w3Jx1uPAP3A"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_LRlNAadiEd68f4Walh_OYQ" name="PIM2PSM_transformation" guid="_LRlNAadiEd68f4Walh_OYQ" presentationName="PIM2PSM transformation" briefDescription="This process defines the methodology logic for the PIM2PSM activity within the SHAPE methodology." breakdownElements="_ILpdOKdqEd68f4Walh_OYQ _XreBMadqEd68f4Walh_OYQ _Jg1mobJvEd6x8-VWlsTWPQ _PKxrAK3XEd6kfoQIYikXPw _Qc6BQK3XEd6kfoQIYikXPw _ZOqjobMuEd6PFsH-DLYRGQ _ZOqjorMuEd6PFsH-DLYRGQ _ZOqjo7MuEd6PFsH-DLYRGQ">
+      <methodElementProperty xmi:id="_j5ofgteMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-BZYfnsoYSDE24NPvrJjhmA" href="uma://-BZYfnsoYSDE24NPvrJjhmA#-BZYfnsoYSDE24NPvrJjhmA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

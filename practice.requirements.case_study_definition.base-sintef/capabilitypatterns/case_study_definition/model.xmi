@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_0gbikaJDEeC2rPq2LOW9Ag" guid="_0gbikaJDEeC2rPq2LOW9Ag">
+    <resourceDescriptors xmi:id="_0gbikqJDEeC2rPq2LOW9Ag" id="-GUZtJgQo4UBh6Mm56dgUGQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_Vh7isaJGEeC2rPq2LOW9Ag" id="-QFK5wGACIzxaXYyuGiY7ig" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ViFTsKJGEeC2rPq2LOW9Ag" id="-1edb7Lz-C315WsUzQW4tuw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ViFTsaJGEeC2rPq2LOW9Ag" id="-M77CcMyYptp27JQHJaJiSA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ViFTsqJGEeC2rPq2LOW9Ag" id="-iVsxbayMX_lOJTnCgqDwBw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ViFTs6JGEeC2rPq2LOW9Ag" id="-omtpAx63rQxV9Dw0nwiXPg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ViFTtKJGEeC2rPq2LOW9Ag" id="-WvdL1d8U95ONxlfw_K0_Aw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ViFTtaJGEeC2rPq2LOW9Ag" id="-WBOOqnmw8l2pLWGhOqGq5Q" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_0f-2oKJDEeC2rPq2LOW9Ag" name="case_study_definition" guid="_0f-2oKJDEeC2rPq2LOW9Ag">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_I5xvYKJGEeC2rPq2LOW9Ag" name="identification_of_case_studies" guid="_I5xvYKJGEeC2rPq2LOW9Ag" presentationName="Identification of case studies" superActivities="_0f-2oaJDEeC2rPq2LOW9Ag" output="_I5xvY6JGEeC2rPq2LOW9Ag" performedPrimarilyBy="_I5xvYaJGEeC2rPq2LOW9Ag">
+      <presentation xmi:id="-QFK5wGACIzxaXYyuGiY7ig" href="uma://-GUZtJgQo4UBh6Mm56dgUGQ#-QFK5wGACIzxaXYyuGiY7ig"/>
+      <Task href="uma://_HIVxoJ5OEeCOkvcSVgl5mQ#_tAfCgJ5OEeCOkvcSVgl5mQ"/>
+      <selectedSteps href="uma://-CbtxSxGwSlyaMx9XIi_tKg#_yhw78J5dEeCZu7rk2fFONg"/>
+      <selectedSteps href="uma://-CbtxSxGwSlyaMx9XIi_tKg#_8LcL8J5dEeCZu7rk2fFONg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_I5xvYaJGEeC2rPq2LOW9Ag" name="requirements_analyst" guid="_I5xvYaJGEeC2rPq2LOW9Ag" presentationName="Requirements analyst" briefDescription="This worker is mainly involved in the processes related to the requirements of the customers. " isPlanned="false" superActivities="_0f-2oaJDEeC2rPq2LOW9Ag" modifies="_I5xvY6JGEeC2rPq2LOW9Ag _I5xvZqJGEeC2rPq2LOW9Ag" responsibleFor="_I5xvZqJGEeC2rPq2LOW9Ag _I5xvY6JGEeC2rPq2LOW9Ag">
+      <methodElementProperty xmi:id="_I5xvYqJGEeC2rPq2LOW9Ag" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-1edb7Lz-C315WsUzQW4tuw" href="uma://-GUZtJgQo4UBh6Mm56dgUGQ#-1edb7Lz-C315WsUzQW4tuw"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIpisBntEd6VV7P4WguglA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_I5xvY6JGEeC2rPq2LOW9Ag" name="detailed_case_study_description" guid="_I5xvY6JGEeC2rPq2LOW9Ag" presentationName="Detailed case study description" isPlanned="false" superActivities="_0f-2oaJDEeC2rPq2LOW9Ag">
+      <methodElementProperty xmi:id="_I5xvZKJGEeC2rPq2LOW9Ag" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-M77CcMyYptp27JQHJaJiSA" href="uma://-GUZtJgQo4UBh6Mm56dgUGQ#-M77CcMyYptp27JQHJaJiSA"/>
+      <WorkProduct href="uma://_HIVxoJ5OEeCOkvcSVgl5mQ#_YDWMAKJFEeC2rPq2LOW9Ag"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_I5xvZqJGEeC2rPq2LOW9Ag" name="high_level_case_study_specification" guid="_I5xvZqJGEeC2rPq2LOW9Ag" presentationName="High-level case study specification" isPlanned="false" superActivities="_0f-2oaJDEeC2rPq2LOW9Ag">
+      <methodElementProperty xmi:id="_I5xvZ6JGEeC2rPq2LOW9Ag" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_HIVxoJ5OEeCOkvcSVgl5mQ#_A96hgKJFEeC2rPq2LOW9Ag"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_JQ_VgKJGEeC2rPq2LOW9Ag" name="high_level_specification" guid="_JQ_VgKJGEeC2rPq2LOW9Ag" presentationName="High-level specification" briefDescription="To describe realistic real-world scenarios, understand the overall processes and main challenges faced by the actors involved, and prepare the use-case scenarios for large-scale trials. " superActivities="_0f-2oaJDEeC2rPq2LOW9Ag" linkToPredecessor="_ZdgncKJGEeC2rPq2LOW9Ag" output="_I5xvZqJGEeC2rPq2LOW9Ag" performedPrimarilyBy="_I5xvYaJGEeC2rPq2LOW9Ag">
+      <presentation xmi:id="-iVsxbayMX_lOJTnCgqDwBw" href="uma://-GUZtJgQo4UBh6Mm56dgUGQ#-iVsxbayMX_lOJTnCgqDwBw"/>
+      <Task href="uma://_HIVxoJ5OEeCOkvcSVgl5mQ#_xjfToJ5OEeCOkvcSVgl5mQ"/>
+      <selectedSteps href="uma://-Gj3QZnM1G-nvS1_zgu3vDw#_bOl-IJ5iEeCZu7rk2fFONg"/>
+      <selectedSteps href="uma://-Gj3QZnM1G-nvS1_zgu3vDw#_cVlbYJ5iEeCZu7rk2fFONg"/>
+      <selectedSteps href="uma://-Gj3QZnM1G-nvS1_zgu3vDw#_diG44J5iEeCZu7rk2fFONg"/>
+      <selectedSteps href="uma://-Gj3QZnM1G-nvS1_zgu3vDw#_ezb94J5iEeCZu7rk2fFONg"/>
+      <selectedSteps href="uma://-Gj3QZnM1G-nvS1_zgu3vDw#_gAMr8J5iEeCZu7rk2fFONg"/>
+      <selectedSteps href="uma://-Gj3QZnM1G-nvS1_zgu3vDw#_jCqXYJ5iEeCZu7rk2fFONg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_LIdNcKJGEeC2rPq2LOW9Ag" name="detailed_specification" guid="_LIdNcKJGEeC2rPq2LOW9Ag" presentationName="Detailed specification" superActivities="_0f-2oaJDEeC2rPq2LOW9Ag" linkToPredecessor="_Zv9pYaJGEeC2rPq2LOW9Ag" performedPrimarilyBy="_I5xvYaJGEeC2rPq2LOW9Ag">
+      <presentation xmi:id="-omtpAx63rQxV9Dw0nwiXPg" href="uma://-GUZtJgQo4UBh6Mm56dgUGQ#-omtpAx63rQxV9Dw0nwiXPg"/>
+      <Task href="uma://_HIVxoJ5OEeCOkvcSVgl5mQ#_31yYIJ5OEeCOkvcSVgl5mQ"/>
+      <selectedSteps href="uma://-6oRqCLp5CP5f_TYeqdotVQ#_hVs6YKCTEeC6iu1cZR-v5g"/>
+      <selectedSteps href="uma://-6oRqCLp5CP5f_TYeqdotVQ#_ivmFgKCTEeC6iu1cZR-v5g"/>
+      <selectedSteps href="uma://-6oRqCLp5CP5f_TYeqdotVQ#_kw3ZsKCTEeC6iu1cZR-v5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_UZ7Y0KJGEeC2rPq2LOW9Ag" name="experimentation" guid="_UZ7Y0KJGEeC2rPq2LOW9Ag" presentationName="Experimentation" superActivities="_0f-2oaJDEeC2rPq2LOW9Ag" linkToPredecessor="_aagbMaJGEeC2rPq2LOW9Ag" performedPrimarilyBy="_I5xvYaJGEeC2rPq2LOW9Ag">
+      <presentation xmi:id="-WvdL1d8U95ONxlfw_K0_Aw" href="uma://-GUZtJgQo4UBh6Mm56dgUGQ#-WvdL1d8U95ONxlfw_K0_Aw"/>
+      <Task href="uma://_HIVxoJ5OEeCOkvcSVgl5mQ#_6qG54J5OEeCOkvcSVgl5mQ"/>
+      <selectedSteps href="uma://-LyKAOU2RE-c8T5I5NMXIjg#_haWUYKCUEeC6iu1cZR-v5g"/>
+      <selectedSteps href="uma://-LyKAOU2RE-c8T5I5NMXIjg#_jHJNYKCUEeC6iu1cZR-v5g"/>
+      <selectedSteps href="uma://-LyKAOU2RE-c8T5I5NMXIjg#_lxR4YKCUEeC6iu1cZR-v5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Ux3-wKJGEeC2rPq2LOW9Ag" name="evaluation" guid="_Ux3-wKJGEeC2rPq2LOW9Ag" presentationName="Evaluation" superActivities="_0f-2oaJDEeC2rPq2LOW9Ag" linkToPredecessor="_a0_XwaJGEeC2rPq2LOW9Ag" performedPrimarilyBy="_I5xvYaJGEeC2rPq2LOW9Ag">
+      <presentation xmi:id="-WBOOqnmw8l2pLWGhOqGq5Q" href="uma://-GUZtJgQo4UBh6Mm56dgUGQ#-WBOOqnmw8l2pLWGhOqGq5Q"/>
+      <Task href="uma://_HIVxoJ5OEeCOkvcSVgl5mQ#_9Ei8AJ5OEeCOkvcSVgl5mQ"/>
+      <selectedSteps href="uma://-KReiv3JlFshj18d2BGeNGA#_1vnkYKCUEeC6iu1cZR-v5g"/>
+      <selectedSteps href="uma://-KReiv3JlFshj18d2BGeNGA#_3k9VYKCUEeC6iu1cZR-v5g"/>
+      <selectedSteps href="uma://-KReiv3JlFshj18d2BGeNGA#_6lAmAKCUEeC6iu1cZR-v5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_ZdgncKJGEeC2rPq2LOW9Ag" guid="_ZdgncKJGEeC2rPq2LOW9Ag" pred="_I5xvYKJGEeC2rPq2LOW9Ag"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Zv9pYaJGEeC2rPq2LOW9Ag" guid="_Zv9pYaJGEeC2rPq2LOW9Ag" pred="_JQ_VgKJGEeC2rPq2LOW9Ag"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_aagbMaJGEeC2rPq2LOW9Ag" guid="_aagbMaJGEeC2rPq2LOW9Ag" pred="_LIdNcKJGEeC2rPq2LOW9Ag"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_a0_XwaJGEeC2rPq2LOW9Ag" guid="_a0_XwaJGEeC2rPq2LOW9Ag" pred="_UZ7Y0KJGEeC2rPq2LOW9Ag"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_0f-2oaJDEeC2rPq2LOW9Ag" name="case_study_definition" guid="_0f-2oaJDEeC2rPq2LOW9Ag" presentationName="Case study definition" breakdownElements="_I5xvYKJGEeC2rPq2LOW9Ag _I5xvYaJGEeC2rPq2LOW9Ag _I5xvY6JGEeC2rPq2LOW9Ag _I5xvZqJGEeC2rPq2LOW9Ag _JQ_VgKJGEeC2rPq2LOW9Ag _LIdNcKJGEeC2rPq2LOW9Ag _UZ7Y0KJGEeC2rPq2LOW9Ag _Ux3-wKJGEeC2rPq2LOW9Ag">
+      <presentation xmi:id="-GUZtJgQo4UBh6Mm56dgUGQ" href="uma://-GUZtJgQo4UBh6Mm56dgUGQ#-GUZtJgQo4UBh6Mm56dgUGQ"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_xkX2kKJCEeC2rPq2LOW9Ag"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_xkX2kKJCEeC2rPq2LOW9Ag"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

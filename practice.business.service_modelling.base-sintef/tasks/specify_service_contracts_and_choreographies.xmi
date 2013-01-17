@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-bkqmI2rO4KqsFT7hi0kkfw" name="specify_service_contracts_and_choreographies,_azDj4C5uEd6lwuZlFT8K0A" guid="-bkqmI2rO4KqsFT7hi0kkfw" authors="Brian Elvesæter (SINTEF), Cyril Carrez (SINTEF), Svein G. Johnsen (SINTEF)" changeDate="2010-05-10T15:24:12.807+0200" changeDescription="0.4: Revised description according to SoaML methodology book chapter.|0.3: Updated steps.|0.2: Revised and aligned with new set of work products defined in the framework library.|0.1: Initial outline." version="0.4">
+  <mainDescription>&lt;p align=&quot;left&quot;>&#xD;
+    SoaML allows different approaches to specify services. In our practice, we have chosen to combine two different&#xD;
+    approaches, as we see one fits more at the business level (service contract approach) and the other at the IT level&#xD;
+    (service interface approach). In the business architecture modelling we suggest to use service contracts that are&#xD;
+    further refined to service interfaces in the system architecture modelling. The specification of service contracts can&#xD;
+    be seen as the refinement of a services architecture. Service contracts are specified as UML collaborations in UML&#xD;
+    collaboration diagrams.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    An important part of the service contract is the choreography. The choreography is a specification of what is&#xD;
+    transmitted and when it is transmitted between parties to enact a service exchange. The choreography specifies&#xD;
+    exchanges between the parties - the data, assets and obligations that go between the parties. The choreography defines&#xD;
+    what happens between the provider and consumer participants without defining their internal processes - their internal&#xD;
+    processes do have to be compatible with their service contracts. The behaviour of the service contract can be described&#xD;
+    at the business level using any UML behaviour, e.g. state machines, activity diagrams and sequence diagrams. We&#xD;
+    recommend to model the behaviour of any complex service contracts in order to get a better understanding of the&#xD;
+    interaction between the roles. This model will later be refined at the IT level.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is advisable to create a separate UML Package for the specification of the ServiceContract. Place this package in&#xD;
+    the package that contains the ServicesArchitecture. The ServiceContract package will be used for the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Specifying&amp;nbsp;the Collaboration for the ServiceContract.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specifying&amp;nbsp;the ServiceInterfaces that represents the consumer and provider role in the ServiceContract.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specifying the Interaction that describes the behaviour of the ServiceContract.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Service Diagrams for the ServiceContract.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <sections xmi:id="_Hlo09FF0EeGhK6PCw6rfMg" name="1. Identify service contracts." guid="_Hlo09FF0EeGhK6PCw6rfMg">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Analyse the BPMN diagrams to identify service contracts. This is a design-choice as there is no single construct in the&#xD;
+    BPMN that resembles a service contract. However, a certain pattern of objects can reveal service contracts, for&#xD;
+    instance when two single tasks follow one after another across a pool or lane and are connected with a sequence flow&#xD;
+    and associated with a data object.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Hlo08lF0EeGhK6PCw6rfMg" name="2. Identify interfaces." guid="_Hlo08lF0EeGhK6PCw6rfMg">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Once the service contracts are identified, one has to specify the consumer and provider roles. These roles are typed by&#xD;
+    corresponding UML interfaces stereotyped &amp;lt;&amp;lt;Consumer&amp;gt;&amp;gt; and &amp;lt;&amp;lt;Provider&amp;gt;&amp;gt; respectively. At this&#xD;
+    modelling step we only identify the names and possibly some high-level operations in the interfaces. These interfaces&#xD;
+    will be further elaborated and refined as part of the system architecture modelling.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Hlo081F0EeGhK6PCw6rfMg" name="3. Define business operations." guid="_Hlo081F0EeGhK6PCw6rfMg">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>Each interface will define (business)&#xD;
+    operations. The arguments of those operations specify the information elements that are exchanged. These information&#xD;
+    elements can be derived from the business processes, where the information items map to a message type or a data entity&#xD;
+    in SoaML. Message types and data entities are&lt;/font>&lt;/font> defined as stereotypes on a UML class. So a first step&#xD;
+    would be to create these information items as regular UML classes, and then refine them to either message types or data&#xD;
+    entities as part of the system architecture modelling. The information modelled here does not need to be complete. It&#xD;
+    may be sufficient to just link the class to a particular information standard or just describe the most important&#xD;
+    properties of the data objects.&#xD;
+&lt;/p>&#xD;
+&lt;br align=&quot;left&quot; />&#xD;
+&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_Hlo08VF0EeGhK6PCw6rfMg" name="4. Define protocol between interfaces." guid="_Hlo08VF0EeGhK6PCw6rfMg">
+    <sectionDescription>&lt;p>&#xD;
+    We recommend to model the behaviour of any complex service contract in order to get a better understanding of the&#xD;
+    interaction between the roles. A starting point for specifying the behaviour of the service contracts are the BPMN&#xD;
+    process diagrams. Thus, BPMN may be the preferred formalism to use for describing service choreographies at the&#xD;
+    business level.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Define the message sequence between the provider and consumer interfaces. Modelling the service choreographies also&#xD;
+    gives you an opportunity to revise and further refine the information exchange&lt;br />&#xD;
+    between the two parties. This model will later be refined at the IT level as part of the modelling of the corresponding&#xD;
+    service interface and its service choreography.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To specify a service contract and its choreography.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-lHuwlCtXQfs2OMinGhIexQ" name=",_R8de4L-aEd2e1-cAeXIm5A" guid="-lHuwlCtXQfs2OMinGhIexQ" changeDate="2008-12-01T12:22:42.764+0100">
+  <mainDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&#xD;
+    &lt;font face=&quot;Times New Roman&quot;>&lt;span lang=&quot;ES-TRAD&quot; style=&quot;FONT-SIZE: 10pt&quot;>This is the final task to complete this&#xD;
+    phase.&lt;/span> &lt;span style=&quot;FONT-SIZE: 10pt; mso-ansi-language: EN-US&quot;>It consists on determining those services which&#xD;
+    have been identified as possible candidates for the abstract services described during the phase realisation.&lt;span&#xD;
+    style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> When doing this task, have in mind provisioning strategies and architectural&#xD;
+    policies defined in previously and try to work with a small number of services. This task is to add some candidates,&#xD;
+    but the final selection of services is done in a later phase.&lt;/span>&lt;/font>&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_UBUgZMHrEd2B2LAvnwDruw" name="Map services obtained from requirements with abstract services " guid="_UBUgZMHrEd2B2LAvnwDruw">
+    <sectionDescription>&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&lt;SPAN lang=ES-TRAD style=&quot;FONT-SIZE: 10pt&quot;>&lt;FONT face=&quot;Times New Roman&quot;>In the service requirements, customers would have included some services as mandatory or candidate, due to strategic, preference or trust purposes. Developers have to map those services with the abstract services descriptions obtained in previous tasks. &lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&lt;SPAN lang=ES-TRAD style=&quot;FONT-SIZE: 10pt&quot;>&lt;FONT face=&quot;Times New Roman&quot;>Some services may also have been discovered in previous phases via Early Service Discovery or Architectural Discovery (RB and AT Discovered Services Specification will contain the candidates). Those services which have been selected as possible candidates have also to be mapped with the abstract descriptions. &lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P></sectionDescription>
+  </sections>
+  <sections xmi:id="_UBUgY8HrEd2B2LAvnwDruw" name="Map services obtained from other sources with abstract services " guid="_UBUgY8HrEd2B2LAvnwDruw">
+    <sectionDescription>&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&lt;SPAN lang=ES-TRAD style=&quot;FONT-SIZE: 10pt&quot;>&lt;FONT face=&quot;Times New Roman&quot;>If the company has previous experience developing services compositions, look for similar solutions and look up ESAs and ERAs from other projects in order to identify interesting candidates. A mapping of these services with the abstract descriptions will help to indicate the best usage of each service. &lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&lt;SPAN lang=ES-TRAD style=&quot;FONT-SIZE: 10pt&quot;>&lt;FONT face=&quot;Times New Roman&quot;>Note for companies which develop or provide services: In the case that the company develops services or provides them, development team should search for interesting services in the internal catalogue. Then those services have to be mapped also with the abstract descriptions. &lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P></sectionDescription>
+  </sections>
+  <sections xmi:id="_UBUgYsHrEd2B2LAvnwDruw" name="Check that the services are available " guid="_UBUgYsHrEd2B2LAvnwDruw">
+    <sectionDescription>&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&lt;SPAN lang=ES-TRAD style=&quot;FONT-SIZE: 10pt&quot;>&lt;FONT face=&quot;Times New Roman&quot;>Finally, take all the candidates and check their availability. Those services which fail the availability testing will be removed from the list of candidates. And those service candidates which passed the testing, can be included as possible candidates in the table containing the abstract service description. &lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P></sectionDescription>
+  </sections>
+  <purpose>&lt;span&#xD;
+style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>This&#xD;
+tasks consists on determining those services which have been identified as possible candidates for the abstract services&#xD;
+described during the phase realisation&lt;/span></purpose>
+</org.eclipse.epf.uma:TaskDescription>

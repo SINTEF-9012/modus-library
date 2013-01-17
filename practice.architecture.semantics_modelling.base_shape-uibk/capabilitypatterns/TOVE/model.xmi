@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_tSQ40E7pEd65M-yHtGQz8g" guid="_tSQ40E7pEd65M-yHtGQz8g">
+    <resourceDescriptors xmi:id="_tSQ40U7pEd65M-yHtGQz8g" id="-55hBqGpvp4TXoklG7ItJiw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_tROXAE7pEd65M-yHtGQz8g" name="TOVE" guid="_tROXAE7pEd65M-yHtGQz8g">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_odhRgDs4Ed-Ux61kS3X6hw" name="Capture motivating scenarios and formulate informal competency questions" guid="_odhRgDs4Ed-Ux61kS3X6hw" presentationName="Specification" superActivities="_tROXAU7pEd65M-yHtGQz8g" additionallyPerformedBy="_odhRgzs4Ed-Ux61kS3X6hw" optionalInput="_odrCgDs4Ed-Ux61kS3X6hw" performedPrimarilyBy="_odhRgTs4Ed-Ux61kS3X6hw">
+      <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_5hNAEE7XEd65M-yHtGQz8g"/>
+      <selectedSteps href="uma://-kk9exkBOp2gtI8iX0e_39Q#_UeKVwE7YEd65M-yHtGQz8g"/>
+      <selectedSteps href="uma://-kk9exkBOp2gtI8iX0e_39Q#_Z-bgYE7YEd65M-yHtGQz8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_odhRgTs4Ed-Ux61kS3X6hw" name="ontology_engineer" guid="_odhRgTs4Ed-Ux61kS3X6hw" presentationName="Ontology Engineer" briefDescription="Responsible to model a given domain as an ontology." superActivities="_tROXAU7pEd65M-yHtGQz8g" modifies="_odrCgDs4Ed-Ux61kS3X6hw _pCDh8Ts4Ed-Ux61kS3X6hw" responsibleFor="_pCDh8Ts4Ed-Ux61kS3X6hw">
+      <methodElementProperty xmi:id="_kCMloNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_kCPB4NeMEd-Mq_S1iaxctg" name="descriptor_customization" value="1"/>
+      <Role href="uma://_kwazABFxEd6C2PqX2OSy5A#_gwAwEDs0Ed-Ux61kS3X6hw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_odhRgzs4Ed-Ux61kS3X6hw" name="Analyst" guid="_odhRgzs4Ed-Ux61kS3X6hw" presentationName="Analyst" briefDescription="This worker is mainly involved in the processes related to the requirements of the customers. " superActivities="_tROXAU7pEd65M-yHtGQz8g">
+      <methodElementProperty xmi:id="_kCNzwNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_kwazABFxEd6C2PqX2OSy5A#_gIpisBntEd6VV7P4WguglA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_odrCgDs4Ed-Ux61kS3X6hw" name="Natural_language_description" guid="_odrCgDs4Ed-Ux61kS3X6hw" presentationName="Natural language description" briefDescription="Natural language description" superActivities="_tROXAU7pEd65M-yHtGQz8g">
+      <methodElementProperty xmi:id="_kCMlodeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_A-6yMPnnEd6ScswKCXSqBA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_pCDh8Ds4Ed-Ux61kS3X6hw" name="Evaluate competency and completeness" guid="_pCDh8Ds4Ed-Ux61kS3X6hw" presentationName="Evaluation" superActivities="_tROXAU7pEd65M-yHtGQz8g" additionallyPerformedBy="_odhRgzs4Ed-Ux61kS3X6hw" mandatoryInput="_pCDh8Ts4Ed-Ux61kS3X6hw" output="_odrCgDs4Ed-Ux61kS3X6hw" performedPrimarilyBy="_odhRgTs4Ed-Ux61kS3X6hw">
+      <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_Ua8XwE7aEd65M-yHtGQz8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_pCDh8Ts4Ed-Ux61kS3X6hw" name="Ontology" guid="_pCDh8Ts4Ed-Ux61kS3X6hw" presentationName="Ontology" briefDescription="This work product refers to ontologies that are defined in a formal ontology specification language. " superActivities="_tROXAU7pEd65M-yHtGQz8g">
+      <methodElementProperty xmi:id="_kCMloteMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_IHangNxHEd-LYKXkOhPACw#_QBOysFXDEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_Kff7QBfEEd61O54aE5cSOg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_piHiEDs4Ed-Ux61kS3X6hw" name="Specifiy ontology" guid="_piHiEDs4Ed-Ux61kS3X6hw" presentationName="Formalization" briefDescription="Specify terminology, formulate formal competency questions, and specify axioms and definitions in FOL" superActivities="_tROXAU7pEd65M-yHtGQz8g" isSynchronizedWithSource="false" mandatoryInput="_odrCgDs4Ed-Ux61kS3X6hw" optionalInput="_pCDh8Ts4Ed-Ux61kS3X6hw" output="_pCDh8Ts4Ed-Ux61kS3X6hw" performedPrimarilyBy="_odhRgTs4Ed-Ux61kS3X6hw">
+      <methodElementProperty xmi:id="_kCNMsNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="2"/>
+      <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_FLL3MDs2Ed-Ux61kS3X6hw"/>
+      <selectedSteps href="uma://-XQDVnrAHEjw0hSkkQfhyUA#_ZQ2k8Ds2Ed-Ux61kS3X6hw"/>
+      <selectedSteps href="uma://-XQDVnrAHEjw0hSkkQfhyUA#_fi1gYDs2Ed-Ux61kS3X6hw"/>
+      <selectedSteps href="uma://-XQDVnrAHEjw0hSkkQfhyUA#_naSk0Ds2Ed-Ux61kS3X6hw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_tROXAU7pEd65M-yHtGQz8g" name="TOVE" guid="_tROXAU7pEd65M-yHtGQz8g" presentationName="TOVE" briefDescription="Methodological guidance for creating an ontology." breakdownElements="_odhRgDs4Ed-Ux61kS3X6hw _odhRgTs4Ed-Ux61kS3X6hw _odhRgzs4Ed-Ux61kS3X6hw _odrCgDs4Ed-Ux61kS3X6hw _piHiEDs4Ed-Ux61kS3X6hw _pCDh8Ds4Ed-Ux61kS3X6hw _pCDh8Ts4Ed-Ux61kS3X6hw">
+      <methodElementProperty xmi:id="_kCPB4deMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-55hBqGpvp4TXoklG7ItJiw" href="uma://-55hBqGpvp4TXoklG7ItJiw#-55hBqGpvp4TXoklG7ItJiw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

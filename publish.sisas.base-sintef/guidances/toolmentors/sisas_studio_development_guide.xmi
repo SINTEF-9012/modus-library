@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-r9ZVtSptwU3W8rIsyxqWAQ" name="sisas_studio_development_guide,_zaVbILb-EeGSldvlqRCwfg" guid="-r9ZVtSptwU3W8rIsyxqWAQ" changeDate="2012-06-18T11:23:54.562+0200">
+  <mainDescription>&lt;h3>&#xD;
+    SiSaS Studio: Development guide&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    The SiSaS Studio has been designed as a support for Model Driven Engineering (MDE). As a general paradigm, MDE&#xD;
+    advocates a special focus on models describing various aspects of a system, and from which part or the totality of the&#xD;
+    code can be automatically generated. To this ends, the SiSaS Studio embeds a basic modelling environment and a set of&#xD;
+    predefined models transformations to generate code. The modelling environment, named Papyrus allows users to&#xD;
+    graphically create UML models (it supports various types of diagram). The set of predefined model transformation allows&#xD;
+    users to obtain the implementation of the model, automatically.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;Figure 3.1&quot; src=&quot;resources/sisas_studio_figure_3.1.png&quot; width=&quot;507&quot; height=&quot;284&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 3.1: The process of developing software systems with SiSaS Studio&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Figure 3.1 above details the process of building an application with the SiSaS Studio. Further examples are provided in&#xD;
+    Section 4, which illustrate the various types of applications that can be built with the Studio. This five steps&#xD;
+    process is structured as follows:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Model the System using UML and Profiles. In this initial stage, the designer of the system is in charge of&#xD;
+        describing the system he needs, and annotating the model with specific profiles (migration, persistence, etc.)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Convert to EMF/UML model. The transformations that are bundled in the SiSaS Studio exploit UML model stored in a&#xD;
+        specific format, namely EMF/UML model. It is hence necessary to convert models stored in other format, so as to&#xD;
+        enable model transformation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Select the appropriate project template. The SiSaS Studio provides a set of predefined templates, representing&#xD;
+        different code-level project structure reflecting specific applicative or development framework. Each template&#xD;
+        specifies a set of artefacts to be automatically generated. The user has merely to select the template he wants, or&#xD;
+        to defined a new one if none meets his requirements (cf. Section 5.1 for further detail about template creation).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Completeness Check. When instantiating a given project template on a specific UML model, the SiSaS Studio will&#xD;
+        first check whether the given UML match the requirements of the select set of transformation. It is worth to note&#xD;
+        that model transformations operate on specific subsets of the UML notation and incomplete or inconsistent model&#xD;
+        would leads to ill-formed code. To avoid such a situation, the SiSaS Studio embeds checkers that ensure that a&#xD;
+        given models matches the requirements of the selected model transformations. Such checks are automatically&#xD;
+        performed.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Code Generation. Assuming that the given UML model is complete and consistent, the SiSaS Studio will generate all&#xD;
+        the artefacts specified in the project templates. This step is also performed automatically.&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

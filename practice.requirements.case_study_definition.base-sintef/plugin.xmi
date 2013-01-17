@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_vNIY4J5REeCuMexjO-JKFw" guid="_vNIY4J5REeCuMexjO-JKFw">
+    <subManagers xmi:id="_0gbikaJDEeC2rPq2LOW9Ag" href="uma://_0f-2oKJDEeC2rPq2LOW9Ag#_0gbikaJDEeC2rPq2LOW9Ag"/>
+    <resourceDescriptors xmi:id="_vNIY4p5REeCuMexjO-JKFw" id="--DqSG3bihyFFZxriYuinAQ" uri="guidances/supportingmaterials/release_info_case_study_definition.xmi"/>
+    <resourceDescriptors xmi:id="_vNIY455REeCuMexjO-JKFw" id="-vrf-lgnLJdDtzmas1EXODg" uri="guidances/roadmaps/how_to_adopt_case_study_definition.xmi"/>
+    <resourceDescriptors xmi:id="_vNIY5J5REeCuMexjO-JKFw" id="-i6z8cPKDK4FU-e1bilwZAQ" uri="guidances/practices/case_study_definition.xmi"/>
+    <resourceDescriptors xmi:id="_KcctEJ5WEeCZu7rk2fFONg" id="-7RtalGu-dkfamxNFB9g3yg" uri="guidances/templates/use_case_template.xmi"/>
+    <resourceDescriptors xmi:id="_pMtYcJ5aEeCZu7rk2fFONg" id="-2UfaTFycYRtOkCIyB-KDCw" uri="guidances/templates/as_is_template.xmi"/>
+    <resourceDescriptors xmi:id="_AALwQJ5bEeCZu7rk2fFONg" id="-BAXboZee4u6p4PS2aiq7sg" uri="guidances/templates/requirements_template.xmi"/>
+    <resourceDescriptors xmi:id="_cRu6UJ5bEeCZu7rk2fFONg" id="-2LB168IjJVGC-FXqxYWvvA" uri="guidances/templates/interview_template.xmi"/>
+    <resourceDescriptors xmi:id="_nh-fgJ5bEeCZu7rk2fFONg" id="-g3p7gnZw7AY0UVsUYpfNZw" uri="guidances/examples/interview.xmi"/>
+    <resourceDescriptors xmi:id="_y9UPgJ5dEeCZu7rk2fFONg" id="-CbtxSxGwSlyaMx9XIi_tKg" uri="tasks/identification_of_case_studies.xmi"/>
+    <resourceDescriptors xmi:id="_Vr8N4J5iEeCZu7rk2fFONg" id="-Gj3QZnM1G-nvS1_zgu3vDw" uri="tasks/high_level_specification.xmi"/>
+    <resourceDescriptors xmi:id="_cd_kkKCTEeC6iu1cZR-v5g" id="-6oRqCLp5CP5f_TYeqdotVQ" uri="tasks/detailed_specification.xmi"/>
+    <resourceDescriptors xmi:id="_gI4FcKCUEeC6iu1cZR-v5g" id="-LyKAOU2RE-c8T5I5NMXIjg" uri="tasks/experimentation.xmi"/>
+    <resourceDescriptors xmi:id="_v6x38KCUEeC6iu1cZR-v5g" id="-KReiv3JlFshj18d2BGeNGA" uri="tasks/evaluation.xmi"/>
+    <resourceDescriptors xmi:id="_0f-2o6JDEeC2rPq2LOW9Ag" id="_0f-2oKJDEeC2rPq2LOW9Ag" uri="capabilitypatterns/case_study_definition/model.xmi"/>
+    <resourceDescriptors xmi:id="_h1td8aJFEeC2rPq2LOW9Ag" id="-l7SDSfdxVz1UcDC0EX7Xuw" uri="workproducts/case_study_description.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_HIVxoJ5OEeCOkvcSVgl5mQ" name="practice.requirements.case_study_definition.base-sintef" guid="_HIVxoJ5OEeCOkvcSVgl5mQ" briefDescription="This plugin contains the Case study practice." authors="Åsmund Tjora (MARINTEK), Kay E. Fjørtoft (MARINTEK), Brian Elvesæter (SINTEF)" changeDate="2011-06-24T12:39:39.120+0200">
+    <methodElementProperty xmi:id="_vM-n4J5REeCuMexjO-JKFw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HIVxoZ5OEeCOkvcSVgl5mQ" name="Content" guid="_HIVxoZ5OEeCOkvcSVgl5mQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HIVxop5OEeCOkvcSVgl5mQ" name="Categories" guid="_HIVxop5OEeCOkvcSVgl5mQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HIVxo55OEeCOkvcSVgl5mQ" name="Domains" guid="_HIVxo55OEeCOkvcSVgl5mQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_TEjosKJDEeC2rPq2LOW9Ag" name="requirements_modelling_domain.assign" guid="_TEjosKJDEeC2rPq2LOW9Ag" variabilityType="contributes" workProducts="_ntqTUKJGEeC2rPq2LOW9Ag">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_iESMoNxcEd-LYKXkOhPACw#_UhZyAN0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HIVxpJ5OEeCOkvcSVgl5mQ" name="Disciplines" guid="_HIVxpJ5OEeCOkvcSVgl5mQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_Rs7ucKJDEeC2rPq2LOW9Ag" name="requirements_modelling_discipline.assign" guid="_Rs7ucKJDEeC2rPq2LOW9Ag" variabilityType="contributes" tasks="_31yYIJ5OEeCOkvcSVgl5mQ _9Ei8AJ5OEeCOkvcSVgl5mQ _6qG54J5OEeCOkvcSVgl5mQ _xjfToJ5OEeCOkvcSVgl5mQ _tAfCgJ5OEeCOkvcSVgl5mQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_iESMoNxcEd-LYKXkOhPACw#_C-RScN0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HIVxpZ5OEeCOkvcSVgl5mQ" name="RoleSets" guid="_HIVxpZ5OEeCOkvcSVgl5mQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HIVxpp5OEeCOkvcSVgl5mQ" name="WP Types" guid="_HIVxpp5OEeCOkvcSVgl5mQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HIVxp55OEeCOkvcSVgl5mQ" name="Tools" guid="_HIVxp55OEeCOkvcSVgl5mQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HIVxqJ5OEeCOkvcSVgl5mQ" name="StandardCategories" guid="_HIVxqJ5OEeCOkvcSVgl5mQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HIVxqZ5OEeCOkvcSVgl5mQ" name="CustomCategories" guid="_HIVxqZ5OEeCOkvcSVgl5mQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HIVxqp5OEeCOkvcSVgl5mQ" name="Hidden" guid="_HIVxqp5OEeCOkvcSVgl5mQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_HIVxq55OEeCOkvcSVgl5mQ" name="Custom Categories" guid="_HIVxq55OEeCOkvcSVgl5mQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HIVxrJ5OEeCOkvcSVgl5mQ" name="CoreContent" guid="_HIVxrJ5OEeCOkvcSVgl5mQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_anhHIJ5OEeCOkvcSVgl5mQ" name="release_info" guid="_anhHIJ5OEeCOkvcSVgl5mQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_1PARMJ5QEeCOkvcSVgl5mQ" name="release_info_case_study_definition" guid="_1PARMJ5QEeCOkvcSVgl5mQ" presentationName="Practice: Case study definition" briefDescription="Case study definition practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="--DqSG3bihyFFZxriYuinAQ" href="uma://--DqSG3bihyFFZxriYuinAQ#--DqSG3bihyFFZxriYuinAQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bxdxwJ5OEeCOkvcSVgl5mQ" name="tool_mentors" guid="_bxdxwJ5OEeCOkvcSVgl5mQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_dNtGQJ5OEeCOkvcSVgl5mQ" name="case_study_definition" guid="_dNtGQJ5OEeCOkvcSVgl5mQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_tAfCgJ5OEeCOkvcSVgl5mQ" name="identification_of_case_studies" guid="_tAfCgJ5OEeCOkvcSVgl5mQ" presentationName="Identification of case studies" briefDescription="&#x9;&#x9;&#x9;&#x9;" performedBy="_5zDvQKJCEeC2rPq2LOW9Ag" output="_YDWMAKJFEeC2rPq2LOW9Ag">
+            <presentation xmi:id="-CbtxSxGwSlyaMx9XIi_tKg" href="uma://-CbtxSxGwSlyaMx9XIi_tKg#-CbtxSxGwSlyaMx9XIi_tKg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_xjfToJ5OEeCOkvcSVgl5mQ" name="high_level_specification" guid="_xjfToJ5OEeCOkvcSVgl5mQ" presentationName="High-level specification" briefDescription="To describe realistic real-world scenarios, understand the overall processes and main challenges faced by the actors involved, and prepare the use-case scenarios for large-scale trials. " performedBy="_5zDvQKJCEeC2rPq2LOW9Ag" output="_A96hgKJFEeC2rPq2LOW9Ag">
+            <presentation xmi:id="-Gj3QZnM1G-nvS1_zgu3vDw" href="uma://-Gj3QZnM1G-nvS1_zgu3vDw#-Gj3QZnM1G-nvS1_zgu3vDw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_31yYIJ5OEeCOkvcSVgl5mQ" name="detailed_specification" guid="_31yYIJ5OEeCOkvcSVgl5mQ" presentationName="Detailed specification" performedBy="_5zDvQKJCEeC2rPq2LOW9Ag">
+            <presentation xmi:id="-6oRqCLp5CP5f_TYeqdotVQ" href="uma://-6oRqCLp5CP5f_TYeqdotVQ#-6oRqCLp5CP5f_TYeqdotVQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6qG54J5OEeCOkvcSVgl5mQ" name="experimentation" guid="_6qG54J5OEeCOkvcSVgl5mQ" presentationName="Experimentation" performedBy="_5zDvQKJCEeC2rPq2LOW9Ag">
+            <presentation xmi:id="-LyKAOU2RE-c8T5I5NMXIjg" href="uma://-LyKAOU2RE-c8T5I5NMXIjg#-LyKAOU2RE-c8T5I5NMXIjg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_9Ei8AJ5OEeCOkvcSVgl5mQ" name="evaluation" guid="_9Ei8AJ5OEeCOkvcSVgl5mQ" presentationName="Evaluation" performedBy="_5zDvQKJCEeC2rPq2LOW9Ag">
+            <presentation xmi:id="-KReiv3JlFshj18d2BGeNGA" href="uma://-KReiv3JlFshj18d2BGeNGA#-KReiv3JlFshj18d2BGeNGA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_WhIEEJ5PEeCOkvcSVgl5mQ" name="as_is_template" guid="_WhIEEJ5PEeCOkvcSVgl5mQ" presentationName="As-is template">
+            <presentation xmi:id="-2UfaTFycYRtOkCIyB-KDCw" href="uma://-2UfaTFycYRtOkCIyB-KDCw#-2UfaTFycYRtOkCIyB-KDCw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_aBfMcJ5PEeCOkvcSVgl5mQ" name="requirements_template" guid="_aBfMcJ5PEeCOkvcSVgl5mQ" presentationName="Reqirements template">
+            <presentation xmi:id="-BAXboZee4u6p4PS2aiq7sg" href="uma://-BAXboZee4u6p4PS2aiq7sg#-BAXboZee4u6p4PS2aiq7sg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_iEINMJ5PEeCOkvcSVgl5mQ" name="use_case_template" guid="_iEINMJ5PEeCOkvcSVgl5mQ" presentationName="Use case template">
+            <presentation xmi:id="-7RtalGu-dkfamxNFB9g3yg" href="uma://-7RtalGu-dkfamxNFB9g3yg#-7RtalGu-dkfamxNFB9g3yg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_BSjioJ5REeCOkvcSVgl5mQ" name="how_to_adopt_case_study_definition" guid="_BSjioJ5REeCOkvcSVgl5mQ" presentationName="How to adopt the Case study definition practice" briefDescription="This roadmap describes how to adopt the Case study definition practice.">
+            <presentation xmi:id="-vrf-lgnLJdDtzmas1EXODg" href="uma://-vrf-lgnLJdDtzmas1EXODg#-vrf-lgnLJdDtzmas1EXODg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_BSjioZ5REeCOkvcSVgl5mQ" name="case_study_definition" guid="_BSjioZ5REeCOkvcSVgl5mQ" presentationName="Case study definition" briefDescription="This practice describes how to define a case study." contentReferences="_cRtFIJ5bEeCZu7rk2fFONg _YDWMAKJFEeC2rPq2LOW9Ag _A96hgKJFEeC2rPq2LOW9Ag _WhIEEJ5PEeCOkvcSVgl5mQ _y3_yAJ5aEeCZu7rk2fFONg _aBfMcJ5PEeCOkvcSVgl5mQ _iEINMJ5PEeCOkvcSVgl5mQ _31yYIJ5OEeCOkvcSVgl5mQ _9Ei8AJ5OEeCOkvcSVgl5mQ _6qG54J5OEeCOkvcSVgl5mQ _xjfToJ5OEeCOkvcSVgl5mQ _tAfCgJ5OEeCOkvcSVgl5mQ _5zDvQKJCEeC2rPq2LOW9Ag _BSjioJ5REeCOkvcSVgl5mQ">
+            <presentation xmi:id="-i6z8cPKDK4FU-e1bilwZAQ" href="uma://-i6z8cPKDK4FU-e1bilwZAQ#-i6z8cPKDK4FU-e1bilwZAQ"/>
+            <activityReferences href="uma://_0f-2oKJDEeC2rPq2LOW9Ag#_0f-2oaJDEeC2rPq2LOW9Ag"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_y3_yAJ5aEeCZu7rk2fFONg" name="interview_template" guid="_y3_yAJ5aEeCZu7rk2fFONg" presentationName="Interview template">
+            <presentation xmi:id="-2LB168IjJVGC-FXqxYWvvA" href="uma://-2LB168IjJVGC-FXqxYWvvA#-2LB168IjJVGC-FXqxYWvvA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_cRtFIJ5bEeCZu7rk2fFONg" name="interview" guid="_cRtFIJ5bEeCZu7rk2fFONg" presentationName="Interview" briefDescription="A walkthrough on how to perform an interview">
+            <presentation xmi:id="-g3p7gnZw7AY0UVsUYpfNZw" href="uma://-g3p7gnZw7AY0UVsUYpfNZw#-g3p7gnZw7AY0UVsUYpfNZw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_5zDvQKJCEeC2rPq2LOW9Ag" name="requirements_analyst.assign" guid="_5zDvQKJCEeC2rPq2LOW9Ag" variabilityType="contributes" responsibleFor="_A96hgKJFEeC2rPq2LOW9Ag _YDWMAKJFEeC2rPq2LOW9Ag">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIpisBntEd6VV7P4WguglA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_A96hgKJFEeC2rPq2LOW9Ag" name="high_level_case_study_specification" guid="_A96hgKJFEeC2rPq2LOW9Ag" presentationName="High-level case study specification"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_YDWMAKJFEeC2rPq2LOW9Ag" name="case_study_description" guid="_YDWMAKJFEeC2rPq2LOW9Ag" presentationName="Case study description">
+            <presentation xmi:id="-l7SDSfdxVz1UcDC0EX7Xuw" href="uma://-l7SDSfdxVz1UcDC0EX7Xuw#-l7SDSfdxVz1UcDC0EX7Xuw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_ntqTUKJGEeC2rPq2LOW9Ag" name="requirements_model.assign" guid="_ntqTUKJGEeC2rPq2LOW9Ag" variabilityType="contributes" deliveredWorkProducts="_YDWMAKJFEeC2rPq2LOW9Ag _A96hgKJFEeC2rPq2LOW9Ag">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_2t4YUOG2Ed-AyrTFSpVP8g"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_HIVxrZ5OEeCOkvcSVgl5mQ" name="CapabilityPatterns" guid="_HIVxrZ5OEeCOkvcSVgl5mQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_x1owQKJDEeC2rPq2LOW9Ag" name="case_study" guid="_x1owQKJDEeC2rPq2LOW9Ag">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_0f-2oKJDEeC2rPq2LOW9Ag" href="uma://_0f-2oKJDEeC2rPq2LOW9Ag#_0f-2oKJDEeC2rPq2LOW9Ag"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_HIVxrp5OEeCOkvcSVgl5mQ" name="DeliveryProcesses" guid="_HIVxrp5OEeCOkvcSVgl5mQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_HIVxr55OEeCOkvcSVgl5mQ" name="ProcessContributions" guid="_HIVxr55OEeCOkvcSVgl5mQ"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

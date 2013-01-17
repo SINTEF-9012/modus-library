@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_NdGKISXZEd-wiJ8m5XAddw" guid="_NdGKISXZEd-wiJ8m5XAddw">
+    <resourceDescriptors xmi:id="_NdGKIiXZEd-wiJ8m5XAddw" id="-RFgWlCvhk_DGn8WSRHv0hQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_NcgUQCXZEd-wiJ8m5XAddw" name="develop_textual_editor" guid="_NcgUQCXZEd-wiJ8m5XAddw">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sARe0FYlEeCmC7fuNTHhhQ" name="develop_textual_editor" guid="_sARe0FYlEeCmC7fuNTHhhQ" presentationName="Develop textual editor" superActivities="_NcgUQSXZEd-wiJ8m5XAddw" performedPrimarilyBy="_sASF4FYlEeCmC7fuNTHhhQ">
+      <Task href="uma://_FzYp8Mb_Ed-2_-I8Ok7trA#_fV2aoFYlEeCmC7fuNTHhhQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_sASF4FYlEeCmC7fuNTHhhQ" name="editor_developer" guid="_sASF4FYlEeCmC7fuNTHhhQ" presentationName="Editor developer" isPlanned="false" superActivities="_NcgUQSXZEd-wiJ8m5XAddw">
+      <methodElementProperty xmi:id="_sASF4VYlEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_MHE4wCXhEd-wiJ8m5XAddw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_NcgUQSXZEd-wiJ8m5XAddw" name="develop_textual_editor" guid="_NcgUQSXZEd-wiJ8m5XAddw" presentationName="Develop textual editor" breakdownElements="_sARe0FYlEeCmC7fuNTHhhQ _sASF4FYlEeCmC7fuNTHhhQ">
+      <methodElementProperty xmi:id="_kAofYNeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-RFgWlCvhk_DGn8WSRHv0hQ" href="uma://-RFgWlCvhk_DGn8WSRHv0hQ#-RFgWlCvhk_DGn8WSRHv0hQ"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_tQn-IFX-EeCmC7fuNTHhhQ"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_tQn-IFX-EeCmC7fuNTHhhQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

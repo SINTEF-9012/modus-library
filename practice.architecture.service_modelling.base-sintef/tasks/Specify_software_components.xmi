@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-5bynT6bDmwgruEVrPREWEQ" name="Specify_software_components,_ByzAgFzfEd-W9-TCScsYqg" guid="-5bynT6bDmwgruEVrPREWEQ" authors="Brian Elvesæter (SINTEF)" changeDate="2010-05-11T11:28:17.448+0200" changeDescription="0.2: Revised description according to SoaML methodology book chapter.|0.1: Initial outline." version="0.2">
+  <mainDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Software components are modelled as components with composite structures using class diagrams in UML.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_ByzAgVzfEd-W9-TCScsYqg" name="1. Identify components." guid="_ByzAgVzfEd-W9-TCScsYqg">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    For each participant in the community services architecture you define a SoaML participant which represents a software&#xD;
+    system that realizes the service contracts specified for the business organizations (specified as SoaML participant) in&#xD;
+    the Business Architecture Model. For each participant in the participant services architecture you define a UML&#xD;
+    component that represents an internal software component of the corresponding software system. (In the case of complex&#xD;
+    participant services architecture you may specify these components as SoaML participants with the intent of specifying&#xD;
+    additional and more detailed service interfaces at software-level. For simpler services architectures going to&#xD;
+    traditional component software design should be considered instead.)&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    Note that not all software components can be specified fully in this manner. Indeed some components are provided or&#xD;
+    developed by third parties, which means that their internal structure may be unknown. However, such component must&#xD;
+    behave according to the service interfaces that type their ports, possibly including the corresponding service&#xD;
+    choreographies.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_ByzAglzfEd-W9-TCScsYqg" name="2. Define the internal component structure." guid="_ByzAglzfEd-W9-TCScsYqg">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Based on the private services architecture that you have defined for the participant, you specify the internal&#xD;
+    components of the software component. The software components are connected through the service interfaces that you&#xD;
+    have already defined.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_todYsFzfEd-W9-TCScsYqg" name="3. Define the component architecture for the community services architecture." guid="_todYsFzfEd-W9-TCScsYqg">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    After the private component architectures have been defined, you are able to assemble the component architecture that&#xD;
+    realizes the community services architecture using the public interfaces as defined by the components and connect these&#xD;
+    using service channels.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To&amp;nbsp;specify the software components that implements the IT perspective of an SOA.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_DR9SICySEeKglPds0ggRbw" guid="_DR9SICySEeKglPds0ggRbw"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_DR0IMCySEeKglPds0ggRbw" name="practice.business.business_process_modelling.extend_neffics-sintef" guid="_DR0IMCySEeKglPds0ggRbw" authors="Brian Elvesæter (SINTEF)" changeDate="2012-11-12T07:28:07.715+0100">
+    <methodElementProperty xmi:id="_DR9SIiySEeKglPds0ggRbw" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_H1aPMCySEeKglPds0ggRbw" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_DR0IMSySEeKglPds0ggRbw" name="Content" guid="_DR0IMSySEeKglPds0ggRbw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_DR0IMiySEeKglPds0ggRbw" name="Categories" guid="_DR0IMiySEeKglPds0ggRbw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_DR0IMyySEeKglPds0ggRbw" name="Domains" guid="_DR0IMyySEeKglPds0ggRbw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_VRq_kC0MEeKyWralSrmW_A" name="networked_process_and_service_modelling_domain.assign" guid="_VRq_kC0MEeKyWralSrmW_A" variabilityType="contributes" workProducts="_pO3HMCySEeKglPds0ggRbw">
+            <methodElementProperty xmi:id="_W8ydkC0MEeKyWralSrmW_A" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_6SPsEC0IEeKyWralSrmW_A"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_DR0INCySEeKglPds0ggRbw" name="Disciplines" guid="_DR0INCySEeKglPds0ggRbw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_ODfhoC0MEeKyWralSrmW_A" name="networked_process_and_service_modelling_discipline.assign" guid="_ODfhoC0MEeKyWralSrmW_A" variabilityType="contributes" tasks="_bEWwUCySEeKglPds0ggRbw _iGZPsCySEeKglPds0ggRbw">
+            <methodElementProperty xmi:id="_QJF8MC0MEeKyWralSrmW_A" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_kmsbEC0HEeKyWralSrmW_A"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_DR0INSySEeKglPds0ggRbw" name="RoleSets" guid="_DR0INSySEeKglPds0ggRbw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_DR0INiySEeKglPds0ggRbw" name="WP Types" guid="_DR0INiySEeKglPds0ggRbw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_DR0INyySEeKglPds0ggRbw" name="Tools" guid="_DR0INyySEeKglPds0ggRbw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_DR0IOCySEeKglPds0ggRbw" name="StandardCategories" guid="_DR0IOCySEeKglPds0ggRbw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_DR0IOSySEeKglPds0ggRbw" name="CustomCategories" guid="_DR0IOSySEeKglPds0ggRbw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_DR0IOiySEeKglPds0ggRbw" name="Hidden" guid="_DR0IOiySEeKglPds0ggRbw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_DR0IOyySEeKglPds0ggRbw" name="Custom Categories" guid="_DR0IOyySEeKglPds0ggRbw" categorizedElements="_XMZggC0EEeKyWralSrmW_A"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_XMZggC0EEeKyWralSrmW_A" name="modelling_languages.assign" guid="_XMZggC0EEeKyWralSrmW_A" variabilityType="contributes" categorizedElements="_aLknYC0EEeKyWralSrmW_A">
+            <methodElementProperty xmi:id="_YUGvcC0EEeKyWralSrmW_A" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_YGUGwCmxEeK5vc5kbcw8xg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_aLknYC0EEeKyWralSrmW_A" name="bpmn.assign" guid="_aLknYC0EEeKyWralSrmW_A" variabilityType="contributes">
+            <methodElementProperty xmi:id="_a4ND4C0EEeKyWralSrmW_A" name="me_edited" value="true"/>
+            <methodElementProperty xmi:id="_fqrUYC0EEeKyWralSrmW_A" name="CategoryElementsSortType" value="Alphabetic"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_3QdOkCmxEeK5vc5kbcw8xg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_IDtNEMNCEeCGkIgyjTMixA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Checklist" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_-7mWkOZqEd-5YeUvCnM2dQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_gKlV-TNsEd-ExpsL4NzSpg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_gKcMHzNsEd-ExpsL4NzSpg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_gKlV-DNsEd-ExpsL4NzSpg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_gKlV8DNsEd-ExpsL4NzSpg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Concept" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_PJRYQDv3Ed-OFL4K-b4X_A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Concept" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_25EZMDv1Ed-OFL4K-b4X_A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Concept" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_GT-LgDv3Ed-OFL4K-b4X_A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Concept" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_CNabQDv2Ed-OFL4K-b4X_A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_gKcMIDNsEd-ExpsL4NzSpg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Concept" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_wuPdUMNTEeCGkIgyjTMixA"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_DR0IPCySEeKglPds0ggRbw" name="CoreContent" guid="_DR0IPCySEeKglPds0ggRbw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_OGM30CySEeKglPds0ggRbw" name="business_process_modelling" guid="_OGM30CySEeKglPds0ggRbw">
+          <methodElementProperty xmi:id="_PQ4iQCySEeKglPds0ggRbw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_WQjDECySEeKglPds0ggRbw" name="solution_architect.assign" guid="_WQjDECySEeKglPds0ggRbw" variabilityType="contributes" responsibleFor="_pO3HMCySEeKglPds0ggRbw">
+            <methodElementProperty xmi:id="_XJYIgCySEeKglPds0ggRbw" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_0wQ9MCdVEeKDGNEPRzZzCg#_qSz08CdXEeKDGNEPRzZzCg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_bEWwUCySEeKglPds0ggRbw" name="define_business_information.assign" guid="_bEWwUCySEeKglPds0ggRbw" variabilityType="contributes" performedBy="_WQjDECySEeKglPds0ggRbw">
+            <methodElementProperty xmi:id="_cUQR8CySEeKglPds0ggRbw" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_nWZiQObrEd-nztBGQnvNAA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_iGZPsCySEeKglPds0ggRbw" name="define_business_processes.assign" guid="_iGZPsCySEeKglPds0ggRbw" variabilityType="contributes" performedBy="_WQjDECySEeKglPds0ggRbw">
+            <methodElementProperty xmi:id="_jgjgkCySEeKglPds0ggRbw" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_0zuqEObrEd-nztBGQnvNAA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_pO3HMCySEeKglPds0ggRbw" name="business_process_model.assign" guid="_pO3HMCySEeKglPds0ggRbw" variabilityType="contributes">
+            <methodElementProperty xmi:id="_qZ_dkCySEeKglPds0ggRbw" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_yoXxEMEiEeGgb_xjjvFwfg"/>
+            <deliveredWorkProducts href="uma://_7TPU4McSEd-2_-I8Ok7trA#_xQIN4OEAEd-uaoNIhpFKqA"/>
+            <deliveredWorkProducts href="uma://_7TPU4McSEd-2_-I8Ok7trA#_t_xQYOEAEd-uaoNIhpFKqA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_P-QloCySEeKglPds0ggRbw" name="tool_mentors" guid="_P-QloCySEeKglPds0ggRbw">
+          <methodElementProperty xmi:id="_QiHgoCySEeKglPds0ggRbw" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ROKHQCySEeKglPds0ggRbw" name="release_info" guid="_ROKHQCySEeKglPds0ggRbw">
+          <methodElementProperty xmi:id="_R9UTUCySEeKglPds0ggRbw" name="me_edited" value="true"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_DR0IPSySEeKglPds0ggRbw" name="CapabilityPatterns" guid="_DR0IPSySEeKglPds0ggRbw"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_DR0IPiySEeKglPds0ggRbw" name="DeliveryProcesses" guid="_DR0IPiySEeKglPds0ggRbw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_DR0IPyySEeKglPds0ggRbw" name="ProcessContributions" guid="_DR0IPyySEeKglPds0ggRbw"/>
+    <bases href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_Xy_FcBWsEeGINOUzJIOMxA"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_0wQ9MCdVEeKDGNEPRzZzCg#_0wQ9MCdVEeKDGNEPRzZzCg"/>
+    <bases href="uma://_ZrOMELSiEeGOSY51NyhYZA#_ZrOMELSiEeGOSY51NyhYZA"/>
+    <bases href="uma://_7TPU4McSEd-2_-I8Ok7trA#_7TPU4McSEd-2_-I8Ok7trA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

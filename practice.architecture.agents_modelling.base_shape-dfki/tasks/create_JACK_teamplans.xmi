@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-CYYlYYXSM9g2A6JfYZdZ8g" name=",_CItdkHwsEd6zE6DaMH4mBQ" guid="-CYYlYYXSM9g2A6JfYZdZ8g" authors="Christian Hahn" changeDate="2009-08-11T11:32:25.049+0200" changeDescription="Initial input" version="0.1">
+  <mainDescription>&lt;P>&lt;SPAN lang=EN-GB style=&quot;mso-ansi-language: EN-GB&quot;>A &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>TeamPlan&lt;/SPAN> specifies the behaviour of a &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Team&lt;/SPAN> in reaction to a specific &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Event&lt;/SPAN>. As a specialization of &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Plan&lt;/SPAN>, a &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>TeamPlan&lt;/SPAN> also defines a set of activities specifying how a particular task is achieved by particular &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Roles&lt;/SPAN>, thus a &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>TeamPlan&lt;/SPAN> defines how&amp;nbsp; a task is achieve in terms of &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Roles&lt;/SPAN>. In order to coordinate the &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Team’s&lt;/SPAN> behaviour, a &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>TeamPlan&lt;/SPAN> provides additional constructs like the &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>team achieve&lt;/SPAN> statement. &lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&lt;SPAN lang=EN-GB style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>&lt;o:p>&amp;nbsp;&lt;/o:p>&lt;/SPAN>&lt;/P></mainDescription>
+  <sections xmi:id="_SCwfcHwsEd6zE6DaMH4mBQ" name="Define TeamPlans" guid="_SCwfcHwsEd6zE6DaMH4mBQ">
+    <sectionDescription>&lt;p>&#xD;
+    The team plan specifies which roles it requires, which event it handles as well as which events are sent within the&#xD;
+    body of the plan.&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Define the name of the TeamPlan&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></sectionDescription>
+  </sections>
+  <sections xmi:id="__P3q0IWEEd6Lb6GZuo4wTA" name="Define context condition" guid="__P3q0IWEEd6Lb6GZuo4wTA">
+    <sectionDescription>The context condition specifies for which kind of situation the team plan is suitable.</sectionDescription>
+  </sections>
+  <sections xmi:id="_5-Wt4IWEEd6Lb6GZuo4wTA" name="Add sequences of basic activities" guid="_5-Wt4IWEEd6Lb6GZuo4wTA">
+    <sectionDescription>A workflow-like structure defines the body of the team plan. Concepts like flows, forks, joins, etc. can be used to express&#xD;
+the flow.</sectionDescription>
+  </sections>
+  <purpose>Create team plans in JACK</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-waIT9aNML1w7ftySiDFoSA" name="Service Composition Behavioural Modelling,_xIzoMEnpEd6LdsS7H-3sPg" guid="-waIT9aNML1w7ftySiDFoSA" authors="Brian Elvesæter (SINTEF), Cyril Carrez (SINTEF), Svein G. Johnsen (SINTEF), Andreas Limyr (SINTEF)" changeDate="2009-08-07T14:49:30.503+0200" changeDescription="0.2: Added steps and descriptions.|0.1: Inital outline." version="0.2">
+  <mainDescription>This task defines the guided procedure for modelling a service composition.</mainDescription>
+  <sections xmi:id="_XeblAFZ8Ed6NKeijDtiuXg" name="1. Create a VSCL Service Composition Diagram." guid="_XeblAFZ8Ed6NKeijDtiuXg"/>
+  <sections xmi:id="_eBSOAFZ8Ed6NKeijDtiuXg" name="2. Define input and output of composition." guid="_eBSOAFZ8Ed6NKeijDtiuXg">
+    <sectionDescription>Define the interface of the service composition by deciding the number of input and output parameters. In addition to that&#xD;
+decide the type of each parametere, String, Integer, Complex Type or something else.</sectionDescription>
+  </sections>
+  <sections xmi:id="_f1zfoFZ8Ed6NKeijDtiuXg" name="3. Gather services to be used in the composition." guid="_f1zfoFZ8Ed6NKeijDtiuXg">
+    <sectionDescription>Find the services you need for creating the composition. In most cases WSDL files are enough for identifying the different&#xD;
+serivces.&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_jQPmMFZ8Ed6NKeijDtiuXg" name="4. Construct your composition." guid="_jQPmMFZ8Ed6NKeijDtiuXg">
+    <sectionDescription>With use of the constructs of an Activity Diagram create your composition. Connect your services to Call Operation Actions&#xD;
+by assigning one of the service operations to the operation slot in a Call Operation Action.&lt;br /></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To&amp;nbsp;model a service composition.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

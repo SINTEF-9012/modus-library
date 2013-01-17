@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-hiowZ_KfmKm13Uz4hY5wTA" name="new_guideline,_60lLsL3jEeCOQrIHtroKcw" guid="-hiowZ_KfmKm13Uz4hY5wTA" changeDate="2011-08-04T10:18:52.293+0200">
+  <mainDescription>&lt;p>&#xD;
+    UML collaborations are often regarded as more appropriate for modellirather than detailed design. Thus, one way of&#xD;
+    combining the service contracts and service interfaces is to regard service interfaces as refinements of service&#xD;
+    contracts. We have found this approach appropriate to describe business-level architectures using service contracts and&#xD;
+    system-level architectures using service interfaces. Figure 13 and Figure 14 illustrate this approach.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In Figure 13 we have the specification of “high-level” or “business-level” consumer and provider interfaces for the&#xD;
+    Place Order service contract as explained earlier in this paper. In Figure 14 we refine these interfaces and add more&#xD;
+    details with respect to IT service implementation. Notice that this approach can be supported by a one-to-one mapping&#xD;
+    from a service contract and its interfaces to a service interface and its interfaces. In the service interface and its&#xD;
+    corresponding interfaces you may refine the models towards more IT-level system specifications.&#xD;
+&lt;/p>&#xD;
+&lt;img alt=&quot;&quot; src=&quot;resources/dna_aligning_refinements_figure_13_example.png&quot; width=&quot;464&quot; height=&quot;210&quot; />&lt;br />&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 13:&lt;/strong> Service contracts models the business interfaces&#xD;
+&lt;/p>&#xD;
+&lt;img alt=&quot;&quot; src=&quot;resources/dna_aligning_refinements_figure_14_example.png&quot; width=&quot;538&quot; height=&quot;580&quot; />&lt;br />&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 14:&lt;/strong> Service interface refines the service contract&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

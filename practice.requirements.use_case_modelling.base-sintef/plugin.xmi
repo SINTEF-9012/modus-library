@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_zZP6QJ1wEeCOw7xpsfr5Cw" guid="_zZP6QJ1wEeCOw7xpsfr5Cw">
+    <subManagers xmi:id="_zZo70J1wEeCOw7xpsfr5Cw" href="uma://_c5O1AOKnEd-Knc6oCYT2Zw#_zZo70J1wEeCOw7xpsfr5Cw"/>
+    <resourceDescriptors xmi:id="_zZQhUJ1wEeCOw7xpsfr5Cw" id="-VsFwVR9B-Ns53NFnAB4pwA" uri="guidances/practices/use_case_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_zZS9kJ1wEeCOw7xpsfr5Cw" id="-s7q_Kc9uZtw_NcnVJEoI6g" uri="guidances/roadmaps/how_to_adopt_use_case_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_zZVZ0J1wEeCOw7xpsfr5Cw" id="-e_KkNK_j_XiLwL_ijeohUg" uri="workproducts/requirements_model.assign.xmi"/>
+    <resourceDescriptors xmi:id="_zZaSUJ1wEeCOw7xpsfr5Cw" id="-8FAOLuG0RJtywHEeApd67A" uri="workproducts/system_boundary_model.xmi"/>
+    <resourceDescriptors xmi:id="_zZbgcJ1wEeCOw7xpsfr5Cw" id="-D5RgL7PCPbVKZv8X6FSHdw" uri="workproducts/use_case_scenario_model.xmi"/>
+    <resourceDescriptors xmi:id="_zZcukJ1wEeCOw7xpsfr5Cw" id="-ZakdDpKXh_vlEqQALnujxw" uri="tasks/define_system_boundary_model.xmi"/>
+    <resourceDescriptors xmi:id="_zZgY8J1wEeCOw7xpsfr5Cw" id="-IE5YIfxpHZOJioO6fRfLjw" uri="tasks/detail_use_case_scenarios.xmi"/>
+    <resourceDescriptors xmi:id="_zZlRcJ1wEeCOw7xpsfr5Cw" id="-MS5YCsYo5PApWuhOpROHlw" uri="guidances/supportingmaterials/release_info_use_case_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_zZntsJ1wEeCOw7xpsfr5Cw" id="_c5O1AOKnEd-Knc6oCYT2Zw" uri="capabilitypatterns/use_case_modelling/model.xmi"/>
+    <resourceDescriptors xmi:id="_wC_cwEtOEeGtMvzv9BhHAQ" id="-c26YwEQpmGj1TPePMl2O-w" uri="guidances/templates/use_case_template.xmi"/>
+    <resourceDescriptors xmi:id="_44owQS82EeKCfteVlJj9Dg" id="-ybeHtsF5A4Eei_7yZ2SXjA" uri="guidances/examples/sisas_tutorial.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_yHcxoLzIEd-GWpfvmLDtFA" name="practice.requirements.use_case_modelling.base-sintef" guid="_yHcxoLzIEd-GWpfvmLDtFA" briefDescription="This plugin contains the base use case modelling practice." authors="Brian Elvesæter (SINTEF)" changeDate="2011-06-27T13:30:55.791+0200">
+    <methodElementProperty xmi:id="_zZM28J1wEeCOw7xpsfr5Cw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yHcxobzIEd-GWpfvmLDtFA" name="Content" guid="_yHcxobzIEd-GWpfvmLDtFA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yHcxorzIEd-GWpfvmLDtFA" name="Categories" guid="_yHcxorzIEd-GWpfvmLDtFA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yHcxo7zIEd-GWpfvmLDtFA" name="Domains" guid="_yHcxo7zIEd-GWpfvmLDtFA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_otUqoOZ3Ed-5YeUvCnM2dQ" name="requirements_modelling_domain.assign" guid="_otUqoOZ3Ed-5YeUvCnM2dQ" variabilityType="contributes" workProducts="_jWhQIOG4Ed-AyrTFSpVP8g">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_iESMoNxcEd-LYKXkOhPACw#_UhZyAN0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yHcxpLzIEd-GWpfvmLDtFA" name="Disciplines" guid="_yHcxpLzIEd-GWpfvmLDtFA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_UT-kkN0DEd-xB8a51ZHHaA" name="requirements_modelling_discipline.assign" guid="_UT-kkN0DEd-xB8a51ZHHaA" variabilityType="contributes" tasks="_JuN24OHREd-nwfeZTt0t8A _TwYfYOHREd-nwfeZTt0t8A _Y1o10OJ9Ed-Knc6oCYT2Zw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_iESMoNxcEd-LYKXkOhPACw#_C-RScN0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yHcxpbzIEd-GWpfvmLDtFA" name="RoleSets" guid="_yHcxpbzIEd-GWpfvmLDtFA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yHcxprzIEd-GWpfvmLDtFA" name="WP Types" guid="_yHcxprzIEd-GWpfvmLDtFA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yHcxp7zIEd-GWpfvmLDtFA" name="Tools" guid="_yHcxp7zIEd-GWpfvmLDtFA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yHcxqLzIEd-GWpfvmLDtFA" name="StandardCategories" guid="_yHcxqLzIEd-GWpfvmLDtFA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yHcxqbzIEd-GWpfvmLDtFA" name="CustomCategories" guid="_yHcxqbzIEd-GWpfvmLDtFA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yHcxqrzIEd-GWpfvmLDtFA" name="Hidden" guid="_yHcxqrzIEd-GWpfvmLDtFA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_yHcxq7zIEd-GWpfvmLDtFA" name="Custom Categories" guid="_yHcxq7zIEd-GWpfvmLDtFA"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yHcxrLzIEd-GWpfvmLDtFA" name="CoreContent" guid="_yHcxrLzIEd-GWpfvmLDtFA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bt9tMNadEd-0IssHA-UzUw" name="use_case_modelling" guid="_bt9tMNadEd-0IssHA-UzUw" presentationName="Use case modelling">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_grQtoNadEd-0IssHA-UzUw" name="use_case_modelling" guid="_grQtoNadEd-0IssHA-UzUw" presentationName="Use case modelling" briefDescription="This practice describes how to construct use case models." contentReferences="_yf6ToC82EeKCfteVlJj9Dg _xF0vkN0UEd-xB8a51ZHHaA _NUjPIN0VEd-xB8a51ZHHaA _SMZu4N0VEd-xB8a51ZHHaA _u2nlkH1QEeCbp4UejqxsXg _Y1o10OJ9Ed-Knc6oCYT2Zw _JuN24OHREd-nwfeZTt0t8A _TwYfYOHREd-nwfeZTt0t8A _X1MI4N0AEd-xB8a51ZHHaA _LTI9kN0AEd-xB8a51ZHHaA _n4-JINuNEd-pTLmXJigeaQ">
+            <methodElementProperty xmi:id="_FRm4EC83EeKCfteVlJj9Dg" name="me_edited" value="true"/>
+            <presentation xmi:id="-VsFwVR9B-Ns53NFnAB4pwA" href="uma://-VsFwVR9B-Ns53NFnAB4pwA#-VsFwVR9B-Ns53NFnAB4pwA"/>
+            <activityReferences href="uma://_c5O1AOKnEd-Knc6oCYT2Zw#_c5O1AeKnEd-Knc6oCYT2Zw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_n4-JINuNEd-pTLmXJigeaQ" name="how_to_adopt_use_case_modelling" guid="_n4-JINuNEd-pTLmXJigeaQ" presentationName="How to adopt the use case modelling practice" briefDescription="This roadmap describes how to adopt the use case modelling practice.">
+            <presentation xmi:id="-s7q_Kc9uZtw_NcnVJEoI6g" href="uma://-s7q_Kc9uZtw_NcnVJEoI6g#-s7q_Kc9uZtw_NcnVJEoI6g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_LTI9kN0AEd-xB8a51ZHHaA" name="stakeholder.assign" guid="_LTI9kN0AEd-xB8a51ZHHaA" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_K7n0EOaFEd-2NJepU9I_bg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_X1MI4N0AEd-xB8a51ZHHaA" name="requirements_analyst.assign" guid="_X1MI4N0AEd-xB8a51ZHHaA" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIpisBntEd6VV7P4WguglA"/>
+            <responsibleFor href="#_xF0vkN0UEd-xB8a51ZHHaA"/>
+            <responsibleFor href="uma://_wYHkgA7PEeG7mKurZhyY1A#_ufFW0N0UEd-xB8a51ZHHaA"/>
+            <responsibleFor href="#_NUjPIN0VEd-xB8a51ZHHaA"/>
+            <responsibleFor href="#_SMZu4N0VEd-xB8a51ZHHaA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_jWhQIOG4Ed-AyrTFSpVP8g" name="requirements_model.assign" guid="_jWhQIOG4Ed-AyrTFSpVP8g" briefDescription="The requirements model identifies the system requirements." variabilityType="contributes" deliveredWorkProducts="_NUjPIN0VEd-xB8a51ZHHaA _SMZu4N0VEd-xB8a51ZHHaA _xF0vkN0UEd-xB8a51ZHHaA">
+            <presentation xmi:id="-e_KkNK_j_XiLwL_ijeohUg" href="uma://-e_KkNK_j_XiLwL_ijeohUg#-e_KkNK_j_XiLwL_ijeohUg"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_2t4YUOG2Ed-AyrTFSpVP8g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_xF0vkN0UEd-xB8a51ZHHaA" name="non_functional_requirements" guid="_xF0vkN0UEd-xB8a51ZHHaA" presentationName="Non-functional requirements" briefDescription="This work product identifies constraints, general requirements and other kinds of non-functional requirements not fitting into the previous work products of the requirements model."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_NUjPIN0VEd-xB8a51ZHHaA" name="system_boundary_model" guid="_NUjPIN0VEd-xB8a51ZHHaA" presentationName="System boundary model" briefDescription="This work product describes the system in terms of actors, use cases and scenario descriptions.">
+            <presentation xmi:id="-8FAOLuG0RJtywHEeApd67A" href="uma://-8FAOLuG0RJtywHEeApd67A#-8FAOLuG0RJtywHEeApd67A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_SMZu4N0VEd-xB8a51ZHHaA" name="use_case_scenario_model" guid="_SMZu4N0VEd-xB8a51ZHHaA" presentationName="Use case scenario model" briefDescription="This work product describes the system in terms of actors, use cases and scenario descriptions." templates="_u2nlkH1QEeCbp4UejqxsXg">
+            <presentation xmi:id="-D5RgL7PCPbVKZv8X6FSHdw" href="uma://-D5RgL7PCPbVKZv8X6FSHdw#-D5RgL7PCPbVKZv8X6FSHdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_JuN24OHREd-nwfeZTt0t8A" name="define_system_boundary_model" guid="_JuN24OHREd-nwfeZTt0t8A" presentationName="Define System boundary model" briefDescription="This task describes how to define the System boundary model." performedBy="_X1MI4N0AEd-xB8a51ZHHaA" output="_NUjPIN0VEd-xB8a51ZHHaA" additionallyPerformedBy="_LTI9kN0AEd-xB8a51ZHHaA">
+            <presentation xmi:id="-ZakdDpKXh_vlEqQALnujxw" href="uma://-ZakdDpKXh_vlEqQALnujxw#-ZakdDpKXh_vlEqQALnujxw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_TwYfYOHREd-nwfeZTt0t8A" name="detail_use_case_scenarios" guid="_TwYfYOHREd-nwfeZTt0t8A" presentationName="Detail use case scenarios" briefDescription="This task describes how to detail the use case scenarios." performedBy="_X1MI4N0AEd-xB8a51ZHHaA" mandatoryInput="_NUjPIN0VEd-xB8a51ZHHaA" output="_SMZu4N0VEd-xB8a51ZHHaA" additionallyPerformedBy="_LTI9kN0AEd-xB8a51ZHHaA">
+            <presentation xmi:id="-IE5YIfxpHZOJioO6fRfLjw" href="uma://-IE5YIfxpHZOJioO6fRfLjw#-IE5YIfxpHZOJioO6fRfLjw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Y1o10OJ9Ed-Knc6oCYT2Zw" name="define_non_functional_requirements" guid="_Y1o10OJ9Ed-Knc6oCYT2Zw" presentationName="Define non-functional requirements" briefDescription="This task describes how to define non-functional requirements." performedBy="_X1MI4N0AEd-xB8a51ZHHaA" output="_xF0vkN0UEd-xB8a51ZHHaA" additionallyPerformedBy="_LTI9kN0AEd-xB8a51ZHHaA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_u2nlkH1QEeCbp4UejqxsXg" name="use_case_template" guid="_u2nlkH1QEeCbp4UejqxsXg" presentationName="Use case template" briefDescription="Use case template.">
+            <presentation xmi:id="-c26YwEQpmGj1TPePMl2O-w" href="uma://-c26YwEQpmGj1TPePMl2O-w#-c26YwEQpmGj1TPePMl2O-w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_yf6ToC82EeKCfteVlJj9Dg" name="sisas_tutorial" guid="_yf6ToC82EeKCfteVlJj9Dg" presentationName="SiSaS: Use Case Modelling tutorial" briefDescription="SiSaS: Use Case Modelling tutorial">
+            <methodElementProperty xmi:id="_1IITEC82EeKCfteVlJj9Dg" name="me_edited" value="true"/>
+            <presentation xmi:id="-ybeHtsF5A4Eei_7yZ2SXjA" href="uma://-ybeHtsF5A4Eei_7yZ2SXjA#-ybeHtsF5A4Eei_7yZ2SXjA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_uSIqoNuNEd-pTLmXJigeaQ" name="release_info" guid="_uSIqoNuNEd-pTLmXJigeaQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_vjEuENuNEd-pTLmXJigeaQ" name="release_info_use_case_modelling" guid="_vjEuENuNEd-pTLmXJigeaQ" presentationName="Practice: Use case modelling" briefDescription="Use case modelling practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <methodElementProperty xmi:id="_ttyocC82EeKCfteVlJj9Dg" name="me_edited" value="true"/>
+            <presentation xmi:id="-MS5YCsYo5PApWuhOpROHlw" href="uma://-MS5YCsYo5PApWuhOpROHlw#-MS5YCsYo5PApWuhOpROHlw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5KQpMOJ8Ed-Knc6oCYT2Zw" name="tool_mentors" guid="_5KQpMOJ8Ed-Knc6oCYT2Zw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_73kkAOJ8Ed-Knc6oCYT2Zw" name="uml_concepts" guid="_73kkAOJ8Ed-Knc6oCYT2Zw"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_yHcxrbzIEd-GWpfvmLDtFA" name="CapabilityPatterns" guid="_yHcxrbzIEd-GWpfvmLDtFA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_YtVcUOKnEd-Knc6oCYT2Zw" name="use_case_modelling" guid="_YtVcUOKnEd-Knc6oCYT2Zw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_c5O1AOKnEd-Knc6oCYT2Zw" href="uma://_c5O1AOKnEd-Knc6oCYT2Zw#_c5O1AOKnEd-Knc6oCYT2Zw"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_yHcxrrzIEd-GWpfvmLDtFA" name="DeliveryProcesses" guid="_yHcxrrzIEd-GWpfvmLDtFA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_yHcxr7zIEd-GWpfvmLDtFA" name="ProcessContributions" guid="_yHcxr7zIEd-GWpfvmLDtFA"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_OuYz8UJWEd-wN_tDdvqWug" guid="_OuYz8UJWEd-wN_tDdvqWug">
+    <resourceDescriptors xmi:id="_OuYz8kJWEd-wN_tDdvqWug" id="-1w76EaIvMA1P-cI_U4sp1g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_-DagMNrLEd-RHtsSMqnPrA" id="-CT6qwYcE7hwLf2Bt_j50IA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_-DagMdrLEd-RHtsSMqnPrA" id="-Z6OdlCuyZtyHj3Yjogm48w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_-DagMtrLEd-RHtsSMqnPrA" id="-qq0wRt_yCcTrCJ3s5h74Ew" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_Osv1MEJWEd-wN_tDdvqWug" name="CIM2CIM_transformation" guid="_Osv1MEJWEd-wN_tDdvqWug">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Osv1MkJWEd-wN_tDdvqWug" name="EPC2BPMN_transformation" guid="_Osv1MkJWEd-wN_tDdvqWug">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_Osv1M0JWEd-wN_tDdvqWug" name="EPC2BPMN_transformation" guid="_Osv1M0JWEd-wN_tDdvqWug" presentationName="EPC2BPMN" superActivities="_Osv1MUJWEd-wN_tDdvqWug" breakdownElements="_Osv1NkJWEd-wN_tDdvqWug _Osv1NUJWEd-wN_tDdvqWug _Osv1NEJWEd-wN_tDdvqWug"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Osv1NkJWEd-wN_tDdvqWug" name="EPC2BPMN" guid="_Osv1NkJWEd-wN_tDdvqWug" presentationName="EPC2BPMN" briefDescription="Transforms an EPC model to a BPMN process model automatically" superActivities="_Osv1M0JWEd-wN_tDdvqWug" isSynchronizedWithSource="false" mandatoryInput="_Osv1NUJWEd-wN_tDdvqWug" output="_Osv1NEJWEd-wN_tDdvqWug">
+        <methodElementProperty xmi:id="_j5R6NNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="6"/>
+        <presentation xmi:id="-CT6qwYcE7hwLf2Bt_j50IA" href="uma://-1w76EaIvMA1P-cI_U4sp1g#-CT6qwYcE7hwLf2Bt_j50IA"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_cSFyYJ13Ed66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_e6gToIvzEd6UuMM9_vAR6g"/>
+        <additionallyPerformedByExclude href="uma://_kwazABFxEd6C2PqX2OSy5A#_gIqJwhntEd6VV7P4WguglA"/>
+        <selectedStepsExclude href="uma://-xrGWwUsh6dc70K4t3NSoSg#_u-QdYKbJEd63WOy0WeehkQ"/>
+        <selectedStepsExclude href="uma://-xrGWwUsh6dc70K4t3NSoSg#_DKMyQKbKEd63WOy0WeehkQ"/>
+        <selectedStepsExclude href="uma://-xrGWwUsh6dc70K4t3NSoSg#_HfleIKbKEd63WOy0WeehkQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Osv1NUJWEd-wN_tDdvqWug" name="Process_model" guid="_Osv1NUJWEd-wN_tDdvqWug" presentationName="Process Model" briefDescription="The process model could be represented with the EPC metamodel. The EPC metamodel is used to configure the structure and privacy of the processes." isPlanned="false" superActivities="_Osv1M0JWEd-wN_tDdvqWug">
+        <methodElementProperty xmi:id="_j5R6MNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="1"/>
+        <methodElementProperty xmi:id="_j5R6MteMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <presentation xmi:id="-Z6OdlCuyZtyHj3Yjogm48w" href="uma://-1w76EaIvMA1P-cI_U4sp1g#-Z6OdlCuyZtyHj3Yjogm48w"/>
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_pPKdAFAsEd6NGfjlGBNnwA"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_5CI4cFAqEd6NGfjlGBNnwA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Osv1NEJWEd-wN_tDdvqWug" name="BPMN_model" guid="_Osv1NEJWEd-wN_tDdvqWug" presentationName="BPMN process model " briefDescription="The Business Process Modeling Notation (BPMN) is a widely used OMG standard for business process modeling, providing a graphical notation for specifying business processes in a Business Process Diagram (BPD). BPMN supports business process management for both technical users and business users by providing a notation that is intuitive to business users yet able to represent complex process semantics. &#xD;&#xA;" isPlanned="false" superActivities="_Osv1M0JWEd-wN_tDdvqWug">
+        <methodElementProperty xmi:id="_j5R6MdeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <methodElementProperty xmi:id="_j5R6M9eMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <presentation xmi:id="-qq0wRt_yCcTrCJ3s5h74Ew" href="uma://-1w76EaIvMA1P-cI_U4sp1g#-qq0wRt_yCcTrCJ3s5h74Ew"/>
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_V7MzkFW_Ed6iZIDJYUIm8w"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_Osv1MUJWEd-wN_tDdvqWug" name="CIM2CIM_transformation" guid="_Osv1MUJWEd-wN_tDdvqWug" presentationName="Create a new CIM to CIM model" briefDescription="Creation of CIM2CIM models" breakdownElements="_Osv1M0JWEd-wN_tDdvqWug">
+      <methodElementProperty xmi:id="_j5R6NdeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-1w76EaIvMA1P-cI_U4sp1g" href="uma://-1w76EaIvMA1P-cI_U4sp1g#-1w76EaIvMA1P-cI_U4sp1g"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

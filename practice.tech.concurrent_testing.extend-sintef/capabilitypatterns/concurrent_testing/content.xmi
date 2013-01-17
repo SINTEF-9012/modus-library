@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-IUF2c-NNU8_zD2pdOk6ACw" name="concurrent_testing,_yYXSYdVSEeCSuohv1oAxXQ" guid="-IUF2c-NNU8_zD2pdOk6ACw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QxKDr1zWBeugWwzOqLsHUg" name="create_test_cases,_MUO-gNVTEeCSuohv1oAxXQ" guid="-QxKDr1zWBeugWwzOqLsHUg">
+    <keyConsiderations>&lt;p>&#xD;
+    Develop test cases in parallel with requirements so that Analysts and Stakeholders can agree with the specific&#xD;
+    conditions of satisfaction for each requirement. The test cases act as acceptance criteria by expanding on the intent&#xD;
+    of the system&amp;nbsp;through actual scenarios of use.&amp;nbsp;This allows team members to measure progress in terms of&#xD;
+    passing test cases.&amp;nbsp;&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qZb830h1z-rfp7HQoL0ihA" name="run_tests,_MUO-gtVTEeCSuohv1oAxXQ" guid="-qZb830h1z-rfp7HQoL0ihA">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Run all tests as frequently as possible. Ideally, run all test scripts against each build deployed to the test&#xD;
+        environment. If this is impractical, run regression tests for existing functionality, and&amp;nbsp;focus the test cycle&#xD;
+        on work items completed in the new build.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Even test scripts that are expected to fail provide valuable feedback. However, once a test script is passing, it&#xD;
+        should not fail&amp;nbsp;against subsequent builds of the solution.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-L_Fh7uE1iUXL6xDL0k0bDQ" name="tester,_MUQzsNVTEeCSuohv1oAxXQ" guid="-L_Fh7uE1iUXL6xDL0k0bDQ">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following&amp;nbsp;tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying the tests&amp;nbsp;that need to&amp;nbsp;be performed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identifying the most appropriate implementation approach for a given test&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Implementing individual tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Setting up and running the tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Logging outcomes and verifying that the tests have been run&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Analyzing and guiding the recovery from execution errors&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Communicating test results to the team&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-STjKxpYPNTsfKr3_82b6pg" name="test_case,_MUSB0tVTEeCSuohv1oAxXQ" guid="-STjKxpYPNTsfKr3_82b6pg">
+    <refinedDescription>&lt;p>&#xD;
+    A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
+    test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
+    formal environments, you can create test cases by identifying a unique ID, name, associated test data, and expected&#xD;
+    results.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Test cases can be derived from many sources, and typically include a subset of the requirements (such as use cases,&#xD;
+    performance characteristics, and reliability concerns) and other types of quality attributes. For more information on&#xD;
+    types of tests and their relationships to quality test attributes, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Concept: Testing Qualitative Requirements&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gaVgUhZiMx-f42qRu0piOA" name="test_log,_MUSB2NVTEeCSuohv1oAxXQ" guid="-gaVgUhZiMx-f42qRu0piOA">
+    <refinedDescription>This artifact provides a detailed, typically time-based record that both verifies that a set of tests were run, and&#xD;
+provides information that relates to the success of those tests. The focus is typically on providing an accurate audit&#xD;
+trail, which enables you to undertake a post-run diagnosis of failures. This raw data is subsequently analyzed to determine&#xD;
+the results of an aspect of the test effort.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

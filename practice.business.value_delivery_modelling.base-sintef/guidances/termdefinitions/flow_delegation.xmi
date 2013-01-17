@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-zgo16tVfioKnAWjl3UkEow" name="new_term_definition,_t2Zq4JyuEeCb2cFFaexWpQ" guid="-zgo16tVfioKnAWjl3UkEow">
+  <mainDescription>Represents a deliverable flow into or out of a collaboration that is a flow into or out of an activity within the&#xD;
+collaboration. This provides the linkage between activities within a collaboration and a role of the collaboration as a&#xD;
+participant in a “parent” collaboration. &#xD;
+&lt;p style=&quot;MARGIN-BOTTOM: 0cm&quot;>&#xD;
+    Flow delegation is semantically equivalent to delegation of two ports that are connected via a deliverable flow. Rather&#xD;
+    than delegating both ports, it is sometimes useful to delegate the deliverable flow itself. The delegated flow connects&#xD;
+    ports which might be contained in the same “child” collaboration, but might also be contained in different “child”&#xD;
+    collaborations. In the latter case, there is a “parent” collaboration (directly or indirectly), in which both “child”&#xD;
+    collaborations participate in roles.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

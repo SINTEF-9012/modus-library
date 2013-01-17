@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_1zV0ES5mEd6lwuZlFT8K0A" guid="_1zV0ES5mEd6lwuZlFT8K0A">
+    <subManagers xmi:id="_RvoxASYTEd-_-qcazwayRQ" href="uma://_ROZFICYTEd-_-qcazwayRQ#_RvoxASYTEd-_-qcazwayRQ"/>
+    <subManagers xmi:id="_DZggESavEd-W88dSHyarAQ" href="uma://_Bmd1ICavEd-W88dSHyarAQ#_DZggESavEd-W88dSHyarAQ"/>
+    <resourceDescriptors xmi:id="_5U--8Sj5Ed6lw-ZlFT8K0A" id="-VAjMAIv2fxRi4fsIJaXCdw" uri="tasks/specify_services_architectures.xmi"/>
+    <resourceDescriptors xmi:id="_6-t8cTM3Ed6_xOMajArapw" id="-5srNI3ruxhLSbUd3EAxDgw" uri="guidances/supportingmaterials/references.soaml.xmi"/>
+    <resourceDescriptors xmi:id="_C7S8ATM5Ed6_xOMajArapw" id="-igtBsH6JPCG2mZ513ckigg" uri="guidances/examples/marketplace_soaml_bmm_integration_example.xmi"/>
+    <resourceDescriptors xmi:id="_t_DfAFGqEd6bzYAgVh5PrA" id="-Qx_Ywb5ZXdFa_iZsfuTTrA" uri="tasks/Specify_service_interfaces.xmi"/>
+    <resourceDescriptors xmi:id="_t_pU4FGqEd6bzYAgVh5PrA" id="-bkqmI2rO4KqsFT7hi0kkfw" uri="tasks/specify_service_contracts_and_choreographies.xmi"/>
+    <resourceDescriptors xmi:id="_Ky6_EE9SEd6-NZGez4d8tw" id="-wht8mrF_JzsBjGgDG79I2A" uri="guidances/examples/marketplace_soaml_interface_example.xmi"/>
+    <resourceDescriptors xmi:id="_sV_HQanBEd6i-6W-cB2-Qw" id="-R013rx49qt5ZOv7w5msxfA" uri="guidances/guidelines/soaml_guidance.xmi"/>
+    <resourceDescriptors xmi:id="_qZ8eMBsIEd-bArCnVzoI8Q" id="-P_NR3mhE6KTaZPjrTmk43Q" uri="tasks/Specify_capabilities.xmi"/>
+    <resourceDescriptors xmi:id="_RvoxACYTEd-_-qcazwayRQ" id="_ROZFICYTEd-_-qcazwayRQ" uri="capabilitypatterns/SoaML_system_architecture_modelling/model.xmi"/>
+    <resourceDescriptors xmi:id="_YwLDACasEd-W88dSHyarAQ" id="-CZFVngSJ-Xlykua-q4BSmg" uri="tasks/Specify_service_choreographies.xmi"/>
+    <resourceDescriptors xmi:id="_DZggECavEd-W88dSHyarAQ" id="_Bmd1ICavEd-W88dSHyarAQ" uri="capabilitypatterns/SoaML_business_architecture_modelling/model.xmi"/>
+    <resourceDescriptors xmi:id="_hfCbECdxEd-WoP7PlhRWug" id="-w_xjBjo2m74kZnQFmg1TNQ" uri="guidances/examples/Marketplace_SoaML_Service_interface_example.xmi"/>
+    <resourceDescriptors xmi:id="_5x1wQSd0Ed-WoP7PlhRWug" id="-Uhj2y5OqYnJvSA-OFSmWBw" uri="guidances/examples/Marketplace_SoaML_services_architecture_example.xmi"/>
+    <resourceDescriptors xmi:id="_s5SzsCd4Ed-WoP7PlhRWug" id="-n5S3bDH4Qa8OKzFWE5kX3Q" uri="guidances/examples/Marketplace_SoaML_service_contract_example.xmi"/>
+    <resourceDescriptors xmi:id="_Qf_J4Cd6Ed-WoP7PlhRWug" id="-G7V-PWN8CCp9mjfsUFMcFg" uri="guidances/examples/marketplace_soaml_participants_example.xmi"/>
+    <resourceDescriptors xmi:id="_oHYnECd8Ed-WoP7PlhRWug" id="-RULVxQAruLRwECjwkGGoJw" uri="guidances/examples/Marketplace_SoaML_participant_composite_structure_example.xmi"/>
+    <resourceDescriptors xmi:id="_UL_aMCd9Ed-WoP7PlhRWug" id="-iqXeMvla90FUy3GchEFV2A" uri="guidances/examples/Marketplace_SoaML_capability_example.xmi"/>
+    <resourceDescriptors xmi:id="_gE9hoDf3Ed-Uc_4T-VlC6Q" id="-lx14-kyzIGNMXQmAOl6Xcw" uri="guidances/concepts/service_contract_based_approach.xmi"/>
+    <resourceDescriptors xmi:id="_aBTEIDf5Ed-Uc_4T-VlC6Q" id="-sJNF2L8ckNMgI1mH8LfL8w" uri="guidances/concepts/simple_interface_based_approach.xmi"/>
+    <resourceDescriptors xmi:id="_pFBiADf5Ed-Uc_4T-VlC6Q" id="-h6_uFXb8V3efCPtt0aqtxA" uri="guidances/concepts/service_interface_based_approach.xmi"/>
+    <resourceDescriptors xmi:id="_jzYj8DwEEd-wzrbdBPyHjA" id="-YW6JJBK5KsWJcxjfT9tFyw" uri="guidances/practices/services_architecture_and_contract_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_nORWcDwEEd-wzrbdBPyHjA" id="-rQGwek4WJsJDPc-lQN6TcA" uri="guidances/practices/service_interface_and_component_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_bf9cYVa3Ed-wludSfbytXA" id="-gm7tin_AjCJm6YTd61YENg" uri="tasks/Specify_interfaces_and_messages.xmi"/>
+    <resourceDescriptors xmi:id="_U0wJkFxSEd--udEuEJEYBQ" id="-VwoZvBChTwM8sgCKeILx6Q" uri="guidances/guidelines/bpmn_to_soaml_mapping_rules.xmi"/>
+    <resourceDescriptors xmi:id="_YZuFIFxSEd--udEuEJEYBQ" id="-_4EeLW_3zu7eB1GWUOIfYw" uri="guidances/guidelines/bam_to_sam_mapping_rules.xmi"/>
+    <resourceDescriptors xmi:id="_B0S1UFzfEd-W9-TCScsYqg" id="-5bynT6bDmwgruEVrPREWEQ" uri="tasks/Specify_software_components.xmi"/>
+    <resourceDescriptors xmi:id="_avQKoNqtEd-RHtsSMqnPrA" id="-zGLIXCHy_H4_9pFi_j8Qdg" uri="guidances/supportingmaterials/release_info_services_architecture_and_contract_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_dhfBsNqtEd-RHtsSMqnPrA" id="-F3w4SL7ZGGYOX_JPWmmdDg" uri="guidances/supportingmaterials/release_info_service_interface_and_component_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_LlThcE9WEd6-NZGez4d8tw" id="-Nm2RJYOhi0daHQTqz7pgRQ" uri="workproducts/SoaML_Service_Contract_Diagram.xmi"/>
+    <resourceDescriptors xmi:id="_lO5ogXgsEd68G4x-PNCvag" id="--ZXvSjTDuFTQYY0oSi8g-A" uri="workproducts/SoaML_Capability_Diagram.xmi"/>
+    <resourceDescriptors xmi:id="_m7OXQIJ7Ed6Ljca46QJL5g" id="-JkMUW70D-wyBlPFwJQdncA" uri="workproducts/SoaML_Behaviour_Sequence_Diagram.xmi"/>
+    <resourceDescriptors xmi:id="_YG_UoYKAEd6Ljca46QJL5g" id="-D4K-eJ1-p9XPLxLcH5T_fA" uri="workproducts/SoaML_Service_Interface_Diagram.xmi"/>
+    <resourceDescriptors xmi:id="_HzRmIEt4Ed6Z-ullxtcrbw" id="-5R8GCW6LEYE1Oopfrmdx2A" uri="workproducts/SoaML_Message_Diagram.xmi"/>
+    <resourceDescriptors xmi:id="_6vXWsE9jEd6-NZGez4d8tw" id="-pNIDmLwMUMEsTbW97fn4lg" uri="workproducts/SoaML_Behaviour_Activity_Diagram.xmi"/>
+    <resourceDescriptors xmi:id="_61Ph8E9zEd6-NZGez4d8tw" id="-mh6r5zfz9l9e-xPtNQJcgw" uri="workproducts/SoaML_Participant_Diagram.xmi"/>
+    <resourceDescriptors xmi:id="_Oo-wYFw9Ed-W_augd5EN6g" id="-mar2zkgL02fT-NlV2NBo0Q" uri="workproducts/SoaML_Behaviour_BPMN_Diagram.xmi"/>
+    <resourceDescriptors xmi:id="_gqqNIFw9Ed-W_augd5EN6g" id="-lurta_gntET__a0H5T73xA" uri="workproducts/SoaML_Services_Architecture_Diagram.xmi"/>
+    <resourceDescriptors xmi:id="_0B0mkN3YEd--Io3WTn6Mgw" id="-kVMlXMlggtrSJkvGaCwFbw" uri="guidances/roadmaps/how_to_adopt_services_architecture_and_contract_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_2VOMkN3YEd--Io3WTn6Mgw" id="-z8rR1pKuZsYPdcpeWI8EIw" uri="guidances/roadmaps/how_to_adopt_service_interface_and_component_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_KEfX8PfBEd-qBr8EL56jIA" id="-GiVPMAhhL5s9AuLyWfq7cg" uri="guidances/toolmentors/enterprise_architect_soaml_support.xmi"/>
+    <resourceDescriptors xmi:id="_fnYzMJzJEeCBtZoIrPpMBw" id="-AAgC0Wb4Yh6EpzOSRPs05A" uri="guidances/termdefinitions/attachment.xmi"/>
+    <resourceDescriptors xmi:id="_oiyn8JzJEeCBtZoIrPpMBw" id="-fuuJkHkf3FviARXIgknqlg" uri="guidances/termdefinitions/capability.xmi"/>
+    <resourceDescriptors xmi:id="_yNZFAJzJEeCBtZoIrPpMBw" id="-_M59HMQJ089eOpywuOBi_Q" uri="guidances/termdefinitions/port.xmi"/>
+    <resourceDescriptors xmi:id="_9WPowJzJEeCBtZoIrPpMBw" id="-uXt2_9n6kJgorqDXuqtO2w" uri="guidances/termdefinitions/property.xmi"/>
+    <resourceDescriptors xmi:id="_HM7gYZzSEeCjAYLMIp9ZDA" id="-kmdRxus_MVJAHy6k6APSHg" uri="guidances/termdefinitions/service.xmi"/>
+    <resourceDescriptors xmi:id="_PuWH0JzSEeCjAYLMIp9ZDA" id="-BqwQ2ZGKOw0sYtrtgXvH4A" uri="guidances/termdefinitions/request.xmi"/>
+    <resourceDescriptors xmi:id="_xIJD4YNPEd6tF-E3P7w8UA" id="-wKj4-mtXJ_9w5k3e6Z2vwQ" uri="guidances/toolmentors/modelio_soaml_support.xmi"/>
+    <resourceDescriptors xmi:id="_IF29EanBEd6i-6W-cB2-Qw" id="-IDeUk_IjnSrYUrfXg5K7dA" uri="guidances/templates/Modelio_SoaML_template.xmi"/>
+    <resourceDescriptors xmi:id="_NYBCQZzVEeCjAYLMIp9ZDA" id="-tvJZ9XKYSMjlQrc7aH2TIQ" uri="tools/modelio.assign.xmi"/>
+    <resourceDescriptors xmi:id="_JIpM4JzXEeCjAYLMIp9ZDA" id="-pAhbiUmAdMTq7q5U3Q8c9A" uri="guidances/termdefinitions/service_channel.xmi"/>
+    <resourceDescriptors xmi:id="_QKPnYZzXEeCjAYLMIp9ZDA" id="-m66s7whl31_y5GoVbFkXWQ" uri="guidances/termdefinitions/expose.xmi"/>
+    <resourceDescriptors xmi:id="_WMDjYJzYEeCjAYLMIp9ZDA" id="-EKqOdwvaOQaiKSOrLtmOaA" uri="guidances/termdefinitions/milestone.xmi"/>
+    <resourceDescriptors xmi:id="_km6qcZzYEeCjAYLMIp9ZDA" id="-CZi7NvbcYSf5Wfvj0LiF3w" uri="guidances/termdefinitions/collaboration.xmi"/>
+    <resourceDescriptors xmi:id="_qTa6QJzYEeCjAYLMIp9ZDA" id="-dmdY_yEiLFA24H9B7u1yIQ" uri="guidances/termdefinitions/service_contract.xmi"/>
+    <resourceDescriptors xmi:id="_yzon0JzYEeCjAYLMIp9ZDA" id="-ywqsH9f4Wcecf3aTkDYJ8w" uri="guidances/termdefinitions/service_interface.xmi"/>
+    <resourceDescriptors xmi:id="_5Bw-AJzYEeCjAYLMIp9ZDA" id="-mlbd6soUBrLxKhDnXLGcQg" uri="guidances/termdefinitions/services_architecture.xmi"/>
+    <resourceDescriptors xmi:id="_ET8AYJzaEeCjAYLMIp9ZDA" id="-61b8hGtH8Ym5hISWNjy5fA" uri="guidances/termdefinitions/agent.xmi"/>
+    <resourceDescriptors xmi:id="_LoJ04ZzaEeCjAYLMIp9ZDA" id="-dGZOfC9leY_Gz3YZ1ERvEg" uri="guidances/termdefinitions/collaboration_use.xmi"/>
+    <resourceDescriptors xmi:id="_G-JucJzbEeCjAYLMIp9ZDA" id="-b6e4iPJN5OkFG8kfGYWkow" uri="guidances/termdefinitions/consumer.xmi"/>
+    <resourceDescriptors xmi:id="_PPDNoZzbEeCjAYLMIp9ZDA" id="-83VGnDeFyMCORBhZ9g7XnA" uri="guidances/termdefinitions/message_type.xmi"/>
+    <resourceDescriptors xmi:id="_WUEvkJzbEeCjAYLMIp9ZDA" id="-r7nrBJh5WszCP-2bLgXzhQ" uri="guidances/termdefinitions/participant.xmi"/>
+    <resourceDescriptors xmi:id="_ctDq4ZzbEeCjAYLMIp9ZDA" id="-HQ0-RYoqJfw_DmkOmDnqyg" uri="guidances/termdefinitions/provider.xmi"/>
+    <resourceDescriptors xmi:id="_t1UcAJ2OEeCZu7rk2fFONg" id="-naeW1QjzksewA12U343BVg" uri="guidances/toolmentors/magicdraw_installation.xmi"/>
+    <resourceDescriptors xmi:id="_xU7WcJ2OEeCZu7rk2fFONg" id="-eYDL7fUm0GMKbszvGjNfXA" uri="guidances/toolmentors/magicdraw_service_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_p2Y1IKCrEeCjsNFLyZv1Eg" id="-QFN9Y56A9p9bhJcf74oRcQ" uri="guidances/toolmentors/magicdraw_soaml_support.xmi"/>
+    <resourceDescriptors xmi:id="_XEshwKGdEeCo46MenWbwvA" id="-Nq8C1TtiRSMSG_jD9Ite2w" uri="workproducts/business_architecture_model.xmi"/>
+    <resourceDescriptors xmi:id="_eYccMaGdEeCo46MenWbwvA" id="-T9TMGahoxsmraV-ojxXRMA" uri="workproducts/system_architecture_model.xmi"/>
+    <resourceDescriptors xmi:id="_KMlDAKGhEeC1A-PuG6Rlow" id="-MKh-Uf1wXyS-4Siar3osCw" uri="tasks/define_business_goals.xmi"/>
+    <resourceDescriptors xmi:id="_RBkvcKGiEeC1A-PuG6Rlow" id="-wlyydI6TjXZ51i-CWkeXzw" uri="tasks/refine_business_processes%202.xmi"/>
+    <resourceDescriptors xmi:id="_dSob8KGjEeC1A-PuG6Rlow" id="-NpQPVCPUnlx0pRBF4JrhSw" uri="guidances/guidelines/refining_business_process_information_elements.xmi"/>
+    <resourceDescriptors xmi:id="_4zwOoKGjEeC1A-PuG6Rlow" id="-wRgZpLjleA3hVV1-J5N2ZQ" uri="guidances/guidelines/refining_business_process_organization_elements.xmi"/>
+    <resourceDescriptors xmi:id="_-FaOIKGmEeC1A-PuG6Rlow" id="-UzJFYXkYC3wF-8guGbyfSA" uri="guidances/guidelines/community_and_participant_services_architecture.xmi"/>
+    <resourceDescriptors xmi:id="_u2wAsaGoEeC1A-PuG6Rlow" id="-q9jkcZRyse28kS4-0TWCqw" uri="guidances/concepts/service_specification_using_soaml.xmi"/>
+    <resourceDescriptors xmi:id="__970wKJQEeC6g8wb3xknIg" id="-fTB0eh9Yetyxc_O3-B-6jQ" uri="guidances/guidelines/bmm_to_soaml_mapping_rules.xmi"/>
+    <resourceDescriptors xmi:id="_JLDVgKJaEeCKp9wzOHzvHg" id="-5WEiOn-1mAnsOHRMDy9Kdg" uri="workproducts/capabilities.xmi"/>
+    <resourceDescriptors xmi:id="_-t9ZoKJbEeCKp9wzOHzvHg" id="-kDh-XAHOrNT61zhHWnrJtg" uri="guidances/examples/cpo_business_model_example.xmi"/>
+    <resourceDescriptors xmi:id="_jsefIKLxEeCs2vaY4B2J3g" id="-QIL3MNyafRmN3yP7k2-u0g" uri="workproducts/services_architectures.xmi"/>
+    <resourceDescriptors xmi:id="_d1uRsKLyEeCs2vaY4B2J3g" id="-pdtLValjJqCqTSzlujm80g" uri="workproducts/business_goals.xmi"/>
+    <resourceDescriptors xmi:id="_rgc8UKLyEeCs2vaY4B2J3g" id="-SlkjuRJjP-Lo82-B6mOXBA" uri="workproducts/business_processes.xmi"/>
+    <resourceDescriptors xmi:id="_wH72EKL4EeCs2vaY4B2J3g" id="-jkicR9FJQpdTUDuV20cGng" uri="guidances/examples/cpo_services_architecture_example.xmi"/>
+    <resourceDescriptors xmi:id="_DW3SoKMFEeCs2vaY4B2J3g" id="-CsX4cAZQzj-BSpVzTft4Jw" uri="workproducts/service_contracts_and_choreographies.xmi"/>
+    <resourceDescriptors xmi:id="_KaOyQaMGEeCs2vaY4B2J3g" id="-1bJeh0SMmgrXwMHSNa9w9w" uri="guidances/examples/cpo_service_contracts_and_choreographies_example.xmi"/>
+    <resourceDescriptors xmi:id="_Od0KMaMLEeCs2vaY4B2J3g" id="-NM2FLsi5dhf04wfLuK68HQ" uri="guidances/examples/dna_example.xmi"/>
+    <resourceDescriptors xmi:id="_PCyKYb3kEeCOQrIHtroKcw" id="-hiowZ_KfmKm13Uz4hY5wTA" uri="guidances/guidelines/aligning_service_contracts_and_services_interfaces_as_refinements.xmi"/>
+    <resourceDescriptors xmi:id="_iab7kb3kEeCOQrIHtroKcw" id="-4IPzychPSJz5lvSz1LmfGw" uri="guidances/guidelines/aligning_service_contracts_and_service_interfaces_as_views.xmi"/>
+    <resourceDescriptors xmi:id="_SuI_YL50EeC6xe88PkUYHA" id="-opMS3QqfxSlPWYgzWRzGvA" uri="guidances/examples/cpo_service_interfaces_example.xmi"/>
+    <resourceDescriptors xmi:id="_512XsL6VEeCOB4Yzghr2dQ" id="-WhSzsgGx74exReuqqzzBMQ" uri="guidances/examples/cpo_interfaces_and_messages_example.xmi"/>
+    <resourceDescriptors xmi:id="_J-jEIL6XEeCOB4Yzghr2dQ" id="-WZd85rwiw2fJflLKJaVZUg" uri="guidances/examples/cpo_service_choreography_example.xmi"/>
+    <resourceDescriptors xmi:id="_Lwfi4L6XEeCOB4Yzghr2dQ" id="-iTVpYPTmFgjrX9--7bqk9Q" uri="guidances/examples/cpo_software_components_example.xmi"/>
+    <resourceDescriptors xmi:id="_hy7ggSznEeKZictCybV6LA" id="-u0Om-NwjABQNXzVKCm60Ng" uri="workproducts/service_choreographies.xmi"/>
+    <resourceDescriptors xmi:id="_m9aBUCznEeKZictCybV6LA" id="-7mKEfeCFlWmu0sfu9QY_jw" uri="workproducts/service_interfaces.xmi"/>
+    <resourceDescriptors xmi:id="_w7IOsSznEeKZictCybV6LA" id="-ITMBn8T0ZT8dZgm5xmrPDA" uri="workproducts/software_components.xmi"/>
+    <resourceDescriptors xmi:id="_7oRG0SznEeKZictCybV6LA" id="-RFZ-6sYXQMTf51a6Hdxkpg" uri="workproducts/interfaces_and_messages.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_1zV0AC5mEd6lwuZlFT8K0A" name="practice.architecture.service_modelling.base-sintef" guid="_1zV0AC5mEd6lwuZlFT8K0A" briefDescription="This plugin contains the SoaML modelling practices." authors="Brian Elvesæter (SINTEF), Cyril Carrez (SINTEF), Svein G. Johnsen (SINTEF), Andreas Limyr (SINTEF), Parastoo Mohagheghi (SINTEF), Arne-Jørgen Berre (SINTEF), Gorka Benguria (ESI), Marisa Escalante (ESI), Michael Stollberg (SAP)" changeDate="2011-06-21T14:17:12.795+0200">
+    <methodElementProperty xmi:id="_kAZ14deMEd-Mq_S1iaxctg" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1zV0AS5mEd6lwuZlFT8K0A" name="Content" guid="_1zV0AS5mEd6lwuZlFT8K0A">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1zV0Ai5mEd6lwuZlFT8K0A" name="Categories" guid="_1zV0Ai5mEd6lwuZlFT8K0A">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1zV0Ay5mEd6lwuZlFT8K0A" name="Domains" guid="_1zV0Ay5mEd6lwuZlFT8K0A">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_w90BwOXVEd-o7-eCfuNF5g" name="architecture_modelling_domain.assign" guid="_w90BwOXVEd-o7-eCfuNF5g" variabilityType="contributes" workProducts="_RTI_sOG3Ed-AyrTFSpVP8g">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_iESMoNxcEd-LYKXkOhPACw#_JQuH8N0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1zV0BC5mEd6lwuZlFT8K0A" name="Disciplines" guid="_1zV0BC5mEd6lwuZlFT8K0A">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_87u2IOHAEd-AyrTFSpVP8g" name="architecture_modelling_discipline.assign" guid="_87u2IOHAEd-AyrTFSpVP8g" variabilityType="contributes" tasks="_ZC3u4Fa3Ed-wludSfbytXA _UKEdsC5uEd6lwuZlFT8K0A _Xt2qYCasEd-W88dSHyarAQ _ByzAgFzfEd-W9-TCScsYqg _k96TUBsIEd-bArCnVzoI8Q _azDj4C5uEd6lwuZlFT8K0A _IbzfwC5uEd6lwuZlFT8K0A">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_iESMoNxcEd-LYKXkOhPACw#_Fx_-UN0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1zV0BS5mEd6lwuZlFT8K0A" name="RoleSets" guid="_1zV0BS5mEd6lwuZlFT8K0A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1zV0Bi5mEd6lwuZlFT8K0A" name="WP Types" guid="_1zV0Bi5mEd6lwuZlFT8K0A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1zV0By5mEd6lwuZlFT8K0A" name="Tools" guid="_1zV0By5mEd6lwuZlFT8K0A">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_Ml3zoJzVEeCjAYLMIp9ZDA" name="modelio.assign" guid="_Ml3zoJzVEeCjAYLMIp9ZDA" variabilityType="contributes" toolMentors="_mIQoMCj1Ed6lw-ZlFT8K0A">
+            <presentation xmi:id="-tvJZ9XKYSMjlQrc7aH2TIQ" href="uma://-tvJZ9XKYSMjlQrc7aH2TIQ#-tvJZ9XKYSMjlQrc7aH2TIQ"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_yLWzUNxbEd-LYKXkOhPACw#_06fs8BBjEeG0LPFDNl3dCw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_Y8qKIJzVEeCjAYLMIp9ZDA" name="rational_software_architect.assign" guid="_Y8qKIJzVEeCjAYLMIp9ZDA" variabilityType="contributes" toolMentors="_dI9WAJzWEeCjAYLMIp9ZDA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_yLWzUNxbEd-LYKXkOhPACw#_BotPghBlEeG0LPFDNl3dCw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_GPlKgJzWEeCjAYLMIp9ZDA" name="magicdraw.assign" guid="_GPlKgJzWEeCjAYLMIp9ZDA" variabilityType="contributes" toolMentors="_nkZQgJ2OEeCZu7rk2fFONg _udUQIJ2OEeCZu7rk2fFONg _OoYBcJzWEeCjAYLMIp9ZDA">
+            <methodElementProperty xmi:id="_tDC-YKCrEeCjsNFLyZv1Eg" name="CategoryElementsSortType" value="Alphabetic"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_yLWzUNxbEd-LYKXkOhPACw#_BotPgRBlEeG0LPFDNl3dCw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_JGSR4JzWEeCjAYLMIp9ZDA" name="enterprise_architect.assign" guid="_JGSR4JzWEeCjAYLMIp9ZDA" variabilityType="contributes" toolMentors="_K-0HoPfAEd-qBr8EL56jIA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_yLWzUNxbEd-LYKXkOhPACw#_BotPgBBlEeG0LPFDNl3dCw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1zV0CC5mEd6lwuZlFT8K0A" name="StandardCategories" guid="_1zV0CC5mEd6lwuZlFT8K0A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1zV0CS5mEd6lwuZlFT8K0A" name="CustomCategories" guid="_1zV0CS5mEd6lwuZlFT8K0A">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1zV0Ci5mEd6lwuZlFT8K0A" name="Hidden" guid="_1zV0Ci5mEd6lwuZlFT8K0A">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_1zV0Cy5mEd6lwuZlFT8K0A" name="Custom Categories" guid="_1zV0Cy5mEd6lwuZlFT8K0A"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1zV0DC5mEd6lwuZlFT8K0A" name="CoreContent" guid="_1zV0DC5mEd6lwuZlFT8K0A">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_oH5lcC5rEd6lwuZlFT8K0A" name="system_architecture_modelling" guid="_oH5lcC5rEd6lwuZlFT8K0A" presentationName="SoaML" briefDescription="Method components that uses the Service oriented architecture Modeling Language (SoaML).">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_lhfrkDwEEd-wzrbdBPyHjA" name="service_interface_and_component_modelling" guid="_lhfrkDwEEd-wzrbdBPyHjA" presentationName="Service interface and component modelling" briefDescription="This practice describes how to define the IT specification view of the service-oriented architecture." contentReferences="_kJPkgDf5Ed-Uc_4T-VlC6Q _l_dVQJzZEeCjAYLMIp9ZDA _W6pcQDf5Ed-Uc_4T-VlC6Q _fPqBoL3kEeCOQrIHtroKcw _60lLsL3jEeCOQrIHtroKcw _YYYBUFxSEd--udEuEJEYBQ _sU8lcKnBEd6i-6W-cB2-Qw _0sB-ML6VEeCOB4Yzghr2dQ _8jiQgL6WEeCOB4Yzghr2dQ _F-_zQL50EeC6xe88PkUYHA _FPn24L6XEeCOB4Yzghr2dQ _J7G0AKMLEeCs2vaY4B2J3g _aV9ToKGcEeCo46MenWbwvA _ZC3u4Fa3Ed-wludSfbytXA _Xt2qYCasEd-W88dSHyarAQ _UKEdsC5uEd6lwuZlFT8K0A _ByzAgFzfEd-W9-TCScsYqg _wBFqIN3aEd--Io3WTn6Mgw _1HjfkN3YEd--Io3WTn6Mgw _JGSR4JzWEeCjAYLMIp9ZDA _GPlKgJzWEeCjAYLMIp9ZDA _Ml3zoJzVEeCjAYLMIp9ZDA _Y8qKIJzVEeCjAYLMIp9ZDA">
+            <presentation xmi:id="-rQGwek4WJsJDPc-lQN6TcA" href="uma://-rQGwek4WJsJDPc-lQN6TcA#-rQGwek4WJsJDPc-lQN6TcA"/>
+            <activityReferences href="uma://_ROZFICYTEd-_-qcazwayRQ#_ROZFUyYTEd-_-qcazwayRQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_1HjfkN3YEd--Io3WTn6Mgw" name="how_to_adopt_service_interface_and_component_modelling" guid="_1HjfkN3YEd--Io3WTn6Mgw" presentationName="How to adopt the Service interface and component modelling practice" briefDescription="This roadmap describes how to adopt the Service interface and component modelling practice." supportingMaterials="_VSaIIDM3Ed6_xOMajArapw" conceptsAndPapers="_W6pcQDf5Ed-Uc_4T-VlC6Q _N-Gp8Df3Ed-Uc_4T-VlC6Q _kJPkgDf5Ed-Uc_4T-VlC6Q _l_dVQJzZEeCjAYLMIp9ZDA" guidelines="_sU8lcKnBEd6i-6W-cB2-Qw _fPqBoL3kEeCOQrIHtroKcw _60lLsL3jEeCOQrIHtroKcw _YYYBUFxSEd--udEuEJEYBQ">
+            <presentation xmi:id="-z8rR1pKuZsYPdcpeWI8EIw" href="uma://-z8rR1pKuZsYPdcpeWI8EIw#-z8rR1pKuZsYPdcpeWI8EIw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_YYYBUFxSEd--udEuEJEYBQ" name="bam_to_sam_mapping_rules" guid="_YYYBUFxSEd--udEuEJEYBQ" presentationName="BAM to SAM mapping rules" briefDescription="BAM to SAM mapping rules.">
+            <presentation xmi:id="-_4EeLW_3zu7eB1GWUOIfYw" href="uma://-_4EeLW_3zu7eB1GWUOIfYw#-_4EeLW_3zu7eB1GWUOIfYw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ZC3u4Fa3Ed-wludSfbytXA" name="specify_interfaces_and_messages" guid="_ZC3u4Fa3Ed-wludSfbytXA" presentationName="Specify interfaces and messages" briefDescription="This task defines the guided procedure for specifying the interfaces and messages of a service interface." conceptsAndPapers="_kJPkgDf5Ed-Uc_4T-VlC6Q _W6pcQDf5Ed-Uc_4T-VlC6Q" guidelines="_sU8lcKnBEd6i-6W-cB2-Qw _fPqBoL3kEeCOQrIHtroKcw _60lLsL3jEeCOQrIHtroKcw" examples="_0V-38E9REd6-NZGez4d8tw _gCC4oCdxEd-WoP7PlhRWug _F-_zQL50EeC6xe88PkUYHA" performedBy="_wBFqIN3aEd--Io3WTn6Mgw" output="_aV9ToKGcEeCo46MenWbwvA _WlA70KMAEeCs2vaY4B2J3g" optionalInput="_4rEi0KGaEeCo46MenWbwvA">
+            <presentation xmi:id="-gm7tin_AjCJm6YTd61YENg" href="uma://-gm7tin_AjCJm6YTd61YENg#-gm7tin_AjCJm6YTd61YENg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_UKEdsC5uEd6lwuZlFT8K0A" name="specify_service_interfaces" guid="_UKEdsC5uEd6lwuZlFT8K0A" presentationName="Specify service interfaces" briefDescription="This task describes how to specify service interfaces." conceptsAndPapers="_kJPkgDf5Ed-Uc_4T-VlC6Q" guidelines="_sU8lcKnBEd6i-6W-cB2-Qw _YYYBUFxSEd--udEuEJEYBQ _fPqBoL3kEeCOQrIHtroKcw _60lLsL3jEeCOQrIHtroKcw" examples="_gCC4oCdxEd-WoP7PlhRWug _F-_zQL50EeC6xe88PkUYHA" performedBy="_wBFqIN3aEd--Io3WTn6Mgw" output="_aV9ToKGcEeCo46MenWbwvA _TliS8KMAEeCs2vaY4B2J3g" optionalInput="_4rEi0KGaEeCo46MenWbwvA">
+            <presentation xmi:id="-Qx_Ywb5ZXdFa_iZsfuTTrA" href="uma://-Qx_Ywb5ZXdFa_iZsfuTTrA#-Qx_Ywb5ZXdFa_iZsfuTTrA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Xt2qYCasEd-W88dSHyarAQ" name="specify_service_choreographies" guid="_Xt2qYCasEd-W88dSHyarAQ" presentationName="Specify service choreographies" briefDescription="This task defines the guided procedure for specifying the service interface behaviour." conceptsAndPapers="_kJPkgDf5Ed-Uc_4T-VlC6Q" guidelines="_sU8lcKnBEd6i-6W-cB2-Qw" examples="_8jiQgL6WEeCOB4Yzghr2dQ" performedBy="_wBFqIN3aEd--Io3WTn6Mgw" output="_aV9ToKGcEeCo46MenWbwvA _aDTAkKMAEeCs2vaY4B2J3g" optionalInput="_4rEi0KGaEeCo46MenWbwvA">
+            <presentation xmi:id="-CZFVngSJ-Xlykua-q4BSmg" href="uma://-CZFVngSJ-Xlykua-q4BSmg#-CZFVngSJ-Xlykua-q4BSmg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ByzAgFzfEd-W9-TCScsYqg" name="specify_software_components" guid="_ByzAgFzfEd-W9-TCScsYqg" presentationName="Specify software components" briefDescription="This task defines the guided procedure for specifying the software components that implements the IT perspective of an SOA." guidelines="_sU8lcKnBEd6i-6W-cB2-Qw" examples="_OwzEMCd6Ed-WoP7PlhRWug _FPn24L6XEeCOB4Yzghr2dQ" performedBy="_wBFqIN3aEd--Io3WTn6Mgw" output="_aV9ToKGcEeCo46MenWbwvA _co5J0KMAEeCs2vaY4B2J3g" optionalInput="_1hVKsKGaEeCo46MenWbwvA">
+            <presentation xmi:id="-5bynT6bDmwgruEVrPREWEQ" href="uma://-5bynT6bDmwgruEVrPREWEQ#-5bynT6bDmwgruEVrPREWEQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_wBFqIN3aEd--Io3WTn6Mgw" name="system_architect.assign" guid="_wBFqIN3aEd--Io3WTn6Mgw" variabilityType="contributes" responsibleFor="_RTI_sOG3Ed-AyrTFSpVP8g">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_RTI_sOG3Ed-AyrTFSpVP8g" name="architecture_model.assign" guid="_RTI_sOG3Ed-AyrTFSpVP8g" variabilityType="contributes" deliveredWorkProducts="_Ckb_MKGcEeCo46MenWbwvA _aV9ToKGcEeCo46MenWbwvA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_vIqTYOG2Ed-AyrTFSpVP8g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_aV9ToKGcEeCo46MenWbwvA" name="system_architecture_model" guid="_aV9ToKGcEeCo46MenWbwvA" presentationName="System architecture model" briefDescription="This work product defines the IT view of the service-oriented architecture in a platform-indepent manner." guidelines="_sU8lcKnBEd6i-6W-cB2-Qw" deliveredWorkProducts="_WlA70KMAEeCs2vaY4B2J3g _aDTAkKMAEeCs2vaY4B2J3g _TliS8KMAEeCs2vaY4B2J3g _co5J0KMAEeCs2vaY4B2J3g">
+            <presentation xmi:id="-T9TMGahoxsmraV-ojxXRMA" href="uma://-T9TMGahoxsmraV-ojxXRMA#-T9TMGahoxsmraV-ojxXRMA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_TliS8KMAEeCs2vaY4B2J3g" name="service_interfaces" guid="_TliS8KMAEeCs2vaY4B2J3g" presentationName="Service interfaces" briefDescription="This work product specifies the service interfaces." examples="_F-_zQL50EeC6xe88PkUYHA">
+            <methodElementProperty xmi:id="_UxgRkCznEeKZictCybV6LA" name="me_edited" value="true"/>
+            <presentation xmi:id="-7mKEfeCFlWmu0sfu9QY_jw" href="uma://-7mKEfeCFlWmu0sfu9QY_jw#-7mKEfeCFlWmu0sfu9QY_jw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_WlA70KMAEeCs2vaY4B2J3g" name="interfaces_and_messages" guid="_WlA70KMAEeCs2vaY4B2J3g" presentationName="Interfaces and messages" briefDescription="This work product specifies the interfaces and messages." examples="_0sB-ML6VEeCOB4Yzghr2dQ">
+            <methodElementProperty xmi:id="_RbbGkCznEeKZictCybV6LA" name="me_edited" value="true"/>
+            <presentation xmi:id="-RFZ-6sYXQMTf51a6Hdxkpg" href="uma://-RFZ-6sYXQMTf51a6Hdxkpg#-RFZ-6sYXQMTf51a6Hdxkpg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_aDTAkKMAEeCs2vaY4B2J3g" name="service_choreographies" guid="_aDTAkKMAEeCs2vaY4B2J3g" presentationName="Service choreographies" briefDescription="This work product specifies the service choreographies." examples="_8jiQgL6WEeCOB4Yzghr2dQ">
+            <methodElementProperty xmi:id="_TVQ9ECznEeKZictCybV6LA" name="me_edited" value="true"/>
+            <presentation xmi:id="-u0Om-NwjABQNXzVKCm60Ng" href="uma://-u0Om-NwjABQNXzVKCm60Ng#-u0Om-NwjABQNXzVKCm60Ng"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_co5J0KMAEeCs2vaY4B2J3g" name="software_components" guid="_co5J0KMAEeCs2vaY4B2J3g" presentationName="Software components" briefDescription="This work product specifies the software components." examples="_FPn24L6XEeCOB4Yzghr2dQ">
+            <methodElementProperty xmi:id="_WT1nACznEeKZictCybV6LA" name="me_edited" value="true"/>
+            <presentation xmi:id="-ITMBn8T0ZT8dZgm5xmrPDA" href="uma://-ITMBn8T0ZT8dZgm5xmrPDA#-ITMBn8T0ZT8dZgm5xmrPDA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_F-_zQL50EeC6xe88PkUYHA" name="cpo_service_interfaces_example" guid="_F-_zQL50EeC6xe88PkUYHA" presentationName="CPO: Service interfaces example" briefDescription="CPO: Service interfaces example">
+            <presentation xmi:id="-opMS3QqfxSlPWYgzWRzGvA" href="uma://-opMS3QqfxSlPWYgzWRzGvA#-opMS3QqfxSlPWYgzWRzGvA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_0sB-ML6VEeCOB4Yzghr2dQ" name="cpo_interfaces_and_messages_example" guid="_0sB-ML6VEeCOB4Yzghr2dQ" presentationName="CPO: Interfaces and messages example" briefDescription="CPO: Interfaces and messages example">
+            <presentation xmi:id="-WhSzsgGx74exReuqqzzBMQ" href="uma://-WhSzsgGx74exReuqqzzBMQ#-WhSzsgGx74exReuqqzzBMQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_8jiQgL6WEeCOB4Yzghr2dQ" name="cpo_service_choreography_example" guid="_8jiQgL6WEeCOB4Yzghr2dQ" presentationName="CPO: Service choreography example" briefDescription="CPO: Service choreography example">
+            <presentation xmi:id="-WZd85rwiw2fJflLKJaVZUg" href="uma://-WZd85rwiw2fJflLKJaVZUg#-WZd85rwiw2fJflLKJaVZUg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_FPn24L6XEeCOB4Yzghr2dQ" name="cpo_software_components_example" guid="_FPn24L6XEeCOB4Yzghr2dQ" presentationName="CPO: Software components example" briefDescription="CPO: Software components example">
+            <presentation xmi:id="-iTVpYPTmFgjrX9--7bqk9Q" href="uma://-iTVpYPTmFgjrX9--7bqk9Q#-iTVpYPTmFgjrX9--7bqk9Q"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8y4dgNqsEd-RHtsSMqnPrA" name="release_info" guid="_8y4dgNqsEd-RHtsSMqnPrA">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_Ts6JQNqtEd-RHtsSMqnPrA" name="release_info_services_architecture_and_contract_modelling" guid="_Ts6JQNqtEd-RHtsSMqnPrA" presentationName="Practice: Services architecture and contract modelling" briefDescription="Services architecture and contract modelling practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-zGLIXCHy_H4_9pFi_j8Qdg" href="uma://-zGLIXCHy_H4_9pFi_j8Qdg#-zGLIXCHy_H4_9pFi_j8Qdg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_cRTMMNqtEd-RHtsSMqnPrA" name="release_info_service_interface_and_component_modelling" guid="_cRTMMNqtEd-RHtsSMqnPrA" presentationName="Practice: Service interface and component modelling" briefDescription="Service interface and component modelling practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-F3w4SL7ZGGYOX_JPWmmdDg" href="uma://-F3w4SL7ZGGYOX_JPWmmdDg#-F3w4SL7ZGGYOX_JPWmmdDg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-NCuYNqsEd-RHtsSMqnPrA" name="tool_mentors" guid="_-NCuYNqsEd-RHtsSMqnPrA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BmZP0NqtEd-RHtsSMqnPrA" name="enterprise_architect" guid="_BmZP0NqtEd-RHtsSMqnPrA">
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_K-0HoPfAEd-qBr8EL56jIA" name="enterprise_architect_soaml_support" guid="_K-0HoPfAEd-qBr8EL56jIA" presentationName="Enterprise Architect: SoaML support" briefDescription="This tool mentor describes some issues related to SoaML modelling in Enterprise Architect.">
+              <presentation xmi:id="-GiVPMAhhL5s9AuLyWfq7cg" href="uma://-GiVPMAhhL5s9AuLyWfq7cg#-GiVPMAhhL5s9AuLyWfq7cg"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_DFnm4NqtEd-RHtsSMqnPrA" name="rational_software_architect" guid="_DFnm4NqtEd-RHtsSMqnPrA">
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_dI9WAJzWEeCjAYLMIp9ZDA" name="rational_software_architect_soaml_support" guid="_dI9WAJzWEeCjAYLMIp9ZDA" presentationName="Rational Software Architect: SoaML support"/>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Gu5asNqtEd-RHtsSMqnPrA" name="magic_draw" guid="_Gu5asNqtEd-RHtsSMqnPrA">
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_OoYBcJzWEeCjAYLMIp9ZDA" name="magicdraw_soaml_support" guid="_OoYBcJzWEeCjAYLMIp9ZDA" presentationName="MagicDraw: SoaML support">
+              <presentation xmi:id="-QFN9Y56A9p9bhJcf74oRcQ" href="uma://-QFN9Y56A9p9bhJcf74oRcQ#-QFN9Y56A9p9bhJcf74oRcQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_nkZQgJ2OEeCZu7rk2fFONg" name="magicdraw_installation" guid="_nkZQgJ2OEeCZu7rk2fFONg" presentationName="MagicDraw: Installation">
+              <presentation xmi:id="-naeW1QjzksewA12U343BVg" href="uma://-naeW1QjzksewA12U343BVg#-naeW1QjzksewA12U343BVg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_udUQIJ2OEeCZu7rk2fFONg" name="magicdraw_service_modelling" guid="_udUQIJ2OEeCZu7rk2fFONg" presentationName="MagicDraw: Service modelling">
+              <presentation xmi:id="-eYDL7fUm0GMKbszvGjNfXA" href="uma://-eYDL7fUm0GMKbszvGjNfXA#-eYDL7fUm0GMKbszvGjNfXA"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_AEzhQNqtEd-RHtsSMqnPrA" name="modelio" guid="_AEzhQNqtEd-RHtsSMqnPrA">
+            <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_hwVKQIJ8Ed6Ljca46QJL5g" name="modelio_soaml_template" guid="_hwVKQIJ8Ed6Ljca46QJL5g" presentationName="Modelio SoaML template" briefDescription="Modelio SoaML template.">
+              <presentation xmi:id="-IDeUk_IjnSrYUrfXg5K7dA" href="uma://-IDeUk_IjnSrYUrfXg5K7dA#-IDeUk_IjnSrYUrfXg5K7dA"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_mIQoMCj1Ed6lw-ZlFT8K0A" name="modelio_soaml_support" guid="_mIQoMCj1Ed6lw-ZlFT8K0A" presentationName="Modelio: SoaML support" briefDescription="A set of Modelio tutorials for SoaML modelling.">
+              <presentation xmi:id="-wKj4-mtXJ_9w5k3e6Z2vwQ" href="uma://-wKj4-mtXJ_9w5k3e6Z2vwQ#-wKj4-mtXJ_9w5k3e6Z2vwQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_lpgi0E9ZEd6-NZGez4d8tw" name="SoaML_Behaviour_Activity_Diagram" guid="_lpgi0E9ZEd6-NZGez4d8tw" presentationName="SoaML Behaviour Activity Diagram" briefDescription="Activity diagram that describes the behaviour (dynamics) of a service architecture." isAbstract="true">
+              <presentation xmi:id="-pNIDmLwMUMEsTbW97fn4lg" href="uma://-pNIDmLwMUMEsTbW97fn4lg#-pNIDmLwMUMEsTbW97fn4lg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_NjyC4Fw9Ed-W_augd5EN6g" name="SoaML_Behaviour_BPMN_Diagram" guid="_NjyC4Fw9Ed-W_augd5EN6g" presentationName="SoaML Behaviour BPMN Diagram" briefDescription="BPMN diagram that describes the behaviour (dynamics) of a service architecture." isAbstract="true">
+              <presentation xmi:id="-mar2zkgL02fT-NlV2NBo0Q" href="uma://-mar2zkgL02fT-NlV2NBo0Q#-mar2zkgL02fT-NlV2NBo0Q"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_m4_ioIJ7Ed6Ljca46QJL5g" name="SoaML_Behaviour_Sequence_Diagram" guid="_m4_ioIJ7Ed6Ljca46QJL5g" presentationName="SoaML Behaviour Sequence Diagram" briefDescription="Sequence diagram or statemachine that describes the behaviour of a service contract." isAbstract="true">
+              <presentation xmi:id="-JkMUW70D-wyBlPFwJQdncA" href="uma://-JkMUW70D-wyBlPFwJQdncA#-JkMUW70D-wyBlPFwJQdncA"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_9w-lME9xEd6-NZGez4d8tw" name="SoaML_Capability_Diagram" guid="_9w-lME9xEd6-NZGez4d8tw" presentationName="SoaML Capability Diagram" briefDescription="Class diagram that describes capabilities and goals of the services." isAbstract="true">
+              <presentation xmi:id="--ZXvSjTDuFTQYY0oSi8g-A" href="uma://--ZXvSjTDuFTQYY0oSi8g-A#--ZXvSjTDuFTQYY0oSi8g-A"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_C-2dkEtnEd6Z-ullxtcrbw" name="SoaML_Message_Diagram" guid="_C-2dkEtnEd6Z-ullxtcrbw" presentationName="SoaML Information diagram" briefDescription="An information diagram is an abstract, formal representation of entity types that includes their properties, relationships and the operations that can be performed on them&#xD;&#xA;Class diagram that describes data structure of exchanged messages." isAbstract="true">
+              <presentation xmi:id="-5R8GCW6LEYE1Oopfrmdx2A" href="uma://-5R8GCW6LEYE1Oopfrmdx2A#-5R8GCW6LEYE1Oopfrmdx2A"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_FnToQE9yEd6-NZGez4d8tw" name="SoaML_Participant_Diagram" guid="_FnToQE9yEd6-NZGez4d8tw" presentationName="SoaML Participant Diagram" briefDescription="Component diagram that describes structure (i.e. static) of a participant architecture." isAbstract="true">
+              <presentation xmi:id="-mh6r5zfz9l9e-xPtNQJcgw" href="uma://-mh6r5zfz9l9e-xPtNQJcgw#-mh6r5zfz9l9e-xPtNQJcgw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_RIjEYE9SEd6-NZGez4d8tw" name="SoaML_Service_Contract_Diagram" guid="_RIjEYE9SEd6-NZGez4d8tw" presentationName="SoaML Service Contract Diagram" briefDescription="This diagram presents WHAT is the service. This model should define mainly the operations and the interface of the service. This diagram will represent the service from a static point of view.This diagram coul be represented with class diagrams (for defining ServiceInterface) and Collaboration diagram that describes entities that work together for some purpose.">
+              <presentation xmi:id="-Nm2RJYOhi0daHQTqz7pgRQ" href="uma://-Nm2RJYOhi0daHQTqz7pgRQ#-Nm2RJYOhi0daHQTqz7pgRQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_YF8y0IKAEd6Ljca46QJL5g" name="SoaML_Service_Interface_Diagram" guid="_YF8y0IKAEd6Ljca46QJL5g" presentationName="SoaML Service Interface Diagram " briefDescription="Component diagram that describes how to interact with a service interface." isAbstract="true">
+              <presentation xmi:id="-D4K-eJ1-p9XPLxLcH5T_fA" href="uma://-D4K-eJ1-p9XPLxLcH5T_fA#-D4K-eJ1-p9XPLxLcH5T_fA"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_fUnAMFw9Ed-W_augd5EN6g" name="SoaML_Services_Architecture_Diagram" guid="_fUnAMFw9Ed-W_augd5EN6g" presentationName="SoaML Services Architecture Diagram" briefDescription="UML Collaboration that describes structure (i.e. static) of a participant architecture." isAbstract="true">
+              <presentation xmi:id="-lurta_gntET__a0H5T73xA" href="uma://-lurta_gntET__a0H5T73xA#-lurta_gntET__a0H5T73xA"/>
+            </contentElements>
+          </childPackages>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HTLGMNuOEd-pTLmXJigeaQ" name="soaml_concepts" guid="_HTLGMNuOEd-pTLmXJigeaQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_VSaIIDM3Ed6_xOMajArapw" name="references.soaml" guid="_VSaIIDM3Ed6_xOMajArapw" variabilityType="contributes">
+            <presentation xmi:id="-5srNI3ruxhLSbUd3EAxDgw" href="uma://-5srNI3ruxhLSbUd3EAxDgw#-5srNI3ruxhLSbUd3EAxDgw"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_7J4wUNq1Ed-RHtsSMqnPrA#_zfHv4PPWEd-GtPTRjkeUMg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_W6pcQDf5Ed-Uc_4T-VlC6Q" name="simple_interface_based_approach" guid="_W6pcQDf5Ed-Uc_4T-VlC6Q" presentationName="Simple interface based approach" briefDescription="Simple interface based approach">
+            <presentation xmi:id="-sJNF2L8ckNMgI1mH8LfL8w" href="uma://-sJNF2L8ckNMgI1mH8LfL8w#-sJNF2L8ckNMgI1mH8LfL8w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_N-Gp8Df3Ed-Uc_4T-VlC6Q" name="service_contract_based_approach" guid="_N-Gp8Df3Ed-Uc_4T-VlC6Q" presentationName="Service contract based approach" briefDescription="Service contract based approach" examples="_r1fNUCd4Ed-WoP7PlhRWug">
+            <presentation xmi:id="-lx14-kyzIGNMXQmAOl6Xcw" href="uma://-lx14-kyzIGNMXQmAOl6Xcw#-lx14-kyzIGNMXQmAOl6Xcw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_kJPkgDf5Ed-Uc_4T-VlC6Q" name="service_interface_based_approach" guid="_kJPkgDf5Ed-Uc_4T-VlC6Q" presentationName="Service interface based approach" briefDescription="Service interface based approach" examples="_gCC4oCdxEd-WoP7PlhRWug">
+            <presentation xmi:id="-h6_uFXb8V3efCPtt0aqtxA" href="uma://-h6_uFXb8V3efCPtt0aqtxA#-h6_uFXb8V3efCPtt0aqtxA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_sU8lcKnBEd6i-6W-cB2-Qw" name="soaml_guidance" guid="_sU8lcKnBEd6i-6W-cB2-Qw" presentationName="Service oriented architecture Modeling Language (SoaML)" briefDescription="This guidance describes the Service oriented architecture Modeling Language (SoaML).">
+            <presentation xmi:id="-R013rx49qt5ZOv7w5msxfA" href="uma://-R013rx49qt5ZOv7w5msxfA#-R013rx49qt5ZOv7w5msxfA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_r_FJ0DM2Ed6_xOMajArapw" name="marketplace_soaml_bmm_integration_example" guid="_r_FJ0DM2Ed6_xOMajArapw" presentationName="Marketplace: BMM integration example" briefDescription="Marketplace: BMM integration example">
+            <presentation xmi:id="-igtBsH6JPCG2mZ513ckigg" href="uma://-igtBsH6JPCG2mZ513ckigg#-igtBsH6JPCG2mZ513ckigg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_P6qH4Cd9Ed-WoP7PlhRWug" name="marketplace_soaml_capability_example" guid="_P6qH4Cd9Ed-WoP7PlhRWug" presentationName="Marketplace: Capability example" briefDescription="Marketplace: Capability example">
+            <presentation xmi:id="-iqXeMvla90FUy3GchEFV2A" href="uma://-iqXeMvla90FUy3GchEFV2A#-iqXeMvla90FUy3GchEFV2A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_0V-38E9REd6-NZGez4d8tw" name="marketplace_soaml_interface_example" guid="_0V-38E9REd6-NZGez4d8tw" presentationName="Marketplace: Interface example" briefDescription="Marketplace: Interface example">
+            <presentation xmi:id="-wht8mrF_JzsBjGgDG79I2A" href="uma://-wht8mrF_JzsBjGgDG79I2A#-wht8mrF_JzsBjGgDG79I2A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_OwzEMCd6Ed-WoP7PlhRWug" name="marketplace_soaml_participants_example" guid="_OwzEMCd6Ed-WoP7PlhRWug" presentationName="Marketplace: Participants example" briefDescription="Marketplace: Participants example">
+            <presentation xmi:id="-G7V-PWN8CCp9mjfsUFMcFg" href="uma://-G7V-PWN8CCp9mjfsUFMcFg#-G7V-PWN8CCp9mjfsUFMcFg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_mrROYCd8Ed-WoP7PlhRWug" name="marketplace_soaml_participant_composite_structure_example" guid="_mrROYCd8Ed-WoP7PlhRWug" presentationName="Marketplace: Participant composite structure example" briefDescription="Marketplace: Participant composite structure example">
+            <presentation xmi:id="-RULVxQAruLRwECjwkGGoJw" href="uma://-RULVxQAruLRwECjwkGGoJw#-RULVxQAruLRwECjwkGGoJw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_r1fNUCd4Ed-WoP7PlhRWug" name="marketplace_soaml_service_contract_example" guid="_r1fNUCd4Ed-WoP7PlhRWug" presentationName="Marketplace: Service contract example" briefDescription="Marketplace: Service contract example">
+            <presentation xmi:id="-n5S3bDH4Qa8OKzFWE5kX3Q" href="uma://-n5S3bDH4Qa8OKzFWE5kX3Q#-n5S3bDH4Qa8OKzFWE5kX3Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_gCC4oCdxEd-WoP7PlhRWug" name="marketplace_soaml_service_interface_example" guid="_gCC4oCdxEd-WoP7PlhRWug" presentationName="Marketplace: Service interface example" briefDescription="Marketplace: Service interface example">
+            <presentation xmi:id="-w_xjBjo2m74kZnQFmg1TNQ" href="uma://-w_xjBjo2m74kZnQFmg1TNQ#-w_xjBjo2m74kZnQFmg1TNQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_4Ol00Cd0Ed-WoP7PlhRWug" name="marketplace_soaml_services_architecture_example" guid="_4Ol00Cd0Ed-WoP7PlhRWug" presentationName="Marketplace: Services architecture example" briefDescription="Marketplace: Services architecture example">
+            <presentation xmi:id="-Uhj2y5OqYnJvSA-OFSmWBw" href="uma://-Uhj2y5OqYnJvSA-OFSmWBw#-Uhj2y5OqYnJvSA-OFSmWBw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_b0_foJzJEeCBtZoIrPpMBw" name="attachment" guid="_b0_foJzJEeCBtZoIrPpMBw" presentationName="Attachment">
+            <presentation xmi:id="-AAgC0Wb4Yh6EpzOSRPs05A" href="uma://-AAgC0Wb4Yh6EpzOSRPs05A#-AAgC0Wb4Yh6EpzOSRPs05A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_k79EIJzJEeCBtZoIrPpMBw" name="capability" guid="_k79EIJzJEeCBtZoIrPpMBw" presentationName="Capability">
+            <presentation xmi:id="-fuuJkHkf3FviARXIgknqlg" href="uma://-fuuJkHkf3FviARXIgknqlg#-fuuJkHkf3FviARXIgknqlg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_vFlmkJzJEeCBtZoIrPpMBw" name="port" guid="_vFlmkJzJEeCBtZoIrPpMBw" presentationName="Port">
+            <presentation xmi:id="-_M59HMQJ089eOpywuOBi_Q" href="uma://-_M59HMQJ089eOpywuOBi_Q#-_M59HMQJ089eOpywuOBi_Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_6b3iUJzJEeCBtZoIrPpMBw" name="property" guid="_6b3iUJzJEeCBtZoIrPpMBw" presentationName="Property">
+            <presentation xmi:id="-uXt2_9n6kJgorqDXuqtO2w" href="uma://-uXt2_9n6kJgorqDXuqtO2w#-uXt2_9n6kJgorqDXuqtO2w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_EF3o0JzSEeCjAYLMIp9ZDA" name="service" guid="_EF3o0JzSEeCjAYLMIp9ZDA" presentationName="Service">
+            <presentation xmi:id="-kmdRxus_MVJAHy6k6APSHg" href="uma://-kmdRxus_MVJAHy6k6APSHg#-kmdRxus_MVJAHy6k6APSHg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_LsgqEJzSEeCjAYLMIp9ZDA" name="request" guid="_LsgqEJzSEeCjAYLMIp9ZDA" presentationName="Request">
+            <presentation xmi:id="-BqwQ2ZGKOw0sYtrtgXvH4A" href="uma://-BqwQ2ZGKOw0sYtrtgXvH4A#-BqwQ2ZGKOw0sYtrtgXvH4A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_GBRzUJzXEeCjAYLMIp9ZDA" name="service_channel" guid="_GBRzUJzXEeCjAYLMIp9ZDA" presentationName="Service channel">
+            <presentation xmi:id="-pAhbiUmAdMTq7q5U3Q8c9A" href="uma://-pAhbiUmAdMTq7q5U3Q8c9A#-pAhbiUmAdMTq7q5U3Q8c9A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_NuLNkJzXEeCjAYLMIp9ZDA" name="expose" guid="_NuLNkJzXEeCjAYLMIp9ZDA" presentationName="Expose">
+            <presentation xmi:id="-m66s7whl31_y5GoVbFkXWQ" href="uma://-m66s7whl31_y5GoVbFkXWQ#-m66s7whl31_y5GoVbFkXWQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_URUVAJzYEeCjAYLMIp9ZDA" name="milestone" guid="_URUVAJzYEeCjAYLMIp9ZDA" presentationName="Milestone">
+            <presentation xmi:id="-EKqOdwvaOQaiKSOrLtmOaA" href="uma://-EKqOdwvaOQaiKSOrLtmOaA#-EKqOdwvaOQaiKSOrLtmOaA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_hG3EEJzYEeCjAYLMIp9ZDA" name="collaboration" guid="_hG3EEJzYEeCjAYLMIp9ZDA" presentationName="Collaboration">
+            <presentation xmi:id="-CZi7NvbcYSf5Wfvj0LiF3w" href="uma://-CZi7NvbcYSf5Wfvj0LiF3w#-CZi7NvbcYSf5Wfvj0LiF3w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_nJhxIJzYEeCjAYLMIp9ZDA" name="service_contract" guid="_nJhxIJzYEeCjAYLMIp9ZDA" presentationName="Service contract">
+            <presentation xmi:id="-dmdY_yEiLFA24H9B7u1yIQ" href="uma://-dmdY_yEiLFA24H9B7u1yIQ#-dmdY_yEiLFA24H9B7u1yIQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_wDfbcJzYEeCjAYLMIp9ZDA" name="service_interface" guid="_wDfbcJzYEeCjAYLMIp9ZDA" presentationName="Service interface">
+            <presentation xmi:id="-ywqsH9f4Wcecf3aTkDYJ8w" href="uma://-ywqsH9f4Wcecf3aTkDYJ8w#-ywqsH9f4Wcecf3aTkDYJ8w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_2GKIgJzYEeCjAYLMIp9ZDA" name="services_architecture" guid="_2GKIgJzYEeCjAYLMIp9ZDA" presentationName="Services architecture">
+            <presentation xmi:id="-mlbd6soUBrLxKhDnXLGcQg" href="uma://-mlbd6soUBrLxKhDnXLGcQg#-mlbd6soUBrLxKhDnXLGcQg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_l_dVQJzZEeCjAYLMIp9ZDA" name="service_specification_using_soaml" guid="_l_dVQJzZEeCjAYLMIp9ZDA" presentationName="Service specification using SoaML" briefDescription="Service specification using SoaML">
+            <presentation xmi:id="-q9jkcZRyse28kS4-0TWCqw" href="uma://-q9jkcZRyse28kS4-0TWCqw#-q9jkcZRyse28kS4-0TWCqw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_CNJTAJzaEeCjAYLMIp9ZDA" name="agent" guid="_CNJTAJzaEeCjAYLMIp9ZDA" presentationName="Agent">
+            <presentation xmi:id="-61b8hGtH8Ym5hISWNjy5fA" href="uma://-61b8hGtH8Ym5hISWNjy5fA#-61b8hGtH8Ym5hISWNjy5fA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_I9zHcJzaEeCjAYLMIp9ZDA" name="collaboration_use" guid="_I9zHcJzaEeCjAYLMIp9ZDA" presentationName="Collaboration use">
+            <presentation xmi:id="-dGZOfC9leY_Gz3YZ1ERvEg" href="uma://-dGZOfC9leY_Gz3YZ1ERvEg#-dGZOfC9leY_Gz3YZ1ERvEg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_D69DMJzbEeCjAYLMIp9ZDA" name="consumer" guid="_D69DMJzbEeCjAYLMIp9ZDA" presentationName="Consumer">
+            <presentation xmi:id="-b6e4iPJN5OkFG8kfGYWkow" href="uma://-b6e4iPJN5OkFG8kfGYWkow#-b6e4iPJN5OkFG8kfGYWkow"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_NLYswJzbEeCjAYLMIp9ZDA" name="message_type" guid="_NLYswJzbEeCjAYLMIp9ZDA" presentationName="Message type">
+            <presentation xmi:id="-83VGnDeFyMCORBhZ9g7XnA" href="uma://-83VGnDeFyMCORBhZ9g7XnA#-83VGnDeFyMCORBhZ9g7XnA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_UGvVUJzbEeCjAYLMIp9ZDA" name="participant" guid="_UGvVUJzbEeCjAYLMIp9ZDA" presentationName="Participant">
+            <presentation xmi:id="-r7nrBJh5WszCP-2bLgXzhQ" href="uma://-r7nrBJh5WszCP-2bLgXzhQ#-r7nrBJh5WszCP-2bLgXzhQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_aissIJzbEeCjAYLMIp9ZDA" name="provider" guid="_aissIJzbEeCjAYLMIp9ZDA" presentationName="Provider">
+            <presentation xmi:id="-HQ0-RYoqJfw_DmkOmDnqyg" href="uma://-HQ0-RYoqJfw_DmkOmDnqyg#-HQ0-RYoqJfw_DmkOmDnqyg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_J7G0AKMLEeCs2vaY4B2J3g" name="dna_example" guid="_J7G0AKMLEeCs2vaY4B2J3g" presentationName="Dealer Network Architecture (DNA): Example" briefDescription="Dealer Network Architecture (DNA): Example">
+            <presentation xmi:id="-NM2FLsi5dhf04wfLuK68HQ" href="uma://-NM2FLsi5dhf04wfLuK68HQ#-NM2FLsi5dhf04wfLuK68HQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_60lLsL3jEeCOQrIHtroKcw" name="aligning_service_contracts_and_services_interfaces_as_refinements" guid="_60lLsL3jEeCOQrIHtroKcw" presentationName="Aligning Service Contracts and Service Interfaces as Refinements" briefDescription="This guidance describes how to align Service Contracts and Service Interfaces as refinements.">
+            <presentation xmi:id="-hiowZ_KfmKm13Uz4hY5wTA" href="uma://-hiowZ_KfmKm13Uz4hY5wTA#-hiowZ_KfmKm13Uz4hY5wTA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_fPqBoL3kEeCOQrIHtroKcw" name="aligning_service_contracts_and_service_interfaces_as_views" guid="_fPqBoL3kEeCOQrIHtroKcw" presentationName="Aligning Service Contracts and Service Interfaces as Views" briefDescription="This guidance describes how to align Service Contracts and Service Interfaces as views.">
+            <presentation xmi:id="-4IPzychPSJz5lvSz1LmfGw" href="uma://-4IPzychPSJz5lvSz1LmfGw#-4IPzychPSJz5lvSz1LmfGw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_3iDhYNuOEd-pTLmXJigeaQ" name="business_architecture_modelling" guid="_3iDhYNuOEd-pTLmXJigeaQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_tKI9EN3YEd--Io3WTn6Mgw" name="how_to_adopt_services_architecture_and_contract_modelling" guid="_tKI9EN3YEd--Io3WTn6Mgw" presentationName="How to adopt the Services architecture and contract modelling practice" briefDescription="This roadmap describes how to adopt the Services architecture and contract modelling practice." supportingMaterials="_VSaIIDM3Ed6_xOMajArapw" conceptsAndPapers="_N-Gp8Df3Ed-Uc_4T-VlC6Q _l_dVQJzZEeCjAYLMIp9ZDA" guidelines="_sU8lcKnBEd6i-6W-cB2-Qw _5sBKwKJQEeC6g8wb3xknIg _UzQ70FxSEd--udEuEJEYBQ _0579EKGmEeC1A-PuG6Rlow _XTQ6gKGjEeC1A-PuG6Rlow _4S9OsKGjEeC1A-PuG6Rlow">
+            <presentation xmi:id="-kVMlXMlggtrSJkvGaCwFbw" href="uma://-kVMlXMlggtrSJkvGaCwFbw#-kVMlXMlggtrSJkvGaCwFbw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_bcvpIDwEEd-wzrbdBPyHjA" name="services_architecture_and_contract_modelling" guid="_bcvpIDwEEd-wzrbdBPyHjA" presentationName="Services architecture and contract modelling" briefDescription="This practice describes how to define the business view of the service-oriented architecture." contentReferences="_N-Gp8Df3Ed-Uc_4T-VlC6Q _l_dVQJzZEeCjAYLMIp9ZDA _5sBKwKJQEeC6g8wb3xknIg _UzQ70FxSEd--udEuEJEYBQ _0579EKGmEeC1A-PuG6Rlow _XTQ6gKGjEeC1A-PuG6Rlow _4S9OsKGjEeC1A-PuG6Rlow _sU8lcKnBEd6i-6W-cB2-Qw _uqMwMKJdEeCKp9wzOHzvHg _pbPp8KJbEeCKp9wzOHzvHg _U5EqUKLzEeCs2vaY4B2J3g _NBwBYKL2EeCs2vaY4B2J3g _E-iloKMGEeCs2vaY4B2J3g _scbNoKL4EeCs2vaY4B2J3g _J7G0AKMLEeCs2vaY4B2J3g _vwgbkKGaEeCo46MenWbwvA _i6PE8KJkEeCtJaDYUHXYlQ _yelLYKGaEeCo46MenWbwvA _oSVZ0KGaEeCo46MenWbwvA _4rEi0KGaEeCo46MenWbwvA _1hVKsKGaEeCo46MenWbwvA _Ckb_MKGcEeCo46MenWbwvA _Fr7iUKGhEeC1A-PuG6Rlow _cyZuoKGhEeC1A-PuG6Rlow _k96TUBsIEd-bArCnVzoI8Q _azDj4C5uEd6lwuZlFT8K0A _IbzfwC5uEd6lwuZlFT8K0A _9XUg4N3ZEd--Io3WTn6Mgw _tKI9EN3YEd--Io3WTn6Mgw _JGSR4JzWEeCjAYLMIp9ZDA _GPlKgJzWEeCjAYLMIp9ZDA _Ml3zoJzVEeCjAYLMIp9ZDA _Y8qKIJzVEeCjAYLMIp9ZDA">
+            <presentation xmi:id="-YW6JJBK5KsWJcxjfT9tFyw" href="uma://-YW6JJBK5KsWJcxjfT9tFyw#-YW6JJBK5KsWJcxjfT9tFyw"/>
+            <activityReferences href="uma://_Bmd1ICavEd-W88dSHyarAQ#_Bmd1JSavEd-W88dSHyarAQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_9XUg4N3ZEd--Io3WTn6Mgw" name="business_architect.assign" guid="_9XUg4N3ZEd--Io3WTn6Mgw" variabilityType="contributes" responsibleFor="_Ckb_MKGcEeCo46MenWbwvA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJwhntEd6VV7P4WguglA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_k96TUBsIEd-bArCnVzoI8Q" name="specify_capabilities" guid="_k96TUBsIEd-bArCnVzoI8Q" presentationName="Specify capabilities" briefDescription="This task describes how to identify and specify capabilities." guidelines="_sU8lcKnBEd6i-6W-cB2-Qw" examples="_P6qH4Cd9Ed-WoP7PlhRWug _NBwBYKL2EeCs2vaY4B2J3g" performedBy="_9XUg4N3ZEd--Io3WTn6Mgw" output="_Ckb_MKGcEeCo46MenWbwvA _oSVZ0KGaEeCo46MenWbwvA">
+            <presentation xmi:id="-P_NR3mhE6KTaZPjrTmk43Q" href="uma://-P_NR3mhE6KTaZPjrTmk43Q#-P_NR3mhE6KTaZPjrTmk43Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_azDj4C5uEd6lwuZlFT8K0A" name="specify_service_contracts_and_choreographies" guid="_azDj4C5uEd6lwuZlFT8K0A" presentationName="Specify service contracts and choreographies" briefDescription="This task describes how to specify a service contract and its choreography." conceptsAndPapers="_N-Gp8Df3Ed-Uc_4T-VlC6Q" guidelines="_sU8lcKnBEd6i-6W-cB2-Qw _UzQ70FxSEd--udEuEJEYBQ" examples="_r1fNUCd4Ed-WoP7PlhRWug _E-iloKMGEeCs2vaY4B2J3g" performedBy="_9XUg4N3ZEd--Io3WTn6Mgw" output="_Ckb_MKGcEeCo46MenWbwvA _4rEi0KGaEeCo46MenWbwvA">
+            <presentation xmi:id="-bkqmI2rO4KqsFT7hi0kkfw" href="uma://-bkqmI2rO4KqsFT7hi0kkfw#-bkqmI2rO4KqsFT7hi0kkfw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IbzfwC5uEd6lwuZlFT8K0A" name="specify_services_architectures" guid="_IbzfwC5uEd6lwuZlFT8K0A" presentationName="Specify services architectures" briefDescription="This task describes how to specify a services architecture." guidelines="_0579EKGmEeC1A-PuG6Rlow _sU8lcKnBEd6i-6W-cB2-Qw _UzQ70FxSEd--udEuEJEYBQ" examples="_4Ol00Cd0Ed-WoP7PlhRWug _scbNoKL4EeCs2vaY4B2J3g" performedBy="_9XUg4N3ZEd--Io3WTn6Mgw" output="_Ckb_MKGcEeCo46MenWbwvA _1hVKsKGaEeCo46MenWbwvA">
+            <presentation xmi:id="-VAjMAIv2fxRi4fsIJaXCdw" href="uma://-VAjMAIv2fxRi4fsIJaXCdw#-VAjMAIv2fxRi4fsIJaXCdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Fr7iUKGhEeC1A-PuG6Rlow" name="define_business_goals" guid="_Fr7iUKGhEeC1A-PuG6Rlow" presentationName="Define business goals" briefDescription="This task describes how to identify and specify business goals." guidelines="_5sBKwKJQEeC6g8wb3xknIg _sU8lcKnBEd6i-6W-cB2-Qw" examples="_uqMwMKJdEeCKp9wzOHzvHg" performedBy="_9XUg4N3ZEd--Io3WTn6Mgw" output="_vwgbkKGaEeCo46MenWbwvA _Ckb_MKGcEeCo46MenWbwvA">
+            <presentation xmi:id="-MKh-Uf1wXyS-4Siar3osCw" href="uma://-MKh-Uf1wXyS-4Siar3osCw#-MKh-Uf1wXyS-4Siar3osCw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_cyZuoKGhEeC1A-PuG6Rlow" name="refine_business_processes" guid="_cyZuoKGhEeC1A-PuG6Rlow" presentationName="Refine business processes" briefDescription="This task describes how to refine business processes for the business perspective of an SOA." guidelines="_XTQ6gKGjEeC1A-PuG6Rlow _4S9OsKGjEeC1A-PuG6Rlow _UzQ70FxSEd--udEuEJEYBQ _sU8lcKnBEd6i-6W-cB2-Qw" examples="_pbPp8KJbEeCKp9wzOHzvHg _U5EqUKLzEeCs2vaY4B2J3g" performedBy="_9XUg4N3ZEd--Io3WTn6Mgw" mandatoryInput="_i6PE8KJkEeCtJaDYUHXYlQ" output="_Ckb_MKGcEeCo46MenWbwvA _yelLYKGaEeCo46MenWbwvA">
+            <presentation xmi:id="-wlyydI6TjXZ51i-CWkeXzw" href="uma://-wlyydI6TjXZ51i-CWkeXzw#-wlyydI6TjXZ51i-CWkeXzw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_XTQ6gKGjEeC1A-PuG6Rlow" name="refining_business_process_information_elements" guid="_XTQ6gKGjEeC1A-PuG6Rlow" presentationName="Refining business process information elements" briefDescription="This guidance describes how to refine business processes information elements using SoaML concepts.">
+            <presentation xmi:id="-NpQPVCPUnlx0pRBF4JrhSw" href="uma://-NpQPVCPUnlx0pRBF4JrhSw#-NpQPVCPUnlx0pRBF4JrhSw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_4S9OsKGjEeC1A-PuG6Rlow" name="refining_business_process_organization_elements" guid="_4S9OsKGjEeC1A-PuG6Rlow" presentationName="Refining business process organization elements" briefDescription="This guidance describes how to refine business processes organization elements using SoaML concepts.">
+            <presentation xmi:id="-wRgZpLjleA3hVV1-J5N2ZQ" href="uma://-wRgZpLjleA3hVV1-J5N2ZQ#-wRgZpLjleA3hVV1-J5N2ZQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_UzQ70FxSEd--udEuEJEYBQ" name="bpmn_to_soaml_mapping_rules" guid="_UzQ70FxSEd--udEuEJEYBQ" presentationName="BPMN to SoaML mapping rules" briefDescription="This guidance describes the BPMN to SoaML mapping rules.">
+            <presentation xmi:id="-VwoZvBChTwM8sgCKeILx6Q" href="uma://-VwoZvBChTwM8sgCKeILx6Q#-VwoZvBChTwM8sgCKeILx6Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_0579EKGmEeC1A-PuG6Rlow" name="community_and_participant_services_architecture" guid="_0579EKGmEeC1A-PuG6Rlow" presentationName="Community and participant services architecture" briefDescription="This guidance describes the notion of community-level and participant-level services architecture.">
+            <presentation xmi:id="-UzJFYXkYC3wF-8guGbyfSA" href="uma://-UzJFYXkYC3wF-8guGbyfSA#-UzJFYXkYC3wF-8guGbyfSA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_5sBKwKJQEeC6g8wb3xknIg" name="bmm_to_soaml_mapping_rules" guid="_5sBKwKJQEeC6g8wb3xknIg" presentationName="BMM to SoaML mapping rules" briefDescription="This guidance describes the BMM to SoaML mapping rules.">
+            <presentation xmi:id="-fTB0eh9Yetyxc_O3-B-6jQ" href="uma://-fTB0eh9Yetyxc_O3-B-6jQ#-fTB0eh9Yetyxc_O3-B-6jQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_Ckb_MKGcEeCo46MenWbwvA" name="business_architecture_model" guid="_Ckb_MKGcEeCo46MenWbwvA" presentationName="Business architecture model" briefDescription="This work product defines the business view of the service-oriented architecture in a platform-indepent manner." guidelines="_sU8lcKnBEd6i-6W-cB2-Qw" deliveredWorkProducts="_vwgbkKGaEeCo46MenWbwvA _yelLYKGaEeCo46MenWbwvA _oSVZ0KGaEeCo46MenWbwvA _1hVKsKGaEeCo46MenWbwvA _4rEi0KGaEeCo46MenWbwvA">
+            <presentation xmi:id="-Nq8C1TtiRSMSG_jD9Ite2w" href="uma://-Nq8C1TtiRSMSG_jD9Ite2w#-Nq8C1TtiRSMSG_jD9Ite2w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_vwgbkKGaEeCo46MenWbwvA" name="business_goals" guid="_vwgbkKGaEeCo46MenWbwvA" presentationName="Business goals" briefDescription="This work product specifies the business goals." examples="_uqMwMKJdEeCKp9wzOHzvHg">
+            <presentation xmi:id="-pdtLValjJqCqTSzlujm80g" href="uma://-pdtLValjJqCqTSzlujm80g#-pdtLValjJqCqTSzlujm80g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_yelLYKGaEeCo46MenWbwvA" name="business_processes" guid="_yelLYKGaEeCo46MenWbwvA" presentationName="Business processes" briefDescription="This work product specifies the refined business processes suitable for SOA modelling." examples="_U5EqUKLzEeCs2vaY4B2J3g">
+            <presentation xmi:id="-SlkjuRJjP-Lo82-B6mOXBA" href="uma://-SlkjuRJjP-Lo82-B6mOXBA#-SlkjuRJjP-Lo82-B6mOXBA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_oSVZ0KGaEeCo46MenWbwvA" name="capabilities" guid="_oSVZ0KGaEeCo46MenWbwvA" presentationName="Capabilites" briefDescription="This work product specifies the capabilities." examples="_P6qH4Cd9Ed-WoP7PlhRWug _NBwBYKL2EeCs2vaY4B2J3g">
+            <presentation xmi:id="-5WEiOn-1mAnsOHRMDy9Kdg" href="uma://-5WEiOn-1mAnsOHRMDy9Kdg#-5WEiOn-1mAnsOHRMDy9Kdg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_1hVKsKGaEeCo46MenWbwvA" name="services_architectures" guid="_1hVKsKGaEeCo46MenWbwvA" presentationName="Services architectures" briefDescription="This work product specifies the services architectures." examples="_4Ol00Cd0Ed-WoP7PlhRWug _scbNoKL4EeCs2vaY4B2J3g">
+            <presentation xmi:id="-QIL3MNyafRmN3yP7k2-u0g" href="uma://-QIL3MNyafRmN3yP7k2-u0g#-QIL3MNyafRmN3yP7k2-u0g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_3KRU0KJSEeC6g8wb3xknIg" name="architecture_model.assign" guid="_3KRU0KJSEeC6g8wb3xknIg" variabilityType="contributes" deliveredWorkProducts="_Ckb_MKGcEeCo46MenWbwvA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_vIqTYOG2Ed-AyrTFSpVP8g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_4rEi0KGaEeCo46MenWbwvA" name="service_contracts_and_choreographies" guid="_4rEi0KGaEeCo46MenWbwvA" presentationName="Service contracts and choreographies" briefDescription="This work product specifies the services contracts and choreographies." examples="_E-iloKMGEeCs2vaY4B2J3g _r1fNUCd4Ed-WoP7PlhRWug">
+            <presentation xmi:id="-CsX4cAZQzj-BSpVzTft4Jw" href="uma://-CsX4cAZQzj-BSpVzTft4Jw#-CsX4cAZQzj-BSpVzTft4Jw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_pbPp8KJbEeCKp9wzOHzvHg" name="cpo_business_model_example" guid="_pbPp8KJbEeCKp9wzOHzvHg" presentationName="CPO: Business model example" briefDescription="CPO: Business model example">
+            <presentation xmi:id="-kDh-XAHOrNT61zhHWnrJtg" href="uma://-kDh-XAHOrNT61zhHWnrJtg#-kDh-XAHOrNT61zhHWnrJtg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_uqMwMKJdEeCKp9wzOHzvHg" name="cpo_business_goals_example" guid="_uqMwMKJdEeCKp9wzOHzvHg" presentationName="CPO: Business goals example" briefDescription="CPO: Business goals example"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_i6PE8KJkEeCtJaDYUHXYlQ" name="business_process_model.slot" guid="_i6PE8KJkEeCtJaDYUHXYlQ" presentationName="[business process model]" isAbstract="true" examples="_pbPp8KJbEeCKp9wzOHzvHg"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_U5EqUKLzEeCs2vaY4B2J3g" name="cpo_business_process_example" guid="_U5EqUKLzEeCs2vaY4B2J3g" presentationName="CPO: Business process example" briefDescription="CPO: Business process example"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_NBwBYKL2EeCs2vaY4B2J3g" name="cpo_capabilities_example" guid="_NBwBYKL2EeCs2vaY4B2J3g" presentationName="CPO: Capabilities example" briefDescription="CPO: Capabilities example"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_scbNoKL4EeCs2vaY4B2J3g" name="cpo_services_architecture_example" guid="_scbNoKL4EeCs2vaY4B2J3g" presentationName="CPO: Services architecture example" briefDescription="CPO: Services architecture example">
+            <presentation xmi:id="-jkicR9FJQpdTUDuV20cGng" href="uma://-jkicR9FJQpdTUDuV20cGng#-jkicR9FJQpdTUDuV20cGng"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_E-iloKMGEeCs2vaY4B2J3g" name="cpo_service_contracts_and_choreographies_example" guid="_E-iloKMGEeCs2vaY4B2J3g" presentationName="CPO: Service contracts and choreographies example" briefDescription="CPO: Service contracts and choreographies example">
+            <presentation xmi:id="-1bJeh0SMmgrXwMHSNa9w9w" href="uma://-1bJeh0SMmgrXwMHSNa9w9w#-1bJeh0SMmgrXwMHSNa9w9w"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_1zV0DS5mEd6lwuZlFT8K0A" name="CapabilityPatterns" guid="_1zV0DS5mEd6lwuZlFT8K0A">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_qPJBgKJaEeCKp9wzOHzvHg" name="business_architecture_modelling" guid="_qPJBgKJaEeCKp9wzOHzvHg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_Bmd1ICavEd-W88dSHyarAQ" href="uma://_Bmd1ICavEd-W88dSHyarAQ#_Bmd1ICavEd-W88dSHyarAQ"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_rU4hkKJaEeCKp9wzOHzvHg" name="system_architecture_modelling" guid="_rU4hkKJaEeCKp9wzOHzvHg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_ROZFICYTEd-_-qcazwayRQ" href="uma://_ROZFICYTEd-_-qcazwayRQ#_ROZFICYTEd-_-qcazwayRQ"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_1zV0Di5mEd6lwuZlFT8K0A" name="DeliveryProcesses" guid="_1zV0Di5mEd6lwuZlFT8K0A"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_1zV0Dy5mEd6lwuZlFT8K0A" name="ProcessContributions" guid="_1zV0Dy5mEd6lwuZlFT8K0A"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_yLWzUNxbEd-LYKXkOhPACw#_yLWzUNxbEd-LYKXkOhPACw"/>
+    <bases href="uma://_7J4wUNq1Ed-RHtsSMqnPrA#_7J4wUNq1Ed-RHtsSMqnPrA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

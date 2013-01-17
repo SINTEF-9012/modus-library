@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-YnxAI2MmE9uxTUXE-1IXWQ" name=",_R3sjIHwlEd6zE6DaMH4mBQ" guid="-YnxAI2MmE9uxTUXE-1IXWQ" authors="Christian Hahn" changeDate="2009-08-11T11:30:01.956+0200" changeDescription="Initial input&#x9;&#x9;" version="0.1">
+  <mainDescription>&lt;P>&lt;SPAN lang=EN-GB style=&quot;mso-ansi-language: EN-GB&quot;>An &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Event&lt;/SPAN> presets the type of stimuli &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Agents&lt;/SPAN>, &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Teams&lt;/SPAN>, &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Roles&lt;/SPAN>, or &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>TeamPlans&lt;/SPAN> react to or send by taking the information carried by the event instance into account. In general, &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Events&lt;/SPAN> are an import construct in agent-oriented systems as those are responsible to trigger any kind of activity within an agent. JACK distinguishes between (i) &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>internal stimuli&lt;/SPAN> that are &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Events&lt;/SPAN> the &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Agent&lt;/SPAN> or &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Team&lt;/SPAN> sends to itself, (ii) &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>external stimuli&lt;/SPAN> that are messages from other &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Agents&lt;/SPAN>, and (iii) &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>motivations&lt;/SPAN> such as goals the &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Agent&lt;/SPAN> may have. Thus, the concept &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Event&lt;/SPAN> can be used for both modeling intentions that should be perused and modeling communication between &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Agents&lt;/SPAN>. &lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&lt;SPAN lang=EN-GB style=&quot;FONT-SIZE: 10pt&quot;>&lt;o:p>&lt;FONT face=&quot;Times New Roman&quot;>&amp;nbsp;&lt;/FONT>&lt;/o:p>&lt;/SPAN>&lt;/P></mainDescription>
+  <sections xmi:id="_UJfUsHwnEd6zE6DaMH4mBQ" name="Define Events" guid="_UJfUsHwnEd6zE6DaMH4mBQ">
+    <sectionDescription>&lt;p>&#xD;
+    An Event in JACK describeds the entity that is sent between Agents or Teams. The Event can be posted and sent as well&#xD;
+    as handled&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Define the name of the Event&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></sectionDescription>
+  </sections>
+  <sections xmi:id="_hICmgIWCEd6Lb6GZuo4wTA" name="Add posting methods" guid="_hICmgIWCEd6Lb6GZuo4wTA">
+    <sectionDescription>A posting method is used to exchange information. An event may have several posting methods.</sectionDescription>
+  </sections>
+  <purpose>Create events in JACK</purpose>
+</org.eclipse.epf.uma:TaskDescription>

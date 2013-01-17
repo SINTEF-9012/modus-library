@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-BmeZRrB7UpiAXpcsjw8QIw" name="neffics_innovation_funnel,_z6BUsRXEEeGINOUzJIOMxA" guid="-BmeZRrB7UpiAXpcsjw8QIw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-b6-crPa52mk61s3O_lx-Vw" name="running_ideation_campaigns,_k2qdcC87EeKCfteVlJj9Dg" guid="-b6-crPa52mk61s3O_lx-Vw">
+    <refinedDescription>&lt;p>&#xD;
+    Campaigns are an important way to stimulate and engage the innovation community stakeholders. The NEFFICS Innovation&#xD;
+    Community will feature support for different campaign types, whereof some are already included in the current&#xD;
+    implementation.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bvsjQ3WjzBFjcn9SZ1ddtQ" name="innovation_process,_k2wkEi87EeKCfteVlJj9Dg" guid="-bvsjQ3WjzBFjcn9SZ1ddtQ">
+    <refinedDescription>&lt;p>&#xD;
+    This&amp;nbsp;innovation processes should support&amp;nbsp;the types of innovation one wants to support inside the community.&#xD;
+    It could be holistic approaches like a single Business model innovation, or simpler approaches with a process for&#xD;
+    service innovation, product innovation etc.&amp;nbsp;Each of the focus areas should be setup with its own responsible.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Each of the innovation processes and steps should have defined its decision makers or gatekeepers, as well as&#xD;
+    criteria’s for qualifying initiatives in each step of the process. An important part of adopting the innovation&#xD;
+    community will be to facilitate and run innovation campaigns. These are time-limited result oriented campaigns that&#xD;
+    stimulate people to join in, and collaborate on specific issues or challenge.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Examples of innovation processes are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../process.neffics.base-sintef/deliveryprocesses/neffics_innovation_journey_D6B20B16.html&quot;&#xD;
+        guid=&quot;_YKQIURaQEeGN5IfqzXKCmQ&quot;>NEFFICS innovation journey&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../process.neffics.base-sintef/deliveryprocesses/neffics_innovation_funnel_2B4BEFE8.html&quot;&#xD;
+        guid=&quot;_z6BUsRXEEeGINOUzJIOMxA&quot;>NEFFICS innovation funnel&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QHv9-5DJzeGjmFaVOek1Lg" name="specify_services_architectures,_6gUtgC87EeKCfteVlJj9Dg" guid="-QHv9-5DJzeGjmFaVOek1Lg">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Services architectures are modelled as UML collaborations with the stereotype &amp;lt;&amp;lt;ServicesArchitecture&amp;gt;&amp;gt;. A&#xD;
+    services architecture has components at two levels of granularity:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            The community services architecture is a ”top level” view of how independent participants work together for&#xD;
+            some purpose. The services architecture of a community does not assume or require any single controlling entity&#xD;
+            or process.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            A participant may also have a participant services architecture, which specifies how parts of that participant&#xD;
+            (e.g., departments within an organization) work together to provide the services of the owning participant.&#xD;
+            Participants that realize this specification must adhere to the architecture it specifies.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    We recommend to create a UML package for each services architecture.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-k_h292WyCBR6HUD3SqSvLg" name="services_architectures,_6gUthS87EeKCfteVlJj9Dg" guid="-k_h292WyCBR6HUD3SqSvLg">
+    <refinedDescription>&lt;p>&#xD;
+    A services architecture is a high level description of how participants work together for a purpose by providing and&#xD;
+    using services expressed as service contracts. The services architecture defines the requirements for the types of&#xD;
+    participants and service realizations that fulfill specific roles. A role defines the basic function (or set of&#xD;
+    functions) that an entity may perform in a particular context. In contrast, a participant specifies the type of a party&#xD;
+    that fills the role in the context of a specific services architecture. Both service contracts and participants can be&#xD;
+    reused when composing different services in other services architectures.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yZrD_O5BcTX6Knekgo90Pg" name="business_goals,_6gg6wS87EeKCfteVlJj9Dg" guid="-yZrD_O5BcTX6Knekgo90Pg">
+    <refinedDescription>Business Motivation Model (BMM) is a business-level modelling technique that supports the modelling of the business goals&#xD;
+and objectives, the means and policies to achieve them, and the influencing factors that drive and control the work&#xD;
+involved. This is typically used to define the overall business strategy in early phases of an engineering project.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-CXon0s4XdTd4o3aUeO8WKw" name="value_network_view,_6gg6xy87EeKCfteVlJj9Dg" guid="-CXon0s4XdTd4o3aUeO8WKw">
+    <refinedDescription>The Value Network View is the starting point for service modelling. The Value Network View can be expressed using&#xD;
+Collaborations in VDML and maps to ServicesArchitectures in ServiceML.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-FIgc-uC7Y0r4d8ILgLWYZg" name="capabilities,_6gg6yi87EeKCfteVlJj9Dg" guid="-FIgc-uC7Y0r4d8ILgLWYZg">
+    <refinedDescription>Capabilities identify or specify a cohesive set of functions or resources that a service provided by one or more&#xD;
+participants might offer. Capabilities can be used by themselves or in conjunction with participants to represent general&#xD;
+functionality or abilities that a participant must have. Capabilities are used to identify needed services, and to organize&#xD;
+them into catalogues in order to communicate the needs and capabilities of a service area, whether that be business or&#xD;
+technology focused, prior to allocating those services to particular participants. Capabilities can have usage dependencies&#xD;
+on other capabilities to show how these capabilities are related. Capabilities can also be organized into architectural&#xD;
+layers to support separation of concern within the resulting service architecture.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-93rOiUKYQfWL81vbcCtBaw" name="service_contracts_and_choreographies,_6gg6zS87EeKCfteVlJj9Dg" guid="-93rOiUKYQfWL81vbcCtBaw">
+    <refinedDescription>&lt;p>&#xD;
+    A service contract approach defines service specifications (the service contract) that define the roles each&#xD;
+    participant plays in the service (such as provider and consumer) and the interfaces they implement to play that role in&#xD;
+    that service. The service contract represents an agreement between the involved participants for how the service is to&#xD;
+    be provided and consumed. This agreement includes the interfaces, choreography and any other terms and conditions.&#xD;
+    Service contracts are frequently part of one or more services architectures that define how a set of participants&#xD;
+    provide and use services for a particular business purpose or process.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    An important part of the service contract is the choreography. A choreography is a specification of what is transmitted&#xD;
+    and when it is transmitted between participants to enact a service exchange. The choreography defines what happens&#xD;
+    between the provider and consumer participants without defining their internal processes - their internal processes do&#xD;
+    have to be compatible with their service contracts.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6NnWa-zu1A8bqhN_ZNR6uA" name="define_business_network_and_collaboration,__7vNUC87EeKCfteVlJj9Dg" guid="-6NnWa-zu1A8bqhN_ZNR6uA">
+    <refinedDescription>&lt;p>&#xD;
+    According to VDML modelling collaboration is fundamental to modelling business systems. The essence of what is going on&#xD;
+    in business is “collaboration”. Value is created through collaboration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    VDML defines a collaboration as a “collection of participants working together for a shared purpose”, whereby a&#xD;
+    participant is defined as “anyone or anything that can fill a role in a collaboration”. Participants can be actors&#xD;
+    (human or automatons) or collaborations by themselves, or roles of actors or collaborations. An actor is “an individual&#xD;
+    (indivisible) participant, which might be human (a person) or non human (e.g. a software agent or machine)”.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Basically a business system is constructed as a collaboration of collaborations. An entire enterprise or business&#xD;
+    network is a collaboration, and so is any team, project, process, taskforce, etc. VDML also provides the means to align&#xD;
+    collaborations with each other and to construct collaborations from other collaborations and individuals (actors).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Participants participate in a collaboration, and as such, collaborate, through roles. Each collaboration defines and&#xD;
+    contains a set of roles, a role being “an expected behavior pattern or capability profile associated with participation&#xD;
+    in a collaboration”. Roles define what is expected from participants, and what they have to perform, in the specific&#xD;
+    context of a collaboration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The definition of role introduces the term “capability”. Capability expectations of roles come from capability&#xD;
+    requirements of activities that roles have to perform in collaborations.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-OwCwPp7DWrJIYSDiUgvEzQ" name="business_architect,__7vNUS87EeKCfteVlJj9Dg" guid="-OwCwPp7DWrJIYSDiUgvEzQ">
+    <refinedDescription>Responsible for analyzing the business needs of clients to help identify business problems and propose solutions.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-l5l9CC2he7-S48JtAb102Q" name="organizations_and_capabilities,__71T8i87EeKCfteVlJj9Dg" guid="-l5l9CC2he7-S48JtAb102Q">
+    <refinedDescription>&lt;p>&#xD;
+    Organization units are the building blocks to define the more formal and structured parts of organizations. An&#xD;
+    organization can be defined as “an administrative or functional structure normally interpreted as a network of&#xD;
+    organization units at a higher level in an organizational hierarchy”. An organization unit is “an administrative or&#xD;
+    functional organizational collaboration, with responsibility for defined resources, including a collaboration that&#xD;
+    occurs in the typical organization hierarchy, such as business units and departments (and also the company itself), as&#xD;
+    well as less formal organizational collaboration such as a committee, project, or task force”.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Organization units provide capabilities. A capability is “the ability to perform a particular kind of work and deliver&#xD;
+    desired value”. We will discuss about value later, but analyze capabilities in more detail first. Organization units&#xD;
+    that provide capabilities do need capability methods and/or resources to support these capabilities. The same or&#xD;
+    different organization units own these. A resource is “anything that is used or consumed in the production of a&#xD;
+    deliverable”. A capability method is “a reusable template for a collaboration configured for participants to perform&#xD;
+    activities to deliver a capability and to contribute value in a particular situation”. We will discuss about activities&#xD;
+    later. Both organization units and capability methods are collaborations of roles. As will be discussed later,&#xD;
+    capability methods, especially the more structured ones, are a perfect basis for process discovery. In particular,&#xD;
+    process definitions that comply with the BPMN standard (see BPMN (2011)), can be generated from capability methods&#xD;
+    (model transformation).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    These concepts, as highlighted, in the VDML ontology diagram in Figure 24.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./../../practice.business.value_delivery_modelling.base-sintef/workproducts/resources/vdml_figure24.png&quot; width=&quot;523&quot; height=&quot;259&quot; />&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 24. VDML high-level ontology: Organization Unit and Capability highlighted&lt;/strong>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-70N1wMZdfYr9EJ4E47raIw" name="activities,__9EqES87EeKCfteVlJj9Dg" guid="-70N1wMZdfYr9EJ4E47raIw">
+    <refinedDescription>&lt;p>&#xD;
+    An activity represents “work contributed to a collaboration by a participant in a role of the collaboration”. A role&#xD;
+    may contribute to multiple activities in the same collaboration. As the VDML ontology diagram in the figure&#xD;
+    below&amp;nbsp;highlights, roles perform activities, and activities require capabilities. Activities also create and/or&#xD;
+    consume value.&#xD;
+&lt;/p>&#xD;
+&lt;img alt=&quot;&quot; src=&quot;./../../practice.business.value_delivery_modelling.base-sintef/workproducts/resources/vdml_figure41.png&quot; width=&quot;496&quot; height=&quot;246&quot; />&lt;br />&#xD;
+&lt;br />&#xD;
+&lt;strong>Figure 41. VDML high-level ontology: Activity highlighted&lt;/strong></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-PpuXGge0Y59b-Bk_n0MaYg" name="business_network_and_collaboration,__9EqFC87EeKCfteVlJj9Dg" guid="-PpuXGge0Y59b-Bk_n0MaYg">
+    <refinedDescription>&lt;p>&#xD;
+    VDML specializes collaboration into a few common sub-types. Figure 12 highlights two of them: “community” and “business&#xD;
+    network”.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./../../practice.business.value_delivery_modelling.base-sintef/workproducts/resources/vdml_figure12.png&quot; width=&quot;505&quot; height=&quot;250&quot; />&lt;br />&#xD;
+    &lt;br />&#xD;
+    &lt;strong>Figure 12. VDML high-level ontology: Collaboration highlighted&lt;br />&#xD;
+    &lt;/strong>&lt;br />&#xD;
+    A business network is “a collaboration between independent business (or economic) entities, potentially companies,&#xD;
+    agencies, individuals or anonymous members of communities of independent business entities, participating in an&#xD;
+    economic exchange”. A business network defines a business collaboration of roles.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A community is “a collaboration of participants with similar interests that work together for some shared purpose such&#xD;
+    as sharing knowledge”. A community defines an informal or “weak” collaboration of roles. The collaboration that a&#xD;
+    community represents is said to be “informal” and “weak”, as opposed to collaboration in the formal and structured part&#xD;
+    of the organization, as defined by organization units. Organization units (or org units) will be discussed later. We&#xD;
+    will revisit communities later, and will first focus discussion on business networks.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-u0N9Ucg6wFZBsINuW6F1Lw" name="value,__9EqFy87EeKCfteVlJj9Dg" guid="-u0N9Ucg6wFZBsINuW6F1Lw">
+    <refinedDescription>&lt;p>&#xD;
+    As the VDML ontology diagram in Figure 91 highlights, roles, based on their collaboration with each other, provide&#xD;
+    and/or receive value propositions. Value propositions articulate values. A value proposition is “an expression of the&#xD;
+    values offered to a recipient in terms of the recipient’s level of satisfaction”. In VDML “value” is defined as “a&#xD;
+    measurable benefit delivered to a recipient in association with a business item”. Any value should be identifiable and&#xD;
+    measurable, either objectively or subjectively. A value may have an objective measure, whereas the measure of the&#xD;
+    recipient’s level of satisfaction is subjective. Though values need not be intrinsic in a deliverable, but may often&#xD;
+    relate to a transaction, a relationship, a corporate “image” or reputation, etc., values are not actually received by&#xD;
+    recipients when there is no deliverable (or business item) exchanged whatsoever. Delivery of business items is the&#xD;
+    basis of exchanging values. Note again that deliverables need not be tangible. They are often intangible. Many values&#xD;
+    maybe associated with intangibles. As discussed in 3.1.4, roles perform activity. Activities create and consume value.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./../../practice.business.value_delivery_modelling.base-sintef/workproducts/resources/vdml_figure91.png&quot; width=&quot;480&quot; height=&quot;237&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 91. VDML high-level ontology: Value highlighted&lt;/strong>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WijMaAFyuxxJl3RBWFtgIA" name="define_value,_BI_DkC88EeKCfteVlJj9Dg" guid="-WijMaAFyuxxJl3RBWFtgIA">
+    <refinedDescription>&lt;p>&#xD;
+    There are different ways to measure the “gain” (or lack of it) in a business network (or “business model”). The&#xD;
+    metamodel diagram of Business Networks in Figure 15 defines two measured characteristics, to measure “gain” per party:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Profit. Above we discussed modeling and measurement of profit. A profit is realized when the price that the&#xD;
+        recipient pays is higher than the provider’s cost.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Value margin. Value margin is the margin that the recipient party in a business network might realize and can be&#xD;
+        defined as the difference between proposition value of value propositions received, and “fair market value”, or as&#xD;
+        the difference between proposition value and the price that is paid to providers (providing parties in the same&#xD;
+        business network) of the corresponding value propositions.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Profit is defined from the perspective of the provider of a value proposition. Value margin is defined from the&#xD;
+    perspective of the recipient of it. Profit alone is not a sufficient indicator for healthiness of the business network&#xD;
+    (“business model”). It is possible that a party realizes profit, but is observing a negative value margin. For&#xD;
+    instance, when the recipient of the value proposition associates “equivalent economic value” to a value proposition,&#xD;
+    lower than the “fair market price”, or in other words: when the recipient party judges price to pay as higher than the&#xD;
+    value it receives.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Measurement of value margin requires that proposition value is measured in economic (monetary) terms. The VDML&#xD;
+    metamodel supports modeling of such custom measured characteristics of measureable elements, such as value proposition,&#xD;
+    value proposition component, business item and store.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-OWHMjHbiwYD_YMWDLUlFLw" name="define_business_processes,_1TNvcC87EeKCfteVlJj9Dg" guid="-OWHMjHbiwYD_YMWDLUlFLw">
+    <refinedDescription>&lt;p>&#xD;
+    A business process is a sequence of actions carried out by different actors working together to deliver a tangible&#xD;
+    result and bring added business value to the company. A business process model generally describes the business and not&#xD;
+    the IT system. A business process is transversal, and is generally based on several structures and applications of one&#xD;
+    or several organizations. Business process descriptions bring real business vision&amp;nbsp;and constitute an excellent&#xD;
+    formalization and analysis tool when constructing systems. In the context of a development project&amp;nbsp;they&#xD;
+    are&amp;nbsp;used in business-oriented activities related to requirements, specifications and analysis.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Business process model is derived through a set of activities that encompass brain-storming sessions, structured&#xD;
+    workshops, interviews and feed-back sessions, and detailed modelling using a BPMN2 modelling tool.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EuPWd9QWIdvpGosCK9NWlg" name="business_process_model,_1TNvcy87EeKCfteVlJj9Dg" guid="-EuPWd9QWIdvpGosCK9NWlg">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    A BPMN model defines the business processes of the domain which are relevant to the service-oriented architecture, and&#xD;
+    which will enable the goals to be met, and the roles of the resources that perform those processes. It includes a full&#xD;
+    definition of the roles in the business, focusing on those fulfilled by the system or component to be developed.&#xD;
+    Business process descriptions bring real business vision and constitute an excellent formalization and analysis tool&#xD;
+    when constructing systems. In the context of a development project they are used in business-oriented activities&#xD;
+    related to requirements, specifications and analysis.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    Business processes may be at a number of levels of detail, from a high level description of the business processes down&#xD;
+    to task flows which is a set of detailed specifications for the business services that the service-oriented&#xD;
+    architecture will provide. BPMN is designed to cover many types of modelling and allows the creation of end-to-end&#xD;
+    business processes. It allows the specification of private processes (both non-executable and executable), public&#xD;
+    processes, choreographies and collaborations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A business process is a sequence of actions carried out by different actors working together. This&#xD;
+    model&amp;nbsp;formalizes the business process and&amp;nbsp;defines:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the business processes of the domain which are relevant to the Product, and which will enable the goals to be met,&#xD;
+        and:&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the roles of the resources that perform those processes.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;This&amp;nbsp;model may be at a number of levels of detail, from a high level description of the business processes&#xD;
+    down to the WARM, which is a set of detailed specifications for the business services that each IT element in the&#xD;
+    Product will provide. It includes a full definition of the roles in the business, focusing on those fulfilled by the&#xD;
+    system or component to be developed.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The Business Process and Roles model is generally prepared at the same time as the associated Business Resource&#xD;
+        model.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To build a Business Process model the Business Modelling Conceptual Model (or metamodel) is used.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Each business process is defined in terms of its steps, and each step performed by a resource at a higher level of&#xD;
+    detail may then be treated as a process performed by a community (of resources) and further analysed at a lower level&#xD;
+    of detail. Eventually, using the WARM concepts of Human Step, Tool Step and Immediate Step, &quot;leaf&quot; steps will be&#xD;
+    defined, and assigned to specific elements of the Product to be developed. The time to stop analysing is when, by&#xD;
+    analysing the processes, the Product's role in them is defined, and when there are no more questions about the business&#xD;
+    to be answered.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jrU66gSp9rlw2-LrPlv5bA" name="business_goals,_1TT2Ey87EeKCfteVlJj9Dg" guid="-jrU66gSp9rlw2-LrPlv5bA">
+    <refinedDescription>Business Motivation Model (BMM) is a business-level modelling technique that supports the modelling of the business goals&#xD;
+and objectives, the means and policies to achieve them, and the influencing factors that drive and control the work&#xD;
+involved. This is typically used to define the overall business strategy in early phases of an engineering project.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bnnUzXY5FIniFMZGUihiKQ" name="value_network_view,_1TT2GS87EeKCfteVlJj9Dg" guid="-bnnUzXY5FIniFMZGUihiKQ">
+    <refinedDescription>The Value Network View is the starting point for service modelling. The Value Network View can be expressed using&#xD;
+Collaborations in VDML and maps to ServicesArchitectures in ServiceML.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-D2eA55h9LGRAZppQJA7V3g" name="capabilities,_1TZ8sy87EeKCfteVlJj9Dg" guid="-D2eA55h9LGRAZppQJA7V3g">
+    <refinedDescription>Capabilities identify or specify a cohesive set of functions or resources that a service provided by one or more&#xD;
+participants might offer. Capabilities can be used by themselves or in conjunction with participants to represent general&#xD;
+functionality or abilities that a participant must have. Capabilities are used to identify needed services, and to organize&#xD;
+them into catalogues in order to communicate the needs and capabilities of a service area, whether that be business or&#xD;
+technology focused, prior to allocating those services to particular participants. Capabilities can have usage dependencies&#xD;
+on other capabilities to show how these capabilities are related. Capabilities can also be organized into architectural&#xD;
+layers to support separation of concern within the resulting service architecture.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Lb5qFGKcKthyJcjYm8hVew" name="service_contracts_and_choreographies,_1TZ8ti87EeKCfteVlJj9Dg" guid="-Lb5qFGKcKthyJcjYm8hVew">
+    <refinedDescription>&lt;p>&#xD;
+    A service contract approach defines service specifications (the service contract) that define the roles each&#xD;
+    participant plays in the service (such as provider and consumer) and the interfaces they implement to play that role in&#xD;
+    that service. The service contract represents an agreement between the involved participants for how the service is to&#xD;
+    be provided and consumed. This agreement includes the interfaces, choreography and any other terms and conditions.&#xD;
+    Service contracts are frequently part of one or more services architectures that define how a set of participants&#xD;
+    provide and use services for a particular business purpose or process.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    An important part of the service contract is the choreography. A choreography is a specification of what is transmitted&#xD;
+    and when it is transmitted between participants to enact a service exchange. The choreography defines what happens&#xD;
+    between the provider and consumer participants without defining their internal processes - their internal processes do&#xD;
+    have to be compatible with their service contracts.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Nux5ZhDA7rhunobLcb3laA" name="services_architectures,_1TZ8uS87EeKCfteVlJj9Dg" guid="-Nux5ZhDA7rhunobLcb3laA">
+    <refinedDescription>&lt;p>&#xD;
+    A services architecture is a high level description of how participants work together for a purpose by providing and&#xD;
+    using services expressed as service contracts. The services architecture defines the requirements for the types of&#xD;
+    participants and service realizations that fulfill specific roles. A role defines the basic function (or set of&#xD;
+    functions) that an entity may perform in a particular context. In contrast, a participant specifies the type of a party&#xD;
+    that fills the role in the context of a specific services architecture. Both service contracts and participants can be&#xD;
+    reused when composing different services in other services architectures.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yNGmM3pMBOiQG8_CR0Qujg" name="specify_service_contracts_and_choreographies,_5k0HgC87EeKCfteVlJj9Dg" guid="-yNGmM3pMBOiQG8_CR0Qujg">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    SoaML allows different approaches to specify services. In our practice, we have chosen to combine two different&#xD;
+    approaches, as we see one fits more at the business level (service contract approach) and the other at the IT level&#xD;
+    (service interface approach). In the business architecture modelling we suggest to use service contracts that are&#xD;
+    further refined to service interfaces in the system architecture modelling. The specification of service contracts can&#xD;
+    be seen as the refinement of a services architecture. Service contracts are specified as UML collaborations in UML&#xD;
+    collaboration diagrams.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    An important part of the service contract is the choreography. The choreography is a specification of what is&#xD;
+    transmitted and when it is transmitted between parties to enact a service exchange. The choreography specifies&#xD;
+    exchanges between the parties - the data, assets and obligations that go between the parties. The choreography defines&#xD;
+    what happens between the provider and consumer participants without defining their internal processes - their internal&#xD;
+    processes do have to be compatible with their service contracts. The behaviour of the service contract can be described&#xD;
+    at the business level using any UML behaviour, e.g. state machines, activity diagrams and sequence diagrams. We&#xD;
+    recommend to model the behaviour of any complex service contracts in order to get a better understanding of the&#xD;
+    interaction between the roles. This model will later be refined at the IT level.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is advisable to create a separate UML Package for the specification of the ServiceContract. Place this package in&#xD;
+    the package that contains the ServicesArchitecture. The ServiceContract package will be used for the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Specifying&amp;nbsp;the Collaboration for the ServiceContract.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specifying&amp;nbsp;the ServiceInterfaces that represents the consumer and provider role in the ServiceContract.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specifying the Interaction that describes the behaviour of the ServiceContract.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Service Diagrams for the ServiceContract.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

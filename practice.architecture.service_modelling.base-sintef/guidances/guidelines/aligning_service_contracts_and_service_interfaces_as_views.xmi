@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-4IPzychPSJz5lvSz1LmfGw" name="aligning_service_contracts_and_service_interfaces_as_views,_fPqBoL3kEeCOQrIHtroKcw" guid="-4IPzychPSJz5lvSz1LmfGw" changeDate="2011-08-04T10:25:09.908+0200">
+  <mainDescription>&lt;p>&#xD;
+    Another way of aligning the service contract and service interface based approaches is to consider these as two&#xD;
+    different views on the same model, both existing on the same abstraction level. Figure 15 illustrates this approach.&#xD;
+    Here the consumer and provider interfaces types defined are the exact same model elements used to type the roles in&#xD;
+    both the service contract and the service interface. Thus, the service contract and the service interface can be seen&#xD;
+    as two different notations for the exact same thing and one can argue that this duplicates some modelling effort and&#xD;
+    should be avoided. However, as the SoaML specification prescribes modelling services architectures using service&#xD;
+    contracts, you are required to specify service contracts if you also want to specify a services architecture. Or to put&#xD;
+    it in another way, it is only necessary to model the service contracts views that are needed for the services&#xD;
+    architectures that you have specified.&#xD;
+&lt;/p>&#xD;
+&lt;img alt=&quot;&quot; src=&quot;resources/dna_aligning_views_figure_15_example.png&quot; width=&quot;538&quot; height=&quot;435&quot; />&lt;br />&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 15:&lt;/strong> Service interfaces and service contracts are two different views&#xD;
+&lt;/p>&#xD;
+Note that, in this alignment approach it is recommended to only specify behaviour in either the service contract or the&#xD;
+service interface, thus avoiding some duplicate modelling effort for the behaviour part. In the approach using refinements,&#xD;
+the service choreography (behaviour) of a service interface would be a behavioural refinement of the service choreography&#xD;
+of a service contract.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

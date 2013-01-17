@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_gAR7QMqYEd2_R_cDZp0miQ" guid="_gAR7QMqYEd2_R_cDZp0miQ">
+    <resourceDescriptors xmi:id="_gAR7QcqYEd2_R_cDZp0miQ" id="-T_GvkpNi81itZU78WiXU3g" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_f_FocMqYEd2_R_cDZp0miQ" name="Service_specification" guid="_f_FocMqYEd2_R_cDZp0miQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_m69OYMqYEd2_R_cDZp0miQ" name="Identify the service properties to specify" guid="_m69OYMqYEd2_R_cDZp0miQ" presentationName="Identify the service properties to specify" superActivities="_f_FoccqYEd2_R_cDZp0miQ" additionallyPerformedBy="_m69OYsqYEd2_R_cDZp0miQ" optionalInput="_m69OY8qYEd2_R_cDZp0miQ" output="_m69OZMqYEd2_R_cDZp0miQ" performedPrimarilyBy="_m69OYcqYEd2_R_cDZp0miQ">
+      <methodElementProperty xmi:id="_j_wVoNeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_m69OYcqYEd2_R_cDZp0miQ/performedPrimarilyBy/_m69OYsqYEd2_R_cDZp0miQ/additionallyPerformedBy/_m69OY8qYEd2_R_cDZp0miQ/optionalInput/_m69OZMqYEd2_R_cDZp0miQ/output"/>
+      <Task href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_6DR_kMqXEd2_R_cDZp0miQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_m69OYcqYEd2_R_cDZp0miQ" name="Service Provider" guid="_m69OYcqYEd2_R_cDZp0miQ" presentationName="Service Provider" superActivities="_f_FoccqYEd2_R_cDZp0miQ" modifies="_m69OY8qYEd2_R_cDZp0miQ _m69OZMqYEd2_R_cDZp0miQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_m69OYsqYEd2_R_cDZp0miQ" name="Service Developer" guid="_m69OYsqYEd2_R_cDZp0miQ" presentationName="Service developer" isPlanned="false" isOptional="true" superActivities="_f_FoccqYEd2_R_cDZp0miQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_m69OY8qYEd2_R_cDZp0miQ" name="Service Description" guid="_m69OY8qYEd2_R_cDZp0miQ" presentationName="Service Description" briefDescription="This artifact represents the overall set of information available for a given service. This artifact comprises the Service Specification&#xD;&#xA;&#xD;&#xA;This WP could be developed as the &quot;soaml_service_diagram&quot; of the Shape framework&#xD;&#xA;" superActivities="_f_FoccqYEd2_R_cDZp0miQ">
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_BxUewMqXEd2_R_cDZp0miQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_m69OZMqYEd2_R_cDZp0miQ" name="Service Specification" guid="_m69OZMqYEd2_R_cDZp0miQ" presentationName="Service Specification" briefDescription="A Service Specification is usually defined by the Service Developer and may include both functional and non-functional information such as information on the service interface, the service behaviour, service exceptions, test suites, commercial conditions applying to the service (pricing, policies, SLA negotiation parameters) and communication mechanisms.&#xD;&#xA;&#xD;&#xA;This WP could be developed as the &quot;soaml_service_diagram&quot; of the Shape framework" superActivities="_f_FoccqYEd2_R_cDZp0miQ">
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_VARm8MqXEd2_R_cDZp0miQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_oCzAMMqYEd2_R_cDZp0miQ" name="Select Specification Language" guid="_oCzAMMqYEd2_R_cDZp0miQ" presentationName="Select Specification Language " superActivities="_f_FoccqYEd2_R_cDZp0miQ" linkToPredecessor="_Ce_yMcqZEd2_R_cDZp0miQ" additionallyPerformedBy="_m69OYsqYEd2_R_cDZp0miQ" mandatoryInput="_m69OY8qYEd2_R_cDZp0miQ _m69OZMqYEd2_R_cDZp0miQ" output="_m69OY8qYEd2_R_cDZp0miQ" performedPrimarilyBy="_m69OYcqYEd2_R_cDZp0miQ">
+      <methodElementProperty xmi:id="_j_w8sNeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_m69OYcqYEd2_R_cDZp0miQ/performedPrimarilyBy/_m69OYsqYEd2_R_cDZp0miQ/additionallyPerformedBy/_m69OY8qYEd2_R_cDZp0miQ/mandatoryInput/_m69OZMqYEd2_R_cDZp0miQ/mandatoryInput/_m69OY8qYEd2_R_cDZp0miQ/output"/>
+      <Task href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_TTh70MqYEd2_R_cDZp0miQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_1hn80MqYEd2_R_cDZp0miQ" name="Select facets to instantiate" guid="_1hn80MqYEd2_R_cDZp0miQ" presentationName="Select facets to instantiate" superActivities="_f_FoccqYEd2_R_cDZp0miQ" linkToPredecessor="_B-z2QcqZEd2_R_cDZp0miQ" additionallyPerformedBy="_m69OYsqYEd2_R_cDZp0miQ" mandatoryInput="_m69OZMqYEd2_R_cDZp0miQ" optionalInput="_m69OY8qYEd2_R_cDZp0miQ" output="_m69OY8qYEd2_R_cDZp0miQ" performedPrimarilyBy="_m69OYcqYEd2_R_cDZp0miQ">
+      <methodElementProperty xmi:id="_j_xjwNeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_m69OYcqYEd2_R_cDZp0miQ/performedPrimarilyBy/_m69OYsqYEd2_R_cDZp0miQ/additionallyPerformedBy/_m69OZMqYEd2_R_cDZp0miQ/mandatoryInput/_m69OY8qYEd2_R_cDZp0miQ/optionalInput/_m69OY8qYEd2_R_cDZp0miQ/output"/>
+      <Task href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_HutNwMqYEd2_R_cDZp0miQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_B-z2QcqZEd2_R_cDZp0miQ" guid="_B-z2QcqZEd2_R_cDZp0miQ" pred="_m69OYMqYEd2_R_cDZp0miQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Ce_yMcqZEd2_R_cDZp0miQ" guid="_Ce_yMcqZEd2_R_cDZp0miQ" pred="_1hn80MqYEd2_R_cDZp0miQ"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_f_FoccqYEd2_R_cDZp0miQ" name="Service_specification" guid="_f_FoccqYEd2_R_cDZp0miQ" presentationName="Service specification" breakdownElements="_m69OYMqYEd2_R_cDZp0miQ _m69OYcqYEd2_R_cDZp0miQ _m69OYsqYEd2_R_cDZp0miQ _m69OY8qYEd2_R_cDZp0miQ _m69OZMqYEd2_R_cDZp0miQ _1hn80MqYEd2_R_cDZp0miQ _oCzAMMqYEd2_R_cDZp0miQ">
+      <methodElementProperty xmi:id="_j_yx4NeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-T_GvkpNi81itZU78WiXU3g" href="uma://-T_GvkpNi81itZU78WiXU3g#-T_GvkpNi81itZU78WiXU3g"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

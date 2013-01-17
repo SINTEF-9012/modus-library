@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_qNvrQOE3Ed-EVrPEfZfTew" guid="_qNvrQOE3Ed-EVrPEfZfTew">
+    <resourceDescriptors xmi:id="_W5HiAOG9Ed-AyrTFSpVP8g" id="-0Ztc8iCZVXwpn0VBU6bnCw" uri="workproducts/architecture_model.rename.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_qMypAOE3Ed-EVrPEfZfTew" name="publish.test.base-sintef" guid="_qMypAOE3Ed-EVrPEfZfTew" changeDate="2011-06-24T14:41:25.582+0200">
+    <methodElementProperty xmi:id="_qOFCcOE3Ed-EVrPEfZfTew" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qMypAeE3Ed-EVrPEfZfTew" name="Content" guid="_qMypAeE3Ed-EVrPEfZfTew">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qMypAuE3Ed-EVrPEfZfTew" name="Categories" guid="_qMypAuE3Ed-EVrPEfZfTew">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qMypA-E3Ed-EVrPEfZfTew" name="Domains" guid="_qMypA-E3Ed-EVrPEfZfTew"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qMypBOE3Ed-EVrPEfZfTew" name="Disciplines" guid="_qMypBOE3Ed-EVrPEfZfTew"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qMypBeE3Ed-EVrPEfZfTew" name="RoleSets" guid="_qMypBeE3Ed-EVrPEfZfTew"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qMypBuE3Ed-EVrPEfZfTew" name="WP Types" guid="_qMypBuE3Ed-EVrPEfZfTew"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qMypB-E3Ed-EVrPEfZfTew" name="Tools" guid="_qMypB-E3Ed-EVrPEfZfTew"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qMypCOE3Ed-EVrPEfZfTew" name="StandardCategories" guid="_qMypCOE3Ed-EVrPEfZfTew"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qMypCeE3Ed-EVrPEfZfTew" name="CustomCategories" guid="_qMypCeE3Ed-EVrPEfZfTew">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qMypCuE3Ed-EVrPEfZfTew" name="Hidden" guid="_qMypCuE3Ed-EVrPEfZfTew">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_qMypC-E3Ed-EVrPEfZfTew" name="Custom Categories" guid="_qMypC-E3Ed-EVrPEfZfTew" categorizedElements="_XRa5QOE5Ed-EVrPEfZfTew _W5C2EOGoEd-AyrTFSpVP8g"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_XRa5QOE5Ed-EVrPEfZfTew" name="structured_practiced_list.test" guid="_XRa5QOE5Ed-EVrPEfZfTew" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_RJ__ECLJEd2ct852UDqXGQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_KbpVMNa7Ed-d6Ia20mQhAw#_hswNwNbHEd-d6Ia20mQhAw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_7TPU4McSEd-2_-I8Ok7trA#_WT4R4DwEEd-wzrbdBPyHjA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_yHcxoLzIEd-GWpfvmLDtFA#_grQtoNadEd-0IssHA-UzUw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_bcvpIDwEEd-wzrbdBPyHjA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_7QZMgMcjEd-XA9kmgGjtSQ#_8N2xoOD-Ed-uaoNIhpFKqA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_BtxSwNwkEd-nsYnczZnMaw#_4t-scNxTEd-LYKXkOhPACw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_W5C2EOGoEd-AyrTFSpVP8g" name="work_products.test" guid="_W5C2EOGoEd-AyrTFSpVP8g" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#__O1Y8MRgEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_7QZMgMcjEd-XA9kmgGjtSQ#_2p83YOGyEd-AyrTFSpVP8g"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_7QZMgMcjEd-XA9kmgGjtSQ#_dhpSAOG5Ed-AyrTFSpVP8g"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_7QZMgMcjEd-XA9kmgGjtSQ#_SQP2QOG5Ed-AyrTFSpVP8g"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_7QZMgMcjEd-XA9kmgGjtSQ#_r5I8AOG5Ed-AyrTFSpVP8g"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Deliverable" href="#_jbk-AOGyEd-AyrTFSpVP8g"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qMypDOE3Ed-EVrPEfZfTew" name="CoreContent" guid="_qMypDOE3Ed-EVrPEfZfTew">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_h-3IYOGyEd-AyrTFSpVP8g" name="test" guid="_h-3IYOGyEd-AyrTFSpVP8g">
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_jbk-AOGyEd-AyrTFSpVP8g" name="architecture_model.rename" guid="_jbk-AOGyEd-AyrTFSpVP8g" presentationName="Service model" briefDescription="The Service model describes..." variabilityType="extendsReplaces">
+            <presentation xmi:id="-0Ztc8iCZVXwpn0VBU6bnCw" href="uma://-0Ztc8iCZVXwpn0VBU6bnCw#-0Ztc8iCZVXwpn0VBU6bnCw"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_vIqTYOG2Ed-AyrTFSpVP8g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_9SOi8J5fEeCZivSIPR16Gg" name="new_artifact" guid="_9SOi8J5fEeCZivSIPR16Gg" presentationName="New Artifact"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_Yfku8J5pEeCKoLuSym3HeQ" name="new_deliverable" guid="_Yfku8J5pEeCKoLuSym3HeQ" presentationName="New Deliverable"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_8bEF4J5pEeCKoLuSym3HeQ" name="new_concept" guid="_8bEF4J5pEeCKoLuSym3HeQ" presentationName="New Concept"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_6PLyQJ5rEeCKoLuSym3HeQ" name="new_term_definition" guid="_6PLyQJ5rEeCKoLuSym3HeQ" presentationName="New Term Definition"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_qMypDeE3Ed-EVrPEfZfTew" name="CapabilityPatterns" guid="_qMypDeE3Ed-EVrPEfZfTew"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_qMypDuE3Ed-EVrPEfZfTew" name="DeliveryProcesses" guid="_qMypDuE3Ed-EVrPEfZfTew"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_qMypD-E3Ed-EVrPEfZfTew" name="ProcessContributions" guid="_qMypD-E3Ed-EVrPEfZfTew"/>
+    <bases href="uma://_MRPloEFXEdy9ENCpSugIjA#_MRPloEFXEdy9ENCpSugIjA"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+    <bases href="uma://_7J4wUNq1Ed-RHtsSMqnPrA#_7J4wUNq1Ed-RHtsSMqnPrA"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_A118oMYaEdyXeo04os5BOw#_A118oMYaEdyXeo04os5BOw"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_fRdVEMYbEdyXeo04os5BOw#_fRdVEMYbEdyXeo04os5BOw"/>
+    <bases href="uma://_yLWzUNxbEd-LYKXkOhPACw#_yLWzUNxbEd-LYKXkOhPACw"/>
+    <bases href="uma://_7TPU4McSEd-2_-I8Ok7trA#_7TPU4McSEd-2_-I8Ok7trA"/>
+    <bases href="uma://_7QZMgMcjEd-XA9kmgGjtSQ#_7QZMgMcjEd-XA9kmgGjtSQ"/>
+    <bases href="uma://_KbpVMNa7Ed-d6Ia20mQhAw#_KbpVMNa7Ed-d6Ia20mQhAw"/>
+    <bases href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_1zV0AC5mEd6lwuZlFT8K0A"/>
+    <bases href="uma://_yHcxoLzIEd-GWpfvmLDtFA#_yHcxoLzIEd-GWpfvmLDtFA"/>
+    <bases href="uma://_Psr-oNhIEd-luNMZUPxfLg#_Psr-oNhIEd-luNMZUPxfLg"/>
+    <bases href="uma://_BtxSwNwkEd-nsYnczZnMaw#_BtxSwNwkEd-nsYnczZnMaw"/>
+    <bases href="uma://_6Ab_EOF4Edyp34pwdTOSVQ#_6Ab_EOF4Edyp34pwdTOSVQ"/>
+    <bases href="uma://_enWLsNxcEd-LYKXkOhPACw#_enWLsNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_kwazABFxEd6C2PqX2OSy5A#_kwazABFxEd6C2PqX2OSy5A"/>
+    <bases href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_MxSNcNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_v52qwNxbEd-LYKXkOhPACw#_v52qwNxbEd-LYKXkOhPACw"/>
+    <bases href="uma://_kmDLUNxHEd-LYKXkOhPACw#_kmDLUNxHEd-LYKXkOhPACw"/>
+    <bases href="uma://_WCUhAO8KEdmKSqa_gSYthg#_WCUhAO8KEdmKSqa_gSYthg"/>
+    <bases href="uma://_14Ft0M3pEdyuBO4ZIzcyig#_14Ft0M3pEdyuBO4ZIzcyig"/>
+    <bases href="uma://_ji3-gEMXEdyP_Jn83ylwUQ#_ji3-gEMXEdyP_Jn83ylwUQ"/>
+    <bases href="uma://_CX-9AM3qEdyuBO4ZIzcyig#_CX-9AM3qEdyuBO4ZIzcyig"/>
+    <bases href="uma://_Q_mBoGphEd24CboUCnKL3A#_Q_mBoGphEd24CboUCnKL3A"/>
+    <bases href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0TmecJ-VEdy3Nc4rvuj7bA"/>
+    <bases href="uma://_vJYucEfUEdyiPI8btkmvmw#_vJYucEfUEdyiPI8btkmvmw"/>
+    <bases href="uma://_LdRtkM3qEdyuBO4ZIzcyig#_LdRtkM3qEdyuBO4ZIzcyig"/>
+    <bases href="uma://_Qyp8YGpiEd24CboUCnKL3A#_Qyp8YGpiEd24CboUCnKL3A"/>
+    <bases href="uma://_OOB2AAouEdyhlpBPrduOMw#_OOB2AAouEdyhlpBPrduOMw"/>
+    <bases href="uma://_-bv0ELXuEduGP_98XMd0fg#_-bv0ELXuEduGP_98XMd0fg"/>
+    <bases href="uma://_ijALQO5rEd-0xPxjwuNm4A#_ijALQO5rEd-0xPxjwuNm4A"/>
+    <bases href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_XSYj0OzEEd--R6Ia0d6GOQ"/>
+    <bases href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_Rq8ygHwjEd6zE6DaMH4mBQ"/>
+    <bases href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_mQeN0OJ-Ed-Knc6oCYT2Zw"/>
+    <bases href="uma://_Jsb3MNnCEd6zvIb1dP7WTA#_Jsb3MNnCEd6zvIb1dP7WTA"/>
+    <bases href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_ZXc3ME6cEd65M-yHtGQz8g"/>
+    <bases href="uma://_qo-l8NhIEd-luNMZUPxfLg#_qo-l8NhIEd-luNMZUPxfLg"/>
+    <bases href="uma://_fhq2kHXUEd6y559hJOP-yw#_fhq2kHXUEd6y559hJOP-yw"/>
+    <bases href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_BUtsgJvlEeCpqZ2idIvIxQ"/>
+    <bases href="uma://_HVCXcE7xEd-ttuvo_zEJ_g#_HVCXcE7xEd-ttuvo_zEJ_g"/>
+    <bases href="uma://__KzlEDvMEd6gtI8tb9yUjw#__KzlEDvMEd6gtI8tb9yUjw"/>
+    <bases href="uma://_09h_8NquEd-RHtsSMqnPrA#_09h_8NquEd-RHtsSMqnPrA"/>
+    <bases href="uma://_FU5nEMcTEd-2_-I8Ok7trA#_FU5nEMcTEd-2_-I8Ok7trA"/>
+    <bases href="uma://_8vpggJ5CEeCPm6RiYJY55g#_8vpggJ5CEeCPm6RiYJY55g"/>
+    <bases href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_Ocn6IJdUEeCYIKpsva4R0w"/>
+    <bases href="uma://_NNjnoNd1Ed-rPssKqZKKoQ#_NNjnoNd1Ed-rPssKqZKKoQ"/>
+    <bases href="uma://_t-xI8MckEd-XA9kmgGjtSQ#_t-xI8MckEd-XA9kmgGjtSQ"/>
+    <bases href="uma://_h3rZMNdoEd-rPssKqZKKoQ#_h3rZMNdoEd-rPssKqZKKoQ"/>
+    <bases href="uma://_BbGD8McTEd-2_-I8Ok7trA#_BbGD8McTEd-2_-I8Ok7trA"/>
+    <bases href="uma://_C7QigLzIEd-GWpfvmLDtFA#_C7QigLzIEd-GWpfvmLDtFA"/>
+    <bases href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#_Y8SDoBo7Ed-fDItO-3aPHw"/>
+    <bases href="uma://_M0_rgMb_Ed-2_-I8Ok7trA#_M0_rgMb_Ed-2_-I8Ok7trA"/>
+    <bases href="uma://_FzYp8Mb_Ed-2_-I8Ok7trA#_FzYp8Mb_Ed-2_-I8Ok7trA"/>
+    <bases href="uma://_iNwFsMhNEdygFZkm1d5NtQ#_iNwFsMhNEdygFZkm1d5NtQ"/>
+    <bases href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_qqyzAJ6WEdyQN-zRFaRrCQ"/>
+    <bases href="uma://_7uMwYDIWEd-YE6CeBfCofg#_7uMwYDIWEd-YE6CeBfCofg"/>
+    <bases href="uma://_NOBspSZLEd-QuZFPf_YdqQ#_NOBspSZLEd-QuZFPf_YdqQ"/>
+    <bases href="uma://_NBRHwMh3EdygFZkm1d5NtQ#_NBRHwMh3EdygFZkm1d5NtQ"/>
+    <bases href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_nKS10J6YEdyQN-zRFaRrCQ"/>
+    <bases href="uma://_4gXdoL8BEdyWX5Yd-9QZ1A#_4gXdoL8BEdyWX5Yd-9QZ1A"/>
+    <bases href="uma://_ugihsOxXEdyCFeiQwJE7Vg#_ugihsOxXEdyCFeiQwJE7Vg"/>
+    <bases href="uma://_44o4AOvVEdyp6czxLiQq9g#_44o4AOvVEdyp6czxLiQq9g"/>
+    <bases href="uma://_vtUfcEIuEd2GCesTWQms8Q#_vtUfcEIuEd2GCesTWQms8Q"/>
+    <bases href="uma://_40sbAJ6YEdyQN-zRFaRrCQ#_40sbAJ6YEdyQN-zRFaRrCQ"/>
+    <bases href="uma://_QSaGcPJVEd-FpZGj9I_2_g#_QSaGcPJVEd-FpZGj9I_2_g"/>
+    <bases href="uma://_Z1VtYOJ_Ed-Knc6oCYT2Zw#_Z1VtYOJ_Ed-Knc6oCYT2Zw"/>
+    <bases href="uma://_y_ytQOHHEd-AyrTFSpVP8g#_y_ytQOHHEd-AyrTFSpVP8g"/>
+    <bases href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_Gsw3gO2XEd--BOZpIYnXRA"/>
+    <bases href="uma://_HIVxoJ5OEeCOkvcSVgl5mQ#_HIVxoJ5OEeCOkvcSVgl5mQ"/>
+    <bases href="uma://_VVRjYHoCEd2ozs6whO3m5w#_VVRjYHoCEd2ozs6whO3m5w"/>
+    <bases href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_XLuWYHn8Ed2ozs6whO3m5w"/>
+    <bases href="uma://_IItp4MuXEdyLOriywSJkoQ#_IItp4MuXEdyLOriywSJkoQ"/>
+    <bases href="uma://_Hz9OMG5KEdyAHIxjZ9kpqw#_Hz9OMG5KEdyAHIxjZ9kpqw"/>
+    <bases href="uma://_h_9roM3PEdyKkus0T68H3Q#_h_9roM3PEdyKkus0T68H3Q"/>
+    <bases href="uma://_D-ExQMktEdygFZkm1d5NtQ#_D-ExQMktEdygFZkm1d5NtQ"/>
+    <bases href="uma://_GxBjAM2sEdym_ZFqrJcXUg#_GxBjAM2sEdym_ZFqrJcXUg"/>
+    <bases href="uma://_4gaS4LPREduocbW-TPTq7A#_4gaS4LPREduocbW-TPTq7A"/>
+    <bases href="uma://_XPLD8MudEdyRPtFYRAKVDg#_XPLD8MudEdyRPtFYRAKVDg"/>
+    <bases href="uma://_Z2cK0LPPEduocbW-TPTq7A#_Z2cK0LPPEduocbW-TPTq7A"/>
+    <bases href="uma://_NjNCEMrmEdyd6uFrFHNXhA#_NjNCEMrmEdyd6uFrFHNXhA"/>
+    <bases href="uma://_Y9TKMLS9EduDY8LNbMCDBA#_Y9TKMLS9EduDY8LNbMCDBA"/>
+    <bases href="uma://_00zMMMt1EdyRPtFYRAKVDg#_00zMMMt1EdyRPtFYRAKVDg"/>
+    <bases href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_DZ1rEI7-Edy7q8CKc_B8eg"/>
+    <bases href="uma://_HYAA4MriEdyd6uFrFHNXhA#_HYAA4MriEdyd6uFrFHNXhA"/>
+    <bases href="uma://_GbYfULPaEduocbW-TPTq7A#_GbYfULPaEduocbW-TPTq7A"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

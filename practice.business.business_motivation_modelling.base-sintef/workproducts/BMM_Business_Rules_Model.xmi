@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-2wEHq88Szwv45wIw1UKw8Q" name="new_artifact_3,_-AFV8FAmEd6NGfjlGBNnwA" guid="-2wEHq88Szwv45wIw1UKw8Q" authors="Marisa Escalante (ESI)" changeDate="2009-06-03T12:16:06.384+0200" version="0.1">
+  <mainDescription>Rules are illustrated in rule diagrams and they consist of rule elements. They are hierarchically integrated by&#xD;
+connections, so there are special subsets for conditions, statements, keywords and connectors. Those are specialised sets&#xD;
+of connectors (xor, or, and), keywords (if, then, else, check), conditions and statements. The last two concepts can have&#xD;
+atomic entities. Keywords decide the further rule flow. &lt;br />&#xD;
+Checks can be used to proof specific states during the rule flow. The rule concept is aligned to the business motivation&#xD;
+model to implement the motivation, which follows some strategy. The implementation of processes according to the rule can&#xD;
+be found in the statement element. When a statement is true, then the underlying process will be executed.&amp;nbsp;</mainDescription>
+  <purpose>&lt;p>&#xD;
+    The main objective of this model is to&amp;nbsp;provide constructs for Business Rules in order to describe the decision&#xD;
+    rules.&#xD;
+&lt;/p></purpose>
+  <notation>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../practice.business.business_motivation_modelling.base_shape-sintef/guidances/guidelines/bmm_model_D5E09D34.html&quot;&#xD;
+         guid=&quot;_zR-6AOZoEd-5YeUvCnM2dQ&quot;>Business Motivation Model (BMM)&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></notation>
+</org.eclipse.epf.uma:ArtifactDescription>

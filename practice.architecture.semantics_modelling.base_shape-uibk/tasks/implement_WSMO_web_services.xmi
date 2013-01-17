@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-MdtebDFLkHeQj25LC-lgiw" name=",_CKhsgKkQEd6RxrScOu9Dlg" guid="-MdtebDFLkHeQj25LC-lgiw" authors="Mick Kerrigan, Davide Cerri (UIBK)" changeDate="2009-09-25T10:08:25.200+0200" version="0.1">
+  <mainDescription>This task should be performed for each&amp;nbsp;Web Service description. The aim of this&amp;nbsp;task is for the Semantic Web&#xD;
+Service engineer to reduce the Capability Design, Non Functional Design, and Choreography Design down into concrete&#xD;
+implementations in order to produce a Web Service description, extending and refining the WSMO model that&#xD;
+was&amp;nbsp;previously created.</mainDescription>
+  <sections xmi:id="_Lf3rQKkQEd6RxrScOu9Dlg" name="Implement capability" guid="_Lf3rQKkQEd6RxrScOu9Dlg">
+    <sectionDescription>The aim of this&amp;nbsp;step is to create a concrete capability description, extending and refining the previously created&#xD;
+WSMO model. In this&amp;nbsp;step the Semantic Web Service engineer must create a capability description,&amp;nbsp;as part of&#xD;
+the&amp;nbsp;Web Service description, with preconditions, postconditions, assumptions, and effects. The main job of the&#xD;
+engineer is to transform the textual description of these conditions&amp;nbsp;into logical descriptions according to the&#xD;
+logical formalism mandated by the targeted discovery broker service.</sectionDescription>
+  </sections>
+  <sections xmi:id="_Mw9fsKkQEd6RxrScOu9Dlg" name="Implement non-functional properties" guid="_Mw9fsKkQEd6RxrScOu9Dlg">
+    <sectionDescription>&lt;p>&#xD;
+    The aim of this&amp;nbsp;step is to create a concrete non-functional property description. In this&amp;nbsp;step the Semantic&#xD;
+    Web Service engineer must annotate the Web Service description with the non-functional properties. The main job of the&#xD;
+    engineer is to model each of the non-functional properties and their associated values using the ontologies&amp;nbsp;that&#xD;
+    were selected for modeling the non-functional aspects of the service.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Oia2QKkQEd6RxrScOu9Dlg" name="Implement choreography" guid="_Oia2QKkQEd6RxrScOu9Dlg">
+    <sectionDescription>The aim of this&amp;nbsp;step is to create a concrete choreography, extending and refining the previously created WSMO model.&#xD;
+In this task the Semantic Web Service engineer must create a choreography description, as part of the&amp;nbsp;Web Service&#xD;
+description, with a state signature and transition rules. The main job of the engineer is to convert the dependancy diagram&#xD;
+into Abstract State Machine (ASM) transition rules according to the logical formalism mandated by the targeted chorography&#xD;
+broker service. The engineer must also create the state signature of the choreography by encoding the variables that are&#xD;
+input to or output from the choreography, as per the dependancy diagram. Addition variables may be specified as static,&#xD;
+controlled, or shared in the choreography as needed.</sectionDescription>
+  </sections>
+  <purpose>Producing&amp;nbsp;WSMO&amp;nbsp;Web Service descriptions, refining the WSMO model.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

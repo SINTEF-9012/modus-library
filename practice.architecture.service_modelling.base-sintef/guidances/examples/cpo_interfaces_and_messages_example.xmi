@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-WhSzsgGx74exReuqqzzBMQ" name="cpo_interfaces_and_messages_example,_0sB-ML6VEeCOB4Yzghr2dQ" guid="-WhSzsgGx74exReuqqzzBMQ" changeDate="2011-08-04T14:33:32.140+0200">
+  <mainDescription>&lt;h3>&#xD;
+    Cell Phone Operator (CPO): Interfaces and messages&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    The provided interface will contain the operations of the service, while the required interface can have callbacks,&#xD;
+    which are specified as signals. For instance Figure 15 shows the &amp;lt;&amp;lt;Provided&amp;gt;&amp;gt; interface MobileServicesOrder&#xD;
+    with the operations placeOrder and payBill, and the &amp;lt;&amp;lt;Consumer&amp;gt;&amp;gt; interface with the callback&#xD;
+    confirmOrderAndPay; this callback asks for the consumer to actually pay the bill.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Both message types and service data may have properties that can be either modelled as UML properties or associated UML&#xD;
+    classes. This is illustrated in Figure 15 where the two operations and the callback have been specified with their own&#xD;
+    separate message types as input parameters and responses. The message types OrderRequest and OrderResponse have both&#xD;
+    properties and associated&lt;br />&#xD;
+    classes that contain additional information to support the customer in browsing the cost of the services before&#xD;
+    selecting the ones to be ported and enabling whether a temporary or fixed porting should be enabled.&#xD;
+&lt;/p>&#xD;
+&lt;img alt=&quot;&quot; src=&quot;resources/cpo_interfaces_and_messages_example.png&quot; width=&quot;592&quot; height=&quot;600&quot; />&lt;br />&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 15:&lt;/strong> Interfaces and message types (UML class diagram)&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

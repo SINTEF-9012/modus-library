@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Bt7DwdwkEd-nsYnczZnMaw" guid="_Bt7DwdwkEd-nsYnczZnMaw">
+    <subManagers xmi:id="_4pA4sRQqEeG-roQgfHQS3A" href="uma://_4n-W4BQqEeG-roQgfHQS3A#_4pA4sRQqEeG-roQgfHQS3A"/>
+    <resourceDescriptors xmi:id="_VlYVkdxUEd-LYKXkOhPACw" id="-62zxtOdNIZ0VWUt6KseFAQ" uri="guidances/supportingmaterials/release_info_scrum.sisas.xmi"/>
+    <resourceDescriptors xmi:id="_xFeZoeZ9Ed-5YeUvCnM2dQ" id="_xEuywOZ9Ed-5YeUvCnM2dQ" uri="capabilitypatterns/scrum.sisas/model.xmi"/>
+    <resourceDescriptors xmi:id="_22mqweZ9Ed-5YeUvCnM2dQ" id="-cSBrmzHqaQpVZtM6x-GfjQ" uri="guidances/practices/scrum.sisas.xmi"/>
+    <resourceDescriptors xmi:id="_C9vbseZ-Ed-5YeUvCnM2dQ" id="-yoVWQ8Fd-WyblXjvh49hTA" uri="guidances/roadmaps/how_to_adopt_scrum.sisas.xmi"/>
+    <resourceDescriptors xmi:id="_4pA4sBQqEeG-roQgfHQS3A" id="_4n-W4BQqEeG-roQgfHQS3A" uri="capabilitypatterns/scrum.sisas/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_BtxSwNwkEd-nsYnczZnMaw" name="practice.mgmt.scrum.extend-sintef" guid="_BtxSwNwkEd-nsYnczZnMaw" briefDescription="This plugin defines the SINTEF extension to the Scrum practice." authors="Brian Elvesæter (SINTEF)" changeDate="2010-10-27T13:08:49.223+0200">
+    <methodElementProperty xmi:id="_BuENsNwkEd-nsYnczZnMaw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BtxSwdwkEd-nsYnczZnMaw" name="Content" guid="_BtxSwdwkEd-nsYnczZnMaw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BtxSwtwkEd-nsYnczZnMaw" name="Categories" guid="_BtxSwtwkEd-nsYnczZnMaw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BtxSw9wkEd-nsYnczZnMaw" name="Domains" guid="_BtxSw9wkEd-nsYnczZnMaw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_kYSokOKcEd-Knc6oCYT2Zw" name="project_management_domain.assign" guid="_kYSokOKcEd-Knc6oCYT2Zw" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_iESMoNxcEd-LYKXkOhPACw#_ftny0N0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BtxSxNwkEd-nsYnczZnMaw" name="Disciplines" guid="_BtxSxNwkEd-nsYnczZnMaw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_RtgQ4BQrEeG-roQgfHQS3A" name="project_management_discipline.assign" guid="_RtgQ4BQrEeG-roQgfHQS3A" variabilityType="contributes" tasks="_MPAd0BB7EeGrDoQDFeNsNA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_iESMoNxcEd-LYKXkOhPACw#_coCh8N0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BtxSxdwkEd-nsYnczZnMaw" name="RoleSets" guid="_BtxSxdwkEd-nsYnczZnMaw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BtxSxtwkEd-nsYnczZnMaw" name="WP Types" guid="_BtxSxtwkEd-nsYnczZnMaw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BtxSx9wkEd-nsYnczZnMaw" name="Tools" guid="_BtxSx9wkEd-nsYnczZnMaw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BtxSyNwkEd-nsYnczZnMaw" name="StandardCategories" guid="_BtxSyNwkEd-nsYnczZnMaw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BtxSydwkEd-nsYnczZnMaw" name="CustomCategories" guid="_BtxSydwkEd-nsYnczZnMaw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BtxSytwkEd-nsYnczZnMaw" name="Hidden" guid="_BtxSytwkEd-nsYnczZnMaw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_BtxSy9wkEd-nsYnczZnMaw" name="Custom Categories" guid="_BtxSy9wkEd-nsYnczZnMaw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BtxSzNwkEd-nsYnczZnMaw" name="CoreContent" guid="_BtxSzNwkEd-nsYnczZnMaw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2NLjoNxTEd-LYKXkOhPACw" name="scrum.sisas" guid="_2NLjoNxTEd-LYKXkOhPACw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_4t-scNxTEd-LYKXkOhPACw" name="scrum.sisas" guid="_4t-scNxTEd-LYKXkOhPACw" presentationName="SiSaS agile project management" briefDescription="This practice describes how to apply SiSaS agile project management." contentReferences="_MPAd0BB7EeGrDoQDFeNsNA">
+            <presentation xmi:id="-cSBrmzHqaQpVZtM6x-GfjQ" href="uma://-cSBrmzHqaQpVZtM6x-GfjQ#-cSBrmzHqaQpVZtM6x-GfjQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_69YjQNxTEd-LYKXkOhPACw" name="how_to_adopt_scrum.sisas" guid="_69YjQNxTEd-LYKXkOhPACw" presentationName="How to adopt the SiSaS agile project management practice." briefDescription="This roadmap describes how to adopt the SiSaS agile project management practice.">
+            <presentation xmi:id="-yoVWQ8Fd-WyblXjvh49hTA" href="uma://-yoVWQ8Fd-WyblXjvh49hTA#-yoVWQ8Fd-WyblXjvh49hTA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_MPAd0BB7EeGrDoQDFeNsNA" name="weekly_standup_meeting" guid="_MPAd0BB7EeGrDoQDFeNsNA" presentationName="Weekly standup meeting" variabilityType="extends">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_6Ab_EOF4Edyp34pwdTOSVQ#_oSM0AOF-Edyp34pwdTOSVQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QceiENxUEd-LYKXkOhPACw" name="release_info" guid="_QceiENxUEd-LYKXkOhPACw">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_R1lDANxUEd-LYKXkOhPACw" name="release_info_scrum.sisas" guid="_R1lDANxUEd-LYKXkOhPACw" presentationName="Practice: SiSaS agile project management" briefDescription="SiSaS agile project management practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-62zxtOdNIZ0VWUt6KseFAQ" href="uma://-62zxtOdNIZ0VWUt6KseFAQ#-62zxtOdNIZ0VWUt6KseFAQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_BtxSzdwkEd-nsYnczZnMaw" name="CapabilityPatterns" guid="_BtxSzdwkEd-nsYnczZnMaw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_wFNPcOZ9Ed-5YeUvCnM2dQ" name="scrum.sisas" guid="_wFNPcOZ9Ed-5YeUvCnM2dQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_4n-W4BQqEeG-roQgfHQS3A" href="uma://_4n-W4BQqEeG-roQgfHQS3A#_4n-W4BQqEeG-roQgfHQS3A"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_BtxSztwkEd-nsYnczZnMaw" name="DeliveryProcesses" guid="_BtxSztwkEd-nsYnczZnMaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_BtxSz9wkEd-nsYnczZnMaw" name="ProcessContributions" guid="_BtxSz9wkEd-nsYnczZnMaw"/>
+    <bases href="uma://_6Ab_EOF4Edyp34pwdTOSVQ#_6Ab_EOF4Edyp34pwdTOSVQ"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_yLWzUNxbEd-LYKXkOhPACw#_yLWzUNxbEd-LYKXkOhPACw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

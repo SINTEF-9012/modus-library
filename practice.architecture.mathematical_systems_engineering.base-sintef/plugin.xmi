@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_mQnXwOJ-Ed-Knc6oCYT2Zw" guid="_mQnXwOJ-Ed-Knc6oCYT2Zw">
+    <subManagers xmi:id="_ZXIEEeZ0Ed-5YeUvCnM2dQ" href="uma://_YFTP0OZ0Ed-5YeUvCnM2dQ#_ZXIEEeZ0Ed-5YeUvCnM2dQ"/>
+    <subManagers xmi:id="_ZXkwAeZ0Ed-5YeUvCnM2dQ" href="uma://_YFTP0uZ0Ed-5YeUvCnM2dQ#_ZXkwAeZ0Ed-5YeUvCnM2dQ"/>
+    <resourceDescriptors xmi:id="_bIenEO6ZEd6OKalzbxNDQw" id="-9EmISSwJCNpyIPHx50ec9Q" uri="workproducts/requirement_diagram_and_use_case_diagram.xmi"/>
+    <resourceDescriptors xmi:id="_Z07FwO6fEd6OKalzbxNDQw" id="-Hth99uVh5o-njXkD_oku-A" uri="workproducts/service_specification.xmi"/>
+    <resourceDescriptors xmi:id="_PQ2qEe6fEd6OKalzbxNDQw" id="-2qzhgF8WLJNO2xkgrr3HIw" uri="workproducts/structure_diagram.xmi"/>
+    <resourceDescriptors xmi:id="_QhBDsO6aEd6OKalzbxNDQw" id="-mnbH5mUuDBIjJCxvMocdRA" uri="workproducts/community_services_architecture.xmi"/>
+    <resourceDescriptors xmi:id="_KjMTAO6dEd6OKalzbxNDQw" id="-Yllg9PrykgnBgSR7qblcZg" uri="workproducts/behavior_diagram.xmi"/>
+    <resourceDescriptors xmi:id="_ezDzsO6fEd6OKalzbxNDQw" id="-AMBftJiYLx7jBrjoQCR0BQ" uri="workproducts/matlab_or_modelica_mathematical_model.xmi"/>
+    <resourceDescriptors xmi:id="_Pg28Ue6cEd6OKalzbxNDQw" id="-2vFIZl_RUlIKS80C2znfJg" uri="tasks/define_requirement_diagram_and_use_case_diagram.xmi"/>
+    <resourceDescriptors xmi:id="_UG420e6dEd6OKalzbxNDQw" id="-dsmvWj9Ied9l2qeNWU9LVQ" uri="workproducts/participant_services_architecture.xmi"/>
+    <resourceDescriptors xmi:id="_y9ongeJ_Ed-Knc6oCYT2Zw" id="-BsqyIZeW_drMwuhwboQGAw" uri="guidances/practices/mathematical_systems_engineering.xmi"/>
+    <resourceDescriptors xmi:id="_6m1NgOJ_Ed-Knc6oCYT2Zw" id="-C_L0_JcVzZFP1n5DUYqZlw" uri="guidances/roadmaps/how_to_adopt_mathematical_systems_engineering.xmi"/>
+    <resourceDescriptors xmi:id="_BgQjcOKAEd-Knc6oCYT2Zw" id="-whRaylPspyZYtj-hZULdPA" uri="guidances/supportingmaterials/release_info_mathematical_systems_engineering.xmi"/>
+    <resourceDescriptors xmi:id="_AAv9kOZnEd-5YeUvCnM2dQ" id="-KJDCOS5a07_t72qYVTAD1A" uri="workproducts/logical_architecture.xmi"/>
+    <resourceDescriptors xmi:id="_ZXIEEOZ0Ed-5YeUvCnM2dQ" id="_YFTP0OZ0Ed-5YeUvCnM2dQ" uri="capabilitypatterns/step1_soaml_sysml_design_in_cim_layer/model.xmi"/>
+    <resourceDescriptors xmi:id="_ZXkwAOZ0Ed-5YeUvCnM2dQ" id="_YFTP0uZ0Ed-5YeUvCnM2dQ" uri="capabilitypatterns/step2_soaml_sysml_matlab_or_modelica_design_in_pim_layer/model.xmi"/>
+    <resourceDescriptors xmi:id="_Mk0dce6mEd6OKalzbxNDQw" id="-9bIhSNApdBxrlpHrSv36Mw" uri="guidances/examples/oscar_example.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_mQeN0OJ-Ed-Knc6oCYT2Zw" name="practice.architecture.mathematical_systems_engineering.base-sintef" guid="_mQeN0OJ-Ed-Knc6oCYT2Zw" briefDescription="This plugin contains the Mathematical systems engineering practice." authors="Brian Elvesæter (SINTEF)" changeDate="2010-10-28T12:33:12.139+0200">
+    <methodElementProperty xmi:id="_mQnXwuJ-Ed-Knc6oCYT2Zw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mQeN0eJ-Ed-Knc6oCYT2Zw" name="Content" guid="_mQeN0eJ-Ed-Knc6oCYT2Zw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mQeN0uJ-Ed-Knc6oCYT2Zw" name="Categories" guid="_mQeN0uJ-Ed-Knc6oCYT2Zw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mQeN0-J-Ed-Knc6oCYT2Zw" name="Domains" guid="_mQeN0-J-Ed-Knc6oCYT2Zw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_7kE10OXVEd-o7-eCfuNF5g" name="architecture_modelling_domain.assign" guid="_7kE10OXVEd-o7-eCfuNF5g" variabilityType="contributes" workProducts="_FT83gOKAEd-Knc6oCYT2Zw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_iESMoNxcEd-LYKXkOhPACw#_JQuH8N0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mQeN1OJ-Ed-Knc6oCYT2Zw" name="Disciplines" guid="_mQeN1OJ-Ed-Knc6oCYT2Zw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_qzno4OJ-Ed-Knc6oCYT2Zw" name="architecture_modelling_discipline.assign" guid="_qzno4OJ-Ed-Knc6oCYT2Zw" variabilityType="contributes" tasks="_gz2QcN_dEd6Mcf1pX1YeQA _eWVsMN_dEd6Mcf1pX1YeQA _jAz3QN_dEd6Mcf1pX1YeQA _GpbBkO6cEd6OKalzbxNDQw _mtUv0N_eEd6Mcf1pX1YeQA _qo2xQN_eEd6Mcf1pX1YeQA _gIz58N_eEd6Mcf1pX1YeQA _jLavUN_eEd6Mcf1pX1YeQA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_iESMoNxcEd-LYKXkOhPACw#_Fx_-UN0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mQeN1eJ-Ed-Knc6oCYT2Zw" name="RoleSets" guid="_mQeN1eJ-Ed-Knc6oCYT2Zw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mQeN1uJ-Ed-Knc6oCYT2Zw" name="WP Types" guid="_mQeN1uJ-Ed-Knc6oCYT2Zw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mQeN1-J-Ed-Knc6oCYT2Zw" name="Tools" guid="_mQeN1-J-Ed-Knc6oCYT2Zw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mQeN2OJ-Ed-Knc6oCYT2Zw" name="StandardCategories" guid="_mQeN2OJ-Ed-Knc6oCYT2Zw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mQeN2eJ-Ed-Knc6oCYT2Zw" name="CustomCategories" guid="_mQeN2eJ-Ed-Knc6oCYT2Zw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mQeN2uJ-Ed-Knc6oCYT2Zw" name="Hidden" guid="_mQeN2uJ-Ed-Knc6oCYT2Zw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_mQeN2-J-Ed-Knc6oCYT2Zw" name="Custom Categories" guid="_mQeN2-J-Ed-Knc6oCYT2Zw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mQeN3OJ-Ed-Knc6oCYT2Zw" name="CoreContent" guid="_mQeN3OJ-Ed-Knc6oCYT2Zw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4dc7oOJ-Ed-Knc6oCYT2Zw" name="mathematical_systems_engineering" guid="_4dc7oOJ-Ed-Knc6oCYT2Zw" presentationName="Mathematical systems engineering">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_vqqa4OJ_Ed-Knc6oCYT2Zw" name="mathematical_systems_engineering" guid="_vqqa4OJ_Ed-Knc6oCYT2Zw" presentationName="Mathematical systems engineering" briefDescription="This practice describes a model-driven approach to mathematical systems engineering." contentReferences="_0M_Z8N_eEd6Mcf1pX1YeQA _3-ZPAN_eEd6Mcf1pX1YeQA _6m5XwN_dEd6Mcf1pX1YeQA _3tYM8N_dEd6Mcf1pX1YeQA _ES7YMN_eEd6Mcf1pX1YeQA _o_66AN_dEd6Mcf1pX1YeQA _xj3bkN_eEd6Mcf1pX1YeQA _ulu2gN_eEd6Mcf1pX1YeQA _mtUv0N_eEd6Mcf1pX1YeQA _qo2xQN_eEd6Mcf1pX1YeQA _gIz58N_eEd6Mcf1pX1YeQA _jLavUN_eEd6Mcf1pX1YeQA _gz2QcN_dEd6Mcf1pX1YeQA _eWVsMN_dEd6Mcf1pX1YeQA _jAz3QN_dEd6Mcf1pX1YeQA _GpbBkO6cEd6OKalzbxNDQw _XQIDsOZmEd-5YeUvCnM2dQ _zymgoOJ_Ed-Knc6oCYT2Zw">
+            <presentation xmi:id="-BsqyIZeW_drMwuhwboQGAw" href="uma://-BsqyIZeW_drMwuhwboQGAw#-BsqyIZeW_drMwuhwboQGAw"/>
+            <activityReferences href="uma://_YFTP0OZ0Ed-5YeUvCnM2dQ#_YFTP0eZ0Ed-5YeUvCnM2dQ"/>
+            <activityReferences href="uma://_YFTP0uZ0Ed-5YeUvCnM2dQ#_YFTP0-Z0Ed-5YeUvCnM2dQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_zymgoOJ_Ed-Knc6oCYT2Zw" name="how_to_adopt_mathematical_systems_engineering" guid="_zymgoOJ_Ed-Knc6oCYT2Zw" presentationName="How to adopt the Mathematical systems engineering practice" briefDescription="This roadmap describes how to adopt the Mathematical systems engineering practice.">
+            <presentation xmi:id="-C_L0_JcVzZFP1n5DUYqZlw" href="uma://-C_L0_JcVzZFP1n5DUYqZlw#-C_L0_JcVzZFP1n5DUYqZlw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_FT83gOKAEd-Knc6oCYT2Zw" name="architecture_model.assign" guid="_FT83gOKAEd-Knc6oCYT2Zw" variabilityType="contributes" deliveredWorkProducts="_6m5XwN_dEd6Mcf1pX1YeQA _3tYM8N_dEd6Mcf1pX1YeQA _ES7YMN_eEd6Mcf1pX1YeQA _o_66AN_dEd6Mcf1pX1YeQA _0M_Z8N_eEd6Mcf1pX1YeQA _3-ZPAN_eEd6Mcf1pX1YeQA _xj3bkN_eEd6Mcf1pX1YeQA _ulu2gN_eEd6Mcf1pX1YeQA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_vIqTYOG2Ed-AyrTFSpVP8g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_XQIDsOZmEd-5YeUvCnM2dQ" name="system_architect.assign" guid="_XQIDsOZmEd-5YeUvCnM2dQ" variabilityType="contributes" responsibleFor="_6m5XwN_dEd6Mcf1pX1YeQA _3tYM8N_dEd6Mcf1pX1YeQA _ES7YMN_eEd6Mcf1pX1YeQA _o_66AN_dEd6Mcf1pX1YeQA _0M_Z8N_eEd6Mcf1pX1YeQA _3-ZPAN_eEd6Mcf1pX1YeQA _xj3bkN_eEd6Mcf1pX1YeQA _ulu2gN_eEd6Mcf1pX1YeQA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_XtnNQO6aEd6OKalzbxNDQw" name="oscar_example" guid="_XtnNQO6aEd6OKalzbxNDQw" presentationName="OSCAR example">
+            <presentation xmi:id="-9bIhSNApdBxrlpHrSv36Mw" href="uma://-9bIhSNApdBxrlpHrSv36Mw#-9bIhSNApdBxrlpHrSv36Mw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_77Wl4OJ-Ed-Knc6oCYT2Zw" name="tool_mentors" guid="_77Wl4OJ-Ed-Knc6oCYT2Zw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9_zw8OJ-Ed-Knc6oCYT2Zw" name="matlab" guid="_9_zw8OJ-Ed-Knc6oCYT2Zw"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__Pa-sOJ-Ed-Knc6oCYT2Zw" name="modelica" guid="__Pa-sOJ-Ed-Knc6oCYT2Zw"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A6icsOJ_Ed-Knc6oCYT2Zw" name="release_info" guid="_A6icsOJ_Ed-Knc6oCYT2Zw">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_77LxUOJ_Ed-Knc6oCYT2Zw" name="release_info_mathematical_systems_engineering" guid="_77LxUOJ_Ed-Knc6oCYT2Zw" presentationName="Practice: Mathematical systems engineering" briefDescription="Mathematical systems engineering practice release info" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-whRaylPspyZYtj-hZULdPA" href="uma://-whRaylPspyZYtj-hZULdPA#-whRaylPspyZYtj-hZULdPA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_L9t2QOJ_Ed-Knc6oCYT2Zw" name="sysml_concepts" guid="_L9t2QOJ_Ed-Knc6oCYT2Zw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8pjBcN_cEd6Mcf1pX1YeQA" name="Step 1. SoaML, SysML Design in CIM Layer" guid="_8pjBcN_cEd6Mcf1pX1YeQA" briefDescription="In this section we will give a guide of how to model the target system in computation independent model layer. Scientific software related business model like scientific software service, roles, collaborations and interactions, process and information is discussed in this layer. The usages of Model Driven Architecture Technology and related Modeling languages like SoaML and SysML in CIM layer design will mainly satisfy the requirements from “Architecture Modeling” and “Service Modeling” aspects.&#xD;&#xA;&#xD;&#xA;The models used in this layer include requirement diagram, use case, and behavior diagram from SysML; community services architecture and participant services architecture from SoaML. The following sub section will give introduction of these modeling diagrams.&#xD;&#xA;">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_eWVsMN_dEd6Mcf1pX1YeQA" name="define_community_services_architecture" guid="_eWVsMN_dEd6Mcf1pX1YeQA" presentationName="Define community services architecture" performedBy="_XQIDsOZmEd-5YeUvCnM2dQ" output="_3tYM8N_dEd6Mcf1pX1YeQA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_gz2QcN_dEd6Mcf1pX1YeQA" name="define_behavior_diagram" guid="_gz2QcN_dEd6Mcf1pX1YeQA" presentationName="Define behaviour diagram" briefDescription="Behavior diagram from SysML is a type of diagram that depicts behavioral features of a system or business process.  This includes activity, state machine, and as well as the sequence diagrams. Business Process Modeling Notation (BPMN) is also used here to support the understanding the internal procedures related to scientific research and communicate these procedures in a standard manner." performedBy="_XQIDsOZmEd-5YeUvCnM2dQ" output="_6m5XwN_dEd6Mcf1pX1YeQA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jAz3QN_dEd6Mcf1pX1YeQA" name="define_participant_services_architecture" guid="_jAz3QN_dEd6Mcf1pX1YeQA" presentationName="Define participant services architecture" briefDescription="A participant Services Architecture specifies the architecture for a particular Participant. Within a participant, where there is a concept of “management” exists, a services architecture illustrates how sub-participants and external collaborators work together and would often be accompanied by a business process. Other services architectures and service contracts may be used here." performedBy="_XQIDsOZmEd-5YeUvCnM2dQ" output="_ES7YMN_eEd6Mcf1pX1YeQA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_o_66AN_dEd6Mcf1pX1YeQA" name="requirement_diagram_and_use_case_diagram" guid="_o_66AN_dEd6Mcf1pX1YeQA" presentationName="Requirement Diagram and Use Case Diagram" briefDescription="There are two diagrams that used to analyze the system requirement from SysML. The requirement diagram show what problems are going to be solved, what goals are going to achieve in target system. ">
+            <presentation xmi:id="-9EmISSwJCNpyIPHx50ec9Q" href="uma://-9EmISSwJCNpyIPHx50ec9Q#-9EmISSwJCNpyIPHx50ec9Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_3tYM8N_dEd6Mcf1pX1YeQA" name="community_services_architecture" guid="_3tYM8N_dEd6Mcf1pX1YeQA" presentationName="Community Services Architecture" briefDescription="Community Services Architecture is from SoaML. A Services Architecture is a network of participant roles providing and consuming services to fulfill a purpose.  The services architecture defines the requirements for the types of participants and service realizations that fulfill those roles.">
+            <presentation xmi:id="-mnbH5mUuDBIjJCxvMocdRA" href="uma://-mnbH5mUuDBIjJCxvMocdRA#-mnbH5mUuDBIjJCxvMocdRA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_6m5XwN_dEd6Mcf1pX1YeQA" name="behavior_diagram" guid="_6m5XwN_dEd6Mcf1pX1YeQA" presentationName="Behavior Diagram">
+            <presentation xmi:id="-Yllg9PrykgnBgSR7qblcZg" href="uma://-Yllg9PrykgnBgSR7qblcZg#-Yllg9PrykgnBgSR7qblcZg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ES7YMN_eEd6Mcf1pX1YeQA" name="participant_services_architecture" guid="_ES7YMN_eEd6Mcf1pX1YeQA" presentationName="Participant Services Architecture">
+            <presentation xmi:id="-dsmvWj9Ied9l2qeNWU9LVQ" href="uma://-dsmvWj9Ied9l2qeNWU9LVQ#-dsmvWj9Ied9l2qeNWU9LVQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_GpbBkO6cEd6OKalzbxNDQw" name="define_requirement_diagram_and_use_case_diagram" guid="_GpbBkO6cEd6OKalzbxNDQw" presentationName="Define requirement diagram and use case diagram" performedBy="_XQIDsOZmEd-5YeUvCnM2dQ" output="_o_66AN_dEd6Mcf1pX1YeQA">
+            <presentation xmi:id="-2vFIZl_RUlIKS80C2znfJg" href="uma://-2vFIZl_RUlIKS80C2znfJg#-2vFIZl_RUlIKS80C2znfJg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="__7PqYOXVEd-o7-eCfuNF5g" name="architecture_model.assign" guid="__7PqYOXVEd-o7-eCfuNF5g" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_vIqTYOG2Ed-AyrTFSpVP8g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_fLlocPPaEd-GtPTRjkeUMg" name="system_architect.assign" guid="_fLlocPPaEd-GtPTRjkeUMg" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ze8C8N_eEd6Mcf1pX1YeQA" name="Step 2. SoaML, SysML, MATLAB or Modelica Design in PIM Layer" guid="_Ze8C8N_eEd6Mcf1pX1YeQA" briefDescription="In this section we will give a guide of how to model the target system in platform independent model layer. In this layer, how to model the logical system stuffs like technology service, components, interfaces, message and Data will be presented. The usages of Model Driven Architecture Technology and related Modeling languages like SoaML and SysML in PIM layer design will mainly satisfy the requirements from “Architecture Modeling” and “Service Modeling” aspects.&#xD;&#xA;&#xD;&#xA;The models used in this layer include structure diagrams from like block definition diagram, internal block diagram, parametric diagram and package diagram, and service specification from SoaML. MATLAB/ Modelica model is also used here to give the mathematic functionality support for target scientific software. The following sub section will give introduction of these modeling diagrams.&#xD;&#xA;">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_gIz58N_eEd6Mcf1pX1YeQA" name="define_structure_diagram" guid="_gIz58N_eEd6Mcf1pX1YeQA" presentationName="Define structure diagram" performedBy="_XQIDsOZmEd-5YeUvCnM2dQ" output="_ulu2gN_eEd6Mcf1pX1YeQA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jLavUN_eEd6Mcf1pX1YeQA" name="service_specification" guid="_jLavUN_eEd6Mcf1pX1YeQA" presentationName="Service specification" performedBy="_XQIDsOZmEd-5YeUvCnM2dQ" output="_xj3bkN_eEd6Mcf1pX1YeQA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_mtUv0N_eEd6Mcf1pX1YeQA" name="define_logical_architecture" guid="_mtUv0N_eEd6Mcf1pX1YeQA" presentationName="Define logical architecture" performedBy="_XQIDsOZmEd-5YeUvCnM2dQ" output="_0M_Z8N_eEd6Mcf1pX1YeQA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_qo2xQN_eEd6Mcf1pX1YeQA" name="define_matlab_or_modelica_mathematical_model" guid="_qo2xQN_eEd6Mcf1pX1YeQA" presentationName="Define MATLAB or Modelica Mathematical Model" performedBy="_XQIDsOZmEd-5YeUvCnM2dQ" output="_3-ZPAN_eEd6Mcf1pX1YeQA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ulu2gN_eEd6Mcf1pX1YeQA" name="structure_diagram" guid="_ulu2gN_eEd6Mcf1pX1YeQA" presentationName="Structure diagram" briefDescription="Structure diagram from SysML describe the hierarchy and interconnection between system structures. These diagrams include block definition diagram, internal block diagram, parametric diagram and package diagram.">
+            <presentation xmi:id="-2qzhgF8WLJNO2xkgrr3HIw" href="uma://-2qzhgF8WLJNO2xkgrr3HIw#-2qzhgF8WLJNO2xkgrr3HIw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_xj3bkN_eEd6Mcf1pX1YeQA" name="service_specification" guid="_xj3bkN_eEd6Mcf1pX1YeQA" presentationName="Service Specification" briefDescription="Service specification from SoaML specifies how services are provided or implemented. Service Interfaces are used here. Service interface allows specifying services in SoaML. It can specify the use and provision of operations between the service consumer and the service provider. This is done through the realization and usage of regular UML Interfaces by the Service Interface.">
+            <presentation xmi:id="-Hth99uVh5o-njXkD_oku-A" href="uma://-Hth99uVh5o-njXkD_oku-A#-Hth99uVh5o-njXkD_oku-A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0M_Z8N_eEd6Mcf1pX1YeQA" name="logical_architecture" guid="_0M_Z8N_eEd6Mcf1pX1YeQA" presentationName="Logical Architecture" briefDescription="&lt;TBD>">
+            <presentation xmi:id="-KJDCOS5a07_t72qYVTAD1A" href="uma://-KJDCOS5a07_t72qYVTAD1A#-KJDCOS5a07_t72qYVTAD1A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_3-ZPAN_eEd6Mcf1pX1YeQA" name="matlab_or_modelica_mathematical_model" guid="_3-ZPAN_eEd6Mcf1pX1YeQA" presentationName="MATLAB or Modelica Mathematical Model" briefDescription="Modelica can be used to define equations and mathematical functions. We can use Modelica to model some algorithms and integrated these models to our scientific software. ">
+            <presentation xmi:id="-AMBftJiYLx7jBrjoQCR0BQ" href="uma://-AMBftJiYLx7jBrjoQCR0BQ#-AMBftJiYLx7jBrjoQCR0BQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_OQ0T8PPbEd-GtPTRjkeUMg" name="system_architect.assign" guid="_OQ0T8PPbEd-GtPTRjkeUMg" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_mQeN3eJ-Ed-Knc6oCYT2Zw" name="CapabilityPatterns" guid="_mQeN3eJ-Ed-Knc6oCYT2Zw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cntrEOZ0Ed-5YeUvCnM2dQ" name="mathematica_systems_engineering" guid="_cntrEOZ0Ed-5YeUvCnM2dQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_YFTP0OZ0Ed-5YeUvCnM2dQ" href="uma://_YFTP0OZ0Ed-5YeUvCnM2dQ#_YFTP0OZ0Ed-5YeUvCnM2dQ"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_YFTP0uZ0Ed-5YeUvCnM2dQ" href="uma://_YFTP0uZ0Ed-5YeUvCnM2dQ#_YFTP0uZ0Ed-5YeUvCnM2dQ"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_mQeN3uJ-Ed-Knc6oCYT2Zw" name="DeliveryProcesses" guid="_mQeN3uJ-Ed-Knc6oCYT2Zw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_mQeN3-J-Ed-Knc6oCYT2Zw" name="ProcessContributions" guid="_mQeN3-J-Ed-Knc6oCYT2Zw"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_yLWzUNxbEd-LYKXkOhPACw#_yLWzUNxbEd-LYKXkOhPACw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

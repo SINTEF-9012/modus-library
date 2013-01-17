@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-CYDHbD2eXc8cDP9x4f8h8g" name=",_vsNOUHzhEd6XdpY1gOeKuQ" guid="-CYDHbD2eXc8cDP9x4f8h8g" authors="Christian Hahn" changeDate="2009-07-30T10:20:44.327+0200" changeDescription="Initial input" version="0.1">
+  <mainDescription>Interactions in PIM4Agents define the message exchange between parties</mainDescription>
+  <sections xmi:id="_-qfykHzhEd6XdpY1gOeKuQ" name="Define Actors" guid="_-qfykHzhEd6XdpY1gOeKuQ">
+    <sectionDescription>&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Define the name of the Actor&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Define feasible specialiaztions of the Actor&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Define required/provided Capabilities&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Define required/provided Resrouces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Define conflicts&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></sectionDescription>
+  </sections>
+  <sections xmi:id="__mjLIHzhEd6XdpY1gOeKuQ" name="Define the message exchange between Actors" guid="__mjLIHzhEd6XdpY1gOeKuQ">
+    <sectionDescription>&lt;ol>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Define ACLMessages that are exchanged between the Actors&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Define the MessageFlow (i.e. states) in which an Actor either receives or sends&#xD;
+            ACLMessages&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Define the MessageScopes which specify the order in which ACLMessages are&#xD;
+            sent/received within a MessageFlow&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Define TimeOuts to declare the time constraints for sending and receiving&#xD;
+            messages and how to continue in the case of a &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>TimeOut&lt;/font>&lt;/font>&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&lt;br align=&quot;left&quot; />&#xD;
+&lt;br />&#xD;
+&lt;br align=&quot;left&quot; />&#xD;
+&lt;br /></sectionDescription>
+  </sections>
+  <purpose>Create the forms of interactions within Organizations</purpose>
+</org.eclipse.epf.uma:TaskDescription>

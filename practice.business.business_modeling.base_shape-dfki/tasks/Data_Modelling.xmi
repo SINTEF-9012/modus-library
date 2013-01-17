@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-50r32z77vrwDjhmbsd6ZTQ" name=",_bWYjEDHrEd-vZ-Nkdj4ADg" guid="-50r32z77vrwDjhmbsd6ZTQ" changeDate="2010-03-17T18:49:25.544+0100" changeDescription="0.1: Initial outline." version="0.1">
+  <mainDescription>&lt;p>&#xD;
+    This method defines the guided procedure for modelling business&amp;nbsp;data in BPMN.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;data model is used for the&amp;nbsp;data structure in a business process. Its built to organize the structure.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An additional feature is the possibility to define private and public views. Here you can define which workgroups can&#xD;
+    see which elements. In the private view there are only a few elements shown. Only these elements which are contained by&#xD;
+    the related lane.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_3TrCcDHtEd-vZ-Nkdj4ADg" name="1. Create a Data Diagram" guid="_3TrCcDHtEd-vZ-Nkdj4ADg">
+    <sectionDescription>&lt;p>&#xD;
+    Will be used for further description.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Create a new&amp;nbsp;data diagram.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Ewd-wDHuEd-vZ-Nkdj4ADg" name="2. Define your main data units." guid="_Ewd-wDHuEd-vZ-Nkdj4ADg">
+    <sectionDescription>&lt;p>&#xD;
+    Create data objects.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Therefore use the toolbar and put the elements per drag&amp;amp;drop in your diagram.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Use connections to show the membership of the elements.&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br />&#xD;
+In addition use attributes to model your data elements more precise.</sectionDescription>
+  </sections>
+  <purpose>To identify and define the business&amp;nbsp;data&amp;nbsp;the software services are to support.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

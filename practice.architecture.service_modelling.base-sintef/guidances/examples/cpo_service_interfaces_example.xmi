@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-opMS3QqfxSlPWYgzWRzGvA" name="new_example,_F-_zQL50EeC6xe88PkUYHA" guid="-opMS3QqfxSlPWYgzWRzGvA">
+  <mainDescription>&lt;h3>&#xD;
+    Cell Phone Operator (CPO): Service interfaces&#xD;
+&lt;/h3>&#xD;
+The required and provided interfaces are refinements of the interface types of the consumer and provider roles defined in&#xD;
+the service contracts. However, in the service contracts these interfaces were primarily defined as business-level&#xD;
+interfaces. These interfaces can be refined directly, or possibly mapped to a new set of interfaces that will be used to&#xD;
+detail the IT-level artefacts. Figure 14 shows such a refinement, where each service contract maps to a corresponding&#xD;
+service interface with a new set of consumer and provider interface types. These interfaces will be used to further detail&#xD;
+the specification for the software components (see hereafter).&lt;br />&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/cpo_service_interfaces_example.png&quot; width=&quot;574&quot; height=&quot;600&quot; />&lt;br />&#xD;
+    &lt;strong>Figure 14:&lt;/strong> Service interfaces (UML class diagram)&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-6C_iBn2v1Or3SPq-S7Cq8Q" name="xtrailer_example_activities,_qG0SACf0EeKbT_45B08XTA" guid="-6C_iBn2v1Or3SPq-S7Cq8Q" changeDate="2012-11-12T11:54:09.450+0100">
+  <mainDescription>&lt;h3>&#xD;
+    XTrailer: Activities&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    We now revisit the XTrailer business network collaboration. Its role collaboration view, or “value network” view was&#xD;
+    already represented by the model view mockup in Figure 13. Figure 42 provides a model view mockup of its activity&#xD;
+    network.&#xD;
+&lt;/p>&#xD;
+&lt;img alt=&quot;&quot; src=&quot;resources/vdml_figure42.png&quot; width=&quot;486&quot; height=&quot;196&quot; />&lt;br />&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 42. Business network’s activity network mockup&lt;br />&#xD;
+    &lt;/strong>&lt;br />&#xD;
+    Note that both the role collaboration view, and the activity network view are views on the same underlying model.&#xD;
+    Figure 43 combines both the view in one picture, for convenience and ease of recognition.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/vdml_figure43.png&quot; width=&quot;531&quot; height=&quot;319&quot; />&lt;br />&#xD;
+    &lt;br />&#xD;
+    &lt;strong>Figure 43. Business network: role collaboration versus activity network&lt;br />&#xD;
+    &lt;/strong>&lt;br />&#xD;
+    Roles, in one view represented as ovals, in the other as swim lanes, are the same. Four out of five deliverable flows&#xD;
+    exposed in both views. The activity network view is providing detail that is abstracted away in the role collaboration&#xD;
+    view. These details are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Activities of the business network. Note that business networks, as any collaboration, can contain activities.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Stores that are owned by the organization that fills the Manufacturer party role. Though the Idea flow into the&#xD;
+        Ideas store, and the Order flow into the Orders store are shown in the role collaboration view, the stores&#xD;
+        themselves aren’t. These store inputs are “handled” under the responsibility of the Manufacturer role in the&#xD;
+        business network collaboration. The Ideas store is owned by R&amp;amp;D and the Orders store by S&amp;amp;D, both being&#xD;
+        organization units that are part of MyCompany.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The deliverable flow of Order, from the Orders store to the Manage Fulfillment activity.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Two activities, “Manage Innovation” and “Manage fulfillment”, are represented by a rectangle shape that contains an&#xD;
+    “expansion button” (a small box with “+” sign in it), in Figure 42. These activities “delegate” their work to another&#xD;
+    collaboration, as will be discussed below. Basically these activities represent the use of sub-collaborations, in the&#xD;
+    context of the business network collaboration.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

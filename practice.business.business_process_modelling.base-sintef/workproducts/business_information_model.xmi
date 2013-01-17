@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Ml-SUJjnKmbIEJ2XnuF9pA" name="business_information_model,_xQIN4OEAEd-uaoNIhpFKqA" guid="-Ml-SUJjnKmbIEJ2XnuF9pA" changeDate="2011-08-12T12:54:21.557+0200">
+  <mainDescription>&lt;p>&#xD;
+    The Business information model&amp;nbsp;identifies and defines the main things (and concepts) of the domain that are&#xD;
+    relevant to the Product, these being, in general, those things that do things in the business (including the Product&#xD;
+    itself), and those things that have things done to or with them, and details the relationships between these concepts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Product comprises a complete and consistent set of models for the Product, namely Business Model, Requirements Model,&#xD;
+    Architecture Model and one or more Platform Specific Model together with the corresponding Executables.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Business Resource Model takes the form of a UML class model as part of the PIM for the Product (see the example&#xD;
+    model structure). In cases where it is useful it may be accompanied by state machine models for any of the resources&#xD;
+    modelled.&#xD;
+&lt;/p></mainDescription>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To define the main concepts of the domain relevant to the system under consideration.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To type the business information elements and possibly formalize them further, e.g., define attributes. It may be&#xD;
+        sufficient to just type the business information and relate it to a specific standard.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  <representation>Class diagram that describes the business information.</representation>
+  <notation>&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../practice.business.business_process_modelling.base-sintef/guidances/guidelines/bpmn_guidance_8B5E1EB4.html&quot;&#xD;
+         guid=&quot;_IDtNEMNCEeCGkIgyjTMixA&quot;>Business Process Model and Notation (BPMN)&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        UML class model, accompanied by one or more class diagrams that describes the business information.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        UML state machines&amp;nbsp;&amp;nbsp;&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></notation>
+</org.eclipse.epf.uma:ArtifactDescription>

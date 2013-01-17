@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_duNyoOXQEd-o7-eCfuNF5g" guid="_duNyoOXQEd-o7-eCfuNF5g">
+    <resourceDescriptors xmi:id="_duOZsOXQEd-o7-eCfuNF5g" id="-BFJAzKuqLljh_nSn0x6GVw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_j3znEOXQEd-o7-eCfuNF5g" id="-lxJfbhdANy8kvXfHqwSEpw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_j334gOXQEd-o7-eCfuNF5g" id="-0sn8wsF80WpsJvWl2EDf1Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_j4JlUOXQEd-o7-eCfuNF5g" id="-rtVXuMpbNosRFKNnNiIm5g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_-Y_KQOXREd-o7-eCfuNF5g" id="-Dj9vm-icrAIxAGH6HZK-mw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_-ZKJYOXREd-o7-eCfuNF5g" id="-J0TwXocz30ARUH9tuNHa_w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_-ZT6YOXREd-o7-eCfuNF5g" id="-wgAxG_hQ0q43RH95lIMg5g" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_ds8nUOXQEd-o7-eCfuNF5g" name="saas_platform_deployment" guid="_ds8nUOXQEd-o7-eCfuNF5g">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_iE9wcOXQEd-o7-eCfuNF5g" name="choose_saas_platform" guid="_iE9wcOXQEd-o7-eCfuNF5g" presentationName="Choose SaaS platform" briefDescription="&lt;TBD>" superActivities="_ds8nUeXQEd-o7-eCfuNF5g" linkToPredecessor="_ddQBoOXUEd-o7-eCfuNF5g" output="_7z27EeXREd-o7-eCfuNF5g" performedPrimarilyBy="_PYljgdVXEeCSuohv1oAxXQ">
+      <presentation xmi:id="-lxJfbhdANy8kvXfHqwSEpw" href="uma://-BFJAzKuqLljh_nSn0x6GVw#-lxJfbhdANy8kvXfHqwSEpw"/>
+      <Task href="uma://_y_ytQOHHEd-AyrTFSpVP8g#_CFQYAN_kEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_idKOAOXQEd-o7-eCfuNF5g" name="choose_web_service_framework" guid="_idKOAOXQEd-o7-eCfuNF5g" presentationName="Choose Web service framework" briefDescription="This describes how to choose the Web service framework." superActivities="_ds8nUeXQEd-o7-eCfuNF5g" output="_7z5XUeXREd-o7-eCfuNF5g" performedPrimarilyBy="_PYljgdVXEeCSuohv1oAxXQ">
+      <presentation xmi:id="-0sn8wsF80WpsJvWl2EDf1Q" href="uma://-BFJAzKuqLljh_nSn0x6GVw#-0sn8wsF80WpsJvWl2EDf1Q"/>
+      <Task href="uma://_y_ytQOHHEd-AyrTFSpVP8g#_3ez9wN_jEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_iwGYIOXQEd-o7-eCfuNF5g" name="choose_web_service_server" guid="_iwGYIOXQEd-o7-eCfuNF5g" presentationName="Choose Web service server" briefDescription="This describes how to choose the Web service server." superActivities="_ds8nUeXQEd-o7-eCfuNF5g" linkToPredecessor="_c7IMAOXUEd-o7-eCfuNF5g" output="_7z7MgeXREd-o7-eCfuNF5g" performedPrimarilyBy="_PYljgdVXEeCSuohv1oAxXQ">
+      <presentation xmi:id="-rtVXuMpbNosRFKNnNiIm5g" href="uma://-BFJAzKuqLljh_nSn0x6GVw#-rtVXuMpbNosRFKNnNiIm5g"/>
+      <Task href="uma://_y_ytQOHHEd-AyrTFSpVP8g#_67fgAN_jEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_7z27EeXREd-o7-eCfuNF5g" name="saas_platform" guid="_7z27EeXREd-o7-eCfuNF5g" presentationName="SaaS platform" briefDescription="&lt;TBD>" isPlanned="false" superActivities="_ds8nUeXQEd-o7-eCfuNF5g">
+      <methodElementProperty xmi:id="_7z27EuXREd-o7-eCfuNF5g" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-Dj9vm-icrAIxAGH6HZK-mw" href="uma://-BFJAzKuqLljh_nSn0x6GVw#-Dj9vm-icrAIxAGH6HZK-mw"/>
+      <WorkProduct href="uma://_y_ytQOHHEd-AyrTFSpVP8g#_VvBj8OXPEd-o7-eCfuNF5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_7z5XUeXREd-o7-eCfuNF5g" name="web_service_framework" guid="_7z5XUeXREd-o7-eCfuNF5g" presentationName="Web service framework" briefDescription="&lt;TBD>" isPlanned="false" superActivities="_ds8nUeXQEd-o7-eCfuNF5g">
+      <methodElementProperty xmi:id="_7z5XUuXREd-o7-eCfuNF5g" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-J0TwXocz30ARUH9tuNHa_w" href="uma://-BFJAzKuqLljh_nSn0x6GVw#-J0TwXocz30ARUH9tuNHa_w"/>
+      <WorkProduct href="uma://_y_ytQOHHEd-AyrTFSpVP8g#_RpfAAOXREd-o7-eCfuNF5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_7z7MgeXREd-o7-eCfuNF5g" name="web_service_server" guid="_7z7MgeXREd-o7-eCfuNF5g" presentationName="Web service server" briefDescription="&lt;TBD>" isPlanned="false" superActivities="_ds8nUeXQEd-o7-eCfuNF5g">
+      <methodElementProperty xmi:id="_7z7MguXREd-o7-eCfuNF5g" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-wgAxG_hQ0q43RH95lIMg5g" href="uma://-BFJAzKuqLljh_nSn0x6GVw#-wgAxG_hQ0q43RH95lIMg5g"/>
+      <WorkProduct href="uma://_y_ytQOHHEd-AyrTFSpVP8g#_VSo4AOXREd-o7-eCfuNF5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_c7IMAOXUEd-o7-eCfuNF5g" guid="_c7IMAOXUEd-o7-eCfuNF5g" pred="_idKOAOXQEd-o7-eCfuNF5g"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_ddQBoOXUEd-o7-eCfuNF5g" guid="_ddQBoOXUEd-o7-eCfuNF5g" pred="_iwGYIOXQEd-o7-eCfuNF5g"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_PYljgdVXEeCSuohv1oAxXQ" name="platform_specialist" guid="_PYljgdVXEeCSuohv1oAxXQ" presentationName="Platform specialist" isPlanned="false" superActivities="_ds8nUeXQEd-o7-eCfuNF5g" modifies="_7z27EeXREd-o7-eCfuNF5g _7z5XUeXREd-o7-eCfuNF5g _7z7MgeXREd-o7-eCfuNF5g" responsibleFor="_7z7MgeXREd-o7-eCfuNF5g _7z5XUeXREd-o7-eCfuNF5g _7z27EeXREd-o7-eCfuNF5g">
+      <methodElementProperty xmi:id="_PYljgtVXEeCSuohv1oAxXQ" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_bdM20NxPEd-LYKXkOhPACw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_ds8nUeXQEd-o7-eCfuNF5g" name="saas_platform_deployment" guid="_ds8nUeXQEd-o7-eCfuNF5g" presentationName="SaaS platform deployment" briefDescription="This capability pattern describes a baseline workflow for how To choose the Web service framework and Software-as-a-Service platform to use for deploying the software services. &#xD;&#xA;" breakdownElements="_iE9wcOXQEd-o7-eCfuNF5g _idKOAOXQEd-o7-eCfuNF5g _iwGYIOXQEd-o7-eCfuNF5g _7z27EeXREd-o7-eCfuNF5g _7z5XUeXREd-o7-eCfuNF5g _7z7MgeXREd-o7-eCfuNF5g _PYljgdVXEeCSuohv1oAxXQ">
+      <presentation xmi:id="-BFJAzKuqLljh_nSn0x6GVw" href="uma://-BFJAzKuqLljh_nSn0x6GVw#-BFJAzKuqLljh_nSn0x6GVw"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_x7mTYPPxEd-aSLmU6PqmFQ"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_x7mTYPPxEd-aSLmU6PqmFQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_glVaMq3TEd6jJcdBhS8YNw" guid="_glVaMq3TEd6jJcdBhS8YNw">
+    <resourceDescriptors xmi:id="_glVaM63TEd6jJcdBhS8YNw" id="-nmt1PPe4pE1Ok5MaXIHWwQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_gk4uQK3TEd6jJcdBhS8YNw" name="SWS_Requirements" guid="_gk4uQK3TEd6jJcdBhS8YNw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gk4uYa3TEd6jJcdBhS8YNw" name="SWS requirement gathering" guid="_gk4uYa3TEd6jJcdBhS8YNw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_gk4uYq3TEd6jJcdBhS8YNw" name="SWS requirement gathering" guid="_gk4uYq3TEd6jJcdBhS8YNw" presentationName="SWS requirement gathering" superActivities="_gk4uQa3TEd6jJcdBhS8YNw" breakdownElements="_gk4uZq3TEd6jJcdBhS8YNw _gk4uZa3TEd6jJcdBhS8YNw _gk4uY63TEd6jJcdBhS8YNw _ybEgcPqlEd68-aqICre0mw _ybEgcfqlEd68-aqICre0mw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_gk4uZq3TEd6jJcdBhS8YNw" name="identify_needs_for_SWS" guid="_gk4uZq3TEd6jJcdBhS8YNw" presentationName="Identify the need for Semantic Web Services" briefDescription="Identify the need for Semantic Web Services." superActivities="_gk4uYq3TEd6jJcdBhS8YNw" output="_ybEgcPqlEd68-aqICre0mw" performedPrimarilyBy="_gk4uZa3TEd6jJcdBhS8YNw">
+        <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_f48AgKjsEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-8KemPBrOQk4YruXbvdxzEQ#_dMeIUKjuEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-8KemPBrOQk4YruXbvdxzEQ#_ftsH4KjuEd6RxrScOu9Dlg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_gk4uZa3TEd6jJcdBhS8YNw" name="Analyst" guid="_gk4uZa3TEd6jJcdBhS8YNw" presentationName="Analyst" briefDescription="This worker is mainly involved in the processes related to the requirements of the customers. " isPlanned="false" superActivities="_gk4uYq3TEd6jJcdBhS8YNw" modifies="_ybEgcfqlEd68-aqICre0mw _ybEgcPqlEd68-aqICre0mw">
+        <methodElementProperty xmi:id="_kCReINeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://_kwazABFxEd6C2PqX2OSy5A#_gIpisBntEd6VV7P4WguglA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_gk4uY63TEd6jJcdBhS8YNw" name="gather_requirements_for_SWS" guid="_gk4uY63TEd6jJcdBhS8YNw" presentationName="Gather requirements for Semantic Web Services" briefDescription="Gather requirements for Semantic Web Services" superActivities="_gk4uYq3TEd6jJcdBhS8YNw" mandatoryInput="_ybEgcPqlEd68-aqICre0mw" output="_ybEgcfqlEd68-aqICre0mw" performedPrimarilyBy="_gk4uZa3TEd6jJcdBhS8YNw">
+        <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_hy59YKjtEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-p1VP_JW51gpt1jCTq1uJLw#_sn5UgKjuEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-p1VP_JW51gpt1jCTq1uJLw#_udj1oKjuEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-p1VP_JW51gpt1jCTq1uJLw#_yHQgMKjuEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-p1VP_JW51gpt1jCTq1uJLw#_4qPFAKjuEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-p1VP_JW51gpt1jCTq1uJLw#_88oHQKjuEd6RxrScOu9Dlg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ybEgcPqlEd68-aqICre0mw" name="SWS_business_requirements" guid="_ybEgcPqlEd68-aqICre0mw" presentationName="Semantic Web Service Business Requirements" briefDescription="Semantic Web Service Business Requirements." isPlanned="false" superActivities="_gk4uYq3TEd6jJcdBhS8YNw">
+        <methodElementProperty xmi:id="_kCReIteMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_VgmRUrJ8Ed6WTpR2FpAgWw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ybEgcfqlEd68-aqICre0mw" name="SWS_requirements_1" guid="_ybEgcfqlEd68-aqICre0mw" presentationName="Semantic Web Service Requirements Specification_1" briefDescription="Semantic Web Service Requirements Specification." isPlanned="false" superActivities="_gk4uYq3TEd6jJcdBhS8YNw">
+        <methodElementProperty xmi:id="_kCReI9eMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_VgmRU7J8Ed6WTpR2FpAgWw"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_gk4uQa3TEd6jJcdBhS8YNw" name="SWS_Requirements" guid="_gk4uQa3TEd6jJcdBhS8YNw" presentationName="SWS requirement gathering" briefDescription="Capability pattern for the requirement gathering activitiy of MEMOS." breakdownElements="_gk4uYq3TEd6jJcdBhS8YNw">
+      <methodElementProperty xmi:id="_kCSsQNeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-nmt1PPe4pE1Ok5MaXIHWwQ" href="uma://-nmt1PPe4pE1Ok5MaXIHWwQ#-nmt1PPe4pE1Ok5MaXIHWwQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

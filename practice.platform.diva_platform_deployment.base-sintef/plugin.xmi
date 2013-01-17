@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_QSj3cfJVEd-FpZGj9I_2_g" guid="_QSj3cfJVEd-FpZGj9I_2_g">
+    <subManagers xmi:id="_eSvXQQeWEeCk4NIWYgM-Lg" href="uma://_eR_wYAeWEeCk4NIWYgM-Lg#_eSvXQQeWEeCk4NIWYgM-Lg"/>
+    <resourceDescriptors xmi:id="_eSI6UAeWEeCk4NIWYgM-Lg" id="_eR_wYAeWEeCk4NIWYgM-Lg" uri="capabilitypatterns/deployment/model.xmi"/>
+    <resourceDescriptors xmi:id="_rupRYQzpEeC0l9qo9DKfjQ" id="-a_I16IBUhMG-_OfI8aHKVw" uri="guidances/practices/diva_deployment.xmi"/>
+    <resourceDescriptors xmi:id="_fItPIQzqEeC0l9qo9DKfjQ" id="-r6WrXRrGdbdeykJ09ugfhg" uri="tasks/generate_code.xmi"/>
+    <resourceDescriptors xmi:id="_yZvIAQz3EeC0l9qo9DKfjQ" id="-08rAjQwzxI82K75KmLEVMw" uri="tasks/select_runtime_reasoner.xmi"/>
+    <resourceDescriptors xmi:id="_7V4uMQz4EeC0l9qo9DKfjQ" id="-aBByDlWO8f2Ukb70tVfivQ" uri="tasks/deploy_and_execute.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_QSaGcPJVEd-FpZGj9I_2_g" name="practice.platform.diva_platform_deployment.base-sintef" guid="_QSaGcPJVEd-FpZGj9I_2_g" briefDescription="This plugin contains the DIVA platform deployment practice." authors="Vegard Dehlen (SINTEF), Brian Elvesæter (SINTEF)" changeDate="2011-06-21T14:27:55.805+0200">
+    <methodElementProperty xmi:id="_QSj3c_JVEd-FpZGj9I_2_g" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QSaGcfJVEd-FpZGj9I_2_g" name="Content" guid="_QSaGcfJVEd-FpZGj9I_2_g">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QSaGcvJVEd-FpZGj9I_2_g" name="Categories" guid="_QSaGcvJVEd-FpZGj9I_2_g">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QSaGc_JVEd-FpZGj9I_2_g" name="Domains" guid="_QSaGc_JVEd-FpZGj9I_2_g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QSaGdPJVEd-FpZGj9I_2_g" name="Disciplines" guid="_QSaGdPJVEd-FpZGj9I_2_g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QSaGdfJVEd-FpZGj9I_2_g" name="RoleSets" guid="_QSaGdfJVEd-FpZGj9I_2_g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QSaGdvJVEd-FpZGj9I_2_g" name="WP Types" guid="_QSaGdvJVEd-FpZGj9I_2_g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QSaGd_JVEd-FpZGj9I_2_g" name="Tools" guid="_QSaGd_JVEd-FpZGj9I_2_g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QSaGePJVEd-FpZGj9I_2_g" name="StandardCategories" guid="_QSaGePJVEd-FpZGj9I_2_g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QSaGefJVEd-FpZGj9I_2_g" name="CustomCategories" guid="_QSaGefJVEd-FpZGj9I_2_g">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QSaGevJVEd-FpZGj9I_2_g" name="Hidden" guid="_QSaGevJVEd-FpZGj9I_2_g">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_QSaGe_JVEd-FpZGj9I_2_g" name="Custom Categories" guid="_QSaGe_JVEd-FpZGj9I_2_g"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QSaGfPJVEd-FpZGj9I_2_g" name="CoreContent" guid="_QSaGfPJVEd-FpZGj9I_2_g">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_VyXvEPJVEd-FpZGj9I_2_g" name="deployment" guid="_VyXvEPJVEd-FpZGj9I_2_g" presentationName="Deployment" briefDescription="How to deploy the DiVA adaptation logic and architecture models on the DiVA runtime OSGi platform.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0pX4cPJVEd-FpZGj9I_2_g" name="OSGi_factories" guid="_0pX4cPJVEd-FpZGj9I_2_g" presentationName="OSGi factories" briefDescription="An OSGi factory is a code skeleton from the component types, for the OSGi runtime."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_TVpYgPJWEd-FpZGj9I_2_g" name="deployed_diva_system" guid="_TVpYgPJWEd-FpZGj9I_2_g" presentationName="Deployed DiVA system" deliveredWorkProducts="_0pX4cPJVEd-FpZGj9I_2_g _1g7OsPJZEd-FpZGj9I_2_g"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_7_iYQPJWEd-FpZGj9I_2_g" name="generate_code" guid="_7_iYQPJWEd-FpZGj9I_2_g" presentationName="Generate code" briefDescription="This task details how to perpare the component types and use them to generate code skeletons for the OSGi runtime." performedBy="_lHt1cAQ9EeCKOY6tSwZy2A" output="_0pX4cPJVEd-FpZGj9I_2_g">
+            <presentation xmi:id="-r6WrXRrGdbdeykJ09ugfhg" href="uma://-r6WrXRrGdbdeykJ09ugfhg#-r6WrXRrGdbdeykJ09ugfhg"/>
+            <mandatoryInput href="uma://_ijALQO5rEd-0xPxjwuNm4A#_PKMBgPJSEd-FpZGj9I_2_g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_p4_0MPJXEd-FpZGj9I_2_g" name="select_runtime_reasoner" guid="_p4_0MPJXEd-FpZGj9I_2_g" presentationName="Select runtime reasoner" briefDescription="An important part of developing an adaptive system is to select a good reasoner and reasoning strategy. The adaptation reasoning framework provides reasoning on the adaptation model to get valid configurations for a given context scenario. " performedBy="_lHt1cAQ9EeCKOY6tSwZy2A" output="_1g7OsPJZEd-FpZGj9I_2_g">
+            <presentation xmi:id="-08rAjQwzxI82K75KmLEVMw" href="uma://-08rAjQwzxI82K75KmLEVMw#-08rAjQwzxI82K75KmLEVMw"/>
+            <mandatoryInput href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_X1NuoOzFEd--R6Ia0d6GOQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_BYiAwPJYEd-FpZGj9I_2_g" name="deploy_and_execute" guid="_BYiAwPJYEd-FpZGj9I_2_g" presentationName="Deploy the OSGi factories and DiVA runtime" briefDescription="This task describes how to deploy the OSGi factories and DiVA@Runtime. In other words, it explains how to deploy the DiVA components responsible for the dynamic adaptations of the business application." performedBy="_lHt1cAQ9EeCKOY6tSwZy2A" output="_TVpYgPJWEd-FpZGj9I_2_g">
+            <presentation xmi:id="-aBByDlWO8f2Ukb70tVfivQ" href="uma://-aBByDlWO8f2Ukb70tVfivQ#-aBByDlWO8f2Ukb70tVfivQ"/>
+            <mandatoryInput href="#_0pX4cPJVEd-FpZGj9I_2_g"/>
+            <mandatoryInput href="#_1g7OsPJZEd-FpZGj9I_2_g"/>
+            <mandatoryInput href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_X1NuoOzFEd--R6Ia0d6GOQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_1g7OsPJZEd-FpZGj9I_2_g" name="adaptation_reasoner" guid="_1g7OsPJZEd-FpZGj9I_2_g" presentationName="Adaptation_reasoner" briefDescription="Which of the available reasoners to use during runtime."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_4L-HkAOPEeCKOY6tSwZy2A" name="diva_deployment" guid="_4L-HkAOPEeCKOY6tSwZy2A" presentationName="DiVA - Deployment" contentReferences="_TVpYgPJWEd-FpZGj9I_2_g _0pX4cPJVEd-FpZGj9I_2_g _1g7OsPJZEd-FpZGj9I_2_g _7_iYQPJWEd-FpZGj9I_2_g _p4_0MPJXEd-FpZGj9I_2_g _BYiAwPJYEd-FpZGj9I_2_g">
+            <presentation xmi:id="-a_I16IBUhMG-_OfI8aHKVw" href="uma://-a_I16IBUhMG-_OfI8aHKVw#-a_I16IBUhMG-_OfI8aHKVw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_lHt1cAQ9EeCKOY6tSwZy2A" name="system_developer.assign" guid="_lHt1cAQ9EeCKOY6tSwZy2A" variabilityType="contributes" responsibleFor="_1g7OsPJZEd-FpZGj9I_2_g _TVpYgPJWEd-FpZGj9I_2_g _0pX4cPJVEd-FpZGj9I_2_g">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJxhntEd6VV7P4WguglA"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_QSaGffJVEd-FpZGj9I_2_g" name="CapabilityPatterns" guid="_QSaGffJVEd-FpZGj9I_2_g">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_eR_wYAeWEeCk4NIWYgM-Lg" href="uma://_eR_wYAeWEeCk4NIWYgM-Lg#_eR_wYAeWEeCk4NIWYgM-Lg"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_QSaGfvJVEd-FpZGj9I_2_g" name="DeliveryProcesses" guid="_QSaGfvJVEd-FpZGj9I_2_g"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_QSaGf_JVEd-FpZGj9I_2_g" name="ProcessContributions" guid="_QSaGf_JVEd-FpZGj9I_2_g"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_ijALQO5rEd-0xPxjwuNm4A#_ijALQO5rEd-0xPxjwuNm4A"/>
+    <bases href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_XSYj0OzEEd--R6Ia0d6GOQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

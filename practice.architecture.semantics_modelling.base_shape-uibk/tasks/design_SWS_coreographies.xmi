@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Aq4zPFeZAwMRjwLpIQsNvw" name="design_SWS_coreographies,_PWVQMKj0Ed6RxrScOu9Dlg" guid="-Aq4zPFeZAwMRjwLpIQsNvw" authors="Mick Kerrigan, Davide Cerri (UIBK)" changeDate="2009-09-25T09:38:06.525+0200" version="0.1">
+  <mainDescription>In this&amp;nbsp;task the designer should create a detailed design for the choreographies of each of the Web Services and Goals&#xD;
+in the high level architecture.</mainDescription>
+  <sections xmi:id="_gWVIUKkGEd6RxrScOu9Dlg" name="Design coreography" guid="_gWVIUKkGEd6RxrScOu9Dlg">
+    <sectionDescription>The aim of this&amp;nbsp;step is to build a dependancy diagram for the different operations, inputs, and outputs of the&#xD;
+service. Utilizing the requriements gathered in the Requirements Specification, the designer should create a dependancy&#xD;
+diagram for each of the choreographies identified in the high level architecture. For Web Service choreographies, the&#xD;
+dependancy diagram should capture the different operations on the service, their inputs, their outputs, and the&#xD;
+depenendancies that exist with other operations. Similarly for Goal choreographies, the dependancy diagram should capture&#xD;
+the expected operations on services, the inputs the requester is willing to send to them, the outputs the requester is&#xD;
+expecting to recieve from them, and any needed dependancies between the operations expected on the service. If the ontology&#xD;
+design activities have been conducted then the designer should utilize concepts from the ontologies when building the&#xD;
+dependancy diagram.</sectionDescription>
+  </sections>
+  <purpose>Design Semantic Web Services coreographies at PIM level, using the Semantic Web Service extension of&amp;nbsp;SoaML.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

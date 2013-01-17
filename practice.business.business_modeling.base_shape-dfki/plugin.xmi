@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__K5EoDvMEd6gtI8tb9yUjw" guid="__K5EoDvMEd6gtI8tb9yUjw">
+    <subManagers xmi:id="_M6SJIYi2Ed609piMjO-xvw" href="uma://_M2kGwIi2Ed609piMjO-xvw#_M6SJIYi2Ed609piMjO-xvw"/>
+    <subManagers xmi:id="_g6oSAYi2Ed609piMjO-xvw" href="uma://_g5b_MIi2Ed609piMjO-xvw#_g6oSAYi2Ed609piMjO-xvw"/>
+    <subManagers xmi:id="_tkQE8Yi2Ed609piMjO-xvw" href="uma://_tjDyIIi2Ed609piMjO-xvw#_tkQE8Yi2Ed609piMjO-xvw"/>
+    <subManagers xmi:id="_3niu0Yi2Ed609piMjO-xvw" href="uma://_3mDhEIi2Ed609piMjO-xvw#_3niu0Yi2Ed609piMjO-xvw"/>
+    <subManagers xmi:id="_Ha89MYi3Ed609piMjO-xvw" href="uma://_HZm5YIi3Ed609piMjO-xvw#_Ha89MYi3Ed609piMjO-xvw"/>
+    <subManagers xmi:id="_iNP3fTfnEd-oSL5BwIo5rg" href="uma://_eyeZUDfnEd-oSL5BwIo5rg#_iNP3fTfnEd-oSL5BwIo5rg"/>
+    <subManagers xmi:id="_OeCygDwOEd-wzrbdBPyHjA" href="uma://_MoVOEDwOEd-wzrbdBPyHjA#_OeCygDwOEd-wzrbdBPyHjA"/>
+    <resourceDescriptors xmi:id="_vgaHgT7nEd68tZwU2iDBmQ" id="-ZdyBJzoNpD8M1OpeXnzxYA" uri="tasks/Create%20Flow%20Element.xmi"/>
+    <resourceDescriptors xmi:id="_yIRXcD8wEd6JsOLMA2N-vw" id="-UsVdp1t568EPf4d7b74IGg" uri="tasks/Create%20Event(EPC%20View).xmi"/>
+    <resourceDescriptors xmi:id="_6cU4UD8wEd6JsOLMA2N-vw" id="-tagCSbm1xpHz0u4qxK0MhA" uri="tasks/Create%20Function.xmi"/>
+    <resourceDescriptors xmi:id="_2OZMYD89Ed6JsOLMA2N-vw" id="-9U0h08WPih5JiuM-lO62Aw" uri="tasks/Create%20(XOR)%20Connector(EPC%20View).xmi"/>
+    <resourceDescriptors xmi:id="_K_H5oD-cEd6BGMQMI2-1Sg" id="-Gf5spxwNpshWRajPkgVf-Q" uri="tasks/Create%20Connection.xmi"/>
+    <resourceDescriptors xmi:id="_s_F_ED-cEd6BGMQMI2-1Sg" id="-R6iydC15WFsCLOygWihIdw" uri="tasks/Create%20Flow%20Connection.xmi"/>
+    <resourceDescriptors xmi:id="_9HWCwD-hEd6BGMQMI2-1Sg" id="-TeOVUZqp9aFq6PRZWOGpjw" uri="tasks/Create%20(AND)%20Connector(EPC%20View).xmi"/>
+    <resourceDescriptors xmi:id="_XLQQkD-iEd6BGMQMI2-1Sg" id="-cA5thye98nGPcR9ekhD3DQ" uri="tasks/Create%20(OR)%20Connector(EPC%20View).xmi"/>
+    <resourceDescriptors xmi:id="_0ZIRQD-oEd6BGMQMI2-1Sg" id="-4AyvJG-Rebphi7rNfus-cg" uri="tasks/Create%20Message%20Connection.xmi"/>
+    <resourceDescriptors xmi:id="_0GYYwD_GEd6Ohaxp2PYTFg" id="-hNRVdNcN5IcmabyCHV01Eg" uri="tasks/Create%20Organisation(EPC%20View).xmi"/>
+    <resourceDescriptors xmi:id="_GOXR0D_HEd6Ohaxp2PYTFg" id="-JeK379p3PmovGPN7RCKlOA" uri="tasks/Create%20ApplicationSystem.xmi"/>
+    <resourceDescriptors xmi:id="_0EBL0D_HEd6Ohaxp2PYTFg" id="-4P4yoy4EHBKGrCWrclpo8A" uri="tasks/Create%20ResourceElement.xmi"/>
+    <resourceDescriptors xmi:id="_6JjNkD_xEd6OCv3eGs9Gwg" id="-0T5Vnr-uRTchEoQUco2mZg" uri="roles/User%202.xmi"/>
+    <resourceDescriptors xmi:id="_fsIosD_zEd6OCv3eGs9Gwg" id="-WU3COW8zEVMtDUFXtyBUjA" uri="tasks/Create%20Flow%20Object.xmi"/>
+    <resourceDescriptors xmi:id="_rfv7gEAFEd6CsaLEUcbP-Q" id="-cFkG9lXWrpPW0zRNDH4eHg" uri="tasks/Create%20Event(BPMN%20View).xmi"/>
+    <resourceDescriptors xmi:id="_wuDzcEAFEd6CsaLEUcbP-Q" id="-yd2MOj4gXVHuS4aW7fozxg" uri="tasks/Create%20Gateway.xmi"/>
+    <resourceDescriptors xmi:id="_6CfMMEAFEd6CsaLEUcbP-Q" id="-bROjQLC0hhSqYyvU6UMqNQ" uri="tasks/Create%20Activity.xmi"/>
+    <resourceDescriptors xmi:id="_VnJKkERlEd6rK5RiDPV2HA" id="-qc7liLS27iNQ48B96L6Aqg" uri="tasks/Create%20Connecting%20Object.xmi"/>
+    <resourceDescriptors xmi:id="_2iACEERlEd6rK5RiDPV2HA" id="-jnZNpWvmvcZMJVF6bywh1g" uri="tasks/Create%20Swimlanes.xmi"/>
+    <resourceDescriptors xmi:id="_EeuJsURoEd6rK5RiDPV2HA" id="-i9_1AuMx-9hC6JOk6utMkQ" uri="tasks/Create%20Pool.xmi"/>
+    <resourceDescriptors xmi:id="_uo7ssERoEd6rK5RiDPV2HA" id="-uEWfYcU36lznZiw_neokjA" uri="tasks/Create%20Lane.xmi"/>
+    <resourceDescriptors xmi:id="_5YnQoEYXEd6LIJ4mp_lkVg" id="-S3of54HfKm7aRsXxQOEzrQ" uri="tasks/Create%20Sequence%20Flow.xmi"/>
+    <resourceDescriptors xmi:id="_GdDIkEYeEd6LIJ4mp_lkVg" id="--XvUgm6R8MIxvQvxd6pulA" uri="tasks/Create%20Association.xmi"/>
+    <resourceDescriptors xmi:id="_Bkw5EEYgEd6LIJ4mp_lkVg" id="-q7rAL4oqj81qJFLPrrzZfQ" uri="tasks/Create%20Message%20Flow.xmi"/>
+    <resourceDescriptors xmi:id="_KLGiIEYzEd6LIJ4mp_lkVg" id="-pqE3qamwO7WON-48WTclew" uri="tasks/Create%20Artifact.xmi"/>
+    <resourceDescriptors xmi:id="_jtCrUEYzEd6LIJ4mp_lkVg" id="-Grm1cNqMoVSZWHwBMefNTw" uri="tasks/Create%20Data%20Object(BPMN%20View).xmi"/>
+    <resourceDescriptors xmi:id="_rJdZkEYzEd6LIJ4mp_lkVg" id="-zim2md1cHx1RSbhCf-THQA" uri="tasks/Create%20Group.xmi"/>
+    <resourceDescriptors xmi:id="_1lM_sEYzEd6LIJ4mp_lkVg" id="-yI22hw3TdbYX_GL4ch4m2A" uri="tasks/Create%20Annotation.xmi"/>
+    <resourceDescriptors xmi:id="_xkB6IElxEd6Hx5Ue-mZZOA" id="-ey5oplR7PdGoY2j7iiLxGA" uri="tasks/Create%20Start%20Event.xmi"/>
+    <resourceDescriptors xmi:id="_zsfwkElzEd6Hx5Ue-mZZOA" id="-Q-JOYN8JjGmU9qcg0y637g" uri="tasks/Create%20Intermediate%20Event.xmi"/>
+    <resourceDescriptors xmi:id="_jZnigEl0Ed6Hx5Ue-mZZOA" id="-1ZO28p630xkIn10bfTDKNw" uri="tasks/Create%20End%20Event.xmi"/>
+    <resourceDescriptors xmi:id="_J1ivcEoxEd6CtJV_GsxZFg" id="--TWvR2LXqlPwZWHspRLkcQ" uri="tasks/Create%20Text%20Object.xmi"/>
+    <resourceDescriptors xmi:id="_WsMikEvCEd6DhYqBYw4IIA" id="-6vYyRfA0eTaFTg9-mn5vIA" uri="tasks/Create%20Sub%20Process.xmi"/>
+    <resourceDescriptors xmi:id="_52a_MEvDEd6DhYqBYw4IIA" id="-N2Gprq5rc5hchy7R-Jw6CQ" uri="tasks/Create%20Task.xmi"/>
+    <resourceDescriptors xmi:id="_rSkiYFUSEd6C1uTeH2AdkQ" id="-Bz5bwdQ5f_ZFNeLjhJRhEg" uri="roles/Analyst.xmi"/>
+    <resourceDescriptors xmi:id="_rStsUFUSEd6C1uTeH2AdkQ" id="-IcUKuSrA9WgSshLN8tV9ww" uri="roles/Business_Process_Modeller.xmi"/>
+    <resourceDescriptors xmi:id="_rS4EYFUSEd6C1uTeH2AdkQ" id="-HNW_-m80qbxx3buEczRz0A" uri="roles/Designer.xmi"/>
+    <resourceDescriptors xmi:id="_r888IFUSEd6C1uTeH2AdkQ" id="-Kam22Pg_DuKlz0SKapB6gA" uri="roles/Analyst%202.xmi"/>
+    <resourceDescriptors xmi:id="_r9EQ4FUSEd6C1uTeH2AdkQ" id="-i9KW12JlgjeMDGCe-ob7_Q" uri="roles/Business_Process_Modeller%202.xmi"/>
+    <resourceDescriptors xmi:id="_r9KXgFUSEd6C1uTeH2AdkQ" id="-21KgARYxyY-BfZ0FA8q3Mw" uri="roles/Designer%202.xmi"/>
+    <resourceDescriptors xmi:id="_ee1CwFUVEd6C1uTeH2AdkQ" id="-O_Iwj8-uGlGZaIt7O_uicQ" uri="roles/Analyst%203.xmi"/>
+    <resourceDescriptors xmi:id="_ee6iUFUVEd6C1uTeH2AdkQ" id="-_VvwLVoJ69d-oFgRy-DLrw" uri="roles/Business_Process_Modeller%203.xmi"/>
+    <resourceDescriptors xmi:id="_efAB4FUVEd6C1uTeH2AdkQ" id="-YwnpDlcn53oSqjFN-6Dqbg" uri="roles/Designer%203.xmi"/>
+    <resourceDescriptors xmi:id="_efGIgFUVEd6C1uTeH2AdkQ" id="-vs5iS3wAyD2nA40mAoTC0Q" uri="roles/User%203.xmi"/>
+    <resourceDescriptors xmi:id="_QQ2EoFUWEd6C1uTeH2AdkQ" id="-_S24yG3GS_neQXxaAapm7g" uri="tasks/Create%20Data%20Object(Data%20View).xmi"/>
+    <resourceDescriptors xmi:id="_l199gFUXEd6C1uTeH2AdkQ" id="-2Im7JoBUU6eRBHKmZ_pH5Q" uri="tasks/Create%20Attribute.xmi"/>
+    <resourceDescriptors xmi:id="_23UlsFUXEd6C1uTeH2AdkQ" id="-v9j-UuJWnnepce6TtmqzRw" uri="tasks/Create%20Relationship.xmi"/>
+    <resourceDescriptors xmi:id="_VozMUFd9Ed637brWif56XQ" id="-GTuAoW2-lqGs2o7ERgQneA" uri="roles/Analyst%204.xmi"/>
+    <resourceDescriptors xmi:id="_VpLm0Fd9Ed637brWif56XQ" id="-1_FQzDiDYzsZ3dsI7M4Hzg" uri="roles/Business_Process_Modeller%204.xmi"/>
+    <resourceDescriptors xmi:id="_VpSUgFd9Ed637brWif56XQ" id="-OXi85QjaG2eJzQUTEyYT1A" uri="roles/Designer%204.xmi"/>
+    <resourceDescriptors xmi:id="_Vpa3YFd9Ed637brWif56XQ" id="-3QXeZ3dEQStlfkkFtZTtaQ" uri="roles/User%204.xmi"/>
+    <resourceDescriptors xmi:id="_WEIdcFd9Ed637brWif56XQ" id="-95T6kYpzFqkgeh8nN2h_JQ" uri="roles/Analyst%205.xmi"/>
+    <resourceDescriptors xmi:id="_WEQZQFd9Ed637brWif56XQ" id="-h5lXQ9aG96l8AS86UwVADw" uri="roles/Business_Process_Modeller%205.xmi"/>
+    <resourceDescriptors xmi:id="_WEXuAFd9Ed637brWif56XQ" id="-7DxdepfABPm5LRZH-RxKLQ" uri="roles/Designer%205.xmi"/>
+    <resourceDescriptors xmi:id="_WEebsFd9Ed637brWif56XQ" id="-iXR-o-TB32_RXw2cAQd-6w" uri="roles/User%205.xmi"/>
+    <resourceDescriptors xmi:id="_z8VGIFeGEd637brWif56XQ" id="-YLf6imKL0G6I5U_8O3FMww" uri="tasks/Create%20Business%20Rules.xmi"/>
+    <resourceDescriptors xmi:id="_a3RdEFgREd6c69W71WXVIg" id="-JE7cFoLJvuQGeLoZ18Nu_A" uri="tasks/Create%20(AND)%20Connector(Business%20Rules%20View).xmi"/>
+    <resourceDescriptors xmi:id="_XJobwFgTEd6c69W71WXVIg" id="-ZwqSRxrATGCArZSV06O05A" uri="tasks/Create%20(OR)%20Connector(Business%20Rules%20View).xmi"/>
+    <resourceDescriptors xmi:id="_wvVDkFgTEd6c69W71WXVIg" id="-9gkk47C38BYFMvE6V5eypw" uri="tasks/Create%20(XOR)%20Connector(Business%20Rules%20View).xmi"/>
+    <resourceDescriptors xmi:id="_nFR78FgaEd6c69W71WXVIg" id="-Ge73c188_E2NMMETGmi-pg" uri="tasks/Create%20Connector.xmi"/>
+    <resourceDescriptors xmi:id="_1MYDYFgjEd6c69W71WXVIg" id="-r6cScDStjYzHxUbF-t2O6g" uri="tasks/Create%20Keyword.xmi"/>
+    <resourceDescriptors xmi:id="_TVw8AFgoEd6c69W71WXVIg" id="-2bwBz0OuYXI3ZQy7-v70ZA" uri="tasks/Create%20(IF)%20Keyword.xmi"/>
+    <resourceDescriptors xmi:id="_xKNC4FgtEd6c69W71WXVIg" id="-Mc-2lXiAaqzoRPTzDD_YmA" uri="tasks/Create%20(ELSE)%20Keyword.xmi"/>
+    <resourceDescriptors xmi:id="_2csEoFg3Ed6c69W71WXVIg" id="-mY9GP-4gTxBbkRXfc6le0A" uri="tasks/Create%20(THEN)%20Keyword.xmi"/>
+    <resourceDescriptors xmi:id="_kNJVkFg4Ed6c69W71WXVIg" id="-0s_vyBMIyzA6WB3StsIOXw" uri="tasks/Create%20(CHECK)%20Keyword.xmi"/>
+    <resourceDescriptors xmi:id="_-HhM4Fg4Ed6c69W71WXVIg" id="-BZ3QjWo1eOF6Wh4LLbIEVA" uri="tasks/Create%20Statement.xmi"/>
+    <resourceDescriptors xmi:id="_DC6v4Vg5Ed6c69W71WXVIg" id="-GUFEZ5EphOq2_gUITmEiIg" uri="tasks/Create%20Condition.xmi"/>
+    <resourceDescriptors xmi:id="_errboFg5Ed6c69W71WXVIg" id="-YWX0cPpMHxrMfi7aB_8WFA" uri="tasks/Create%20Organisation%20Element.xmi"/>
+    <resourceDescriptors xmi:id="_i_PGEFg6Ed6c69W71WXVIg" id="-uFLSNWCeCVayf-jeA3IWmQ" uri="tasks/Create%20Organisation(Organisation%20View).xmi"/>
+    <resourceDescriptors xmi:id="_KnJrcFg7Ed6c69W71WXVIg" id="-VV_6bSvli9JWf8fdv-cO8Q" uri="tasks/Create%20Person.xmi"/>
+    <resourceDescriptors xmi:id="_VK6IoVg8Ed6c69W71WXVIg" id="-UfuARehxg_ZiO9t_ZE2J6g" uri="tasks/Create%20Assignment.xmi"/>
+    <resourceDescriptors xmi:id="_6GBJgVg8Ed6c69W71WXVIg" id="-YYUbAdkZoWk80fhI6_0bag" uri="tasks/Create%20OrgRole.xmi"/>
+    <resourceDescriptors xmi:id="_6GK6gFg8Ed6c69W71WXVIg" id="-jZbjdkqDAukFqR2HEa0WuQ" uri="tasks/Create%20OrgUnit.xmi"/>
+    <resourceDescriptors xmi:id="_uGCwkGYeEd6yd4JjNhe1Bg" id="-hJKIuGq5YiyOeY4_yFO2wA" uri="customcategories/Data.xmi"/>
+    <resourceDescriptors xmi:id="_MUJlkGYtEd6yd4JjNhe1Bg" id="-dNGtmuu7stXJEwcNP0iIow" uri="tasks/Create%20ELane%20Element.xmi"/>
+    <resourceDescriptors xmi:id="_wXZq8GbpEd6QiocxL81v5w" id="-_4jIJbfTXsP85dOOohJzrw" uri="customcategories/Organization.xmi"/>
+    <resourceDescriptors xmi:id="_KM5GgYhNEd6NZeXAG9d4Yw" id="-1vChrO2Jhw9ZOTyqotQcQg" uri="customcategories/CIM2PIM.xmi"/>
+    <resourceDescriptors xmi:id="_M4NFgIi2Ed609piMjO-xvw" id="_M2kGwIi2Ed609piMjO-xvw" uri="capabilitypatterns/BPMN_modelling/model.xmi"/>
+    <resourceDescriptors xmi:id="_g5lJIIi2Ed609piMjO-xvw" id="_g5b_MIi2Ed609piMjO-xvw" uri="capabilitypatterns/Data_modelling/model.xmi"/>
+    <resourceDescriptors xmi:id="_tjNjIIi2Ed609piMjO-xvw" id="_tjDyIIi2Ed609piMjO-xvw" uri="capabilitypatterns/BR_modelling/model.xmi"/>
+    <resourceDescriptors xmi:id="_3mWcAIi2Ed609piMjO-xvw" id="_3mDhEIi2Ed609piMjO-xvw" uri="capabilitypatterns/Organisation_modelling/model.xmi"/>
+    <resourceDescriptors xmi:id="_HZwqYIi3Ed609piMjO-xvw" id="_HZm5YIi3Ed609piMjO-xvw" uri="capabilitypatterns/EPC_modelling/model.xmi"/>
+    <resourceDescriptors xmi:id="_RTeIMIstEd6wSaCmnFc5Ig" id="-YQOwIeSpXYmI_AADc2TjoA" uri="tasks/BPMN2SoaML.xmi"/>
+    <resourceDescriptors xmi:id="_uWv_MYvzEd6UuMM9_vAR6g" id="-xrGWwUsh6dc70K4t3NSoSg" uri="tasks/EPC2BPMN.xmi"/>
+    <resourceDescriptors xmi:id="_F_UC8J1uEd66L-e4h6VCVQ" id="-0z4Ms0XlK2kuo0tS1oHoCQ" uri="guidances/toolmentors/BPMN_Objecteering_tool_mentor.xmi"/>
+    <resourceDescriptors xmi:id="_GxmbgJ1uEd66L-e4h6VCVQ" id="-h2tfgn8jjG2e5k9rfD8bzA" uri="guidances/checklists/BPMN_process_checklist.xmi"/>
+    <resourceDescriptors xmi:id="_GxwMgJ1uEd66L-e4h6VCVQ" id="-or1hAMryFMs8DVzOdTyZLQ" uri="guidances/guidelines/BPMN_notation.xmi"/>
+    <resourceDescriptors xmi:id="_qTxnoJ17Ed66L-e4h6VCVQ" id="-usmJ6ilsce7F6GxCcmOGNw" uri="guidances/toolmentors/BusinessRules_Objecteering_tool_mentor.xmi"/>
+    <resourceDescriptors xmi:id="_6IZhgJ18Ed66L-e4h6VCVQ" id="-YnlJkL9bSLov6E6CirMQpA" uri="guidances/guidelines/Business_Rules_notation.xmi"/>
+    <resourceDescriptors xmi:id="_sOgqcJ2FEd66L-e4h6VCVQ" id="-49unzf5bkN1lC601HRhkhg" uri="guidances/checklists/BusinessRules_Checklist.xmi"/>
+    <resourceDescriptors xmi:id="_7K9cMJ30Ed6s7YgGIghgTQ" id="-aJYlbTNzSLfH5mjAmYaT_g" uri="guidances/toolmentors/Data_Objecteering_tool_mentor.xmi"/>
+    <resourceDescriptors xmi:id="_N-Ye8J31Ed6s7YgGIghgTQ" id="-XTJbztiSaUg_u2sTpmgn1g" uri="guidances/guidelines/Data_notation.xmi"/>
+    <resourceDescriptors xmi:id="_9S9OAJ31Ed6s7YgGIghgTQ" id="-ealEgYccHxCjn2YMrGEy7g" uri="guidances/checklists/Data_checklist.xmi"/>
+    <resourceDescriptors xmi:id="_6sWisJ32Ed6s7YgGIghgTQ" id="-GrI5EeywZT6Vh0rtqk-KJA" uri="guidances/toolmentors/EPC_Objecteering_tool_mentor.xmi"/>
+    <resourceDescriptors xmi:id="_i8TtkJ35Ed6s7YgGIghgTQ" id="-jq9Ah9lx0LDQEDMR_4LJmw" uri="guidances/guidelines/EPC_notation.xmi"/>
+    <resourceDescriptors xmi:id="_Ua8OgJ38Ed6s7YgGIghgTQ" id="-TJuLSPzlg5NlhDRMsrvFNQ" uri="guidances/checklists/EPC_checklist.xmi"/>
+    <resourceDescriptors xmi:id="_eJ8qcJ38Ed6s7YgGIghgTQ" id="-8BgR7zwFl1jRwQ6_es7Raw" uri="guidances/toolmentors/Organisation_Objecteering_tool_mentor.xmi"/>
+    <resourceDescriptors xmi:id="_m4M-kJ39Ed6s7YgGIghgTQ" id="-ZjMR7LgbtA21zGHdGhhITw" uri="guidances/guidelines/Organisation_notation.xmi"/>
+    <resourceDescriptors xmi:id="_ZfHysJ3_Ed6s7YgGIghgTQ" id="-jdPVFSQlpUfmnYH3yKSH4w" uri="guidances/checklists/Organisation_checklist.xmi"/>
+    <resourceDescriptors xmi:id="_nkoaMJ4SEd6s7YgGIghgTQ" id="-OTeE7xoKc9GwY6B6kMTTZw" uri="tasks/Task2ServiceInterface.xmi"/>
+    <resourceDescriptors xmi:id="_9gQnMJ4WEd6s7YgGIghgTQ" id="-t4AYnVEXgtV3M6VxfBl5nQ" uri="tasks/Pool2ParticipantArchitecture.xmi"/>
+    <resourceDescriptors xmi:id="_y52XQJ4YEd6s7YgGIghgTQ" id="-QP_Op5JqtATzkwbCJPds_g" uri="tasks/Sub-Process2ParticipantArchitecture.xmi"/>
+    <resourceDescriptors xmi:id="_z46VoJ4aEd6s7YgGIghgTQ" id="-N4KdFXbsGaN6J5l6XlSJuA" uri="tasks/Lane2Participant.xmi"/>
+    <resourceDescriptors xmi:id="_vyqAAJ4cEd6s7YgGIghgTQ" id="-MsvhEzQQQQSf6-NKWyIVpw" uri="tasks/Role2Participant.xmi"/>
+    <resourceDescriptors xmi:id="_Bsa24J4dEd6s7YgGIghgTQ" id="-bWgf_zsbshQxjtoKB2qVdw" uri="tasks/RoleOrLaneAddition2ServiceContract.xmi"/>
+    <resourceDescriptors xmi:id="_g3C_gJ4gEd6s7YgGIghgTQ" id="-wBi_EODvuSv3A-hQQgDLuA" uri="tasks/PoolsAddition2ServiceArchitecture.xmi"/>
+    <resourceDescriptors xmi:id="_wTVR4J4hEd6s7YgGIghgTQ" id="-zqjTvwimwj6Xo4PDkN4VOg" uri="tasks/MessageBegin2ServicePoint.xmi"/>
+    <resourceDescriptors xmi:id="_-WLhkJ4hEd6s7YgGIghgTQ" id="-2eg7P5rSZp3s-pHZZCGlUg" uri="tasks/MessageEnd2RequestPoint.xmi"/>
+    <resourceDescriptors xmi:id="_RwwD4J4iEd6s7YgGIghgTQ" id="-eZf3Vy2zbcS6a2qtg_zSuQ" uri="tasks/Annotation2MessageType.xmi"/>
+    <resourceDescriptors xmi:id="_8X2XMJ4iEd6s7YgGIghgTQ" id="-B3gMED7TSISR_f1AzzoAwQ" uri="tasks/DataObject2MessageType.xmi"/>
+    <resourceDescriptors xmi:id="_gryisKRrEd6MK9c4_Uv4qw" id="-ZPU2rdLTgjVDSqgXxoFWSg" uri="tasks/Function2Task.xmi"/>
+    <resourceDescriptors xmi:id="_UwNZIKR5Ed6MK9c4_Uv4qw" id="-sHpEjE0go6pchToEaz0rIg" uri="tasks/Event2StartEvent.xmi"/>
+    <resourceDescriptors xmi:id="_gsAAQKR6Ed6MK9c4_Uv4qw" id="-tqwx3QLyWaJqZyS7gKnFMw" uri="tasks/Event2EndEvent.xmi"/>
+    <resourceDescriptors xmi:id="_B-sI8KR7Ed6MK9c4_Uv4qw" id="-CDcrlY-zyMPh3aUhrKzyeA" uri="tasks/XOR2DataBasedExclusive.xmi"/>
+    <resourceDescriptors xmi:id="_TTaZEKR7Ed6MK9c4_Uv4qw" id="-CEer3OuWuY7vu2_nJh0GxA" uri="tasks/OR2Inclusive.xmi"/>
+    <resourceDescriptors xmi:id="_UjSQEKR8Ed6MK9c4_Uv4qw" id="-j2AN4E7HoCKdUgNJu9ftFg" uri="tasks/AND2Parallel.xmi"/>
+    <resourceDescriptors xmi:id="_uE-8IKSREd6MK9c4_Uv4qw" id="-kZmWx-fCN6c3M3c5kvbkyQ" uri="tasks/ControlFlow2SequenceFlow.xmi"/>
+    <resourceDescriptors xmi:id="_4JE9oKSZEd6MK9c4_Uv4qw" id="-GExbiyVbiVpbJGMv4e9MHg" uri="tasks/ProcessLink2SubProcess.xmi"/>
+    <resourceDescriptors xmi:id="_dEm1QKSaEd6MK9c4_Uv4qw" id="-vkLfQPgtA_h5CLs05QnncA" uri="tasks/OrgUnit2Pool.xmi"/>
+    <resourceDescriptors xmi:id="__QflcKULEd6HKLRpI_IoRA" id="-mkFatXtxl_rXO7saDLuUUg" uri="tasks/Position2Pool.xmi"/>
+    <resourceDescriptors xmi:id="_76G7oKUPEd6HKLRpI_IoRA" id="-2KUS8pZXIopH6KA5PvPxYQ" uri="tasks/System2Annotation.xmi"/>
+    <resourceDescriptors xmi:id="_dmjoIKUQEd6HKLRpI_IoRA" id="-HZupK8wiZRH4O4aZr18alw" uri="tasks/Data2DataObject.xmi"/>
+    <resourceDescriptors xmi:id="_-7Ye0KUQEd6HKLRpI_IoRA" id="-z41SiNnfHHNOyPsyEMqhdQ" uri="tasks/Relation2Association.xmi"/>
+    <resourceDescriptors xmi:id="_vxvz8KUVEd6HKLRpI_IoRA" id="-25QZnACl-tCf6Qdqyxx-fA" uri="tasks/ConstructionAI2ThrowingIntermediateMessageEvent.xmi"/>
+    <resourceDescriptors xmi:id="_S-hKQKVDEd6nH_wa_xSYNw" id="-AFCxJUm54Q0Ffr-7T_3MnA" uri="tasks/ConstructionBI2ThrowingIntermediateMessageElement.xmi"/>
+    <resourceDescriptors xmi:id="_G8vZcKVOEd6nH_wa_xSYNw" id="-2QHsdJmn4iMcnhWqNQJymQ" uri="tasks/ConstructionCI2ThrowingEndMessageEvent.xmi"/>
+    <resourceDescriptors xmi:id="_bJBIsaVSEd6nH_wa_xSYNw" id="-JXocw-1udygTP9fQBRlf8w" uri="tasks/ConstructionAII2CatchingIntermediateMessageEvent.xmi"/>
+    <resourceDescriptors xmi:id="_ujZ9cKVVEd6nH_wa_xSYNw" id="-b6c0SWlLZaBhSz1OrCco8w" uri="tasks/ConstructionBII2CatchingIntermediateMessageEvent.xmi"/>
+    <resourceDescriptors xmi:id="_QMjHMKVqEd6kd7_KnYJq9Q" id="-FkF6LvbXOLLWDchDQIbEDg" uri="tasks/ConstructionCII2CatchingIntermediateMessageEvent.xmi"/>
+    <resourceDescriptors xmi:id="__HS0MLc1Ed6bp5Hb5ipBbA" id="-dAUJNbD7xkh0q6NEv0xK1w" uri="tasks/Pool2ActivityPartition.xmi"/>
+    <resourceDescriptors xmi:id="_PYyFsLc2Ed6bp5Hb5ipBbA" id="-wcOvAAgXAEdNjqGm4Hklkg" uri="tasks/Lane2ActivityPartition.xmi"/>
+    <resourceDescriptors xmi:id="_FQHXILc3Ed6bp5Hb5ipBbA" id="-G0BeGYJ7Cbvttkzj0dZZug" uri="tasks/Task2Action.xmi"/>
+    <resourceDescriptors xmi:id="_EQCS0Lc6Ed6bp5Hb5ipBbA" id="-lDj7nBdm3edKt36UMCF1aQ" uri="tasks/StartEvent2InitialActivity.xmi"/>
+    <resourceDescriptors xmi:id="_d9mnwLc7Ed6bp5Hb5ipBbA" id="-8lsFogOtvFPYWwrQNMemcw" uri="tasks/EndEvent2FinalActivity.xmi"/>
+    <resourceDescriptors xmi:id="_ExUwELc8Ed6bp5Hb5ipBbA" id="-AvKlXmBYLWzBSfks3L-nfA" uri="tasks/Event2AcceptEventAction.xmi"/>
+    <resourceDescriptors xmi:id="_9V4nULc9Ed6bp5Hb5ipBbA" id="-0Q7StLqqIG7lPzEgie8Hkw" uri="tasks/Gateway2DecisionNode.xmi"/>
+    <resourceDescriptors xmi:id="_ch1F8Lc-Ed6bp5Hb5ipBbA" id="-IiOngn4UsKe_1LNcwB7_GA" uri="tasks/Gateway2MergeNode.xmi"/>
+    <resourceDescriptors xmi:id="_EGXVQLdBEd6bp5Hb5ipBbA" id="-B96r-hvt3f5MnMhhHl_50Q" uri="tasks/SequenceFlow2ControlFlow.xmi"/>
+    <resourceDescriptors xmi:id="_dkjU8LdDEd6bp5Hb5ipBbA" id="-atlpPuy6fxl7FlvB2IPi0Q" uri="tasks/Association2ObjectFlow.xmi"/>
+    <resourceDescriptors xmi:id="_KoGckLdEEd6bp5Hb5ipBbA" id="-kXy0ixX12RlpE35NCKKOiw" uri="tasks/MessageFlow2ObjectFlow.xmi"/>
+    <resourceDescriptors xmi:id="_Ei3HMLdFEd6bp5Hb5ipBbA" id="-EuHaXStuqThP4obAtBJUuA" uri="tasks/EndEvent2FlowActivity.xmi"/>
+    <resourceDescriptors xmi:id="_2CRnELdOEd6d--12oACH5w" id="-VAMwHShd8VMIBweLU5Sgyg" uri="tasks/ParallelDecision2ForkNode.xmi"/>
+    <resourceDescriptors xmi:id="_cXFl0LdPEd6d--12oACH5w" id="-t0AEYL1s0A2wAl9r4hZOYQ" uri="tasks/ParallelDecision2JoinNode.xmi"/>
+    <resourceDescriptors xmi:id="_CB9PsLdQEd6d--12oACH5w" id="-gjkST7X53n8v9OgRPwHQqA" uri="tasks/DataObject2ObjectNode.xmi"/>
+    <resourceDescriptors xmi:id="_tag1ILdQEd6d--12oACH5w" id="-QGiHZmFmDWoxhFT_oS2B6A" uri="tasks/MessageEvent2SignalNode.xmi"/>
+    <resourceDescriptors xmi:id="_yfH2sDHfEd-vZ-Nkdj4ADg" id="-FnF6aXNRiY1-ExKZBCtmdA" uri="tasks/BPMN_Process_Modelling.xmi"/>
+    <resourceDescriptors xmi:id="_yc9kcDHoEd-vZ-Nkdj4ADg" id="-olTMYBQK2-0iiFqi0ND95w" uri="tasks/Organization_Modelling.xmi"/>
+    <resourceDescriptors xmi:id="_cwb0UDHtEd-vZ-Nkdj4ADg" id="-50r32z77vrwDjhmbsd6ZTQ" uri="tasks/Data_Modelling.xmi"/>
+    <resourceDescriptors xmi:id="_CqfUcDIUEd-oXvQAvEb_4w" id="-VYyxuttbojVxT9RU3NsXew" uri="tasks/Business_Rules_Modelling.xmi"/>
+    <resourceDescriptors xmi:id="_t1XY0DW6Ed-QHLr98B9w4Q" id="-CwjbszltMuGdGe20bcOJEA" uri="tasks/EPC%20Process%20Modelling.xmi"/>
+    <resourceDescriptors xmi:id="_iGV-QKdiEd68f4Walh_OYQ" id="_h0dkEKdiEd68f4Walh_OYQ" uri="capabilitypatterns/CIMFlex_Bottom_Up_Methodology/model.xmi"/>
+    <resourceDescriptors xmi:id="_iGpgQadiEd68f4Walh_OYQ" id="_h0xGGadiEd68f4Walh_OYQ" uri="capabilitypatterns/CIMFlex_Top_Down_Methodology/model.xmi"/>
+    <resourceDescriptors xmi:id="_s8T2sTKVEd-_UuW8yPwQuw" id="_s8KswDKVEd-_UuW8yPwQuw" uri="capabilitypatterns/CIM2CIM_transformation/model.xmi"/>
+    <resourceDescriptors xmi:id="_USKyEEMFEd-jmMkKIL7cjw" id="-YheeIESA5fm5hhfkiRapog" uri="tasks/BPMN2UML2Activity.xmi"/>
+    <resourceDescriptors xmi:id="_j1HikEMFEd-jmMkKIL7cjw" id="-jz_zhoWkRIbOv_oKvR8eOg" uri="tasks/ERM2UML2Class.xmi"/>
+    <resourceDescriptors xmi:id="_ezSK8EMGEd-jmMkKIL7cjw" id="-aKk6LeQopunLCo2Q8YoroQ" uri="tasks/BR2SoaML.xmi"/>
+    <resourceDescriptors xmi:id="_iNP3fDfnEd-oSL5BwIo5rg" id="_eyeZUDfnEd-oSL5BwIo5rg" uri="capabilitypatterns/CIM_level_methodology_bottom_up/model.xmi"/>
+    <resourceDescriptors xmi:id="_Od5BgDwOEd-wzrbdBPyHjA" id="_MoVOEDwOEd-wzrbdBPyHjA" uri="capabilitypatterns/CIM_level_methodology_top_down/model.xmi"/>
+    <resourceDescriptors xmi:id="_yqregIGrEd6tqIeaIOtuNA" id="-iP0wLxkel7wlT92A8h_Z_A" uri="workproducts/Data_View_Model.xmi"/>
+    <resourceDescriptors xmi:id="_oNgg0FAuEd6NGfjlGBNnwA" id="-5U_11s34QoZsavKVkjYN6w" uri="workproducts/Organization_Model.xmi"/>
+    <resourceDescriptors xmi:id="_2iz1YoGlEd6tqIeaIOtuNA" id="-aAt35uODZ3-26hdmEoipbw" uri="workproducts/Interaction_Diagram.xmi"/>
+    <resourceDescriptors xmi:id="_2ig6cYGlEd6tqIeaIOtuNA" id="-FShFPpQsG8707KUXvQdqeg" uri="workproducts/Collaboration_Diagram.xmi"/>
+    <resourceDescriptors xmi:id="_2i9mYYGlEd6tqIeaIOtuNA" id="-fuefTbR8GibXFZlZ4BZNug" uri="workproducts/Organization_Diagram.xmi"/>
+    <resourceDescriptors xmi:id="_KE1b0YGsEd6tqIeaIOtuNA" id="-oHboEyl8xJ_CWy_qSM7ulQ" uri="workproducts/EPC_process_model.xmi"/>
+    <resourceDescriptors xmi:id="_2ig6cIGlEd6tqIeaIOtuNA" id="-vTMGgVLK2I4e6s6KAI3Edw" uri="workproducts/Behavior_Diagram.xmi"/>
+    <resourceDescriptors xmi:id="_kijtQIGrEd6tqIeaIOtuNA" id="-ezQRFHWmiqJ06vEDtBVsQg" uri="workproducts/Business_Rules_View_Model.xmi"/>
+    <resourceDescriptors xmi:id="_r1dtcoGbEd6tqIeaIOtuNA" id="-iFtZP7I2qSR31hyBE-6QDA" uri="workproducts/Physical_Architecture_Design.xmi"/>
+    <resourceDescriptors xmi:id="_WqnQkYGsEd6tqIeaIOtuNA" id="-WhTtW0TN-G0s1KJX8wszxg" uri="workproducts/Organisation_View_Model.xmi"/>
+    <resourceDescriptors xmi:id="_2iz1YYGlEd6tqIeaIOtuNA" id="-wG6rxOM6kgKaXggWMkaUBg" uri="workproducts/Environment_Diagram.xmi"/>
+    <resourceDescriptors xmi:id="_2iz1YIGlEd6tqIeaIOtuNA" id="-VxBVZEALATWK8H7pGEnfhg" uri="workproducts/Deployment_Diagram.xmi"/>
+    <resourceDescriptors xmi:id="_pPnI8FAsEd6NGfjlGBNnwA" id="-Q6ONdquvK11SUiw0RfBUrg" uri="workproducts/EPC_model.xmi"/>
+    <resourceDescriptors xmi:id="_JkDZoOaEEd-2NJepU9I_bg" id="-Cg6kr3pZucsPQZObS2eBSQ" uri="tools/SHAPE_CIMFlex.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="__KzlEDvMEd6gtI8tb9yUjw" name="practice.business.business_modeling.base_shape-dfki" guid="__KzlEDvMEd6gtI8tb9yUjw" presentationName="SHAPE DFKI IWi Method Library" briefDescription="Method library that contains method components (tasks and capability patterns) for CIM-level modelling with CIMFlex." authors="Dima Panfilenko (DFKI IWi)" changeDate="2010-04-09T15:12:37.948+0200" changeDescription="1.1: minor revisions for tool integration (SAP) |1.0: Added tasks for the transformations|0.9: Updated the modelling content packages and capability patterns|0.8: Behaviour modelling part added|0.7: change and fix description|0.6: implemented new CPs, introduced user guidelines according to discussion in Bilbao with Brian Elvesaeter|0.5: changed referencing to the shallow copying of CPs due to discussion with Roman Magarshak (SAP Research Israel)|0.4: completed the library with CPs referencing|0.3: issue fixes like work products references, methods linkage|0.2: addition of the custom categories and further method contents|0.1: initial outline of the methods and CPs" version="1.0">
+    <methodElementProperty xmi:id="_j5IJNNeMEd-Mq_S1iaxctg" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__KzlETvMEd6gtI8tb9yUjw" name="Content" guid="__KzlETvMEd6gtI8tb9yUjw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__KzlEjvMEd6gtI8tb9yUjw" name="Categories" guid="__KzlEjvMEd6gtI8tb9yUjw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__KzlEzvMEd6gtI8tb9yUjw" name="Domains" guid="__KzlEzvMEd6gtI8tb9yUjw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__KzlFDvMEd6gtI8tb9yUjw" name="Disciplines" guid="__KzlFDvMEd6gtI8tb9yUjw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_3C7U4DHmEd-vZ-Nkdj4ADg" name="CIMmodel" guid="_3C7U4DHmEd-vZ-Nkdj4ADg" variabilityType="contributes" tasks="_mEgwIDHfEd-vZ-Nkdj4ADg _X27WcDHnEd-vZ-Nkdj4ADg _bWYjEDHrEd-vZ-Nkdj4ADg _6hzOgDHxEd-vZ-Nkdj4ADg _P5nZUYstEd6wSaCmnFc5Ig _e6gToIvzEd6UuMM9_vAR6g _YfwGIDW6Ed-QHLr98B9w4Q _rxD64EMEEd-jmMkKIL7cjw _V0gukEMFEd-jmMkKIL7cjw _0UkXkEMFEd-jmMkKIL7cjw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_kwazABFxEd6C2PqX2OSy5A#_wWtsABboEd6C2PqX2OSy5A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_fMXxYDKUEd-_UuW8yPwQuw" name="PIMmodel" guid="_fMXxYDKUEd-_UuW8yPwQuw" variabilityType="contributes" tasks="_P5nZUYstEd6wSaCmnFc5Ig _rxD64EMEEd-jmMkKIL7cjw _V0gukEMFEd-jmMkKIL7cjw _0UkXkEMFEd-jmMkKIL7cjw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_kwazABFxEd6C2PqX2OSy5A#_5G36EBboEd6C2PqX2OSy5A"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__KzlFTvMEd6gtI8tb9yUjw" name="RoleSets" guid="__KzlFTvMEd6gtI8tb9yUjw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__KzlFjvMEd6gtI8tb9yUjw" name="WP Types" guid="__KzlFjvMEd6gtI8tb9yUjw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__KzlFzvMEd6gtI8tb9yUjw" name="Tools" guid="__KzlFzvMEd6gtI8tb9yUjw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_HxpA0OaEEd-2NJepU9I_bg" name="SHAPE_CIMFlex" guid="_HxpA0OaEEd-2NJepU9I_bg" presentationName="SHAPE CIMFlex" briefDescription="CIM level Modelling Tool">
+            <presentation xmi:id="-Cg6kr3pZucsPQZObS2eBSQ" href="uma://-Cg6kr3pZucsPQZObS2eBSQ#-Cg6kr3pZucsPQZObS2eBSQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__KzlGDvMEd6gtI8tb9yUjw" name="StandardCategories" guid="__KzlGDvMEd6gtI8tb9yUjw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__KzlGTvMEd6gtI8tb9yUjw" name="CustomCategories" guid="__KzlGTvMEd6gtI8tb9yUjw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__KzlGjvMEd6gtI8tb9yUjw" name="Hidden" guid="__KzlGjvMEd6gtI8tb9yUjw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="__KzlGzvMEd6gtI8tb9yUjw" name="Custom Categories" guid="__KzlGzvMEd6gtI8tb9yUjw" categorizedElements="_TelVYDvPEd6gtI8tb9yUjw _sxkQ8GYeEd6yd4JjNhe1Bg _v4BAQGbpEd6QiocxL81v5w _KLtawIhNEd6NZeXAG9d4Yw _Ok5BgIhNEd6NZeXAG9d4Yw _fc-mQIs9Ed6teaWLNUG7zw _ttZX4Is9Ed6teaWLNUG7zw _3kMd4Is9Ed6teaWLNUG7zw"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_TelVYDvPEd6gtI8tb9yUjw" name="CIM" guid="_TelVYDvPEd6gtI8tb9yUjw" variabilityType="contributes" categorizedElements="_btaC4DvNEd6gtI8tb9yUjw _mW7LoD4EEd6XGZEnLaWKkw _uKO6cD4FEd6XGZEnLaWKkw _6_J-cD4FEd6XGZEnLaWKkw _lg20YD4GEd6XGZEnLaWKkw _6p5jUD4JEd6XGZEnLaWKkw _IZanUD4KEd6XGZEnLaWKkw _k_F-gD7fEd68tZwU2iDBmQ _ZppNUD-cEd6BGMQMI2-1Sg _3evUcDvQEd6gtI8tb9yUjw _nEd3ED_FEd6Ohaxp2PYTFg _A0uqsD4GEd6XGZEnLaWKkw _XmjosD_zEd6OCv3eGs9Gwg _0g8e8D_0Ed6OCv3eGs9Gwg _6_R0UD_0Ed6OCv3eGs9Gwg _ErhQID_1Ed6OCv3eGs9Gwg _BtccQERlEd6rK5RiDPV2HA _klUaEERlEd6rK5RiDPV2HA _XfsVsERnEd6rK5RiDPV2HA _aAXisERnEd6rK5RiDPV2HA _Tx3OgERmEd6rK5RiDPV2HA _lPvaoERmEd6rK5RiDPV2HA _b7BG8ERmEd6rK5RiDPV2HA _xseLoERnEd6rK5RiDPV2HA _sui5EERnEd6rK5RiDPV2HA _oTUq8ERnEd6rK5RiDPV2HA _qqN3wElzEd6Hx5Ue-mZZOA _sopQIElvEd6Hx5Ue-mZZOA _XnMdUEl0Ed6Hx5Ue-mZZOA _o7DrYEowEd6CtJV_GsxZFg _da32gEvBEd6DhYqBYw4IIA _-sSXYEvCEd6DhYqBYw4IIA _U6IXUD_2Ed6OCv3eGs9Gwg _rcYeUFUVEd6C1uTeH2AdkQ _fKKewFUVEd6C1uTeH2AdkQ _s2bacFUVEd6C1uTeH2AdkQ _KgUF4FeGEd637brWif56XQ _VapjsFgOEd6c69W71WXVIg _NzPUIFgTEd6c69W71WXVIg _p4dSYFgTEd6c69W71WXVIg _7WznUFgNEd6c69W71WXVIg _cgX9UFgbEd6c69W71WXVIg _2sBUYFgnEd6c69W71WXVIg _ly82wFgtEd6c69W71WXVIg _3xABoFg2Ed6c69W71WXVIg _IBRVsFg4Ed6c69W71WXVIg _mN1a8Fg4Ed6c69W71WXVIg _xUrMgFg4Ed6c69W71WXVIg _NWIsIFg5Ed6c69W71WXVIg _KQIvEFg6Ed6c69W71WXVIg _p0j_IFg6Ed6c69W71WXVIg _VKdcsFg8Ed6c69W71WXVIg _S2P2EGYsEd6yd4JjNhe1Bg _6Fkdk1g8Ed6c69W71WXVIg _6FkdkFg8Ed6c69W71WXVIg _kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA _mEgwIDHfEd-vZ-Nkdj4ADg _X27WcDHnEd-vZ-Nkdj4ADg _bWYjEDHrEd-vZ-Nkdj4ADg _6hzOgDHxEd-vZ-Nkdj4ADg _YfwGIDW6Ed-QHLr98B9w4Q">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_kwazABFxEd6C2PqX2OSy5A#_k2pE4BFzEd6C2PqX2OSy5A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_sxkQ8GYeEd6yd4JjNhe1Bg" name="Data" guid="_sxkQ8GYeEd6yd4JjNhe1Bg" briefDescription="&#xD;&#xA;" variabilityType="contributes" categorizedElements="_rcYeUFUVEd6C1uTeH2AdkQ _fKKewFUVEd6C1uTeH2AdkQ _s2bacFUVEd6C1uTeH2AdkQ _bWYjEDHrEd-vZ-Nkdj4ADg">
+            <presentation xmi:id="-hJKIuGq5YiyOeY4_yFO2wA" href="uma://-hJKIuGq5YiyOeY4_yFO2wA#-hJKIuGq5YiyOeY4_yFO2wA"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_kwazABFxEd6C2PqX2OSy5A#_CTiLQBF1Ed6C2PqX2OSy5A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_v4BAQGbpEd6QiocxL81v5w" name="Organization" guid="_v4BAQGbpEd6QiocxL81v5w" briefDescription="The structure of the organization where the system shall be used (company, institute,&#xD;&#xA;department, inter-organizational" variabilityType="contributes" categorizedElements="_VKdcsFg8Ed6c69W71WXVIg _p0j_IFg6Ed6c69W71WXVIg _6Fkdk1g8Ed6c69W71WXVIg _6FkdkFg8Ed6c69W71WXVIg _KQIvEFg6Ed6c69W71WXVIg _NWIsIFg5Ed6c69W71WXVIg _kHHvsFAtEd6NGfjlGBNnwA _X27WcDHnEd-vZ-Nkdj4ADg">
+            <presentation xmi:id="-_4jIJbfTXsP85dOOohJzrw" href="uma://-_4jIJbfTXsP85dOOohJzrw#-_4jIJbfTXsP85dOOohJzrw"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_kwazABFxEd6C2PqX2OSy5A#_Vd6k8BblEd6C2PqX2OSy5A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_KLtawIhNEd6NZeXAG9d4Yw" name="CIM2PIM" guid="_KLtawIhNEd6NZeXAG9d4Yw" briefDescription="The transformation from CIM to PIM model" variabilityType="contributes" categorizedElements="_P5nZUYstEd6wSaCmnFc5Ig _0u_ggJ4DEd6s7YgGIghgTQ _qSN6cJ4VEd6s7YgGIghgTQ _AMLa4J4XEd6s7YgGIghgTQ _kJazYJ4ZEd6s7YgGIghgTQ _KcjhsJ4bEd6s7YgGIghgTQ _2swEUJ4cEd6s7YgGIghgTQ _geOhwJ4eEd6s7YgGIghgTQ _dumLYJ4hEd6s7YgGIghgTQ _3aC14J4hEd6s7YgGIghgTQ _MgJF4J4iEd6s7YgGIghgTQ _z8HhAJ4iEd6s7YgGIghgTQ _Rk_UALc1Ed6bp5Hb5ipBbA _INLaoLc2Ed6bp5Hb5ipBbA _9gL3ALc2Ed6bp5Hb5ipBbA _30exELc5Ed6bp5Hb5ipBbA _WWQb4Lc7Ed6bp5Hb5ipBbA _2f21kLc7Ed6bp5Hb5ipBbA _TUHEELc8Ed6bp5Hb5ipBbA _SD1dELc-Ed6bp5Hb5ipBbA _hfCU4LdAEd6bp5Hb5ipBbA _TKJLkLdDEd6bp5Hb5ipBbA _Dy44QLdEEd6bp5Hb5ipBbA __bCRwLdEEd6bp5Hb5ipBbA _qAFAgLdOEd6d--12oACH5w _TVsd0LdPEd6d--12oACH5w _4Fp-oLdPEd6d--12oACH5w _bhaFkLdQEd6d--12oACH5w _V0gukEMFEd-jmMkKIL7cjw _0UkXkEMFEd-jmMkKIL7cjw _rxD64EMEEd-jmMkKIL7cjw">
+            <presentation xmi:id="-1vChrO2Jhw9ZOTyqotQcQg" href="uma://-1vChrO2Jhw9ZOTyqotQcQg#-1vChrO2Jhw9ZOTyqotQcQg"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_kwazABFxEd6C2PqX2OSy5A#_LtFKABF0Ed6C2PqX2OSy5A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Ok5BgIhNEd6NZeXAG9d4Yw" name="CIM2CIM" guid="_Ok5BgIhNEd6NZeXAG9d4Yw" briefDescription="The transformation from CIM EPC process model to CIM BPMN process model" variabilityType="contributes" categorizedElements="_e6gToIvzEd6UuMM9_vAR6g _sxSm0KRpEd6MK9c4_Uv4qw _NsHrUKR5Ed6MK9c4_Uv4qw _av7qcKR6Ed6MK9c4_Uv4qw _2s5EkKR6Ed6MK9c4_Uv4qw _HJJboKR7Ed6MK9c4_Uv4qw _KBhhgKR8Ed6MK9c4_Uv4qw _l6rNIKSREd6MK9c4_Uv4qw _iQp40KSZEd6MK9c4_Uv4qw _T2tiUKSaEd6MK9c4_Uv4qw _KyrEoKULEd6HKLRpI_IoRA _su6j0KUPEd6HKLRpI_IoRA _UdcHgKUQEd6HKLRpI_IoRA _GlHQUKUREd6HKLRpI_IoRA _JyotgKUXEd6HKLRpI_IoRA _tM7TsKVKEd6nH_wa_xSYNw _IJXdQKVREd6nH_wa_xSYNw _XR_XUKVTEd6nH_wa_xSYNw _MoTZ0KVpEd6kd7_KnYJq9Q">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_kwazABFxEd6C2PqX2OSy5A#_k2pE4BFzEd6C2PqX2OSy5A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_fc-mQIs9Ed6teaWLNUG7zw" name="BusinessRules" guid="_fc-mQIs9Ed6teaWLNUG7zw" variabilityType="contributes" categorizedElements="_VapjsFgOEd6c69W71WXVIg _KgUF4FeGEd637brWif56XQ _IBRVsFg4Ed6c69W71WXVIg _xUrMgFg4Ed6c69W71WXVIg _7WznUFgNEd6c69W71WXVIg _ly82wFgtEd6c69W71WXVIg _2sBUYFgnEd6c69W71WXVIg _cgX9UFgbEd6c69W71WXVIg _NzPUIFgTEd6c69W71WXVIg _mN1a8Fg4Ed6c69W71WXVIg _3xABoFg2Ed6c69W71WXVIg _p4dSYFgTEd6c69W71WXVIg _6hzOgDHxEd-vZ-Nkdj4ADg">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_kwazABFxEd6C2PqX2OSy5A#_BV34oBblEd6C2PqX2OSy5A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_ttZX4Is9Ed6teaWLNUG7zw" name="EPC" guid="_ttZX4Is9Ed6teaWLNUG7zw" variabilityType="contributes" categorizedElements="_3evUcDvQEd6gtI8tb9yUjw _nEd3ED_FEd6Ohaxp2PYTFg _k_F-gD7fEd68tZwU2iDBmQ _S2P2EGYsEd6yd4JjNhe1Bg _6_J-cD4FEd6XGZEnLaWKkw _ZppNUD-cEd6BGMQMI2-1Sg _6p5jUD4JEd6XGZEnLaWKkw _uKO6cD4FEd6XGZEnLaWKkw _IZanUD4KEd6XGZEnLaWKkw _mW7LoD4EEd6XGZEnLaWKkw _lg20YD4GEd6XGZEnLaWKkw _A0uqsD4GEd6XGZEnLaWKkw _btaC4DvNEd6gtI8tb9yUjw _5CI4cFAqEd6NGfjlGBNnwA _YfwGIDW6Ed-QHLr98B9w4Q">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_kwazABFxEd6C2PqX2OSy5A#_5v17YBbkEd6C2PqX2OSy5A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_3kMd4Is9Ed6teaWLNUG7zw" name="BPMN" guid="_3kMd4Is9Ed6teaWLNUG7zw" variabilityType="contributes" categorizedElements="_0g8e8D_0Ed6OCv3eGs9Gwg _xseLoERnEd6rK5RiDPV2HA _U6IXUD_2Ed6OCv3eGs9Gwg _lPvaoERmEd6rK5RiDPV2HA _BtccQERlEd6rK5RiDPV2HA _oTUq8ERnEd6rK5RiDPV2HA _XnMdUEl0Ed6Hx5Ue-mZZOA _6_R0UD_0Ed6OCv3eGs9Gwg _XmjosD_zEd6OCv3eGs9Gwg _ErhQID_1Ed6OCv3eGs9Gwg _sui5EERnEd6rK5RiDPV2HA _qqN3wElzEd6Hx5Ue-mZZOA _aAXisERnEd6rK5RiDPV2HA _b7BG8ERmEd6rK5RiDPV2HA _XfsVsERnEd6rK5RiDPV2HA _Tx3OgERmEd6rK5RiDPV2HA _sopQIElvEd6Hx5Ue-mZZOA _da32gEvBEd6DhYqBYw4IIA _klUaEERlEd6rK5RiDPV2HA _-sSXYEvCEd6DhYqBYw4IIA _o7DrYEowEd6CtJV_GsxZFg _mEgwIDHfEd-vZ-Nkdj4ADg">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_kwazABFxEd6C2PqX2OSy5A#_5v17YBbkEd6C2PqX2OSy5A"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__KzlHDvMEd6gtI8tb9yUjw" name="CoreContent" guid="__KzlHDvMEd6gtI8tb9yUjw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_VklqgDvNEd6gtI8tb9yUjw" name="EPC" guid="_VklqgDvNEd6gtI8tb9yUjw" presentationName="Event-Driven Process Chain">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_btaC4DvNEd6gtI8tb9yUjw" name="Create (XOR) Connector(EPC View)" guid="_btaC4DvNEd6gtI8tb9yUjw" presentationName="Create (XOR) Connector Element" briefDescription="Creation of XOR Connector Elements&#xD;&#xA;&#xD;&#xA;The XOR element is a connector element. &#xD;&#xA;&#xD;&#xA;You need an exclusive OR if you have two possibilities but only one of them has to be true. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_6p5jUD4JEd6XGZEnLaWKkw" examples="_4wAosJ1wEd66L-e4h6VCVQ" performedBy="_gIqJwRntEd6VV7P4WguglA _gIqw0RntEd6VV7P4WguglA _r7_S0FUSEd6C1uTeH2AdkQ _r7_54FUSEd6C1uTeH2AdkQ _r7_54VUSEd6C1uTeH2AdkQ" output="_5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-9U0h08WPih5JiuM-lO62Aw" href="uma://-9U0h08WPih5JiuM-lO62Aw#-9U0h08WPih5JiuM-lO62Aw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3evUcDvQEd6gtI8tb9yUjw" name="Create (AND) Connector(EPC View)" guid="_3evUcDvQEd6gtI8tb9yUjw" presentationName="Create an (AND) Connector Element" briefDescription="Creation of AND Connector Elements&#xD;&#xA;&#xD;&#xA;The AND element is a connector element. &#xD;&#xA;&#xD;&#xA;You need an AND if you have two possibilities and you want to start them parallel. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_6p5jUD4JEd6XGZEnLaWKkw" examples="_4wAosJ1wEd66L-e4h6VCVQ" performedBy="_gIqJwRntEd6VV7P4WguglA _gIqw0RntEd6VV7P4WguglA _r7_S0FUSEd6C1uTeH2AdkQ _r7_54FUSEd6C1uTeH2AdkQ _r7_54VUSEd6C1uTeH2AdkQ" output="_5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-TeOVUZqp9aFq6PRZWOGpjw" href="uma://-TeOVUZqp9aFq6PRZWOGpjw#-TeOVUZqp9aFq6PRZWOGpjw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_mW7LoD4EEd6XGZEnLaWKkw" name="Create (OR) Connector(EPC View)" guid="_mW7LoD4EEd6XGZEnLaWKkw" presentationName="Create an (OR) Connector" briefDescription="Creation of OR Connectors&#xD;&#xA;&#xD;&#xA;The OR element is a connector element. &#xD;&#xA;&#xD;&#xA;You need an OR if you have two possibilities and one or two of them are true. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_6p5jUD4JEd6XGZEnLaWKkw" examples="_4wAosJ1wEd66L-e4h6VCVQ" performedBy="_gIqJwRntEd6VV7P4WguglA _gIqw0RntEd6VV7P4WguglA _r7_S0FUSEd6C1uTeH2AdkQ _r7_54FUSEd6C1uTeH2AdkQ _r7_54VUSEd6C1uTeH2AdkQ" output="_5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-cA5thye98nGPcR9ekhD3DQ" href="uma://-cA5thye98nGPcR9ekhD3DQ#-cA5thye98nGPcR9ekhD3DQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_uKO6cD4FEd6XGZEnLaWKkw" name="Create Function" guid="_uKO6cD4FEd6XGZEnLaWKkw" presentationName="Create a Function" briefDescription="Creation of Functions&#xD;&#xA;&#xD;&#xA;One of the basic elements that you need to model your EPC. &#xD;&#xA;&#xD;&#xA;What a function can be: &#xD;&#xA;&#xD;&#xA;- stands for a certain activity or application which is accomplished by a certain person. The activity needs an input to arrive a condition. &#xD;&#xA;&#xD;&#xA;IMPORTANT: needs always an input! &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_6p5jUD4JEd6XGZEnLaWKkw" examples="_4wAosJ1wEd66L-e4h6VCVQ" performedBy="_gIqJwRntEd6VV7P4WguglA _gIqw0RntEd6VV7P4WguglA _r7_S0FUSEd6C1uTeH2AdkQ _r7_54FUSEd6C1uTeH2AdkQ _r7_54VUSEd6C1uTeH2AdkQ" output="_5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-tagCSbm1xpHz0u4qxK0MhA" href="uma://-tagCSbm1xpHz0u4qxK0MhA#-tagCSbm1xpHz0u4qxK0MhA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6_J-cD4FEd6XGZEnLaWKkw" name="Create Event(EPC View)" guid="_6_J-cD4FEd6XGZEnLaWKkw" presentationName="Create an Event" briefDescription="Creation of Events&#xD;&#xA;&#xD;&#xA;One of the basic elements that you need to model your EPC. &#xD;&#xA;&#xD;&#xA;What an event can be: &#xD;&#xA;&#xD;&#xA;- A trigger of a certain function, which describes a status. (function input) &#xD;&#xA;&#xD;&#xA;- A status which is arrived after an activity. (function output) &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;--> An EPC has always n event as starting element. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_6p5jUD4JEd6XGZEnLaWKkw" examples="_4wAosJ1wEd66L-e4h6VCVQ" performedBy="_gIqJwRntEd6VV7P4WguglA _gIqw0RntEd6VV7P4WguglA _r7_S0FUSEd6C1uTeH2AdkQ _r7_54FUSEd6C1uTeH2AdkQ _r7_54VUSEd6C1uTeH2AdkQ" output="_5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-UsVdp1t568EPf4d7b74IGg" href="uma://-UsVdp1t568EPf4d7b74IGg#-UsVdp1t568EPf4d7b74IGg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_A0uqsD4GEd6XGZEnLaWKkw" name="Create ResourceElement" guid="_A0uqsD4GEd6XGZEnLaWKkw" presentationName="Create a Resource Element" briefDescription="Creation of Resource Elements&#xD;&#xA;&#xD;&#xA;With ressource elements you can model surrounding circumstances. &#xD;&#xA;&#xD;&#xA;e.g.: rolls, persons, informationsystems, ... &#xD;&#xA;" examples="_4wAosJ1wEd66L-e4h6VCVQ" performedBy="_gIqJwRntEd6VV7P4WguglA _gIqw0RntEd6VV7P4WguglA _r7_S0FUSEd6C1uTeH2AdkQ _r7_54FUSEd6C1uTeH2AdkQ _r7_54VUSEd6C1uTeH2AdkQ" output="_5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-4P4yoy4EHBKGrCWrclpo8A" href="uma://-4P4yoy4EHBKGrCWrclpo8A#-4P4yoy4EHBKGrCWrclpo8A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_lg20YD4GEd6XGZEnLaWKkw" name="Create Organisation(EPC View)" guid="_lg20YD4GEd6XGZEnLaWKkw" presentationName="Create an Organisation Element" briefDescription="Creation of Organisation Elements&#xD;&#xA;&#xD;&#xA;The organisational units are rolls or persons, who are responsible for certain functions. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_A0uqsD4GEd6XGZEnLaWKkw" examples="_4wAosJ1wEd66L-e4h6VCVQ" performedBy="_gIqJwRntEd6VV7P4WguglA _gIqw0RntEd6VV7P4WguglA _r7_S0FUSEd6C1uTeH2AdkQ _r7_54FUSEd6C1uTeH2AdkQ _r7_54VUSEd6C1uTeH2AdkQ" output="_5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-hNRVdNcN5IcmabyCHV01Eg" href="uma://-hNRVdNcN5IcmabyCHV01Eg#-hNRVdNcN5IcmabyCHV01Eg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6p5jUD4JEd6XGZEnLaWKkw" name="Create Flow Element" guid="_6p5jUD4JEd6XGZEnLaWKkw" presentationName="Create a Flow Element" briefDescription="Creation of Flow Elements&#xD;&#xA;&#xD;&#xA;A flow element is one of the main parts of the EPC. &#xD;&#xA;&#xD;&#xA;With this elements you can model business processes. &#xD;&#xA;" examples="_4wAosJ1wEd66L-e4h6VCVQ" performedBy="_gIqJwRntEd6VV7P4WguglA _gIqw0RntEd6VV7P4WguglA _r7_S0FUSEd6C1uTeH2AdkQ _r7_54FUSEd6C1uTeH2AdkQ _r7_54VUSEd6C1uTeH2AdkQ" output="_5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-ZdyBJzoNpD8M1OpeXnzxYA" href="uma://-ZdyBJzoNpD8M1OpeXnzxYA#-ZdyBJzoNpD8M1OpeXnzxYA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IZanUD4KEd6XGZEnLaWKkw" name="Create Message Connection" guid="_IZanUD4KEd6XGZEnLaWKkw" presentationName="Create a Message Connection" briefDescription="Creation of Message Connections&#xD;&#xA;&#xD;&#xA;A message connection element is needed to get a connection between messages. &#xD;&#xA;&#xD;&#xA;Its the relationship between those elements. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_k_F-gD7fEd68tZwU2iDBmQ" examples="_4wAosJ1wEd66L-e4h6VCVQ" performedBy="_gIqJwRntEd6VV7P4WguglA _gIqw0RntEd6VV7P4WguglA _r7_S0FUSEd6C1uTeH2AdkQ _r7_54FUSEd6C1uTeH2AdkQ _r7_54VUSEd6C1uTeH2AdkQ" output="_5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-4AyvJG-Rebphi7rNfus-cg" href="uma://-4AyvJG-Rebphi7rNfus-cg#-4AyvJG-Rebphi7rNfus-cg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_k_F-gD7fEd68tZwU2iDBmQ" name="Create Connection" guid="_k_F-gD7fEd68tZwU2iDBmQ" presentationName="Create a Connection" briefDescription="Creation of Connections&#xD;&#xA;&#xD;&#xA;A connection element is needed to get a connection between functions, events, connectors or messages. &#xD;&#xA;&#xD;&#xA;Its the relationship between those elements. &#xD;&#xA;&#xD;&#xA;You have two categories, message connection and flow connection. &#xD;&#xA;" examples="_4wAosJ1wEd66L-e4h6VCVQ" performedBy="_gIqJwRntEd6VV7P4WguglA _gIqw0RntEd6VV7P4WguglA _r7_S0FUSEd6C1uTeH2AdkQ _r7_54FUSEd6C1uTeH2AdkQ _r7_54VUSEd6C1uTeH2AdkQ" output="_5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-Gf5spxwNpshWRajPkgVf-Q" href="uma://-Gf5spxwNpshWRajPkgVf-Q#-Gf5spxwNpshWRajPkgVf-Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_gIqw0RntEd6VV7P4WguglA" name="User" guid="_gIqw0RntEd6VV7P4WguglA" presentationName="User"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_gIqJwRntEd6VV7P4WguglA" name="Business Analyst" guid="_gIqJwRntEd6VV7P4WguglA" presentationName="Business Analyst" briefDescription="Responsible for analyzing the business needs of clients to help identify business problems and propose solutions."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ZppNUD-cEd6BGMQMI2-1Sg" name="Create Flow Connection" guid="_ZppNUD-cEd6BGMQMI2-1Sg" presentationName="Create a Flow Connection" briefDescription="Creation of Flow Connections&#xD;&#xA;&#xD;&#xA;A flow connection is the connection between flow elements. &#xD;&#xA;&#xD;&#xA;You can connect an event or a function with each other, &#xD;&#xA;&#xD;&#xA;or an event or a function with an OR/XOR/AND. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_k_F-gD7fEd68tZwU2iDBmQ" examples="_4wAosJ1wEd66L-e4h6VCVQ" performedBy="_gIqJwRntEd6VV7P4WguglA _gIqw0RntEd6VV7P4WguglA _r7_S0FUSEd6C1uTeH2AdkQ _r7_54FUSEd6C1uTeH2AdkQ _r7_54VUSEd6C1uTeH2AdkQ" output="_5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-R6iydC15WFsCLOygWihIdw" href="uma://-R6iydC15WFsCLOygWihIdw#-R6iydC15WFsCLOygWihIdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_nEd3ED_FEd6Ohaxp2PYTFg" name="Create ApplicationSystem" guid="_nEd3ED_FEd6Ohaxp2PYTFg" presentationName="Create an Application System" briefDescription="Creation of Application Systems&#xD;&#xA;&#xD;&#xA;The application system element is an input or output of a function. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_A0uqsD4GEd6XGZEnLaWKkw" examples="_4wAosJ1wEd66L-e4h6VCVQ" performedBy="_gIqJwRntEd6VV7P4WguglA _gIqw0RntEd6VV7P4WguglA _r7_S0FUSEd6C1uTeH2AdkQ _r7_54FUSEd6C1uTeH2AdkQ _r7_54VUSEd6C1uTeH2AdkQ" output="_5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-JeK379p3PmovGPN7RCKlOA" href="uma://-JeK379p3PmovGPN7RCKlOA#-JeK379p3PmovGPN7RCKlOA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_r7_S0FUSEd6C1uTeH2AdkQ" name="Analyst" guid="_r7_S0FUSEd6C1uTeH2AdkQ" presentationName="Analyst" briefDescription="This worker is mainly involved in the processes related to the requirements of the customers. ">
+            <presentation xmi:id="-Kam22Pg_DuKlz0SKapB6gA" href="uma://-Kam22Pg_DuKlz0SKapB6gA#-Kam22Pg_DuKlz0SKapB6gA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_r7_54FUSEd6C1uTeH2AdkQ" name="Business_Process_Modeller" guid="_r7_54FUSEd6C1uTeH2AdkQ" presentationName="Business Process Modeller" briefDescription="This worker is involved in the design of the composition workflow and all the issues around it like security, transactions or exception handling.">
+            <presentation xmi:id="-i9KW12JlgjeMDGCe-ob7_Q" href="uma://-i9KW12JlgjeMDGCe-ob7_Q#-i9KW12JlgjeMDGCe-ob7_Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_r7_54VUSEd6C1uTeH2AdkQ" name="Designer" guid="_r7_54VUSEd6C1uTeH2AdkQ" presentationName="Designer">
+            <presentation xmi:id="-21KgARYxyY-BfZ0FA8q3Mw" href="uma://-21KgARYxyY-BfZ0FA8q3Mw#-21KgARYxyY-BfZ0FA8q3Mw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_S2P2EGYsEd6yd4JjNhe1Bg" name="Create ELane Element" guid="_S2P2EGYsEd6yd4JjNhe1Bg" presentationName="Create an ELane Element" briefDescription="Creation of ELane Elements&#xD;&#xA;&#xD;&#xA;The ELane Element is a lane which is part of a pool. It is similarly to the BPMN Lane. &#xD;&#xA;" examples="_4wAosJ1wEd66L-e4h6VCVQ" performedBy="_r7_S0FUSEd6C1uTeH2AdkQ _r7_54FUSEd6C1uTeH2AdkQ _gIqJwRntEd6VV7P4WguglA _r7_54VUSEd6C1uTeH2AdkQ _gIqw0RntEd6VV7P4WguglA" output="_5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-dNGtmuu7stXJEwcNP0iIow" href="uma://-dNGtmuu7stXJEwcNP0iIow#-dNGtmuu7stXJEwcNP0iIow"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_4wAosJ1wEd66L-e4h6VCVQ" name="DFKI-IWi_EPC_Diagram_example" guid="_4wAosJ1wEd66L-e4h6VCVQ" presentationName="DFKI-IWi_EPC_Diagram_example"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_yVqkkJ32Ed6s7YgGIghgTQ" name="EPC_checklist" guid="_yVqkkJ32Ed6s7YgGIghgTQ" presentationName="EPC checklist" briefDescription="EPC best practices checklist for epc modelling.">
+            <presentation xmi:id="-TJuLSPzlg5NlhDRMsrvFNQ" href="uma://-TJuLSPzlg5NlhDRMsrvFNQ#-TJuLSPzlg5NlhDRMsrvFNQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_zH89IJ32Ed6s7YgGIghgTQ" name="EPC_notation" guid="_zH89IJ32Ed6s7YgGIghgTQ" presentationName="EPC notation">
+            <presentation xmi:id="-jq9Ah9lx0LDQEDMR_4LJmw" href="uma://-jq9Ah9lx0LDQEDMR_4LJmw#-jq9Ah9lx0LDQEDMR_4LJmw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_0QZy8J32Ed6s7YgGIghgTQ" name="EPC_Objecteering_tool_mentor" guid="_0QZy8J32Ed6s7YgGIghgTQ" presentationName="EPC Objecteering tool mentor" briefDescription="Objecteering mentor for EPC modelling."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YfwGIDW6Ed-QHLr98B9w4Q" name="EPC Process Modelling" guid="_YfwGIDW6Ed-QHLr98B9w4Q" presentationName="EPC Process Modelling" briefDescription="This method defines the guided procedure for modelling business processes in EPC." checklists="_yVqkkJ32Ed6s7YgGIghgTQ" guidelines="_zH89IJ32Ed6s7YgGIghgTQ" examples="_4wAosJ1wEd66L-e4h6VCVQ" performedBy="_rRVzUFUSEd6C1uTeH2AdkQ" output="_5CI4cFAqEd6NGfjlGBNnwA" additionallyPerformedBy="_5T2UoT_xEd6OCv3eGs9Gwg" toolMentors="_0QZy8J32Ed6s7YgGIghgTQ">
+            <presentation xmi:id="-CwjbszltMuGdGe20bcOJEA" href="uma://-CwjbszltMuGdGe20bcOJEA#-CwjbszltMuGdGe20bcOJEA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5TsjoD_xEd6OCv3eGs9Gwg" name="BPMN" guid="_5TsjoD_xEd6OCv3eGs9Gwg" presentationName="Business Process Modeling Notation">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_5TsjsD_xEd6OCv3eGs9Gwg" name="User" guid="_5TsjsD_xEd6OCv3eGs9Gwg" presentationName="User">
+            <presentation xmi:id="-0T5Vnr-uRTchEoQUco2mZg" href="uma://-0T5Vnr-uRTchEoQUco2mZg#-0T5Vnr-uRTchEoQUco2mZg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_5T2UoT_xEd6OCv3eGs9Gwg" name="Business Analyst" guid="_5T2UoT_xEd6OCv3eGs9Gwg" presentationName="Business Analyst" briefDescription="Responsible for analyzing the business needs of clients to help identify business problems and propose solutions."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_XmjosD_zEd6OCv3eGs9Gwg" name="Create Flow Object" guid="_XmjosD_zEd6OCv3eGs9Gwg" presentationName="Create a Flow Object" briefDescription="Creation of Flow Objects&#xD;&#xA;&#xD;&#xA;A flow element is one of the main parts of the BPMN. &#xD;&#xA;&#xD;&#xA;Flow objects are the main graphical elements to define the behavior of a Business Process. &#xD;&#xA;&#xD;&#xA;There are three Flow Objects: &#xD;&#xA;&#xD;&#xA;-Events &#xD;&#xA;&#xD;&#xA;-Activities &#xD;&#xA;&#xD;&#xA;-Gateways &#xD;&#xA;" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-WU3COW8zEVMtDUFXtyBUjA" href="uma://-WU3COW8zEVMtDUFXtyBUjA#-WU3COW8zEVMtDUFXtyBUjA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0g8e8D_0Ed6OCv3eGs9Gwg" name="Create Activity" guid="_0g8e8D_0Ed6OCv3eGs9Gwg" presentationName="Create an Activity" briefDescription="Creation of Activities&#xD;&#xA;&#xD;&#xA;An activity is a generic term for work that company performs. An activity can be atomic or non-atomic (compound). The types of activities that are a part of a Process Model are: Process, Sub-Process, and Task. Tasks and Sub-Processes are rounded rectangles. Processes are either unbounded or a contained within a Pool. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_XmjosD_zEd6OCv3eGs9Gwg" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-bROjQLC0hhSqYyvU6UMqNQ" href="uma://-bROjQLC0hhSqYyvU6UMqNQ#-bROjQLC0hhSqYyvU6UMqNQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6_R0UD_0Ed6OCv3eGs9Gwg" name="Create Event(BPMN View)" guid="_6_R0UD_0Ed6OCv3eGs9Gwg" presentationName="Create an Event" briefDescription="Creation of Events&#xD;&#xA;&#xD;&#xA;An event is something that “happens” during the course of a business process. These events affect the flow of the process and usually have a cause (trigger) or an impact (result). Events are circles with open centers to allow internal markers to differentiate different triggers or results. &#xD;&#xA;&#xD;&#xA;There are three types of Events, based on when they affect the flow: &#xD;&#xA;&#xD;&#xA;Start, Intermediate, and End. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_XmjosD_zEd6OCv3eGs9Gwg" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-cFkG9lXWrpPW0zRNDH4eHg" href="uma://-cFkG9lXWrpPW0zRNDH4eHg#-cFkG9lXWrpPW0zRNDH4eHg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ErhQID_1Ed6OCv3eGs9Gwg" name="Create Gateway" guid="_ErhQID_1Ed6OCv3eGs9Gwg" presentationName="Create a Gateway" briefDescription="Creation of Gateways&#xD;&#xA;&#xD;&#xA;A Gateway is used to control the divergence and convergence of Sequence Flow. Thus, it will determine branching, forking, merging, and joining of paths. Internal Markers will indicate the type of behavior control. &#xD;&#xA;&#xD;&#xA;Icons within the diamond shape will indicate the type of flow control behavior. The types of control include: &#xD;&#xA;&#xD;&#xA;• XOR -- exclusive decision and merging. Both Data-Based and Event-Based. Data-Based can be shown with or without the “X” marker. &#xD;&#xA;&#xD;&#xA;• OR -- inclusive decision and merging &#xD;&#xA;&#xD;&#xA;• Complex -- complex conditions and situations (e.g., 3 out of 5) &#xD;&#xA;&#xD;&#xA;• AND -- forking and joining &#xD;&#xA;&#xD;&#xA;Each type of control affects both the incoming and outgoing Flow. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_XmjosD_zEd6OCv3eGs9Gwg" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-yd2MOj4gXVHuS4aW7fozxg" href="uma://-yd2MOj4gXVHuS4aW7fozxg#-yd2MOj4gXVHuS4aW7fozxg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_U6IXUD_2Ed6OCv3eGs9Gwg" name="Create Artifact" guid="_U6IXUD_2Ed6OCv3eGs9Gwg" presentationName="Create an Artifact" briefDescription="Creation of Artifacts&#xD;&#xA;&#xD;&#xA;Artifacts are used to provide additional information about the Process. There are four standardized Artifacts, but modelers or modeling tools are free to add as many Artifacts as required. There may be addition BPMN efforts to standardize a larger set of Artifacts for general use or for vertical markets. &#xD;&#xA;&#xD;&#xA;The current set of Artifacts include: &#xD;&#xA;&#xD;&#xA;- Data Object &#xD;&#xA;&#xD;&#xA;- Group &#xD;&#xA;&#xD;&#xA;- Annotation &#xD;&#xA;" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-pqE3qamwO7WON-48WTclew" href="uma://-pqE3qamwO7WON-48WTclew#-pqE3qamwO7WON-48WTclew"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_BtccQERlEd6rK5RiDPV2HA" name="Create Connecting Object" guid="_BtccQERlEd6rK5RiDPV2HA" presentationName="Create a Connecting Object" briefDescription="Creation of Connecting Objects&#xD;&#xA;&#xD;&#xA;There are three ways of connecting the Flow Objects to each other or other information. There are three connecting objects: &#xD;&#xA;&#xD;&#xA;-Sequence Flow &#xD;&#xA;&#xD;&#xA;-Message Flow &#xD;&#xA;&#xD;&#xA;-Association &#xD;&#xA;" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-qc7liLS27iNQ48B96L6Aqg" href="uma://-qc7liLS27iNQ48B96L6Aqg#-qc7liLS27iNQ48B96L6Aqg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_klUaEERlEd6rK5RiDPV2HA" name="Create Swimlanes" guid="_klUaEERlEd6rK5RiDPV2HA" presentationName="Create a Swimlane" briefDescription="Creation of Swimlanes&#xD;&#xA;&#xD;&#xA;A swimlane is one of the main parts of the BPMN. &#xD;&#xA;&#xD;&#xA;Swimlanes are elements to grouping the primary modeling elements. &#xD;&#xA;&#xD;&#xA;There are two ways of grouping the primary modeling elements through &quot;Swimlanes&quot;: &#xD;&#xA;&#xD;&#xA;-Pools &#xD;&#xA;&#xD;&#xA;-Lanes &#xD;&#xA;" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-jnZNpWvmvcZMJVF6bywh1g" href="uma://-jnZNpWvmvcZMJVF6bywh1g#-jnZNpWvmvcZMJVF6bywh1g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Tx3OgERmEd6rK5RiDPV2HA" name="Create Sequence Flow" guid="_Tx3OgERmEd6rK5RiDPV2HA" presentationName="Create a Sequence Flow" briefDescription="Creation of Sequence Flows&#xD;&#xA;&#xD;&#xA;A Sequence Flow is used to show the order that activities will be performed in a Process. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_BtccQERlEd6rK5RiDPV2HA" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-S3of54HfKm7aRsXxQOEzrQ" href="uma://-S3of54HfKm7aRsXxQOEzrQ#-S3of54HfKm7aRsXxQOEzrQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_b7BG8ERmEd6rK5RiDPV2HA" name="Create Message Flow" guid="_b7BG8ERmEd6rK5RiDPV2HA" presentationName="Create a Message Flow" briefDescription="Creation of Message Flows&#xD;&#xA;&#xD;&#xA;A Message Flow is used to show the flow of messages between two participants that are prepared to send and receive them. In BPMN, two separate Pools in the Diagram will represent the two participants (e.g., business entities or business roles). &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_BtccQERlEd6rK5RiDPV2HA" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-q7rAL4oqj81qJFLPrrzZfQ" href="uma://-q7rAL4oqj81qJFLPrrzZfQ#-q7rAL4oqj81qJFLPrrzZfQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_lPvaoERmEd6rK5RiDPV2HA" name="Create Association" guid="_lPvaoERmEd6rK5RiDPV2HA" presentationName="Create an Association" briefDescription="Creation of Associations&#xD;&#xA;&#xD;&#xA;An Association is used to associate information with Flow Objects. Text and graphical non-Flow Objects can be associated with the Flow Objects. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_BtccQERlEd6rK5RiDPV2HA" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="--XvUgm6R8MIxvQvxd6pulA" href="uma://--XvUgm6R8MIxvQvxd6pulA#--XvUgm6R8MIxvQvxd6pulA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_XfsVsERnEd6rK5RiDPV2HA" name="Create Pool" guid="_XfsVsERnEd6rK5RiDPV2HA" presentationName="Create a Pool" briefDescription="Creation of Pools&#xD;&#xA;&#xD;&#xA;A Pool represents a Participant in a Process. It is also acts as a “swimlane” and a graphical container for partitioning a set of activities from other Pools, usually in the context of B2B situations. &#xD;&#xA;" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-i9_1AuMx-9hC6JOk6utMkQ" href="uma://-i9_1AuMx-9hC6JOk6utMkQ#-i9_1AuMx-9hC6JOk6utMkQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aAXisERnEd6rK5RiDPV2HA" name="Create Lane" guid="_aAXisERnEd6rK5RiDPV2HA" presentationName="Create a Lane" briefDescription="Creation of Lanes&#xD;&#xA;&#xD;&#xA;A Lane is a sub-partition within a Pool and will extend the entire length of the Pool, either vertically or horizontally. Lanes are used to organize and categorize activities. &#xD;&#xA;" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-uEWfYcU36lznZiw_neokjA" href="uma://-uEWfYcU36lznZiw_neokjA#-uEWfYcU36lznZiw_neokjA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_oTUq8ERnEd6rK5RiDPV2HA" name="Create Data Object(BPMN View)" guid="_oTUq8ERnEd6rK5RiDPV2HA" presentationName="Create a Data Object" briefDescription="Creation of Data Objects&#xD;&#xA;&#xD;&#xA;Data Objects are considered Artifacts because they do not have any direct effect on the Sequence Flow or Message Flow of the Process, but they do provide information about what activities require to be performed and/or what they produce. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_U6IXUD_2Ed6OCv3eGs9Gwg" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-Grm1cNqMoVSZWHwBMefNTw" href="uma://-Grm1cNqMoVSZWHwBMefNTw#-Grm1cNqMoVSZWHwBMefNTw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_sui5EERnEd6rK5RiDPV2HA" name="Create Group" guid="_sui5EERnEd6rK5RiDPV2HA" presentationName="Create a Group" briefDescription="Creation of Groups&#xD;&#xA;&#xD;&#xA;A grouping of activities that does not affect the Sequence Flow. The grouping can be used for documentation or analysis purposes. Groups can also be used to identify the activities of a distributed transaction that is shown across Pools. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_U6IXUD_2Ed6OCv3eGs9Gwg" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-zim2md1cHx1RSbhCf-THQA" href="uma://-zim2md1cHx1RSbhCf-THQA#-zim2md1cHx1RSbhCf-THQA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_xseLoERnEd6rK5RiDPV2HA" name="Create Annotation" guid="_xseLoERnEd6rK5RiDPV2HA" presentationName="Create an Annotation" briefDescription="Creation of Annotations&#xD;&#xA;&#xD;&#xA;Text Annotations are a mechanism for a modeler to provide additional information for the reader of a BPMN Diagram. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_U6IXUD_2Ed6OCv3eGs9Gwg" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-yI22hw3TdbYX_GL4ch4m2A" href="uma://-yI22hw3TdbYX_GL4ch4m2A#-yI22hw3TdbYX_GL4ch4m2A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_sopQIElvEd6Hx5Ue-mZZOA" name="Create Start Event" guid="_sopQIElvEd6Hx5Ue-mZZOA" presentationName="Create a Start Event" briefDescription="Creation of Start Events&#xD;&#xA;&#xD;&#xA;As the name implies, the Start Event indicates where a particular process will start. &#xD;&#xA;&#xD;&#xA;Start and most Intermediate Events have “Triggers” that define the cause for the event. There are multiple ways that these events can be triggered.End Events may define a “Result” that is a consequence of a Sequence Flow ending. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_6_R0UD_0Ed6OCv3eGs9Gwg" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-ey5oplR7PdGoY2j7iiLxGA" href="uma://-ey5oplR7PdGoY2j7iiLxGA#-ey5oplR7PdGoY2j7iiLxGA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_qqN3wElzEd6Hx5Ue-mZZOA" name="Create Intermediate Event" guid="_qqN3wElzEd6Hx5Ue-mZZOA" presentationName="Create an Intermediate Event" briefDescription="Creation of Intermediate Events&#xD;&#xA;&#xD;&#xA;Intermediate Events occur between a Start Event and an End Event. It will affect the flow of the process, but will not start or (directly) terminate the process. &#xD;&#xA;&#xD;&#xA;Start and most Intermediate Events have “Triggers” that define the cause for the event. There are multiple ways that these events can be triggered. End Events may define a “Result” that is a consequence of a Sequence Flow ending. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_6_R0UD_0Ed6OCv3eGs9Gwg" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-Q-JOYN8JjGmU9qcg0y637g" href="uma://-Q-JOYN8JjGmU9qcg0y637g#-Q-JOYN8JjGmU9qcg0y637g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_XnMdUEl0Ed6Hx5Ue-mZZOA" name="Create End Event" guid="_XnMdUEl0Ed6Hx5Ue-mZZOA" presentationName="Create an End Event" briefDescription="Creation of End Events&#xD;&#xA;&#xD;&#xA;As the name implies, the End Event indicates where a process will end. &#xD;&#xA;&#xD;&#xA;Start and most Intermediate Events have “Triggers” that define the cause for the event. There are multiple ways that these events can be triggered. End Events may define a “Result” that is a consequence of a Sequence Flow ending. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_6_R0UD_0Ed6OCv3eGs9Gwg" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-1ZO28p630xkIn10bfTDKNw" href="uma://-1ZO28p630xkIn10bfTDKNw#-1ZO28p630xkIn10bfTDKNw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_o7DrYEowEd6CtJV_GsxZFg" name="Create Text Object" guid="_o7DrYEowEd6CtJV_GsxZFg" presentationName="Create a Text Object" briefDescription="Creation of Text Objects&#xD;&#xA;&#xD;&#xA;Text Annotations are a mechanism for a modeler to provide additional information for the reader of a BPMN Diagram. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_U6IXUD_2Ed6OCv3eGs9Gwg" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="--TWvR2LXqlPwZWHspRLkcQ" href="uma://--TWvR2LXqlPwZWHspRLkcQ#--TWvR2LXqlPwZWHspRLkcQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_da32gEvBEd6DhYqBYw4IIA" name="Create Sub Process" guid="_da32gEvBEd6DhYqBYw4IIA" presentationName="Create a Sub Process" briefDescription="Creation of Sub Processes&#xD;&#xA;&#xD;&#xA;A Sub-Process is a compound activity that is included within a Process. It is compound in that it can be broken down into a finer level of detail (a Process) through a set of subactivities. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_0g8e8D_0Ed6OCv3eGs9Gwg" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-6vYyRfA0eTaFTg9-mn5vIA" href="uma://-6vYyRfA0eTaFTg9-mn5vIA#-6vYyRfA0eTaFTg9-mn5vIA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-sSXYEvCEd6DhYqBYw4IIA" name="Create Task" guid="_-sSXYEvCEd6DhYqBYw4IIA" presentationName="Create a Task" briefDescription="Creation of Tasks&#xD;&#xA;&#xD;&#xA;A Task is an atomic activity that is included within a Process. A Task is used when the work in the Process is not broken down to a finer level of Process Model detail. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_0g8e8D_0Ed6OCv3eGs9Gwg" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_5T2UoT_xEd6OCv3eGs9Gwg _5TsjsD_xEd6OCv3eGs9Gwg _rRVMQFUSEd6C1uTeH2AdkQ _rRVzUFUSEd6C1uTeH2AdkQ _rRVzUVUSEd6C1uTeH2AdkQ">
+            <presentation xmi:id="-N2Gprq5rc5hchy7R-Jw6CQ" href="uma://-N2Gprq5rc5hchy7R-Jw6CQ#-N2Gprq5rc5hchy7R-Jw6CQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_rRVMQFUSEd6C1uTeH2AdkQ" name="Analyst" guid="_rRVMQFUSEd6C1uTeH2AdkQ" presentationName="Analyst" briefDescription="This worker is mainly involved in the processes related to the requirements of the customers. ">
+            <presentation xmi:id="-Bz5bwdQ5f_ZFNeLjhJRhEg" href="uma://-Bz5bwdQ5f_ZFNeLjhJRhEg#-Bz5bwdQ5f_ZFNeLjhJRhEg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_rRVzUFUSEd6C1uTeH2AdkQ" name="Business_Process_Modeller" guid="_rRVzUFUSEd6C1uTeH2AdkQ" presentationName="Business Process Modeller" briefDescription="This worker is involved in the design of the composition workflow and all the issues around it like security, transactions or exception handling.">
+            <presentation xmi:id="-IcUKuSrA9WgSshLN8tV9ww" href="uma://-IcUKuSrA9WgSshLN8tV9ww#-IcUKuSrA9WgSshLN8tV9ww"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_rRVzUVUSEd6C1uTeH2AdkQ" name="Designer" guid="_rRVzUVUSEd6C1uTeH2AdkQ" presentationName="Designer">
+            <presentation xmi:id="-HNW_-m80qbxx3buEczRz0A" href="uma://-HNW_-m80qbxx3buEczRz0A#-HNW_-m80qbxx3buEczRz0A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_Ftdd8J1uEd66L-e4h6VCVQ" name="BPMN_Objecteering_tool_mentor" guid="_Ftdd8J1uEd66L-e4h6VCVQ" presentationName="BPMN Objecteering tool mentor" briefDescription="Objecteering mentor for BPMN modelling."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_GvhX4J1uEd66L-e4h6VCVQ" name="BPMN_process_checklist" guid="_GvhX4J1uEd66L-e4h6VCVQ" presentationName="BPMN process checklist" briefDescription="BPMN best practices checklist for business process modelling.">
+            <presentation xmi:id="-h2tfgn8jjG2e5k9rfD8bzA" href="uma://-h2tfgn8jjG2e5k9rfD8bzA#-h2tfgn8jjG2e5k9rfD8bzA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_GvhX4Z1uEd66L-e4h6VCVQ" name="BPMN_notation" guid="_GvhX4Z1uEd66L-e4h6VCVQ" presentationName="BPMN notation">
+            <presentation xmi:id="-or1hAMryFMs8DVzOdTyZLQ" href="uma://-or1hAMryFMs8DVzOdTyZLQ#-or1hAMryFMs8DVzOdTyZLQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_qBvvYJ1uEd66L-e4h6VCVQ" name="DFKI-IWi_BPMN_Diagram_example" guid="_qBvvYJ1uEd66L-e4h6VCVQ" presentationName="DFKI-IWi_BPMN_Diagram_example"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_mEgwIDHfEd-vZ-Nkdj4ADg" name="BPMN_Process_Modelling" guid="_mEgwIDHfEd-vZ-Nkdj4ADg" presentationName="BPMN_Process_Modelling" briefDescription="This method defines the guided procedure for modelling business processes in BPMN." checklists="_GvhX4J1uEd66L-e4h6VCVQ" guidelines="_GvhX4Z1uEd66L-e4h6VCVQ" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_rRVzUFUSEd6C1uTeH2AdkQ" additionallyPerformedBy="_5T2UoT_xEd6OCv3eGs9Gwg" optionalInput="_d8szkIGrEd6tqIeaIOtuNA _ypo8sIGrEd6tqIeaIOtuNA _C-dPAIGsEd6tqIeaIOtuNA _SGFVcIGsEd6tqIeaIOtuNA" toolMentors="_Ftdd8J1uEd66L-e4h6VCVQ">
+            <presentation xmi:id="-FnF6aXNRiY1-ExKZBCtmdA" href="uma://-FnF6aXNRiY1-ExKZBCtmdA#-FnF6aXNRiY1-ExKZBCtmdA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2hxTkYGlEd6tqIeaIOtuNA" name="Behavior_Diagram" guid="_2hxTkYGlEd6tqIeaIOtuNA" presentationName="Behavior Diagram" briefDescription="Contains information about the behaviors modeled">
+            <presentation xmi:id="-vTMGgVLK2I4e6s6KAI3Edw" href="uma://-vTMGgVLK2I4e6s6KAI3Edw#-vTMGgVLK2I4e6s6KAI3Edw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_d8szkIGrEd6tqIeaIOtuNA" name="Business_Rules_View_Model" guid="_d8szkIGrEd6tqIeaIOtuNA" presentationName="Business Rules View Model">
+            <presentation xmi:id="-ezQRFHWmiqJ06vEDtBVsQg" href="uma://-ezQRFHWmiqJ06vEDtBVsQg#-ezQRFHWmiqJ06vEDtBVsQg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2hxTkoGlEd6tqIeaIOtuNA" name="Collaboration_Diagram" guid="_2hxTkoGlEd6tqIeaIOtuNA" presentationName="Collaboration Diagram" briefDescription="Contains information about the collaborations modeled">
+            <presentation xmi:id="-FShFPpQsG8707KUXvQdqeg" href="uma://-FShFPpQsG8707KUXvQdqeg#-FShFPpQsG8707KUXvQdqeg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ypo8sIGrEd6tqIeaIOtuNA" name="Data_View_Model" guid="_ypo8sIGrEd6tqIeaIOtuNA" presentationName="Data_View_Model">
+            <presentation xmi:id="-iP0wLxkel7wlT92A8h_Z_A" href="uma://-iP0wLxkel7wlT92A8h_Z_A#-iP0wLxkel7wlT92A8h_Z_A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2hxTk4GlEd6tqIeaIOtuNA" name="Deployment_Diagram" guid="_2hxTk4GlEd6tqIeaIOtuNA" presentationName="Deployment Diagram" briefDescription="Contains information about the agent instances modeled">
+            <presentation xmi:id="-VxBVZEALATWK8H7pGEnfhg" href="uma://-VxBVZEALATWK8H7pGEnfhg#-VxBVZEALATWK8H7pGEnfhg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2hxTlIGlEd6tqIeaIOtuNA" name="Environment_Diagram" guid="_2hxTlIGlEd6tqIeaIOtuNA" presentationName="Environment_Diagram" briefDescription="Contains information about the environments modeled">
+            <presentation xmi:id="-wG6rxOM6kgKaXggWMkaUBg" href="uma://-wG6rxOM6kgKaXggWMkaUBg#-wG6rxOM6kgKaXggWMkaUBg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_5CI4cFAqEd6NGfjlGBNnwA" name="EPC_Model" guid="_5CI4cFAqEd6NGfjlGBNnwA" presentationName="Process Model" briefDescription="The process model could be represented with the EPC metamodel. The EPC metamodel is used to configure the structure and privacy of the processes.">
+            <presentation xmi:id="-Q6ONdquvK11SUiw0RfBUrg" href="uma://-Q6ONdquvK11SUiw0RfBUrg#-Q6ONdquvK11SUiw0RfBUrg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_C-dPAIGsEd6tqIeaIOtuNA" name="EPC_Process_Model" guid="_C-dPAIGsEd6tqIeaIOtuNA" presentationName="EPC Process Model">
+            <presentation xmi:id="-oHboEyl8xJ_CWy_qSM7ulQ" href="uma://-oHboEyl8xJ_CWy_qSM7ulQ#-oHboEyl8xJ_CWy_qSM7ulQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2hxTlYGlEd6tqIeaIOtuNA" name="Interaction_Diagram" guid="_2hxTlYGlEd6tqIeaIOtuNA" presentationName="Interaction Diagram" briefDescription="Contains information about the interactions modeled">
+            <presentation xmi:id="-aAt35uODZ3-26hdmEoipbw" href="uma://-aAt35uODZ3-26hdmEoipbw#-aAt35uODZ3-26hdmEoipbw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_SGFVcIGsEd6tqIeaIOtuNA" name="Organisation_View_Model" guid="_SGFVcIGsEd6tqIeaIOtuNA" presentationName="Organisation View Model">
+            <presentation xmi:id="-WhTtW0TN-G0s1KJX8wszxg" href="uma://-WhTtW0TN-G0s1KJX8wszxg#-WhTtW0TN-G0s1KJX8wszxg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2hxTl4GlEd6tqIeaIOtuNA" name="Organization_Diagram" guid="_2hxTl4GlEd6tqIeaIOtuNA" presentationName="Organization Diagram" briefDescription="Contains information about the organizations modeled">
+            <presentation xmi:id="-fuefTbR8GibXFZlZ4BZNug" href="uma://-fuefTbR8GibXFZlZ4BZNug#-fuefTbR8GibXFZlZ4BZNug"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kHHvsFAtEd6NGfjlGBNnwA" name="Organization_Model" guid="_kHHvsFAtEd6NGfjlGBNnwA" presentationName="Organization Model" briefDescription="The Organisation  model describes the organisational structure that is related to an underlying activity.">
+            <presentation xmi:id="-5U_11s34QoZsavKVkjYN6w" href="uma://-5U_11s34QoZsavKVkjYN6w#-5U_11s34QoZsavKVkjYN6w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_uaY9zYGaEd6tqIeaIOtuNA" name="Physical_Architecture_Design" guid="_uaY9zYGaEd6tqIeaIOtuNA" presentationName="Physical Architecture Design">
+            <presentation xmi:id="-iFtZP7I2qSR31hyBE-6QDA" href="uma://-iFtZP7I2qSR31hyBE-6QDA#-iFtZP7I2qSR31hyBE-6QDA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ZmurYFUVEd6C1uTeH2AdkQ" name="Data" guid="_ZmurYFUVEd6C1uTeH2AdkQ" presentationName="DataView">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_edtocFUVEd6C1uTeH2AdkQ" name="Analyst" guid="_edtocFUVEd6C1uTeH2AdkQ" presentationName="Analyst" briefDescription="This worker is mainly involved in the processes related to the requirements of the customers. ">
+            <presentation xmi:id="-O_Iwj8-uGlGZaIt7O_uicQ" href="uma://-O_Iwj8-uGlGZaIt7O_uicQ#-O_Iwj8-uGlGZaIt7O_uicQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_eduPgFUVEd6C1uTeH2AdkQ" name="Business Analyst" guid="_eduPgFUVEd6C1uTeH2AdkQ" presentationName="Business Analyst" briefDescription="Responsible for analyzing the business needs of clients to help identify business problems and propose solutions."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_eduPgVUVEd6C1uTeH2AdkQ" name="Business_Process_Modeller" guid="_eduPgVUVEd6C1uTeH2AdkQ" presentationName="Business Process Modeller" briefDescription="This worker is involved in the design of the composition workflow and all the issues around it like security, transactions or exception handling.">
+            <presentation xmi:id="-_VvwLVoJ69d-oFgRy-DLrw" href="uma://-_VvwLVoJ69d-oFgRy-DLrw#-_VvwLVoJ69d-oFgRy-DLrw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_eduPglUVEd6C1uTeH2AdkQ" name="Designer" guid="_eduPglUVEd6C1uTeH2AdkQ" presentationName="Designer">
+            <presentation xmi:id="-YwnpDlcn53oSqjFN-6Dqbg" href="uma://-YwnpDlcn53oSqjFN-6Dqbg#-YwnpDlcn53oSqjFN-6Dqbg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_eduPg1UVEd6C1uTeH2AdkQ" name="User" guid="_eduPg1UVEd6C1uTeH2AdkQ" presentationName="User">
+            <presentation xmi:id="-vs5iS3wAyD2nA40mAoTC0Q" href="uma://-vs5iS3wAyD2nA40mAoTC0Q#-vs5iS3wAyD2nA40mAoTC0Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_fKKewFUVEd6C1uTeH2AdkQ" name="Create Data Object(Data View)" guid="_fKKewFUVEd6C1uTeH2AdkQ" presentationName="Create a Data Object" briefDescription="Creation of Data Objects&#xD;&#xA;&#xD;&#xA;Data Objects provide information about what activities require to be performed and/or what they produce. &#xD;&#xA;" examples="_DP3SwJ1xEd66L-e4h6VCVQ" performedBy="_edtocFUVEd6C1uTeH2AdkQ _eduPgVUVEd6C1uTeH2AdkQ _eduPgFUVEd6C1uTeH2AdkQ _eduPglUVEd6C1uTeH2AdkQ _eduPg1UVEd6C1uTeH2AdkQ" output="_ypo8sIGrEd6tqIeaIOtuNA">
+            <presentation xmi:id="-_S24yG3GS_neQXxaAapm7g" href="uma://-_S24yG3GS_neQXxaAapm7g#-_S24yG3GS_neQXxaAapm7g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rcYeUFUVEd6C1uTeH2AdkQ" name="Create Attribute" guid="_rcYeUFUVEd6C1uTeH2AdkQ" presentationName="Create an Attribute" briefDescription="Creation of Attributes&#xD;&#xA;&#xD;&#xA;Attributes are the data elements, such as numbers, strings, or date values, that describe the state and contents of a BPMN Object. &#xD;&#xA;" examples="_DP3SwJ1xEd66L-e4h6VCVQ" performedBy="_edtocFUVEd6C1uTeH2AdkQ _eduPgVUVEd6C1uTeH2AdkQ _eduPgFUVEd6C1uTeH2AdkQ _eduPglUVEd6C1uTeH2AdkQ _eduPg1UVEd6C1uTeH2AdkQ" output="_ypo8sIGrEd6tqIeaIOtuNA">
+            <presentation xmi:id="-2Im7JoBUU6eRBHKmZ_pH5Q" href="uma://-2Im7JoBUU6eRBHKmZ_pH5Q#-2Im7JoBUU6eRBHKmZ_pH5Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_s2bacFUVEd6C1uTeH2AdkQ" name="Create Relationship" guid="_s2bacFUVEd6C1uTeH2AdkQ" presentationName="Create a Relationship" briefDescription="Creation of Relationships&#xD;&#xA;&#xD;&#xA;An relationship is used to connect two different data elements. &#xD;&#xA;" examples="_DP3SwJ1xEd66L-e4h6VCVQ" performedBy="_edtocFUVEd6C1uTeH2AdkQ _eduPgVUVEd6C1uTeH2AdkQ _eduPgFUVEd6C1uTeH2AdkQ _eduPglUVEd6C1uTeH2AdkQ _eduPg1UVEd6C1uTeH2AdkQ" output="_ypo8sIGrEd6tqIeaIOtuNA">
+            <presentation xmi:id="-v9j-UuJWnnepce6TtmqzRw" href="uma://-v9j-UuJWnnepce6TtmqzRw#-v9j-UuJWnnepce6TtmqzRw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_DP3SwJ1xEd66L-e4h6VCVQ" name="DFKI_IWi_Data_Diagram_example" guid="_DP3SwJ1xEd66L-e4h6VCVQ" presentationName="DFKI_IWi_Data_Diagram_example"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_VspVIJ2HEd66L-e4h6VCVQ" name="Data_notation" guid="_VspVIJ2HEd66L-e4h6VCVQ" presentationName="Data notation">
+            <presentation xmi:id="-XTJbztiSaUg_u2sTpmgn1g" href="uma://-XTJbztiSaUg_u2sTpmgn1g#-XTJbztiSaUg_u2sTpmgn1g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_WM7XsJ2HEd66L-e4h6VCVQ" name="Data_Objecteering_tool_mentor" guid="_WM7XsJ2HEd66L-e4h6VCVQ" presentationName="Data Objecteering tool mentor" briefDescription="Objecteering mentor for Data modelling."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_W3LOkJ2HEd66L-e4h6VCVQ" name="Data_checklist" guid="_W3LOkJ2HEd66L-e4h6VCVQ" presentationName="Data checklist" briefDescription="Data best practices checklist for data modelling.">
+            <presentation xmi:id="-ealEgYccHxCjn2YMrGEy7g" href="uma://-ealEgYccHxCjn2YMrGEy7g#-ealEgYccHxCjn2YMrGEy7g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_bWYjEDHrEd-vZ-Nkdj4ADg" name="Data_Modelling" guid="_bWYjEDHrEd-vZ-Nkdj4ADg" presentationName="BPMN Data Modelling" briefDescription="This method defines the guided procedure for modelling business data in BPMN." checklists="_GvhX4J1uEd66L-e4h6VCVQ" guidelines="_GvhX4Z1uEd66L-e4h6VCVQ" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_rRVzUFUSEd6C1uTeH2AdkQ" output="_ypo8sIGrEd6tqIeaIOtuNA" additionallyPerformedBy="_5T2UoT_xEd6OCv3eGs9Gwg" toolMentors="_Ftdd8J1uEd66L-e4h6VCVQ">
+            <presentation xmi:id="-50r32z77vrwDjhmbsd6ZTQ" href="uma://-50r32z77vrwDjhmbsd6ZTQ#-50r32z77vrwDjhmbsd6ZTQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_JYL3cFdKEd6UrIgg96Gnaw" name="BusinessRules" guid="_JYL3cFdKEd6UrIgg96Gnaw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_WCuvQFd9Ed637brWif56XQ" name="Analyst" guid="_WCuvQFd9Ed637brWif56XQ" presentationName="Analyst" briefDescription="This worker is mainly involved in the processes related to the requirements of the customers. ">
+            <presentation xmi:id="-95T6kYpzFqkgeh8nN2h_JQ" href="uma://-95T6kYpzFqkgeh8nN2h_JQ#-95T6kYpzFqkgeh8nN2h_JQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_WCvWUFd9Ed637brWif56XQ" name="Business Analyst" guid="_WCvWUFd9Ed637brWif56XQ" presentationName="Business Analyst" briefDescription="Responsible for analyzing the business needs of clients to help identify business problems and propose solutions."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_WCvWUVd9Ed637brWif56XQ" name="Business_Process_Modeller" guid="_WCvWUVd9Ed637brWif56XQ" presentationName="Business Process Modeller" briefDescription="This worker is involved in the design of the composition workflow and all the issues around it like security, transactions or exception handling.">
+            <presentation xmi:id="-h5lXQ9aG96l8AS86UwVADw" href="uma://-h5lXQ9aG96l8AS86UwVADw#-h5lXQ9aG96l8AS86UwVADw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_WCvWUld9Ed637brWif56XQ" name="Designer" guid="_WCvWUld9Ed637brWif56XQ" presentationName="Designer">
+            <presentation xmi:id="-7DxdepfABPm5LRZH-RxKLQ" href="uma://-7DxdepfABPm5LRZH-RxKLQ#-7DxdepfABPm5LRZH-RxKLQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_WCvWU1d9Ed637brWif56XQ" name="User" guid="_WCvWU1d9Ed637brWif56XQ" presentationName="User">
+            <presentation xmi:id="-iXR-o-TB32_RXw2cAQd-6w" href="uma://-iXR-o-TB32_RXw2cAQd-6w#-iXR-o-TB32_RXw2cAQd-6w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_KgUF4FeGEd637brWif56XQ" name="Create Business Rules" guid="_KgUF4FeGEd637brWif56XQ" presentationName="Create a Business Rule" briefDescription="Creation of Business Rules" examples="_IuQYoJ1yEd66L-e4h6VCVQ" performedBy="_WCuvQFd9Ed637brWif56XQ _WCvWUVd9Ed637brWif56XQ _WCvWUFd9Ed637brWif56XQ _WCvWUld9Ed637brWif56XQ _WCvWU1d9Ed637brWif56XQ">
+            <presentation xmi:id="-YLf6imKL0G6I5U_8O3FMww" href="uma://-YLf6imKL0G6I5U_8O3FMww#-YLf6imKL0G6I5U_8O3FMww"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_7WznUFgNEd6c69W71WXVIg" name="Create Connector" guid="_7WznUFgNEd6c69W71WXVIg" presentationName="Create a Connector" briefDescription="Creation of Connectors&#xD;&#xA;&#xD;&#xA;A connection element is needed to get a connection between keywords, statements, connectors or conditions. &#xD;&#xA;&#xD;&#xA;Its the relationship between those elements. &#xD;&#xA;&#xD;&#xA;There are three connectors: AND, OR and XOR &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_KgUF4FeGEd637brWif56XQ" examples="_IuQYoJ1yEd66L-e4h6VCVQ" performedBy="_WCuvQFd9Ed637brWif56XQ _WCvWUVd9Ed637brWif56XQ _WCvWUFd9Ed637brWif56XQ _WCvWUld9Ed637brWif56XQ _WCvWU1d9Ed637brWif56XQ">
+            <presentation xmi:id="-Ge73c188_E2NMMETGmi-pg" href="uma://-Ge73c188_E2NMMETGmi-pg#-Ge73c188_E2NMMETGmi-pg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_VapjsFgOEd6c69W71WXVIg" name="Create (AND) Connector(Business Rules View)" guid="_VapjsFgOEd6c69W71WXVIg" presentationName="Create an (AND) Connector Element" briefDescription="Creation of AND Connector Elements&#xD;&#xA;&#xD;&#xA;The AND element is a connector element. &#xD;&#xA;&#xD;&#xA;You need an AND if you have two possibilities and you want to start them parallel. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_7WznUFgNEd6c69W71WXVIg" examples="_IuQYoJ1yEd66L-e4h6VCVQ" performedBy="_WCuvQFd9Ed637brWif56XQ _WCvWUVd9Ed637brWif56XQ _WCvWUFd9Ed637brWif56XQ _WCvWUld9Ed637brWif56XQ _WCvWU1d9Ed637brWif56XQ"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_NzPUIFgTEd6c69W71WXVIg" name="Create (OR) Connector(Business Rules View)" guid="_NzPUIFgTEd6c69W71WXVIg" presentationName="Create an (OR) Connector Element" briefDescription="Creation of OR Connector Elements&#xD;&#xA;&#xD;&#xA;The OR element is a connector element. &#xD;&#xA;&#xD;&#xA;You need an OR if you have two possibilities and one or two of them are true. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_7WznUFgNEd6c69W71WXVIg" examples="_IuQYoJ1yEd66L-e4h6VCVQ" performedBy="_WCuvQFd9Ed637brWif56XQ _WCvWUVd9Ed637brWif56XQ _WCvWUFd9Ed637brWif56XQ _WCvWUld9Ed637brWif56XQ _WCvWU1d9Ed637brWif56XQ"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_p4dSYFgTEd6c69W71WXVIg" name="Create (XOR) Connector(Business Rules View)" guid="_p4dSYFgTEd6c69W71WXVIg" presentationName="Create a (XOR) Connector Element" briefDescription="Creation of XOR Connector Elements&#xD;&#xA;&#xD;&#xA;The XOR element is a connector element. &#xD;&#xA;&#xD;&#xA;You need an exclusive OR if you have two possibilities but only one of them has to be true. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_7WznUFgNEd6c69W71WXVIg" examples="_IuQYoJ1yEd66L-e4h6VCVQ" performedBy="_WCuvQFd9Ed637brWif56XQ _WCvWUVd9Ed637brWif56XQ _WCvWUFd9Ed637brWif56XQ _WCvWUld9Ed637brWif56XQ _WCvWU1d9Ed637brWif56XQ"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_cgX9UFgbEd6c69W71WXVIg" name="Create Keyword" guid="_cgX9UFgbEd6c69W71WXVIg" presentationName="Create a Keyword" briefDescription="Creation of Keywords&#xD;&#xA;&#xD;&#xA;A Keyword is an element which is used to build if, else and check constructs." variabilityType="extends" variabilityBasedOnElement="_KgUF4FeGEd637brWif56XQ" examples="_IuQYoJ1yEd66L-e4h6VCVQ" performedBy="_WCuvQFd9Ed637brWif56XQ _WCvWUVd9Ed637brWif56XQ _WCvWUFd9Ed637brWif56XQ _WCvWUld9Ed637brWif56XQ _WCvWU1d9Ed637brWif56XQ">
+            <presentation xmi:id="-r6cScDStjYzHxUbF-t2O6g" href="uma://-r6cScDStjYzHxUbF-t2O6g#-r6cScDStjYzHxUbF-t2O6g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2sBUYFgnEd6c69W71WXVIg" name="Create (IF) Keyword" guid="_2sBUYFgnEd6c69W71WXVIg" presentationName="Create an (IF) Keyword" briefDescription="Creation of IF Keywords&#xD;&#xA;&#xD;&#xA;The IF construct uses a logical expression to decide, if there will be used one/several statements or conditions. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_cgX9UFgbEd6c69W71WXVIg" examples="_IuQYoJ1yEd66L-e4h6VCVQ" performedBy="_WCuvQFd9Ed637brWif56XQ _WCvWUVd9Ed637brWif56XQ _WCvWUFd9Ed637brWif56XQ _WCvWUld9Ed637brWif56XQ _WCvWU1d9Ed637brWif56XQ">
+            <presentation xmi:id="-2bwBz0OuYXI3ZQy7-v70ZA" href="uma://-2bwBz0OuYXI3ZQy7-v70ZA#-2bwBz0OuYXI3ZQy7-v70ZA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ly82wFgtEd6c69W71WXVIg" name="Create (ELSE) Keyword" guid="_ly82wFgtEd6c69W71WXVIg" presentationName="Create an (ELSE) Keyword" briefDescription="Creation of ELSE Keywords&#xD;&#xA;&#xD;&#xA;The ELSE construct is an add on for the IF construct. &#xD;&#xA;&#xD;&#xA;The ELSE construct is used if you have two alternatives. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_cgX9UFgbEd6c69W71WXVIg" examples="_IuQYoJ1yEd66L-e4h6VCVQ" performedBy="_WCuvQFd9Ed637brWif56XQ _WCvWUVd9Ed637brWif56XQ _WCvWUFd9Ed637brWif56XQ _WCvWUld9Ed637brWif56XQ _WCvWU1d9Ed637brWif56XQ">
+            <presentation xmi:id="-Mc-2lXiAaqzoRPTzDD_YmA" href="uma://-Mc-2lXiAaqzoRPTzDD_YmA#-Mc-2lXiAaqzoRPTzDD_YmA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3xABoFg2Ed6c69W71WXVIg" name="Create (THEN) Keyword" guid="_3xABoFg2Ed6c69W71WXVIg" presentationName="Create a (THEN) Keyword" briefDescription="Creation of THEN Keywords&#xD;&#xA;&#xD;&#xA;The THEN construct is a part of the if construct. &#xD;&#xA;&#xD;&#xA;If the IF part of the if-construct is true, the THEN keyword introduces the statement/Condition, which has to performed. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_cgX9UFgbEd6c69W71WXVIg" examples="_IuQYoJ1yEd66L-e4h6VCVQ" performedBy="_WCuvQFd9Ed637brWif56XQ _WCvWUVd9Ed637brWif56XQ _WCvWUFd9Ed637brWif56XQ _WCvWUld9Ed637brWif56XQ _WCvWU1d9Ed637brWif56XQ">
+            <presentation xmi:id="-mY9GP-4gTxBbkRXfc6le0A" href="uma://-mY9GP-4gTxBbkRXfc6le0A#-mY9GP-4gTxBbkRXfc6le0A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IBRVsFg4Ed6c69W71WXVIg" name="Create (CHECK) Keyword" guid="_IBRVsFg4Ed6c69W71WXVIg" presentationName="Create a (CHECK) Keyword" briefDescription="Creation of CHECK Keywords&#xD;&#xA;&#xD;&#xA;The Check keyword introduces the if construct" variabilityType="extends" variabilityBasedOnElement="_cgX9UFgbEd6c69W71WXVIg" examples="_IuQYoJ1yEd66L-e4h6VCVQ" performedBy="_WCuvQFd9Ed637brWif56XQ _WCvWUVd9Ed637brWif56XQ _WCvWUFd9Ed637brWif56XQ _WCvWUld9Ed637brWif56XQ _WCvWU1d9Ed637brWif56XQ">
+            <presentation xmi:id="-0s_vyBMIyzA6WB3StsIOXw" href="uma://-0s_vyBMIyzA6WB3StsIOXw#-0s_vyBMIyzA6WB3StsIOXw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_mN1a8Fg4Ed6c69W71WXVIg" name="Create Statement" guid="_mN1a8Fg4Ed6c69W71WXVIg" presentationName="Create a Statement" briefDescription="Creation of Statements&#xD;&#xA;&#xD;&#xA;The statement element is the description of the true or false options of the if construct." variabilityType="extends" variabilityBasedOnElement="_KgUF4FeGEd637brWif56XQ" examples="_IuQYoJ1yEd66L-e4h6VCVQ" performedBy="_WCuvQFd9Ed637brWif56XQ _WCvWUVd9Ed637brWif56XQ _WCvWUFd9Ed637brWif56XQ _WCvWUld9Ed637brWif56XQ _WCvWU1d9Ed637brWif56XQ">
+            <presentation xmi:id="-BZ3QjWo1eOF6Wh4LLbIEVA" href="uma://-BZ3QjWo1eOF6Wh4LLbIEVA#-BZ3QjWo1eOF6Wh4LLbIEVA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_xUrMgFg4Ed6c69W71WXVIg" name="Create Condition" guid="_xUrMgFg4Ed6c69W71WXVIg" presentationName="Create a Condition" briefDescription="Creation of Conditions&#xD;&#xA;&#xD;&#xA;The condition element is a part of the if construction. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_KgUF4FeGEd637brWif56XQ" examples="_IuQYoJ1yEd66L-e4h6VCVQ" performedBy="_WCuvQFd9Ed637brWif56XQ _WCvWUVd9Ed637brWif56XQ _WCvWUFd9Ed637brWif56XQ _WCvWUld9Ed637brWif56XQ _WCvWU1d9Ed637brWif56XQ">
+            <presentation xmi:id="-GUFEZ5EphOq2_gUITmEiIg" href="uma://-GUFEZ5EphOq2_gUITmEiIg#-GUFEZ5EphOq2_gUITmEiIg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_IuQYoJ1yEd66L-e4h6VCVQ" name="DFKI-IWi_Rules_Diagram_example" guid="_IuQYoJ1yEd66L-e4h6VCVQ" presentationName="DFKI-IWi_Rules_Diagram_example"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_a7VeAJ17Ed66L-e4h6VCVQ" name="BusinessRules_Objecteering_tool_mentor" guid="_a7VeAJ17Ed66L-e4h6VCVQ" presentationName="BusinessRules Objecteering tool mentor" briefDescription="Objecteering mentor for BusinessRules modelling."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_b0LKgJ17Ed66L-e4h6VCVQ" name="Business_Rules_notation" guid="_b0LKgJ17Ed66L-e4h6VCVQ" presentationName="Business Rules notation">
+            <presentation xmi:id="-YnlJkL9bSLov6E6CirMQpA" href="uma://-YnlJkL9bSLov6E6CirMQpA#-YnlJkL9bSLov6E6CirMQpA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_dn6ZAJ17Ed66L-e4h6VCVQ" name="BusinessRules_Checklist" guid="_dn6ZAJ17Ed66L-e4h6VCVQ" presentationName="BusinessRules Checklist" briefDescription="BusinessRules best practices checklist for business rules modelling.">
+            <presentation xmi:id="-49unzf5bkN1lC601HRhkhg" href="uma://-49unzf5bkN1lC601HRhkhg#-49unzf5bkN1lC601HRhkhg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6hzOgDHxEd-vZ-Nkdj4ADg" name="Business_Rules_Modelling" guid="_6hzOgDHxEd-vZ-Nkdj4ADg" presentationName="BPMN Business Rules Modelling" briefDescription="This method defines the guided procedure for modelling business rules in BPMN." checklists="_GvhX4J1uEd66L-e4h6VCVQ" guidelines="_GvhX4Z1uEd66L-e4h6VCVQ" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_rRVzUFUSEd6C1uTeH2AdkQ" output="_d8szkIGrEd6tqIeaIOtuNA" additionallyPerformedBy="_5T2UoT_xEd6OCv3eGs9Gwg" optionalInput="_d8szkIGrEd6tqIeaIOtuNA _ypo8sIGrEd6tqIeaIOtuNA _C-dPAIGsEd6tqIeaIOtuNA" toolMentors="_Ftdd8J1uEd66L-e4h6VCVQ">
+            <presentation xmi:id="-VYyxuttbojVxT9RU3NsXew" href="uma://-VYyxuttbojVxT9RU3NsXew#-VYyxuttbojVxT9RU3NsXew"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NHO8EFdKEd6UrIgg96Gnaw" name="Organisation" guid="_NHO8EFdKEd6UrIgg96Gnaw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_VXQJUFd9Ed637brWif56XQ" name="Analyst" guid="_VXQJUFd9Ed637brWif56XQ" presentationName="Analyst" briefDescription="This worker is mainly involved in the processes related to the requirements of the customers. ">
+            <presentation xmi:id="-GTuAoW2-lqGs2o7ERgQneA" href="uma://-GTuAoW2-lqGs2o7ERgQneA#-GTuAoW2-lqGs2o7ERgQneA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_VXQwYFd9Ed637brWif56XQ" name="Business Analyst" guid="_VXQwYFd9Ed637brWif56XQ" presentationName="Business Analyst" briefDescription="Responsible for analyzing the business needs of clients to help identify business problems and propose solutions."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_VXQwYVd9Ed637brWif56XQ" name="Business_Process_Modeller" guid="_VXQwYVd9Ed637brWif56XQ" presentationName="Business Process Modeller" briefDescription="This worker is involved in the design of the composition workflow and all the issues around it like security, transactions or exception handling.">
+            <presentation xmi:id="-1_FQzDiDYzsZ3dsI7M4Hzg" href="uma://-1_FQzDiDYzsZ3dsI7M4Hzg#-1_FQzDiDYzsZ3dsI7M4Hzg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_VXQwYld9Ed637brWif56XQ" name="Designer" guid="_VXQwYld9Ed637brWif56XQ" presentationName="Designer">
+            <presentation xmi:id="-OXi85QjaG2eJzQUTEyYT1A" href="uma://-OXi85QjaG2eJzQUTEyYT1A#-OXi85QjaG2eJzQUTEyYT1A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_VXRXcFd9Ed637brWif56XQ" name="User" guid="_VXRXcFd9Ed637brWif56XQ" presentationName="User">
+            <presentation xmi:id="-3QXeZ3dEQStlfkkFtZTtaQ" href="uma://-3QXeZ3dEQStlfkkFtZTtaQ#-3QXeZ3dEQStlfkkFtZTtaQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_NWIsIFg5Ed6c69W71WXVIg" name="Create Organisation Element" guid="_NWIsIFg5Ed6c69W71WXVIg" presentationName="Create an Organisation Element" briefDescription="Creation of Organisation Elements&#xD;&#xA;&#xD;&#xA;An organisation element is an element in the organisation view. &#xD;&#xA;&#xD;&#xA;You can choose between several organisation elements: &#xD;&#xA;&#xD;&#xA;- Person &#xD;&#xA;&#xD;&#xA;- OrgUnit &#xD;&#xA;&#xD;&#xA;- OrgRole &#xD;&#xA;&#xD;&#xA;- Assignment &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_KQIvEFg6Ed6c69W71WXVIg" examples="_qSWFQJ1wEd66L-e4h6VCVQ" performedBy="_VXQJUFd9Ed637brWif56XQ _VXQwYVd9Ed637brWif56XQ _VXQwYFd9Ed637brWif56XQ _VXQwYld9Ed637brWif56XQ _VXRXcFd9Ed637brWif56XQ" output="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-YWX0cPpMHxrMfi7aB_8WFA" href="uma://-YWX0cPpMHxrMfi7aB_8WFA#-YWX0cPpMHxrMfi7aB_8WFA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_KQIvEFg6Ed6c69W71WXVIg" name="Create Organisation(Organisation View)" guid="_KQIvEFg6Ed6c69W71WXVIg" presentationName="Create an Organisation" briefDescription="Creation of Organisations&#xD;&#xA;&#xD;&#xA;The organisation view represents the organisation of a production process. &#xD;&#xA;" examples="_qSWFQJ1wEd66L-e4h6VCVQ" performedBy="_VXQJUFd9Ed637brWif56XQ _VXQwYVd9Ed637brWif56XQ _VXQwYFd9Ed637brWif56XQ _VXQwYld9Ed637brWif56XQ _VXRXcFd9Ed637brWif56XQ" output="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-uFLSNWCeCVayf-jeA3IWmQ" href="uma://-uFLSNWCeCVayf-jeA3IWmQ#-uFLSNWCeCVayf-jeA3IWmQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_p0j_IFg6Ed6c69W71WXVIg" name="Create Person" guid="_p0j_IFg6Ed6c69W71WXVIg" presentationName="Create a Person" briefDescription="Creation of Persons&#xD;&#xA;&#xD;&#xA;The person represents a person which is responsible for the particular area." variabilityType="extends" variabilityBasedOnElement="_NWIsIFg5Ed6c69W71WXVIg" examples="_qSWFQJ1wEd66L-e4h6VCVQ" performedBy="_VXQJUFd9Ed637brWif56XQ _VXQwYVd9Ed637brWif56XQ _VXQwYFd9Ed637brWif56XQ _VXQwYld9Ed637brWif56XQ _VXRXcFd9Ed637brWif56XQ" output="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-VV_6bSvli9JWf8fdv-cO8Q" href="uma://-VV_6bSvli9JWf8fdv-cO8Q#-VV_6bSvli9JWf8fdv-cO8Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_VKdcsFg8Ed6c69W71WXVIg" name="Create Assignment" guid="_VKdcsFg8Ed6c69W71WXVIg" presentationName="Create an Assignment" briefDescription="Creation of Assignments&#xD;&#xA;&#xD;&#xA;The assignment element is the connector element of the organisation view. &#xD;&#xA;&#xD;&#xA;- Assignment &#xD;&#xA;&#xD;&#xA;- Hierarchy &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_NWIsIFg5Ed6c69W71WXVIg" examples="_qSWFQJ1wEd66L-e4h6VCVQ" performedBy="_VXQJUFd9Ed637brWif56XQ _VXQwYVd9Ed637brWif56XQ _VXQwYFd9Ed637brWif56XQ _VXQwYld9Ed637brWif56XQ _VXRXcFd9Ed637brWif56XQ" output="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-UfuARehxg_ZiO9t_ZE2J6g" href="uma://-UfuARehxg_ZiO9t_ZE2J6g#-UfuARehxg_ZiO9t_ZE2J6g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6FkdkFg8Ed6c69W71WXVIg" name="Create OrgRole" guid="_6FkdkFg8Ed6c69W71WXVIg" presentationName="Create an OrgRole" briefDescription="Creation of OrgRoles&#xD;&#xA;&#xD;&#xA;Role is an element, which manages the connection between organisation and process view. &#xD;&#xA;" variabilityType="extends" variabilityBasedOnElement="_NWIsIFg5Ed6c69W71WXVIg" examples="_qSWFQJ1wEd66L-e4h6VCVQ" performedBy="_VXQJUFd9Ed637brWif56XQ _VXQwYVd9Ed637brWif56XQ _VXQwYFd9Ed637brWif56XQ _VXQwYld9Ed637brWif56XQ _VXRXcFd9Ed637brWif56XQ" output="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-YYUbAdkZoWk80fhI6_0bag" href="uma://-YYUbAdkZoWk80fhI6_0bag#-YYUbAdkZoWk80fhI6_0bag"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6Fkdk1g8Ed6c69W71WXVIg" name="Create OrgUnit" guid="_6Fkdk1g8Ed6c69W71WXVIg" presentationName="Create an OrgUnit" briefDescription="Creation of OrgUnits&#xD;&#xA;&#xD;&#xA;OrgUnit is a divisional company structure." variabilityType="extends" variabilityBasedOnElement="_NWIsIFg5Ed6c69W71WXVIg" examples="_qSWFQJ1wEd66L-e4h6VCVQ" performedBy="_VXQJUFd9Ed637brWif56XQ _VXQwYVd9Ed637brWif56XQ _VXQwYFd9Ed637brWif56XQ _VXQwYld9Ed637brWif56XQ _VXRXcFd9Ed637brWif56XQ" output="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-jZbjdkqDAukFqR2HEa0WuQ" href="uma://-jZbjdkqDAukFqR2HEa0WuQ#-jZbjdkqDAukFqR2HEa0WuQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_qSWFQJ1wEd66L-e4h6VCVQ" name="DFKI-IWi_Organisation_Diagram_example" guid="_qSWFQJ1wEd66L-e4h6VCVQ" presentationName="DFKI-IWi_Organisation_Diagram_example"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_V7iekJ38Ed6s7YgGIghgTQ" name="Organisation_checklist" guid="_V7iekJ38Ed6s7YgGIghgTQ" presentationName="Organisation Checklist" briefDescription="Organisation best practices checklist for organisation modelling.">
+            <presentation xmi:id="-jdPVFSQlpUfmnYH3yKSH4w" href="uma://-jdPVFSQlpUfmnYH3yKSH4w#-jdPVFSQlpUfmnYH3yKSH4w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_WWxpEJ38Ed6s7YgGIghgTQ" name="Organisation_notation" guid="_WWxpEJ38Ed6s7YgGIghgTQ" presentationName="Organisation notation">
+            <presentation xmi:id="-ZjMR7LgbtA21zGHdGhhITw" href="uma://-ZjMR7LgbtA21zGHdGhhITw#-ZjMR7LgbtA21zGHdGhhITw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_W591sJ38Ed6s7YgGIghgTQ" name="Organisation_Objecteering_tool_mentor" guid="_W591sJ38Ed6s7YgGIghgTQ" presentationName="Organisation Objecteering tool mentor" briefDescription="Objecteering mentor for Organisation modelling."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_X27WcDHnEd-vZ-Nkdj4ADg" name="Organization_Modelling" guid="_X27WcDHnEd-vZ-Nkdj4ADg" presentationName="BPMN Organization Modelling" briefDescription="This method defines the guided procedure for modelling business organization in BPMN." checklists="_GvhX4J1uEd66L-e4h6VCVQ" guidelines="_GvhX4Z1uEd66L-e4h6VCVQ" examples="_qBvvYJ1uEd66L-e4h6VCVQ" performedBy="_rRVzUFUSEd6C1uTeH2AdkQ" output="_kHHvsFAtEd6NGfjlGBNnwA" additionallyPerformedBy="_5T2UoT_xEd6OCv3eGs9Gwg" toolMentors="_Ftdd8J1uEd66L-e4h6VCVQ">
+            <presentation xmi:id="-olTMYBQK2-0iiFqi0ND95w" href="uma://-olTMYBQK2-0iiFqi0ND95w#-olTMYBQK2-0iiFqi0ND95w"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_P5nZUIstEd6wSaCmnFc5Ig" name="CIM2PIM" guid="_P5nZUIstEd6wSaCmnFc5Ig" presentationName="CIM2PIM" briefDescription="Method components for CIM to PIM model transformations.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_P5nZUYstEd6wSaCmnFc5Ig" name="BPMN2SoaML" guid="_P5nZUYstEd6wSaCmnFc5Ig" presentationName="BPMN2SoaML" briefDescription="This method defines the guided procedure for mapping BPMN models to SoaML models." examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-YQOwIeSpXYmI_AADc2TjoA" href="uma://-YQOwIeSpXYmI_AADc2TjoA#-YQOwIeSpXYmI_AADc2TjoA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_dA9DgJ13Ed66L-e4h6VCVQ" name="DFKI-IWi_CIM2PIM_Diagram_example" guid="_dA9DgJ13Ed66L-e4h6VCVQ" presentationName="DFKI-IWi_CIM2PIM_Diagram_example"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0u_ggJ4DEd6s7YgGIghgTQ" name="Task2ServiceInterface" guid="_0u_ggJ4DEd6s7YgGIghgTQ" briefDescription="The method defines the procedure for mapping BPMN tasks to SoaML service interfaces" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-OTeE7xoKc9GwY6B6kMTTZw" href="uma://-OTeE7xoKc9GwY6B6kMTTZw#-OTeE7xoKc9GwY6B6kMTTZw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_qSN6cJ4VEd6s7YgGIghgTQ" name="Pool2ParticipantArchitecture" guid="_qSN6cJ4VEd6s7YgGIghgTQ" briefDescription="The method defines the procedure for mapping BPMN pools to SoaML participant architectures" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-t4AYnVEXgtV3M6VxfBl5nQ" href="uma://-t4AYnVEXgtV3M6VxfBl5nQ#-t4AYnVEXgtV3M6VxfBl5nQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_AMLa4J4XEd6s7YgGIghgTQ" name="Sub-Process2ParticipantArchitecture" guid="_AMLa4J4XEd6s7YgGIghgTQ" briefDescription="The method defines the procedure for mapping BPMN sub-processes  to SoaML participant architectures" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-QP_Op5JqtATzkwbCJPds_g" href="uma://-QP_Op5JqtATzkwbCJPds_g#-QP_Op5JqtATzkwbCJPds_g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_kJazYJ4ZEd6s7YgGIghgTQ" name="Lane2Participant" guid="_kJazYJ4ZEd6s7YgGIghgTQ" briefDescription="The method defines the procedure for mapping BPMN lanes  to SoaML participants" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-N4KdFXbsGaN6J5l6XlSJuA" href="uma://-N4KdFXbsGaN6J5l6XlSJuA#-N4KdFXbsGaN6J5l6XlSJuA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_KcjhsJ4bEd6s7YgGIghgTQ" name="Role2Participant" guid="_KcjhsJ4bEd6s7YgGIghgTQ" briefDescription="The method defines the procedure for mapping BPMN roles  to SoaML participants" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-MsvhEzQQQQSf6-NKWyIVpw" href="uma://-MsvhEzQQQQSf6-NKWyIVpw#-MsvhEzQQQQSf6-NKWyIVpw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2swEUJ4cEd6s7YgGIghgTQ" name="RoleOrLaneAddition2ServiceContract" guid="_2swEUJ4cEd6s7YgGIghgTQ" briefDescription="The method defines the procedure for mapping BPMN lane or Role addition  to SoaML ServiceContract" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-bWgf_zsbshQxjtoKB2qVdw" href="uma://-bWgf_zsbshQxjtoKB2qVdw#-bWgf_zsbshQxjtoKB2qVdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_geOhwJ4eEd6s7YgGIghgTQ" name="PoolsAddition2ServiceArchitecture" guid="_geOhwJ4eEd6s7YgGIghgTQ" briefDescription="The method defines the procedure for mapping BPMN Pools addition to SoaML Service Architecture" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-wBi_EODvuSv3A-hQQgDLuA" href="uma://-wBi_EODvuSv3A-hQQgDLuA#-wBi_EODvuSv3A-hQQgDLuA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_dumLYJ4hEd6s7YgGIghgTQ" name="MessageBegin2ServicePoint" guid="_dumLYJ4hEd6s7YgGIghgTQ" briefDescription="The method defines the procedure for mapping BPMN Messages &quot;Begin&quot; to SoaML Service Points" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-zqjTvwimwj6Xo4PDkN4VOg" href="uma://-zqjTvwimwj6Xo4PDkN4VOg#-zqjTvwimwj6Xo4PDkN4VOg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3aC14J4hEd6s7YgGIghgTQ" name="MessageEnd2RequestPoint" guid="_3aC14J4hEd6s7YgGIghgTQ" briefDescription="The method defines the procedure for mapping BPMN Messages &quot;End&quot; to SoaML Request Points" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-2eg7P5rSZp3s-pHZZCGlUg" href="uma://-2eg7P5rSZp3s-pHZZCGlUg#-2eg7P5rSZp3s-pHZZCGlUg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_MgJF4J4iEd6s7YgGIghgTQ" name="Annotation2MessageType" guid="_MgJF4J4iEd6s7YgGIghgTQ" presentationName="Annotation2MessageType" briefDescription="The method defines the procedure for mapping BPMN Annotation to SoaML Message Type" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-eZf3Vy2zbcS6a2qtg_zSuQ" href="uma://-eZf3Vy2zbcS6a2qtg_zSuQ#-eZf3Vy2zbcS6a2qtg_zSuQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_z8HhAJ4iEd6s7YgGIghgTQ" name="DataObject2MessageType" guid="_z8HhAJ4iEd6s7YgGIghgTQ" presentationName="DataObject2MessageType" briefDescription="The method defines the procedure for mapping BPMN DataObject to SoaML Message Type" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-B3gMED7TSISR_f1AzzoAwQ" href="uma://-B3gMED7TSISR_f1AzzoAwQ#-B3gMED7TSISR_f1AzzoAwQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Rk_UALc1Ed6bp5Hb5ipBbA" name="Pool2ActivityPartition" guid="_Rk_UALc1Ed6bp5Hb5ipBbA" presentationName="Pool2activityPartition" briefDescription="The method defines the procedure for mapping BPMN Pool to UML ActivityPartition" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-dAUJNbD7xkh0q6NEv0xK1w" href="uma://-dAUJNbD7xkh0q6NEv0xK1w#-dAUJNbD7xkh0q6NEv0xK1w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_INLaoLc2Ed6bp5Hb5ipBbA" name="Lane2ActivityPartition" guid="_INLaoLc2Ed6bp5Hb5ipBbA" presentationName="Lane2ActivityPartition" briefDescription="The method defines the procedure for mapping BPMN Lane to UMLActivityPartition" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-wcOvAAgXAEdNjqGm4Hklkg" href="uma://-wcOvAAgXAEdNjqGm4Hklkg#-wcOvAAgXAEdNjqGm4Hklkg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_9gL3ALc2Ed6bp5Hb5ipBbA" name="Task2Action" guid="_9gL3ALc2Ed6bp5Hb5ipBbA" presentationName="Task2Action" briefDescription="The method defines the procedure for mapping BPMN Task to UML Action" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-G0BeGYJ7Cbvttkzj0dZZug" href="uma://-G0BeGYJ7Cbvttkzj0dZZug#-G0BeGYJ7Cbvttkzj0dZZug"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_30exELc5Ed6bp5Hb5ipBbA" name="StartEvent2InitialActivity" guid="_30exELc5Ed6bp5Hb5ipBbA" presentationName="StartEvent2InitialActivity" briefDescription="The method defines the procedure for mapping BPMN Start Event to UML Initial Activity" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-lDj7nBdm3edKt36UMCF1aQ" href="uma://-lDj7nBdm3edKt36UMCF1aQ#-lDj7nBdm3edKt36UMCF1aQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_WWQb4Lc7Ed6bp5Hb5ipBbA" name="EndEvent2FinalActivity" guid="_WWQb4Lc7Ed6bp5Hb5ipBbA" presentationName="EndEvent2FinalActivity" briefDescription="The method defines the procedure for mapping BPMN End Event to UML Final Activity" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-8lsFogOtvFPYWwrQNMemcw" href="uma://-8lsFogOtvFPYWwrQNMemcw#-8lsFogOtvFPYWwrQNMemcw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2f21kLc7Ed6bp5Hb5ipBbA" name="Event2AcceptEventAction" guid="_2f21kLc7Ed6bp5Hb5ipBbA" presentationName="Event2AcceptEventAction" briefDescription="The method defines the procedure for mapping BPMN Event to UML accepted Event Action" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-AvKlXmBYLWzBSfks3L-nfA" href="uma://-AvKlXmBYLWzBSfks3L-nfA#-AvKlXmBYLWzBSfks3L-nfA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_TUHEELc8Ed6bp5Hb5ipBbA" name="Gateway2DecisionNode" guid="_TUHEELc8Ed6bp5Hb5ipBbA" presentationName="Gateway2DecisionNode" briefDescription="The method defines the procedure for mapping BPMN Gateway to UML DecisionNode" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_uaY9zYGaEd6tqIeaIOtuNA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-0Q7StLqqIG7lPzEgie8Hkw" href="uma://-0Q7StLqqIG7lPzEgie8Hkw#-0Q7StLqqIG7lPzEgie8Hkw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_SD1dELc-Ed6bp5Hb5ipBbA" name="Gateway2MergeNode" guid="_SD1dELc-Ed6bp5Hb5ipBbA" presentationName="Gateway2MergeNode" briefDescription="The method defines the procedure for mapping BPMN Gateway to UML MergeNode" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-IiOngn4UsKe_1LNcwB7_GA" href="uma://-IiOngn4UsKe_1LNcwB7_GA#-IiOngn4UsKe_1LNcwB7_GA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_hfCU4LdAEd6bp5Hb5ipBbA" name="SequenceFlow2ControlFlow" guid="_hfCU4LdAEd6bp5Hb5ipBbA" presentationName="SequenceFlow2ControlFlow" briefDescription="The method defines the procedure for mapping BPMN SequenceFlow to UML ControlFlow" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-B96r-hvt3f5MnMhhHl_50Q" href="uma://-B96r-hvt3f5MnMhhHl_50Q#-B96r-hvt3f5MnMhhHl_50Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_TKJLkLdDEd6bp5Hb5ipBbA" name="Association2ObjectFlow" guid="_TKJLkLdDEd6bp5Hb5ipBbA" presentationName="Association2ObjectFlow" briefDescription="The method defines the procedure for mapping BPMN Association to UML ObjectFlow" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-atlpPuy6fxl7FlvB2IPi0Q" href="uma://-atlpPuy6fxl7FlvB2IPi0Q#-atlpPuy6fxl7FlvB2IPi0Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Dy44QLdEEd6bp5Hb5ipBbA" name="MessageFlow2ObjectFlow" guid="_Dy44QLdEEd6bp5Hb5ipBbA" presentationName="MessageFlow2ObjectFlow" briefDescription="The method defines the procedure for mapping BPMN MessageFlow to UML ObjectFlow" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-kXy0ixX12RlpE35NCKKOiw" href="uma://-kXy0ixX12RlpE35NCKKOiw#-kXy0ixX12RlpE35NCKKOiw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="__bCRwLdEEd6bp5Hb5ipBbA" name="EndEvent2FlowActivity" guid="__bCRwLdEEd6bp5Hb5ipBbA" presentationName="EndEvent2FlowActivity" briefDescription="The method defines the procedure for mapping BPMN EndEvent to UML FlowActivity" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-EuHaXStuqThP4obAtBJUuA" href="uma://-EuHaXStuqThP4obAtBJUuA#-EuHaXStuqThP4obAtBJUuA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_qAFAgLdOEd6d--12oACH5w" name="ParallelDecision2ForkNode" guid="_qAFAgLdOEd6d--12oACH5w" presentationName="ParallelDecision2ForkNode" briefDescription="The method defines the procedure for mapping BPMN ParallelDecision to UML ForkNode" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-VAMwHShd8VMIBweLU5Sgyg" href="uma://-VAMwHShd8VMIBweLU5Sgyg#-VAMwHShd8VMIBweLU5Sgyg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_TVsd0LdPEd6d--12oACH5w" name="ParallelDecision2JoinNode" guid="_TVsd0LdPEd6d--12oACH5w" presentationName="ParallelDecision2JoinNode" briefDescription="The method defines the procedure for mapping BPMN ParallelDecision to UML JoinNode" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-t0AEYL1s0A2wAl9r4hZOYQ" href="uma://-t0AEYL1s0A2wAl9r4hZOYQ#-t0AEYL1s0A2wAl9r4hZOYQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_4Fp-oLdPEd6d--12oACH5w" name="DataObject2ObjectNode" guid="_4Fp-oLdPEd6d--12oACH5w" presentationName="DataObject2ObjectNode" briefDescription="The method defines the procedure for mapping BPMN DataObject to UML ObjectNode" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-gjkST7X53n8v9OgRPwHQqA" href="uma://-gjkST7X53n8v9OgRPwHQqA#-gjkST7X53n8v9OgRPwHQqA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_bhaFkLdQEd6d--12oACH5w" name="MessageEvent2SignalNode" guid="_bhaFkLdQEd6d--12oACH5w" presentationName="MessageEvent2SignalNode" briefDescription="The method defines the procedure for mapping BPMN MessageEvent to UML SignalNode" examples="_dA9DgJ13Ed66L-e4h6VCVQ" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA _5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-QGiHZmFmDWoxhFT_oS2B6A" href="uma://-QGiHZmFmDWoxhFT_oS2B6A#-QGiHZmFmDWoxhFT_oS2B6A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rxD64EMEEd-jmMkKIL7cjw" name="BPMN2UML2Activity" guid="_rxD64EMEEd-jmMkKIL7cjw" presentationName="BPMN2UML2Activity" briefDescription="Provides the facilities for the process transformation aspect of the BPMN model">
+            <presentation xmi:id="-YheeIESA5fm5hhfkiRapog" href="uma://-YheeIESA5fm5hhfkiRapog#-YheeIESA5fm5hhfkiRapog"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_V0gukEMFEd-jmMkKIL7cjw" name="ERM2UML2Class" guid="_V0gukEMFEd-jmMkKIL7cjw" presentationName="ERM2UML2Class" briefDescription="Provides the facilities for the data transformation aspect of the BPMN model" mandatoryInput="_ypo8sIGrEd6tqIeaIOtuNA">
+            <presentation xmi:id="-jz_zhoWkRIbOv_oKvR8eOg" href="uma://-jz_zhoWkRIbOv_oKvR8eOg#-jz_zhoWkRIbOv_oKvR8eOg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0UkXkEMFEd-jmMkKIL7cjw" name="BR2SoaML" guid="_0UkXkEMFEd-jmMkKIL7cjw" presentationName="BR2SoaML" briefDescription="Provides the facilities for the business rules transformation aspect of the BPMN model">
+            <presentation xmi:id="-aKk6LeQopunLCo2Q8YoroQ" href="uma://-aKk6LeQopunLCo2Q8YoroQ#-aKk6LeQopunLCo2Q8YoroQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_X0KjEIvzEd6UuMM9_vAR6g" name="CIM2CIM" guid="_X0KjEIvzEd6UuMM9_vAR6g" presentationName="CIM2CIM" briefDescription="The transformation from CIM EPC process model to CIM BPMN process model">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_e6gToIvzEd6UuMM9_vAR6g" name="EPC2BPMN" guid="_e6gToIvzEd6UuMM9_vAR6g" briefDescription="This task represents the transformation logic from CIM EPC process model to CIM BPMN process model" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA">
+            <presentation xmi:id="-xrGWwUsh6dc70K4t3NSoSg" href="uma://-xrGWwUsh6dc70K4t3NSoSg#-xrGWwUsh6dc70K4t3NSoSg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_cSFyYJ13Ed66L-e4h6VCVQ" name="DFKI-IWi_CIM2CIM_Diagram_example" guid="_cSFyYJ13Ed66L-e4h6VCVQ" presentationName="DFKI-IWi_CIM2CIM_Diagram_example"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_sxSm0KRpEd6MK9c4_Uv4qw" name="Function2Task" guid="_sxSm0KRpEd6MK9c4_Uv4qw" briefDescription="The method defines the procedure for mapping EPC Function to BPMN Task" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-ZPU2rdLTgjVDSqgXxoFWSg" href="uma://-ZPU2rdLTgjVDSqgXxoFWSg#-ZPU2rdLTgjVDSqgXxoFWSg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_NsHrUKR5Ed6MK9c4_Uv4qw" name="Event2StartEvent" guid="_NsHrUKR5Ed6MK9c4_Uv4qw" briefDescription="The method defines the procedure for mapping EPC Event to BPMN StartEvent" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-sHpEjE0go6pchToEaz0rIg" href="uma://-sHpEjE0go6pchToEaz0rIg#-sHpEjE0go6pchToEaz0rIg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_av7qcKR6Ed6MK9c4_Uv4qw" name="Event2EndEvent" guid="_av7qcKR6Ed6MK9c4_Uv4qw" briefDescription="The method defines the procedure for mapping EPC Event to BPMN EndEvent" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-tqwx3QLyWaJqZyS7gKnFMw" href="uma://-tqwx3QLyWaJqZyS7gKnFMw#-tqwx3QLyWaJqZyS7gKnFMw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2s5EkKR6Ed6MK9c4_Uv4qw" name="XOR2DataBasedExclusive" guid="_2s5EkKR6Ed6MK9c4_Uv4qw" briefDescription="The method defines the procedure for mapping EPC XOR to BPMN DataBasedExclusive Gateway" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-CDcrlY-zyMPh3aUhrKzyeA" href="uma://-CDcrlY-zyMPh3aUhrKzyeA#-CDcrlY-zyMPh3aUhrKzyeA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_HJJboKR7Ed6MK9c4_Uv4qw" name="OR2Inclusive" guid="_HJJboKR7Ed6MK9c4_Uv4qw" briefDescription="The method defines the procedure for mapping EPC OR to BPMN Inclusive Gateway" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-CEer3OuWuY7vu2_nJh0GxA" href="uma://-CEer3OuWuY7vu2_nJh0GxA#-CEer3OuWuY7vu2_nJh0GxA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_KBhhgKR8Ed6MK9c4_Uv4qw" name="AND2Parallel" guid="_KBhhgKR8Ed6MK9c4_Uv4qw" briefDescription="The method defines the procedure for mapping EPC AND to BPMN Parallel Gateway" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-j2AN4E7HoCKdUgNJu9ftFg" href="uma://-j2AN4E7HoCKdUgNJu9ftFg#-j2AN4E7HoCKdUgNJu9ftFg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_l6rNIKSREd6MK9c4_Uv4qw" name="ControlFlow2SequenceFlow" guid="_l6rNIKSREd6MK9c4_Uv4qw" briefDescription="The method defines the procedure for mapping EPC Control Flow to BPMN Sequence Flow" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-kZmWx-fCN6c3M3c5kvbkyQ" href="uma://-kZmWx-fCN6c3M3c5kvbkyQ#-kZmWx-fCN6c3M3c5kvbkyQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_iQp40KSZEd6MK9c4_Uv4qw" name="ProcessLink2SubProcess" guid="_iQp40KSZEd6MK9c4_Uv4qw" briefDescription="The method defines the procedure for mapping EPC Process Link to BPMN Sub Process" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-GExbiyVbiVpbJGMv4e9MHg" href="uma://-GExbiyVbiVpbJGMv4e9MHg#-GExbiyVbiVpbJGMv4e9MHg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_T2tiUKSaEd6MK9c4_Uv4qw" name="OrgUnit2Pool" guid="_T2tiUKSaEd6MK9c4_Uv4qw" briefDescription="The method defines the procedure for mapping EPC OrganizationUnit to BPMN Pool" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-vkLfQPgtA_h5CLs05QnncA" href="uma://-vkLfQPgtA_h5CLs05QnncA#-vkLfQPgtA_h5CLs05QnncA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_KyrEoKULEd6HKLRpI_IoRA" name="Position2Pool" guid="_KyrEoKULEd6HKLRpI_IoRA" briefDescription="The method defines the procedure for mapping EPC Position to BPMN Pool" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-mkFatXtxl_rXO7saDLuUUg" href="uma://-mkFatXtxl_rXO7saDLuUUg#-mkFatXtxl_rXO7saDLuUUg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_su6j0KUPEd6HKLRpI_IoRA" name="System2Annotation" guid="_su6j0KUPEd6HKLRpI_IoRA" briefDescription="The method defines the procedure for mapping EPC System to BPMN Annotation" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-2KUS8pZXIopH6KA5PvPxYQ" href="uma://-2KUS8pZXIopH6KA5PvPxYQ#-2KUS8pZXIopH6KA5PvPxYQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_UdcHgKUQEd6HKLRpI_IoRA" name="Data2DataObject" guid="_UdcHgKUQEd6HKLRpI_IoRA" briefDescription="The method defines the procedure for mapping EPC Data to BPMN Data Object" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-HZupK8wiZRH4O4aZr18alw" href="uma://-HZupK8wiZRH4O4aZr18alw#-HZupK8wiZRH4O4aZr18alw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_yMmfEKUQEd6HKLRpI_IoRA" name="Relation2Association" guid="_yMmfEKUQEd6HKLRpI_IoRA" briefDescription="The method defines the procedure for mapping EPC Relation to BPMN Association">
+            <presentation xmi:id="-z41SiNnfHHNOyPsyEMqhdQ" href="uma://-z41SiNnfHHNOyPsyEMqhdQ#-z41SiNnfHHNOyPsyEMqhdQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_GlHQUKUREd6HKLRpI_IoRA" name="ConstructionAI2ThrowingIntermediateMessageEvent" guid="_GlHQUKUREd6HKLRpI_IoRA" briefDescription="The method defines the procedure for mapping EPC ConstructionAI(Event after Function, which sends something) to BPMN throwing Intermediate Message Event" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_JyotgKUXEd6HKLRpI_IoRA" name="ConstructionBI2ThrowingIntermediateMessageElement" guid="_JyotgKUXEd6HKLRpI_IoRA" briefDescription="The method defines the procedure for mapping EPC ConstructionBI(Event after Functions, one of both sends something) to BPMN throwing Intermediate Message Event" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_tM7TsKVKEd6nH_wa_xSYNw" name="ConstructionCI2ThrowingEndMessageEvent" guid="_tM7TsKVKEd6nH_wa_xSYNw" briefDescription="The method defines the procedure for mapping EPC ConstructionCI(Event after Function, which sends something) to BPMN throwing End Message Event" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA">
+            <presentation xmi:id="-2QHsdJmn4iMcnhWqNQJymQ" href="uma://-2QHsdJmn4iMcnhWqNQJymQ#-2QHsdJmn4iMcnhWqNQJymQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IJXdQKVREd6nH_wa_xSYNw" name="ConstructionAII2CatchingIntermediateMessageEvent" guid="_IJXdQKVREd6nH_wa_xSYNw" briefDescription="The method defines the procedure for mapping EPC ConstructionAII(Event, which receives something) to BPMN Catching Intermediate Message Event" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_XR_XUKVTEd6nH_wa_xSYNw" name="ConstructionBII2CatchingIntermediateMessageEvent" guid="_XR_XUKVTEd6nH_wa_xSYNw" briefDescription="The method defines the procedure for mapping EPC ConstructionBI(Events after XOR, one of both receives something) to BPMN catching Intermediate Message Event" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_MoTZ0KVpEd6kd7_KnYJq9Q" name="ConstructionCII2CatchingIntermediateMessageEvent" guid="_MoTZ0KVpEd6kd7_KnYJq9Q" briefDescription="The method defines the procedure for mapping EPC ConstructionCII(End Event, which sends something) to BPMN Catching End Message Event" examples="_cSFyYJ13Ed66L-e4h6VCVQ" mandatoryInput="_5CI4cFAqEd6NGfjlGBNnwA" optionalInput="_kHHvsFAtEd6NGfjlGBNnwA"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__KzlHTvMEd6gtI8tb9yUjw" name="CapabilityPatterns" guid="__KzlHTvMEd6gtI8tb9yUjw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ENKvUKbDEd6Ll-XI4dYUJA" name="CIMProcessPackage" guid="_ENKvUKbDEd6Ll-XI4dYUJA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_eyeZUDfnEd-oSL5BwIo5rg" href="uma://_eyeZUDfnEd-oSL5BwIo5rg#_eyeZUDfnEd-oSL5BwIo5rg"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_MoVOEDwOEd-wzrbdBPyHjA" href="uma://_MoVOEDwOEd-wzrbdBPyHjA#_MoVOEDwOEd-wzrbdBPyHjA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_BYNQgDfjEd-oSL5BwIo5rg" name="CIMSatelliteViewPackage" guid="_BYNQgDfjEd-oSL5BwIo5rg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_tjDyIIi2Ed609piMjO-xvw" href="uma://_tjDyIIi2Ed609piMjO-xvw#_tjDyIIi2Ed609piMjO-xvw"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_g5b_MIi2Ed609piMjO-xvw" href="uma://_g5b_MIi2Ed609piMjO-xvw#_g5b_MIi2Ed609piMjO-xvw"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_3mDhEIi2Ed609piMjO-xvw" href="uma://_3mDhEIi2Ed609piMjO-xvw#_3mDhEIi2Ed609piMjO-xvw"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__KzlHjvMEd6gtI8tb9yUjw" name="DeliveryProcesses" guid="__KzlHjvMEd6gtI8tb9yUjw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__KzlHzvMEd6gtI8tb9yUjw" name="ProcessContributions" guid="__KzlHzvMEd6gtI8tb9yUjw"/>
+    <bases href="uma://_kwazABFxEd6C2PqX2OSy5A#_kwazABFxEd6C2PqX2OSy5A"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

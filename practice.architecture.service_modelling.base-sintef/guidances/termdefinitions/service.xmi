@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-kmdRxus_MVJAHy6k6APSHg" name="new_term_definition,_EF3o0JzSEeCjAYLMIp9ZDA" guid="-kmdRxus_MVJAHy6k6APSHg" changeDate="2011-06-22T15:18:28.475+0200">
+  <mainDescription>&lt;p>&#xD;
+    A Service represents a feature of a Participant that is the offer of a service by one participant to others using well&#xD;
+    defined terms, conditions and interfaces. A Service designates a Port that defines the connection point through which a&#xD;
+    Participant offers its capabilities and provides a service to clients.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Service extends Port to specify a feature of a Participant that represents a service the Participant provides and&#xD;
+    offers for consumption by other participants. The service is defined by a ServiceInterface. It is implemented by the&#xD;
+    Participant either through delegation to its parts or through its methods. The service may be connected to a business&#xD;
+    MotivationalElement to indicate its intended value proposition. There may be constraints associated with the service&#xD;
+    that define its nonfunctional characteristics or warranted qualities of service. This information may be used by&#xD;
+    potential consumers to determine if the service meets their needs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Service may include the specification of the value offered to another, and the offer to provide value to another. A&#xD;
+    Service is the visible point at which consumer requests are connected to providers and through which they interact in&#xD;
+    order to produce some real world effect.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Service may also be viewed as the offer of some service or set of related services provided by a provider Participant&#xD;
+    that, when consumed by some consumer Participants, has some value or achieves some objective of the connected parties.&#xD;
+    A service is distinguished from a simple Operation in that it may involve a conversation between the parties as&#xD;
+    specified by some communication protocol that is necessary to meet the common objective.&lt;br />&#xD;
+    The capabilities provided through the Service – its provided interfaces – are derived from the interfaces realized by&#xD;
+    the Service's ServiceInterface and further detained in the service contract. The capabilities required of consumers in&#xD;
+    order to use the Service -- its required interfaces – are derived from the interfaces used by the Service's&#xD;
+    ServiceInterface. These are the same as the provided and required interfaces of the Port that is extended by Service.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Service represents an interaction point through which a providing Participant with capabilities to provide a service&#xD;
+    interacts with a consuming participant having compatible needs. It represents a part at the end of a ServiceChannel&#xD;
+    connection and the point through which a provider satisfies a request.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Service is typed by an Interface or ServiceInterface that, possibly together with a ServiceContract, completely&#xD;
+    characterizes specific capabilities of the producing and consuming participants’ responsibilities with respect to that&#xD;
+    service. This includes provided interfaces which designate the capabilities of the Participant through this Service,&#xD;
+    and the required interfaces which represent what the Participant is requires of consumers in order to use the provided&#xD;
+    capabilities. It also includes any protocols the providing Participant requires consumers to follow in the use of the&#xD;
+    capabilities of the Service.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If the type of a Service is a ServiceInterface, then the Service's provided Interfaces are the Interfaces realized by&#xD;
+    the ServiceInterface while it’s required Interfaces are those used by the ServiceInterface. If the type of a Service is&#xD;
+    a simple Interface, then the provided interface is that Interface and there is no required Interface and no protocol.&#xD;
+    If the ServiceInterface or UML interface typing a service port is defined as a role within a ServiceContract – the&#xD;
+    service port (and participant) is bound by the semantics and constraints of that service contract.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

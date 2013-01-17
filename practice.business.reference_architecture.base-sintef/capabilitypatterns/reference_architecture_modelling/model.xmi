@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_VobbAaJAEeC2rPq2LOW9Ag" guid="_VobbAaJAEeC2rPq2LOW9Ag">
+    <resourceDescriptors xmi:id="_VobbAqJAEeC2rPq2LOW9Ag" id="-8ARoEiIIyXJIbA68fK_HQg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_CDqwAaJCEeC2rPq2LOW9Ag" id="-8Kpfn53ghuCmMxh9kORV7g" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_Vn1lIKJAEeC2rPq2LOW9Ag" name="reference_architecture_modelling" guid="_Vn1lIKJAEeC2rPq2LOW9Ag">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_BTeCIKJCEeC2rPq2LOW9Ag" name="define_reference_architecture" guid="_BTeCIKJCEeC2rPq2LOW9Ag" presentationName="Define reference architecture" superActivities="_Vn1lIaJAEeC2rPq2LOW9Ag" output="_BTeCIaJCEeC2rPq2LOW9Ag" performedPrimarilyBy="_BTeCI6JCEeC2rPq2LOW9Ag">
+      <examples href="uma://_8vpggJ5CEeCPm6RiYJY55g#_XY7ZUJ5QEeCOkvcSVgl5mQ"/>
+      <examples href="uma://_8vpggJ5CEeCPm6RiYJY55g#_PXayQJ5WEeCZu7rk2fFONg"/>
+      <examples href="uma://_8vpggJ5CEeCPm6RiYJY55g#_T_4yMJ5WEeCZu7rk2fFONg"/>
+      <Task href="uma://_8vpggJ5CEeCPm6RiYJY55g#_ylDB0J5PEeCOkvcSVgl5mQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BTeCIaJCEeC2rPq2LOW9Ag" name="reference_architecture" guid="_BTeCIaJCEeC2rPq2LOW9Ag" presentationName="Reference architecture" isPlanned="false" superActivities="_Vn1lIaJAEeC2rPq2LOW9Ag">
+      <methodElementProperty xmi:id="_BTeCIqJCEeC2rPq2LOW9Ag" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_8vpggJ5CEeCPm6RiYJY55g#_XY7ZUJ5QEeCOkvcSVgl5mQ"/>
+      <examples href="uma://_8vpggJ5CEeCPm6RiYJY55g#_PXayQJ5WEeCZu7rk2fFONg"/>
+      <examples href="uma://_8vpggJ5CEeCPm6RiYJY55g#_T_4yMJ5WEeCZu7rk2fFONg"/>
+      <WorkProduct href="uma://_8vpggJ5CEeCPm6RiYJY55g#_voGIgJ5PEeCOkvcSVgl5mQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_BTeCI6JCEeC2rPq2LOW9Ag" name="business_analyst" guid="_BTeCI6JCEeC2rPq2LOW9Ag" presentationName="Business analyst" briefDescription="Responsible for analyzing the business needs of clients to help identify business problems and propose solutions." isPlanned="false" superActivities="_Vn1lIaJAEeC2rPq2LOW9Ag" modifies="_BTeCIaJCEeC2rPq2LOW9Ag" responsibleFor="_BTeCIaJCEeC2rPq2LOW9Ag">
+      <methodElementProperty xmi:id="_BTeCJKJCEeC2rPq2LOW9Ag" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-8Kpfn53ghuCmMxh9kORV7g" href="uma://-8ARoEiIIyXJIbA68fK_HQg#-8Kpfn53ghuCmMxh9kORV7g"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_VHH-AOEPEd-QcdsL5iaWCQ"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_Vn1lIaJAEeC2rPq2LOW9Ag" name="reference_architecture_modelling" guid="_Vn1lIaJAEeC2rPq2LOW9Ag" presentationName="Reference architecture modelling" breakdownElements="_BTeCIKJCEeC2rPq2LOW9Ag _BTeCI6JCEeC2rPq2LOW9Ag _BTeCIaJCEeC2rPq2LOW9Ag">
+      <presentation xmi:id="-8ARoEiIIyXJIbA68fK_HQg" href="uma://-8ARoEiIIyXJIbA68fK_HQg#-8ARoEiIIyXJIbA68fK_HQg"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_jhXrUKJBEeC2rPq2LOW9Ag"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_jhXrUKJBEeC2rPq2LOW9Ag"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

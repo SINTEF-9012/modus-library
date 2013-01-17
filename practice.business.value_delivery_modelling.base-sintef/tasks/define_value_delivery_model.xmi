@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-UGAmhtRLt8l2LS7IXDEu8g" name="define_value_delivery_model,_Kden0KDHEeCXF5ZuS3W32Q" guid="-UGAmhtRLt8l2LS7IXDEu8g" changeDate="2012-11-12T07:58:33.969+0100">
+  <mainDescription>&lt;p>&#xD;
+    A Value Delivery Model can be expressed using the VDML modelling language. To define a VDML model we have defined four&#xD;
+    different VDML modelling tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../practice.business.value_delivery_modelling.base-sintef/tasks/define_business_network_and_collaboration_9F121DE4.html&quot;&#xD;
+         guid=&quot;_ddF78Cf1EeKbT_45B08XTA&quot;>Define business network and collaboration&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../practice.business.value_delivery_modelling.base-sintef/tasks/define_organizations_and_capabilities_CA60528A.html&quot;&#xD;
+         guid=&quot;_9S528Cf1EeKbT_45B08XTA&quot;>Define organizations and capabilities&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../practice.business.value_delivery_modelling.base-sintef/tasks/define_activities_CAA4237A.html&quot;&#xD;
+        guid=&quot;_LaleYCdpEeKDGNEPRzZzCg&quot;>Define activities&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../practice.business.value_delivery_modelling.base-sintef/tasks/define_value_2A430D58.html&quot;&#xD;
+        guid=&quot;_B5gOoCf2EeKbT_45B08XTA&quot;>Define values&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Packaging value delivery modeling elements into value delivery models, does not imply that the entire business system&#xD;
+    has to be defined by a single value delivery model. As there might be different people (business analysts) responsible&#xD;
+    for modeling and analysis of different sub-scopes of the business system, and models of different sub-scopes of the&#xD;
+    business system might have their own life cycles, versions, etc. It is possible therefore that elements in one value&#xD;
+    delivery model, representing a part of the business system, are associated with elements in other value delivery&#xD;
+    models.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Various associations in VDML can be across value delivery model boundaries. Examples of these associations are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Libraries:&lt;/strong> One value delivery model might use elements from libraries that are contained in other&#xD;
+        value delivery models and/or SMM models.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Collaborations:&lt;/strong> A delegation context in one value delivery model might relate to a collaboration&#xD;
+        in another.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Stores:&lt;/strong> A deliverable flow in one value delivery model might associate to a store, via one of its&#xD;
+        ports, in another value delivery model.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To define and organize a Value Delivery Model.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

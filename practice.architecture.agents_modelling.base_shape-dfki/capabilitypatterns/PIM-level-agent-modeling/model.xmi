@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_eAeToYgqEd6SsPDVoNSEFQ" guid="_eAeToYgqEd6SsPDVoNSEFQ">
+    <resourceDescriptors xmi:id="_eAeToogqEd6SsPDVoNSEFQ" id="-vd_dQpe-2iQ1JncxP1iNPQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_d-rj4IgqEd6SsPDVoNSEFQ" name="PIM-level-agent-modeling" guid="_d-rj4IgqEd6SsPDVoNSEFQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_g8DDwKOQEd60U68VVOisWA" name="PIM-level Agent Modeling " guid="_g8DDwKOQEd60U68VVOisWA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_g8DDwaOQEd60U68VVOisWA" name="PIM-level Agent Modeling " guid="_g8DDwaOQEd60U68VVOisWA" presentationName="PIM-level Agent Modeling " superActivities="_d-rj4YgqEd6SsPDVoNSEFQ" breakdownElements="_mm5GsKOQEd60U68VVOisWA _pCwFIKOQEd60U68VVOisWA _qPMqIKOQEd60U68VVOisWA _rfhCgKOQEd60U68VVOisWA _so0z8KOQEd60U68VVOisWA _tzCkUKOQEd60U68VVOisWA _vHhrAKOQEd60U68VVOisWA _w9ixcKOQEd60U68VVOisWA _k-lFEKOQEd60U68VVOisWA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_k-lFEKOQEd60U68VVOisWA" name="create_PIM4Agents_deployment" guid="_k-lFEKOQEd60U68VVOisWA" presentationName="create PIM4Agents deployment" briefDescription="Create the optional deyploment of PIM4Agents" superActivities="_g8DDwaOQEd60U68VVOisWA" optionalInput="_s7BAUYgqEd6SsPDVoNSEFQ _k-5eUogqEd6SsPDVoNSEFQ" output="_0V6ElIgqEd6SsPDVoNSEFQ _k-5eU4gqEd6SsPDVoNSEFQ" performedPrimarilyBy="_nxjzMYgqEd6SsPDVoNSEFQ">
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_isyagHwxEd6zE6DaMH4mBQ"/>
+        <selectedSteps href="uma://-aIb-Iig6wzK9yMTX0ykwfA#_w14cIHwxEd6zE6DaMH4mBQ"/>
+        <selectedSteps href="uma://-aIb-Iig6wzK9yMTX0ykwfA#_x6laYHwxEd6zE6DaMH4mBQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_mm5GsKOQEd60U68VVOisWA" name="apply_transformation SoaML2PIM4Agents" guid="_mm5GsKOQEd60U68VVOisWA" presentationName="apply transformation SoaML2PIM4Agents" briefDescription="Task responsible for executing the model transformation between SoaML and PIM4Agents" superActivities="_g8DDwaOQEd60U68VVOisWA" mandatoryInput="_k-5eUogqEd6SsPDVoNSEFQ" output="_k-5eU4gqEd6SsPDVoNSEFQ">
+        <toolmentor href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_smefEIWKEd6Lb6GZuo4wTA"/>
+        <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_8-5bIHzbEd6XdpY1gOeKuQ"/>
+        <selectedSteps href="uma://-Ca39dc4nUQ2h8Uvo-fWa2A#_RiNuMHzcEd6XdpY1gOeKuQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_pCwFIKOQEd60U68VVOisWA" name="create_PIM4Agents_environment" guid="_pCwFIKOQEd60U68VVOisWA" presentationName="create PIM4Agents environment" briefDescription="Create the Environment any Agent can have access to" superActivities="_g8DDwaOQEd60U68VVOisWA" optionalInput="_nxjzMogqEd6SsPDVoNSEFQ _k-5eUogqEd6SsPDVoNSEFQ" output="_nxjzM4gqEd6SsPDVoNSEFQ _k-5eU4gqEd6SsPDVoNSEFQ" performedPrimarilyBy="_nxjzMYgqEd6SsPDVoNSEFQ">
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_aS9VoHzdEd6XdpY1gOeKuQ"/>
+        <selectedSteps href="uma://-SdkUVUVh5XbutkBMnCEAnQ#_wyQ0QHzdEd6XdpY1gOeKuQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_qPMqIKOQEd60U68VVOisWA" name="create_PIM4Agents_interaction" guid="_qPMqIKOQEd60U68VVOisWA" presentationName="create PIM4Agents interaction" briefDescription="Create the forms of interactions within Organizations" superActivities="_g8DDwaOQEd60U68VVOisWA" optionalInput="_pMKI8YgqEd6SsPDVoNSEFQ _k-5eUogqEd6SsPDVoNSEFQ" output="_pMKI8ogqEd6SsPDVoNSEFQ _k-5eU4gqEd6SsPDVoNSEFQ" performedPrimarilyBy="_nxjzMYgqEd6SsPDVoNSEFQ">
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_vsNOUHzhEd6XdpY1gOeKuQ"/>
+        <selectedSteps href="uma://-CYDHbD2eXc8cDP9x4f8h8g#_-qfykHzhEd6XdpY1gOeKuQ"/>
+        <selectedSteps href="uma://-CYDHbD2eXc8cDP9x4f8h8g#__mjLIHzhEd6XdpY1gOeKuQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_rfhCgKOQEd60U68VVOisWA" name="create_PIM4Agents_role" guid="_rfhCgKOQEd60U68VVOisWA" presentationName="create PIM4Agents role" briefDescription="Create the roles (i.e. DomainRoles) of the MAS" superActivities="_g8DDwaOQEd60U68VVOisWA" optionalInput="_pMKI8YgqEd6SsPDVoNSEFQ _qoF7cYgqEd6SsPDVoNSEFQ _k-5eUogqEd6SsPDVoNSEFQ" output="_qoF7cogqEd6SsPDVoNSEFQ _k-5eU4gqEd6SsPDVoNSEFQ" performedPrimarilyBy="_nxjzMYgqEd6SsPDVoNSEFQ">
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_IkFgIHzdEd6XdpY1gOeKuQ"/>
+        <selectedSteps href="uma://-ftbfVwPAc0jHMvLpjeWRng#_xttv4HzdEd6XdpY1gOeKuQ"/>
+        <selectedSteps href="uma://-ftbfVwPAc0jHMvLpjeWRng#_y6KU4HzdEd6XdpY1gOeKuQ"/>
+        <selectedSteps href="uma://-ftbfVwPAc0jHMvLpjeWRng#_01_IYHzdEd6XdpY1gOeKuQ"/>
+        <selectedStepsExclude href="uma://-ftbfVwPAc0jHMvLpjeWRng#_hv_qQKLBEd6MnJuyPADf4Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_so0z8KOQEd60U68VVOisWA" name="create_PIM4Agents_agent_type" guid="_so0z8KOQEd60U68VVOisWA" presentationName="create PIM4Agents agent type" briefDescription="Create the Agent types of the MAS" superActivities="_g8DDwaOQEd60U68VVOisWA" optionalInput="_pMKI8YgqEd6SsPDVoNSEFQ _s7BAUYgqEd6SsPDVoNSEFQ _qoF7cYgqEd6SsPDVoNSEFQ _k-5eUogqEd6SsPDVoNSEFQ" output="_s7BAUogqEd6SsPDVoNSEFQ _k-5eU4gqEd6SsPDVoNSEFQ" performedPrimarilyBy="_nxjzMYgqEd6SsPDVoNSEFQ">
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_cBLDkHzgEd6XdpY1gOeKuQ"/>
+        <selectedSteps href="uma://-NtEE73-q5ksj_6KJBA_OIw#_wyWzgHzgEd6XdpY1gOeKuQ"/>
+        <selectedSteps href="uma://-NtEE73-q5ksj_6KJBA_OIw#_tmfkEIWqEd6RnNsGWKlbZQ"/>
+        <selectedSteps href="uma://-NtEE73-q5ksj_6KJBA_OIw#_vZ-T4IWqEd6RnNsGWKlbZQ"/>
+        <selectedStepsExclude href="uma://-NtEE73-q5ksj_6KJBA_OIw#_IGMMQKLGEd6MnJuyPADf4Q"/>
+        <selectedStepsExclude href="uma://-NtEE73-q5ksj_6KJBA_OIw#_JxepYKLGEd6MnJuyPADf4Q"/>
+        <selectedStepsExclude href="uma://-NtEE73-q5ksj_6KJBA_OIw#_La1M0KLGEd6MnJuyPADf4Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_tzCkUKOQEd60U68VVOisWA" name="create_PIM4Agents_organization_type" guid="_tzCkUKOQEd60U68VVOisWA" presentationName="create PIM4Agents organization type" briefDescription="Create the Organization types of the MAS" superActivities="_g8DDwaOQEd60U68VVOisWA" optionalInput="_pMKI8YgqEd6SsPDVoNSEFQ _s7BAUYgqEd6SsPDVoNSEFQ _k-5eUogqEd6SsPDVoNSEFQ" output="_ukNywYgqEd6SsPDVoNSEFQ _k-5eU4gqEd6SsPDVoNSEFQ" performedPrimarilyBy="_nxjzMYgqEd6SsPDVoNSEFQ">
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_4s190HzgEd6XdpY1gOeKuQ"/>
+        <selectedSteps href="uma://-rI6fdGpr4RtiaR15QDlIBw#_FPuPkHzhEd6XdpY1gOeKuQ"/>
+        <selectedStepsExclude href="uma://-rI6fdGpr4RtiaR15QDlIBw#_o6Wl4KLGEd6MnJuyPADf4Q"/>
+        <selectedStepsExclude href="uma://-rI6fdGpr4RtiaR15QDlIBw#_vFFp0KLGEd6MnJuyPADf4Q"/>
+        <selectedStepsExclude href="uma://-rI6fdGpr4RtiaR15QDlIBw#_zsboYKLGEd6MnJuyPADf4Q"/>
+        <selectedStepsExclude href="uma://-rI6fdGpr4RtiaR15QDlIBw#_2WASsKLGEd6MnJuyPADf4Q"/>
+        <selectedStepsExclude href="uma://-rI6fdGpr4RtiaR15QDlIBw#_8Dh2MKLGEd6MnJuyPADf4Q"/>
+        <selectedStepsExclude href="uma://-rI6fdGpr4RtiaR15QDlIBw#_AHs2QKLHEd6MnJuyPADf4Q"/>
+        <selectedStepsExclude href="uma://-rI6fdGpr4RtiaR15QDlIBw#_HVCmsKLHEd6MnJuyPADf4Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_vHhrAKOQEd60U68VVOisWA" name="create_PIM4Agents_collaboration" guid="_vHhrAKOQEd60U68VVOisWA" presentationName="create PIM4Agents collaboration" briefDescription="Create the Collaborations of one Organizationany Agent can have access to" superActivities="_g8DDwaOQEd60U68VVOisWA" optionalInput="_s7BAUYgqEd6SsPDVoNSEFQ _k-5eUogqEd6SsPDVoNSEFQ" output="_wcdt0YgqEd6SsPDVoNSEFQ _k-5eU4gqEd6SsPDVoNSEFQ" performedPrimarilyBy="_nxjzMYgqEd6SsPDVoNSEFQ">
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_qlAAwHzdEd6XdpY1gOeKuQ"/>
+        <selectedSteps href="uma://-NxbryGDytkVDVHWROBgCdg#_j5_PYHzfEd6XdpY1gOeKuQ"/>
+        <selectedSteps href="uma://-NxbryGDytkVDVHWROBgCdg#_lDmi0HzfEd6XdpY1gOeKuQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_w9ixcKOQEd60U68VVOisWA" name="create_PIM4Agents_behavior" guid="_w9ixcKOQEd60U68VVOisWA" presentationName="create PIM4Agents behavior" briefDescription="Create the Plans that define in which manner an Agent/Organization behaves" superActivities="_g8DDwaOQEd60U68VVOisWA" optionalInput="_pMKI8YgqEd6SsPDVoNSEFQ _k-5eUogqEd6SsPDVoNSEFQ" output="_yo_PwYgqEd6SsPDVoNSEFQ _k-5eU4gqEd6SsPDVoNSEFQ" performedPrimarilyBy="_nxjzMYgqEd6SsPDVoNSEFQ">
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_O-_kwHwyEd6zE6DaMH4mBQ"/>
+        <selectedSteps href="uma://-kwTTMduY-w5wJ76NoYaCGA#_Awj6sHwzEd6zE6DaMH4mBQ"/>
+        <selectedSteps href="uma://-kwTTMduY-w5wJ76NoYaCGA#_CSUBUHwzEd6zE6DaMH4mBQ"/>
+        <selectedSteps href="uma://-kwTTMduY-w5wJ76NoYaCGA#_DO9PwHwzEd6zE6DaMH4mBQ"/>
+      </processElements>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_k-5eUogqEd6SsPDVoNSEFQ" name="SoaML_Model" guid="_k-5eUogqEd6SsPDVoNSEFQ" presentationName="SoaML Model" briefDescription="A model that defines the service architecture in a platform-indepent manner." isPlanned="false" superActivities="_d-rj4YgqEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBnW0teMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_k-5eU4gqEd6SsPDVoNSEFQ" name="PIM4Agents_model" guid="_k-5eU4gqEd6SsPDVoNSEFQ" presentationName="PIM4Agents model" isPlanned="false" superActivities="_d-rj4YgqEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBnW1NeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_2hxTmIGlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_nxjzMYgqEd6SsPDVoNSEFQ" name="PIM4Agents_Developer" guid="_nxjzMYgqEd6SsPDVoNSEFQ" presentationName="PIM4Agents Developer" briefDescription="Responsible for designing MAS in accordance to DSML4MAS" isPlanned="false" superActivities="_d-rj4YgqEd6SsPDVoNSEFQ" modifies="_0V6ElIgqEd6SsPDVoNSEFQ _k-5eU4gqEd6SsPDVoNSEFQ _nxjzM4gqEd6SsPDVoNSEFQ _pMKI8ogqEd6SsPDVoNSEFQ _qoF7cogqEd6SsPDVoNSEFQ _s7BAUogqEd6SsPDVoNSEFQ _ukNywYgqEd6SsPDVoNSEFQ _wcdt0YgqEd6SsPDVoNSEFQ _yo_PwYgqEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBnW0NeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_27Zo4HwxEd6zE6DaMH4mBQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_nxjzMogqEd6SsPDVoNSEFQ" name="SoaML Information_diagram" guid="_nxjzMogqEd6SsPDVoNSEFQ" presentationName="SoaML Information diagram" briefDescription="An information diagram is an abstract, formal representation of entity types that includes their properties, relationships and the operations that can be performed on them&#xD;&#xA;Class diagram that describes data structure of exchanged messages." isPlanned="false" superActivities="_d-rj4YgqEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBnW0deMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_kBrBMNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="1"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_nxjzM4gqEd6SsPDVoNSEFQ" name="Environment_Diagram" guid="_nxjzM4gqEd6SsPDVoNSEFQ" presentationName="Environment_Diagram" briefDescription="Contains information about the environments modeled" isPlanned="false" superActivities="_d-rj4YgqEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBnW09eMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_2hxTlIGlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_pMKI8YgqEd6SsPDVoNSEFQ" name="SoaML Arquitecture and Behaviour_Diagram" guid="_pMKI8YgqEd6SsPDVoNSEFQ" presentationName="SoaMLArquitectural and Behaviour Diagram" briefDescription="Activity diagram that describes the behaviour (dynamics) of a service architecture." isPlanned="false" superActivities="_d-rj4YgqEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBn94NeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_kBpzENeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_pMKI8ogqEd6SsPDVoNSEFQ" name="Interaction_Diagram" guid="_pMKI8ogqEd6SsPDVoNSEFQ" presentationName="Interaction Diagram" briefDescription="Contains information about the interactions modeled" isPlanned="false" superActivities="_d-rj4YgqEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBs2YNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_2hxTlYGlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_qoF7cYgqEd6SsPDVoNSEFQ" name="SoaML Service_diagram" guid="_qoF7cYgqEd6SsPDVoNSEFQ" presentationName="SoaML Service Diagram" briefDescription="This diagram presents WHAT is the service. This model should define mainly the operations and the interface of the service. This diagram will represent the service from a static point of view.This diagram coul be represented with class diagrams (for defining ServiceInterface) and Collaboration diagram that describes entities that work together for some purpose." isPlanned="false" superActivities="_d-rj4YgqEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBnW1deMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+      <methodElementProperty xmi:id="_kBqaIdeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_qoF7cogqEd6SsPDVoNSEFQ" name="Role_Diagram" guid="_qoF7cogqEd6SsPDVoNSEFQ" presentationName="Role Diagram" briefDescription="Contains information about the roles modeled" isPlanned="false" superActivities="_d-rj4YgqEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBsPUNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_2hxTmYGlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s7BAUYgqEd6SsPDVoNSEFQ" name="SoaML Organization _Diagram" guid="_s7BAUYgqEd6SsPDVoNSEFQ" presentationName="Participant Architecture Diagram " briefDescription="Component diagram that describes structure (i.e. static) of a participant architecture." isPlanned="false" superActivities="_d-rj4YgqEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBn94deMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_kBroQNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s7BAUogqEd6SsPDVoNSEFQ" name="Agent_Diagram" guid="_s7BAUogqEd6SsPDVoNSEFQ" presentationName="Agent Diagram" briefDescription="Contains information about the agents modeled" isPlanned="false" superActivities="_d-rj4YgqEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBqaIteMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_2hxTkIGlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ukNywYgqEd6SsPDVoNSEFQ" name="Organization_Diagram" guid="_ukNywYgqEd6SsPDVoNSEFQ" presentationName="Organization Diagram" briefDescription="Contains information about the organizations modeled" isPlanned="false" superActivities="_d-rj4YgqEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBn94teMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_2hxTl4GlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_wcdt0YgqEd6SsPDVoNSEFQ" name="Collaboration_Diagram" guid="_wcdt0YgqEd6SsPDVoNSEFQ" presentationName="Collaboration Diagram" briefDescription="Contains information about the collaborations modeled" isPlanned="false" superActivities="_d-rj4YgqEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBok8NeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_2hxTkoGlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_yo_PwYgqEd6SsPDVoNSEFQ" name="Behavior_Diagram" guid="_yo_PwYgqEd6SsPDVoNSEFQ" presentationName="Behavior Diagram" briefDescription="Contains information about the behaviors modeled" isPlanned="false" superActivities="_d-rj4YgqEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBqaINeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_2hxTkYGlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_0V6ElIgqEd6SsPDVoNSEFQ" name="Deployment_Diagram" guid="_0V6ElIgqEd6SsPDVoNSEFQ" presentationName="Deployment Diagram" briefDescription="Contains information about the agent instances modeled" isPlanned="false" superActivities="_d-rj4YgqEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBtdcNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_2hxTk4GlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_d-rj4YgqEd6SsPDVoNSEFQ" name="PIM-level-agent-modeling" guid="_d-rj4YgqEd6SsPDVoNSEFQ" presentationName="PIM-level-agent-modeling" briefDescription="Specifies how agent systems are defined in accordance to the SHAPE methodology. " breakdownElements="_k-5eUogqEd6SsPDVoNSEFQ _k-5eU4gqEd6SsPDVoNSEFQ _nxjzMYgqEd6SsPDVoNSEFQ _nxjzMogqEd6SsPDVoNSEFQ _nxjzM4gqEd6SsPDVoNSEFQ _pMKI8YgqEd6SsPDVoNSEFQ _pMKI8ogqEd6SsPDVoNSEFQ _qoF7cYgqEd6SsPDVoNSEFQ _qoF7cogqEd6SsPDVoNSEFQ _s7BAUYgqEd6SsPDVoNSEFQ _s7BAUogqEd6SsPDVoNSEFQ _ukNywYgqEd6SsPDVoNSEFQ _wcdt0YgqEd6SsPDVoNSEFQ _yo_PwYgqEd6SsPDVoNSEFQ _0V6ElIgqEd6SsPDVoNSEFQ _g8DDwaOQEd60U68VVOisWA">
+      <methodElementProperty xmi:id="_kBuEgNeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-vd_dQpe-2iQ1JncxP1iNPQ" href="uma://-vd_dQpe-2iQ1JncxP1iNPQ#-vd_dQpe-2iQ1JncxP1iNPQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

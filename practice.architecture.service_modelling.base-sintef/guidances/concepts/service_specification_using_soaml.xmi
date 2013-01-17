@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-q9jkcZRyse28kS4-0TWCqw" name="service_specification_using_soaml,_l_dVQJzZEeCjAYLMIp9ZDA" guid="-q9jkcZRyse28kS4-0TWCqw" changeDate="2011-08-10T13:41:16.351+0200">
+  <mainDescription>&lt;p align=&quot;left&quot;>&#xD;
+    SoaML supports different approaches to SOA. This has resulted in the definition of different but overlapping language&#xD;
+    constructs in the UML profile. The specification distinguishes between three different approaches to specifying a&#xD;
+    service [Elvesæter, et al. 2011]&lt;sup>1&lt;/sup>:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            The &lt;a class=&quot;elementLink&quot;&#xD;
+            href=&quot;./../../../practice.architecture.service_modelling.base-sintef/guidances/concepts/simple_interface_based_approach_FC8E76B1.html&quot;&#xD;
+             guid=&quot;_W6pcQDf5Ed-Uc_4T-VlC6Q&quot;>Simple interface based approach&lt;/a>&amp;nbsp;uses a UML interface to specify a&#xD;
+            one-way service interaction.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            The &lt;a class=&quot;elementLink&quot;&#xD;
+            href=&quot;./../../../practice.architecture.service_modelling.base-sintef/guidances/concepts/service_contract_based_approach_433FFD9E.html&quot;&#xD;
+             guid=&quot;_N-Gp8Df3Ed-Uc_4T-VlC6Q&quot;>Service contract based approach&lt;/a>&amp;nbsp;extends a UML collaboration to specify&#xD;
+            a binary or n-ary service interaction.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            The &lt;a class=&quot;elementLink&quot;&#xD;
+            href=&quot;./../../../practice.architecture.service_modelling.base-sintef/guidances/concepts/service_interface_based_approach_D895EA03.html&quot;&#xD;
+             guid=&quot;_kJPkgDf5Ed-Uc_4T-VlC6Q&quot;>Service interface based approach&lt;/a> extends a UML class to specify a binary or&#xD;
+            n-ary service interaction.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    Both the service contract and service interface based approaches entail the specification of simple interfaces,&#xD;
+    typically one for each of the roles participating in the service interaction. Thus a service contract or a service&#xD;
+    interface can be seen as an extension of the simple interface based approach.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    _____&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;1&quot;>&lt;sup>1&lt;/sup>[Elvesæter, et al. 2011] B. Elvesæter, A.-J. Berre, and A. Sadovykh, &quot;Specifying Services&#xD;
+    using the Service oriented architecture Modeling Language (SoaML): A baseline for Specification of Cloud-based&#xD;
+    Services&quot;, in Proc. of the CLOSER 2011, 2011.&lt;/font> &lt;a href=&quot;http://www.closer.scitevents.org/CLOSER2011/&quot;>&lt;font&#xD;
+    size=&quot;1&quot;>http://www.closer.scitevents.org/CLOSER2011/&lt;/font>&lt;/a> &lt;font size=&quot;1&quot;>&amp;nbsp;&lt;/font>&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

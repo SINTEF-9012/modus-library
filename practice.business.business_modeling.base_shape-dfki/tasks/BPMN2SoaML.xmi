@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-YQOwIeSpXYmI_AADc2TjoA" name="BPMN2SoaML,_8jzkoFvsEd61555SznyqRQ" guid="-YQOwIeSpXYmI_AADc2TjoA" authors="Brian Elvesæter (SINTEF) Dima Panfilenko (DFKI IWi)" changeDate="2010-03-25T13:48:03.680+0100" changeDescription="0.1: Initial outline.|0.2: Contributions added" version="0.2">
+  <mainDescription>&lt;p>&#xD;
+    This method defines the guided procedure for mapping BPMN models to SoaML models.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is an automated tool which transforms your&amp;nbsp;bpmn input model to a&amp;nbsp;soaml output model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See the Steps page for detailled constructs.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>CIM2PIM transformation</keyConsiderations>
+  <sections xmi:id="_P5nZVIstEd6wSaCmnFc5Ig" name="1. Create a BPMN model." guid="_P5nZVIstEd6wSaCmnFc5Ig"/>
+  <sections xmi:id="_P5nZUostEd6wSaCmnFc5Ig" name="2. Define SoaML service specifications." guid="_P5nZUostEd6wSaCmnFc5Ig">
+    <sectionDescription>&lt;p class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+    &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Map BPMN model elements to SoaML&#xD;
+    model elements using the following mapping rules:&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+    &lt;ul>&#xD;
+        &lt;li>&#xD;
+            &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+                &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Pool and&amp;nbsp;Lane (in&#xD;
+                BPMN) to Participant (in SoaML)&lt;/span>&#xD;
+            &lt;/div>&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+                &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Flows between Pools and&#xD;
+                Lanes (in BPMN) to ServiceContract (in SoaML)&lt;/span>&#xD;
+            &lt;/div>&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+                &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Message flow (in BPMN) to&#xD;
+                Services provider and services requestor (in SoaML)&lt;/span>&#xD;
+            &lt;/div>&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+                &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Activities (in BPMN) to&#xD;
+                Ports and interfaces (in SoaML)&lt;/span>&#xD;
+            &lt;/div>&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+                &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Sub-process elements (in&#xD;
+                BPMN) to Operations (in SoaML)&lt;/span>&#xD;
+            &lt;/div>&#xD;
+        &lt;/li>&#xD;
+    &lt;/ul>&#xD;
+    &lt;p class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+        &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Additional BPMN2/UML2 mapping&#xD;
+        rules from Objecteering models to SoaML:&lt;/span>&#xD;
+    &lt;/p>&#xD;
+    &lt;ul>&#xD;
+        &lt;li>&#xD;
+            &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+                &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>UML Package to UML&#xD;
+                Package&lt;/span>&#xD;
+            &lt;/div>&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+                &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Information to&#xD;
+                MessageType&lt;/span>&#xD;
+            &lt;/div>&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+                &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Organization unit to&#xD;
+                Participant&lt;/span>&#xD;
+            &lt;/div>&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+                &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Organization role to&#xD;
+                Participant&lt;/span>&#xD;
+            &lt;/div>&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+                &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>System to&#xD;
+                Participant&lt;/span>&#xD;
+            &lt;/div>&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+                &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>SystemInstance to&#xD;
+                Participant&lt;/span>&#xD;
+            &lt;/div>&#xD;
+        &lt;/li>&#xD;
+    &lt;/ul>&#xD;
+    &lt;p class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+        &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>The SoaML model is an IT-level&#xD;
+        model that will be used for model transformation/code generation and should follow the traditional IT naming&#xD;
+        conventions:&lt;/span>&#xD;
+    &lt;/p>&#xD;
+    &lt;ul>&#xD;
+        &lt;li>&#xD;
+            &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+                &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>No white spaces (delete&#xD;
+                white space and capitalize the following character)&lt;/span>&#xD;
+            &lt;/div>&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+                &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Replace all illegal&#xD;
+                characters (e.g., &amp;amp;, %, *, £, etc) with _&lt;/span>&#xD;
+            &lt;/div>&#xD;
+        &lt;/li>&#xD;
+    &lt;/ul>&#xD;
+&lt;/div></sectionDescription>
+  </sections>
+  <sections xmi:id="_P5nZU4stEd6wSaCmnFc5Ig" name="3. Refine the SoaML model." guid="_P5nZU4stEd6wSaCmnFc5Ig">
+    <sectionDescription>After you have&amp;nbsp;performed the mapping you have an initial SoaML. This model&amp;nbsp;should be further revised&amp;nbsp;using&#xD;
+the defined guidelines for SoaML modelling.</sectionDescription>
+  </sections>
+  <purpose>To derive an initial&amp;nbsp;SoaML model from a BPMN&amp;nbsp;model.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

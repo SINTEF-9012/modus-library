@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_0BFWUJ1wEeCOw7xpsfr5Cw" guid="_0BFWUJ1wEeCOw7xpsfr5Cw">
+    <resourceDescriptors xmi:id="_0BFWUZ1wEeCOw7xpsfr5Cw" id="-c0dh-zCypL8vlawgIBIDXg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_0BJnwJ1wEeCOw7xpsfr5Cw" id="-mP5MW4Ka3ozy9E6Jyaq53A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_0BK14J1wEeCOw7xpsfr5Cw" id="-svTcFILtHoBRVZpjtxTAdQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_0BLc8J1wEeCOw7xpsfr5Cw" id="-dyOdX0dzLScI_q20gmt3Sg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_0BMrEJ1wEeCOw7xpsfr5Cw" id="-8WFYRhJYKLy5c5IkeTBBVA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_0BN5MJ1wEeCOw7xpsfr5Cw" id="-4O1wyf657U7XD4e_KSNI2w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_0BOgQJ1wEeCOw7xpsfr5Cw" id="-wMaz2urmg_blldjfMs7M4Q" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_7mI1sJzMEeCKMNI98sdLuw" name="modelica_development" guid="_7mI1sJzMEeCKMNI98sdLuw">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_BJQgAJzNEeCKMNI98sdLuw" name="define_modelica_design_time_model" guid="_BJQgAJzNEeCKMNI98sdLuw" presentationName="Define Modelica design-time model" briefDescription="&lt;TBD>" superActivities="_7mI1sZzMEeCKMNI98sdLuw" output="_BJaRApzNEeCKMNI98sdLuw" performedPrimarilyBy="_BJaRAJzNEeCKMNI98sdLuw">
+      <presentation xmi:id="-c0dh-zCypL8vlawgIBIDXg" href="uma://-c0dh-zCypL8vlawgIBIDXg#-c0dh-zCypL8vlawgIBIDXg"/>
+      <Task href="uma://_Z1VtYOJ_Ed-Knc6oCYT2Zw#_UPsvMN_kEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_BJaRAJzNEeCKMNI98sdLuw" name="system_developer" guid="_BJaRAJzNEeCKMNI98sdLuw" presentationName="System developer" briefDescription="This is the worker who builds the services." isPlanned="false" superActivities="_7mI1sZzMEeCKMNI98sdLuw" modifies="_BJtL9JzNEeCKMNI98sdLuw _BJaRApzNEeCKMNI98sdLuw" responsibleFor="_BJtL9JzNEeCKMNI98sdLuw _BJtL8ZzNEeCKMNI98sdLuw _BJaRApzNEeCKMNI98sdLuw">
+      <methodElementProperty xmi:id="_0BQ8gJ1wEeCOw7xpsfr5Cw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-mP5MW4Ka3ozy9E6Jyaq53A" href="uma://-c0dh-zCypL8vlawgIBIDXg#-mP5MW4Ka3ozy9E6Jyaq53A"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJxhntEd6VV7P4WguglA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BJaRApzNEeCKMNI98sdLuw" name="modelica_design_time_model" guid="_BJaRApzNEeCKMNI98sdLuw" presentationName="Modelica design-time model" briefDescription="&lt;TBD>" isPlanned="false" superActivities="_7mI1sZzMEeCKMNI98sdLuw">
+      <methodElementProperty xmi:id="_0BQ8gZ1wEeCOw7xpsfr5Cw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-svTcFILtHoBRVZpjtxTAdQ" href="uma://-c0dh-zCypL8vlawgIBIDXg#-svTcFILtHoBRVZpjtxTAdQ"/>
+      <WorkProduct href="uma://_Z1VtYOJ_Ed-Knc6oCYT2Zw#_WUgDEN_lEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BJtL8ZzNEeCKMNI98sdLuw" name="matlab_as_service" guid="_BJtL8ZzNEeCKMNI98sdLuw" presentationName="MATLAB as service" briefDescription="&lt;TBD>" isPlanned="false" superActivities="_7mI1sZzMEeCKMNI98sdLuw">
+      <methodElementProperty xmi:id="_0BQ8gp1wEeCOw7xpsfr5Cw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-dyOdX0dzLScI_q20gmt3Sg" href="uma://-c0dh-zCypL8vlawgIBIDXg#-dyOdX0dzLScI_q20gmt3Sg"/>
+      <WorkProduct href="uma://_Z1VtYOJ_Ed-Knc6oCYT2Zw#_S-qvsN_lEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BJtL9JzNEeCKMNI98sdLuw" name="modelica_web_service" guid="_BJtL9JzNEeCKMNI98sdLuw" presentationName="Modelica Web service" briefDescription="Some scientists try to do Web-based simulation for various applications. Simulation engine project like YANOS already got some achievements (46). Modelica serves us as an almost ideal domain specific language for the model layer for our simulation. It can be used to define equations and mathematical functions. The Modelica Web Server take Modelica functions and expose them to internet, it is convenient for the users who do not have Modelica installed in their locate machine. The goal of this part is to design a deployable, portable, robust, scalable web application. The usage of Providing Modelica as a Service here will mainly satisfy the requirements from “Mathematic Modeling” and “Service Modeling” aspects.&#xD;&#xA;&#xD;&#xA;The SiSaS platform should allow executing simulations based on Modelica models, both on local desktop PC and Linux Server. Usually there are two ways of using models for the communication between existing system and supported Modelica models. They are run time model and designing time model. Which kind of model to be used influences that how we can design our system. In the next two sub section we will discuss how to provide Modelica as service in these two ways.&#xD;&#xA;" isPlanned="false" superActivities="_7mI1sZzMEeCKMNI98sdLuw">
+      <methodElementProperty xmi:id="_0BQ8g51wEeCOw7xpsfr5Cw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-8WFYRhJYKLy5c5IkeTBBVA" href="uma://-c0dh-zCypL8vlawgIBIDXg#-8WFYRhJYKLy5c5IkeTBBVA"/>
+      <WorkProduct href="uma://_Z1VtYOJ_Ed-Knc6oCYT2Zw#_X3JhkN_lEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_HoChUJzNEeCKMNI98sdLuw" name="develop_modelica_web_service" guid="_HoChUJzNEeCKMNI98sdLuw" presentationName="Develop Modelica Web service" briefDescription="&lt;TBD>" superActivities="_7mI1sZzMEeCKMNI98sdLuw" linkToPredecessor="_Tqsa4ZzNEeCKMNI98sdLuw" mandatoryInput="_BJaRApzNEeCKMNI98sdLuw" output="_BJtL9JzNEeCKMNI98sdLuw" performedPrimarilyBy="_BJaRAJzNEeCKMNI98sdLuw">
+      <presentation xmi:id="-4O1wyf657U7XD4e_KSNI2w" href="uma://-c0dh-zCypL8vlawgIBIDXg#-4O1wyf657U7XD4e_KSNI2w"/>
+      <Task href="uma://_Z1VtYOJ_Ed-Knc6oCYT2Zw#_ZLJ8kN_kEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Tqsa4ZzNEeCKMNI98sdLuw" guid="_Tqsa4ZzNEeCKMNI98sdLuw" pred="_BJQgAJzNEeCKMNI98sdLuw"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_7mI1sZzMEeCKMNI98sdLuw" name="modelica_development" guid="_7mI1sZzMEeCKMNI98sdLuw" presentationName="Modelica development" breakdownElements="_BJQgAJzNEeCKMNI98sdLuw _BJaRAJzNEeCKMNI98sdLuw _BJaRApzNEeCKMNI98sdLuw _BJtL8ZzNEeCKMNI98sdLuw _BJtL9JzNEeCKMNI98sdLuw _HoChUJzNEeCKMNI98sdLuw">
+      <presentation xmi:id="-wMaz2urmg_blldjfMs7M4Q" href="uma://-c0dh-zCypL8vlawgIBIDXg#-wMaz2urmg_blldjfMs7M4Q"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

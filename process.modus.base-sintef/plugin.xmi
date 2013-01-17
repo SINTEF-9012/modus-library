@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Iq93ULzIEd-GWpfvmLDtFA" guid="_Iq93ULzIEd-GWpfvmLDtFA">
+    <subManagers xmi:id="_6fIv0NuJEd-pTLmXJigeaQ" href="uma://_6Y3vwNuJEd-pTLmXJigeaQ#_6fIv0NuJEd-pTLmXJigeaQ"/>
+    <resourceDescriptors xmi:id="_6efPkNuJEd-pTLmXJigeaQ" id="_6Y3vwNuJEd-pTLmXJigeaQ" uri="deliveryprocesses/modus_development_process/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Iq7bELzIEd-GWpfvmLDtFA" name="process.modus.base-sintef" guid="_Iq7bELzIEd-GWpfvmLDtFA" briefDescription="This plugin contains the MODUS delivery processes." authors="Brian Elvesæter (SINTEF)" changeDate="2011-03-24T11:07:31.534+0100">
+    <methodElementProperty xmi:id="_kDCTIteMEd-Mq_S1iaxctg" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Iq7bEbzIEd-GWpfvmLDtFA" name="Content" guid="_Iq7bEbzIEd-GWpfvmLDtFA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Iq7bErzIEd-GWpfvmLDtFA" name="Categories" guid="_Iq7bErzIEd-GWpfvmLDtFA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Iq7bE7zIEd-GWpfvmLDtFA" name="Domains" guid="_Iq7bE7zIEd-GWpfvmLDtFA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Iq7bFLzIEd-GWpfvmLDtFA" name="Disciplines" guid="_Iq7bFLzIEd-GWpfvmLDtFA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Iq8CILzIEd-GWpfvmLDtFA" name="RoleSets" guid="_Iq8CILzIEd-GWpfvmLDtFA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Iq8CIbzIEd-GWpfvmLDtFA" name="WP Types" guid="_Iq8CIbzIEd-GWpfvmLDtFA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Iq8CIrzIEd-GWpfvmLDtFA" name="Tools" guid="_Iq8CIrzIEd-GWpfvmLDtFA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Iq8CI7zIEd-GWpfvmLDtFA" name="StandardCategories" guid="_Iq8CI7zIEd-GWpfvmLDtFA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Iq8CJLzIEd-GWpfvmLDtFA" name="CustomCategories" guid="_Iq8CJLzIEd-GWpfvmLDtFA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Iq8CJbzIEd-GWpfvmLDtFA" name="Hidden" guid="_Iq8CJbzIEd-GWpfvmLDtFA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Iq8CJrzIEd-GWpfvmLDtFA" name="Custom Categories" guid="_Iq8CJrzIEd-GWpfvmLDtFA"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Iq8CJ7zIEd-GWpfvmLDtFA" name="CoreContent" guid="_Iq8CJ7zIEd-GWpfvmLDtFA"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Iq8CKLzIEd-GWpfvmLDtFA" name="CapabilityPatterns" guid="_Iq8CKLzIEd-GWpfvmLDtFA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Iq8CKbzIEd-GWpfvmLDtFA" name="DeliveryProcesses" guid="_Iq8CKbzIEd-GWpfvmLDtFA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_6Y3vwNuJEd-pTLmXJigeaQ" href="uma://_6Y3vwNuJEd-pTLmXJigeaQ#_6Y3vwNuJEd-pTLmXJigeaQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Iq8CKrzIEd-GWpfvmLDtFA" name="ProcessContributions" guid="_Iq8CKrzIEd-GWpfvmLDtFA"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_enWLsNxcEd-LYKXkOhPACw#_enWLsNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_MxSNcNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_v52qwNxbEd-LYKXkOhPACw#_v52qwNxbEd-LYKXkOhPACw"/>
+    <bases href="uma://_WCUhAO8KEdmKSqa_gSYthg#_WCUhAO8KEdmKSqa_gSYthg"/>
+    <bases href="uma://_C7QigLzIEd-GWpfvmLDtFA#_C7QigLzIEd-GWpfvmLDtFA"/>
+    <bases href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#_Y8SDoBo7Ed-fDItO-3aPHw"/>
+    <bases href="uma://_M0_rgMb_Ed-2_-I8Ok7trA#_M0_rgMb_Ed-2_-I8Ok7trA"/>
+    <bases href="uma://_FzYp8Mb_Ed-2_-I8Ok7trA#_FzYp8Mb_Ed-2_-I8Ok7trA"/>
+    <bases href="uma://_HVCXcE7xEd-ttuvo_zEJ_g#_HVCXcE7xEd-ttuvo_zEJ_g"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

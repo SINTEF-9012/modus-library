@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_enf8sNxcEd-LYKXkOhPACw" guid="_enf8sNxcEd-LYKXkOhPACw"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_enWLsNxcEd-LYKXkOhPACw" name="core.default.cat_def.extend_mda-sintef" guid="_enWLsNxcEd-LYKXkOhPACw" briefDescription="This plugin contains the Disciplines and Domains for Model Driven Architecture (MDA)." authors="Brian Elvesæter (SINTEF)" changeDate="2010-10-20T17:12:47.359+0200">
+    <methodElementProperty xmi:id="_enf8stxcEd-LYKXkOhPACw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_enWLsdxcEd-LYKXkOhPACw" name="Content" guid="_enWLsdxcEd-LYKXkOhPACw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_enWLstxcEd-LYKXkOhPACw" name="Categories" guid="_enWLstxcEd-LYKXkOhPACw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_enWLs9xcEd-LYKXkOhPACw" name="Domains" guid="_enWLs9xcEd-LYKXkOhPACw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_9ApA8N0CEd-xB8a51ZHHaA" name="language_engineering_domain" guid="_9ApA8N0CEd-xB8a51ZHHaA" presentationName="Language engineering"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="__GPbgN0CEd-xB8a51ZHHaA" name="method_engineering_domain" guid="__GPbgN0CEd-xB8a51ZHHaA" presentationName="Method engineering"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_BZiT0N0DEd-xB8a51ZHHaA" name="generative_modelling_tooling_domain" guid="_BZiT0N0DEd-xB8a51ZHHaA" presentationName="Generative modelling tooling"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_DyxcEN0DEd-xB8a51ZHHaA" name="graphical_modelling_tooling_domain" guid="_DyxcEN0DEd-xB8a51ZHHaA" presentationName="Graphical modelling tooling"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_enWLtNxcEd-LYKXkOhPACw" name="Disciplines" guid="_enWLtNxcEd-LYKXkOhPACw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_t_QFYN0CEd-xB8a51ZHHaA" name="language_engineering_discipline" guid="_t_QFYN0CEd-xB8a51ZHHaA" presentationName="Language engineering"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_w87-gN0CEd-xB8a51ZHHaA" name="method_engineering_discipline" guid="_w87-gN0CEd-xB8a51ZHHaA" presentationName="Method engineering"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_zOcuIN0CEd-xB8a51ZHHaA" name="graphical_modelling_tooling_discipline" guid="_zOcuIN0CEd-xB8a51ZHHaA" presentationName="Graphical modelling tooling"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_3RUGoN0CEd-xB8a51ZHHaA" name="generative_modelling_tooling_discipline" guid="_3RUGoN0CEd-xB8a51ZHHaA" presentationName="Generative modelling tooling"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_enWLtdxcEd-LYKXkOhPACw" name="RoleSets" guid="_enWLtdxcEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_enWLttxcEd-LYKXkOhPACw" name="WP Types" guid="_enWLttxcEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_enWLt9xcEd-LYKXkOhPACw" name="Tools" guid="_enWLt9xcEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_enWLuNxcEd-LYKXkOhPACw" name="StandardCategories" guid="_enWLuNxcEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_enWLudxcEd-LYKXkOhPACw" name="CustomCategories" guid="_enWLudxcEd-LYKXkOhPACw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_enWLutxcEd-LYKXkOhPACw" name="Hidden" guid="_enWLutxcEd-LYKXkOhPACw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_enWLu9xcEd-LYKXkOhPACw" name="Custom Categories" guid="_enWLu9xcEd-LYKXkOhPACw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_enWLvNxcEd-LYKXkOhPACw" name="CoreContent" guid="_enWLvNxcEd-LYKXkOhPACw"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_enWLvdxcEd-LYKXkOhPACw" name="CapabilityPatterns" guid="_enWLvdxcEd-LYKXkOhPACw"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_enWLvtxcEd-LYKXkOhPACw" name="DeliveryProcesses" guid="_enWLvtxcEd-LYKXkOhPACw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_enWLv9xcEd-LYKXkOhPACw" name="ProcessContributions" guid="_enWLv9xcEd-LYKXkOhPACw"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

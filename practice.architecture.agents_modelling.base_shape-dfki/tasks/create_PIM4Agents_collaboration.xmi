@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-NxbryGDytkVDVHWROBgCdg" name="create_collaboration,_qlAAwHzdEd6XdpY1gOeKuQ" guid="-NxbryGDytkVDVHWROBgCdg" authors="Christian Hahn" changeDate="2009-07-30T10:02:53.749+0200" changeDescription="Initial input" version="0.1">
+  <mainDescription>A Collaboration is used inside an Organization to define which DomainRoles are actually playing the Actors of the contained&#xD;
+Interactions. This is done through the concept of ActorBinding.</mainDescription>
+  <sections xmi:id="_j5_PYHzfEd6XdpY1gOeKuQ" name="Define Collaborations" guid="_j5_PYHzfEd6XdpY1gOeKuQ">
+    <sectionDescription>&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Define name of the Collaboration&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Define the Interactions this Collaboration bases on, Interaction are already used by the Organization this&#xD;
+        Collaboration is based on&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Define the DomainRoleBindings between the DomainRole of the Organization and the AgentInstances playing the&#xD;
+        DomainRole during run-time&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Define the ActorsBindings&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></sectionDescription>
+  </sections>
+  <sections xmi:id="_lDmi0HzfEd6XdpY1gOeKuQ" name="Define binding between DomainRole and Actors" guid="_lDmi0HzfEd6XdpY1gOeKuQ">
+    <sectionDescription>Define which Actor is represented by which set of DomainRoles</sectionDescription>
+  </sections>
+  <purpose>Create the Collaborations of one Organizationany Agent can have access to</purpose>
+</org.eclipse.epf.uma:TaskDescription>

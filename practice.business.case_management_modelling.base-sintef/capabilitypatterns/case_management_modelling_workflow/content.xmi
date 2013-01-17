@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-jKlJ-EO4_ZCKMhAQGPr-Tw" name="case_management_modelling_workflow,_2T65gaF_EeCKTcfDSRMRtw" guid="-jKlJ-EO4_ZCKMhAQGPr-Tw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-CGHXDeLPI02ksvWAlkUcJA" name="business_goals,_gf_BMi0DEeKyWralSrmW_A" guid="-CGHXDeLPI02ksvWAlkUcJA">
+    <refinedDescription>Business Motivation Model (BMM) is a business-level modelling technique that supports the modelling of the business goals&#xD;
+and objectives, the means and policies to achieve them, and the influencing factors that drive and control the work&#xD;
+involved. This is typically used to define the overall business strategy in early phases of an engineering project.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--5PgZY5hpW1QNruz1sQzVA" name="business_processes,_gf_BOC0DEeKyWralSrmW_A" guid="--5PgZY5hpW1QNruz1sQzVA">
+    <refinedDescription>Business Process Modeling Notation (BPMN), is designed to communicate a wide variety of information on business processes&#xD;
+to a wide variety of audiences, providing a standard notation that is readily understandable by all business stakeholders.&#xD;
+Business process descriptions bring real business vision and constitute an excellent formalization and analysis tool when&#xD;
+constructing systems. In the context of a development project they are used in business-oriented activities related to&#xD;
+requirements, specifications and analysis. &lt;br />&#xD;
+&lt;br />&#xD;
+Business processes may be at a number of levels of detail, from a high level description of the business processes down to&#xD;
+task flows which comprise a set of detailed specifications for the business services to be realized in the service-oriented&#xD;
+architecture. BPMN is designed to cover many types of modelling and allows the creation of end-to-end business processes.&#xD;
+It allows the specification of private processes (both non-executable and executable), public processes, choreographies and&#xD;
+collaborations.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-85D5exvItvt4ZYefu8VVOw" name="capabilities,_gf_BPi0DEeKyWralSrmW_A" guid="-85D5exvItvt4ZYefu8VVOw">
+    <refinedDescription>Capabilities identify or specify a cohesive set of functions or resources that a service provided by one or more&#xD;
+participants might offer. Capabilities can be used by themselves or in conjunction with participants to represent general&#xD;
+functionality or abilities that a participant must have. Capabilities are used to identify needed services, and to organize&#xD;
+them into catalogues in order to communicate the needs and capabilities of a service area, whether that be business or&#xD;
+technology focused, prior to allocating those services to particular participants. Capabilities can have usage dependencies&#xD;
+on other capabilities to show how these capabilities are related. Capabilities can also be organized into architectural&#xD;
+layers to support separation of concern within the resulting service architecture.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2X-mV_NGGIHeBbJSBo9TyA" name="service_contracts_and_choreographies,_gf_BQS0DEeKyWralSrmW_A" guid="-2X-mV_NGGIHeBbJSBo9TyA">
+    <refinedDescription>&lt;p>&#xD;
+    A service contract approach defines service specifications (the service contract) that define the roles each&#xD;
+    participant plays in the service (such as provider and consumer) and the interfaces they implement to play that role in&#xD;
+    that service. The service contract represents an agreement between the involved participants for how the service is to&#xD;
+    be provided and consumed. This agreement includes the interfaces, choreography and any other terms and conditions.&#xD;
+    Service contracts are frequently part of one or more services architectures that define how a set of participants&#xD;
+    provide and use services for a particular business purpose or process.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    An important part of the service contract is the choreography. A choreography is a specification of what is transmitted&#xD;
+    and when it is transmitted between participants to enact a service exchange. The choreography defines what happens&#xD;
+    between the provider and consumer participants without defining their internal processes - their internal processes do&#xD;
+    have to be compatible with their service contracts.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-RTSyzCZrzZ427iuudtH1Ow" name="services_architectures,_gf_BRC0DEeKyWralSrmW_A" guid="-RTSyzCZrzZ427iuudtH1Ow">
+    <refinedDescription>&lt;p>&#xD;
+    A services architecture is a high level description of how participants work together for a purpose by providing and&#xD;
+    using services expressed as service contracts. The services architecture defines the requirements for the types of&#xD;
+    participants and service realizations that fulfill specific roles. A role defines the basic function (or set of&#xD;
+    functions) that an entity may perform in a particular context. In contrast, a participant specifies the type of a party&#xD;
+    that fills the role in the context of a specific services architecture. Both service contracts and participants can be&#xD;
+    reused when composing different services in other services architectures.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

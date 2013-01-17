@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_0-xWkR0aEd65QJax4GT0MQ" guid="_0-xWkR0aEd65QJax4GT0MQ">
+    <resourceDescriptors xmi:id="_0-xWkh0aEd65QJax4GT0MQ" id="-ZDYA3_iNb2NKChCsCdQwQQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_875gMFYqEeCmC7fuNTHhhQ" id="-SGMvHzLxbL82rS-Jo3_lvQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_0-UqoB0aEd65QJax4GT0MQ" name="develop_model_transformation" guid="_0-UqoB0aEd65QJax4GT0MQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_qFbwgFYqEeCmC7fuNTHhhQ" name="implement_model_transformation" guid="_qFbwgFYqEeCmC7fuNTHhhQ" presentationName="Implement model transformation" superActivities="_0-UqoR0aEd65QJax4GT0MQ" linkToPredecessor="_JeihYFYrEeCmC7fuNTHhhQ" mandatoryInput="_BVfWoVYrEeCmC7fuNTHhhQ _BVfWpFYrEeCmC7fuNTHhhQ" output="_BVf9sVYrEeCmC7fuNTHhhQ" performedPrimarilyBy="_qFcXkFYqEeCmC7fuNTHhhQ">
+      <presentation xmi:id="-SGMvHzLxbL82rS-Jo3_lvQ" href="uma://-ZDYA3_iNb2NKChCsCdQwQQ#-SGMvHzLxbL82rS-Jo3_lvQ"/>
+      <Task href="uma://_M0_rgMb_Ed-2_-I8Ok7trA#_oOpHcB0kEd65QJax4GT0MQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_qFcXkFYqEeCmC7fuNTHhhQ" name="transformation_engineer" guid="_qFcXkFYqEeCmC7fuNTHhhQ" presentationName="Transformation engineer" isPlanned="false" superActivities="_0-UqoR0aEd65QJax4GT0MQ" modifies="_BVf9sVYrEeCmC7fuNTHhhQ _BVfWoVYrEeCmC7fuNTHhhQ _BVfWpFYrEeCmC7fuNTHhhQ">
+      <methodElementProperty xmi:id="_qFcXkVYqEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_gY6kwBoYEd6Vpr8V6Jy-eA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_qWnAEFYqEeCmC7fuNTHhhQ" name="specify_mapping_rules" guid="_qWnAEFYqEeCmC7fuNTHhhQ" presentationName="Specify mapping rules" superActivities="_0-UqoR0aEd65QJax4GT0MQ" output="_BVfWoVYrEeCmC7fuNTHhhQ _BVfWpFYrEeCmC7fuNTHhhQ" performedPrimarilyBy="_qFcXkFYqEeCmC7fuNTHhhQ">
+      <Task href="uma://_M0_rgMb_Ed-2_-I8Ok7trA#_mP1RYB0kEd65QJax4GT0MQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BVfWoVYrEeCmC7fuNTHhhQ" name="model_to_model_mapping_rules" guid="_BVfWoVYrEeCmC7fuNTHhhQ" presentationName="Model to model mapping rules" isPlanned="false" superActivities="_0-UqoR0aEd65QJax4GT0MQ">
+      <methodElementProperty xmi:id="_BVfWolYrEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_M0_rgMb_Ed-2_-I8Ok7trA#_BGxaoFYqEeCmC7fuNTHhhQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BVfWpFYrEeCmC7fuNTHhhQ" name="model_to_text_mapping_rules" guid="_BVfWpFYrEeCmC7fuNTHhhQ" presentationName="Model to text mapping rules" isPlanned="false" superActivities="_0-UqoR0aEd65QJax4GT0MQ">
+      <methodElementProperty xmi:id="_BVfWpVYrEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_M0_rgMb_Ed-2_-I8Ok7trA#_i4HgwBz6Ed60rOWMCnTZyg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BVf9sVYrEeCmC7fuNTHhhQ" name="model_transformation" guid="_BVf9sVYrEeCmC7fuNTHhhQ" presentationName="Model transformation" isPlanned="false" superActivities="_0-UqoR0aEd65QJax4GT0MQ" deliverableParts="_BVfWoVYrEeCmC7fuNTHhhQ _BVfWpFYrEeCmC7fuNTHhhQ">
+      <methodElementProperty xmi:id="_BVf9slYrEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_M0_rgMb_Ed-2_-I8Ok7trA#_Yc-FAFYqEeCmC7fuNTHhhQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_JeihYFYrEeCmC7fuNTHhhQ" guid="_JeihYFYrEeCmC7fuNTHhhQ" pred="_qWnAEFYqEeCmC7fuNTHhhQ"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_0-UqoR0aEd65QJax4GT0MQ" name="develop_model_transformation" guid="_0-UqoR0aEd65QJax4GT0MQ" presentationName="Develop model transformation" breakdownElements="_qFbwgFYqEeCmC7fuNTHhhQ _qFcXkFYqEeCmC7fuNTHhhQ _qWnAEFYqEeCmC7fuNTHhhQ _BVfWoVYrEeCmC7fuNTHhhQ _BVfWpFYrEeCmC7fuNTHhhQ _BVf9sVYrEeCmC7fuNTHhhQ">
+      <methodElementProperty xmi:id="_kBFyYNeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-ZDYA3_iNb2NKChCsCdQwQQ" href="uma://-ZDYA3_iNb2NKChCsCdQwQQ#-ZDYA3_iNb2NKChCsCdQwQQ"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_vySpoFX-EeCmC7fuNTHhhQ"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_vySpoFX-EeCmC7fuNTHhhQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

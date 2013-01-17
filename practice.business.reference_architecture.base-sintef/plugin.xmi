@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_vH7IwZ5REeCuMexjO-JKFw" guid="_vH7IwZ5REeCuMexjO-JKFw">
+    <subManagers xmi:id="_VobbAaJAEeC2rPq2LOW9Ag" href="uma://_Vn1lIKJAEeC2rPq2LOW9Ag#_VobbAaJAEeC2rPq2LOW9Ag"/>
+    <resourceDescriptors xmi:id="_vIE5wJ5REeCuMexjO-JKFw" id="-krVk5SBzfMKvJO2PZypHKg" uri="guidances/examples/arktrans_reference_architecture.xmi"/>
+    <resourceDescriptors xmi:id="_vIE5wZ5REeCuMexjO-JKFw" id="-VwjdXdhkAJSvueC8tPWsZQ" uri="guidances/roadmaps/how_to_adopt_reference_architecture.xmi"/>
+    <resourceDescriptors xmi:id="_vIE5wp5REeCuMexjO-JKFw" id="-S-UwQd-g-_VUmYVjO8Z98A" uri="guidances/practices/reference_architecture.xmi"/>
+    <resourceDescriptors xmi:id="_vIE5w55REeCuMexjO-JKFw" id="-LSywwMmsh3YH-ZXrpBJV4A" uri="guidances/supportingmaterials/release_info_reference_architecture.xmi"/>
+    <resourceDescriptors xmi:id="_oGqBQJ5YEeCZu7rk2fFONg" id="-Muhp3ZzWrBln_2yRwAWLRw" uri="guidances/examples/mis_reference_architecture.xmi"/>
+    <resourceDescriptors xmi:id="_IkWmMJ5aEeCZu7rk2fFONg" id="-jZz6GgqUdMGoL7LzYg4zGA" uri="guidances/examples/e_freigth_reference_architecture.xmi"/>
+    <resourceDescriptors xmi:id="_Vn1lI6JAEeC2rPq2LOW9Ag" id="_Vn1lIKJAEeC2rPq2LOW9Ag" uri="capabilitypatterns/reference_architecture_modelling/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_8vpggJ5CEeCPm6RiYJY55g" name="practice.business.reference_architecture.base-sintef" guid="_8vpggJ5CEeCPm6RiYJY55g" briefDescription="This plugin contains the Reference architecture practice." authors="Åsmund Tjora (MARINTEK), Kay E. Fjørtoft (MARINTEK), Brian Elvesæter (SINTEF)" changeDate="2011-06-29T12:56:35.955+0200">
+    <methodElementProperty xmi:id="_vH7IwJ5REeCuMexjO-JKFw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8vpggZ5CEeCPm6RiYJY55g" name="Content" guid="_8vpggZ5CEeCPm6RiYJY55g">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8vpggp5CEeCPm6RiYJY55g" name="Categories" guid="_8vpggp5CEeCPm6RiYJY55g">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8vpgg55CEeCPm6RiYJY55g" name="Domains" guid="_8vpgg55CEeCPm6RiYJY55g">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_7JNUwKJAEeC2rPq2LOW9Ag" name="business_modelling_domain.assign" guid="_7JNUwKJAEeC2rPq2LOW9Ag" variabilityType="contributes" workProducts="_KuGsgJ5QEeCOkvcSVgl5mQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_iESMoNxcEd-LYKXkOhPACw#_SgtFkN0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8vpghJ5CEeCPm6RiYJY55g" name="Disciplines" guid="_8vpghJ5CEeCPm6RiYJY55g">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_3ztYkKJAEeC2rPq2LOW9Ag" name="business_modelling_discipline.assign" guid="_3ztYkKJAEeC2rPq2LOW9Ag" variabilityType="contributes" tasks="_ylDB0J5PEeCOkvcSVgl5mQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_iESMoNxcEd-LYKXkOhPACw#_-ftccN0BEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8vpghZ5CEeCPm6RiYJY55g" name="RoleSets" guid="_8vpghZ5CEeCPm6RiYJY55g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8vpghp5CEeCPm6RiYJY55g" name="WP Types" guid="_8vpghp5CEeCPm6RiYJY55g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8vpgh55CEeCPm6RiYJY55g" name="Tools" guid="_8vpgh55CEeCPm6RiYJY55g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8vpgiJ5CEeCPm6RiYJY55g" name="StandardCategories" guid="_8vpgiJ5CEeCPm6RiYJY55g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8vpgiZ5CEeCPm6RiYJY55g" name="CustomCategories" guid="_8vpgiZ5CEeCPm6RiYJY55g">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8vpgip5CEeCPm6RiYJY55g" name="Hidden" guid="_8vpgip5CEeCPm6RiYJY55g">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_8vpgi55CEeCPm6RiYJY55g" name="Custom Categories" guid="_8vpgi55CEeCPm6RiYJY55g"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8vpgjJ5CEeCPm6RiYJY55g" name="CoreContent" guid="_8vpgjJ5CEeCPm6RiYJY55g">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_sylT8J5PEeCOkvcSVgl5mQ" name="reference_architecture" guid="_sylT8J5PEeCOkvcSVgl5mQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_voGIgJ5PEeCOkvcSVgl5mQ" name="reference_architecture" guid="_voGIgJ5PEeCOkvcSVgl5mQ" presentationName="Reference architecture" examples="_XY7ZUJ5QEeCOkvcSVgl5mQ _PXayQJ5WEeCZu7rk2fFONg _T_4yMJ5WEeCZu7rk2fFONg"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ylDB0J5PEeCOkvcSVgl5mQ" name="define_reference_architecture" guid="_ylDB0J5PEeCOkvcSVgl5mQ" presentationName="Define reference architecture" examples="_XY7ZUJ5QEeCOkvcSVgl5mQ _PXayQJ5WEeCZu7rk2fFONg _T_4yMJ5WEeCZu7rk2fFONg" performedBy="_qpW3IKJAEeC2rPq2LOW9Ag" output="_voGIgJ5PEeCOkvcSVgl5mQ"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_KuGsgJ5QEeCOkvcSVgl5mQ" name="business_model.assign" guid="_KuGsgJ5QEeCOkvcSVgl5mQ" variabilityType="contributes" deliveredWorkProducts="_voGIgJ5PEeCOkvcSVgl5mQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_DETUsOGyEd-AyrTFSpVP8g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_XY7ZUJ5QEeCOkvcSVgl5mQ" name="arktrans_reference_architecture" guid="_XY7ZUJ5QEeCOkvcSVgl5mQ" presentationName="ARKTRANS reference architecture" briefDescription="ARKTRANS is a Norwegian multimodal ITS framework architecture. It has been used as a base for modelling in the transport domain for several transport and logistics projects both in Norway and the EU.">
+            <presentation xmi:id="-krVk5SBzfMKvJO2PZypHKg" href="uma://-krVk5SBzfMKvJO2PZypHKg#-krVk5SBzfMKvJO2PZypHKg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_f8k1YJ5QEeCOkvcSVgl5mQ" name="how_to_adopt_reference_architecture" guid="_f8k1YJ5QEeCOkvcSVgl5mQ" presentationName="How to adopt the Reference architecture practice" briefDescription="This roadmap describes how to adopt the Reference architecture practice.">
+            <presentation xmi:id="-VwjdXdhkAJSvueC8tPWsZQ" href="uma://-VwjdXdhkAJSvueC8tPWsZQ#-VwjdXdhkAJSvueC8tPWsZQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_f8k1YZ5QEeCOkvcSVgl5mQ" name="reference_architecture" guid="_f8k1YZ5QEeCOkvcSVgl5mQ" presentationName="Reference architecture" briefDescription="This practice describes how to define a reference architecture for your business domain." contentReferences="_XY7ZUJ5QEeCOkvcSVgl5mQ _PXayQJ5WEeCZu7rk2fFONg _T_4yMJ5WEeCZu7rk2fFONg _voGIgJ5PEeCOkvcSVgl5mQ _ylDB0J5PEeCOkvcSVgl5mQ _qpW3IKJAEeC2rPq2LOW9Ag _f8k1YJ5QEeCOkvcSVgl5mQ">
+            <presentation xmi:id="-S-UwQd-g-_VUmYVjO8Z98A" href="uma://-S-UwQd-g-_VUmYVjO8Z98A#-S-UwQd-g-_VUmYVjO8Z98A"/>
+            <activityReferences href="uma://_Vn1lIKJAEeC2rPq2LOW9Ag#_Vn1lIaJAEeC2rPq2LOW9Ag"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_PXayQJ5WEeCZu7rk2fFONg" name="e_freigth_reference_architecture" guid="_PXayQJ5WEeCZu7rk2fFONg" presentationName="E-Freight reference architecture" briefDescription="The e-Freight project aims at supporting, from a transport perspective, the three pillars of European Policy, namely Strengthening of the internal market and competitiveness, Improving regulation to create a more dynamic business environment, and Promoting sustainable development">
+            <presentation xmi:id="-jZz6GgqUdMGoL7LzYg4zGA" href="uma://-jZz6GgqUdMGoL7LzYg4zGA#-jZz6GgqUdMGoL7LzYg4zGA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_T_4yMJ5WEeCZu7rk2fFONg" name="mis_reference_architecture" guid="_T_4yMJ5WEeCZu7rk2fFONg" presentationName="MIS reference architecture">
+            <presentation xmi:id="-Muhp3ZzWrBln_2yRwAWLRw" href="uma://-Muhp3ZzWrBln_2yRwAWLRw#-Muhp3ZzWrBln_2yRwAWLRw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_qpW3IKJAEeC2rPq2LOW9Ag" name="business_analyst.assign" guid="_qpW3IKJAEeC2rPq2LOW9Ag" variabilityType="contributes" responsibleFor="_voGIgJ5PEeCOkvcSVgl5mQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_VHH-AOEPEd-QcdsL5iaWCQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1E-n8J5PEeCOkvcSVgl5mQ" name="release_info" guid="_1E-n8J5PEeCOkvcSVgl5mQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_20jvMJ5PEeCOkvcSVgl5mQ" name="release_info_reference_architecture" guid="_20jvMJ5PEeCOkvcSVgl5mQ" presentationName="Practice: Reference architecture" briefDescription="Reference architecture practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-LSywwMmsh3YH-ZXrpBJV4A" href="uma://-LSywwMmsh3YH-ZXrpBJV4A#-LSywwMmsh3YH-ZXrpBJV4A"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_knphcKJCEeC2rPq2LOW9Ag" name="tool_mentors" guid="_knphcKJCEeC2rPq2LOW9Ag"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_8vpgjZ5CEeCPm6RiYJY55g" name="CapabilityPatterns" guid="_8vpgjZ5CEeCPm6RiYJY55g">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_UT7GMKJAEeC2rPq2LOW9Ag" name="reference_architecture" guid="_UT7GMKJAEeC2rPq2LOW9Ag">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_Vn1lIKJAEeC2rPq2LOW9Ag" href="uma://_Vn1lIKJAEeC2rPq2LOW9Ag#_Vn1lIKJAEeC2rPq2LOW9Ag"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_8vpgjp5CEeCPm6RiYJY55g" name="DeliveryProcesses" guid="_8vpgjp5CEeCPm6RiYJY55g"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_8vpgj55CEeCPm6RiYJY55g" name="ProcessContributions" guid="_8vpgj55CEeCPm6RiYJY55g"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

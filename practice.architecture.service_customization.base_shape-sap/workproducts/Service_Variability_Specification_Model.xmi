@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-IEOcjD4N5nFiHDFjY6tXFg" name="Service_Variability_Specification_Model,_tf-4AYJrEd6Ljca46QJL5g" guid="-IEOcjD4N5nFiHDFjY6tXFg" authors="Michael Stollberg (SAP) " changeDate="2010-05-19T11:05:49.568+0200" changeDescription="2.0: revised wrt. final version of the SHAPE Service Variability technique|1.0: initial version " version="2.0">
+  <mainDescription>&lt;p>&#xD;
+    This work product is based on the SHAPE Service Variability Metamodel that&amp;nbsp;supports the explicit description of&#xD;
+    variable aspects of a service with respected to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the operation level (i.e. in- and output messages, grouped in operations)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the data level (input and output fields of messages)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        explication of required elements (i.e. mandatory and optational aspects)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        contraint definition among operations and data fields&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        specification of default and fixed values for data fields.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The 'ServiceVariabilitySpecification' describes the variable aspects of a service on the functional level, i.e.&#xD;
+    operations &amp;amp; data fields wrt. to mandatory vs. optional and constraints among these; it can also contain&#xD;
+    pre-configurations for certain user groups (by defining default values).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This work product is the output of the SHAPE Editor for enabling service customization, and serves as the input for the&#xD;
+    Consumer Editor&amp;nbsp;that&amp;nbsp;supports the creation of actual service variants.&#xD;
+&lt;/p></mainDescription>
+  <purpose>This is the result of the 'Variability Specification Editor' that explicitly describes the configurable aspects of a&#xD;
+service, serving as the basis for creating service variants&amp;nbsp;for end-users. &amp;nbsp;&amp;nbsp;</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

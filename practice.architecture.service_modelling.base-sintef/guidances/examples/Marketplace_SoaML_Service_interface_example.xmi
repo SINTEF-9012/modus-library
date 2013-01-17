@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-w_xjBjo2m74kZnQFmg1TNQ" name="Marketplace_SoaML_service_interface_example,_gCC4oCdxEd-WoP7PlhRWug" guid="-w_xjBjo2m74kZnQFmg1TNQ" changeDate="2010-11-24T12:55:52.513+0100">
+  <mainDescription>&lt;h3>&#xD;
+    Marketplace: Service interface&amp;nbsp;example&#xD;
+&lt;/h3>&#xD;
+&lt;h4>&#xD;
+    Structure&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./resources/Marketplace_SoaML_service_interface_example.png&quot; width=&quot;441&quot; height=&quot;272&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Figure 1 shows a generic or archetype ServiceInterface. Interface1 is the provided interface defining the capabilities,&#xD;
+    while Interface2 is the required interface defining what consumers are expected to do in response to service requests.&#xD;
+    The ServiceInterface has two parts, part1 and part2 which represent the endpoints of connections between consumer&#xD;
+    requests and provider services. Part1 has type Interface1 indicating it represents the provider or service side of the&#xD;
+    connection. Part2 has type Interface2 indicating it represents the consumer or Request side of the connection.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    Behaviour&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/Marketplace_SoaML_service_interface_behaviour_example.png&quot; width=&quot;501&quot; height=&quot;600&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The service choreography is a behvaiour owned by the service interface and defines the required and optional&#xD;
+    interactions between the provider and the consumer.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

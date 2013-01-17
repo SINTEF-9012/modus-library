@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_lVGpcU7zEd65M-yHtGQz8g" guid="_lVGpcU7zEd65M-yHtGQz8g">
+    <resourceDescriptors xmi:id="_lVGpck7zEd65M-yHtGQz8g" id="-bJhVbWbSxMqknM2p73VSVw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_lUEHoE7zEd65M-yHtGQz8g" name="METHONTOLOGY" guid="_lUEHoE7zEd65M-yHtGQz8g">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nhBucE7zEd65M-yHtGQz8g" name="Conceptualization of domain knowledge" guid="_nhBucE7zEd65M-yHtGQz8g" presentationName="Conceptualization" briefDescription="Describe, in a conceptual model, the ontology to be built, so that it meets the specification found in the previous step. The conceptual model of an ontology consists of concepts in the domain and relationships among those concepts. Relationships enhance stronger connections between groups of concepts. These groups of highly connected concepts usually correspond to different modules (subontologies) into which the domain can be decomposed." superActivities="_lUEHoU7zEd65M-yHtGQz8g" additionallyPerformedBy="_nhBueE7zEd65M-yHtGQz8g" output="_JBfwMfqlEd68-aqICre0mw" performedPrimarilyBy="_JBfwMPqlEd68-aqICre0mw">
+      <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_EVDOEE7hEd65M-yHtGQz8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nhBucU7zEd65M-yHtGQz8g" name="Documentation" guid="_nhBucU7zEd65M-yHtGQz8g" presentationName="Documentation" briefDescription="Report what was done, how it was done and why it was done. Documentation associated with the terms represented in the ontology is particularly&#xD;&#xA;important, not only to improve its clarity, but also to facilitate maintenance, use and reuse." superActivities="_lUEHoU7zEd65M-yHtGQz8g" isRepeatable="true" additionallyPerformedBy="_nhBueE7zEd65M-yHtGQz8g" optionalInput="_nhBue07zEd65M-yHtGQz8g" output="_JBfwMfqlEd68-aqICre0mw" performedPrimarilyBy="_JBfwMPqlEd68-aqICre0mw">
+      <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_SsTAcE7hEd65M-yHtGQz8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nhBuck7zEd65M-yHtGQz8g" name="Evaluation" guid="_nhBuck7zEd65M-yHtGQz8g" presentationName="Evaluation" briefDescription="Technically judge the quality of the ontology." superActivities="_lUEHoU7zEd65M-yHtGQz8g" isRepeatable="true" additionallyPerformedBy="_nhBueE7zEd65M-yHtGQz8g" mandatoryInput="_nhBue07zEd65M-yHtGQz8g" output="_JBfwMfqlEd68-aqICre0mw" performedPrimarilyBy="_JBfwMPqlEd68-aqICre0mw">
+      <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_UuY0AE7hEd65M-yHtGQz8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nhBuc07zEd65M-yHtGQz8g" name="Formalization of conceptual model" guid="_nhBuc07zEd65M-yHtGQz8g" presentationName="Formalization" briefDescription="Transform the conceptual description into a formal model, that is, the description of the domain found in the previous step is written in a more&#xD;&#xA;formal form, although not yet its final form. Concepts are usually defined through axioms that restrict the possible interpretations for the meaning of those concepts. Concepts are usually hierarchically organized through a structuring relation, such as is-a (class-superclass, instance-class) or part-of." superActivities="_lUEHoU7zEd65M-yHtGQz8g" additionallyPerformedBy="_nhBueE7zEd65M-yHtGQz8g" output="_nhBue07zEd65M-yHtGQz8g" performedPrimarilyBy="_JBfwMPqlEd68-aqICre0mw">
+      <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_JlOHME7hEd65M-yHtGQz8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nhBudE7zEd65M-yHtGQz8g" name="Implementation of formal model" guid="_nhBudE7zEd65M-yHtGQz8g" presentationName="Implementation" briefDescription="Implement the formalized ontology in a knowledge representation language. For that, one commits to a representation ontology, chooses a representation language and writes the formal model in the representation language using the representation ontology." superActivities="_lUEHoU7zEd65M-yHtGQz8g" additionallyPerformedBy="_nhBueE7zEd65M-yHtGQz8g" output="_nhBue07zEd65M-yHtGQz8g" performedPrimarilyBy="_JBfwMPqlEd68-aqICre0mw">
+      <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_Lc4MYE7hEd65M-yHtGQz8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nhBudU7zEd65M-yHtGQz8g" name="Knowledge acquisition" guid="_nhBudU7zEd65M-yHtGQz8g" presentationName="Knowledge acquisition" briefDescription="Acquire knowledge about the subject either by using elicitation techniques on domain experts or by referring to relevant bibliography. Several techniques can be used to acquire knowledge, such as brainstorming, interviews, questionnaires, text analysis, and inductive techniques." superActivities="_lUEHoU7zEd65M-yHtGQz8g" isRepeatable="true" additionallyPerformedBy="_nhBueE7zEd65M-yHtGQz8g" optionalInput="_JBfwMfqlEd68-aqICre0mw" performedPrimarilyBy="_JBfwMPqlEd68-aqICre0mw">
+      <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_RUh8QE7hEd65M-yHtGQz8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nhBudk7zEd65M-yHtGQz8g" name="Maintenance" guid="_nhBudk7zEd65M-yHtGQz8g" presentationName="Maintenance" briefDescription="Update and correct the implemented ontology." superActivities="_lUEHoU7zEd65M-yHtGQz8g" isRepeatable="true" additionallyPerformedBy="_nhBueE7zEd65M-yHtGQz8g" mandatoryInput="_nhBue07zEd65M-yHtGQz8g" output="_nhBue07zEd65M-yHtGQz8g" performedPrimarilyBy="_JBfwMPqlEd68-aqICre0mw">
+      <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_N0uNgE7hEd65M-yHtGQz8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nhBud07zEd65M-yHtGQz8g" name="Requirement specification" guid="_nhBud07zEd65M-yHtGQz8g" presentationName="Specification" briefDescription="Identify the purpose and scope of the ontology. Purpose answers the question “Why is the ontology being built?” and scope answers the question&#xD;&#xA;“What are its intended uses and end users?”" superActivities="_lUEHoU7zEd65M-yHtGQz8g" additionallyPerformedBy="_nhBueE7zEd65M-yHtGQz8g" optionalInput="_JBfwMfqlEd68-aqICre0mw" performedPrimarilyBy="_JBfwMPqlEd68-aqICre0mw">
+      <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_BIdWQE7hEd65M-yHtGQz8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_nhBueE7zEd65M-yHtGQz8g" name="Analyst" guid="_nhBueE7zEd65M-yHtGQz8g" presentationName="Analyst" briefDescription="This worker is mainly involved in the processes related to the requirements of the customers. " isPlanned="false" superActivities="_lUEHoU7zEd65M-yHtGQz8g">
+      <methodElementProperty xmi:id="_kB31gdeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_kwazABFxEd6C2PqX2OSy5A#_gIpisBntEd6VV7P4WguglA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_nhBue07zEd65M-yHtGQz8g" name="Ontology" guid="_nhBue07zEd65M-yHtGQz8g" presentationName="Ontology" briefDescription="This work product refers to ontologies that are defined in a formal ontology specification language. " isPlanned="false" superActivities="_lUEHoU7zEd65M-yHtGQz8g">
+      <methodElementProperty xmi:id="_kB31g9eMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_IHangNxHEd-LYKXkOhPACw#_QBOysFXDEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_Kff7QBfEEd61O54aE5cSOg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_JBfwMPqlEd68-aqICre0mw" name="ontology_engineer" guid="_JBfwMPqlEd68-aqICre0mw" presentationName="Ontology engineer" briefDescription="Responsible to model a given domain as an ontology." isPlanned="false" superActivities="_lUEHoU7zEd65M-yHtGQz8g" modifies="_JBfwMfqlEd68-aqICre0mw _nhBue07zEd65M-yHtGQz8g">
+      <methodElementProperty xmi:id="_kB31gNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_kB5DoNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+      <Role href="uma://_kwazABFxEd6C2PqX2OSy5A#_gwAwEDs0Ed-Ux61kS3X6hw"/>
+      <responsibleForExclude href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_Kff7QBfEEd61O54aE5cSOg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_JBfwMfqlEd68-aqICre0mw" name="Natural_language_description" guid="_JBfwMfqlEd68-aqICre0mw" presentationName="Natural language description" briefDescription="Natural language description" isPlanned="false" superActivities="_lUEHoU7zEd65M-yHtGQz8g">
+      <methodElementProperty xmi:id="_kB6RwNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_A-6yMPnnEd6ScswKCXSqBA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_lUEHoU7zEd65M-yHtGQz8g" name="METHONTOLOGY" guid="_lUEHoU7zEd65M-yHtGQz8g" presentationName="METHONTOLOGY" briefDescription="Methodological guidance for creating an ontology." breakdownElements="_nhBud07zEd65M-yHtGQz8g _nhBudU7zEd65M-yHtGQz8g _nhBucE7zEd65M-yHtGQz8g _nhBuc07zEd65M-yHtGQz8g _nhBudE7zEd65M-yHtGQz8g _nhBudk7zEd65M-yHtGQz8g _nhBucU7zEd65M-yHtGQz8g _nhBuck7zEd65M-yHtGQz8g _nhBueE7zEd65M-yHtGQz8g _nhBue07zEd65M-yHtGQz8g _JBfwMPqlEd68-aqICre0mw _JBfwMfqlEd68-aqICre0mw">
+      <methodElementProperty xmi:id="_kB8uANeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-bJhVbWbSxMqknM2p73VSVw" href="uma://-bJhVbWbSxMqknM2p73VSVw#-bJhVbWbSxMqknM2p73VSVw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

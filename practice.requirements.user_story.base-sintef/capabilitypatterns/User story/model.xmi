@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_aKL3kQ9wEeGUrJHR_a_BCQ" guid="_aKL3kQ9wEeGUrJHR_a_BCQ">
+    <resourceDescriptors xmi:id="_aKL3kg9wEeGUrJHR_a_BCQ" id="-H8SUhSaBEwBGQQBvgtX0SQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_eemTEg9wEeGUrJHR_a_BCQ" id="-cEJrbNO_wXiUA6hzmzcd3g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_eewEEA9wEeGUrJHR_a_BCQ" id="-ZSxh1pohg6qyRXOrzow08g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_WYjuIA9yEeGUrJHR_a_BCQ" id="-0M_rEvwui7ayLb6YWd1isg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_WYjuIQ9yEeGUrJHR_a_BCQ" id="-2iU95qgTd31pvjdvXrsk8Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_CLK6sRa4EeGN5IfqzXKCmQ" id="-6g_UpL6W0Ve7uphncKrBMQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_CLK6sha4EeGN5IfqzXKCmQ" id="-VPdeaGtAdEzPFl9IxxKF_w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_CLK6sxa4EeGN5IfqzXKCmQ" id="-Acb4wvtGyf732rYqfAsBYw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_CLK6tBa4EeGN5IfqzXKCmQ" id="-r7OSPGju-EUtJGHzjcEQNw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_CLK6tRa4EeGN5IfqzXKCmQ" id="-N5yHYe6HdR9C8b4nChxTwg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_CLK6tha4EeGN5IfqzXKCmQ" id="-Z4S3c2xrTii7fQ9n4asNuA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_GkC_cRa4EeGN5IfqzXKCmQ" id="-75IcnzVRGK47l_FOnHSR2w" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_aJ48oA9wEeGUrJHR_a_BCQ" name="User story" guid="_aJ48oA9wEeGUrJHR_a_BCQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_eGDQMQ9wEeGUrJHR_a_BCQ" name="estimate_user_stories" guid="_eGDQMQ9wEeGUrJHR_a_BCQ" presentationName="Estimate user stories." briefDescription="This task describes how to estimate user stories." superActivities="_aJ48oQ9wEeGUrJHR_a_BCQ" linkToPredecessor="_tgFVQQ9wEeGUrJHR_a_BCQ" mandatoryInput="_eGDQOA9wEeGUrJHR_a_BCQ _eGDQOg9wEeGUrJHR_a_BCQ" output="_eGDQOA9wEeGUrJHR_a_BCQ _eGDQOg9wEeGUrJHR_a_BCQ" performedPrimarilyBy="_eGDQNg9wEeGUrJHR_a_BCQ">
+      <presentation xmi:id="-6g_UpL6W0Ve7uphncKrBMQ" href="uma://-H8SUhSaBEwBGQQBvgtX0SQ#-6g_UpL6W0Ve7uphncKrBMQ"/>
+      <Task href="uma://_s6tUYA7NEeG7mKurZhyY1A#_jYx1vA7OEeG7mKurZhyY1A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_eGDQMg9wEeGUrJHR_a_BCQ" name="prioritize_user_stories" guid="_eGDQMg9wEeGUrJHR_a_BCQ" presentationName="Prioritize user stories" briefDescription="This task describes how prioritize user stories." superActivities="_aJ48oQ9wEeGUrJHR_a_BCQ" linkToPredecessor="_ujU68A9wEeGUrJHR_a_BCQ" mandatoryInput="_eGDQOg9wEeGUrJHR_a_BCQ _eGDQOA9wEeGUrJHR_a_BCQ" output="_eGDQOg9wEeGUrJHR_a_BCQ _eGDQOA9wEeGUrJHR_a_BCQ" performedPrimarilyBy="_eGDQNA9wEeGUrJHR_a_BCQ">
+      <presentation xmi:id="-cEJrbNO_wXiUA6hzmzcd3g" href="uma://-H8SUhSaBEwBGQQBvgtX0SQ#-cEJrbNO_wXiUA6hzmzcd3g"/>
+      <Task href="uma://_s6tUYA7NEeG7mKurZhyY1A#_jYx1tQ7OEeG7mKurZhyY1A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_eGDQMw9wEeGUrJHR_a_BCQ" name="write_user_stories" guid="_eGDQMw9wEeGUrJHR_a_BCQ" presentationName="Write user stories" briefDescription="This task describes how to write user stories." superActivities="_aJ48oQ9wEeGUrJHR_a_BCQ" output="_eGDQOg9wEeGUrJHR_a_BCQ _eGDQOA9wEeGUrJHR_a_BCQ _EokKMRa4EeGN5IfqzXKCmQ" performedPrimarilyBy="_eGDQNA9wEeGUrJHR_a_BCQ">
+      <presentation xmi:id="-VPdeaGtAdEzPFl9IxxKF_w" href="uma://-H8SUhSaBEwBGQQBvgtX0SQ#-VPdeaGtAdEzPFl9IxxKF_w"/>
+      <Task href="uma://_s6tUYA7NEeG7mKurZhyY1A#_jYx1uA7OEeG7mKurZhyY1A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_eGDQNA9wEeGUrJHR_a_BCQ" name="stakeholder" guid="_eGDQNA9wEeGUrJHR_a_BCQ" presentationName="Stakeholder" isPlanned="false" superActivities="_aJ48oQ9wEeGUrJHR_a_BCQ" modifies="_eGDQOg9wEeGUrJHR_a_BCQ _eGDQOA9wEeGUrJHR_a_BCQ _EokKMRa4EeGN5IfqzXKCmQ">
+      <methodElementProperty xmi:id="_eGDQNQ9wEeGUrJHR_a_BCQ" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_K7n0EOaFEd-2NJepU9I_bg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_eGDQNg9wEeGUrJHR_a_BCQ" name="system_developer" guid="_eGDQNg9wEeGUrJHR_a_BCQ" presentationName="System developer" briefDescription="This is the worker who builds the services." isPlanned="false" superActivities="_aJ48oQ9wEeGUrJHR_a_BCQ" modifies="_eGDQOA9wEeGUrJHR_a_BCQ _eGDQOg9wEeGUrJHR_a_BCQ">
+      <methodElementProperty xmi:id="_eGDQNw9wEeGUrJHR_a_BCQ" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-ZSxh1pohg6qyRXOrzow08g" href="uma://-H8SUhSaBEwBGQQBvgtX0SQ#-ZSxh1pohg6qyRXOrzow08g"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJxhntEd6VV7P4WguglA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_eGDQOA9wEeGUrJHR_a_BCQ" name="epics" guid="_eGDQOA9wEeGUrJHR_a_BCQ" presentationName="Epics" briefDescription="An Epic is a group of related User Stories." isPlanned="false" superActivities="_aJ48oQ9wEeGUrJHR_a_BCQ">
+      <methodElementProperty xmi:id="_eGDQOQ9wEeGUrJHR_a_BCQ" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-0M_rEvwui7ayLb6YWd1isg" href="uma://-H8SUhSaBEwBGQQBvgtX0SQ#-0M_rEvwui7ayLb6YWd1isg"/>
+      <WorkProduct href="uma://_s6tUYA7NEeG7mKurZhyY1A#_jYx1tg7OEeG7mKurZhyY1A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_eGDQOg9wEeGUrJHR_a_BCQ" name="user_stories" guid="_eGDQOg9wEeGUrJHR_a_BCQ" presentationName="User stories" briefDescription="A User Story is an Independent, Negotiable, Valuable, Estimatable, Small, Testable requirement (INVEST) " isPlanned="false" superActivities="_aJ48oQ9wEeGUrJHR_a_BCQ">
+      <methodElementProperty xmi:id="_eGDQOw9wEeGUrJHR_a_BCQ" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-2iU95qgTd31pvjdvXrsk8Q" href="uma://-H8SUhSaBEwBGQQBvgtX0SQ#-2iU95qgTd31pvjdvXrsk8Q"/>
+      <WorkProduct href="uma://_s6tUYA7NEeG7mKurZhyY1A#_jYx1tA7OEeG7mKurZhyY1A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_svlscQ9wEeGUrJHR_a_BCQ" guid="_svlscQ9wEeGUrJHR_a_BCQ" pred="_eGDQMw9wEeGUrJHR_a_BCQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_tgFVQQ9wEeGUrJHR_a_BCQ" guid="_tgFVQQ9wEeGUrJHR_a_BCQ" pred="_eGDQMw9wEeGUrJHR_a_BCQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_ujU68A9wEeGUrJHR_a_BCQ" guid="_ujU68A9wEeGUrJHR_a_BCQ" pred="_eGDQMw9wEeGUrJHR_a_BCQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_EokKMRa4EeGN5IfqzXKCmQ" name="themes" guid="_EokKMRa4EeGN5IfqzXKCmQ" presentationName="Themes" briefDescription="A Theme is a top-level objective that may span projects and products. " isPlanned="false" superActivities="_aJ48oQ9wEeGUrJHR_a_BCQ">
+      <methodElementProperty xmi:id="_EokKMha4EeGN5IfqzXKCmQ" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-75IcnzVRGK47l_FOnHSR2w" href="uma://-H8SUhSaBEwBGQQBvgtX0SQ#-75IcnzVRGK47l_FOnHSR2w"/>
+      <WorkProduct href="uma://_s6tUYA7NEeG7mKurZhyY1A#_9vbjoA9uEeGUrJHR_a_BCQ"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_aJ48oQ9wEeGUrJHR_a_BCQ" name="User story" guid="_aJ48oQ9wEeGUrJHR_a_BCQ" presentationName="User story" breakdownElements="_eGDQMQ9wEeGUrJHR_a_BCQ _eGDQMg9wEeGUrJHR_a_BCQ _eGDQMw9wEeGUrJHR_a_BCQ _eGDQNA9wEeGUrJHR_a_BCQ _eGDQNg9wEeGUrJHR_a_BCQ _eGDQOA9wEeGUrJHR_a_BCQ _eGDQOg9wEeGUrJHR_a_BCQ _EokKMRa4EeGN5IfqzXKCmQ">
+      <presentation xmi:id="-H8SUhSaBEwBGQQBvgtX0SQ" href="uma://-H8SUhSaBEwBGQQBvgtX0SQ#-H8SUhSaBEwBGQQBvgtX0SQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_GTiLQLzbEd-qYdL40d8iFQ" guid="_GTiLQLzbEd-qYdL40d8iFQ">
+    <resourceDescriptors xmi:id="_GTiLQrzbEd-qYdL40d8iFQ" id="-PZ0CqCcJHB-nbxs8fbP7bg" uri="guidances/supportingmaterials/copyright.oup.xmi"/>
+    <resourceDescriptors xmi:id="_GTr8QLzbEd-qYdL40d8iFQ" id="-RNyaB6jxqoopm9fJU8k9vg" uri="guidances/supportingmaterials/epf_copyright.xmi"/>
+    <resourceDescriptors xmi:id="_GTr8QbzbEd-qYdL40d8iFQ" id="_u_Zg4PsDEdmyhNQr5STrZQ" uri="guidances/supportingmaterials/copyright.xmi"/>
+    <resourceDescriptors xmi:id="_GTr8QrzbEd-qYdL40d8iFQ" id="-uAmJkciaDVaJ5g3byOMdtg" uri="guidances/supportingmaterials/intellectual_property_notices.xmi"/>
+    <resourceDescriptors xmi:id="_GTr8Q7zbEd-qYdL40d8iFQ" id="-z3T-2PNgPoac2T9BEVXDNQ" uri="guidances/supportingmaterials/release_info.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_iVydgENdEdy245g62lfWcA" name="core.default.release_copyright.base" guid="_iVydgENdEdy245g62lfWcA" presentationName="Default Release Copyright" briefDescription="This plug-in defines the default copyright for open source plug-ins." changeDate="2008-03-03T17:14:03.000+0100" copyrightStatement="_uuunoPsDEdmyhNQr5STrZQ">
+    <methodElementProperty xmi:id="_kDHysNeMEd-Mq_S1iaxctg" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iVydgUNdEdy245g62lfWcA" name="Content" guid="_iVydgUNdEdy245g62lfWcA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iVydgkNdEdy245g62lfWcA" name="Categories" guid="_iVydgkNdEdy245g62lfWcA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iVydg0NdEdy245g62lfWcA" name="Domains" guid="_iVydg0NdEdy245g62lfWcA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iVydhENdEdy245g62lfWcA" name="Disciplines" guid="_iVydhENdEdy245g62lfWcA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iVydhUNdEdy245g62lfWcA" name="RoleSets" guid="_iVydhUNdEdy245g62lfWcA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iVydhkNdEdy245g62lfWcA" name="WP Types" guid="_iVydhkNdEdy245g62lfWcA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iVydh0NdEdy245g62lfWcA" name="Tools" guid="_iVydh0NdEdy245g62lfWcA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iVydiENdEdy245g62lfWcA" name="StandardCategories" guid="_iVydiENdEdy245g62lfWcA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iVydiUNdEdy245g62lfWcA" name="CustomCategories" guid="_iVydiUNdEdy245g62lfWcA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iVydikNdEdy245g62lfWcA" name="Hidden" guid="_iVydikNdEdy245g62lfWcA"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iVydjENdEdy245g62lfWcA" name="CoreContent" guid="_iVydjENdEdy245g62lfWcA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_buz3kENfEdy245g62lfWcA" name="open_source_copyright" guid="_buz3kENfEdy245g62lfWcA" presentationName="Open Source Copyright">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_UaGfECcTEduSX6N2jUafGA" name="epf_copyright" guid="_UaGfECcTEduSX6N2jUafGA" presentationName="EPF Copyright" briefDescription="EPF Copyright information" shapeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif" nodeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif">
+            <presentation xmi:id="-RNyaB6jxqoopm9fJU8k9vg" href="uma://-RNyaB6jxqoopm9fJU8k9vg#-RNyaB6jxqoopm9fJU8k9vg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_uuunoPsDEdmyhNQr5STrZQ" name="copyright" guid="_uuunoPsDEdmyhNQr5STrZQ" presentationName="Copyright" shapeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif" nodeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif">
+            <presentation xmi:id="_u_Zg4PsDEdmyhNQr5STrZQ" href="uma://_u_Zg4PsDEdmyhNQr5STrZQ#_u_Zg4PsDEdmyhNQr5STrZQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_h88OsO7-EdySOuhNm0Os1w" name="intellectual_property_notices" guid="_h88OsO7-EdySOuhNm0Os1w" presentationName="Eclipse Intellectual Property Notices">
+            <presentation xmi:id="-uAmJkciaDVaJ5g3byOMdtg" href="uma://-uAmJkciaDVaJ5g3byOMdtg#-uAmJkciaDVaJ5g3byOMdtg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QFSssGmJEd2wW88Ut0zE5w" name="release_info" guid="_QFSssGmJEd2wW88Ut0zE5w" presentationName="Release Information">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_YOPJwGmJEd2wW88Ut0zE5w" name="release_info" guid="_YOPJwGmJEd2wW88Ut0zE5w" presentationName="Overall Practices Library" briefDescription="This page describes general release information for the practices library as a whole. Individual plug-ins and practices may have their own release information." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <methodElementProperty xmi:id="_VV0TELSXEeGOSY51NyhYZA" name="me_edited" value="true"/>
+            <presentation xmi:id="-z3T-2PNgPoac2T9BEVXDNQ" href="uma://-z3T-2PNgPoac2T9BEVXDNQ#-z3T-2PNgPoac2T9BEVXDNQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_iVydjUNdEdy245g62lfWcA" name="CapabilityPatterns" guid="_iVydjUNdEdy245g62lfWcA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_iVydjkNdEdy245g62lfWcA" name="DeliveryProcesses" guid="_iVydjkNdEdy245g62lfWcA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_iVydj0NdEdy245g62lfWcA" name="ProcessContributions" guid="_iVydj0NdEdy245g62lfWcA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

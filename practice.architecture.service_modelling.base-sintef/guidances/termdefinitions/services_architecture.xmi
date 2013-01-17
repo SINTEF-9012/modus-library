@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-mlbd6soUBrLxKhDnXLGcQg" name="new_term_definition,_2GKIgJzYEeCjAYLMIp9ZDA" guid="-mlbd6soUBrLxKhDnXLGcQg">
+  <mainDescription>&lt;p>&#xD;
+    The high-level view of a Service Oriented Architecture that defines how a set of participants works together, forming a&#xD;
+    community, for some purpose by providing and using services.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A ServicesArchitecture (a SOA) describes how participants work together for a purpose by providing and using services&#xD;
+    expressed as service contracts. By expressing the use of services, the ServicesArchitecture implies some degree of&#xD;
+    knowledge of the dependencies between the participants in some context. Each use of a service in a ServicesArchitecture&#xD;
+    is represented by the use of a ServiceContract bound to the roles of participants in that architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note that use of a ServicesArchitecture is optional but is recommended to show a high level view of how a set of&#xD;
+    Participants work together for some purpose. Where as simple services may not have any dependencies or links to a&#xD;
+    business process, enterprise services can often only be understood in context. The services architecture provides that&#xD;
+    context—and may also contain a behavior—which is the business process. The participant’s roles in a services&#xD;
+    architecture correspond to the swim lanes or pools in a business process.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A ServicesArchitecture may be specified externally – in a “B2B” type collaboration where there is no controlling entity&#xD;
+    or as the ServicesArchitecture of a participant - under the control of a specific entity and/or business process. A&#xD;
+    “B2B” services architecture uses the «ServicesArchitecture» stereotype on a collaboration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Participant may play a role in any number of services architecture thereby representing the role a participant plays&#xD;
+    and the requirements that each role places on the participant.&lt;br />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

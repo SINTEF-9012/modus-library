@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-b6Ui8EwpBjkvBWa9gIp9Hw" name="tesdf,_L7YRgRz1Ed60rOWMCnTZyg" guid="-b6Ui8EwpBjkvBWa9gIp9Hw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pG0OhFR7rqbwD9UeGOyhvg" name="dsl_abstract_syntax_metamodel,_52tchN27Ed-ms9NsV3fnQQ" guid="-pG0OhFR7rqbwD9UeGOyhvg">
+    <refinedDescription>&lt;p>&#xD;
+    The language shall have an abstract syntax model defined in a formal modeling language, e.g. EMF metamodel.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-A_jmjS94jfwL070rmlPqFw" name="dsl_concrete_syntax,_52tch927Ed-ms9NsV3fnQQ" guid="-A_jmjS94jfwL070rmlPqFw">
+    <refinedDescription>&lt;p>&#xD;
+    The Language shall have a graphical concrete syntax that formally maps to the abstract syntax. The concrete syntax can&#xD;
+    be developed&amp;nbsp;a domain-specific language. This means the following must be specified:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Graphical&amp;nbsp;syntax.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Textual syntax (optional).&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Alternatively, the concrete syntax can be developed as a UML profile: This means that the following must be specified:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Specification of stereotypes (mapping of metamodel elements to UML metaclasses).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specification of&amp;nbsp;symbols (small and large&amp;nbsp;icons) for the stereotypes.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-r4-Ih31XvImvbjwH7Wg_Vg" name="define_language_domain,_G6SUYFYJEeCmC7fuNTHhhQ" guid="-r4-Ih31XvImvbjwH7Wg_Vg">
+    <refinedDescription>This task describes how to define the domain of the modelling language.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wU4ChdZCQxOlvDbloHV3uw" name="dsl_domain_model,_sGah4VYLEeCmC7fuNTHhhQ" guid="-wU4ChdZCQxOlvDbloHV3uw">
+    <refinedDescription>Specification of the domain model or conceptual model of the domain that the modelling language should cover.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9YSem14A8Tw_oFHWj-k44Q" name="dsl_action_semantics,_sGmIEVYLEeCmC7fuNTHhhQ" guid="-9YSem14A8Tw_oFHWj-k44Q">
+    <refinedDescription>The language shall have formal static and operational semantics defined in terms of the abstract syntax.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6qyNbbZWNQeuCVlXdEav7g" name="language_quality_report,_sGtc0VYLEeCmC7fuNTHhhQ" guid="-6qyNbbZWNQeuCVlXdEav7g">
+    <refinedDescription>Quality report of the specified modelling language.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-itlmVImS-p0fPeDGBXAw6A" name="specify_behavioural_semantics,_FnONMFYNEeCmC7fuNTHhhQ" guid="-itlmVImS-p0fPeDGBXAw6A">
+    <refinedDescription>&lt;p>&#xD;
+    This task describes how to specify the semantics of the modelling language.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--q_h3w6ZRmjKPqxX1Xkabw" name="specify_concrete_syntax,_YwBqEFYNEeCmC7fuNTHhhQ" guid="--q_h3w6ZRmjKPqxX1Xkabw">
+    <refinedDescription>This task describes how to specify the concrete syntax of the modelling language.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-rcZO0Y2i8Ij1mt-yk0AYAQ" name="specify_abstract_syntax,_jV__MJHiEeC1cpVMwFmQkQ" guid="-rcZO0Y2i8Ij1mt-yk0AYAQ">
+    <refinedDescription>This task describes how to specify the abstract syntax of the modelling language.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AGY4E141-gXH3HBXVrOTPg" name="check_language_quality,_vkFFoJHiEeC1cpVMwFmQkQ" guid="-AGY4E141-gXH3HBXVrOTPg">
+    <refinedDescription>This task describes how to check the quality of the modelling language.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

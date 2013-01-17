@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_3niu0Yi2Ed609piMjO-xvw" guid="_3niu0Yi2Ed609piMjO-xvw">
+    <resourceDescriptors xmi:id="_3niu0oi2Ed609piMjO-xvw" id="-G-QL7Gldjds5HrW6s575Kg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_3mDhEIi2Ed609piMjO-xvw" name="Organisation_modelling" guid="_3mDhEIi2Ed609piMjO-xvw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_KTCIUItOEd6ICpAXmDeg7g" name="Create a new Orga View" guid="_KTCIUItOEd6ICpAXmDeg7g">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_KTCvYItOEd6ICpAXmDeg7g" name="Create a new Orga View" guid="_KTCvYItOEd6ICpAXmDeg7g" presentationName="Create a new Orga View" isOptional="true" superActivities="_3mDhEYi2Ed609piMjO-xvw" breakdownElements="_KTCvYYtOEd6ICpAXmDeg7g _KTCvYotOEd6ICpAXmDeg7g _KTCvY4tOEd6ICpAXmDeg7g _KTDWcItOEd6ICpAXmDeg7g _KTDWcYtOEd6ICpAXmDeg7g _KTDWcotOEd6ICpAXmDeg7g _KTD9gItOEd6ICpAXmDeg7g _KTD9gYtOEd6ICpAXmDeg7g _KTD9gotOEd6ICpAXmDeg7g _KTEkkItOEd6ICpAXmDeg7g _KWoO4ItOEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_KTCvYYtOEd6ICpAXmDeg7g" name="Analyst" guid="_KTCvYYtOEd6ICpAXmDeg7g" presentationName="Analyst" briefDescription="This worker is mainly involved in the processes related to the requirements of the customers. " isPlanned="false" superActivities="_KTCvYItOEd6ICpAXmDeg7g" modifies="_KWoO4ItOEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j4778NeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_VXQJUFd9Ed637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_KTCvYotOEd6ICpAXmDeg7g" name="Business_Process_Modeller" guid="_KTCvYotOEd6ICpAXmDeg7g" presentationName="Business Process Modeller" briefDescription="This worker is involved in the design of the composition workflow and all the issues around it like security, transactions or exception handling." isPlanned="false" superActivities="_KTCvYItOEd6ICpAXmDeg7g" modifies="_KWoO4ItOEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j4778deMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_VXQwYVd9Ed637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_KTCvY4tOEd6ICpAXmDeg7g" name="Business Analyst" guid="_KTCvY4tOEd6ICpAXmDeg7g" presentationName="Business Analyst" briefDescription="Responsible for analyzing the business needs of clients to help identify business problems and propose solutions." isPlanned="false" superActivities="_KTCvYItOEd6ICpAXmDeg7g" modifies="_KWoO4ItOEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j4778teMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_VXQwYFd9Ed637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_KTDWcItOEd6ICpAXmDeg7g" name="Designer" guid="_KTDWcItOEd6ICpAXmDeg7g" presentationName="Designer" isPlanned="false" superActivities="_KTCvYItOEd6ICpAXmDeg7g" modifies="_KWoO4ItOEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j47789eMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_VXQwYld9Ed637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_KTDWcYtOEd6ICpAXmDeg7g" name="User" guid="_KTDWcYtOEd6ICpAXmDeg7g" presentationName="User" isPlanned="false" superActivities="_KTCvYItOEd6ICpAXmDeg7g" modifies="_KWoO4ItOEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j4779NeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_VXRXcFd9Ed637brWif56XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_KTDWcotOEd6ICpAXmDeg7g" name="Create Assignment" guid="_KTDWcotOEd6ICpAXmDeg7g" presentationName="Create an assignment" briefDescription="Creation of Assignments&#xD;&#xA;&#xD;&#xA;The assignment element is the connector element of the organisation view. &#xD;&#xA;&#xD;&#xA;- Assignment &#xD;&#xA;&#xD;&#xA;- Hierarchy &#xD;&#xA;" superActivities="_KTCvYItOEd6ICpAXmDeg7g" output="_KWoO4ItOEd6ICpAXmDeg7g" performedPrimarilyBy="_KTCvYYtOEd6ICpAXmDeg7g _KTCvYotOEd6ICpAXmDeg7g _KTCvY4tOEd6ICpAXmDeg7g _KTDWcItOEd6ICpAXmDeg7g _KTDWcYtOEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j48jANeMEd-Mq_S1iaxctg" name="descriptor_customization" value="2"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_qSWFQJ1wEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_VKdcsFg8Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-UfuARehxg_ZiO9t_ZE2J6g#_Zv1sYFg8Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YWX0cPpMHxrMfi7aB_8WFA#_Z-t9QFg5Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-uFLSNWCeCVayf-jeA3IWmQ#_cgv_sFg6Ed6c69W71WXVIg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_KTD9gItOEd6ICpAXmDeg7g" name="Create Organisation Element" guid="_KTD9gItOEd6ICpAXmDeg7g" presentationName="Create an organisation element" briefDescription="Creation of Organisation Elements&#xD;&#xA;&#xD;&#xA;An organisation element is an element in the organisation view. &#xD;&#xA;&#xD;&#xA;You can choose between several organisation elements: &#xD;&#xA;&#xD;&#xA;- Person &#xD;&#xA;&#xD;&#xA;- OrgUnit &#xD;&#xA;&#xD;&#xA;- OrgRole &#xD;&#xA;&#xD;&#xA;- Assignment &#xD;&#xA;" superActivities="_KTCvYItOEd6ICpAXmDeg7g" linkToPredecessor="_KTEkkYtOEd6ICpAXmDeg7g" output="_KWoO4ItOEd6ICpAXmDeg7g" performedPrimarilyBy="_KTCvYYtOEd6ICpAXmDeg7g _KTCvYotOEd6ICpAXmDeg7g _KTCvY4tOEd6ICpAXmDeg7g _KTDWcItOEd6ICpAXmDeg7g _KTDWcYtOEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j4779teMEd-Mq_S1iaxctg" name="descriptor_customization" value="2"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_qSWFQJ1wEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_NWIsIFg5Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YWX0cPpMHxrMfi7aB_8WFA#_Z-t9QFg5Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-uFLSNWCeCVayf-jeA3IWmQ#_cgv_sFg6Ed6c69W71WXVIg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_KTD9gYtOEd6ICpAXmDeg7g" name="Create OrgRole" guid="_KTD9gYtOEd6ICpAXmDeg7g" presentationName="Create an OrgRole" briefDescription="Creation of OrgRoles&#xD;&#xA;&#xD;&#xA;Role is an element, which manages the connection between organisation and process view. &#xD;&#xA;" superActivities="_KTCvYItOEd6ICpAXmDeg7g" output="_KWoO4ItOEd6ICpAXmDeg7g" performedPrimarilyBy="_KTCvYYtOEd6ICpAXmDeg7g _KTCvYotOEd6ICpAXmDeg7g _KTCvY4tOEd6ICpAXmDeg7g _KTDWcItOEd6ICpAXmDeg7g _KTDWcYtOEd6ICpAXmDeg7g">
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_qSWFQJ1wEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_6FkdkFg8Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YYUbAdkZoWk80fhI6_0bag#_6Fkdklg8Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YYUbAdkZoWk80fhI6_0bag#_6FkdkVg8Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YWX0cPpMHxrMfi7aB_8WFA#_Z-t9QFg5Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-uFLSNWCeCVayf-jeA3IWmQ#_cgv_sFg6Ed6c69W71WXVIg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_KTD9gotOEd6ICpAXmDeg7g" name="Create OrgUnit" guid="_KTD9gotOEd6ICpAXmDeg7g" presentationName="Create an OrgUnit" briefDescription="Creation of OrgUnits&#xD;&#xA;&#xD;&#xA;OrgUnit is a divisional company structure." superActivities="_KTCvYItOEd6ICpAXmDeg7g" output="_KWoO4ItOEd6ICpAXmDeg7g" performedPrimarilyBy="_KTCvYYtOEd6ICpAXmDeg7g _KTCvYotOEd6ICpAXmDeg7g _KTCvY4tOEd6ICpAXmDeg7g _KTDWcItOEd6ICpAXmDeg7g _KTDWcYtOEd6ICpAXmDeg7g">
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_qSWFQJ1wEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_6Fkdk1g8Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-jZbjdkqDAukFqR2HEa0WuQ#_6FkdlFg8Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-jZbjdkqDAukFqR2HEa0WuQ#_6FkdlVg8Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YWX0cPpMHxrMfi7aB_8WFA#_Z-t9QFg5Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-uFLSNWCeCVayf-jeA3IWmQ#_cgv_sFg6Ed6c69W71WXVIg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_KTEkkItOEd6ICpAXmDeg7g" name="Create Person" guid="_KTEkkItOEd6ICpAXmDeg7g" presentationName="Create a person" briefDescription="Creation of Persons&#xD;&#xA;&#xD;&#xA;The person represents a person which is responsible for the particular area." superActivities="_KTCvYItOEd6ICpAXmDeg7g" output="_KWoO4ItOEd6ICpAXmDeg7g" performedPrimarilyBy="_KTCvYYtOEd6ICpAXmDeg7g _KTCvYotOEd6ICpAXmDeg7g _KTCvY4tOEd6ICpAXmDeg7g _KTDWcItOEd6ICpAXmDeg7g _KTDWcYtOEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j47799eMEd-Mq_S1iaxctg" name="descriptor_customization" value="2"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_qSWFQJ1wEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_p0j_IFg6Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-VV_6bSvli9JWf8fdv-cO8Q#_JPO2QFg7Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-VV_6bSvli9JWf8fdv-cO8Q#_LcRVkFg7Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-YWX0cPpMHxrMfi7aB_8WFA#_Z-t9QFg5Ed6c69W71WXVIg"/>
+        <selectedSteps href="uma://-uFLSNWCeCVayf-jeA3IWmQ#_cgv_sFg6Ed6c69W71WXVIg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_KTEkkYtOEd6ICpAXmDeg7g" guid="_KTEkkYtOEd6ICpAXmDeg7g" pred="_KTDWcotOEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_KWoO4ItOEd6ICpAXmDeg7g" name="Organization_Model" guid="_KWoO4ItOEd6ICpAXmDeg7g" presentationName="Organization Model" briefDescription="The Organisation  model describes the organisational structure that is related to an underlying activity." isPlanned="false" superActivities="_KTCvYItOEd6ICpAXmDeg7g">
+        <methodElementProperty xmi:id="_j4779deMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_CSXUYFAwEd6NGfjlGBNnwA"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_kHHvsFAtEd6NGfjlGBNnwA"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_3mDhEYi2Ed609piMjO-xvw" name="Organisation_modelling" guid="_3mDhEYi2Ed609piMjO-xvw" presentationName="Create a Organisational view" briefDescription="Creation of Organisation models" breakdownElements="_KTCvYItOEd6ICpAXmDeg7g">
+      <methodElementProperty xmi:id="_j49KENeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-G-QL7Gldjds5HrW6s575Kg" href="uma://-G-QL7Gldjds5HrW6s575Kg#-G-QL7Gldjds5HrW6s575Kg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_grTXoYgpEd6SsPDVoNSEFQ" guid="_grTXoYgpEd6SsPDVoNSEFQ">
+    <resourceDescriptors xmi:id="_grTXoogpEd6SsPDVoNSEFQ" id="-x4RX-LMIycxUATrdHuM0NQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_goxoEIgpEd6SsPDVoNSEFQ" name="PSM-level-agent-modeling-JACK" guid="_goxoEIgpEd6SsPDVoNSEFQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_BqsrQKOREd60U68VVOisWA" name="PSM-level Agent Modeling JACK" guid="_BqsrQKOREd60U68VVOisWA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_BqsrQaOREd60U68VVOisWA" name="PSM-level Agent Modeling JACK" guid="_BqsrQaOREd60U68VVOisWA" presentationName="PSM-level Agent Modeling JACK" superActivities="_goxoEYgpEd6SsPDVoNSEFQ" breakdownElements="_JEj0wKOREd60U68VVOisWA _KEfAsKOREd60U68VVOisWA _LAiZQKOREd60U68VVOisWA _L9LnsKOREd60U68VVOisWA _M7eb8KOREd60U68VVOisWA _N3FIkKOREd60U68VVOisWA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_JEj0wKOREd60U68VVOisWA" name="apply_transformation PIM4Agents2JACK" guid="_JEj0wKOREd60U68VVOisWA" presentationName="apply transformation PIM4Agents2JACK" briefDescription="Apply transformation on created PIM4Agents model" superActivities="_BqsrQaOREd60U68VVOisWA" mandatoryInput="_rGrKUogpEd6SsPDVoNSEFQ" output="_rGrKU4gpEd6SsPDVoNSEFQ">
+        <toolmentor href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_Yb__QIWJEd6Lb6GZuo4wTA"/>
+        <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_hVvwEHwmEd6zE6DaMH4mBQ"/>
+        <selectedSteps href="uma://-rGBEJ3t4efn4CDWsnZAkOQ#_7w4LEHwmEd6zE6DaMH4mBQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_KEfAsKOREd60U68VVOisWA" name="create_JACK_event" guid="_KEfAsKOREd60U68VVOisWA" presentationName="create JACK event" briefDescription="Create events in JACK" superActivities="_BqsrQaOREd60U68VVOisWA" optionalInput="_rGrKUogpEd6SsPDVoNSEFQ _vBv4wogpEd6SsPDVoNSEFQ" output="_rGrKU4gpEd6SsPDVoNSEFQ" performedPrimarilyBy="_vBv4wYgpEd6SsPDVoNSEFQ">
+        <examples href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_mF-_0IWFEd6Lb6GZuo4wTA"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_Y7zn8IcOEd6w3Jx1uPAP3A"/>
+        <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_R3sjIHwlEd6zE6DaMH4mBQ"/>
+        <selectedSteps href="uma://-YnxAI2MmE9uxTUXE-1IXWQ#_UJfUsHwnEd6zE6DaMH4mBQ"/>
+        <selectedSteps href="uma://-YnxAI2MmE9uxTUXE-1IXWQ#_hICmgIWCEd6Lb6GZuo4wTA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_LAiZQKOREd60U68VVOisWA" name="create_JACK_role" guid="_LAiZQKOREd60U68VVOisWA" presentationName="create JACK role" briefDescription="Create roles in JACK" superActivities="_BqsrQaOREd60U68VVOisWA" optionalInput="_wlbSAYgpEd6SsPDVoNSEFQ _rGrKUogpEd6SsPDVoNSEFQ" output="_rGrKU4gpEd6SsPDVoNSEFQ" performedPrimarilyBy="_vBv4wYgpEd6SsPDVoNSEFQ">
+        <examples href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_mF-_0IWFEd6Lb6GZuo4wTA"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_Y7zn8IcOEd6w3Jx1uPAP3A"/>
+        <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_Xjnf8HwsEd6zE6DaMH4mBQ"/>
+        <selectedSteps href="uma://-jQ-sItrs4bQeWYFf5s4Ccg#_nq66sHwsEd6zE6DaMH4mBQ"/>
+        <selectedSteps href="uma://-jQ-sItrs4bQeWYFf5s4Ccg#_qhq9cIWEEd6Lb6GZuo4wTA"/>
+        <selectedSteps href="uma://-jQ-sItrs4bQeWYFf5s4Ccg#_sKt-4IWEEd6Lb6GZuo4wTA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_L9LnsKOREd60U68VVOisWA" name="create_JACK_external_classes" guid="_L9LnsKOREd60U68VVOisWA" presentationName="Create JACK external classes" briefDescription="Create External Classes" superActivities="_BqsrQaOREd60U68VVOisWA" optionalInput="_rGrKUogpEd6SsPDVoNSEFQ _vBv4wogpEd6SsPDVoNSEFQ" output="_rGrKU4gpEd6SsPDVoNSEFQ" performedPrimarilyBy="_vBv4wYgpEd6SsPDVoNSEFQ">
+        <examples href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_mF-_0IWFEd6Lb6GZuo4wTA"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_Y7zn8IcOEd6w3Jx1uPAP3A"/>
+        <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_Gtc2sIWFEd6Lb6GZuo4wTA"/>
+        <selectedSteps href="uma://-_lE-_ANZ1JRM-Rl8nclImQ#_YvsUIIWFEd6Lb6GZuo4wTA"/>
+        <selectedSteps href="uma://-_lE-_ANZ1JRM-Rl8nclImQ#_ZfO6sIWFEd6Lb6GZuo4wTA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_M7eb8KOREd60U68VVOisWA" name="create_JACK_team" guid="_M7eb8KOREd60U68VVOisWA" presentationName="create JACK team" briefDescription="Create teams in JACK" superActivities="_BqsrQaOREd60U68VVOisWA" optionalInput="_0a1dUYgpEd6SsPDVoNSEFQ _0a1dUogpEd6SsPDVoNSEFQ _rGrKUogpEd6SsPDVoNSEFQ _0a1dU4gpEd6SsPDVoNSEFQ" output="_rGrKU4gpEd6SsPDVoNSEFQ" performedPrimarilyBy="_vBv4wYgpEd6SsPDVoNSEFQ">
+        <examples href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_mF-_0IWFEd6Lb6GZuo4wTA"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_Y7zn8IcOEd6w3Jx1uPAP3A"/>
+        <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_hT2vIHwlEd6zE6DaMH4mBQ"/>
+        <selectedSteps href="uma://-9ohIae5jg7J5zU6C-cpqDw#_jTMh8HwrEd6zE6DaMH4mBQ"/>
+        <selectedSteps href="uma://-9ohIae5jg7J5zU6C-cpqDw#_G1w6oIWEEd6Lb6GZuo4wTA"/>
+        <selectedSteps href="uma://-9ohIae5jg7J5zU6C-cpqDw#_I0a_sIWEEd6Lb6GZuo4wTA"/>
+        <selectedSteps href="uma://-9ohIae5jg7J5zU6C-cpqDw#_NQI9EIWEEd6Lb6GZuo4wTA"/>
+        <selectedSteps href="uma://-9ohIae5jg7J5zU6C-cpqDw#_QMDUkIWEEd6Lb6GZuo4wTA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_N3FIkKOREd60U68VVOisWA" name="create_JACK_teamplans" guid="_N3FIkKOREd60U68VVOisWA" presentationName="create JACK teamplans" briefDescription="Create team plans in JACK" superActivities="_BqsrQaOREd60U68VVOisWA" optionalInput="_1-9igYgpEd6SsPDVoNSEFQ _rGrKUogpEd6SsPDVoNSEFQ" output="_rGrKU4gpEd6SsPDVoNSEFQ" performedPrimarilyBy="_vBv4wYgpEd6SsPDVoNSEFQ">
+        <examples href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_mF-_0IWFEd6Lb6GZuo4wTA"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_Y7zn8IcOEd6w3Jx1uPAP3A"/>
+        <Task href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_CItdkHwsEd6zE6DaMH4mBQ"/>
+        <selectedSteps href="uma://-CYYlYYXSM9g2A6JfYZdZ8g#_SCwfcHwsEd6zE6DaMH4mBQ"/>
+        <selectedSteps href="uma://-CYYlYYXSM9g2A6JfYZdZ8g#__P3q0IWEEd6Lb6GZuo4wTA"/>
+        <selectedSteps href="uma://-CYYlYYXSM9g2A6JfYZdZ8g#_5-Wt4IWEEd6Lb6GZuo4wTA"/>
+      </processElements>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_rGrKUogpEd6SsPDVoNSEFQ" name="PIM4Agents_model" guid="_rGrKUogpEd6SsPDVoNSEFQ" presentationName="PIM4Agents model" isPlanned="false" superActivities="_goxoEYgpEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBbwo9eMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_2hxTmIGlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_rGrKU4gpEd6SsPDVoNSEFQ" name="JACK_model" guid="_rGrKU4gpEd6SsPDVoNSEFQ" presentationName="JACK model" briefDescription="XML-like file that can be imported into the JACK IDE" isPlanned="false" superActivities="_goxoEYgpEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBbwpdeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_Y7zn8IcOEd6w3Jx1uPAP3A"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_EWjHgIGlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_vBv4wYgpEd6SsPDVoNSEFQ" name="JACK_Developer" guid="_vBv4wYgpEd6SsPDVoNSEFQ" presentationName="JACK Developer" briefDescription="Special developer for system development in accordance to the JACK platform" isPlanned="false" superActivities="_goxoEYgpEd6SsPDVoNSEFQ" modifies="_rGrKU4gpEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBbwoNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_mF-_0IWFEd6Lb6GZuo4wTA"/>
+      <Role href="uma://_Rq8ygHwjEd6zE6DaMH4mBQ#_pLcuwHwrEd6zE6DaMH4mBQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_vBv4wogpEd6SsPDVoNSEFQ" name="Environment_Diagram" guid="_vBv4wogpEd6SsPDVoNSEFQ" presentationName="Environment_Diagram" briefDescription="Contains information about the environments modeled" isPlanned="false" superActivities="_goxoEYgpEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBc-wNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_2hxTlIGlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_wlbSAYgpEd6SsPDVoNSEFQ" name="Role_Diagram" guid="_wlbSAYgpEd6SsPDVoNSEFQ" presentationName="Role Diagram" briefDescription="Contains information about the roles modeled" isPlanned="false" superActivities="_goxoEYgpEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBdl0deMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_2hxTmYGlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_0a1dUYgpEd6SsPDVoNSEFQ" name="Collaboration_Diagram" guid="_0a1dUYgpEd6SsPDVoNSEFQ" presentationName="Collaboration Diagram" briefDescription="Contains information about the collaborations modeled" isPlanned="false" superActivities="_goxoEYgpEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBbwodeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_2hxTkoGlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_0a1dUogpEd6SsPDVoNSEFQ" name="Organization_Diagram" guid="_0a1dUogpEd6SsPDVoNSEFQ" presentationName="Organization Diagram" briefDescription="Contains information about the organizations modeled" isPlanned="false" superActivities="_goxoEYgpEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBbwoteMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_2hxTl4GlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_0a1dU4gpEd6SsPDVoNSEFQ" name="Agent_Diagram" guid="_0a1dU4gpEd6SsPDVoNSEFQ" presentationName="Agent Diagram" briefDescription="Contains information about the agents modeled" isPlanned="false" superActivities="_goxoEYgpEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBbwpNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_2hxTkIGlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_1-9igYgpEd6SsPDVoNSEFQ" name="Behavior_Diagram" guid="_1-9igYgpEd6SsPDVoNSEFQ" presentationName="Behavior Diagram" briefDescription="Contains information about the behaviors modeled" isPlanned="false" superActivities="_goxoEYgpEd6SsPDVoNSEFQ">
+      <methodElementProperty xmi:id="_kBeM4NeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_PwF4kIcJEd6w3Jx1uPAP3A"/>
+      <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_eCRuwFXHEd6iZIDJYUIm8w"/>
+      <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_2hxTkYGlEd6tqIeaIOtuNA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_goxoEYgpEd6SsPDVoNSEFQ" name="PSM-level-agent-modeling-JACK" guid="_goxoEYgpEd6SsPDVoNSEFQ" presentationName="PSM-level-agent-modeling-JACK" briefDescription="This process defines the methodology logic for the PIM2PSM activity within the SHAPE methodology." breakdownElements="_rGrKUogpEd6SsPDVoNSEFQ _rGrKU4gpEd6SsPDVoNSEFQ _vBv4wYgpEd6SsPDVoNSEFQ _vBv4wogpEd6SsPDVoNSEFQ _wlbSAYgpEd6SsPDVoNSEFQ _0a1dUYgpEd6SsPDVoNSEFQ _0a1dUogpEd6SsPDVoNSEFQ _0a1dU4gpEd6SsPDVoNSEFQ _1-9igYgpEd6SsPDVoNSEFQ _BqsrQaOREd60U68VVOisWA">
+      <methodElementProperty xmi:id="_kBfbANeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-x4RX-LMIycxUATrdHuM0NQ" href="uma://-x4RX-LMIycxUATrdHuM0NQ#-x4RX-LMIycxUATrdHuM0NQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

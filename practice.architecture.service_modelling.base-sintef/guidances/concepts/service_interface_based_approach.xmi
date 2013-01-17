@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-h6_uFXb8V3efCPtt0aqtxA" name="new_concept,_kJPkgDf5Ed-Uc_4T-VlC6Q" guid="-h6_uFXb8V3efCPtt0aqtxA" changeDate="2011-08-03T17:12:39.501+0200">
+  <mainDescription>&lt;p>&#xD;
+    The service interface based approach is quite similar to the service contract based approach in that it also focuses on&#xD;
+    binary and n-ary service interactions, requiring us to specify a set of related (simple) interfaces as one service&#xD;
+    specification. Whereas the service contract based approach prescribes using UML collaboration, the service interface&#xD;
+    based approach focuses on UML components and allows the interconnection between these components through ports. In&#xD;
+    order to connect components through ports, the ports must specify both required and provided interfaces.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The service interface based approach introduces the concept of a service interface and a conjugate service interface to&#xD;
+    type the ports on the provider and consumer side respectively. Let us show this through a typical bidirectional service&#xD;
+    interaction, where a “callback” from the provider to the consumer is specified as part of a conversation between the&#xD;
+    participants. Figure 11 shows the specification of the Place Order service previously modelled as a service contract&#xD;
+    using the service interface based approach instead. We name the service interface PlaceOrderInterface, which specifies&#xD;
+    the roles consumer and provider with their corresponding interface types OrderPlacer and OrderTaker respectively as&#xD;
+    before. The service interface realizes the provider interface OrderTaker and uses the consumer interface OrderPlacer. A&#xD;
+    conjugate service interface denoted with the ~ (tilde) prefix is used to type the port on the participant playing the&#xD;
+    consumer role. The conjugate service interface reverses the realization and uses associations, i.e. it realizes the&#xD;
+    consumer interface OrderPlacer and uses the provider interface OrderTaker.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/dna_service_interface_figure_11_example.png&quot; width=&quot;449&quot; height=&quot;308&quot; />&lt;br />&#xD;
+    &lt;strong>Figure 11:&lt;/strong> Specification of the Place Order service using the service interface based approach&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Figure 12 shows how the participants fulfilling the consumer and provider roles can be connected through their ports.&#xD;
+    The Dealer participant has a request port typed by the conjugate service interface ~PlaceOrderInterface, whereas the&#xD;
+    Manufacturer participant has a service port typed by the service interface PlaceOrderInterface. Both ports are&#xD;
+    compatible with regards to the required and provided interfaces, which thus can be connected. This allows us to specify&#xD;
+    composite structures in UML where we can connect the ports through service channels, e.g. as illustrated with the&#xD;
+    Dealer Network Architecture in Figure 12. Graphically, the interconnection between these ports can now be simplified by&#xD;
+    only showing the connector and mask out any required and provided interfaces which only tend to clutter the diagram.&#xD;
+&lt;/p>&#xD;
+&lt;img alt=&quot;&quot; src=&quot;resources/dna_service_interface_figure_12_example.png&quot; width=&quot;449&quot; height=&quot;255&quot; />&lt;br />&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 12:&lt;/strong> Consumer and provider participants connected through their request and service ports&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The service interface based approach adds further details in order to align with UML component modelling, which allows&#xD;
+    components to be composed and connected through ports. The addition of the conjugate service interface type arguably&#xD;
+    adds extra complexity, but it ensures syntactical correctness in the model when connecting the ports. Furthermore, the&#xD;
+    conjugate service interface type could be automatically created in a SoaML modelling tool based on the modelled service&#xD;
+    interface type.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

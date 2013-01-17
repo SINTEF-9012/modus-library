@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Mxb-cNeYEd-Mq_S1iaxctg" guid="_Mxb-cNeYEd-Mq_S1iaxctg"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_MxSNcNeYEd-Mq_S1iaxctg" name="core.default.role_def.extend_mda-sintef" guid="_MxSNcNeYEd-Mq_S1iaxctg" briefDescription="This plugin defines the default set of roles for adopting model-driven architecture (MDA)." authors="Brian Elvesæter (SINTEF)" changeDate="2010-10-14T15:41:02.446+0200" changeDescription="0.1: Initial outline." version="0.1">
+    <methodElementProperty xmi:id="_Mxb-cteYEd-Mq_S1iaxctg" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MxSNcdeYEd-Mq_S1iaxctg" name="Content" guid="_MxSNcdeYEd-Mq_S1iaxctg">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MxSNcteYEd-Mq_S1iaxctg" name="Categories" guid="_MxSNcteYEd-Mq_S1iaxctg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MxSNc9eYEd-Mq_S1iaxctg" name="Domains" guid="_MxSNc9eYEd-Mq_S1iaxctg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MxSNdNeYEd-Mq_S1iaxctg" name="Disciplines" guid="_MxSNdNeYEd-Mq_S1iaxctg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_vw0AgNeaEd-Mq_S1iaxctg" name="graphical_editor_tooling" guid="_vw0AgNeaEd-Mq_S1iaxctg" presentationName="Editor Tooling"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_vw0AgdeaEd-Mq_S1iaxctg" name="language_engineering" guid="_vw0AgdeaEd-Mq_S1iaxctg" presentationName="Language Engineering">
+            <methodElementProperty xmi:id="_wYPM4NeaEd-Mq_S1iaxctg" name="CategoryElementsSortType" value="Alphabetic"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_vw0AgteaEd-Mq_S1iaxctg" name="method_engineering" guid="_vw0AgteaEd-Mq_S1iaxctg" presentationName="Method Engineering"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_vw0Ag9eaEd-Mq_S1iaxctg" name="model_transformation" guid="_vw0Ag9eaEd-Mq_S1iaxctg" presentationName="Model Transformation"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MxSNddeYEd-Mq_S1iaxctg" name="RoleSets" guid="_MxSNddeYEd-Mq_S1iaxctg">
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_zgVmQdeaEd-Mq_S1iaxctg" name="mda_role_set" guid="_zgVmQdeaEd-Mq_S1iaxctg" presentationName="MDA roles" roles="_eTQf0BoYEd6Vpr8V6Jy-eA _MHE4wCXhEd-wiJ8m5XAddw _mzQyABoYEd6Vpr8V6Jy-eA _I4PvwBoYEd6Vpr8V6Jy-eA _knzAABoYEd6Vpr8V6Jy-eA _igD3cBoYEd6Vpr8V6Jy-eA _VDxf8B0iEd65QJax4GT0MQ _gY6kwBoYEd6Vpr8V6Jy-eA _IYs7gB0iEd65QJax4GT0MQ"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MxSNdteYEd-Mq_S1iaxctg" name="WP Types" guid="_MxSNdteYEd-Mq_S1iaxctg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MxSNd9eYEd-Mq_S1iaxctg" name="Tools" guid="_MxSNd9eYEd-Mq_S1iaxctg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MxSNeNeYEd-Mq_S1iaxctg" name="StandardCategories" guid="_MxSNeNeYEd-Mq_S1iaxctg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MxSNedeYEd-Mq_S1iaxctg" name="CustomCategories" guid="_MxSNedeYEd-Mq_S1iaxctg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MxSNeteYEd-Mq_S1iaxctg" name="Hidden" guid="_MxSNeteYEd-Mq_S1iaxctg">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_MxSNe9eYEd-Mq_S1iaxctg" name="Custom Categories" guid="_MxSNe9eYEd-Mq_S1iaxctg" categorizedElements="_p7_iMNeaEd-Mq_S1iaxctg"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_p7_iMNeaEd-Mq_S1iaxctg" name="mda_reference_matrix" guid="_p7_iMNeaEd-Mq_S1iaxctg" presentationName="MODUS Reference Matrix">
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_MRYRME8-Ed60J7bp6UBzQg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_Wz5NsE8-Ed60J7bp6UBzQg"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MxSNfNeYEd-Mq_S1iaxctg" name="CoreContent" guid="_MxSNfNeYEd-Mq_S1iaxctg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_E9WngBoYEd6Vpr8V6Jy-eA" name="mda_roles" guid="_E9WngBoYEd6Vpr8V6Jy-eA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_I4PvwBoYEd6Vpr8V6Jy-eA" name="language_engineer" guid="_I4PvwBoYEd6Vpr8V6Jy-eA" presentationName="Language engineer"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_eTQf0BoYEd6Vpr8V6Jy-eA" name="domain_expert" guid="_eTQf0BoYEd6Vpr8V6Jy-eA" presentationName="Domain expert"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_gY6kwBoYEd6Vpr8V6Jy-eA" name="transformation_engineer" guid="_gY6kwBoYEd6Vpr8V6Jy-eA" presentationName="Transformation engineer"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_igD3cBoYEd6Vpr8V6Jy-eA" name="model_quality_checker" guid="_igD3cBoYEd6Vpr8V6Jy-eA" presentationName="Model quality checker"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_knzAABoYEd6Vpr8V6Jy-eA" name="method_engineer" guid="_knzAABoYEd6Vpr8V6Jy-eA" presentationName="Method engineer"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_mzQyABoYEd6Vpr8V6Jy-eA" name="ide_developer" guid="_mzQyABoYEd6Vpr8V6Jy-eA" presentationName="IDE developer"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_IYs7gB0iEd65QJax4GT0MQ" name="variability_specialist" guid="_IYs7gB0iEd65QJax4GT0MQ" presentationName="Variability specialist"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_VDxf8B0iEd65QJax4GT0MQ" name="qos_queteer" guid="_VDxf8B0iEd65QJax4GT0MQ" presentationName="QoS queteer"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_MHE4wCXhEd-wiJ8m5XAddw" name="editor_developer" guid="_MHE4wCXhEd-wiJ8m5XAddw" presentationName="Editor developer"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_MxSNfdeYEd-Mq_S1iaxctg" name="CapabilityPatterns" guid="_MxSNfdeYEd-Mq_S1iaxctg"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_MxSNfteYEd-Mq_S1iaxctg" name="DeliveryProcesses" guid="_MxSNfteYEd-Mq_S1iaxctg"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_MxSNf9eYEd-Mq_S1iaxctg" name="ProcessContributions" guid="_MxSNf9eYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

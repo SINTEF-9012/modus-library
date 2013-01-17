@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ptjmqjlqvnf3sKxK7-zy-Q" name="Create_ServiceVariabilityResolutionModel,_8aCg4GMlEd-2eNPi9l6wMg" guid="-ptjmqjlqvnf3sKxK7-zy-Q" changeDate="2010-05-19T11:14:33.982+0200" changeDescription="1.0 Method chunk created" version="1.0">
+  <mainDescription>&lt;p>&#xD;
+    This provides the guidance for the SHAPE Service Variability Resolution Editor for creating a Service Variability&#xD;
+    Resolution, which defines the model of a customized variant of a service. This is done by resolving the variable&#xD;
+    aspects as defined in the corresponding Service Variability Specification Model. Afterwards, the a SoaML service&#xD;
+    interface description for the customized variant is generated automatically.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_8aCg4mMlEd-2eNPi9l6wMg" name="Import_VariationModel_and_ServiceDescription" guid="_8aCg4mMlEd-2eNPi9l6wMg">
+    <sectionDescription>&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Open the Service Variability Tool&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Select the Service Variability Specification Model from which a customized user&amp;nbsp;variant shall be created&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The tool automctically generates the skeleton of the Service Variability Resolution Model, which can be refined in&#xD;
+        the next step.&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></sectionDescription>
+  </sections>
+  <sections xmi:id="_8aCg4WMlEd-2eNPi9l6wMg" name="Define_Variant" guid="_8aCg4WMlEd-2eNPi9l6wMg">
+    <sectionDescription>&lt;p>&#xD;
+    The main part of the Service Variant creation the definition of the Service Variability Resolution Model, which defines&#xD;
+    the&amp;nbsp;selected elements along with default or fixed values. The Service&amp;nbsp;Variability Metamodel supports the&#xD;
+    following mechanisms for this:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Selection of desired features for a specific application context, modeled by the boolean &lt;em>selected&lt;/em> property&#xD;
+        of ConfigurableElement, and&amp;nbsp;&lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Definition of fixed values that are changed within the application scenario or default values that are used for&#xD;
+        invocation when no concrete value is provided for, which is only applicable for ConfigurableDataElement.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;variant definition can take place on&amp;nbsp;several aspects (or levels), and currently the operation and data&#xD;
+    level is supported. The Service&amp;nbsp;Variant editor support this by a graphical user interface along with real-time&#xD;
+    validation of the dependencies and usage conditions defined in the service variability model in order to&#xD;
+    ensure&amp;nbsp;the consistent invocation of the service via the variant description.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>guidance for the SHAPE Service Variability Resolution Editor for creating a service variant</purpose>
+</org.eclipse.epf.uma:TaskDescription>

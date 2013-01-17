@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-2QHsdJmn4iMcnhWqNQJymQ" name=",_tM7TsKVKEd6nH_wa_xSYNw" guid="-2QHsdJmn4iMcnhWqNQJymQ" changeDate="2009-09-19T20:56:15.898+0200">
+  <mainDescription>The method defines the procedure for mapping EPC ConstructionCI(Event after Function, which sends something) to BPMN&#xD;
+throwing End Message Event</mainDescription>
+  <sections xmi:id="_J7ebcKVOEd6nH_wa_xSYNw" name="Create Construction CI" guid="_J7ebcKVOEd6nH_wa_xSYNw">
+    <sectionDescription>&lt;p>&#xD;
+    Choose the&amp;nbsp;Function&amp;nbsp;out of the toolbar and place it into your diagram.&lt;br />&#xD;
+    After that, choose the Event out of the toolbar and place it into your diagram. (--&amp;gt; Name the two elements with a&#xD;
+    send order)&lt;br />&#xD;
+    Link the two elements with the Control Flow.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_sl06oKVOEd6nH_wa_xSYNw" name="Create Aggregated Views" guid="_sl06oKVOEd6nH_wa_xSYNw">
+    <sectionDescription>Create aggregated Views, which you want to add to your process model.</sectionDescription>
+  </sections>
+  <sections xmi:id="_w8VA0KVOEd6nH_wa_xSYNw" name="Generate End Message Event" guid="_w8VA0KVOEd6nH_wa_xSYNw">
+    <sectionDescription>&lt;p>&#xD;
+    Generate the BPMN model out of the process model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    End Message Event is automatic generated!&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

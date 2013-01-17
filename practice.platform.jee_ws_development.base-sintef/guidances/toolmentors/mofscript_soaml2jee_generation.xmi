@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ryJEXawIHshat2C0NLwcYw" name="mofscript_soaml2jee_generation,_kH0d8H0JEd63rfdoUaFg2Q" guid="-ryJEXawIHshat2C0NLwcYw" authors="Brian Elvesæter (SINTEF)" changeDate="2011-06-28T16:08:23.327+0200" changeDescription="0.1: Initial outline." version="0.1">
+  <mainDescription>&lt;p>&#xD;
+    The MOFScript tool is an implementation of the MOFScript model to text transformation language. MOFScript is part of&#xD;
+    standardization process within OMG and was developed at SINTEF ICT, Norway, in the EU-supported MODELWARE project. It&#xD;
+    transforms input models to output text files and can generate text from any MOF-based models like UML models or any&#xD;
+    kind of domain model. MOFScript works as a bridge between model and text.&lt;br />&#xD;
+    &lt;br />&#xD;
+    The definition of a transformation from source model ModelA to textT always includes the following steps:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Import or define the source metamodel for ModelA.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Write the MOFScript to transform ModelA to textT in the MOFScript editor.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Compile the transformation. Any errors in the transformation will be presented. Fix errors if there is any.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Load a source model corresponding to ModelA’s metamodel. If you use the Eclipse plug-in, this is prompted by the&#xD;
+        tool when trying to execute.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Execute the MOFScript in the MOFScript tool. After the transformation is executed, the output text or files are&#xD;
+        produced.&lt;br />&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

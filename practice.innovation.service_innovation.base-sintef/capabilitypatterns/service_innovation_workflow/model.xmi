@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_3qCzcaDFEeCXF5ZuS3W32Q" guid="_3qCzcaDFEeCXF5ZuS3W32Q">
+    <resourceDescriptors xmi:id="_3qCzcqDFEeCXF5ZuS3W32Q" id="-nSPncqcIney3Kv2y8MYOvg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_qK0hEKF8EeCKTcfDSRMRtw" id="-vZVUeoH3iMDRLVydt_lMJg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_qK2WQKF8EeCKTcfDSRMRtw" id="-VHMrrLufzjZNIWWxrbiuOg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_qK4LcKF8EeCKTcfDSRMRtw" id="-ELBpJQqQOGUPU8PZ4BRAFA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_qK6nsKF8EeCKTcfDSRMRtw" id="-4UZA4H-GCxozWFLbWusKLw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_t3BtEKF8EeCKTcfDSRMRtw" id="-8TCHyYyNCvwWOcLduuAJwA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_t3DiQKF8EeCKTcfDSRMRtw" id="-Idx3QFbmwQbonWvfzoK0UA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_t3EwYKF8EeCKTcfDSRMRtw" id="-jxFbsYCdokB51We0GnjH9Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_t3F-gKF8EeCKTcfDSRMRtw" id="-HVmKaWTFwej5xQx3tWHlXA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_t3HMoKF8EeCKTcfDSRMRtw" id="-A77HXRDlq5TpVGSiM1Ld_w" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_3pc9kKDFEeCXF5ZuS3W32Q" name="service_innovation_workflow" guid="_3pc9kKDFEeCXF5ZuS3W32Q">
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_3fAZIaFqEeCuNfGI7-CeEA" name="project_leader" guid="_3fAZIaFqEeCuNfGI7-CeEA" presentationName="Project leader" isPlanned="false" superActivities="_3pc9kaDFEeCXF5ZuS3W32Q" modifies="_bUpXAaF8EeCKTcfDSRMRtw _3fKxMaFqEeCuNfGI7-CeEA _3fC1YaFqEeCuNfGI7-CeEA" responsibleFor="_bUpXAaF8EeCKTcfDSRMRtw _3fKxMaFqEeCuNfGI7-CeEA _3fC1YaFqEeCuNfGI7-CeEA">
+      <methodElementProperty xmi:id="_3fAZIqFqEeCuNfGI7-CeEA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-vZVUeoH3iMDRLVydt_lMJg" href="uma://-nSPncqcIney3Kv2y8MYOvg#-vZVUeoH3iMDRLVydt_lMJg"/>
+      <Role href="uma://_BbGD8McTEd-2_-I8Ok7trA#_h8yN0KFqEeCuNfGI7-CeEA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_3fC1YaFqEeCuNfGI7-CeEA" name="workshop_plan" guid="_3fC1YaFqEeCuNfGI7-CeEA" presentationName="Workshop plan" briefDescription="This work product contains plans for the workshops and the collected data input." isPlanned="false" superActivities="_3pc9kaDFEeCXF5ZuS3W32Q">
+      <methodElementProperty xmi:id="_3fC1YqFqEeCuNfGI7-CeEA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-VHMrrLufzjZNIWWxrbiuOg" href="uma://-nSPncqcIney3Kv2y8MYOvg#-VHMrrLufzjZNIWWxrbiuOg"/>
+      <WorkProduct href="uma://_BbGD8McTEd-2_-I8Ok7trA#_Zj_W4KFqEeCuNfGI7-CeEA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_3fKxMaFqEeCuNfGI7-CeEA" name="service_concepts" guid="_3fKxMaFqEeCuNfGI7-CeEA" presentationName="Service concepts" briefDescription="This work product describes the refined service concepts identified and sketched in the workshops." isPlanned="false" superActivities="_3pc9kaDFEeCXF5ZuS3W32Q">
+      <methodElementProperty xmi:id="_3fKxMqFqEeCuNfGI7-CeEA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-ELBpJQqQOGUPU8PZ4BRAFA" href="uma://-nSPncqcIney3Kv2y8MYOvg#-ELBpJQqQOGUPU8PZ4BRAFA"/>
+      <WorkProduct href="uma://_BbGD8McTEd-2_-I8Ok7trA#_cqnJkKFqEeCuNfGI7-CeEA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_77SXMKFqEeCuNfGI7-CeEA" guid="_77SXMKFqEeCuNfGI7-CeEA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_8bAZEKFqEeCuNfGI7-CeEA" guid="_8bAZEKFqEeCuNfGI7-CeEA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_bUpXAaF8EeCKTcfDSRMRtw" name="idea_cards" guid="_bUpXAaF8EeCKTcfDSRMRtw" presentationName="Idea cards" briefDescription="This work product describes ideas." isPlanned="false" superActivities="_3pc9kaDFEeCXF5ZuS3W32Q">
+      <methodElementProperty xmi:id="_bUpXAqF8EeCKTcfDSRMRtw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-4UZA4H-GCxozWFLbWusKLw" href="uma://-nSPncqcIney3Kv2y8MYOvg#-4UZA4H-GCxozWFLbWusKLw"/>
+      <WorkProduct href="uma://_BbGD8McTEd-2_-I8Ok7trA#_T4ZaIKF3EeCuNfGI7-CeEA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sJVcMKF8EeCKTcfDSRMRtw" name="arrange_workshop" guid="_sJVcMKF8EeCKTcfDSRMRtw" presentationName="Arrange workshop" briefDescription="This task describes how to arrange the workshop." superActivities="_3pc9kaDFEeCXF5ZuS3W32Q" linkToPredecessor="_G6ysgKF9EeCKTcfDSRMRtw" output="_bUpXAaF8EeCKTcfDSRMRtw" performedPrimarilyBy="_sJWqUKF8EeCKTcfDSRMRtw _3fAZIaFqEeCuNfGI7-CeEA">
+      <presentation xmi:id="-8TCHyYyNCvwWOcLduuAJwA" href="uma://-nSPncqcIney3Kv2y8MYOvg#-8TCHyYyNCvwWOcLduuAJwA"/>
+      <examples href="uma://_BbGD8McTEd-2_-I8Ok7trA#_BiA1gKFzEeCuNfGI7-CeEA"/>
+      <Task href="uma://_BbGD8McTEd-2_-I8Ok7trA#_PJg8EKFqEeCuNfGI7-CeEA"/>
+      <selectedSteps href="uma://-2YaZ5NyRojQhXYL0_PaDCQ#_V2EdMKF2EeCuNfGI7-CeEA"/>
+      <selectedSteps href="uma://-2YaZ5NyRojQhXYL0_PaDCQ#_bDPssKF2EeCuNfGI7-CeEA"/>
+      <selectedSteps href="uma://-2YaZ5NyRojQhXYL0_PaDCQ#_fy7H4KF2EeCuNfGI7-CeEA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sJVcMaF8EeCKTcfDSRMRtw" name="define_service_concepts" guid="_sJVcMaF8EeCKTcfDSRMRtw" presentationName="Define service concepts" briefDescription="This task describes how to refine the innovation opportunities identified and sketched in the workshops into more elaborate service concepts." superActivities="_3pc9kaDFEeCXF5ZuS3W32Q" linkToPredecessor="_HTHs8KF9EeCKTcfDSRMRtw" mandatoryInput="_bUpXAaF8EeCKTcfDSRMRtw" output="_3fKxMaFqEeCuNfGI7-CeEA" performedPrimarilyBy="_sJWqUqF8EeCKTcfDSRMRtw _3fAZIaFqEeCuNfGI7-CeEA">
+      <presentation xmi:id="-Idx3QFbmwQbonWvfzoK0UA" href="uma://-nSPncqcIney3Kv2y8MYOvg#-Idx3QFbmwQbonWvfzoK0UA"/>
+      <Task href="uma://_BbGD8McTEd-2_-I8Ok7trA#_R6P-UKFqEeCuNfGI7-CeEA"/>
+      <selectedSteps href="uma://-9KGjNWJ2BL9fHfrYEPd8-w#_6AekcKF3EeCuNfGI7-CeEA"/>
+      <selectedSteps href="uma://-9KGjNWJ2BL9fHfrYEPd8-w#_93YkkKF3EeCuNfGI7-CeEA"/>
+      <selectedSteps href="uma://-9KGjNWJ2BL9fHfrYEPd8-w#__mFiEKF3EeCuNfGI7-CeEA"/>
+      <selectedSteps href="uma://-9KGjNWJ2BL9fHfrYEPd8-w#_B3lDkKF4EeCuNfGI7-CeEA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sJVcMqF8EeCKTcfDSRMRtw" name="prepare_workshop" guid="_sJVcMqF8EeCKTcfDSRMRtw" presentationName="Prepare workshop" briefDescription="This task describes how to prepare the workshop." superActivities="_3pc9kaDFEeCXF5ZuS3W32Q" output="_3fC1YaFqEeCuNfGI7-CeEA" performedPrimarilyBy="_3fAZIaFqEeCuNfGI7-CeEA _sJWqUqF8EeCKTcfDSRMRtw">
+      <presentation xmi:id="-jxFbsYCdokB51We0GnjH9Q" href="uma://-nSPncqcIney3Kv2y8MYOvg#-jxFbsYCdokB51We0GnjH9Q"/>
+      <Task href="uma://_BbGD8McTEd-2_-I8Ok7trA#_NJwq0KFqEeCuNfGI7-CeEA"/>
+      <selectedSteps href="uma://-EBOTZYImaRvoTdn2oDUAOw#_GA6-4KF1EeCuNfGI7-CeEA"/>
+      <selectedSteps href="uma://-EBOTZYImaRvoTdn2oDUAOw#_HqQUMKF1EeCuNfGI7-CeEA"/>
+      <selectedSteps href="uma://-EBOTZYImaRvoTdn2oDUAOw#_Js46UKF1EeCuNfGI7-CeEA"/>
+      <selectedSteps href="uma://-EBOTZYImaRvoTdn2oDUAOw#_L4z_UKF1EeCuNfGI7-CeEA"/>
+      <selectedSteps href="uma://-EBOTZYImaRvoTdn2oDUAOw#_N-zbcKF1EeCuNfGI7-CeEA"/>
+      <selectedSteps href="uma://-EBOTZYImaRvoTdn2oDUAOw#_QckeYKF1EeCuNfGI7-CeEA"/>
+      <selectedSteps href="uma://-EBOTZYImaRvoTdn2oDUAOw#_hH6aUKF1EeCuNfGI7-CeEA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_sJWqUKF8EeCKTcfDSRMRtw" name="workshop_participants" guid="_sJWqUKF8EeCKTcfDSRMRtw" presentationName="Workshop participants" briefDescription="The workshops involve additional participants from the service provider as well as domain-specific experts on actors, touch-points, offering, needs and experience." isPlanned="false" superActivities="_3pc9kaDFEeCXF5ZuS3W32Q" modifies="_bUpXAaF8EeCKTcfDSRMRtw">
+      <methodElementProperty xmi:id="_sJWqUaF8EeCKTcfDSRMRtw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-HVmKaWTFwej5xQx3tWHlXA" href="uma://-nSPncqcIney3Kv2y8MYOvg#-HVmKaWTFwej5xQx3tWHlXA"/>
+      <Role href="uma://_BbGD8McTEd-2_-I8Ok7trA#_n_NCQKF1EeCuNfGI7-CeEA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_sJWqUqF8EeCKTcfDSRMRtw" name="core_team" guid="_sJWqUqF8EeCKTcfDSRMRtw" presentationName="Core team" briefDescription="The Core team is involved with designated tasks in the overall process." isPlanned="false" superActivities="_3pc9kaDFEeCXF5ZuS3W32Q" modifies="_3fKxMaFqEeCuNfGI7-CeEA _3fC1YaFqEeCuNfGI7-CeEA">
+      <methodElementProperty xmi:id="_sJWqU6F8EeCKTcfDSRMRtw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-A77HXRDlq5TpVGSiM1Ld_w" href="uma://-nSPncqcIney3Kv2y8MYOvg#-A77HXRDlq5TpVGSiM1Ld_w"/>
+      <Role href="uma://_BbGD8McTEd-2_-I8Ok7trA#_0OMkIKF0EeCuNfGI7-CeEA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_G6ysgKF9EeCKTcfDSRMRtw" guid="_G6ysgKF9EeCKTcfDSRMRtw" pred="_sJVcMqF8EeCKTcfDSRMRtw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_HTHs8KF9EeCKTcfDSRMRtw" guid="_HTHs8KF9EeCKTcfDSRMRtw" pred="_sJVcMKF8EeCKTcfDSRMRtw"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_3pc9kaDFEeCXF5ZuS3W32Q" name="service_innovation_workflow" guid="_3pc9kaDFEeCXF5ZuS3W32Q" presentationName="Service innovation workflow" breakdownElements="_3fAZIaFqEeCuNfGI7-CeEA _3fC1YaFqEeCuNfGI7-CeEA _3fKxMaFqEeCuNfGI7-CeEA _bUpXAaF8EeCKTcfDSRMRtw _sJVcMqF8EeCKTcfDSRMRtw _sJVcMKF8EeCKTcfDSRMRtw _sJVcMaF8EeCKTcfDSRMRtw _sJWqUKF8EeCKTcfDSRMRtw _sJWqUqF8EeCKTcfDSRMRtw">
+      <presentation xmi:id="-nSPncqcIney3Kv2y8MYOvg" href="uma://-nSPncqcIney3Kv2y8MYOvg#-nSPncqcIney3Kv2y8MYOvg"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_0ZwucKDFEeCXF5ZuS3W32Q"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_0ZwucKDFEeCXF5ZuS3W32Q"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

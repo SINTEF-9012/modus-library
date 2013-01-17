@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_z_mvoJ1wEeCOw7xpsfr5Cw" guid="_z_mvoJ1wEeCOw7xpsfr5Cw">
+    <subManagers xmi:id="_0BFWUJ1wEeCOw7xpsfr5Cw" href="uma://_7mI1sJzMEeCKMNI98sdLuw#_0BFWUJ1wEeCOw7xpsfr5Cw"/>
+    <resourceDescriptors xmi:id="_z_n9wJ1wEeCOw7xpsfr5Cw" id="-_rQlfneB6dTZf7wDIPZ7BQ" uri="tasks/define_modelica_design_time_model.xmi"/>
+    <resourceDescriptors xmi:id="_z_sPMJ1wEeCOw7xpsfr5Cw" id="-IGB-VEF2HwMIrjlHFk8AIw" uri="tasks/develop_modelica_web_service.xmi"/>
+    <resourceDescriptors xmi:id="_z_urcJ1wEeCOw7xpsfr5Cw" id="-b6J4MzIG4FFN7XIjT9-AuA" uri="workproducts/matlab_as_service.xmi"/>
+    <resourceDescriptors xmi:id="_z_wgoJ1wEeCOw7xpsfr5Cw" id="-bxRcaxrjXHqW9JADQqLvMQ" uri="workproducts/modelica_design_time_model.xmi"/>
+    <resourceDescriptors xmi:id="_z_2nQJ1wEeCOw7xpsfr5Cw" id="-ayBf3OzVs9Cy3FKabUQU9g" uri="workproducts/modelica_web_service.xmi"/>
+    <resourceDescriptors xmi:id="_z_8t4J1wEeCOw7xpsfr5Cw" id="-Q7vWkgJ5mC2_dIQUebEVkQ" uri="guidances/practices/modelica_development.xmi"/>
+    <resourceDescriptors xmi:id="_0ATTMJ1wEeCOw7xpsfr5Cw" id="-LYBqktYoG8IMwxNwIhl_TA" uri="guidances/roadmaps/how_to_adopt_modelica_development.xmi"/>
+    <resourceDescriptors xmi:id="_0Aan8J1wEeCOw7xpsfr5Cw" id="-iJJEicf5pD1KisA1OEKipA" uri="guidances/supportingmaterials/release_info_modelica_development.xmi"/>
+    <resourceDescriptors xmi:id="_0AlnEJ1wEeCOw7xpsfr5Cw" id="-UbtBJXBNDpMTwbKkfFm3UQ" uri="guidances/toolmentors/openmodelica_installation.xmi"/>
+    <resourceDescriptors xmi:id="_0A6-QJ1wEeCOw7xpsfr5Cw" id="-9nkncc4P9Ip6qiEf3qTprw" uri="guidances/toolmentors/openmodelica_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_0A8MYJ1wEeCOw7xpsfr5Cw" id="-JIHiEWNm37RZWZPf9W3v2Q" uri="guidances/toolmentors/openmodelica_ws_development.xmi"/>
+    <resourceDescriptors xmi:id="_0BEIMJ1wEeCOw7xpsfr5Cw" id="_7mI1sJzMEeCKMNI98sdLuw" uri="capabilitypatterns/modelica_development/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Z1VtYOJ_Ed-Knc6oCYT2Zw" name="practice.platform.modelica_development.base-sintef" guid="_Z1VtYOJ_Ed-Knc6oCYT2Zw" briefDescription="This plugin contains the Modelica development practice." authors="Brian Elvesæter (SINTEF)" changeDate="2012-01-30T14:39:29.233+0100">
+    <methodElementProperty xmi:id="_z_jsUJ1wEeCOw7xpsfr5Cw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Z1VtYeJ_Ed-Knc6oCYT2Zw" name="Content" guid="_Z1VtYeJ_Ed-Knc6oCYT2Zw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Z1VtYuJ_Ed-Knc6oCYT2Zw" name="Categories" guid="_Z1VtYuJ_Ed-Knc6oCYT2Zw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Z1VtY-J_Ed-Knc6oCYT2Zw" name="Domains" guid="_Z1VtY-J_Ed-Knc6oCYT2Zw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_YX7RIOXVEd-o7-eCfuNF5g" name="platform_realization_domain.assign" guid="_YX7RIOXVEd-o7-eCfuNF5g" variabilityType="contributes" workProducts="_1LVd8OaMEd-g_d7yXRHZDg">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_iESMoNxcEd-LYKXkOhPACw#_kv-mYOEIEd-QcdsL5iaWCQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Z1VtZOJ_Ed-Knc6oCYT2Zw" name="Disciplines" guid="_Z1VtZOJ_Ed-Knc6oCYT2Zw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_VsbUMOXVEd-o7-eCfuNF5g" name="platform_realization_discipline.assign" guid="_VsbUMOXVEd-o7-eCfuNF5g" variabilityType="contributes" tasks="_UPsvMN_kEd6Mcf1pX1YeQA _ZLJ8kN_kEd6Mcf1pX1YeQA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_iESMoNxcEd-LYKXkOhPACw#_J3wmwOEIEd-QcdsL5iaWCQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Z1VtZeJ_Ed-Knc6oCYT2Zw" name="RoleSets" guid="_Z1VtZeJ_Ed-Knc6oCYT2Zw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Z1VtZuJ_Ed-Knc6oCYT2Zw" name="WP Types" guid="_Z1VtZuJ_Ed-Knc6oCYT2Zw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Z1VtZ-J_Ed-Knc6oCYT2Zw" name="Tools" guid="_Z1VtZ-J_Ed-Knc6oCYT2Zw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_j1VIYJzLEeCKMNI98sdLuw" name="openmodelica" guid="_j1VIYJzLEeCKMNI98sdLuw" presentationName="OpenModelica" briefDescription="OpenModelica" toolMentors="_peZpsJzLEeCKMNI98sdLuw _zny7kJzLEeCKMNI98sdLuw _HDGdsJzMEeCKMNI98sdLuw"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_mYrO4JzLEeCKMNI98sdLuw" name="matlab_simulink" guid="_mYrO4JzLEeCKMNI98sdLuw" presentationName="Matlab Simulink" briefDescription="Matlab Simulink"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Z1VtaOJ_Ed-Knc6oCYT2Zw" name="StandardCategories" guid="_Z1VtaOJ_Ed-Knc6oCYT2Zw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Z1VtaeJ_Ed-Knc6oCYT2Zw" name="CustomCategories" guid="_Z1VtaeJ_Ed-Knc6oCYT2Zw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Z1VtauJ_Ed-Knc6oCYT2Zw" name="Hidden" guid="_Z1VtauJ_Ed-Knc6oCYT2Zw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Z1Vta-J_Ed-Knc6oCYT2Zw" name="Custom Categories" guid="_Z1Vta-J_Ed-Knc6oCYT2Zw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Z1VtbOJ_Ed-Knc6oCYT2Zw" name="CoreContent" guid="_Z1VtbOJ_Ed-Knc6oCYT2Zw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hWKEkN_jEd6Mcf1pX1YeQA" name="modelica_development" guid="_hWKEkN_jEd6Mcf1pX1YeQA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_UPsvMN_kEd6Mcf1pX1YeQA" name="define_modelica_design_time_model" guid="_UPsvMN_kEd6Mcf1pX1YeQA" presentationName="Define Modelica design-time model" briefDescription="This task describes how to define a Modelica design-time model." performedBy="_FcP9IOaMEd-g_d7yXRHZDg" output="_WUgDEN_lEd6Mcf1pX1YeQA" toolMentors="_zny7kJzLEeCKMNI98sdLuw">
+            <presentation xmi:id="-_rQlfneB6dTZf7wDIPZ7BQ" href="uma://-_rQlfneB6dTZf7wDIPZ7BQ#-_rQlfneB6dTZf7wDIPZ7BQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ZLJ8kN_kEd6Mcf1pX1YeQA" name="develop_modelica_web_service" guid="_ZLJ8kN_kEd6Mcf1pX1YeQA" presentationName="Develop Modelica Web service" briefDescription="This task describes how to deploy a Modelica Web service." performedBy="_FcP9IOaMEd-g_d7yXRHZDg" mandatoryInput="_WUgDEN_lEd6Mcf1pX1YeQA" output="_X3JhkN_lEd6Mcf1pX1YeQA" toolMentors="_HDGdsJzMEeCKMNI98sdLuw">
+            <presentation xmi:id="-IGB-VEF2HwMIrjlHFk8AIw" href="uma://-IGB-VEF2HwMIrjlHFk8AIw#-IGB-VEF2HwMIrjlHFk8AIw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_S-qvsN_lEd6Mcf1pX1YeQA" name="matlab_as_service" guid="_S-qvsN_lEd6Mcf1pX1YeQA" presentationName="MATLAB as service" briefDescription="&lt;TBD>">
+            <presentation xmi:id="-b6J4MzIG4FFN7XIjT9-AuA" href="uma://-b6J4MzIG4FFN7XIjT9-AuA#-b6J4MzIG4FFN7XIjT9-AuA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_WUgDEN_lEd6Mcf1pX1YeQA" name="modelica_design_time_model" guid="_WUgDEN_lEd6Mcf1pX1YeQA" presentationName="Modelica design-time model" briefDescription="&lt;TBD>">
+            <presentation xmi:id="-bxRcaxrjXHqW9JADQqLvMQ" href="uma://-bxRcaxrjXHqW9JADQqLvMQ#-bxRcaxrjXHqW9JADQqLvMQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_X3JhkN_lEd6Mcf1pX1YeQA" name="modelica_web_service" guid="_X3JhkN_lEd6Mcf1pX1YeQA" presentationName="Modelica Web service" briefDescription="Some scientists try to do Web-based simulation for various applications. Simulation engine project like YANOS already got some achievements (46). Modelica serves us as an almost ideal domain specific language for the model layer for our simulation. It can be used to define equations and mathematical functions. The Modelica Web Server take Modelica functions and expose them to internet, it is convenient for the users who do not have Modelica installed in their locate machine. The goal of this part is to design a deployable, portable, robust, scalable web application. The usage of Providing Modelica as a Service here will mainly satisfy the requirements from “Mathematic Modeling” and “Service Modeling” aspects.&#xD;&#xA;&#xD;&#xA;The SiSaS platform should allow executing simulations based on Modelica models, both on local desktop PC and Linux Server. Usually there are two ways of using models for the communication between existing system and supported Modelica models. They are run time model and designing time model. Which kind of model to be used influences that how we can design our system. In the next two sub section we will discuss how to provide Modelica as service in these two ways.&#xD;&#xA;">
+            <presentation xmi:id="-ayBf3OzVs9Cy3FKabUQU9g" href="uma://-ayBf3OzVs9Cy3FKabUQU9g#-ayBf3OzVs9Cy3FKabUQU9g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_Dae_AOKBEd-Knc6oCYT2Zw" name="modelica_development" guid="_Dae_AOKBEd-Knc6oCYT2Zw" presentationName="Modelica development" briefDescription="This practice describes how to expose mathematical functions in Modelica as Web services." contentReferences="_WUgDEN_lEd6Mcf1pX1YeQA _X3JhkN_lEd6Mcf1pX1YeQA _UPsvMN_kEd6Mcf1pX1YeQA _ZLJ8kN_kEd6Mcf1pX1YeQA _FcP9IOaMEd-g_d7yXRHZDg _JU0PcOKBEd-Knc6oCYT2Zw">
+            <presentation xmi:id="-Q7vWkgJ5mC2_dIQUebEVkQ" href="uma://-Q7vWkgJ5mC2_dIQUebEVkQ#-Q7vWkgJ5mC2_dIQUebEVkQ"/>
+            <activityReferences href="uma://_7mI1sJzMEeCKMNI98sdLuw#_7mI1sZzMEeCKMNI98sdLuw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_JU0PcOKBEd-Knc6oCYT2Zw" name="how_to_adopt_modelica_development" guid="_JU0PcOKBEd-Knc6oCYT2Zw" presentationName="How to adopt the Modelica development practice." briefDescription="This roadmap describes how to adopt the Modelica development practice.">
+            <presentation xmi:id="-LYBqktYoG8IMwxNwIhl_TA" href="uma://-LYBqktYoG8IMwxNwIhl_TA#-LYBqktYoG8IMwxNwIhl_TA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_FcP9IOaMEd-g_d7yXRHZDg" name="system_developer.assign" guid="_FcP9IOaMEd-g_d7yXRHZDg" variabilityType="contributes" responsibleFor="_S-qvsN_lEd6Mcf1pX1YeQA _WUgDEN_lEd6Mcf1pX1YeQA _X3JhkN_lEd6Mcf1pX1YeQA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJxhntEd6VV7P4WguglA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_1LVd8OaMEd-g_d7yXRHZDg" name="platform_realization_model.assign" guid="_1LVd8OaMEd-g_d7yXRHZDg" variabilityType="contributes" deliveredWorkProducts="_S-qvsN_lEd6Mcf1pX1YeQA _WUgDEN_lEd6Mcf1pX1YeQA _X3JhkN_lEd6Mcf1pX1YeQA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_yZo78OG2Ed-AyrTFSpVP8g"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_VIlN4OKAEd-Knc6oCYT2Zw" name="release_info" guid="_VIlN4OKAEd-Knc6oCYT2Zw">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_VKWTAOKBEd-Knc6oCYT2Zw" name="release_info_modelica_development" guid="_VKWTAOKBEd-Knc6oCYT2Zw" presentationName="Practice: Modelica development" briefDescription="Modelica development practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-iJJEicf5pD1KisA1OEKipA" href="uma://-iJJEicf5pD1KisA1OEKipA#-iJJEicf5pD1KisA1OEKipA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_WsepkOKAEd-Knc6oCYT2Zw" name="tool_mentors" guid="_WsepkOKAEd-Knc6oCYT2Zw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ZGt3YOKAEd-Knc6oCYT2Zw" name="openmodelica" guid="_ZGt3YOKAEd-Knc6oCYT2Zw">
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_peZpsJzLEeCKMNI98sdLuw" name="openmodelica_installation" guid="_peZpsJzLEeCKMNI98sdLuw" presentationName="OpenModelica: Installation">
+              <presentation xmi:id="-UbtBJXBNDpMTwbKkfFm3UQ" href="uma://-UbtBJXBNDpMTwbKkfFm3UQ#-UbtBJXBNDpMTwbKkfFm3UQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_zny7kJzLEeCKMNI98sdLuw" name="openmodelica_modelling" guid="_zny7kJzLEeCKMNI98sdLuw" presentationName="OpenModelica: Modelling">
+              <presentation xmi:id="-9nkncc4P9Ip6qiEf3qTprw" href="uma://-9nkncc4P9Ip6qiEf3qTprw#-9nkncc4P9Ip6qiEf3qTprw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_HDGdsJzMEeCKMNI98sdLuw" name="openmodelica_ws_development" guid="_HDGdsJzMEeCKMNI98sdLuw" presentationName="OpenModelica: Web service development">
+              <presentation xmi:id="-JIHiEWNm37RZWZPf9W3v2Q" href="uma://-JIHiEWNm37RZWZPf9W3v2Q#-JIHiEWNm37RZWZPf9W3v2Q"/>
+            </contentElements>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Z1VtbeJ_Ed-Knc6oCYT2Zw" name="CapabilityPatterns" guid="_Z1VtbeJ_Ed-Knc6oCYT2Zw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_7mI1sJzMEeCKMNI98sdLuw" href="uma://_7mI1sJzMEeCKMNI98sdLuw#_7mI1sJzMEeCKMNI98sdLuw"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Z1VtbuJ_Ed-Knc6oCYT2Zw" name="DeliveryProcesses" guid="_Z1VtbuJ_Ed-Knc6oCYT2Zw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Z1Vtb-J_Ed-Knc6oCYT2Zw" name="ProcessContributions" guid="_Z1Vtb-J_Ed-Knc6oCYT2Zw"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_yLWzUNxbEd-LYKXkOhPACw#_yLWzUNxbEd-LYKXkOhPACw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-JvoNYmGZjbNWB8lS8kE8CA" name="choreography,_PJRYQDv3Ed-OFL4K-b4X_A" guid="-JvoNYmGZjbNWB8lS8kE8CA" changeDate="2011-08-10T16:51:01.575+0200">
+  <mainDescription>&lt;p>&#xD;
+    Choreographies define a “business contract” or protocol to which the Participants agree to follow during real-time&#xD;
+    interactions. Choreographies define the expected behavior between participants, i.e. how they exchange messages. The&#xD;
+    difference with the specification of a process is the following: a standard process (previous section) is an&#xD;
+    orchestration, and as such there is a responsible entity to control or execute the process. Choreographies are more&#xD;
+    about coordination among participants, with no control entity.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Choreographies provide a flowchart of activities, events and gateways, like in the process. The difference is that&#xD;
+    activities in choreographies are interactions between two or more participants, and represent a set of one or more&#xD;
+    messages exchanged between those participants.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Figure 1 shows a choreography which specifies a sequence of activities; each activity specifies the initiating message,&#xD;
+    i.e. which participant will send a message that will trigger the start of the activity.&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/bpmn_concept_choreography.png&quot; width=&quot;520&quot; height=&quot;254&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 1:&lt;/strong> BPMN2 choreography diagram example&#xD;
+&lt;/p>&#xD;
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

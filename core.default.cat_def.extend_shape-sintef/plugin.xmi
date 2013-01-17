@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_kxi0YBFxEd6C2PqX2OSy5A" guid="_kxi0YBFxEd6C2PqX2OSy5A">
+    <resourceDescriptors xmi:id="_Gew88BFyEd6C2PqX2OSy5A" id="-_W2qcC4qBDxw4ZDnN4EDag" uri="customcategories/SHAPE%20Reference%20Matrix.xmi"/>
+    <resourceDescriptors xmi:id="_3jciQBFzEd6C2PqX2OSy5A" id="-tEawtVQ1AZTrjt4FcHZsUQ" uri="customcategories/CIM.xmi"/>
+    <resourceDescriptors xmi:id="_gnThMBF0Ed6C2PqX2OSy5A" id="-YTIHcQ8x90b4Xg-NjERlVg" uri="customcategories/PIM.xmi"/>
+    <resourceDescriptors xmi:id="_usPbkBF0Ed6C2PqX2OSy5A" id="-6TL7qxZImrBvpTPCD4Y2YQ" uri="customcategories/Levels.xmi"/>
+    <resourceDescriptors xmi:id="_ZZ4WIBbjEd6C2PqX2OSy5A" id="-iuYC9e8JlEegjwfG125GWg" uri="customcategories/PIM2PSM.xmi"/>
+    <resourceDescriptors xmi:id="_PGqkcBbkEd6C2PqX2OSy5A" id="-_DztNxzuo19twhsztjdWTg" uri="customcategories/PSM.xmi"/>
+    <resourceDescriptors xmi:id="_mXnicBbkEd6C2PqX2OSy5A" id="-U406arTVb88-Jo68cQ5a_A" uri="customcategories/Information.xmi"/>
+    <resourceDescriptors xmi:id="_mXveQBbkEd6C2PqX2OSy5A" id="-sfPgWyrpltIQ5p4lyVSyBA" uri="customcategories/Service.xmi"/>
+    <resourceDescriptors xmi:id="_rfFykBbkEd6C2PqX2OSy5A" id="-PQc5xQZDf4_96eOBIjNdGw" uri="customcategories/CIM2PIM.xmi"/>
+    <resourceDescriptors xmi:id="_8Tzs8BbkEd6C2PqX2OSy5A" id="-JuhgLvY6b7xcfT4KwYYtbA" uri="customcategories/Process.xmi"/>
+    <resourceDescriptors xmi:id="_DjdKgBblEd6C2PqX2OSy5A" id="-YiwZ4LPu7EV14yhbVWYM-A" uri="customcategories/Rules.xmi"/>
+    <resourceDescriptors xmi:id="_LbQ0QBblEd6C2PqX2OSy5A" id="-9rFzYGPw1R0LeNdLFkKtBQ" uri="customcategories/Events.xmi"/>
+    <resourceDescriptors xmi:id="_WajMUBblEd6C2PqX2OSy5A" id="-sFHX7EwW9NjOwUl7vuq6_g" uri="customcategories/Organization.xmi"/>
+    <resourceDescriptors xmi:id="_kMvJ0BblEd6C2PqX2OSy5A" id="-haxFPDOkMrtHyOdN1NuVoA" uri="customcategories/Goals.xmi"/>
+    <resourceDescriptors xmi:id="_o7Vm8BblEd6C2PqX2OSy5A" id="-KSvwVGB5BdRcq0ZGdfOWDg" uri="customcategories/NFA.xmi"/>
+    <resourceDescriptors xmi:id="_d-heoBbmEd6C2PqX2OSy5A" id="-8F5BoL8yN_CTpJNElrsFSw" uri="disciplinegroupings/SHAPE_Discipline_Library.xmi"/>
+    <resourceDescriptors xmi:id="_61IoIBbnEd6C2PqX2OSy5A" id="-ngcy_P9CBwuzi88xeDZOpw" uri="disciplines/ReqAna.xmi"/>
+    <resourceDescriptors xmi:id="_eu2dcBboEd6C2PqX2OSy5A" id="-6gXIe5UGcFWNLRaOEGy9Iw" uri="disciplines/LegAna.xmi"/>
+    <resourceDescriptors xmi:id="_2x94MBboEd6C2PqX2OSy5A" id="-zzbFuCwlh6tJfpHDUdBlqg" uri="disciplines/CIMmodel.xmi"/>
+    <resourceDescriptors xmi:id="_wKmtMBbpEd6C2PqX2OSy5A" id="-vq3rXOYstoHjXJlMMM6P1g" uri="disciplines/PIMmodel.xmi"/>
+    <resourceDescriptors xmi:id="_5q4JkBbpEd6C2PqX2OSy5A" id="-3hTW247HjPWYODMKMvEMog" uri="disciplines/PSMmodel.xmi"/>
+    <resourceDescriptors xmi:id="_Ep_igBbqEd6C2PqX2OSy5A" id="-jjzu39pv8U2YEeJaSTB_Fw" uri="disciplines/Impl.xmi"/>
+    <resourceDescriptors xmi:id="_ZYfK0BbqEd6C2PqX2OSy5A" id="-GFhhEsoaHaxBXV2vf_PT_g" uri="disciplines/Deploy.xmi"/>
+    <resourceDescriptors xmi:id="_juG60BbqEd6C2PqX2OSy5A" id="-V9q_saCPzxNWlTPKtcPSdQ" uri="disciplines/Test.xmi"/>
+    <resourceDescriptors xmi:id="_tBcucBbqEd6C2PqX2OSy5A" id="-rLgODrS3KZdfs6L3kwpg-g" uri="disciplines/Maint.xmi"/>
+    <resourceDescriptors xmi:id="_5yW1IBbqEd6C2PqX2OSy5A" id="-kXblfrNVYnQO4rDIsz5jQg" uri="disciplines/LifeCyc.xmi"/>
+    <resourceDescriptors xmi:id="_iKbVcTizEd6Yxdq0b3cxJw" id="-Y_v9tJqBBey2-tUMYnbqmQ" uri="customcategories/GERAM.xmi"/>
+    <resourceDescriptors xmi:id="_mqfAQDizEd6Yxdq0b3cxJw" id="--5g_4HPzxXlz0Qe7bJnTEw" uri="customcategories/ARIS.xmi"/>
+    <resourceDescriptors xmi:id="_2fslcTizEd6Yxdq0b3cxJw" id="-fTUSC867EqBwFv9sHj07kQ" uri="customcategories/ISE.xmi"/>
+    <resourceDescriptors xmi:id="_8mb6MTizEd6Yxdq0b3cxJw" id="-S4lsEBOCCx6klGYqqXWvTw" uri="customcategories/COMET-S.xmi"/>
+    <resourceDescriptors xmi:id="_B2L8kDi0Ed6Yxdq0b3cxJw" id="-Xtp6IfQiob-2EDqfoe1S-A" uri="customcategories/SeCSE.xmi"/>
+    <resourceDescriptors xmi:id="_FOHhsTi0Ed6Yxdq0b3cxJw" id="-tWD-zKdmyfcXkswmAnbsFw" uri="customcategories/SeCSE_Composition.xmi"/>
+    <resourceDescriptors xmi:id="_RUSpUDi0Ed6Yxdq0b3cxJw" id="-7XvKxcxtGkKIBAK5dtOZXw" uri="customcategories/EnterpriseOntology.xmi"/>
+    <resourceDescriptors xmi:id="_YerzcDi0Ed6Yxdq0b3cxJw" id="-8f0MNmA42rxlJh_jeT87mg" uri="customcategories/TOVE.xmi"/>
+    <resourceDescriptors xmi:id="_gKmWQTi0Ed6Yxdq0b3cxJw" id="-YO1QFlBp6Fiqdowzj1US6w" uri="customcategories/METHONTOLOGY.xmi"/>
+    <resourceDescriptors xmi:id="_A07TcIJsEd6Ljca46QJL5g" id="-K27Q2gN8ONpLtWXCk61D2w" uri="customcategories/ServiceVariability.xmi"/>
+    <resourceDescriptors xmi:id="_lsK9gDszEd-Ux61kS3X6hw" id="--J4duMF-X-Gziu1WGxpfvg" uri="roles/ontology_engineer.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_kwazABFxEd6C2PqX2OSy5A" name="core.default.cat_def.extend_shape-sintef" guid="_kwazABFxEd6C2PqX2OSy5A" presentationName="SHAPE Framework Library" briefDescription="This plug-in contains the the core elements of SHAPE metodology." authors="Victor Shafran (SAP), Michael Stollberg (SAP), Marisa Escalante (ESI), Christian Hahn (DFKI), Brian Elvesæter (SINTEF)" changeDate="2010-05-19T14:32:58.803+0200" changeDescription="2.0: clean up for final release|1.9: Clean up and alignment with SoaML diagram types in Modelio.|1.8: Clean up for pre-final release.|1.7: Clean up and name changes. Added ShaML work products.|1.6: Added SWS engineering roles.|1.5: Renamed some EPC work products.|1.4: Revised some roles.|1.3: Name change. Minor updates and clean-up. Copied work products from the UIBK method library.|1.2: Added tool guidelines.|1.1: Update and clean-up process.|1.0: Content for Bilbao milestone." version="2.0">
+    <methodElementProperty xmi:id="_j5IwQNeMEd-Mq_S1iaxctg" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kwazARFxEd6C2PqX2OSy5A" name="Content" guid="_kwazARFxEd6C2PqX2OSy5A">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kwazAhFxEd6C2PqX2OSy5A" name="Categories" guid="_kwazAhFxEd6C2PqX2OSy5A">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kwazAxFxEd6C2PqX2OSy5A" name="Domains" guid="_kwazAxFxEd6C2PqX2OSy5A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kwazBBFxEd6C2PqX2OSy5A" name="Disciplines" guid="_kwazBBFxEd6C2PqX2OSy5A">
+          <contentElements xsi:type="org.eclipse.epf.uma:DisciplineGrouping" xmi:id="_IW2LkBbmEd6C2PqX2OSy5A" name="SHAPE_Discipline_Library" guid="_IW2LkBbmEd6C2PqX2OSy5A" presentationName="SHAPE Discipline Library" disciplines="_v8dOYBbnEd6C2PqX2OSy5A _WYWskBboEd6C2PqX2OSy5A _wWtsABboEd6C2PqX2OSy5A _5G36EBboEd6C2PqX2OSy5A _xDn_4BbpEd6C2PqX2OSy5A _9iiXoBbpEd6C2PqX2OSy5A _OpeDYBbqEd6C2PqX2OSy5A _dp8Y8BbqEd6C2PqX2OSy5A _oZS3kBbqEd6C2PqX2OSy5A _x56SMBbqEd6C2PqX2OSy5A _6cNqcBbqEd6C2PqX2OSy5A">
+            <presentation xmi:id="-8F5BoL8yN_CTpJNElrsFSw" href="uma://-8F5BoL8yN_CTpJNElrsFSw#-8F5BoL8yN_CTpJNElrsFSw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_v8dOYBbnEd6C2PqX2OSy5A" name="ReqAna" guid="_v8dOYBbnEd6C2PqX2OSy5A" presentationName="Requirements Analysis" briefDescription="Identifying the requirements for the target system, incl.: business requirements, functional requirements (scope), organizational surroundings, existing legacy systems.">
+            <presentation xmi:id="-ngcy_P9CBwuzi88xeDZOpw" href="uma://-ngcy_P9CBwuzi88xeDZOpw#-ngcy_P9CBwuzi88xeDZOpw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_WYWskBboEd6C2PqX2OSy5A" name="LegAna" guid="_WYWskBboEd6C2PqX2OSy5A" presentationName="Legacy System Analysis" briefDescription="Analyse existing legacy systems with respect to: capabilities, need for integration in target system, technology models, data models, organizational surroundings">
+            <presentation xmi:id="-6gXIe5UGcFWNLRaOEGy9Iw" href="uma://-6gXIe5UGcFWNLRaOEGy9Iw#-6gXIe5UGcFWNLRaOEGy9Iw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_wWtsABboEd6C2PqX2OSy5A" name="CIMmodel" guid="_wWtsABboEd6C2PqX2OSy5A" presentationName="System Design (CIM level)" briefDescription="Specify the business model of the target system on the CIM level with respect to all relevant aspects of the SHAPE Reference Matrix">
+            <presentation xmi:id="-zzbFuCwlh6tJfpHDUdBlqg" href="uma://-zzbFuCwlh6tJfpHDUdBlqg#-zzbFuCwlh6tJfpHDUdBlqg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_5G36EBboEd6C2PqX2OSy5A" name="PIMmodel" guid="_5G36EBboEd6C2PqX2OSy5A" presentationName="System Specification (PIM level)" briefDescription="Specify the system model of the target system on the PIM level with respect to all relevant aspects of the SHAPE Reference Matrix">
+            <presentation xmi:id="-vq3rXOYstoHjXJlMMM6P1g" href="uma://-vq3rXOYstoHjXJlMMM6P1g#-vq3rXOYstoHjXJlMMM6P1g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_xDn_4BbpEd6C2PqX2OSy5A" name="PSMmodel" guid="_xDn_4BbpEd6C2PqX2OSy5A" presentationName="Implementation Model (PSM level)" briefDescription="Specify technology model for implementing the target system on the PSM level with respect to all relevant aspects of the SHAPE Reference Matrix">
+            <presentation xmi:id="-3hTW247HjPWYODMKMvEMog" href="uma://-3hTW247HjPWYODMKMvEMog#-3hTW247HjPWYODMKMvEMog"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_9iiXoBbpEd6C2PqX2OSy5A" name="Impl" guid="_9iiXoBbpEd6C2PqX2OSy5A" presentationName="Implementation" briefDescription="Implement the target system, utilizing code generation facilities of MDA approach">
+            <presentation xmi:id="-jjzu39pv8U2YEeJaSTB_Fw" href="uma://-jjzu39pv8U2YEeJaSTB_Fw#-jjzu39pv8U2YEeJaSTB_Fw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_OpeDYBbqEd6C2PqX2OSy5A" name="Deploy" guid="_OpeDYBbqEd6C2PqX2OSy5A" presentationName="Deployment" briefDescription="Deploy the implementation of the target system to the runtime environment">
+            <presentation xmi:id="-GFhhEsoaHaxBXV2vf_PT_g" href="uma://-GFhhEsoaHaxBXV2vf_PT_g#-GFhhEsoaHaxBXV2vf_PT_g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_dp8Y8BbqEd6C2PqX2OSy5A" name="Test" guid="_dp8Y8BbqEd6C2PqX2OSy5A" presentationName="Testing" briefDescription="Perform tests of the developed system regarding: functionality, performance, stability, etc.">
+            <presentation xmi:id="-V9q_saCPzxNWlTPKtcPSdQ" href="uma://-V9q_saCPzxNWlTPKtcPSdQ#-V9q_saCPzxNWlTPKtcPSdQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_oZS3kBbqEd6C2PqX2OSy5A" name="Maint" guid="_oZS3kBbqEd6C2PqX2OSy5A" presentationName="Maintenance" briefDescription="Maintain the technical implementation of the system to ensure operability and required up-time">
+            <presentation xmi:id="-rLgODrS3KZdfs6L3kwpg-g" href="uma://-rLgODrS3KZdfs6L3kwpg-g#-rLgODrS3KZdfs6L3kwpg-g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_x56SMBbqEd6C2PqX2OSy5A" name="LifeCyc" guid="_x56SMBbqEd6C2PqX2OSy5A" presentationName="Life Cycle Management" briefDescription="Manage the life cycle of the whole system and its components, incl.: updates of technical infrastructure, replacement of outdated components, update system with respect to KPIs">
+            <presentation xmi:id="-kXblfrNVYnQO4rDIsz5jQg" href="uma://-kXblfrNVYnQO4rDIsz5jQg#-kXblfrNVYnQO4rDIsz5jQg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_6cNqcBbqEd6C2PqX2OSy5A" name="Gov" guid="_6cNqcBbqEd6C2PqX2OSy5A" presentationName="Governance Model" briefDescription="Define a governance model for the system landscape of an organization in order to better align the IT-systems with the overall business strategy"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kwazBRFxEd6C2PqX2OSy5A" name="RoleSets" guid="_kwazBRFxEd6C2PqX2OSy5A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kwazBhFxEd6C2PqX2OSy5A" name="WP Types" guid="_kwazBhFxEd6C2PqX2OSy5A">
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_4ClR8IGYEd6tqIeaIOtuNA" name="SoaML" guid="_4ClR8IGYEd6tqIeaIOtuNA" presentationName="SoaML"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_qDLnwIGsEd6tqIeaIOtuNA" name="JACK" guid="_qDLnwIGsEd6tqIeaIOtuNA" presentationName="JACK" briefDescription="Work products from Method_library- DFKI"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_rbjzEIJ0Ed6Ljca46QJL5g" name="SWS" guid="_rbjzEIJ0Ed6Ljca46QJL5g" presentationName="SWS" briefDescription="Work products from Method_library- UIBK"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_HUJqkIJ1Ed6Ljca46QJL5g" name="JEE" guid="_HUJqkIJ1Ed6Ljca46QJL5g" presentationName="JEE" briefDescription="Work products from Method_library- SINTEF"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_Yap4gIJ1Ed6Ljca46QJL5g" name="VSCL" guid="_Yap4gIJ1Ed6Ljca46QJL5g" presentationName="VSCL" briefDescription="Work products from Method_library- SINTEF"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_g4wtQIJ1Ed6Ljca46QJL5g" name="WS" guid="_g4wtQIJ1Ed6Ljca46QJL5g" presentationName="WS" briefDescription="Work products from Method_library- SINTEF"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_vTdcQIJ1Ed6Ljca46QJL5g" name="PIM4Agents" guid="_vTdcQIJ1Ed6Ljca46QJL5g" presentationName="PIM4Agents" briefDescription="Work products from Method_library- DFKI"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_Dkd3UIJ2Ed6Ljca46QJL5g" name="BPMN" guid="_Dkd3UIJ2Ed6Ljca46QJL5g" presentationName="BPMN" briefDescription="Work products from Method_library DFKI_IWi"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_MswRgIJ2Ed6Ljca46QJL5g" name="Business rules" guid="_MswRgIJ2Ed6Ljca46QJL5g" presentationName="Business rules" briefDescription="Work products from Method_library DFKI_IWi"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_QLEygIJ2Ed6Ljca46QJL5g" name="Data" guid="_QLEygIJ2Ed6Ljca46QJL5g" presentationName="Data" briefDescription="Work products from Method_library DFKI_IWi"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_YdacIIJ2Ed6Ljca46QJL5g" name="EPC" guid="_YdacIIJ2Ed6Ljca46QJL5g" presentationName="EPC" briefDescription="Work products from Method_library DFKI_IWi"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_aO9SQIJ2Ed6Ljca46QJL5g" name="Organisation" guid="_aO9SQIJ2Ed6Ljca46QJL5g" presentationName="Organisation" briefDescription="Work products from Method_library DFKI_IWi"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_i_ZNIIJ2Ed6Ljca46QJL5g" name="Service Variability" guid="_i_ZNIIJ2Ed6Ljca46QJL5g" presentationName="Service Variability" briefDescription="Work products from Method_library SAP"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_z2rc4IKCEd6Ljca46QJL5g" name="BMM" guid="_z2rc4IKCEd6Ljca46QJL5g" presentationName="BMM" briefDescription="Work products from SHAPE FRamework Library"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_h9JfQDv9Ed-wzrbdBPyHjA" name="ShaML" guid="_h9JfQDv9Ed-wzrbdBPyHjA" presentationName="ShaML"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kwazBxFxEd6C2PqX2OSy5A" name="Tools" guid="_kwazBxFxEd6C2PqX2OSy5A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kwazCBFxEd6C2PqX2OSy5A" name="StandardCategories" guid="_kwazCBFxEd6C2PqX2OSy5A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kwazCRFxEd6C2PqX2OSy5A" name="CustomCategories" guid="_kwazCRFxEd6C2PqX2OSy5A">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kwazChFxEd6C2PqX2OSy5A" name="Hidden" guid="_kwazChFxEd6C2PqX2OSy5A">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_kwazCxFxEd6C2PqX2OSy5A" name="Custom Categories" guid="_kwazCxFxEd6C2PqX2OSy5A" categorizedElements="_-hK0QBFxEd6C2PqX2OSy5A _rnQ4wDiyEd6Yxdq0b3cxJw"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_-hK0QBFxEd6C2PqX2OSy5A" name="SHAPE Reference Matrix" guid="_-hK0QBFxEd6C2PqX2OSy5A" presentationName="SHAPE Reference Matrix" categorizedElements="_qG5BEBF0Ed6C2PqX2OSy5A _5vz2sBF0Ed6C2PqX2OSy5A">
+            <presentation xmi:id="-_W2qcC4qBDxw4ZDnN4EDag" href="uma://-_W2qcC4qBDxw4ZDnN4EDag#-_W2qcC4qBDxw4ZDnN4EDag"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_k2pE4BFzEd6C2PqX2OSy5A" name="CIM" guid="_k2pE4BFzEd6C2PqX2OSy5A" presentationName="CIM" briefDescription="The Computation Independent Model ">
+            <presentation xmi:id="-tEawtVQ1AZTrjt4FcHZsUQ" href="uma://-tEawtVQ1AZTrjt4FcHZsUQ#-tEawtVQ1AZTrjt4FcHZsUQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_LtFKABF0Ed6C2PqX2OSy5A" name="CIM2PIM" guid="_LtFKABF0Ed6C2PqX2OSy5A" presentationName="CIM2PIM" briefDescription="The transformation from CIM to PIM model">
+            <presentation xmi:id="-PQc5xQZDf4_96eOBIjNdGw" href="uma://-PQc5xQZDf4_96eOBIjNdGw#-PQc5xQZDf4_96eOBIjNdGw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Tx-0kBF0Ed6C2PqX2OSy5A" name="PIM" guid="_Tx-0kBF0Ed6C2PqX2OSy5A" presentationName="PIM">
+            <presentation xmi:id="-YTIHcQ8x90b4Xg-NjERlVg" href="uma://-YTIHcQ8x90b4Xg-NjERlVg#-YTIHcQ8x90b4Xg-NjERlVg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_qG5BEBF0Ed6C2PqX2OSy5A" name="Levels" guid="_qG5BEBF0Ed6C2PqX2OSy5A" presentationName="Ascpects" briefDescription="Ascpects of the SHAPE reference matrix" categorizedElements="_k2pE4BFzEd6C2PqX2OSy5A _LtFKABF0Ed6C2PqX2OSy5A _Tx-0kBF0Ed6C2PqX2OSy5A _XZXP4BbjEd6C2PqX2OSy5A _OO52ABbkEd6C2PqX2OSy5A">
+            <presentation xmi:id="-6TL7qxZImrBvpTPCD4Y2YQ" href="uma://-6TL7qxZImrBvpTPCD4Y2YQ#-6TL7qxZImrBvpTPCD4Y2YQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_5vz2sBF0Ed6C2PqX2OSy5A" name="Aspects" guid="_5vz2sBF0Ed6C2PqX2OSy5A" presentationName="Aspects" briefDescription="The aspect of the SHAPE reference matrix" categorizedElements="_CTiLQBF1Ed6C2PqX2OSy5A _GnXX8BF1Ed6C2PqX2OSy5A _5v17YBbkEd6C2PqX2OSy5A _BV34oBblEd6C2PqX2OSy5A _JqR-0BblEd6C2PqX2OSy5A _Vd6k8BblEd6C2PqX2OSy5A _gpP08BblEd6C2PqX2OSy5A _lvYoUBblEd6C2PqX2OSy5A"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_CTiLQBF1Ed6C2PqX2OSy5A" name="Information" guid="_CTiLQBF1Ed6C2PqX2OSy5A" presentationName="Information" briefDescription="&#xD;&#xA;">
+            <presentation xmi:id="-U406arTVb88-Jo68cQ5a_A" href="uma://-U406arTVb88-Jo68cQ5a_A#-U406arTVb88-Jo68cQ5a_A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_GnXX8BF1Ed6C2PqX2OSy5A" name="Service" guid="_GnXX8BF1Ed6C2PqX2OSy5A" presentationName="Service" briefDescription="The Service aspect of the SHAPE reference matrix">
+            <presentation xmi:id="-sfPgWyrpltIQ5p4lyVSyBA" href="uma://-sfPgWyrpltIQ5p4lyVSyBA#-sfPgWyrpltIQ5p4lyVSyBA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_XZXP4BbjEd6C2PqX2OSy5A" name="PIM2PSM" guid="_XZXP4BbjEd6C2PqX2OSy5A" presentationName="PIM2PSM" briefDescription="Transformation layer between PIM and PSM models">
+            <presentation xmi:id="-iuYC9e8JlEegjwfG125GWg" href="uma://-iuYC9e8JlEegjwfG125GWg#-iuYC9e8JlEegjwfG125GWg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_OO52ABbkEd6C2PqX2OSy5A" name="PSM" guid="_OO52ABbkEd6C2PqX2OSy5A" presentationName="PSM" briefDescription="System architecture model for realization on a specific&#xD;&#xA;technology platform, system engineer perspectives.">
+            <presentation xmi:id="-_DztNxzuo19twhsztjdWTg" href="uma://-_DztNxzuo19twhsztjdWTg#-_DztNxzuo19twhsztjdWTg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_5v17YBbkEd6C2PqX2OSy5A" name="Process" guid="_5v17YBbkEd6C2PqX2OSy5A" presentationName="Process" briefDescription="business process or other procedural activities that need to be conducted in order to&#xD;&#xA;achieve a (business) goal">
+            <presentation xmi:id="-JuhgLvY6b7xcfT4KwYYtbA" href="uma://-JuhgLvY6b7xcfT4KwYYtbA#-JuhgLvY6b7xcfT4KwYYtbA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_BV34oBblEd6C2PqX2OSy5A" name="Rules" guid="_BV34oBblEd6C2PqX2OSy5A" presentationName="Rules" briefDescription="Conditions for the usage of a service or process&#xD;&#xA;">
+            <presentation xmi:id="-YiwZ4LPu7EV14yhbVWYM-A" href="uma://-YiwZ4LPu7EV14yhbVWYM-A#-YiwZ4LPu7EV14yhbVWYM-A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_JqR-0BblEd6C2PqX2OSy5A" name="Events" guid="_JqR-0BblEd6C2PqX2OSy5A" presentationName="Events" briefDescription="Occurrences or happenings that trigger an activity (e.g. invocation or termination of a service&#xD;&#xA;or a process)">
+            <presentation xmi:id="-9rFzYGPw1R0LeNdLFkKtBQ" href="uma://-9rFzYGPw1R0LeNdLFkKtBQ#-9rFzYGPw1R0LeNdLFkKtBQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Vd6k8BblEd6C2PqX2OSy5A" name="Organization" guid="_Vd6k8BblEd6C2PqX2OSy5A" presentationName="Organization" briefDescription="The structure of the organization where the system shall be used (company, institute,&#xD;&#xA;department, inter-organizational">
+            <presentation xmi:id="-sFHX7EwW9NjOwUl7vuq6_g" href="uma://-sFHX7EwW9NjOwUl7vuq6_g#-sFHX7EwW9NjOwUl7vuq6_g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_gpP08BblEd6C2PqX2OSy5A" name="Goals" guid="_gpP08BblEd6C2PqX2OSy5A" presentationName="Goals" briefDescription="The (business) goals and motivation">
+            <presentation xmi:id="-haxFPDOkMrtHyOdN1NuVoA" href="uma://-haxFPDOkMrtHyOdN1NuVoA#-haxFPDOkMrtHyOdN1NuVoA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_lvYoUBblEd6C2PqX2OSy5A" name="NFA" guid="_lvYoUBblEd6C2PqX2OSy5A" presentationName="NFA" briefDescription="Non-functional aspects of services or processes (e.g. quality-of-service, security, SLAs, etc.).">
+            <presentation xmi:id="-KSvwVGB5BdRcq0ZGdfOWDg" href="uma://-KSvwVGB5BdRcq0ZGdfOWDg#-KSvwVGB5BdRcq0ZGdfOWDg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_rnQ4wDiyEd6Yxdq0b3cxJw" name="SourceMethodology" guid="_rnQ4wDiyEd6Yxdq0b3cxJw" presentationName="SourceMethodology" briefDescription="denotes the methodology that a SHAPE method (chunk) belongs to " categorizedElements="_18LeIDiyEd6Yxdq0b3cxJw _LKrcMDizEd6Yxdq0b3cxJw _TrzIsDizEd6Yxdq0b3cxJw _AidDYIJsEd6Ljca46QJL5g"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_18LeIDiyEd6Yxdq0b3cxJw" name="EA_Methodologies" guid="_18LeIDiyEd6Yxdq0b3cxJw" presentationName="EA Methodologies" briefDescription="container containing source methodologies for Enterprise Architecture Modeling (EA Modeling)" categorizedElements="_cvy4wDizEd6Yxdq0b3cxJw _jCm6oDizEd6Yxdq0b3cxJw _sJSLQDizEd6Yxdq0b3cxJw"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_LKrcMDizEd6Yxdq0b3cxJw" name="SOA_Methodologies" guid="_LKrcMDizEd6Yxdq0b3cxJw" presentationName="SOA Methodologies" briefDescription="container for source methodologies for Service Oriented Architecture (SOA) modeling &amp; development" categorizedElements="_w7hyQDizEd6Yxdq0b3cxJw _3S9OYDizEd6Yxdq0b3cxJw _9QT9oDizEd6Yxdq0b3cxJw _DrnNIDi0Ed6Yxdq0b3cxJw"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_TrzIsDizEd6Yxdq0b3cxJw" name="OntologyEngineering_Methodologies" guid="_TrzIsDizEd6Yxdq0b3cxJw" presentationName="Ontology Engineering Methodologies" briefDescription="container for source methodologies for Ontology Engineering &amp; Development " categorizedElements="_KYf74Di0Ed6Yxdq0b3cxJw _SGW_cDi0Ed6Yxdq0b3cxJw _awIRoDi0Ed6Yxdq0b3cxJw"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_cvy4wDizEd6Yxdq0b3cxJw" name="GERAM" guid="_cvy4wDizEd6Yxdq0b3cxJw" presentationName="GERAM" briefDescription="Generalised Enterprise Reference Architecture and Methodology ">
+            <presentation xmi:id="-Y_v9tJqBBey2-tUMYnbqmQ" href="uma://-Y_v9tJqBBey2-tUMYnbqmQ#-Y_v9tJqBBey2-tUMYnbqmQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_jCm6oDizEd6Yxdq0b3cxJw" name="ARIS" guid="_jCm6oDizEd6Yxdq0b3cxJw" presentationName="ARIS" briefDescription="Architecture of Integrated Information Systems">
+            <presentation xmi:id="--5g_4HPzxXlz0Qe7bJnTEw" href="uma://--5g_4HPzxXlz0Qe7bJnTEw#--5g_4HPzxXlz0Qe7bJnTEw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_sJSLQDizEd6Yxdq0b3cxJw" name="EUP" guid="_sJSLQDizEd6Yxdq0b3cxJw" presentationName="EUP" briefDescription="Enterprise Unified Process"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_w7hyQDizEd6Yxdq0b3cxJw" name="ISE" guid="_w7hyQDizEd6Yxdq0b3cxJw" presentationName="ISE" briefDescription="Inter-enterprise Service Engineering Methodology">
+            <presentation xmi:id="-fTUSC867EqBwFv9sHj07kQ" href="uma://-fTUSC867EqBwFv9sHj07kQ#-fTUSC867EqBwFv9sHj07kQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_3S9OYDizEd6Yxdq0b3cxJw" name="COMET-S" guid="_3S9OYDizEd6Yxdq0b3cxJw" presentationName="COMET-S" briefDescription="Component and model-based development methodology for Services">
+            <presentation xmi:id="-S4lsEBOCCx6klGYqqXWvTw" href="uma://-S4lsEBOCCx6klGYqqXWvTw#-S4lsEBOCCx6klGYqqXWvTw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9QT9oDizEd6Yxdq0b3cxJw" name="SeCSE" guid="_9QT9oDizEd6Yxdq0b3cxJw" presentationName="SeCSE" briefDescription="SeCSE Methodology">
+            <presentation xmi:id="-Xtp6IfQiob-2EDqfoe1S-A" href="uma://-Xtp6IfQiob-2EDqfoe1S-A#-Xtp6IfQiob-2EDqfoe1S-A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_DrnNIDi0Ed6Yxdq0b3cxJw" name="SeCSE_Composition" guid="_DrnNIDi0Ed6Yxdq0b3cxJw" presentationName="SeCSE Composition" briefDescription="SeCSE Methodology">
+            <presentation xmi:id="-tWD-zKdmyfcXkswmAnbsFw" href="uma://-tWD-zKdmyfcXkswmAnbsFw#-tWD-zKdmyfcXkswmAnbsFw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_KYf74Di0Ed6Yxdq0b3cxJw" name="EnterpriseOntology" guid="_KYf74Di0Ed6Yxdq0b3cxJw" presentationName="EnterpriseOntology" briefDescription="EnterpriseOntology Methodology ">
+            <presentation xmi:id="-7XvKxcxtGkKIBAK5dtOZXw" href="uma://-7XvKxcxtGkKIBAK5dtOZXw#-7XvKxcxtGkKIBAK5dtOZXw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_SGW_cDi0Ed6Yxdq0b3cxJw" name="TOVE" guid="_SGW_cDi0Ed6Yxdq0b3cxJw" presentationName="TOVE" briefDescription="TOVE Methodology for ontology engineering ">
+            <presentation xmi:id="-8f0MNmA42rxlJh_jeT87mg" href="uma://-8f0MNmA42rxlJh_jeT87mg#-8f0MNmA42rxlJh_jeT87mg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_awIRoDi0Ed6Yxdq0b3cxJw" name="METHONTOLOGY" guid="_awIRoDi0Ed6Yxdq0b3cxJw" presentationName="METHONTOLOGY Methodology " briefDescription="METHONTOLOGY Methodology for Ontology Development &amp; Engineering&#x9;">
+            <presentation xmi:id="-YO1QFlBp6Fiqdowzj1US6w" href="uma://-YO1QFlBp6Fiqdowzj1US6w#-YO1QFlBp6Fiqdowzj1US6w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_AidDYIJsEd6Ljca46QJL5g" name="ServiceVariability" guid="_AidDYIJsEd6Ljca46QJL5g" presentationName="Service Variability" briefDescription="Models and techniques for Service Variability developed in the SHAPE project ">
+            <presentation xmi:id="-K27Q2gN8ONpLtWXCk61D2w" href="uma://-K27Q2gN8ONpLtWXCk61D2w#-K27Q2gN8ONpLtWXCk61D2w"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kwazDBFxEd6C2PqX2OSy5A" name="CoreContent" guid="_kwazDBFxEd6C2PqX2OSy5A"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_kwazDRFxEd6C2PqX2OSy5A" name="CapabilityPatterns" guid="_kwazDRFxEd6C2PqX2OSy5A"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_kwazDhFxEd6C2PqX2OSy5A" name="DeliveryProcesses" guid="_kwazDhFxEd6C2PqX2OSy5A"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_kwazDxFxEd6C2PqX2OSy5A" name="ProcessContributions" guid="_kwazDxFxEd6C2PqX2OSy5A"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

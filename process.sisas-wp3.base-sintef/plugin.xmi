@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_NRyWcJNpEeCaBao730vMtw" guid="_NRyWcJNpEeCaBao730vMtw">
+    <subManagers xmi:id="_y4UdcJNqEeCaBao730vMtw" href="uma://_y3mEsJNqEeCaBao730vMtw#_y4UdcJNqEeCaBao730vMtw"/>
+    <subManagers xmi:id="_BX5uotVlEeCbz_HpayPmUw" href="uma://_BWRW8NVlEeCbz_HpayPmUw#_BX5uotVlEeCbz_HpayPmUw"/>
+    <subManagers xmi:id="_7fxocRRAEeGTU829fpxEZg" href="uma://_7dGH4BRAEeGTU829fpxEZg#_7fxocRRAEeGTU829fpxEZg"/>
+    <resourceDescriptors xmi:id="_y3zgEJNqEeCaBao730vMtw" id="_y3mEsJNqEeCaBao730vMtw" uri="deliveryprocesses/sisas-wp3_model_driven_migration_process/model.xmi"/>
+    <resourceDescriptors xmi:id="_BX5uodVlEeCbz_HpayPmUw" id="_BWRW8NVlEeCbz_HpayPmUw" uri="deliveryprocesses/sisas-wp3_mathematical_systems_engineering_process/model.xmi"/>
+    <resourceDescriptors xmi:id="_7fxocBRAEeGTU829fpxEZg" id="_7dGH4BRAEeGTU829fpxEZg" uri="deliveryprocesses/sisas-wp3_agile_development_process/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_NRbxIJNpEeCaBao730vMtw" name="process.sisas-wp3.base-sintef" guid="_NRbxIJNpEeCaBao730vMtw" briefDescription="This plugin contains the ENVIROFI delivery processes." changeDate="2011-06-10T15:55:36.889+0200">
+    <methodElementProperty xmi:id="_NR1ZwJNpEeCaBao730vMtw" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NRbxIZNpEeCaBao730vMtw" name="Content" guid="_NRbxIZNpEeCaBao730vMtw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NRbxIpNpEeCaBao730vMtw" name="Categories" guid="_NRbxIpNpEeCaBao730vMtw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NRbxI5NpEeCaBao730vMtw" name="Domains" guid="_NRbxI5NpEeCaBao730vMtw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NRbxJJNpEeCaBao730vMtw" name="Disciplines" guid="_NRbxJJNpEeCaBao730vMtw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NRbxJZNpEeCaBao730vMtw" name="RoleSets" guid="_NRbxJZNpEeCaBao730vMtw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NRbxJpNpEeCaBao730vMtw" name="WP Types" guid="_NRbxJpNpEeCaBao730vMtw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NRbxJ5NpEeCaBao730vMtw" name="Tools" guid="_NRbxJ5NpEeCaBao730vMtw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NRbxKJNpEeCaBao730vMtw" name="StandardCategories" guid="_NRbxKJNpEeCaBao730vMtw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NRcYMJNpEeCaBao730vMtw" name="CustomCategories" guid="_NRcYMJNpEeCaBao730vMtw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NRcYMZNpEeCaBao730vMtw" name="Hidden" guid="_NRcYMZNpEeCaBao730vMtw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_NRcYMpNpEeCaBao730vMtw" name="Custom Categories" guid="_NRcYMpNpEeCaBao730vMtw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NRcYM5NpEeCaBao730vMtw" name="CoreContent" guid="_NRcYM5NpEeCaBao730vMtw"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_NRcYNJNpEeCaBao730vMtw" name="CapabilityPatterns" guid="_NRcYNJNpEeCaBao730vMtw"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_NRcYNZNpEeCaBao730vMtw" name="DeliveryProcesses" guid="_NRcYNZNpEeCaBao730vMtw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_y3mEsJNqEeCaBao730vMtw" href="uma://_y3mEsJNqEeCaBao730vMtw#_y3mEsJNqEeCaBao730vMtw"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_BWRW8NVlEeCbz_HpayPmUw" href="uma://_BWRW8NVlEeCbz_HpayPmUw#_BWRW8NVlEeCbz_HpayPmUw"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_7dGH4BRAEeGTU829fpxEZg" href="uma://_7dGH4BRAEeGTU829fpxEZg#_7dGH4BRAEeGTU829fpxEZg"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_NRcYNpNpEeCaBao730vMtw" name="ProcessContributions" guid="_NRcYNpNpEeCaBao730vMtw"/>
+    <bases href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_1zV0AC5mEd6lwuZlFT8K0A"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_zZo70J1wEeCOw7xpsfr5Cw" guid="_zZo70J1wEeCOw7xpsfr5Cw">
+    <resourceDescriptors xmi:id="_zZo70Z1wEeCOw7xpsfr5Cw" id="-BDkuDS86aqiuAF4MKCB5xw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_zZqxAJ1wEeCOw7xpsfr5Cw" id="-S7-Ax9Sj-jxycAMmTflIDg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_zZrYEJ1wEeCOw7xpsfr5Cw" id="-qAXaSjiZdV9xjT3c9jRV0w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_zZr_IJ1wEeCOw7xpsfr5Cw" id="-2jrYtyqvoVYFWIlaDrp_uw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_zZtNQJ1wEeCOw7xpsfr5Cw" id="-IzqK6Sg0GqAKO2_W275DwA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_zZt0UJ1wEeCOw7xpsfr5Cw" id="-7Y4haau3vYyeX18lnw4MYQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_zZvCcJ1wEeCOw7xpsfr5Cw" id="-W9hc_fZ1TtIldYeVE9gJAw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_zZxesJ1wEeCOw7xpsfr5Cw" id="-gc5sMtdDrsvqGW4wMtaQtA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_c5O1AOKnEd-Knc6oCYT2Zw" name="use_case_modelling" guid="_c5O1AOKnEd-Knc6oCYT2Zw">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nmisQOKnEd-Knc6oCYT2Zw" name="define_non_functional_requirements" guid="_nmisQOKnEd-Knc6oCYT2Zw" presentationName="Define non-functional requirements" briefDescription="This task describes how to define non-functional requirements." superActivities="_c5O1AeKnEd-Knc6oCYT2Zw" additionallyPerformedBy="_g-_G4ecwEd-T6-CV2MW9sw" output="_nmqBAuKnEd-Knc6oCYT2Zw" performedPrimarilyBy="_nmpZ8OKnEd-Knc6oCYT2Zw">
+      <presentation xmi:id="-BDkuDS86aqiuAF4MKCB5xw" href="uma://-BDkuDS86aqiuAF4MKCB5xw#-BDkuDS86aqiuAF4MKCB5xw"/>
+      <Task href="uma://_yHcxoLzIEd-GWpfvmLDtFA#_Y1o10OJ9Ed-Knc6oCYT2Zw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_nmpZ8OKnEd-Knc6oCYT2Zw" name="requirements_analyst" guid="_nmpZ8OKnEd-Knc6oCYT2Zw" presentationName="Requirements analyst" briefDescription="This worker is mainly involved in the processes related to the requirements of the customers. " isPlanned="false" superActivities="_c5O1AeKnEd-Knc6oCYT2Zw" modifies="_0akYYOKnEd-Knc6oCYT2Zw _05XNMeKnEd-Knc6oCYT2Zw _nmqBAuKnEd-Knc6oCYT2Zw">
+      <methodElementProperty xmi:id="_zZzT4J1wEeCOw7xpsfr5Cw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-S7-Ax9Sj-jxycAMmTflIDg" href="uma://-BDkuDS86aqiuAF4MKCB5xw#-S7-Ax9Sj-jxycAMmTflIDg"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIpisBntEd6VV7P4WguglA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_nmqBAuKnEd-Knc6oCYT2Zw" name="non_functional_requirements" guid="_nmqBAuKnEd-Knc6oCYT2Zw" presentationName="Non-functional requirements" briefDescription="This work product identifies constraints, general requirements and other kinds of non-functional requirements not fitting into the previous work products of the requirements model." isPlanned="false" superActivities="_c5O1AeKnEd-Knc6oCYT2Zw">
+      <methodElementProperty xmi:id="_zZzT4Z1wEeCOw7xpsfr5Cw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-qAXaSjiZdV9xjT3c9jRV0w" href="uma://-BDkuDS86aqiuAF4MKCB5xw#-qAXaSjiZdV9xjT3c9jRV0w"/>
+      <WorkProduct href="uma://_yHcxoLzIEd-GWpfvmLDtFA#_xF0vkN0UEd-xB8a51ZHHaA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_0ajxUOKnEd-Knc6oCYT2Zw" name="define_system_boundary_model" guid="_0ajxUOKnEd-Knc6oCYT2Zw" presentationName="Define System boundary model" briefDescription="This task describes how to define the System boundary model." superActivities="_c5O1AeKnEd-Knc6oCYT2Zw" additionallyPerformedBy="_g-_G4ecwEd-T6-CV2MW9sw" output="_0akYYOKnEd-Knc6oCYT2Zw" performedPrimarilyBy="_nmpZ8OKnEd-Knc6oCYT2Zw">
+      <presentation xmi:id="-2jrYtyqvoVYFWIlaDrp_uw" href="uma://-BDkuDS86aqiuAF4MKCB5xw#-2jrYtyqvoVYFWIlaDrp_uw"/>
+      <Task href="uma://_yHcxoLzIEd-GWpfvmLDtFA#_JuN24OHREd-nwfeZTt0t8A"/>
+      <selectedSteps href="uma://-ZakdDpKXh_vlEqQALnujxw#__ZRwoObkEd-Eut7DiqIzBA"/>
+      <selectedSteps href="uma://-ZakdDpKXh_vlEqQALnujxw#_MOnEUOblEd-Eut7DiqIzBA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_0akYYOKnEd-Knc6oCYT2Zw" name="system_boundary_model" guid="_0akYYOKnEd-Knc6oCYT2Zw" presentationName="System boundary model" briefDescription="This work product describes the system in terms of actors, use cases and scenario descriptions." isPlanned="false" superActivities="_c5O1AeKnEd-Knc6oCYT2Zw">
+      <methodElementProperty xmi:id="_zZzT4p1wEeCOw7xpsfr5Cw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-IzqK6Sg0GqAKO2_W275DwA" href="uma://-BDkuDS86aqiuAF4MKCB5xw#-IzqK6Sg0GqAKO2_W275DwA"/>
+      <WorkProduct href="uma://_yHcxoLzIEd-GWpfvmLDtFA#_NUjPIN0VEd-xB8a51ZHHaA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_05XNMOKnEd-Knc6oCYT2Zw" name="detail_use_case_scenarios" guid="_05XNMOKnEd-Knc6oCYT2Zw" presentationName="Detail use case scenarios" briefDescription="This task describes how to detail the use case scenarios." superActivities="_c5O1AeKnEd-Knc6oCYT2Zw" linkToPredecessor="_AF6lMOKoEd-Knc6oCYT2Zw" additionallyPerformedBy="_g-_G4ecwEd-T6-CV2MW9sw" mandatoryInput="_0akYYOKnEd-Knc6oCYT2Zw" output="_05XNMeKnEd-Knc6oCYT2Zw" performedPrimarilyBy="_nmpZ8OKnEd-Knc6oCYT2Zw">
+      <presentation xmi:id="-7Y4haau3vYyeX18lnw4MYQ" href="uma://-BDkuDS86aqiuAF4MKCB5xw#-7Y4haau3vYyeX18lnw4MYQ"/>
+      <Task href="uma://_yHcxoLzIEd-GWpfvmLDtFA#_TwYfYOHREd-nwfeZTt0t8A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_05XNMeKnEd-Knc6oCYT2Zw" name="use_case_scenario_model" guid="_05XNMeKnEd-Knc6oCYT2Zw" presentationName="Use case scenario model" briefDescription="This work product describes the system in terms of actors, use cases and scenario descriptions." isPlanned="false" superActivities="_c5O1AeKnEd-Knc6oCYT2Zw">
+      <methodElementProperty xmi:id="_zZzT451wEeCOw7xpsfr5Cw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-W9hc_fZ1TtIldYeVE9gJAw" href="uma://-BDkuDS86aqiuAF4MKCB5xw#-W9hc_fZ1TtIldYeVE9gJAw"/>
+      <templates href="uma://_yHcxoLzIEd-GWpfvmLDtFA#_u2nlkH1QEeCbp4UejqxsXg"/>
+      <WorkProduct href="uma://_yHcxoLzIEd-GWpfvmLDtFA#_SMZu4N0VEd-xB8a51ZHHaA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_AF6lMOKoEd-Knc6oCYT2Zw" guid="_AF6lMOKoEd-Knc6oCYT2Zw" pred="_0ajxUOKnEd-Knc6oCYT2Zw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_g-_G4ecwEd-T6-CV2MW9sw" name="stakeholder" guid="_g-_G4ecwEd-T6-CV2MW9sw" presentationName="Stakeholder" isPlanned="false" superActivities="_c5O1AeKnEd-Knc6oCYT2Zw">
+      <methodElementProperty xmi:id="_zZzT5Z1wEeCOw7xpsfr5Cw" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_K7n0EOaFEd-2NJepU9I_bg"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_c5O1AeKnEd-Knc6oCYT2Zw" name="use_case_modelling" guid="_c5O1AeKnEd-Knc6oCYT2Zw" presentationName="Use case modelling" briefDescription="This capability pattern describes a baseline workflow for use case modelling." breakdownElements="_nmisQOKnEd-Knc6oCYT2Zw _nmpZ8OKnEd-Knc6oCYT2Zw _nmqBAuKnEd-Knc6oCYT2Zw _0ajxUOKnEd-Knc6oCYT2Zw _0akYYOKnEd-Knc6oCYT2Zw _05XNMOKnEd-Knc6oCYT2Zw _05XNMeKnEd-Knc6oCYT2Zw _g-_G4ecwEd-T6-CV2MW9sw">
+      <presentation xmi:id="-gc5sMtdDrsvqGW4wMtaQtA" href="uma://-BDkuDS86aqiuAF4MKCB5xw#-gc5sMtdDrsvqGW4wMtaQtA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

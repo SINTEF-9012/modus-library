@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_DnoZIH0dEd6On6TUtok0Og" guid="_DnoZIH0dEd6On6TUtok0Og">
+    <resourceDescriptors xmi:id="_DnoZIX0dEd6On6TUtok0Og" id="-cJH5l-f5aXuWMo_WwaIYng" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_CecjgH0dEd6On6TUtok0Og" name="VSCL_service_composition" guid="_CecjgH0dEd6On6TUtok0Og">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_GrMVEFwqEd-M3aJMD1EArw" name="Service_Composition_Behaviour_Modelling" guid="_GrMVEFwqEd-M3aJMD1EArw" presentationName="Service Composition Behaviour Modelling " briefDescription="This task defines the guided procedure for modelling a service composition." superActivities="_CecjgX0dEd6On6TUtok0Og" output="_GrMVE1wqEd-M3aJMD1EArw" performedPrimarilyBy="_GrMVEVwqEd-M3aJMD1EArw">
+      <methodElementProperty xmi:id="_kAZO0NeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+      <Task href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_xIzoMEnpEd6LdsS7H-3sPg"/>
+      <selectedSteps href="uma://-waIT9aNML1w7ftySiDFoSA#_XeblAFZ8Ed6NKeijDtiuXg"/>
+      <selectedSteps href="uma://-waIT9aNML1w7ftySiDFoSA#_eBSOAFZ8Ed6NKeijDtiuXg"/>
+      <selectedSteps href="uma://-waIT9aNML1w7ftySiDFoSA#_f1zfoFZ8Ed6NKeijDtiuXg"/>
+      <selectedSteps href="uma://-waIT9aNML1w7ftySiDFoSA#_jQPmMFZ8Ed6NKeijDtiuXg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_GrMVEVwqEd-M3aJMD1EArw" name="Service_Developer" guid="_GrMVEVwqEd-M3aJMD1EArw" presentationName="Service Developer" briefDescription="This is the worker who builds the services." isPlanned="false" superActivities="_CecjgX0dEd6On6TUtok0Og" modifies="_GrMVE1wqEd-M3aJMD1EArw">
+      <methodElementProperty xmi:id="_kAYnwNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_kwazABFxEd6C2PqX2OSy5A#_gIqJxhntEd6VV7P4WguglA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_GrMVE1wqEd-M3aJMD1EArw" name="VSCL_Diagram" guid="_GrMVE1wqEd-M3aJMD1EArw" presentationName="VSCL_Diagram" briefDescription="VSCL diagram that describes a service composition." isPlanned="false" superActivities="_CecjgX0dEd6On6TUtok0Og">
+      <methodElementProperty xmi:id="_kAYnwteMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_qo-l8NhIEd-luNMZUPxfLg#_667l0IGdEd6tqIeaIOtuNA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_CecjgX0dEd6On6TUtok0Og" name="VSCL_service_composition" guid="_CecjgX0dEd6On6TUtok0Og" presentationName="Service composition" briefDescription="This capability pattern defines the guided procedure for specifying a service composition." breakdownElements="_GrMVEFwqEd-M3aJMD1EArw _GrMVEVwqEd-M3aJMD1EArw _GrMVE1wqEd-M3aJMD1EArw">
+      <methodElementProperty xmi:id="_kAZ14NeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-cJH5l-f5aXuWMo_WwaIYng" href="uma://-cJH5l-f5aXuWMo_WwaIYng#-cJH5l-f5aXuWMo_WwaIYng"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

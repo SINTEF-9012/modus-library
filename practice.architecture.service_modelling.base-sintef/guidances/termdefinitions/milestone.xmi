@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-EKqOdwvaOQaiKSOrLtmOaA" name="new_term_definition,_URUVAJzYEeCjAYLMIp9ZDA" guid="-EKqOdwvaOQaiKSOrLtmOaA">
+  <mainDescription>&lt;p>&#xD;
+    A Milestone is a means for depicting progress in behaviors in order to analyze liveness. Milestones are particularly&#xD;
+    useful for behaviors that are long lasting or even infinite.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Milestone depicts progress by defining a signal that is sent to an abstract observer. The signal contains an integer&#xD;
+    value that intuitively represents the amount of progress that has been achieved when passing a point attached to this&#xD;
+    Milestone.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Provided that a SoaML specification is available it is possible to analyze a service behavior (a Participant or a&#xD;
+    ServiceContract) to determine properties of the progress value. Such analysis results could be e.g. that the progress&#xD;
+    value can never go beyond a certain value. This could then be interpreted as a measure of the potential worth of the&#xD;
+    analyzed behaviors. In situations where alternative service behaviors are considered as in Agent negotiations, such a&#xD;
+    progress measurement could be a useful criterion for the choice.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Milestones can also be applied imperatively as specification of tracing information in a debugging or monitoring&#xD;
+    situation. The signal sent when the Milestone is encountered may contain arguments that can register any current&#xD;
+    values.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Progress values may be interpreted ordinally in the sense that a progress value of 4 is higher than a progress value of&#xD;
+    3. A reasonable interpretation would be that the higher the possible progress value, the better. Alternatively the&#xD;
+    progress values may be interpreted nominally as they may represent distinct reachable situations. In such a case the&#xD;
+    analysis would have to consider sets of reachable values. It would typically be a reasonable interpretation that&#xD;
+    reaching a superset of values would constitute better progress possibilities.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

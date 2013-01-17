@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-4S37CfLRjqvNj7SIZwEj-Q" name="define_scoping_statements,_PI_DMdz_Ed-xB8a51ZHHaA" guid="-4S37CfLRjqvNj7SIZwEj-Q">
+    <mainDescription>This capability pattern describes a baseline workflow for how to define scoping statements.</mainDescription>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-XWBsi9ounz2L8i5_vjUpXQ" name="define_context_statement,_ehlk4Nz_Ed-xB8a51ZHHaA" guid="-XWBsi9ounz2L8i5_vjUpXQ">
+    <refinedDescription>&lt;p>&#xD;
+    The purpose of the Context Statement is to define the scope of a business model and to position it in its context. This&#xD;
+    may be done by identifying relationships to some other business models or by developing and getting agreement to a more&#xD;
+    informal representation of the target business being modelled in its environment. This informal representation takes&#xD;
+    the form of a domain picture aiming to give an overall understanding of the domain. It focuses on describing&#xD;
+    stakeholders and their relationships and identifies stakeholders concerns. It typically covers key value-chains and&#xD;
+    information flows. The emphasis is on the process of building it, agreeing it with subject matter experts and thereby&#xD;
+    understanding the context. Thus, it may not be maintained in subsequent phases of the development of the Product.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-VViS6vCw_gsxf0O8qTTBmg" name="define_vision_statement,_ehlk4dz_Ed-xB8a51ZHHaA" guid="-VViS6vCw_gsxf0O8qTTBmg">
+    <refinedDescription>This document would be produced by a series of meetings, and the preparation and circulation drafts until agreement on its&#xD;
+content is achieved by the Business Stakeholders identified at the start of the Project.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UM9BN9g4w_pk3dzT33eTVw" name="context_statement,_ehlk4tz_Ed-xB8a51ZHHaA" guid="-UM9BN9g4w_pk3dzT33eTVw">
+    <refinedDescription>&lt;p>&#xD;
+    The Context statement should describe the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Business level: business value, criticality, …&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Domain model in a rich picture (or more formal) including main concepts, their relations and interactions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Architecture level: current architecture (high level) with interactions, components, topology and deployment&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Technological level: existing artefacts, platforms, technologies&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Organizational level: people and competences&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Problems with the current system or solutions&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The notation used for the Context Statement depends on the existence or not of a higher level Business Model. Where&#xD;
+    that exists, the notation will be the notation of the subsets of that model used. Where no higher level model exists,&#xD;
+    the notation may be a Rich Picture or a set of Use Cases. In all cases, it will be accompanied by a list giving details&#xD;
+    of all Business Stakeholders.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-XsQD7behjiuv0wF5wzvq4A" name="vision_statement,_ehlk5Nz_Ed-xB8a51ZHHaA" guid="-XsQD7behjiuv0wF5wzvq4A">
+    <refinedDescription>&lt;p>&#xD;
+    The Vision statement should describe the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Opportunities and risks&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Cost and schedule goals&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Business goals&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    This work product adds detail to the scope given in the Context Statement, so that Business Stakeholders can make&#xD;
+    informed judgements about approving the (appropriate phase of) development of the Product.&#xD;
+&lt;/p>&#xD;
+This work product is a statement of what to improve, the motivation (i.e. what is wrong with the current situation), a&#xD;
+description or indication of what the improvements might be and a gap analysis (a clear understanding of difference between&#xD;
+the current and desired situations).</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-uZlxcd_O92dB28br72cgmw" name="business analyst,_3FUwUeGoEd-AyrTFSpVP8g" guid="-uZlxcd_O92dB28br72cgmw">
+    <refinedDescription>Responsible for analyzing the business needs of clients to help identify business problems and propose solutions.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

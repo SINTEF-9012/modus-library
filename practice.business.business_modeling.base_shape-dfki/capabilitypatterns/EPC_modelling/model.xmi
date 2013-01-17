@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Ha89MYi3Ed609piMjO-xvw" guid="_Ha89MYi3Ed609piMjO-xvw">
+    <resourceDescriptors xmi:id="_Ha89Moi3Ed609piMjO-xvw" id="--DRsPMcPyN-r7Eoti3lK7Q" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_HZm5YIi3Ed609piMjO-xvw" name="EPC_modelling" guid="_HZm5YIi3Ed609piMjO-xvw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hQtacItNEd6ICpAXmDeg7g" name="Create  EPC Process View" guid="_hQtacItNEd6ICpAXmDeg7g">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_hQuBgItNEd6ICpAXmDeg7g" name="Create  EPC Process View" guid="_hQuBgItNEd6ICpAXmDeg7g" presentationName="Create  EPC Process View" superActivities="_HZm5YYi3Ed609piMjO-xvw" breakdownElements="_hQuokYtNEd6ICpAXmDeg7g _hQuokotNEd6ICpAXmDeg7g _hQvPoItNEd6ICpAXmDeg7g _hQvPoYtNEd6ICpAXmDeg7g _hQvPootNEd6ICpAXmDeg7g _hQuokItNEd6ICpAXmDeg7g _hQv2sItNEd6ICpAXmDeg7g _hQwdwItNEd6ICpAXmDeg7g _hQwdwYtNEd6ICpAXmDeg7g _hQwdwotNEd6ICpAXmDeg7g _hQxE0ItNEd6ICpAXmDeg7g _hQxE0YtNEd6ICpAXmDeg7g _hQxr4ItNEd6ICpAXmDeg7g _hQxr4YtNEd6ICpAXmDeg7g _hQxr4otNEd6ICpAXmDeg7g _hQyS8ItNEd6ICpAXmDeg7g _hQyS8YtNEd6ICpAXmDeg7g _hQyS8otNEd6ICpAXmDeg7g _hQy6AItNEd6ICpAXmDeg7g _hQy6AYtNEd6ICpAXmDeg7g _hQzhEItNEd6ICpAXmDeg7g _hQzhEYtNEd6ICpAXmDeg7g _hQzhEotNEd6ICpAXmDeg7g _hWerQItNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQuokItNEd6ICpAXmDeg7g" name="Create ELane Element" guid="_hQuokItNEd6ICpAXmDeg7g" presentationName="Create new ELane element" superActivities="_hQuBgItNEd6ICpAXmDeg7g" output="_hWerQItNEd6ICpAXmDeg7g" performedPrimarilyBy="_hQuokYtNEd6ICpAXmDeg7g _hQuokotNEd6ICpAXmDeg7g _hQvPoItNEd6ICpAXmDeg7g _hQvPoYtNEd6ICpAXmDeg7g _hQvPootNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_S2P2EGYsEd6yd4JjNhe1Bg"/>
+        <selectedSteps href="uma://-dNGtmuu7stXJEwcNP0iIow#_OBAI8GYtEd6yd4JjNhe1Bg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_hQuokYtNEd6ICpAXmDeg7g" name="Analyst" guid="_hQuokYtNEd6ICpAXmDeg7g" presentationName="Analyst" isPlanned="false" superActivities="_hQuBgItNEd6ICpAXmDeg7g" modifies="_hWerQItNEd6ICpAXmDeg7g">
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_r7_S0FUSEd6C1uTeH2AdkQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_hQuokotNEd6ICpAXmDeg7g" name="Business_Process_Modeller" guid="_hQuokotNEd6ICpAXmDeg7g" presentationName="Business Process Modeller" isPlanned="false" superActivities="_hQuBgItNEd6ICpAXmDeg7g" modifies="_hWerQItNEd6ICpAXmDeg7g">
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_r7_54FUSEd6C1uTeH2AdkQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_hQvPoItNEd6ICpAXmDeg7g" name="Business Analyst" guid="_hQvPoItNEd6ICpAXmDeg7g" presentationName="Business Analyst" isPlanned="false" superActivities="_hQuBgItNEd6ICpAXmDeg7g" modifies="_hWerQItNEd6ICpAXmDeg7g">
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_gIqJwRntEd6VV7P4WguglA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_hQvPoYtNEd6ICpAXmDeg7g" name="Designer" guid="_hQvPoYtNEd6ICpAXmDeg7g" presentationName="Designer" isPlanned="false" superActivities="_hQuBgItNEd6ICpAXmDeg7g" modifies="_hWerQItNEd6ICpAXmDeg7g">
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_r7_54VUSEd6C1uTeH2AdkQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_hQvPootNEd6ICpAXmDeg7g" name="User" guid="_hQvPootNEd6ICpAXmDeg7g" presentationName="User" isPlanned="false" superActivities="_hQuBgItNEd6ICpAXmDeg7g" modifies="_hWerQItNEd6ICpAXmDeg7g">
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_gIqw0RntEd6VV7P4WguglA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQv2sItNEd6ICpAXmDeg7g" name="Create ApplicationSystem" guid="_hQv2sItNEd6ICpAXmDeg7g" presentationName="Create an application system" superActivities="_hQuBgItNEd6ICpAXmDeg7g" output="_hWerQItNEd6ICpAXmDeg7g" performedPrimarilyBy="_hQvPoItNEd6ICpAXmDeg7g _hQvPootNEd6ICpAXmDeg7g _hQuokYtNEd6ICpAXmDeg7g _hQuokotNEd6ICpAXmDeg7g _hQvPoYtNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_nEd3ED_FEd6Ohaxp2PYTFg"/>
+        <selectedSteps href="uma://-JeK379p3PmovGPN7RCKlOA#_WrE74D_HEd6Ohaxp2PYTFg"/>
+        <selectedSteps href="uma://-JeK379p3PmovGPN7RCKlOA#_aHkQ4D_HEd6Ohaxp2PYTFg"/>
+        <selectedSteps href="uma://-4P4yoy4EHBKGrCWrclpo8A#_0ZlzMD_HEd6Ohaxp2PYTFg"/>
+        <selectedSteps href="uma://-4P4yoy4EHBKGrCWrclpo8A#_4ED50D_HEd6Ohaxp2PYTFg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQwdwItNEd6ICpAXmDeg7g" name="Create Flow Connection" guid="_hQwdwItNEd6ICpAXmDeg7g" presentationName="Create a flow connection" superActivities="_hQuBgItNEd6ICpAXmDeg7g" linkToPredecessor="_hQy6AotNEd6ICpAXmDeg7g" output="_hWerQItNEd6ICpAXmDeg7g" performedPrimarilyBy="_hQvPoItNEd6ICpAXmDeg7g _hQvPootNEd6ICpAXmDeg7g _hQuokYtNEd6ICpAXmDeg7g _hQuokotNEd6ICpAXmDeg7g _hQvPoYtNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_ZppNUD-cEd6BGMQMI2-1Sg"/>
+        <selectedSteps href="uma://-R6iydC15WFsCLOygWihIdw#_gozX0D-cEd6BGMQMI2-1Sg"/>
+        <selectedSteps href="uma://-Gf5spxwNpshWRajPkgVf-Q#_ZChh8D-nEd6BGMQMI2-1Sg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQwdwYtNEd6ICpAXmDeg7g" name="Create Function" guid="_hQwdwYtNEd6ICpAXmDeg7g" presentationName="create a function" superActivities="_hQuBgItNEd6ICpAXmDeg7g" output="_hWerQItNEd6ICpAXmDeg7g" performedPrimarilyBy="_hQvPoItNEd6ICpAXmDeg7g _hQvPootNEd6ICpAXmDeg7g _hQuokYtNEd6ICpAXmDeg7g _hQuokotNEd6ICpAXmDeg7g _hQvPoYtNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_uKO6cD4FEd6XGZEnLaWKkw"/>
+        <selectedSteps href="uma://-tagCSbm1xpHz0u4qxK0MhA#__6LSAD85Ed6JsOLMA2N-vw"/>
+        <selectedSteps href="uma://-tagCSbm1xpHz0u4qxK0MhA#_Tlwr0D86Ed6JsOLMA2N-vw"/>
+        <selectedSteps href="uma://-ZdyBJzoNpD8M1OpeXnzxYA#_4RUZ4D-fEd6BGMQMI2-1Sg"/>
+        <selectedSteps href="uma://-ZdyBJzoNpD8M1OpeXnzxYA#_YNVqkD-gEd6BGMQMI2-1Sg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQwdwotNEd6ICpAXmDeg7g" name="Create Message Connection" guid="_hQwdwotNEd6ICpAXmDeg7g" presentationName="Create a message connection" superActivities="_hQuBgItNEd6ICpAXmDeg7g" output="_hWerQItNEd6ICpAXmDeg7g" performedPrimarilyBy="_hQvPoItNEd6ICpAXmDeg7g _hQvPootNEd6ICpAXmDeg7g _hQuokYtNEd6ICpAXmDeg7g _hQuokotNEd6ICpAXmDeg7g _hQvPoYtNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_IZanUD4KEd6XGZEnLaWKkw"/>
+        <selectedSteps href="uma://-4AyvJG-Rebphi7rNfus-cg#_OSmJoD-pEd6BGMQMI2-1Sg"/>
+        <selectedSteps href="uma://-Gf5spxwNpshWRajPkgVf-Q#_ZChh8D-nEd6BGMQMI2-1Sg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQxE0ItNEd6ICpAXmDeg7g" name="Create OR Connector(EPC View)" guid="_hQxE0ItNEd6ICpAXmDeg7g" presentationName="Create a new OR" superActivities="_hQuBgItNEd6ICpAXmDeg7g" output="_hWerQItNEd6ICpAXmDeg7g" performedPrimarilyBy="_hQvPoItNEd6ICpAXmDeg7g _hQvPootNEd6ICpAXmDeg7g _hQuokYtNEd6ICpAXmDeg7g _hQuokotNEd6ICpAXmDeg7g _hQvPoYtNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_mW7LoD4EEd6XGZEnLaWKkw"/>
+        <selectedSteps href="uma://-cA5thye98nGPcR9ekhD3DQ#_gQBKwD-kEd6BGMQMI2-1Sg"/>
+        <selectedSteps href="uma://-ZdyBJzoNpD8M1OpeXnzxYA#_4RUZ4D-fEd6BGMQMI2-1Sg"/>
+        <selectedSteps href="uma://-ZdyBJzoNpD8M1OpeXnzxYA#_YNVqkD-gEd6BGMQMI2-1Sg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQxE0YtNEd6ICpAXmDeg7g" name="Create Organisation(EPC View)" guid="_hQxE0YtNEd6ICpAXmDeg7g" presentationName="Create an organisation element" superActivities="_hQuBgItNEd6ICpAXmDeg7g" output="_hWerQItNEd6ICpAXmDeg7g" performedPrimarilyBy="_hQvPoItNEd6ICpAXmDeg7g _hQvPootNEd6ICpAXmDeg7g _hQuokYtNEd6ICpAXmDeg7g _hQuokotNEd6ICpAXmDeg7g _hQvPoYtNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_lg20YD4GEd6XGZEnLaWKkw"/>
+        <selectedSteps href="uma://-hNRVdNcN5IcmabyCHV01Eg#_HeQMYD_HEd6Ohaxp2PYTFg"/>
+        <selectedSteps href="uma://-hNRVdNcN5IcmabyCHV01Eg#_On4hgD_HEd6Ohaxp2PYTFg"/>
+        <selectedSteps href="uma://-4P4yoy4EHBKGrCWrclpo8A#_0ZlzMD_HEd6Ohaxp2PYTFg"/>
+        <selectedSteps href="uma://-4P4yoy4EHBKGrCWrclpo8A#_4ED50D_HEd6Ohaxp2PYTFg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQxr4ItNEd6ICpAXmDeg7g" name="Create XOR Connector(EPC View)" guid="_hQxr4ItNEd6ICpAXmDeg7g" presentationName="Create XOR Connector Element" superActivities="_hQuBgItNEd6ICpAXmDeg7g" output="_hWerQItNEd6ICpAXmDeg7g" performedPrimarilyBy="_hQvPoItNEd6ICpAXmDeg7g _hQvPootNEd6ICpAXmDeg7g _hQuokYtNEd6ICpAXmDeg7g _hQuokotNEd6ICpAXmDeg7g _hQvPoYtNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_btaC4DvNEd6gtI8tb9yUjw"/>
+        <selectedSteps href="uma://-9U0h08WPih5JiuM-lO62Aw#_SbTpQD-aEd6BGMQMI2-1Sg"/>
+        <selectedSteps href="uma://-ZdyBJzoNpD8M1OpeXnzxYA#_4RUZ4D-fEd6BGMQMI2-1Sg"/>
+        <selectedSteps href="uma://-ZdyBJzoNpD8M1OpeXnzxYA#_YNVqkD-gEd6BGMQMI2-1Sg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQxr4YtNEd6ICpAXmDeg7g" name="Create AND Connector(EPC View)" guid="_hQxr4YtNEd6ICpAXmDeg7g" presentationName="Create new connector element" superActivities="_hQuBgItNEd6ICpAXmDeg7g" output="_hWerQItNEd6ICpAXmDeg7g" performedPrimarilyBy="_hQvPoItNEd6ICpAXmDeg7g _hQvPootNEd6ICpAXmDeg7g _hQuokYtNEd6ICpAXmDeg7g _hQuokotNEd6ICpAXmDeg7g _hQvPoYtNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_3evUcDvQEd6gtI8tb9yUjw"/>
+        <selectedSteps href="uma://-TeOVUZqp9aFq6PRZWOGpjw#_FsBZkD-iEd6BGMQMI2-1Sg"/>
+        <selectedSteps href="uma://-ZdyBJzoNpD8M1OpeXnzxYA#_4RUZ4D-fEd6BGMQMI2-1Sg"/>
+        <selectedSteps href="uma://-ZdyBJzoNpD8M1OpeXnzxYA#_YNVqkD-gEd6BGMQMI2-1Sg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQxr4otNEd6ICpAXmDeg7g" name="Create Event(EPC View)" guid="_hQxr4otNEd6ICpAXmDeg7g" presentationName="create an event" superActivities="_hQuBgItNEd6ICpAXmDeg7g" linkToPredecessor="_hQyS84tNEd6ICpAXmDeg7g _hQy6A4tNEd6ICpAXmDeg7g _hQzhFItNEd6ICpAXmDeg7g" output="_hWerQItNEd6ICpAXmDeg7g" performedPrimarilyBy="_hQvPoItNEd6ICpAXmDeg7g _hQvPootNEd6ICpAXmDeg7g _hQuokYtNEd6ICpAXmDeg7g _hQuokotNEd6ICpAXmDeg7g _hQvPoYtNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_6_J-cD4FEd6XGZEnLaWKkw"/>
+        <selectedSteps href="uma://-UsVdp1t568EPf4d7b74IGg#_mcHsMD-aEd6BGMQMI2-1Sg"/>
+        <selectedSteps href="uma://-UsVdp1t568EPf4d7b74IGg#_nmktID-aEd6BGMQMI2-1Sg"/>
+        <selectedSteps href="uma://-ZdyBJzoNpD8M1OpeXnzxYA#_4RUZ4D-fEd6BGMQMI2-1Sg"/>
+        <selectedSteps href="uma://-ZdyBJzoNpD8M1OpeXnzxYA#_YNVqkD-gEd6BGMQMI2-1Sg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQyS8ItNEd6ICpAXmDeg7g" name="New Task Descriptor" guid="_hQyS8ItNEd6ICpAXmDeg7g" presentationName="Create a function" superActivities="_hQuBgItNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQyS8YtNEd6ICpAXmDeg7g" name="New Task Descriptor_2" guid="_hQyS8YtNEd6ICpAXmDeg7g" presentationName="Create an event" superActivities="_hQuBgItNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQyS8otNEd6ICpAXmDeg7g" name="New Task Descriptor_3" guid="_hQyS8otNEd6ICpAXmDeg7g" presentationName="Create new AND connector element" superActivities="_hQuBgItNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_hQyS84tNEd6ICpAXmDeg7g" guid="_hQyS84tNEd6ICpAXmDeg7g" pred="_hQyS8otNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQy6AItNEd6ICpAXmDeg7g" name="New Task Descriptor_4" guid="_hQy6AItNEd6ICpAXmDeg7g" presentationName="Create a flow connection" superActivities="_hQuBgItNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQy6AYtNEd6ICpAXmDeg7g" name="New Task Descriptor_5" guid="_hQy6AYtNEd6ICpAXmDeg7g" presentationName="Create a flow connection" superActivities="_hQuBgItNEd6ICpAXmDeg7g" linkToPredecessor="_hQy6BItNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_hQy6AotNEd6ICpAXmDeg7g" guid="_hQy6AotNEd6ICpAXmDeg7g" pred="_hQxr4ItNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_hQy6A4tNEd6ICpAXmDeg7g" guid="_hQy6A4tNEd6ICpAXmDeg7g" pred="_hQwdwItNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_hQy6BItNEd6ICpAXmDeg7g" guid="_hQy6BItNEd6ICpAXmDeg7g" pred="_hQwdwYtNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQzhEItNEd6ICpAXmDeg7g" name="New Task Descriptor_6" guid="_hQzhEItNEd6ICpAXmDeg7g" presentationName="Create XOR closing connector Element" superActivities="_hQuBgItNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQzhEYtNEd6ICpAXmDeg7g" name="New Task Descriptor_7" guid="_hQzhEYtNEd6ICpAXmDeg7g" presentationName="Create a new closing OR" superActivities="_hQuBgItNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQzhEotNEd6ICpAXmDeg7g" name="New Task Descriptor_8" guid="_hQzhEotNEd6ICpAXmDeg7g" presentationName="Create a flow connection" superActivities="_hQuBgItNEd6ICpAXmDeg7g" linkToPredecessor="_hQzhE4tNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_hQzhE4tNEd6ICpAXmDeg7g" guid="_hQzhE4tNEd6ICpAXmDeg7g" pred="_hQxE0ItNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_hQzhFItNEd6ICpAXmDeg7g" guid="_hQzhFItNEd6ICpAXmDeg7g" pred="_hQzhEotNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_hWerQItNEd6ICpAXmDeg7g" name="Process_model" guid="_hWerQItNEd6ICpAXmDeg7g" presentationName="Process Model" isPlanned="false" superActivities="_hQuBgItNEd6ICpAXmDeg7g">
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_5CI4cFAqEd6NGfjlGBNnwA"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_HZm5YYi3Ed609piMjO-xvw" name="EPC_modelling" guid="_HZm5YYi3Ed609piMjO-xvw" presentationName="Create a EPC view" briefDescription="Creation of EPC models" breakdownElements="_hQuBgItNEd6ICpAXmDeg7g">
+      <presentation xmi:id="--DRsPMcPyN-r7Eoti3lK7Q" href="uma://--DRsPMcPyN-r7Eoti3lK7Q#--DRsPMcPyN-r7Eoti3lK7Q"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

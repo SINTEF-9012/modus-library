@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_y_6pEOHHEd-AyrTFSpVP8g" guid="_y_6pEOHHEd-AyrTFSpVP8g">
+    <subManagers xmi:id="_duNyoOXQEd-o7-eCfuNF5g" href="uma://_ds8nUOXQEd-o7-eCfuNF5g#_duNyoOXQEd-o7-eCfuNF5g"/>
+    <resourceDescriptors xmi:id="_65Nwoe6gEd6OKalzbxNDQw" id="-dPrZFR4zCwjoD30QcEcR7w" uri="tasks/choose_web_service_framework.xmi"/>
+    <resourceDescriptors xmi:id="_AcUM0O6hEd6OKalzbxNDQw" id="-sjiQj3Bd-gMC6OhGwxAYEA" uri="tasks/choose_web_service_server.xmi"/>
+    <resourceDescriptors xmi:id="_sIuIseKAEd-Knc6oCYT2Zw" id="-W7XUDvJdEFbkx1vxoJlUMA" uri="guidances/practices/saas_platform_deployment.xmi"/>
+    <resourceDescriptors xmi:id="_y8VxkeKAEd-Knc6oCYT2Zw" id="-tlBKAuQBZQKyBrP7JH0K2Q" uri="guidances/roadmaps/how_to_adopt_saas_platform_deployment.xmi"/>
+    <resourceDescriptors xmi:id="_5Ze0IOKAEd-Knc6oCYT2Zw" id="-bjEvkjIVYfrjmZ7dfip2HQ" uri="guidances/supportingmaterials/release_info_saas_platform_deployment.xmi"/>
+    <resourceDescriptors xmi:id="_RnOoIOXPEd-o7-eCfuNF5g" id="-tmam6MfkNjCoLcN3ZNbNCg" uri="tasks/choose_saas_platform.xmi"/>
+    <resourceDescriptors xmi:id="_dtINgOXQEd-o7-eCfuNF5g" id="_ds8nUOXQEd-o7-eCfuNF5g" uri="capabilitypatterns/saas_platform_deployment/model.xmi"/>
+    <resourceDescriptors xmi:id="_QP9BQOXREd-o7-eCfuNF5g" id="-32scDH8fCURzYaUzQu26PQ" uri="workproducts/saas_platform.xmi"/>
+    <resourceDescriptors xmi:id="_UlRbsOXREd-o7-eCfuNF5g" id="-kfD8nuxBBo1AQxNqWZqArg" uri="workproducts/web_service_framework.xmi"/>
+    <resourceDescriptors xmi:id="_YDBU8OXREd-o7-eCfuNF5g" id="-gqCM0clqNt8pGowWFf38MQ" uri="workproducts/web_service_server.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_y_ytQOHHEd-AyrTFSpVP8g" name="practice.platform.saas_platform_deployment.base-sintef" guid="_y_ytQOHHEd-AyrTFSpVP8g" authors="Brian Elvesæter (SINTEF)" changeDate="2010-11-01T16:58:46.018+0100">
+    <methodElementProperty xmi:id="_y_9sYOHHEd-AyrTFSpVP8g" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y_ytQeHHEd-AyrTFSpVP8g" name="Content" guid="_y_ytQeHHEd-AyrTFSpVP8g">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y_ytQuHHEd-AyrTFSpVP8g" name="Categories" guid="_y_ytQuHHEd-AyrTFSpVP8g">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y_ytQ-HHEd-AyrTFSpVP8g" name="Domains" guid="_y_ytQ-HHEd-AyrTFSpVP8g">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_nPGBEOXSEd-o7-eCfuNF5g" name="platform_realization_domain.assign" guid="_nPGBEOXSEd-o7-eCfuNF5g" variabilityType="contributes" workProducts="_4oTIkOXSEd-o7-eCfuNF5g">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_iESMoNxcEd-LYKXkOhPACw#_kv-mYOEIEd-QcdsL5iaWCQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y_ytROHHEd-AyrTFSpVP8g" name="Disciplines" guid="_y_ytROHHEd-AyrTFSpVP8g">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_i5GRMOXSEd-o7-eCfuNF5g" name="platform_realization_discipline.assign" guid="_i5GRMOXSEd-o7-eCfuNF5g" variabilityType="contributes" tasks="_CFQYAN_kEd6Mcf1pX1YeQA _3ez9wN_jEd6Mcf1pX1YeQA _67fgAN_jEd6Mcf1pX1YeQA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_iESMoNxcEd-LYKXkOhPACw#_J3wmwOEIEd-QcdsL5iaWCQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y_ytReHHEd-AyrTFSpVP8g" name="RoleSets" guid="_y_ytReHHEd-AyrTFSpVP8g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y_ytRuHHEd-AyrTFSpVP8g" name="WP Types" guid="_y_ytRuHHEd-AyrTFSpVP8g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y_ytR-HHEd-AyrTFSpVP8g" name="Tools" guid="_y_ytR-HHEd-AyrTFSpVP8g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y_ytSOHHEd-AyrTFSpVP8g" name="StandardCategories" guid="_y_ytSOHHEd-AyrTFSpVP8g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y_ytSeHHEd-AyrTFSpVP8g" name="CustomCategories" guid="_y_ytSeHHEd-AyrTFSpVP8g">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y_ytSuHHEd-AyrTFSpVP8g" name="Hidden" guid="_y_ytSuHHEd-AyrTFSpVP8g">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_y_ytS-HHEd-AyrTFSpVP8g" name="Custom Categories" guid="_y_ytS-HHEd-AyrTFSpVP8g"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y_ytTOHHEd-AyrTFSpVP8g" name="CoreContent" guid="_y_ytTOHHEd-AyrTFSpVP8g">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_nESFAN_jEd6Mcf1pX1YeQA" name="saas_platform_deployment" guid="_nESFAN_jEd6Mcf1pX1YeQA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3ez9wN_jEd6Mcf1pX1YeQA" name="choose_web_service_framework" guid="_3ez9wN_jEd6Mcf1pX1YeQA" presentationName="Choose Web service framework" briefDescription="This describes how to choose the Web service framework." output="_RpfAAOXREd-o7-eCfuNF5g">
+            <presentation xmi:id="-dPrZFR4zCwjoD30QcEcR7w" href="uma://-dPrZFR4zCwjoD30QcEcR7w#-dPrZFR4zCwjoD30QcEcR7w"/>
+            <performedBy href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_bdM20NxPEd-LYKXkOhPACw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_67fgAN_jEd6Mcf1pX1YeQA" name="choose_web_service_server" guid="_67fgAN_jEd6Mcf1pX1YeQA" presentationName="Choose Web service server" briefDescription="This describes how to choose the Web service server." output="_VSo4AOXREd-o7-eCfuNF5g">
+            <presentation xmi:id="-sjiQj3Bd-gMC6OhGwxAYEA" href="uma://-sjiQj3Bd-gMC6OhGwxAYEA#-sjiQj3Bd-gMC6OhGwxAYEA"/>
+            <performedBy href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_bdM20NxPEd-LYKXkOhPACw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CFQYAN_kEd6Mcf1pX1YeQA" name="choose_saas_platform" guid="_CFQYAN_kEd6Mcf1pX1YeQA" presentationName="Choose SaaS platform" briefDescription="&lt;TBD>" output="_VvBj8OXPEd-o7-eCfuNF5g">
+            <presentation xmi:id="-tmam6MfkNjCoLcN3ZNbNCg" href="uma://-tmam6MfkNjCoLcN3ZNbNCg#-tmam6MfkNjCoLcN3ZNbNCg"/>
+            <performedBy href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_bdM20NxPEd-LYKXkOhPACw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_m4T_AOKAEd-Knc6oCYT2Zw" name="how_to_adopt_saas_platform_deployment" guid="_m4T_AOKAEd-Knc6oCYT2Zw" presentationName="How to adopt the SaaS platform deployment practice" briefDescription="This roadmap describes how to adopt the SaaS platform deployment practice">
+            <presentation xmi:id="-tlBKAuQBZQKyBrP7JH0K2Q" href="uma://-tlBKAuQBZQKyBrP7JH0K2Q#-tlBKAuQBZQKyBrP7JH0K2Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_n85ogOKAEd-Knc6oCYT2Zw" name="saas_platform_deployment" guid="_n85ogOKAEd-Knc6oCYT2Zw" presentationName="SaaS platform deployment" briefDescription="This practice describes how to deploy software services on a Software-as-a-Service platform." contentReferences="_4oTIkOXSEd-o7-eCfuNF5g _VvBj8OXPEd-o7-eCfuNF5g _RpfAAOXREd-o7-eCfuNF5g _VSo4AOXREd-o7-eCfuNF5g _CFQYAN_kEd6Mcf1pX1YeQA _3ez9wN_jEd6Mcf1pX1YeQA _67fgAN_jEd6Mcf1pX1YeQA _11jmEOXQEd-o7-eCfuNF5g _m4T_AOKAEd-Knc6oCYT2Zw">
+            <presentation xmi:id="-W7XUDvJdEFbkx1vxoJlUMA" href="uma://-W7XUDvJdEFbkx1vxoJlUMA#-W7XUDvJdEFbkx1vxoJlUMA"/>
+            <activityReferences href="uma://_ds8nUOXQEd-o7-eCfuNF5g#_ds8nUeXQEd-o7-eCfuNF5g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_VvBj8OXPEd-o7-eCfuNF5g" name="saas_platform" guid="_VvBj8OXPEd-o7-eCfuNF5g" presentationName="SaaS platform" briefDescription="&lt;TBD>">
+            <presentation xmi:id="-32scDH8fCURzYaUzQu26PQ" href="uma://-32scDH8fCURzYaUzQu26PQ#-32scDH8fCURzYaUzQu26PQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_11jmEOXQEd-o7-eCfuNF5g" name="platform_specialist.assign" guid="_11jmEOXQEd-o7-eCfuNF5g" variabilityType="contributes" responsibleFor="_VvBj8OXPEd-o7-eCfuNF5g _RpfAAOXREd-o7-eCfuNF5g _VSo4AOXREd-o7-eCfuNF5g">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_bdM20NxPEd-LYKXkOhPACw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_RpfAAOXREd-o7-eCfuNF5g" name="web_service_framework" guid="_RpfAAOXREd-o7-eCfuNF5g" presentationName="Web service framework" briefDescription="&lt;TBD>">
+            <presentation xmi:id="-kfD8nuxBBo1AQxNqWZqArg" href="uma://-kfD8nuxBBo1AQxNqWZqArg#-kfD8nuxBBo1AQxNqWZqArg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_VSo4AOXREd-o7-eCfuNF5g" name="web_service_server" guid="_VSo4AOXREd-o7-eCfuNF5g" presentationName="Web service server" briefDescription="&lt;TBD>">
+            <presentation xmi:id="-gqCM0clqNt8pGowWFf38MQ" href="uma://-gqCM0clqNt8pGowWFf38MQ#-gqCM0clqNt8pGowWFf38MQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_4oTIkOXSEd-o7-eCfuNF5g" name="platform_realization_model.assign" guid="_4oTIkOXSEd-o7-eCfuNF5g" variabilityType="contributes" deliveredWorkProducts="_VvBj8OXPEd-o7-eCfuNF5g _RpfAAOXREd-o7-eCfuNF5g _VSo4AOXREd-o7-eCfuNF5g">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_yZo78OG2Ed-AyrTFSpVP8g"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gv7rgOKAEd-Knc6oCYT2Zw" name="release_info" guid="_gv7rgOKAEd-Knc6oCYT2Zw">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_0F1wQOKAEd-Knc6oCYT2Zw" name="release_info_saas_platform_deployment" guid="_0F1wQOKAEd-Knc6oCYT2Zw" presentationName="Practice: SaaS platform deployment" briefDescription="SaaS platform deployment release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-bjEvkjIVYfrjmZ7dfip2HQ" href="uma://-bjEvkjIVYfrjmZ7dfip2HQ#-bjEvkjIVYfrjmZ7dfip2HQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iY83wOKAEd-Knc6oCYT2Zw" name="tool_mentors" guid="_iY83wOKAEd-Knc6oCYT2Zw"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_y_ytTeHHEd-AyrTFSpVP8g" name="CapabilityPatterns" guid="_y_ytTeHHEd-AyrTFSpVP8g">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cNSycOXQEd-o7-eCfuNF5g" name="saas_platform_deployment" guid="_cNSycOXQEd-o7-eCfuNF5g">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_ds8nUOXQEd-o7-eCfuNF5g" href="uma://_ds8nUOXQEd-o7-eCfuNF5g#_ds8nUOXQEd-o7-eCfuNF5g"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_y_ytTuHHEd-AyrTFSpVP8g" name="DeliveryProcesses" guid="_y_ytTuHHEd-AyrTFSpVP8g"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_y_ytT-HHEd-AyrTFSpVP8g" name="ProcessContributions" guid="_y_ytT-HHEd-AyrTFSpVP8g"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_yLWzUNxbEd-LYKXkOhPACw#_yLWzUNxbEd-LYKXkOhPACw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

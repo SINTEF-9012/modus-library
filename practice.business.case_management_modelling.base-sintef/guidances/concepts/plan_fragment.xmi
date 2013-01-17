@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-N3dqjOWUQVw_u6Kt4VjquA" name="new_concept,_aNE_EJynEeCb2cFFaexWpQ" guid="-N3dqjOWUQVw_u6Kt4VjquA" changeDate="2011-08-12T16:15:22.644+0200">
+  <mainDescription>&lt;p>&#xD;
+    A plan fragment is a group of plannable elements in a frequently occurring pattern. Plan fragments can be grouped by&#xD;
+    plan fragment folders. Folders can contain sub-folders.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Plan fragments are normally mutable upon inclusion in plan. A plan fragment can be designated as immutable.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Plan fragments may reflect best practice or compliance-driven control. A compliance-driven control will typically be&#xD;
+    immutable.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A plan fragment can contain:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Task nodes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Event nodes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Dependencies on tasks&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Dependencies on plan events&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Dependencies on phases.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    A Plan fragment cannot contain folders of tasks nor can it contain plan fragments or folders of them.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The “boundary” of a plan fragment, though defined in design-time, has no meaning in run-time. This distinguishes a plan&#xD;
+    fragment from a “complex task”.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

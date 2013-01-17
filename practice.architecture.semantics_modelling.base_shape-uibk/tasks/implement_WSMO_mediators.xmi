@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-3h5-qbRWTuM0usctNdUMCg" name=",_bZSlkKkREd6RxrScOu9Dlg" guid="-3h5-qbRWTuM0usctNdUMCg" authors="Mick Kerrigan, Davide Cerri (UIBK)" changeDate="2009-09-25T10:30:10.297+0200" version="0.1">
+  <mainDescription>This activity should be performed for each&amp;nbsp;mediator. The aim of this activity is to create mediators of the correct&#xD;
+type and to link the source and target of these mediators to Semantic Web Service artifacts.</mainDescription>
+  <sections xmi:id="_hml1UKkREd6RxrScOu9Dlg" name="Create mediator" guid="_hml1UKkREd6RxrScOu9Dlg">
+    <sectionDescription>The aim of this&amp;nbsp;step is to create a new mediator of the correct type. The type of mediator that should be created&#xD;
+depends upon the intended source and target of that mediator, i.e. an ooMediator should be created between two ontologies,&#xD;
+a ggMediator between two Goals, a wwMediator between two Web Services, and a wgMediator between a Web Service and a&lt;br />&#xD;
+Goal. In the case of a ggMediator, a wwMediator, or wgMediator, if a specific relationship between the source and the&#xD;
+target was identified during the the requirements phase, then the new mediator should be annotated with this information&#xD;
+using the ontolgoies mandated by the mediator-based discovery broker service.</sectionDescription>
+  </sections>
+  <sections xmi:id="_kCFAUKkREd6RxrScOu9Dlg" name="Link mediator to source(s)" guid="_kCFAUKkREd6RxrScOu9Dlg">
+    <sectionDescription>In this&amp;nbsp;step the Semantic Web Service engineer should link the mediator to the source Semantic Web Service artifact by&#xD;
+specifying the identifier of this artifact in the source slot of the mediator.</sectionDescription>
+  </sections>
+  <sections xmi:id="_lNJFQKkREd6RxrScOu9Dlg" name="Link mediator to target" guid="_lNJFQKkREd6RxrScOu9Dlg">
+    <sectionDescription>In this&amp;nbsp;step the Semantic Web Service engineer should link the mediator to the target Semantic Web Service artifact by&#xD;
+specifying the identifier of this artifact in the target slot of the mediator.</sectionDescription>
+  </sections>
+  <purpose>Producing&amp;nbsp;WSMO&amp;nbsp;mediator descriptions, refining the WSMO model.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

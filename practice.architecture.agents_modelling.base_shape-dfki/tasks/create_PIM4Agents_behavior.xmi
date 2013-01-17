@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-kwTTMduY-w5wJ76NoYaCGA" name=",_O-_kwHwyEd6zE6DaMH4mBQ" guid="-kwTTMduY-w5wJ76NoYaCGA" authors="Christian Hahn" changeDate="2009-07-29T13:27:42.020+0200" changeDescription="Initial input" version="0.1">
+  <mainDescription>A Plan in PIM4Agents is a workflow-like structure consisting of Activities like sending a Message and ControlFlows defining&#xD;
+the order in which these Activities are executed.</mainDescription>
+  <sections xmi:id="_Awj6sHwzEd6zE6DaMH4mBQ" name="Define pre-/postconditions" guid="_Awj6sHwzEd6zE6DaMH4mBQ">
+    <sectionDescription>&lt;p>&#xD;
+    The pre-conditions are exchanged when a Plan should be executed, if the condition do not terminate to true, the Plan is&#xD;
+    not executed. The post-conditions should hold when a Plan is executed.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_CSUBUHwzEd6zE6DaMH4mBQ" name="Define Activities" guid="_CSUBUHwzEd6zE6DaMH4mBQ">
+    <sectionDescription>&lt;p>&#xD;
+    Activities define how a certain objective of a Plan is reached.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Two&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>&amp;nbsp;specializations of an&lt;/font>&lt;/font>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Activity are distinguished:&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>A&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>StructuredActivity&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot;>&lt;font size=&quot;2&quot;>is an abstract class that introduces more complex control structures into the behavioral view.&#xD;
+    It inherits from&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Activity&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>, but&#xD;
+    additionally owns a set of&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Activities&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>and&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Flows&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>.&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>A&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Sequence&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>as a specialization of a&lt;/font>&lt;/font>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>StructuredActivity&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>denotes a list&#xD;
+    of&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Activities&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>to be executed in&#xD;
+    a sequential manner as defined by contained&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>ControlFlows&lt;/font>&lt;/font>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>through their&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>sink&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot;>&lt;font size=&quot;2&quot;>and&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>source&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>attributes. Beside using the concept of&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>Sequence&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>, a sequence of&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>Activities&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>can additionally be directly described by linking the&#xD;
+    particular&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Activities&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>through&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>ControlFlows&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>.&#xD;
+    However, the concept of&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Sequence&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>allows hiding the concrete trace which might be important when designing complex&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Plans&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>as scalability is improved. A&lt;/font>&lt;/font>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Split&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>is an abstract class that defines a&#xD;
+    point in a&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Plan&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>where a single&#xD;
+    thread of control splits into multiple threads of control. We distinguish between&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>Parallel&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>and&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>Decision&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>as specializations. A&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>Parallel&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>is a point in a&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>Plan&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>, where a single thread of control splits into multiple&#xD;
+    threads of control which are executed in parallel. Thus a&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>Parallel&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>allows&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>Activities&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>to be executed simultaneously or in any order. How the&#xD;
+    different threads are synchronized is defined by a&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>SynchronizationMode&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>. Feasible options are XOR (i.e. exactly one&#xD;
+    path is synchronized), AND (i.e. all paths are synchronized),&amp;nbsp; and NofM (i.e. n of m paths are synchronized).&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>In contrast to a&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Parallel&lt;/font>&lt;/font>&lt;font&#xD;
+    size=&quot;2&quot;>&lt;font size=&quot;2&quot;>, a&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Decision&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>in&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Dsml4mas&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>is a point&#xD;
+    in a&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Plan&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>where, based on&#xD;
+    a&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Condition&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>, at least&#xD;
+    one&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Activity&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>of a number of&#xD;
+    branching&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Activities&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>must be&#xD;
+    chosen. A&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Decision&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>can either&#xD;
+    be executed in an XOR or OR manner. In contrast, a&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Loop&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot;>&lt;font size=&quot;2&quot;>is a point in a&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Plan&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot;>&lt;font size=&quot;2&quot;>where a set of&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Activities&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot;>&lt;font size=&quot;2&quot;>are executed repeatedly until a certain pre-defined&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>Condition&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>evaluates to false. It allows looping that is block&#xD;
+    structured, i.e. patterns allow exactly one entry and exit point. A&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>ParallelLoop&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>as a specialization of&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Loop&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>and&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>Parallel&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>allows specifying iterations in the form that each trace&#xD;
+    is executed in parallel.&lt;/font>&lt;/font>&lt;/font>&lt;/font>&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Like a&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot;>&lt;font size=&quot;2&quot;>StructuredActivity&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>, a&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Task&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>is an abstract class that inherits&#xD;
+    from&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Activity&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>. Unlike&#xD;
+    a&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>StructuredActivity&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>,&#xD;
+    a&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Task&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>mainly focuses on atomic&#xD;
+    activities and thus does not contain any&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Activities&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot;>&lt;font size=&quot;2&quot;>or&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Flows&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>.&amp;nbsp;&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>A&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>Send&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>activity specifies that the referred&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Message&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>is sent, whereas the&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Receive&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>activity denotes that the&#xD;
+    particular&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Message&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>is received.&#xD;
+    Moreover, the&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>AssignRole&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>activity allows to assign&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>AgentInstances&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot;>&lt;font size=&quot;2&quot;>to&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Roles&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>(i.e.&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Actors&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>).&#xD;
+    Finally, an&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>InternalTask&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>can be&#xD;
+    used to define code.&lt;/font>&lt;/font>&lt;/font>&lt;/font>&lt;/font>&lt;/font>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_DO9PwHwzEd6zE6DaMH4mBQ" name="Define Workflow connceting Activities" guid="_DO9PwHwzEd6zE6DaMH4mBQ">
+    <sectionDescription>Two sorts of flows are distinguished in PIM4Agents. On the one hand, ControlFlow specifies the execution order, whereas on&#xD;
+the other hand the InformationFlow defines the information that is sent from Activitiy to Activity. Both kinds of flows&#xD;
+excatly connect one source activity with one target activity.</sectionDescription>
+  </sections>
+  <purpose>Create the Plans that define in which manner an Agent/Organization behaves</purpose>
+</org.eclipse.epf.uma:TaskDescription>

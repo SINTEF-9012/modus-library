@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ftbfVwPAc0jHMvLpjeWRng" name=",_IkFgIHzdEd6XdpY1gOeKuQ" guid="-ftbfVwPAc0jHMvLpjeWRng" authors="Christian Hahn" changeDate="2009-07-30T09:47:32.905+0200" changeDescription="Initial input" version="0.1">
+  <mainDescription>Roles are used in PIM4Agents as a kind of interface an Agent could have. Relationships (e.g. generalizations, aggregation)&#xD;
+between DomainRoles can be expressed.</mainDescription>
+  <sections xmi:id="_xttv4HzdEd6XdpY1gOeKuQ" name="Create DomainRoles" guid="_xttv4HzdEd6XdpY1gOeKuQ">
+    <sectionDescription>Define name of the domain role</sectionDescription>
+  </sections>
+  <sections xmi:id="_y6KU4HzdEd6XdpY1gOeKuQ" name="Define relationships between DomainRoles" guid="_y6KU4HzdEd6XdpY1gOeKuQ">
+    <sectionDescription>&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Define if the domain role is a generalization of another domain role&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specify the domain roles, the domain role has conflicts with&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></sectionDescription>
+  </sections>
+  <sections xmi:id="_01_IYHzdEd6XdpY1gOeKuQ" name="Define the Behaviors a DomainRole requires/provides" guid="_01_IYHzdEd6XdpY1gOeKuQ">
+    <sectionDescription>&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Define the Capabilities the domain roles provides to the agent performing this role&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Define the Capabilities the domain roles required&amp;nbsp;from the agent performing this role&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></sectionDescription>
+  </sections>
+  <sections xmi:id="_hv_qQKLBEd6MnJuyPADf4Q" name="Define the Resources a DomainRole requires/provides" guid="_hv_qQKLBEd6MnJuyPADf4Q">
+    <sectionDescription>&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Define the Resources the domain roles provides to the agent performing this role&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Define the&amp;nbsp;Resources the domain roles required&amp;nbsp;from the agent performing this role&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></sectionDescription>
+  </sections>
+  <purpose>Create the roles (i.e. DomainRoles) of the MAS</purpose>
+</org.eclipse.epf.uma:TaskDescription>

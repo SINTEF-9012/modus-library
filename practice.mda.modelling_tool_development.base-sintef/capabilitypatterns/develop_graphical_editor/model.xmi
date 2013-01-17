@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_LtMSwSXZEd-wiJ8m5XAddw" guid="_LtMSwSXZEd-wiJ8m5XAddw">
+    <resourceDescriptors xmi:id="_LtMSwiXZEd-wiJ8m5XAddw" id="-c76WbG3TrEo_mxIm2LeKgQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_LsS64CXZEd-wiJ8m5XAddw" name="develop_graphical_editor" guid="_LsS64CXZEd-wiJ8m5XAddw">
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_53mNUd27Ed-ms9NsV3fnQQ" name="language_engineer" guid="_53mNUd27Ed-ms9NsV3fnQQ" presentationName="Language engineer" isPlanned="false" superActivities="_LsS64SXZEd-wiJ8m5XAddw" modifies="_Sk_mAVYfEeCmC7fuNTHhhQ">
+      <methodElementProperty xmi:id="_53mNUt27Ed-ms9NsV3fnQQ" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_I4PvwBoYEd6Vpr8V6Jy-eA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Sk-X4VYfEeCmC7fuNTHhhQ" name="dsl_domain_model" guid="_Sk-X4VYfEeCmC7fuNTHhhQ" presentationName="DSL domain model" isPlanned="false" superActivities="_LsS64SXZEd-wiJ8m5XAddw">
+      <methodElementProperty xmi:id="_Sk-X4lYfEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_C7QigLzIEd-GWpfvmLDtFA#_fMcrUCXaEd-wiJ8m5XAddw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Sk_mAVYfEeCmC7fuNTHhhQ" name="dsl_abstract_syntax_metamodel" guid="_Sk_mAVYfEeCmC7fuNTHhhQ" presentationName="DSL abstract syntax (metamodel)" briefDescription="A language metamodel, e.g., EMF metamodel." isPlanned="false" superActivities="_LsS64SXZEd-wiJ8m5XAddw">
+      <methodElementProperty xmi:id="_Sk_mAlYfEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_C7QigLzIEd-GWpfvmLDtFA#_BthqgB0CEd65QJax4GT0MQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_GhJVcFYmEeCmC7fuNTHhhQ" name="diagram_definition_model" guid="_GhJVcFYmEeCmC7fuNTHhhQ" presentationName="Diagram Definition Model" isPlanned="false" superActivities="_LsS64SXZEd-wiJ8m5XAddw">
+      <methodElementProperty xmi:id="_GhJVcVYmEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_FzYp8Mb_Ed-2_-I8Ok7trA#_elM9wCXdEd-wiJ8m5XAddw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_GhPcEVYmEeCmC7fuNTHhhQ" name="diagram_mapping_model" guid="_GhPcEVYmEeCmC7fuNTHhhQ" presentationName="Diagram Mapping Model" isPlanned="false" superActivities="_LsS64SXZEd-wiJ8m5XAddw">
+      <methodElementProperty xmi:id="_GhPcElYmEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_FzYp8Mb_Ed-2_-I8Ok7trA#_BDBc0CXeEd-wiJ8m5XAddw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_GhVisVYmEeCmC7fuNTHhhQ" name="basic_graphical_modelling_editor" guid="_GhVisVYmEeCmC7fuNTHhhQ" presentationName="Basic Graphical Modelling Editor" isPlanned="false" superActivities="_LsS64SXZEd-wiJ8m5XAddw">
+      <methodElementProperty xmi:id="_GhVislYmEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_FzYp8Mb_Ed-2_-I8Ok7trA#_bHZIMCXfEd-wiJ8m5XAddw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_U3a3cFYmEeCmC7fuNTHhhQ" name="create_diagram_definition_model" guid="_U3a3cFYmEeCmC7fuNTHhhQ" presentationName="Create diagram definition model" briefDescription="Create a diagram definition model, this model defines graphical elements to be displayed in the editor." superActivities="_LsS64SXZEd-wiJ8m5XAddw" output="_GhJVcFYmEeCmC7fuNTHhhQ" performedPrimarilyBy="_U3cFkFYmEeCmC7fuNTHhhQ">
+      <Task href="uma://_FzYp8Mb_Ed-2_-I8Ok7trA#_Gmh-ICXdEd-wiJ8m5XAddw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_U3begFYmEeCmC7fuNTHhhQ" name="create_diagram_mapping_model" guid="_U3begFYmEeCmC7fuNTHhhQ" presentationName="Create diagram mapping model" briefDescription="Create a diagram mapping model, this model defines mapping between domain model elements and graphical elements" superActivities="_LsS64SXZEd-wiJ8m5XAddw" linkToPredecessor="_fMUOsFYmEeCmC7fuNTHhhQ" mandatoryInput="_GhJVcFYmEeCmC7fuNTHhhQ" output="_GhPcEVYmEeCmC7fuNTHhhQ" performedPrimarilyBy="_U3cFkFYmEeCmC7fuNTHhhQ">
+      <Task href="uma://_FzYp8Mb_Ed-2_-I8Ok7trA#_9DBLECXdEd-wiJ8m5XAddw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_U3begVYmEeCmC7fuNTHhhQ" name="customize_graphical_modelling_editor" guid="_U3begVYmEeCmC7fuNTHhhQ" presentationName="Customize graphical modelling editor" briefDescription="Enhance the graphical editor by editing the generated plug-in code" superActivities="_LsS64SXZEd-wiJ8m5XAddw" linkToPredecessor="_lV6DIFYmEeCmC7fuNTHhhQ" output="_U3csoFYmEeCmC7fuNTHhhQ" performedPrimarilyBy="_U3cFkFYmEeCmC7fuNTHhhQ">
+      <Task href="uma://_FzYp8Mb_Ed-2_-I8Ok7trA#_lb9IQCXfEd-wiJ8m5XAddw"/>
+      <selectedSteps href="uma://-VuJasq6CtIAXL-BJ4DjNlg#_yYgzYCXhEd-wiJ8m5XAddw"/>
+      <selectedSteps href="uma://-VuJasq6CtIAXL-BJ4DjNlg#_ypXS0CXhEd-wiJ8m5XAddw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_U3beg1YmEeCmC7fuNTHhhQ" name="generate_basic_graphical_modelling_editor" guid="_U3beg1YmEeCmC7fuNTHhhQ" presentationName="Generate basic graphical modelling editor" briefDescription="Generate the graphical editor" superActivities="_LsS64SXZEd-wiJ8m5XAddw" linkToPredecessor="_ios2AFYmEeCmC7fuNTHhhQ" mandatoryInput="_GhJVcFYmEeCmC7fuNTHhhQ _GhPcEVYmEeCmC7fuNTHhhQ" output="_GhVisVYmEeCmC7fuNTHhhQ" performedPrimarilyBy="_U3cFkFYmEeCmC7fuNTHhhQ">
+      <Task href="uma://_FzYp8Mb_Ed-2_-I8Ok7trA#_VqQKECXfEd-wiJ8m5XAddw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_U3cFkFYmEeCmC7fuNTHhhQ" name="editor_developer" guid="_U3cFkFYmEeCmC7fuNTHhhQ" presentationName="Editor developer" isPlanned="false" superActivities="_LsS64SXZEd-wiJ8m5XAddw" modifies="_GhJVcFYmEeCmC7fuNTHhhQ _GhPcEVYmEeCmC7fuNTHhhQ _U3csoFYmEeCmC7fuNTHhhQ _GhVisVYmEeCmC7fuNTHhhQ">
+      <methodElementProperty xmi:id="_U3cFkVYmEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_MHE4wCXhEd-wiJ8m5XAddw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_U3csoFYmEeCmC7fuNTHhhQ" name="customized_graphical_modelling_editor" guid="_U3csoFYmEeCmC7fuNTHhhQ" presentationName="Customized Graphical Modelling Editor" isPlanned="false" superActivities="_LsS64SXZEd-wiJ8m5XAddw">
+      <methodElementProperty xmi:id="_U3csoVYmEeCmC7fuNTHhhQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_FzYp8Mb_Ed-2_-I8Ok7trA#_p6DrQCXfEd-wiJ8m5XAddw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_fMUOsFYmEeCmC7fuNTHhhQ" guid="_fMUOsFYmEeCmC7fuNTHhhQ" pred="_U3a3cFYmEeCmC7fuNTHhhQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_ios2AFYmEeCmC7fuNTHhhQ" guid="_ios2AFYmEeCmC7fuNTHhhQ" pred="_U3begFYmEeCmC7fuNTHhhQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_lV6DIFYmEeCmC7fuNTHhhQ" guid="_lV6DIFYmEeCmC7fuNTHhhQ" pred="_U3beg1YmEeCmC7fuNTHhhQ"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_LsS64SXZEd-wiJ8m5XAddw" name="develop_graphical_editor" guid="_LsS64SXZEd-wiJ8m5XAddw" presentationName="Develop graphical editor" breakdownElements="_VrkOICXeEd-wiJ8m5XAddw _53mNUd27Ed-ms9NsV3fnQQ _Sk-X4VYfEeCmC7fuNTHhhQ _Sk_mAVYfEeCmC7fuNTHhhQ _GhJVcFYmEeCmC7fuNTHhhQ _GhPcEVYmEeCmC7fuNTHhhQ _GhVisVYmEeCmC7fuNTHhhQ _U3a3cFYmEeCmC7fuNTHhhQ _U3begFYmEeCmC7fuNTHhhQ _U3beg1YmEeCmC7fuNTHhhQ _U3begVYmEeCmC7fuNTHhhQ _U3cFkFYmEeCmC7fuNTHhhQ _U3csoFYmEeCmC7fuNTHhhQ">
+      <methodElementProperty xmi:id="_kBYGQNeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-c76WbG3TrEo_mxIm2LeKgQ" href="uma://-c76WbG3TrEo_mxIm2LeKgQ#-c76WbG3TrEo_mxIm2LeKgQ"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_tQn-IFX-EeCmC7fuNTHhhQ"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_tQn-IFX-EeCmC7fuNTHhhQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

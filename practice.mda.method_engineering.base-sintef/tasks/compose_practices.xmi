@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-TRityYvo6c9unSm3RBfgRg" name="compose_practices,_ZRW1ENeTEd-Mq_S1iaxctg" guid="-TRityYvo6c9unSm3RBfgRg" changeDate="2011-06-14T12:36:38.338+0200">
+  <mainDescription>This task describes how to compose practices into a customized method.</mainDescription>
+  <sections xmi:id="_T6ZGEJZyEeCsnZfHiYhT2A" name="1. Create a process method plugin." guid="_T6ZGEJZyEeCsnZfHiYhT2A">
+    <sectionDescription>&lt;p>&#xD;
+    Create a method plugin with the following name:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>process.[method_name].base-[organization_name]&lt;/strong>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Enter&amp;nbsp;the following information:&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Brief description&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Authors&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Copyright&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_socUMJZyEeCsnZfHiYhT2A" name="2. Create a configuration file." guid="_socUMJZyEeCsnZfHiYhT2A">
+    <sectionDescription>&lt;p>&#xD;
+    Create a configuration file with the following name:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>publish.[name of method].method&lt;/strong>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    This configuration file will be used for botht he process and publish method plugins.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_UrA_0JZ0EeCsnZfHiYhT2A" name="3. Create a delivery process." guid="_UrA_0JZ0EeCsnZfHiYhT2A">
+    <sectionDescription>Create a delivery process for your method. Associate the configuration file with your delivery process.</sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To compose practices into a customized method.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

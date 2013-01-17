@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_ZrUSsLSiEeGOSY51NyhYZA" guid="_ZrUSsLSiEeGOSY51NyhYZA">
+    <resourceDescriptors xmi:id="_IEKAsbYAEeGFxaC4r7U9rA" id="-9ok_lnzAb8johcOYk3ZR0A" uri="tools/neffics_business_model_canvas.xmi"/>
+    <resourceDescriptors xmi:id="_VW5pIbYAEeGFxaC4r7U9rA" id="-RUu5zdbD8ZUZ9jzUqZxSkg" uri="tools/neffics_service_modelling_editor.xmi"/>
+    <resourceDescriptors xmi:id="_7KuZ0Lb0EeGSldvlqRCwfg" id="-tAh1WOvaDsYe8NRVwKgQoQ" uri="tools/neffics_platform.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_ZrOMELSiEeGOSY51NyhYZA" name="core.default.tool_def.extend_neffics-sintef" guid="_ZrOMELSiEeGOSY51NyhYZA" changeDate="2012-06-12T17:24:42.096+0200">
+    <methodElementProperty xmi:id="_ZrUSsrSiEeGOSY51NyhYZA" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_u3t_ALSiEeGOSY51NyhYZA" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ZrOMEbSiEeGOSY51NyhYZA" name="Content" guid="_ZrOMEbSiEeGOSY51NyhYZA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ZrOMErSiEeGOSY51NyhYZA" name="Categories" guid="_ZrOMErSiEeGOSY51NyhYZA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ZrOME7SiEeGOSY51NyhYZA" name="Domains" guid="_ZrOME7SiEeGOSY51NyhYZA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ZrOMFLSiEeGOSY51NyhYZA" name="Disciplines" guid="_ZrOMFLSiEeGOSY51NyhYZA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ZrOMFbSiEeGOSY51NyhYZA" name="RoleSets" guid="_ZrOMFbSiEeGOSY51NyhYZA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ZrOMFrSiEeGOSY51NyhYZA" name="WP Types" guid="_ZrOMFrSiEeGOSY51NyhYZA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ZrOMF7SiEeGOSY51NyhYZA" name="Tools" guid="_ZrOMF7SiEeGOSY51NyhYZA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_TUIRsLSjEeGOSY51NyhYZA" name="neffics_business_model_canvas" guid="_TUIRsLSjEeGOSY51NyhYZA" presentationName="NEFFICS Business Model Canvas" briefDescription="NEFFICS Business Model Canvas">
+            <methodElementProperty xmi:id="_V3SyALSjEeGOSY51NyhYZA" name="me_edited" value="true"/>
+            <presentation xmi:id="-9ok_lnzAb8johcOYk3ZR0A" href="uma://-9ok_lnzAb8johcOYk3ZR0A#-9ok_lnzAb8johcOYk3ZR0A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_hPs4kLX_EeGFxaC4r7U9rA" name="neffics_service_modelling_editor" guid="_hPs4kLX_EeGFxaC4r7U9rA" presentationName="NEFFICS Service Modelling Editor" briefDescription="NEFFICS Service Modelling Editor">
+            <methodElementProperty xmi:id="_ix5EELX_EeGFxaC4r7U9rA" name="me_edited" value="true"/>
+            <presentation xmi:id="-RUu5zdbD8ZUZ9jzUqZxSkg" href="uma://-RUu5zdbD8ZUZ9jzUqZxSkg#-RUu5zdbD8ZUZ9jzUqZxSkg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_dMymcLb0EeGSldvlqRCwfg" name="neffics_platform" guid="_dMymcLb0EeGSldvlqRCwfg" presentationName="NEFFICS Platform" briefDescription="NEFFICS Platform">
+            <methodElementProperty xmi:id="_fhAr0Lb0EeGSldvlqRCwfg" name="me_edited" value="true"/>
+            <presentation xmi:id="-tAh1WOvaDsYe8NRVwKgQoQ" href="uma://-tAh1WOvaDsYe8NRVwKgQoQ#-tAh1WOvaDsYe8NRVwKgQoQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_hmpioLb0EeGSldvlqRCwfg" name="neffics_innovation_community" guid="_hmpioLb0EeGSldvlqRCwfg" presentationName="NEFFICS Innovation Community" briefDescription="NEFFICS Innovation Community">
+            <methodElementProperty xmi:id="_kkDu8Lb0EeGSldvlqRCwfg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_mPjncLb0EeGSldvlqRCwfg" name="neffics_business_operations_platform" guid="_mPjncLb0EeGSldvlqRCwfg" presentationName="NEFFICS Business Operations Platform" briefDescription="NEFFICS Business Operations Platform">
+            <methodElementProperty xmi:id="_pC7uALb0EeGSldvlqRCwfg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_MZ2doCdWEeKDGNEPRzZzCg" name="neffics_methodology_wiki" guid="_MZ2doCdWEeKDGNEPRzZzCg" presentationName="NEFFICS Methodology Wiki" briefDescription="NEFFICS Methodology Wiki">
+            <methodElementProperty xmi:id="_O_lJwCdWEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_QYFegCmrEeK5vc5kbcw8xg" name="other_tools" guid="_QYFegCmrEeK5vc5kbcw8xg" presentationName="Other Tools" briefDescription="Other Tools">
+            <methodElementProperty xmi:id="_SY44oCmrEeK5vc5kbcw8xg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ZrOMGLSiEeGOSY51NyhYZA" name="StandardCategories" guid="_ZrOMGLSiEeGOSY51NyhYZA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ZrOMGbSiEeGOSY51NyhYZA" name="CustomCategories" guid="_ZrOMGbSiEeGOSY51NyhYZA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ZrOMGrSiEeGOSY51NyhYZA" name="Hidden" guid="_ZrOMGrSiEeGOSY51NyhYZA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_ZrOMG7SiEeGOSY51NyhYZA" name="Custom Categories" guid="_ZrOMG7SiEeGOSY51NyhYZA"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ZrOMHLSiEeGOSY51NyhYZA" name="CoreContent" guid="_ZrOMHLSiEeGOSY51NyhYZA"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ZrOMHbSiEeGOSY51NyhYZA" name="CapabilityPatterns" guid="_ZrOMHbSiEeGOSY51NyhYZA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ZrOMHrSiEeGOSY51NyhYZA" name="DeliveryProcesses" guid="_ZrOMHrSiEeGOSY51NyhYZA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ZrOMH7SiEeGOSY51NyhYZA" name="ProcessContributions" guid="_ZrOMH7SiEeGOSY51NyhYZA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

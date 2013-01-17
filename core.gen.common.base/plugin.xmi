@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_GW9SsLzbEd-qYdL40d8iFQ" guid="_GW9SsLzbEd-qYdL40d8iFQ">
+    <resourceDescriptors xmi:id="_GW9SsrzbEd-qYdL40d8iFQ" id="-iOn7_gfX_iELWRNGJ2JKPQ" uri="workproducts/glossary.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_ji3-gEMXEdyP_Jn83ylwUQ" name="core.gen.common.base" guid="_ji3-gEMXEdyP_Jn83ylwUQ" presentationName="General Common" briefDescription="This plug-in defines &quot;general&quot; work products and guidance shared across practices.  &quot;General&quot; is a context category for work products that are general purpose and don't fit in one of the more specific contexts." changeDate="2008-02-11T10:00:03.000+0100" supporting="true">
+    <methodElementProperty xmi:id="_kDJn4deMEd-Mq_S1iaxctg" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ji3-gUMXEdyP_Jn83ylwUQ" name="Content" guid="_ji3-gUMXEdyP_Jn83ylwUQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ji3-gkMXEdyP_Jn83ylwUQ" name="Categories" guid="_ji3-gkMXEdyP_Jn83ylwUQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ji3-g0MXEdyP_Jn83ylwUQ" name="Domains" guid="_ji3-g0MXEdyP_Jn83ylwUQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ji3-hEMXEdyP_Jn83ylwUQ" name="Disciplines" guid="_ji3-hEMXEdyP_Jn83ylwUQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ji3-hUMXEdyP_Jn83ylwUQ" name="RoleSets" guid="_ji3-hUMXEdyP_Jn83ylwUQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ji3-hkMXEdyP_Jn83ylwUQ" name="WP Types" guid="_ji3-hkMXEdyP_Jn83ylwUQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ji3-h0MXEdyP_Jn83ylwUQ" name="Tools" guid="_ji3-h0MXEdyP_Jn83ylwUQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ji3-iEMXEdyP_Jn83ylwUQ" name="StandardCategories" guid="_ji3-iEMXEdyP_Jn83ylwUQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ji3-iUMXEdyP_Jn83ylwUQ" name="CustomCategories" guid="_ji3-iUMXEdyP_Jn83ylwUQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ji3-ikMXEdyP_Jn83ylwUQ" name="Hidden" guid="_ji3-ikMXEdyP_Jn83ylwUQ"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ji3-jEMXEdyP_Jn83ylwUQ" name="CoreContent" guid="_ji3-jEMXEdyP_Jn83ylwUQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_r7UQIEMXEdyP_Jn83ylwUQ" name="general_work_products" guid="_r7UQIEMXEdyP_Jn83ylwUQ" presentationName="General work products">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Wn7HcNcEEdqz_d2XWoVt6Q" name="glossary" guid="_Wn7HcNcEEdqz_d2XWoVt6Q" presentationName="Glossary" briefDescription="This artifact defines important terms used by the project. The collection of terms clarifies the vocabulary used on the project.">
+            <presentation xmi:id="-iOn7_gfX_iELWRNGJ2JKPQ" href="uma://-iOn7_gfX_iELWRNGJ2JKPQ#-iOn7_gfX_iELWRNGJ2JKPQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ji3-jUMXEdyP_Jn83ylwUQ" name="CapabilityPatterns" guid="_ji3-jUMXEdyP_Jn83ylwUQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ji3-jkMXEdyP_Jn83ylwUQ" name="DeliveryProcesses" guid="_ji3-jkMXEdyP_Jn83ylwUQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ji3-j0MXEdyP_Jn83ylwUQ" name="ProcessContributions" guid="_ji3-j0MXEdyP_Jn83ylwUQ"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_q7zbkMXgEd21Z6UWTrQe3A" guid="_q7zbkMXgEd21Z6UWTrQe3A">
+    <resourceDescriptors xmi:id="_q7zbkcXgEd21Z6UWTrQe3A" id="-TOTwVnmpPua_ECdMZOcj_Q" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_q66DsMXgEd21Z6UWTrQe3A" name="Design_time_services_composition" guid="_q66DsMXgEd21Z6UWTrQe3A">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_06xmIMXgEd21Z6UWTrQe3A" name="Select the Best Architecture" guid="_06xmIMXgEd21Z6UWTrQe3A" presentationName="Select the Best Architecture " superActivities="_q66DscXgEd21Z6UWTrQe3A" additionallyPerformedBy="_06xmIsXgEd21Z6UWTrQe3A" mandatoryInput="_06xmI8XgEd21Z6UWTrQe3A _06xmJMXgEd21Z6UWTrQe3A" output="_06xmJcXgEd21Z6UWTrQe3A" performedPrimarilyBy="_06xmIcXgEd21Z6UWTrQe3A">
+      <methodElementProperty xmi:id="_kAJ-QNeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_06xmIcXgEd21Z6UWTrQe3A/performedPrimarilyBy/_06xmIsXgEd21Z6UWTrQe3A/additionallyPerformedBy/_06xmI8XgEd21Z6UWTrQe3A/mandatoryInput/_06xmJMXgEd21Z6UWTrQe3A/mandatoryInput/_06xmJcXgEd21Z6UWTrQe3A/output"/>
+      <Task href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_UBdqEMHrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-23yOcwuVTy1bJcWTnxl7rw#_UBdqEcHrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-23yOcwuVTy1bJcWTnxl7rw#_UBdqE8HrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-23yOcwuVTy1bJcWTnxl7rw#_UBdqEsHrEd2B2LAvnwDruw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_06xmIcXgEd21Z6UWTrQe3A" name="Business_Process_Modeller" guid="_06xmIcXgEd21Z6UWTrQe3A" presentationName="Business Process Modeller" superActivities="_q66DscXgEd21Z6UWTrQe3A" modifies="_06xmJcXgEd21Z6UWTrQe3A _5VAVwcXgEd21Z6UWTrQe3A"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_06xmIsXgEd21Z6UWTrQe3A" name="Architect" guid="_06xmIsXgEd21Z6UWTrQe3A" presentationName="Arquitect" superActivities="_q66DscXgEd21Z6UWTrQe3A"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_06xmI8XgEd21Z6UWTrQe3A" name="Architectural Policies" guid="_06xmI8XgEd21Z6UWTrQe3A" presentationName="Architectural Policies" briefDescription="Defines a set of principles, goals, constraints and maxims that guide choices related to architecture, design, realisation and deployment. It includes best choices for the composition to develop as well as architecture evolution guides, so the composition can adapt to context changes.&#xD;&#xA;This WP could be related to BMM of SHAPE Framework" isPlanned="false" superActivities="_q66DscXgEd21Z6UWTrQe3A">
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_UBUgdMHrEd2B2LAvnwDruw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_06xmJMXgEd21Z6UWTrQe3A" name="Service Specification Model" guid="_06xmJMXgEd21Z6UWTrQe3A" presentationName="Service Specification Model" briefDescription="Also knows as SSM, specifies the operations and their parameters of each service identified (an interface), as well as their description, characteristics, requirements constraints and so on.&#xD;&#xA;&#xD;&#xA;This WP could be developed as the &quot;soaml_service_diagram&quot; of the Shape framework&#xD;&#xA;" isPlanned="false" superActivities="_q66DscXgEd21Z6UWTrQe3A">
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_UBUgX8HrEd2B2LAvnwDruw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_06xmJcXgEd21Z6UWTrQe3A" name="Service Composition Specification" guid="_06xmJcXgEd21Z6UWTrQe3A" presentationName="Service Composition Specification" briefDescription="A document which represents how the composition will be done. It includes the workflow, the transactions, security issues and so on. It specifies the behaviour of a system, how the functionalities are choreographed or orchestrated. All the information is presented with models, so it is an abstract representation of the composition.&#xD;&#xA;&#xD;&#xA;This WP could be develped as a join of soaml_collaboration_model and soaml_service_architecture" isPlanned="false" superActivities="_q66DscXgEd21Z6UWTrQe3A">
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_UBUgWMHrEd2B2LAvnwDruw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_1vhc0MXgEd21Z6UWTrQe3A" name="Define Abstract Service Composition" guid="_1vhc0MXgEd21Z6UWTrQe3A" presentationName="Define Abstract Service Composition" superActivities="_q66DscXgEd21Z6UWTrQe3A" linkToPredecessor="_f2b0McXhEd21Z6UWTrQe3A" mandatoryInput="_06xmJcXgEd21Z6UWTrQe3A _06xmJMXgEd21Z6UWTrQe3A" optionalInput="_1vhc0cXgEd21Z6UWTrQe3A" output="_06xmJcXgEd21Z6UWTrQe3A" performedPrimarilyBy="_06xmIcXgEd21Z6UWTrQe3A">
+      <methodElementProperty xmi:id="_kAMagNeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_06xmIcXgEd21Z6UWTrQe3A/performedPrimarilyBy/_06xmJcXgEd21Z6UWTrQe3A/mandatoryInput/_06xmJMXgEd21Z6UWTrQe3A/mandatoryInput/_1vhc0cXgEd21Z6UWTrQe3A/optionalInput/_06xmJcXgEd21Z6UWTrQe3A/output"/>
+      <Task href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_UBUgU8HrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-QMIkwIMcBmbaM9Tx9XVsnw#_UBUgVMHrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-QMIkwIMcBmbaM9Tx9XVsnw#_UBUgV8HrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-QMIkwIMcBmbaM9Tx9XVsnw#_UBUgVsHrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-QMIkwIMcBmbaM9Tx9XVsnw#_UBUgVcHrEd2B2LAvnwDruw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_1vhc0cXgEd21Z6UWTrQe3A" name="System Requirements" guid="_1vhc0cXgEd21Z6UWTrQe3A" presentationName="System Requirements" isPlanned="false" superActivities="_q66DscXgEd21Z6UWTrQe3A"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_2_GOUMXgEd21Z6UWTrQe3A" name="Describe Non-Functional Requirements" guid="_2_GOUMXgEd21Z6UWTrQe3A" presentationName="Describe Non-Functional Requirements" superActivities="_q66DscXgEd21Z6UWTrQe3A" linkToPredecessor="_g45WwcXhEd21Z6UWTrQe3A" mandatoryInput="_06xmJcXgEd21Z6UWTrQe3A _1vhc0cXgEd21Z6UWTrQe3A" optionalInput="_06xmI8XgEd21Z6UWTrQe3A" output="_06xmJcXgEd21Z6UWTrQe3A" performedPrimarilyBy="_06xmIcXgEd21Z6UWTrQe3A">
+      <methodElementProperty xmi:id="_kAIwINeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_06xmIcXgEd21Z6UWTrQe3A/performedPrimarilyBy/_06xmJcXgEd21Z6UWTrQe3A/mandatoryInput/_1vhc0cXgEd21Z6UWTrQe3A/mandatoryInput/_06xmI8XgEd21Z6UWTrQe3A/optionalInput/_06xmJcXgEd21Z6UWTrQe3A/output"/>
+      <Task href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_UBUgT8HrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-gGVKbtkdF9-NZ8B4iv5H6Q#_UBUgUMHrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-gGVKbtkdF9-NZ8B4iv5H6Q#_UBUgUsHrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-gGVKbtkdF9-NZ8B4iv5H6Q#_UBUgUcHrEd2B2LAvnwDruw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_5VAVwMXgEd21Z6UWTrQe3A" name="Analyze the Variable Parts of the Business Process" guid="_5VAVwMXgEd21Z6UWTrQe3A" presentationName="Analyze the Variable Parts of the Business Process" isOptional="true" superActivities="_q66DscXgEd21Z6UWTrQe3A" additionallyPerformedBy="_06xmIsXgEd21Z6UWTrQe3A" mandatoryInput="_06xmJcXgEd21Z6UWTrQe3A _06xmJMXgEd21Z6UWTrQe3A" output="_5VAVwcXgEd21Z6UWTrQe3A" performedPrimarilyBy="_06xmIcXgEd21Z6UWTrQe3A">
+      <methodElementProperty xmi:id="_kALzcNeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_06xmIcXgEd21Z6UWTrQe3A/performedPrimarilyBy/_06xmIsXgEd21Z6UWTrQe3A/additionallyPerformedBy/_06xmJcXgEd21Z6UWTrQe3A/mandatoryInput/_06xmJMXgEd21Z6UWTrQe3A/mandatoryInput/_5VAVwcXgEd21Z6UWTrQe3A/output"/>
+      <Task href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_UBUgWcHrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-phQ2NRqPjXv_ChbstPqGSw#_UBUgW8HrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-phQ2NRqPjXv_ChbstPqGSw#_UBUgWsHrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-phQ2NRqPjXv_ChbstPqGSw#_UBUgXMHrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-phQ2NRqPjXv_ChbstPqGSw#_UBUgXcHrEd2B2LAvnwDruw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_5VAVwcXgEd21Z6UWTrQe3A" name="Variation Point Specification" guid="_5VAVwcXgEd21Z6UWTrQe3A" presentationName="Variation Point Specification" briefDescription="Identify and describes the requirements for the variation points in the business process.&#xD;&#xA;&#xD;&#xA;This WP could be develped as a join of soaml_collaboration_model and soaml_service_architecture" isPlanned="false" superActivities="_q66DscXgEd21Z6UWTrQe3A">
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_UBUgXsHrEd2B2LAvnwDruw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-RNKAMXgEd21Z6UWTrQe3A" name="Describe Variation Point Requirements" guid="_-RNKAMXgEd21Z6UWTrQe3A" presentationName="Describe Variation Point Requirements " isOptional="true" superActivities="_q66DscXgEd21Z6UWTrQe3A" linkToPredecessor="_q7vUscXhEd21Z6UWTrQe3A" additionallyPerformedBy="_06xmIsXgEd21Z6UWTrQe3A" mandatoryInput="_-RNKAcXgEd21Z6UWTrQe3A _5VAVwcXgEd21Z6UWTrQe3A" optionalInput="_06xmJcXgEd21Z6UWTrQe3A _06xmJMXgEd21Z6UWTrQe3A" output="_5VAVwcXgEd21Z6UWTrQe3A" performedPrimarilyBy="_06xmIcXgEd21Z6UWTrQe3A">
+      <methodElementProperty xmi:id="_kAJXMdeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_06xmIcXgEd21Z6UWTrQe3A/performedPrimarilyBy/_06xmIsXgEd21Z6UWTrQe3A/additionallyPerformedBy/_-RNKAcXgEd21Z6UWTrQe3A/mandatoryInput/_5VAVwcXgEd21Z6UWTrQe3A/mandatoryInput/_06xmJcXgEd21Z6UWTrQe3A/optionalInput/_06xmJMXgEd21Z6UWTrQe3A/optionalInput/_5VAVwcXgEd21Z6UWTrQe3A/output"/>
+      <Task href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_UBUgScHrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-BSBxELCbhlJm6t_C2ciSEA#_UBUgSsHrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-BSBxELCbhlJm6t_C2ciSEA#_UBUgTMHrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-BSBxELCbhlJm6t_C2ciSEA#_UBUgS8HrEd2B2LAvnwDruw"/>
+      <selectedSteps href="uma://-BSBxELCbhlJm6t_C2ciSEA#_UBUgTcHrEd2B2LAvnwDruw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_-RNKAcXgEd21Z6UWTrQe3A" name="Deisgn Time Discovered Service Specifications" guid="_-RNKAcXgEd21Z6UWTrQe3A" presentationName="Deisgn Time Discovered Service Specifications" briefDescription="List of new services and their specification, discovered when the composition design is being developed. They have been searched having in mind new requirements related to the organization of services during the composition, so they are supposed to match better with the requirements.&#xD;&#xA;&#xD;&#xA;In same cases, this Wp could be matched with &quot;ontology&quot; WP in the Shape framework" isPlanned="false" superActivities="_q66DscXgEd21Z6UWTrQe3A">
+      <methodElementProperty xmi:id="_kAJXMNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="1"/>
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_UBUgR8HrEd2B2LAvnwDruw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_f2b0McXhEd21Z6UWTrQe3A" guid="_f2b0McXhEd21Z6UWTrQe3A" pred="_06xmIMXgEd21Z6UWTrQe3A"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_g45WwcXhEd21Z6UWTrQe3A" guid="_g45WwcXhEd21Z6UWTrQe3A" pred="_1vhc0MXgEd21Z6UWTrQe3A"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_q7vUscXhEd21Z6UWTrQe3A" guid="_q7vUscXhEd21Z6UWTrQe3A" pred="_5VAVwMXgEd21Z6UWTrQe3A"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_q66DscXgEd21Z6UWTrQe3A" name="Design_time_services_composition" guid="_q66DscXgEd21Z6UWTrQe3A" presentationName="Design time services composition" breakdownElements="_06xmIMXgEd21Z6UWTrQe3A _06xmIcXgEd21Z6UWTrQe3A _06xmIsXgEd21Z6UWTrQe3A _06xmI8XgEd21Z6UWTrQe3A _06xmJMXgEd21Z6UWTrQe3A _06xmJcXgEd21Z6UWTrQe3A _1vhc0MXgEd21Z6UWTrQe3A _1vhc0cXgEd21Z6UWTrQe3A _2_GOUMXgEd21Z6UWTrQe3A _5VAVwMXgEd21Z6UWTrQe3A _5VAVwcXgEd21Z6UWTrQe3A _-RNKAMXgEd21Z6UWTrQe3A _-RNKAcXgEd21Z6UWTrQe3A">
+      <methodElementProperty xmi:id="_kANooNeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-TOTwVnmpPua_ECdMZOcj_Q" href="uma://-TOTwVnmpPua_ECdMZOcj_Q#-TOTwVnmpPua_ECdMZOcj_Q"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

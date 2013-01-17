@@ -1,0 +1,607 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="no" xml:lang="no" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Capability Pattern: SOA business architecture modelling</title>
+<meta name="uma.type" content="CapabilityPattern">
+<meta name="uma.name" content="soaml_business_architecture_modelling">
+<meta name="uma.presentationName" content="SOA business architecture modelling">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ActivityTreeTable.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ProcessElementPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/processElementData.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var defaultQueryStr = '?proc=_Bmd1JSavEd-W88dSHyarAQ&path=_Bmd1JSavEd-W88dSHyarAQ';
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  defaultQueryStr, false, true, true);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div autoWrap="true">
+<div id="page-guid" value="_Bmd1JSavEd-W88dSHyarAQ"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Capability Pattern: SOA business architecture modelling</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/capabilitypattern.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This capability pattern defines the guided procedure for specifying the business perspective of an SOA.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="middle">
+<td width="10" class="tab"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_Description" href="./../../practice.architecture.service_modelling.base-sintef/capabilitypatterns/soaml_business_architecture_modelling_64BDA65F.html_desc.html">Description</a></td><td width="21"><img src="./../../images/tab_middle-i_a.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="activeTab"><span style="white-space:nowrap;">Work Breakdown Structure</span></td><td width="1"><img src="./../../images/tab_middle-a_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_TBS" href="./../../practice.architecture.service_modelling.base-sintef/capabilitypatterns/soaml_business_architecture_modelling_64BDA65F.html_tbs.html"><span style="white-space:nowrap;">Team Allocation</span></a></td><td width="21"><img src="./../../images/tab_middle-i_i.gif" width="21" height="17" align="absmiddle" alt="" title=""></td><td nowrap class="tab"><a class="tab" id="TAB_WPBS" href="./../../practice.architecture.service_modelling.base-sintef/capabilitypatterns/soaml_business_architecture_modelling_64BDA65F.html_wpbs.html"><span style="white-space:nowrap;">Work Product Usage</span></a></td><td width="21"><img src="./../../images/tab_end-i.gif" width="21" height="17" alt="" title=""></td><td width="50%"><img src="./../../images/shim.gif" width="10" height="17" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="2"><img src="./../../images/shim.gif" height="2" alt="" title=""></td><td><img src="./../../images/tab_space_middle.gif" width="21" height="2" alt="" title=""></td><td class="activeTab"><img src="./../../images/shim.gif" width="10" height="2" alt="" title=""></td><td><img src="./../../images/tab_space.gif" width="21" height="2" alt="" title=""></td><td colspan="5"><img src="./../../images/shim.gif" height="2" alt="" title=""></td>
+</tr>
+<tr>
+<td colspan="10" class="activeTab"><img src="./../../images/shim.gif" height="5" alt="" title=""></td>
+</tr>
+</table>
+<div class="sectionHeading">Workflow</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="sectionTableSingleCell" colspan="2" align="left">
+<p></p>
+<img border="0" diagramType="Activity" id="diagram_Activity" src="./../../practice.architecture.service_modelling.base-sintef/capabilitypatterns/resources/soaml_business_architecture_modelling_64BDA65F_Activity.jpeg" alt="Activity diagram: SOA business architecture modelling" title="Activity diagram: SOA business architecture modelling" usemap="#Activity_soaml_business_architecture_modelling"><map name="Activity_soaml_business_architecture_modelling">
+<area href="./../../practice.architecture.service_modelling.base-sintef/tasks/specify_capabilities_E41D6195.html" relpath=",_k96TUBsIEd-bArCnVzoI8Q" alt="Specify capabilities" title="Specify capabilities" coords="138, 210, 211, 273" shape="rect" guid="_k96TUBsIEd-bArCnVzoI8Q"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/tasks/specify_services_architectures_6CA7AE27.html" relpath=",_IbzfwC5uEd6lwuZlFT8K0A" alt="Specify services architectures" title="Specify services architectures" coords="330, 210, 421, 273" shape="rect" guid="_IbzfwC5uEd6lwuZlFT8K0A"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/tasks/specify_service_contracts_and_choreographies_1FE05204.html" relpath=",_azDj4C5uEd6lwuZlFT8K0A" alt="Specify service contracts and choreographies" title="Specify service contracts and choreographies" coords="450, 210, 553, 287" shape="rect" guid="_azDj4C5uEd6lwuZlFT8K0A"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/tasks/define_business_goals_B6D2E384.html" relpath=",_Fr7iUKGhEeC1A-PuG6Rlow" alt="Define business goals" title="Define business goals" coords="35, 95, 142, 144" shape="rect" guid="_Fr7iUKGhEeC1A-PuG6Rlow"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/tasks/refine_business_processes_9215993D.html" relpath=",_cyZuoKGhEeC1A-PuG6Rlow" alt="Refine business processes" title="Refine business processes" coords="180, 95, 313, 144" shape="rect" guid="_cyZuoKGhEeC1A-PuG6Rlow"></area>
+</map>
+</td>
+</tr>
+<tr>
+<td class="sectionTableSingleCell" colspan="2" align="left">
+<p></p>
+<img border="0" diagramType="ActivityDetail" id="diagram_ActivityDetail" src="./../../practice.architecture.service_modelling.base-sintef/capabilitypatterns/resources/soaml_business_architecture_modelling_64BDA65F_ActivityDetail.jpeg" alt="Activity detail diagram: SOA business architecture modelling" title="Activity detail diagram: SOA business architecture modelling" usemap="#ActivityDetail_soaml_business_architecture_modelling"><map name="ActivityDetail_soaml_business_architecture_modelling">
+<area href="./../../core.default.role_def.extend_mdse-sintef/roles/business_architect_258C2CAC.html" relpath=",_gIqJwhntEd6VV7P4WguglA" alt="Business architect" title="Business architect" coords="40, 122, 130, 162" shape="rect" guid="_gIqJwhntEd6VV7P4WguglA"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/tasks/define_business_goals_B6D2E384.html" relpath=",_Fr7iUKGhEeC1A-PuG6Rlow" alt="Define business goals" title="Define business goals" coords="150, 119, 231, 166" shape="rect" guid="_Fr7iUKGhEeC1A-PuG6Rlow"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/tasks/refine_business_processes_9215993D.html" relpath=",_cyZuoKGhEeC1A-PuG6Rlow" alt="Refine business processes" title="Refine business processes" coords="251, 119, 332, 166" shape="rect" guid="_cyZuoKGhEeC1A-PuG6Rlow"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/tasks/specify_capabilities_E41D6195.html" relpath=",_k96TUBsIEd-bArCnVzoI8Q" alt="Specify capabilities" title="Specify capabilities" coords="352, 122, 445, 162" shape="rect" guid="_k96TUBsIEd-bArCnVzoI8Q"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/tasks/specify_services_architectures_6CA7AE27.html" relpath=",_IbzfwC5uEd6lwuZlFT8K0A" alt="Specify services architectures" title="Specify services architectures" coords="465, 119, 550, 166" shape="rect" guid="_IbzfwC5uEd6lwuZlFT8K0A"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/tasks/specify_service_contracts_and_choreographies_1FE05204.html" relpath=",_azDj4C5uEd6lwuZlFT8K0A" alt="Specify service contracts and choreographies" title="Specify service contracts and choreographies" coords="570, 112, 649, 173" shape="rect" guid="_azDj4C5uEd6lwuZlFT8K0A"></area>
+<area href="./../../core.default.role_def.extend_mdse-sintef/roles/business_architect_258C2CAC.html" relpath=",_gIqJwhntEd6VV7P4WguglA" alt="Business architect" title="Business architect" coords="30, 102, 719, 183" shape="rect" guid="_gIqJwhntEd6VV7P4WguglA"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/workproducts/business_architecture_model_6130B98D.html" relpath=",_Ckb_MKGcEeCo46MenWbwvA" alt="Business architecture model" title="Business architecture model" coords="363, 213, 434, 274" shape="rect" guid="_Ckb_MKGcEeCo46MenWbwvA"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/workproducts/capabilities_79AE618B.html" relpath=",_oSVZ0KGaEeCo46MenWbwvA" alt="Capabilites" title="Capabilites" coords="363, 279, 434, 319" shape="rect" guid="_oSVZ0KGaEeCo46MenWbwvA"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/tasks/specify_capabilities_E41D6195.html" relpath=",_k96TUBsIEd-bArCnVzoI8Q" alt="Specify capabilities" title="Specify capabilities" coords="353, 203, 444, 329" shape="rect" guid="_k96TUBsIEd-bArCnVzoI8Q"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/workproducts/business_architecture_model_6130B98D.html" relpath=",_Ckb_MKGcEeCo46MenWbwvA" alt="Business architecture model" title="Business architecture model" coords="470, 213, 544, 274" shape="rect" guid="_Ckb_MKGcEeCo46MenWbwvA"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/workproducts/services_architectures_5309C66C.html" relpath=",_1hVKsKGaEeCo46MenWbwvA" alt="Services architectures" title="Services architectures" coords="470, 279, 544, 326" shape="rect" guid="_1hVKsKGaEeCo46MenWbwvA"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/tasks/specify_services_architectures_6CA7AE27.html" relpath=",_IbzfwC5uEd6lwuZlFT8K0A" alt="Specify services architectures" title="Specify services architectures" coords="460, 203, 554, 336" shape="rect" guid="_IbzfwC5uEd6lwuZlFT8K0A"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/workproducts/business_architecture_model_6130B98D.html" relpath=",_Ckb_MKGcEeCo46MenWbwvA" alt="Business architecture model" title="Business architecture model" coords="566, 213, 652, 274" shape="rect" guid="_Ckb_MKGcEeCo46MenWbwvA"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/workproducts/service_contracts_and_choreographies_AA9E9785.html" relpath=",_4rEi0KGaEeCo46MenWbwvA" alt="Service contracts and choreographies" title="Service contracts and choreographies" coords="566, 279, 652, 354" shape="rect" guid="_4rEi0KGaEeCo46MenWbwvA"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/tasks/specify_service_contracts_and_choreographies_1FE05204.html" relpath=",_azDj4C5uEd6lwuZlFT8K0A" alt="Specify service contracts and choreographies" title="Specify service contracts and choreographies" coords="556, 203, 662, 364" shape="rect" guid="_azDj4C5uEd6lwuZlFT8K0A"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/workproducts/business_goals_98A6984.html" relpath=",_vwgbkKGaEeCo46MenWbwvA" alt="Business goals" title="Business goals" coords="155, 213, 226, 260" shape="rect" guid="_vwgbkKGaEeCo46MenWbwvA"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/workproducts/business_architecture_model_6130B98D.html" relpath=",_Ckb_MKGcEeCo46MenWbwvA" alt="Business architecture model" title="Business architecture model" coords="155, 265, 226, 326" shape="rect" guid="_Ckb_MKGcEeCo46MenWbwvA"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/tasks/define_business_goals_B6D2E384.html" relpath=",_Fr7iUKGhEeC1A-PuG6Rlow" alt="Define business goals" title="Define business goals" coords="145, 203, 236, 336" shape="rect" guid="_Fr7iUKGhEeC1A-PuG6Rlow"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/workproducts/business_process_model.slot_6558F36B.html" relpath=",_i6PE8KJkEeCtJaDYUHXYlQ" alt="[business process model]" title="[business process model]" coords="262, 11, 320, 72" shape="rect" guid="_i6PE8KJkEeCtJaDYUHXYlQ"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/tasks/refine_business_processes_9215993D.html" relpath=",_cyZuoKGhEeC1A-PuG6Rlow" alt="Refine business processes" title="Refine business processes" coords="252, 1, 330, 82" shape="rect" guid="_cyZuoKGhEeC1A-PuG6Rlow"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/workproducts/business_architecture_model_6130B98D.html" relpath=",_Ckb_MKGcEeCo46MenWbwvA" alt="Business architecture model" title="Business architecture model" coords="256, 213, 327, 274" shape="rect" guid="_Ckb_MKGcEeCo46MenWbwvA"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/workproducts/business_processes_C19D3966.html" relpath=",_yelLYKGaEeCo46MenWbwvA" alt="Business processes" title="Business processes" coords="256, 279, 327, 326" shape="rect" guid="_yelLYKGaEeCo46MenWbwvA"></area>
+<area href="./../../practice.architecture.service_modelling.base-sintef/tasks/refine_business_processes_9215993D.html" relpath=",_cyZuoKGhEeC1A-PuG6Rlow" alt="Refine business processes" title="Refine business processes" coords="246, 203, 337, 336" shape="rect" guid="_cyZuoKGhEeC1A-PuG6Rlow"></area>
+</map>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Work Breakdown</div>
+<div class="sectionContent">
+<div id="treeContent"></div>
+<script language="JavaScript">
+contentPage.processPage.treeTable.data = {
+title: "Work Breakdown", summary: "Work Breakdown", 
+columns: [
+["presentation_name", "Breakdown Element"],
+["steps", "Steps"],
+["id", "Index"],
+["predecessors", "Predecessors"],
+["model_info", "Model Info"],
+["type", "Type"],
+["is_planned", "Planned"],
+["is_repeatable", "Repeatable"],
+["has_multiple_occurrences", "Multiple Occurrences"],
+["is_ongoing", "Ongoing"],
+["is_event_driven", "Event Driven"],
+["is_optional", "Optional"],
+["teams", "Team"]],
+rows: [
+		
+{id: "9031a7c2", parentId: "", relPath: ",_c8GPYKJgEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "1", prefix: "", name: "define_business_goals", title: "Define business goals", url: "./../../practice.architecture.service_modelling.base-sintef/tasks/define_business_goals_B6D2E384.html", 
+	predecessors: "", info: "", type: "Task", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: [true,true,true]},
+	
+		
+		
+{id: "a17880d5", parentId: "9031a7c2", relPath: ",_c8GPYKJgEeCKp9wzOHzvHg,_gq2_sdqoEd-RHtsSMqnPrA", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "business_architect", title: "Business architect", url: "./../../core.default.role_def.extend_mdse-sintef/roles/business_architect_258C2CAC.html", 
+	predecessors: "", info: "Primary Performer", type: "Role", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "9b5950bf", parentId: "9031a7c2", relPath: ",_c8GPYKJgEeCKp9wzOHzvHg,_-6RrgaGkEeC1A-PuG6Rlow", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "", prefix: "", name: "business_architecture_model", title: "Business architecture model", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_architecture_model_6130B98D.html", 
+	predecessors: "", info: "Output", type: "Deliverable", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "9295100f", parentId: "9b5950bf", relPath: ",_c8GPYKJgEeCKp9wzOHzvHg,_-6RrgaGkEeC1A-PuG6Rlow,_c8G2cKJgEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "business_goals", title: "Business goals", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_goals_98A6984.html", 
+	predecessors: "", info: "Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "40b335a9", parentId: "9b5950bf", relPath: ",_c8GPYKJgEeCKp9wzOHzvHg,_-6RrgaGkEeC1A-PuG6Rlow,_-6SSkaGkEeC1A-PuG6Rlow", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "business_processes", title: "Business processes", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_processes_C19D3966.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "41778eb1", parentId: "9b5950bf", relPath: ",_c8GPYKJgEeCKp9wzOHzvHg,_-6RrgaGkEeC1A-PuG6Rlow,_a0688aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "capabilities", title: "Capabilites", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/capabilities_79AE618B.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "95221ad5", parentId: "9b5950bf", relPath: ",_c8GPYKJgEeCKp9wzOHzvHg,_-6RrgaGkEeC1A-PuG6Rlow,_YfYB4aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "service_contracts_and_choreographies", title: "Service contracts and choreographies", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/service_contracts_and_choreographies_AA9E9785.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "4096d98e", parentId: "9b5950bf", relPath: ",_c8GPYKJgEeCKp9wzOHzvHg,_-6RrgaGkEeC1A-PuG6Rlow,_4MLK0aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "services_architectures", title: "Services architectures", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/services_architectures_5309C66C.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "edffe5ee", parentId: "9031a7c2", relPath: ",_c8GPYKJgEeCKp9wzOHzvHg,_c8G2cKJgEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "business_goals", title: "Business goals", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_goals_98A6984.html", 
+	predecessors: "", info: "Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "92a32bc4", parentId: "", relPath: ",_QznWcKJnEeCSHZtOJbuQWQ", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "2", prefix: "", name: "refine_business_processes", title: "Refine business processes", url: "./../../practice.architecture.service_modelling.base-sintef/tasks/refine_business_processes_9215993D.html", 
+	predecessors: "", info: "", type: "Task", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: [true,true]},
+	
+		
+		
+{id: "4b0689fd", parentId: "92a32bc4", relPath: ",_QznWcKJnEeCSHZtOJbuQWQ,_gq2_sdqoEd-RHtsSMqnPrA", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "business_architect", title: "Business architect", url: "./../../core.default.role_def.extend_mdse-sintef/roles/business_architect_258C2CAC.html", 
+	predecessors: "", info: "Primary Performer", type: "Role", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "f0a4d8f4", parentId: "92a32bc4", relPath: ",_QznWcKJnEeCSHZtOJbuQWQ,_6oGBYaJkEeCtJaDYUHXYlQ", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "business_process_model.slot", title: "[business process model]", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_process_model.slot_6558F36B.html", 
+	predecessors: "", info: "Mandatory Input", type: "Work Product Slot", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "49fa948e", parentId: "92a32bc4", relPath: ",_QznWcKJnEeCSHZtOJbuQWQ,_-6RrgaGkEeC1A-PuG6Rlow", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "", prefix: "", name: "business_architecture_model", title: "Business architecture model", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_architecture_model_6130B98D.html", 
+	predecessors: "", info: "Output", type: "Deliverable", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "eee89fd2", parentId: "49fa948e", relPath: ",_QznWcKJnEeCSHZtOJbuQWQ,_-6RrgaGkEeC1A-PuG6Rlow,_c8G2cKJgEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "business_goals", title: "Business goals", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_goals_98A6984.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "eeeff950", parentId: "49fa948e", relPath: ",_QznWcKJnEeCSHZtOJbuQWQ,_-6RrgaGkEeC1A-PuG6Rlow,_-6SSkaGkEeC1A-PuG6Rlow", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "business_processes", title: "Business processes", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_processes_C19D3966.html", 
+	predecessors: "", info: "Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "92954b0d", parentId: "49fa948e", relPath: ",_QznWcKJnEeCSHZtOJbuQWQ,_-6RrgaGkEeC1A-PuG6Rlow,_a0688aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "capabilities", title: "Capabilites", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/capabilities_79AE618B.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e9e6c83e", parentId: "49fa948e", relPath: ",_QznWcKJnEeCSHZtOJbuQWQ,_-6RrgaGkEeC1A-PuG6Rlow,_YfYB4aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "service_contracts_and_choreographies", title: "Service contracts and choreographies", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/service_contracts_and_choreographies_AA9E9785.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "95e243b6", parentId: "49fa948e", relPath: ",_QznWcKJnEeCSHZtOJbuQWQ,_-6RrgaGkEeC1A-PuG6Rlow,_4MLK0aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "services_architectures", title: "Services architectures", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/services_architectures_5309C66C.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "a2e24338", parentId: "92a32bc4", relPath: ",_QznWcKJnEeCSHZtOJbuQWQ,_-6SSkaGkEeC1A-PuG6Rlow", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "business_processes", title: "Business processes", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_processes_C19D3966.html", 
+	predecessors: "", info: "Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "e74316e1", parentId: "", relPath: ",_Bmd1OiavEd-W88dSHyarAQ", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "3", prefix: "", name: "specify_capabilities", title: "Specify capabilities", url: "./../../practice.architecture.service_modelling.base-sintef/tasks/specify_capabilities_E41D6195.html", 
+	predecessors: "", info: "", type: "Task", 
+	repeatable: "false", multiOccurences: "false", optional: "true", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: [true,true]},
+	
+		
+		
+{id: "9264a55b", parentId: "e74316e1", relPath: ",_Bmd1OiavEd-W88dSHyarAQ,_gq2_sdqoEd-RHtsSMqnPrA", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "business_architect", title: "Business architect", url: "./../../core.default.role_def.extend_mdse-sintef/roles/business_architect_258C2CAC.html", 
+	predecessors: "", info: "Primary Performer", type: "Role", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "47644b74", parentId: "e74316e1", relPath: ",_Bmd1OiavEd-W88dSHyarAQ,_-6RrgaGkEeC1A-PuG6Rlow", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "", prefix: "", name: "business_architecture_model", title: "Business architecture model", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_architecture_model_6130B98D.html", 
+	predecessors: "", info: "Output", type: "Deliverable", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "9e1304b3", parentId: "47644b74", relPath: ",_Bmd1OiavEd-W88dSHyarAQ,_-6RrgaGkEeC1A-PuG6Rlow,_c8G2cKJgEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "business_goals", title: "Business goals", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_goals_98A6984.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "a2fa574e", parentId: "47644b74", relPath: ",_Bmd1OiavEd-W88dSHyarAQ,_-6RrgaGkEeC1A-PuG6Rlow,_-6SSkaGkEeC1A-PuG6Rlow", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "business_processes", title: "Business processes", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_processes_C19D3966.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "9554b3fc", parentId: "47644b74", relPath: ",_Bmd1OiavEd-W88dSHyarAQ,_-6RrgaGkEeC1A-PuG6Rlow,_a0688aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "capabilities", title: "Capabilites", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/capabilities_79AE618B.html", 
+	predecessors: "", info: "Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "44e358b1", parentId: "47644b74", relPath: ",_Bmd1OiavEd-W88dSHyarAQ,_-6RrgaGkEeC1A-PuG6Rlow,_YfYB4aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "service_contracts_and_choreographies", title: "Service contracts and choreographies", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/service_contracts_and_choreographies_AA9E9785.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "a06da3ff", parentId: "47644b74", relPath: ",_Bmd1OiavEd-W88dSHyarAQ,_-6RrgaGkEeC1A-PuG6Rlow,_4MLK0aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "services_architectures", title: "Services architectures", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/services_architectures_5309C66C.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3f8ad2fe", parentId: "e74316e1", relPath: ",_Bmd1OiavEd-W88dSHyarAQ,_a0688aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "capabilities", title: "Capabilites", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/capabilities_79AE618B.html", 
+	predecessors: "", info: "Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "95e491b3", parentId: "", relPath: ",_ZI50MKGoEeC1A-PuG6Rlow", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "4", prefix: "", name: "specify_services_architectures", title: "Specify services architectures", url: "./../../practice.architecture.service_modelling.base-sintef/tasks/specify_services_architectures_6CA7AE27.html", 
+	predecessors: "", info: "", type: "Task", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: [true,true,true,true]},
+	
+		
+		
+{id: "3abbab91", parentId: "95e491b3", relPath: ",_ZI50MKGoEeC1A-PuG6Rlow,_gq2_sdqoEd-RHtsSMqnPrA", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "business_architect", title: "Business architect", url: "./../../core.default.role_def.extend_mdse-sintef/roles/business_architect_258C2CAC.html", 
+	predecessors: "", info: "Primary Performer", type: "Role", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "a080fcfd", parentId: "95e491b3", relPath: ",_ZI50MKGoEeC1A-PuG6Rlow,_-6RrgaGkEeC1A-PuG6Rlow", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "", prefix: "", name: "business_architecture_model", title: "Business architecture model", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_architecture_model_6130B98D.html", 
+	predecessors: "", info: "Output", type: "Deliverable", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "4367941a", parentId: "a080fcfd", relPath: ",_ZI50MKGoEeC1A-PuG6Rlow,_-6RrgaGkEeC1A-PuG6Rlow,_c8G2cKJgEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "business_goals", title: "Business goals", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_goals_98A6984.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ed4b7f6f", parentId: "a080fcfd", relPath: ",_ZI50MKGoEeC1A-PuG6Rlow,_-6RrgaGkEeC1A-PuG6Rlow,_-6SSkaGkEeC1A-PuG6Rlow", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "business_processes", title: "Business processes", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_processes_C19D3966.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "9ea2b066", parentId: "a080fcfd", relPath: ",_ZI50MKGoEeC1A-PuG6Rlow,_-6RrgaGkEeC1A-PuG6Rlow,_a0688aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "capabilities", title: "Capabilites", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/capabilities_79AE618B.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3ac1bec5", parentId: "a080fcfd", relPath: ",_ZI50MKGoEeC1A-PuG6Rlow,_-6RrgaGkEeC1A-PuG6Rlow,_YfYB4aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "service_contracts_and_choreographies", title: "Service contracts and choreographies", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/service_contracts_and_choreographies_AA9E9785.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3d6cf5bb", parentId: "a080fcfd", relPath: ",_ZI50MKGoEeC1A-PuG6Rlow,_-6RrgaGkEeC1A-PuG6Rlow,_4MLK0aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "services_architectures", title: "Services architectures", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/services_architectures_5309C66C.html", 
+	predecessors: "", info: "Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "9de3cb6e", parentId: "95e491b3", relPath: ",_ZI50MKGoEeC1A-PuG6Rlow,_4MLK0aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "services_architectures", title: "Services architectures", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/services_architectures_5309C66C.html", 
+	predecessors: "", info: "Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "8e5da063", parentId: "", relPath: ",_T9cu0KJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "5", prefix: "", name: "specify_service_contracts_and_choreographies", title: "Specify service contracts and choreographies", url: "./../../practice.architecture.service_modelling.base-sintef/tasks/specify_service_contracts_and_choreographies_1FE05204.html", 
+	predecessors: "4", info: "", type: "Task", 
+	repeatable: "false", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "false", eventDriven: "false", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: [true,true,true,true]},
+	
+		
+		
+{id: "97a47ca1", parentId: "8e5da063", relPath: ",_T9cu0KJfEeCKp9wzOHzvHg,_gq2_sdqoEd-RHtsSMqnPrA", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "business_architect", title: "Business architect", url: "./../../core.default.role_def.extend_mdse-sintef/roles/business_architect_258C2CAC.html", 
+	predecessors: "", info: "Primary Performer", type: "Role", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "9e292918", parentId: "8e5da063", relPath: ",_T9cu0KJfEeCKp9wzOHzvHg,_-6RrgaGkEeC1A-PuG6Rlow", isSuppressed: "", indentSize: 1, hasChildren:true, 
+	index: "", prefix: "", name: "business_architecture_model", title: "Business architecture model", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_architecture_model_6130B98D.html", 
+	predecessors: "", info: "Output", type: "Deliverable", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "4cb49473", parentId: "9e292918", relPath: ",_T9cu0KJfEeCKp9wzOHzvHg,_-6RrgaGkEeC1A-PuG6Rlow,_c8G2cKJgEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "business_goals", title: "Business goals", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_goals_98A6984.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "3d3b03b1", parentId: "9e292918", relPath: ",_T9cu0KJfEeCKp9wzOHzvHg,_-6RrgaGkEeC1A-PuG6Rlow,_-6SSkaGkEeC1A-PuG6Rlow", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "business_processes", title: "Business processes", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/business_processes_C19D3966.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "9175f930", parentId: "9e292918", relPath: ",_T9cu0KJfEeCKp9wzOHzvHg,_-6RrgaGkEeC1A-PuG6Rlow,_a0688aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "capabilities", title: "Capabilites", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/capabilities_79AE618B.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "9c20df48", parentId: "9e292918", relPath: ",_T9cu0KJfEeCKp9wzOHzvHg,_-6RrgaGkEeC1A-PuG6Rlow,_YfYB4aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "service_contracts_and_choreographies", title: "Service contracts and choreographies", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/service_contracts_and_choreographies_AA9E9785.html", 
+	predecessors: "", info: "Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "a5a594c9", parentId: "9e292918", relPath: ",_T9cu0KJfEeCKp9wzOHzvHg,_-6RrgaGkEeC1A-PuG6Rlow,_4MLK0aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 2, hasChildren:false, 
+	index: "", prefix: "", name: "services_architectures", title: "Services architectures", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/services_architectures_5309C66C.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "f2763a25", parentId: "8e5da063", relPath: ",_T9cu0KJfEeCKp9wzOHzvHg,_YfYB4aJfEeCKp9wzOHzvHg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "service_contracts_and_choreographies", title: "Service contracts and choreographies", url: "./../../practice.architecture.service_modelling.base-sintef/workproducts/service_contracts_and_choreographies_AA9E9785.html", 
+	predecessors: "", info: "Output", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "96da4bc8", parentId: "", relPath: ",__Kk6oaJPEeC6g8wb3xknIg", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "business_model.rename", title: "Networked process model", url: "./../../core.default.cat_def.extend_mdse-sintef/workproducts/business_model_2F3A93.html", 
+	predecessors: "", info: "", type: "Deliverable", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "ed571887", parentId: "96da4bc8", relPath: ",__Kk6oaJPEeC6g8wb3xknIg,_83AkQaJJEeC6g8wb3xknIg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "business_information_model", title: "Business information model", url: "./../../practice.business.business_process_modelling.base-sintef/workproducts/business_information_model_79DCA1E1.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "97cd7f73", parentId: "96da4bc8", relPath: ",__Kk6oaJPEeC6g8wb3xknIg,_83ByYaJJEeC6g8wb3xknIg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "business_process_model", title: "Business process model", url: "./../../practice.business.business_process_modelling.base-sintef/workproducts/business_process_model_68EE53A2.html", 
+	predecessors: "", info: "", type: "Artifact", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+		
+{id: "486f9618", parentId: "96da4bc8", relPath: ",__Kk6oaJPEeC6g8wb3xknIg,__K4WgVFwEeGhK6PCw6rfMg", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "business_service_model", title: "Business service model", url: "./../../practice.architecture.service_modelling.base-sintef/capabilitypatterns/business_service_model_47BAEB5A.html", 
+	predecessors: "", info: "", type: "", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: "",
+	steps: []},
+	
+		
+]};
+				</script>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    Copyright &copy; 2010-2012 <a href="http://neffics.eu/consortium/" target="_blank">The NEFFICS Consortium</a>. All rights
+    reserved.
+</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script language="JavaScript" type="text/javascript">
+				contentPage.onload();
+			</script>
+</html>

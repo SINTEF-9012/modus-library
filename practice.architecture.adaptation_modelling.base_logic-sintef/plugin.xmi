@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_XUKsgOzEEd--R6Ia0d6GOQ" guid="_XUKsgOzEEd--R6Ia0d6GOQ">
+    <subManagers xmi:id="_BGi8IQeREeCk4NIWYgM-Lg" href="uma://_BEBMkAeREeCk4NIWYgM-Lg#_BGi8IQeREeCk4NIWYgM-Lg"/>
+    <resourceDescriptors xmi:id="_bj8zwOzREd--R6Ia0d6GOQ" id="-LmgifZtibzFGhJHMvtgCwA" uri="tasks/identify_variability_and_context.xmi"/>
+    <resourceDescriptors xmi:id="_zWRkAezSEd--R6Ia0d6GOQ" id="-vi9NqcnZ9leeKS1uxfx25g" uri="tasks/define_test_cases.xmi"/>
+    <resourceDescriptors xmi:id="_DkTcYOzUEd--R6Ia0d6GOQ" id="-3J_mxaqNAye5bGYnZ-QuzA" uri="tasks/model_constraints.xmi"/>
+    <resourceDescriptors xmi:id="_JeftcezVEd--R6Ia0d6GOQ" id="-8pxstEkmOxA6f787MdYavA" uri="tasks/define_adaptation_policies.xmi"/>
+    <resourceDescriptors xmi:id="_BFWpUAeREeCk4NIWYgM-Lg" id="_BEBMkAeREeCk4NIWYgM-Lg" uri="capabilitypatterns/adaptation_modelling/model.xmi"/>
+    <resourceDescriptors xmi:id="_n74ZIQzjEeC0l9qo9DKfjQ" id="-iqvcE0px166SY61OBv9IVA" uri="guidances/practices/diva_adaptation_logic.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_XSYj0OzEEd--R6Ia0d6GOQ" name="practice.architecture.adaptation_modelling.base_logic-sintef" guid="_XSYj0OzEEd--R6Ia0d6GOQ" briefDescription="This plugin contains the DIVA adaptation logic practice." authors="Vegard Dehlen (SINTEF), Brian Elvesæter (SINTEF)" changeDate="2011-06-21T14:20:50.965+0200">
+    <methodElementProperty xmi:id="_XVEEYOzEEd--R6Ia0d6GOQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_XSYj0ezEEd--R6Ia0d6GOQ" name="Content" guid="_XSYj0ezEEd--R6Ia0d6GOQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_XSYj0uzEEd--R6Ia0d6GOQ" name="Categories" guid="_XSYj0uzEEd--R6Ia0d6GOQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_XSYj0-zEEd--R6Ia0d6GOQ" name="Domains" guid="_XSYj0-zEEd--R6Ia0d6GOQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_XSYj1OzEEd--R6Ia0d6GOQ" name="Disciplines" guid="_XSYj1OzEEd--R6Ia0d6GOQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_XSYj1ezEEd--R6Ia0d6GOQ" name="RoleSets" guid="_XSYj1ezEEd--R6Ia0d6GOQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_XSYj1uzEEd--R6Ia0d6GOQ" name="WP Types" guid="_XSYj1uzEEd--R6Ia0d6GOQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_XSYj1-zEEd--R6Ia0d6GOQ" name="Tools" guid="_XSYj1-zEEd--R6Ia0d6GOQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_XSYj2OzEEd--R6Ia0d6GOQ" name="StandardCategories" guid="_XSYj2OzEEd--R6Ia0d6GOQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_XSYj2ezEEd--R6Ia0d6GOQ" name="CustomCategories" guid="_XSYj2ezEEd--R6Ia0d6GOQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_XSYj2uzEEd--R6Ia0d6GOQ" name="Hidden" guid="_XSYj2uzEEd--R6Ia0d6GOQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_XSYj2-zEEd--R6Ia0d6GOQ" name="Custom Categories" guid="_XSYj2-zEEd--R6Ia0d6GOQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_XSYj3OzEEd--R6Ia0d6GOQ" name="CoreContent" guid="_XSYj3OzEEd--R6Ia0d6GOQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lGo94OzEEd--R6Ia0d6GOQ" name="adaptation_logic_modelling" guid="_lGo94OzEEd--R6Ia0d6GOQ" presentationName="Adaptation modelling" briefDescription="Creating the adaptation model that specifies how the DiVA system adapts to context changes at runtime.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_X1NuoOzFEd--R6Ia0d6GOQ" name="adaptation_model.assign" guid="_X1NuoOzFEd--R6Ia0d6GOQ" briefDescription="This deliverable constitutes the DiVA adaptation model that is used at runtime to drive system adaptation" variabilityType="contributes" deliveredWorkProducts="_g5Y9gOzIEd--R6Ia0d6GOQ _c9aQIOzIEd--R6Ia0d6GOQ _kqpooOzIEd--R6Ia0d6GOQ _pAFbAOzMEd--R6Ia0d6GOQ _sa1qoOzMEd--R6Ia0d6GOQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_vIqTYOG2Ed-AyrTFSpVP8g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_c9aQIOzIEd--R6Ia0d6GOQ" name="context_model" guid="_c9aQIOzIEd--R6Ia0d6GOQ" presentationName="Context model" briefDescription="The context elements that affect system adaptation"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_g5Y9gOzIEd--R6Ia0d6GOQ" name="variant_model" guid="_g5Y9gOzIEd--R6Ia0d6GOQ" presentationName="Variant model" briefDescription="This work product contains the variability of the system, i.e. the parts of the system that can change during adaptation."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kqpooOzIEd--R6Ia0d6GOQ" name="test_cases" guid="_kqpooOzIEd--R6Ia0d6GOQ" presentationName="Test cases" briefDescription="Test cases are defined and used to test the adaptation model."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_pAFbAOzMEd--R6Ia0d6GOQ" name="constraints_model" guid="_pAFbAOzMEd--R6Ia0d6GOQ" presentationName="Constraints model" briefDescription="The constraints on the variability and context of the adaptation model, to control number of possible configurations."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_sa1qoOzMEd--R6Ia0d6GOQ" name="adaptation_policies" guid="_sa1qoOzMEd--R6Ia0d6GOQ" presentationName="Adaptation policies" briefDescription="This artifact contains the adaptation policies of the adaptation model, i.e. Properties, QoS impacts and Priority rules"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rAfhoOzOEd--R6Ia0d6GOQ" name="define_test_cases" guid="_rAfhoOzOEd--R6Ia0d6GOQ" presentationName="Define test cases" briefDescription="This task explains how to define the test cases that will drive the test-driven and iterative development of the adaptation model" performedBy="__53b0AOZEeCKOY6tSwZy2A" mandatoryInput="_c9aQIOzIEd--R6Ia0d6GOQ _g5Y9gOzIEd--R6Ia0d6GOQ" output="_kqpooOzIEd--R6Ia0d6GOQ">
+            <presentation xmi:id="-vi9NqcnZ9leeKS1uxfx25g" href="uma://-vi9NqcnZ9leeKS1uxfx25g#-vi9NqcnZ9leeKS1uxfx25g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_sdnm8OzOEd--R6Ia0d6GOQ" name="identify_variability_and_context" guid="_sdnm8OzOEd--R6Ia0d6GOQ" presentationName="Identify variability and context" briefDescription="This task explains how to identify the relevant variants and context elements that drive the adaptation of the system" performedBy="__53b0AOZEeCKOY6tSwZy2A" output="_c9aQIOzIEd--R6Ia0d6GOQ _g5Y9gOzIEd--R6Ia0d6GOQ">
+            <presentation xmi:id="-LmgifZtibzFGhJHMvtgCwA" href="uma://-LmgifZtibzFGhJHMvtgCwA#-LmgifZtibzFGhJHMvtgCwA"/>
+            <optionalInput href="uma://_iESMoNxcEd-LYKXkOhPACw#_2t4YUOG2Ed-AyrTFSpVP8g"/>
+            <optionalInput href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_samV0O2XEd--BOZpIYnXRA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_OJJtcOzPEd--R6Ia0d6GOQ" name="model_constraints" guid="_OJJtcOzPEd--R6Ia0d6GOQ" presentationName="Model constraints" briefDescription="This task details how to model the constraints on the adaptation model" performedBy="__53b0AOZEeCKOY6tSwZy2A" mandatoryInput="_c9aQIOzIEd--R6Ia0d6GOQ _g5Y9gOzIEd--R6Ia0d6GOQ" output="_pAFbAOzMEd--R6Ia0d6GOQ" optionalInput="_kqpooOzIEd--R6Ia0d6GOQ">
+            <presentation xmi:id="-3J_mxaqNAye5bGYnZ-QuzA" href="uma://-3J_mxaqNAye5bGYnZ-QuzA#-3J_mxaqNAye5bGYnZ-QuzA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Rt4YcOzPEd--R6Ia0d6GOQ" name="define_adaptation_policies" guid="_Rt4YcOzPEd--R6Ia0d6GOQ" presentationName="Define adaptation policies" briefDescription="This task describes how to define the adaptation policies" performedBy="__53b0AOZEeCKOY6tSwZy2A" mandatoryInput="_c9aQIOzIEd--R6Ia0d6GOQ _g5Y9gOzIEd--R6Ia0d6GOQ" output="_sa1qoOzMEd--R6Ia0d6GOQ" optionalInput="_pAFbAOzMEd--R6Ia0d6GOQ _kqpooOzIEd--R6Ia0d6GOQ">
+            <presentation xmi:id="-8pxstEkmOxA6f787MdYavA" href="uma://-8pxstEkmOxA6f787MdYavA#-8pxstEkmOxA6f787MdYavA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_lMhbAAOPEeCKOY6tSwZy2A" name="diva_adaptation_logic" guid="_lMhbAAOPEeCKOY6tSwZy2A" presentationName="DiVA - Adaptation modelling" briefDescription="Defining the DiVA adaptation model that determines the adaptation logic of the system." contentReferences="_X1NuoOzFEd--R6Ia0d6GOQ _g5Y9gOzIEd--R6Ia0d6GOQ _c9aQIOzIEd--R6Ia0d6GOQ _kqpooOzIEd--R6Ia0d6GOQ _pAFbAOzMEd--R6Ia0d6GOQ _sa1qoOzMEd--R6Ia0d6GOQ _sdnm8OzOEd--R6Ia0d6GOQ _rAfhoOzOEd--R6Ia0d6GOQ _OJJtcOzPEd--R6Ia0d6GOQ _Rt4YcOzPEd--R6Ia0d6GOQ">
+            <presentation xmi:id="-iqvcE0px166SY61OBv9IVA" href="uma://-iqvcE0px166SY61OBv9IVA#-iqvcE0px166SY61OBv9IVA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="__53b0AOZEeCKOY6tSwZy2A" name="adaptation_logic_modeller" guid="__53b0AOZEeCKOY6tSwZy2A" presentationName="Adaptation logic modeller" briefDescription="This person is responsible for specifying the adaptation logic of the DiVA system, i.e. how the system adapts to changes in context." responsibleFor="_X1NuoOzFEd--R6Ia0d6GOQ _sa1qoOzMEd--R6Ia0d6GOQ _pAFbAOzMEd--R6Ia0d6GOQ _c9aQIOzIEd--R6Ia0d6GOQ _kqpooOzIEd--R6Ia0d6GOQ _g5Y9gOzIEd--R6Ia0d6GOQ"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_XSYj3ezEEd--R6Ia0d6GOQ" name="CapabilityPatterns" guid="_XSYj3ezEEd--R6Ia0d6GOQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_BEBMkAeREeCk4NIWYgM-Lg" href="uma://_BEBMkAeREeCk4NIWYgM-Lg#_BEBMkAeREeCk4NIWYgM-Lg"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_XSYj3uzEEd--R6Ia0d6GOQ" name="DeliveryProcesses" guid="_XSYj3uzEEd--R6Ia0d6GOQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_XSYj3-zEEd--R6Ia0d6GOQ" name="ProcessContributions" guid="_XSYj3-zEEd--R6Ia0d6GOQ"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_Gsw3gO2XEd--BOZpIYnXRA"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_C8grURHGEeGJLqiKwS3dqQ" guid="_C8grURHGEeGJLqiKwS3dqQ">
+    <resourceDescriptors xmi:id="_C8grUhHGEeGJLqiKwS3dqQ" id="-PpW8cmaGobPuTh5y2wepzA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_dLAbsRQ7EeGgOd2_jEsctg" id="-kOuBioqMGQQCMll-c8SY_A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_dLAbshQ7EeGgOd2_jEsctg" id="-yUnr1SQHvrZIq9RExYXOhw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_dLAbsxQ7EeGgOd2_jEsctg" id="-zpbzQaPhRKgWaIcP5RaM6A" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_C6t7kBHGEeGJLqiKwS3dqQ" name="system_information_modelling" guid="_C6t7kBHGEeGJLqiKwS3dqQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_cq3jEBQ7EeGgOd2_jEsctg" name="define_system_information_model" guid="_cq3jEBQ7EeGgOd2_jEsctg" presentationName="Define system information model" briefDescription="This task describes how to define a System information model." superActivities="_C6t7kRHGEeGJLqiKwS3dqQ" output="_cq3jExQ7EeGgOd2_jEsctg" performedPrimarilyBy="_cq3jERQ7EeGgOd2_jEsctg">
+      <presentation xmi:id="-kOuBioqMGQQCMll-c8SY_A" href="uma://-PpW8cmaGobPuTh5y2wepzA#-kOuBioqMGQQCMll-c8SY_A"/>
+      <Task href="uma://_h01KsBHDEeGJLqiKwS3dqQ#_lyd2MBQ6EeGgOd2_jEsctg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_cq3jERQ7EeGgOd2_jEsctg" name="system_architect" guid="_cq3jERQ7EeGgOd2_jEsctg" presentationName="System architect" briefDescription="Works on developing and maintaining a service-oriented architecture for the IT portfolio of a company." isPlanned="false" superActivities="_C6t7kRHGEeGJLqiKwS3dqQ" modifies="_cq3jExQ7EeGgOd2_jEsctg">
+      <methodElementProperty xmi:id="_cq3jEhQ7EeGgOd2_jEsctg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-yUnr1SQHvrZIq9RExYXOhw" href="uma://-PpW8cmaGobPuTh5y2wepzA#-yUnr1SQHvrZIq9RExYXOhw"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_cq3jExQ7EeGgOd2_jEsctg" name="system_information_model" guid="_cq3jExQ7EeGgOd2_jEsctg" presentationName="System information model" briefDescription="&lt;TBD>" isPlanned="false" superActivities="_C6t7kRHGEeGJLqiKwS3dqQ">
+      <methodElementProperty xmi:id="_cq3jFBQ7EeGgOd2_jEsctg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-zpbzQaPhRKgWaIcP5RaM6A" href="uma://-PpW8cmaGobPuTh5y2wepzA#-zpbzQaPhRKgWaIcP5RaM6A"/>
+      <WorkProduct href="uma://_h01KsBHDEeGJLqiKwS3dqQ#_BWKOABHFEeGJLqiKwS3dqQ"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_C6t7kRHGEeGJLqiKwS3dqQ" name="system_information_modelling" guid="_C6t7kRHGEeGJLqiKwS3dqQ" presentationName="System information modelling" breakdownElements="_cq3jEBQ7EeGgOd2_jEsctg _cq3jERQ7EeGgOd2_jEsctg _cq3jExQ7EeGgOd2_jEsctg">
+      <presentation xmi:id="-PpW8cmaGobPuTh5y2wepzA" href="uma://-PpW8cmaGobPuTh5y2wepzA#-PpW8cmaGobPuTh5y2wepzA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

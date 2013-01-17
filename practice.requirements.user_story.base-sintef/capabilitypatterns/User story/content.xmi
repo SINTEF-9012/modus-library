@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-H8SUhSaBEwBGQQBvgtX0SQ" name="user_story,_aJ48oQ9wEeGUrJHR_a_BCQ" guid="-H8SUhSaBEwBGQQBvgtX0SQ"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-cEJrbNO_wXiUA6hzmzcd3g" name="prioritize_user_stories,_eGDQMg9wEeGUrJHR_a_BCQ" guid="-cEJrbNO_wXiUA6hzmzcd3g">
+    <refinedDescription>User stories are prioritized by the customer to indicate which are most important for the system and will be broken down in&#xD;
+tasks and estimated by the developers.&lt;a id=&quot;N10135&quot; name=&quot;N10135&quot;>&lt;/a>&lt;a id=&quot;Goals-N10135&quot; name=&quot;Goals-N10135&quot;>&lt;/a></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZSxh1pohg6qyRXOrzow08g" name="system_developer,_eGDQNg9wEeGUrJHR_a_BCQ" guid="-ZSxh1pohg6qyRXOrzow08g">
+    <refinedDescription>This worker is involved in the implementation of the business process, obtaining services needed to be part of the&#xD;
+composition and developing the final script which can be executed by a specialized engine.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-0M_rEvwui7ayLb6YWd1isg" name="epics,_eGDQOA9wEeGUrJHR_a_BCQ" guid="-0M_rEvwui7ayLb6YWd1isg">
+    <refinedDescription>An Epic is a group of related User Stories.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2iU95qgTd31pvjdvXrsk8Q" name="user_stories,_eGDQOg9wEeGUrJHR_a_BCQ" guid="-2iU95qgTd31pvjdvXrsk8Q">
+    <refinedDescription>A User Story is an Independent, Negotiable, Valuable, Estimatable, Small, Testable requirement (INVEST)</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6g_UpL6W0Ve7uphncKrBMQ" name="estimate_user_stories,_eGDQMQ9wEeGUrJHR_a_BCQ" guid="-6g_UpL6W0Ve7uphncKrBMQ">
+    <refinedDescription>&lt;p>&#xD;
+    The article &lt;a&#xD;
+    href=&quot;http://www.infoq.com/articles/agile-estimation-techniques&quot;>http://www.infoq.com/articles/agile-estimation-techniques&lt;/a>&amp;nbsp;describes&#xD;
+    a set of useful techniques for estimating user stories. The advices include:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>When building a size scale, use the powers of two rather than 1, 2, 3:&lt;/strong> Because business people can&#xD;
+        grasp the difference between a 2 and an 8 in size better than a 1 and a 3.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Require Attendance of All Developers:&lt;/strong> Since any of them may end up working on the story.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Redo stale estimates:&lt;/strong> If the project changes, change the estimates.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Bring “Special Snacks”:&lt;/strong> The author suggests bringing high quality snacks, such as fresh bakery&#xD;
+        goods to the estimation sessions to make people happier and more cooperative.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-VPdeaGtAdEzPFl9IxxKF_w" name="write_user_stories,_eGDQMw9wEeGUrJHR_a_BCQ" guid="-VPdeaGtAdEzPFl9IxxKF_w">
+    <refinedDescription>&lt;p>&#xD;
+    The customer is responsible for formulating the user stories. One of the developers gets together with a customer&#xD;
+    representative and assists in writing the user stories.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    User stories generally follow the following template:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &quot;As a &amp;lt;role&amp;gt;, I want &amp;lt;goal/desire&amp;gt; so that &amp;lt;benefit&amp;gt;&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &quot;As a &amp;lt;role&amp;gt;, I want &amp;lt;goal/desire&amp;gt;&quot;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Examples:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;p>&#xD;
+            As a user, I want to search for my customers by their first and last names.&#xD;
+        &lt;/p>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    User stories can be categories according to &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.user_story.base-sintef/workproducts/epics_7B14BA1B.html&quot;&#xD;
+    guid=&quot;_jYx1tg7OEeG7mKurZhyY1A&quot;>Epics&lt;/a> or &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.requirements.user_story.base-sintef/workproducts/themes_22312A75.html&quot;&#xD;
+    guid=&quot;_9vbjoA9uEeGUrJHR_a_BCQ&quot;>Themes&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Acb4wvtGyf732rYqfAsBYw" name="objectives,_-yH_QRaLEeGN5IfqzXKCmQ" guid="-Acb4wvtGyf732rYqfAsBYw">
+    <refinedDescription>&amp;lt;TBD&amp;gt;</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-r7OSPGju-EUtJGHzjcEQNw" name="solution_areas,_-yH_RBaLEeGN5IfqzXKCmQ" guid="-r7OSPGju-EUtJGHzjcEQNw">
+    <refinedDescription>A Solution Area represents a &quot;complete solution&quot;.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-N5yHYe6HdR9C8b4nChxTwg" name="solution_components,_-yH_RxaLEeGN5IfqzXKCmQ" guid="-N5yHYe6HdR9C8b4nChxTwg">
+    <refinedDescription>A Solution Component represents software components that can be configured/integrated/used in a Solution Area.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Z4S3c2xrTii7fQ9n4asNuA" name="solution_features,_-yH_ShaLEeGN5IfqzXKCmQ" guid="-Z4S3c2xrTii7fQ9n4asNuA">
+    <refinedDescription>A Solution Feature represents a functionality/capability of a Solution Component.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-75IcnzVRGK47l_FOnHSR2w" name="themes,_EokKMRa4EeGN5IfqzXKCmQ" guid="-75IcnzVRGK47l_FOnHSR2w">
+    <refinedDescription>A Theme is a top-level objective that may span projects and products. Themes are often used to organize stories into&#xD;
+releases or to organize them so that various subteams can work on them.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

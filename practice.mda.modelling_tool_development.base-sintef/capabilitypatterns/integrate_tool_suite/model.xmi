@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_2lc5sJD9EeCNrarm6dhJ9A" guid="_2lc5sJD9EeCNrarm6dhJ9A">
+    <resourceDescriptors xmi:id="_2lc5sZD9EeCNrarm6dhJ9A" id="-4lp_-mwhZ9EJZn-_ipgtJg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_pZ0-MJEDEeCNrarm6dhJ9A" id="-RN2sbo2J9H2zF6IZz1ojDQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_pZ2MUJEDEeCNrarm6dhJ9A" id="-iYfX66yELkZfJlTXUX6H2A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_pZ4BgJEDEeCNrarm6dhJ9A" id="-p7qPJbCNS7wGq2jLhRk-lA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_2k7VQJD9EeCNrarm6dhJ9A" name="integrate_tool_suite" guid="_2k7VQJD9EeCNrarm6dhJ9A">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nxJJIJEDEeCNrarm6dhJ9A" name="create_ide_bundle" guid="_nxJJIJEDEeCNrarm6dhJ9A" presentationName="Create IDE bundle" briefDescription="This task describes how to create an IDE bundle." superActivities="_2k7VQZD9EeCNrarm6dhJ9A" linkToPredecessor="_uRWt0JEDEeCNrarm6dhJ9A" output="_nxOBopEDEeCNrarm6dhJ9A" performedPrimarilyBy="_nxOBoJEDEeCNrarm6dhJ9A">
+      <presentation xmi:id="-RN2sbo2J9H2zF6IZz1ojDQ" href="uma://-4lp_-mwhZ9EJZn-_ipgtJg#-RN2sbo2J9H2zF6IZz1ojDQ"/>
+      <Task href="uma://_FzYp8Mb_Ed-2_-I8Ok7trA#_AMpgoJECEeCNrarm6dhJ9A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nxJJIZEDEeCNrarm6dhJ9A" name="define_ide_tool_suite" guid="_nxJJIZEDEeCNrarm6dhJ9A" presentationName="Define IDE tool suite" briefDescription="This task describes how to define an IDE tool suite." superActivities="_2k7VQZD9EeCNrarm6dhJ9A" performedPrimarilyBy="_nxOBoJEDEeCNrarm6dhJ9A">
+      <presentation xmi:id="-iYfX66yELkZfJlTXUX6H2A" href="uma://-4lp_-mwhZ9EJZn-_ipgtJg#-iYfX66yELkZfJlTXUX6H2A"/>
+      <Task href="uma://_FzYp8Mb_Ed-2_-I8Ok7trA#_V0r1gJEBEeCNrarm6dhJ9A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nxJJIpEDEeCNrarm6dhJ9A" name="release_ide_bundle" guid="_nxJJIpEDEeCNrarm6dhJ9A" presentationName="Release IDE bundle" briefDescription="This task describes how to release an IDE bundle." superActivities="_2k7VQZD9EeCNrarm6dhJ9A" linkToPredecessor="_uovTEJEDEeCNrarm6dhJ9A" mandatoryInput="_nxOBopEDEeCNrarm6dhJ9A" output="_nxOBopEDEeCNrarm6dhJ9A" performedPrimarilyBy="_nxOBoJEDEeCNrarm6dhJ9A">
+      <presentation xmi:id="-p7qPJbCNS7wGq2jLhRk-lA" href="uma://-4lp_-mwhZ9EJZn-_ipgtJg#-p7qPJbCNS7wGq2jLhRk-lA"/>
+      <Task href="uma://_FzYp8Mb_Ed-2_-I8Ok7trA#_JYK1AJECEeCNrarm6dhJ9A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_nxOBoJEDEeCNrarm6dhJ9A" name="ide_developer" guid="_nxOBoJEDEeCNrarm6dhJ9A" presentationName="IDE developer" isPlanned="false" superActivities="_2k7VQZD9EeCNrarm6dhJ9A" modifies="_nxOBopEDEeCNrarm6dhJ9A">
+      <methodElementProperty xmi:id="_nxOBoZEDEeCNrarm6dhJ9A" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_mzQyABoYEd6Vpr8V6Jy-eA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_nxOBopEDEeCNrarm6dhJ9A" name="ide_bundle" guid="_nxOBopEDEeCNrarm6dhJ9A" presentationName="IDE bundle" briefDescription="IDE bundle." isPlanned="false" superActivities="_2k7VQZD9EeCNrarm6dhJ9A">
+      <methodElementProperty xmi:id="_nxOBo5EDEeCNrarm6dhJ9A" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_FzYp8Mb_Ed-2_-I8Ok7trA#_oug3sJEAEeCNrarm6dhJ9A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_uRWt0JEDEeCNrarm6dhJ9A" guid="_uRWt0JEDEeCNrarm6dhJ9A" pred="_nxJJIZEDEeCNrarm6dhJ9A"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_uovTEJEDEeCNrarm6dhJ9A" guid="_uovTEJEDEeCNrarm6dhJ9A" pred="_nxJJIJEDEeCNrarm6dhJ9A"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_2k7VQZD9EeCNrarm6dhJ9A" name="integrate_tool_suite" guid="_2k7VQZD9EeCNrarm6dhJ9A" presentationName="Integrate tool suite" breakdownElements="_nxJJIZEDEeCNrarm6dhJ9A _nxJJIJEDEeCNrarm6dhJ9A _nxJJIpEDEeCNrarm6dhJ9A _nxOBoJEDEeCNrarm6dhJ9A _nxOBopEDEeCNrarm6dhJ9A">
+      <presentation xmi:id="-4lp_-mwhZ9EJZn-_ipgtJg" href="uma://-4lp_-mwhZ9EJZn-_ipgtJg#-4lp_-mwhZ9EJZn-_ipgtJg"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_tQn-IFX-EeCmC7fuNTHhhQ"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_tQn-IFX-EeCmC7fuNTHhhQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

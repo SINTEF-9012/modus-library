@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_mdoRQQ-TEeGDNfbD82mH8Q" guid="_mdoRQQ-TEeGDNfbD82mH8Q">
+    <resourceDescriptors xmi:id="_mdoRQg-TEeGDNfbD82mH8Q" id="-az9odHdehRbTY4BZ60JQQw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ttd8EQ-TEeGDNfbD82mH8Q" id="-7J8nzVoE4IUrf7xM-6H6gw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ttd8Eg-TEeGDNfbD82mH8Q" id="-Za50FVVgZSLoPAXlvBMhog" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ttd8Ew-TEeGDNfbD82mH8Q" id="-fuNuA5FIarMkFDWpxedaUA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_mdVWUA-TEeGDNfbD82mH8Q" name="prototype_development" guid="_mdVWUA-TEeGDNfbD82mH8Q">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ojz6oA-TEeGDNfbD82mH8Q" name="develop_prototype" guid="_ojz6oA-TEeGDNfbD82mH8Q" presentationName="Develop prototype" briefDescription="This task describes how to develop a prototype." superActivities="_mdVWUQ-TEeGDNfbD82mH8Q" output="_oj9roA-TEeGDNfbD82mH8Q" performedPrimarilyBy="_ojz6oQ-TEeGDNfbD82mH8Q">
+      <presentation xmi:id="-7J8nzVoE4IUrf7xM-6H6gw" href="uma://-az9odHdehRbTY4BZ60JQQw#-7J8nzVoE4IUrf7xM-6H6gw"/>
+      <Task href="uma://_wYHkgA7PEeG7mKurZhyY1A#_OKVc4OHREd-nwfeZTt0t8A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_ojz6oQ-TEeGDNfbD82mH8Q" name="requirements_analyst" guid="_ojz6oQ-TEeGDNfbD82mH8Q" presentationName="Requirements analyst" briefDescription="This worker is mainly involved in the processes related to the requirements of the customers. " isPlanned="false" superActivities="_mdVWUQ-TEeGDNfbD82mH8Q" modifies="_oj9roA-TEeGDNfbD82mH8Q">
+      <methodElementProperty xmi:id="_ojz6og-TEeGDNfbD82mH8Q" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-Za50FVVgZSLoPAXlvBMhog" href="uma://-az9odHdehRbTY4BZ60JQQw#-Za50FVVgZSLoPAXlvBMhog"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIpisBntEd6VV7P4WguglA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_oj9roA-TEeGDNfbD82mH8Q" name="prototype" guid="_oj9roA-TEeGDNfbD82mH8Q" presentationName="Prototype" briefDescription="This work product describes a prototype of the system under design.&#xD;&#xA;" isPlanned="false" superActivities="_mdVWUQ-TEeGDNfbD82mH8Q">
+      <methodElementProperty xmi:id="_oj9roQ-TEeGDNfbD82mH8Q" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-fuNuA5FIarMkFDWpxedaUA" href="uma://-az9odHdehRbTY4BZ60JQQw#-fuNuA5FIarMkFDWpxedaUA"/>
+      <WorkProduct href="uma://_wYHkgA7PEeG7mKurZhyY1A#_ufFW0N0UEd-xB8a51ZHHaA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_mdVWUQ-TEeGDNfbD82mH8Q" name="prototype_development" guid="_mdVWUQ-TEeGDNfbD82mH8Q" presentationName="Prototype development" breakdownElements="_ojz6oA-TEeGDNfbD82mH8Q _ojz6oQ-TEeGDNfbD82mH8Q _oj9roA-TEeGDNfbD82mH8Q">
+      <presentation xmi:id="-az9odHdehRbTY4BZ60JQQw" href="uma://-az9odHdehRbTY4BZ60JQQw#-az9odHdehRbTY4BZ60JQQw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

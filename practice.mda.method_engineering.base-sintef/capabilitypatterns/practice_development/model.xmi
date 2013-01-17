@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_3xauQR0jEd65QJax4GT0MQ" guid="_3xauQR0jEd65QJax4GT0MQ">
+    <resourceDescriptors xmi:id="_3xauQh0jEd65QJax4GT0MQ" id="-B3apaSVsGoiP7UX6mSqjdg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_GY0r8JHnEeC1cpVMwFmQkQ" id="-wJRfjiXdEUUBzyCzI0ynqQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_GY16EJHnEeC1cpVMwFmQkQ" id="-DadZLRhXipCrqdE1tuLJ1Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_MJEzUJHnEeC1cpVMwFmQkQ" id="-I4sR0hoHltHopgXQNE00_w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_rmscQJKhEeCbV-Oof7KymA" id="-Oj15ETDzVSg367fwJQYx3g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_rmuRcJKhEeCbV-Oof7KymA" id="-nwe8GCKn9umiuU4GHkw2sw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_rmvfkJKhEeCbV-Oof7KymA" id="-Yp8bEyPfmVj5aAlFdnhtoQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_rmwGoJKhEeCbV-Oof7KymA" id="-DPbD0VnPxnTWu3yHjn5vaA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_3w0RUB0jEd65QJax4GT0MQ" name="practice_development" guid="_3w0RUB0jEd65QJax4GT0MQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_U_DmAt3AEd-ms9NsV3fnQQ" name="define_language_guidelines" guid="_U_DmAt3AEd-ms9NsV3fnQQ" presentationName="Define language guidelines" briefDescription="This task describes how to define language guidelines." superActivities="_3w0RUR0jEd65QJax4GT0MQ" linkToPredecessor="_TWh4gJHnEeC1cpVMwFmQkQ" additionallyPerformedBy="_HuiXIZHmEeC1cpVMwFmQkQ" output="_7oUCkZKdEeCbV-Oof7KymA" performedPrimarilyBy="_U_DmBN3AEd-ms9NsV3fnQQ">
+      <presentation xmi:id="-wJRfjiXdEUUBzyCzI0ynqQ" href="uma://-B3apaSVsGoiP7UX6mSqjdg#-wJRfjiXdEUUBzyCzI0ynqQ"/>
+      <Task href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#_OfVF4Bz-Ed65QJax4GT0MQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_U_DmA93AEd-ms9NsV3fnQQ" name="define_practice" guid="_U_DmA93AEd-ms9NsV3fnQQ" presentationName="Define practice" briefDescription="This task describes how to define a practice." superActivities="_3w0RUR0jEd65QJax4GT0MQ" mandatoryInput="_nRQtEZKhEeCbV-Oof7KymA" output="_U_XIAN3AEd-ms9NsV3fnQQ" performedPrimarilyBy="_U_DmBN3AEd-ms9NsV3fnQQ">
+      <presentation xmi:id="-DadZLRhXipCrqdE1tuLJ1Q" href="uma://-B3apaSVsGoiP7UX6mSqjdg#-DadZLRhXipCrqdE1tuLJ1Q"/>
+      <toolmentor href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#_oKO2EJKZEeCbV-Oof7KymA"/>
+      <Task href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#_yXfBcNeSEd-Mq_S1iaxctg"/>
+      <selectedSteps href="uma://-5d-HsCKCXTvVrCaBjFALWg#_F_9IoJKaEeCbV-Oof7KymA"/>
+      <selectedSteps href="uma://-5d-HsCKCXTvVrCaBjFALWg#_IfrTYJKaEeCbV-Oof7KymA"/>
+      <selectedSteps href="uma://-5d-HsCKCXTvVrCaBjFALWg#_KM2m4JKaEeCbV-Oof7KymA"/>
+      <selectedSteps href="uma://-5d-HsCKCXTvVrCaBjFALWg#_L9EnUJKaEeCbV-Oof7KymA"/>
+      <selectedSteps href="uma://-5d-HsCKCXTvVrCaBjFALWg#_OJhQwJKaEeCbV-Oof7KymA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_U_DmBN3AEd-ms9NsV3fnQQ" name="method_engineer" guid="_U_DmBN3AEd-ms9NsV3fnQQ" presentationName="Method engineer" isPlanned="false" superActivities="_3w0RUR0jEd65QJax4GT0MQ" modifies="_7olIUZKdEeCbV-Oof7KymA _7oUCkZKdEeCbV-Oof7KymA _U_XIAN3AEd-ms9NsV3fnQQ">
+      <methodElementProperty xmi:id="_U_DmBd3AEd-ms9NsV3fnQQ" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_knzAABoYEd6Vpr8V6Jy-eA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_U_XIAN3AEd-ms9NsV3fnQQ" name="epf_practice_plugin" guid="_U_XIAN3AEd-ms9NsV3fnQQ" presentationName="EPF practice plugin" briefDescription="Practice plugins define repeatable approaches to doing something with a specific purpose in mind." isPlanned="false" superActivities="_3w0RUR0jEd65QJax4GT0MQ">
+      <methodElementProperty xmi:id="_U_XIAd3AEd-ms9NsV3fnQQ" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-Oj15ETDzVSg367fwJQYx3g" href="uma://-B3apaSVsGoiP7UX6mSqjdg#-Oj15ETDzVSg367fwJQYx3g"/>
+      <WorkProduct href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#_6wJZYNtfEd-pTLmXJigeaQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_1uuu8d3FEd-ms9NsV3fnQQ" guid="_1uuu8d3FEd-ms9NsV3fnQQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_HuiXIZHmEeC1cpVMwFmQkQ" name="language_engineer" guid="_HuiXIZHmEeC1cpVMwFmQkQ" presentationName="Language engineer" isPlanned="false" superActivities="_3w0RUR0jEd65QJax4GT0MQ">
+      <methodElementProperty xmi:id="_HuiXIpHmEeC1cpVMwFmQkQ" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_I4PvwBoYEd6Vpr8V6Jy-eA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_LVeMIJHnEeC1cpVMwFmQkQ" name="define_tooling_guidelines" guid="_LVeMIJHnEeC1cpVMwFmQkQ" presentationName="Define tooling guidelines" briefDescription="This task describes how to define tooling guidelines." superActivities="_3w0RUR0jEd65QJax4GT0MQ" additionallyPerformedBy="_LVgBUJHnEeC1cpVMwFmQkQ" output="_7olIUZKdEeCbV-Oof7KymA" performedPrimarilyBy="_U_DmBN3AEd-ms9NsV3fnQQ">
+      <presentation xmi:id="-I4sR0hoHltHopgXQNE00_w" href="uma://-B3apaSVsGoiP7UX6mSqjdg#-I4sR0hoHltHopgXQNE00_w"/>
+      <Task href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#_dCRP8JHlEeC1cpVMwFmQkQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_LVgBUJHnEeC1cpVMwFmQkQ" name="editor_developer" guid="_LVgBUJHnEeC1cpVMwFmQkQ" presentationName="Editor developer" isPlanned="false" superActivities="_3w0RUR0jEd65QJax4GT0MQ">
+      <methodElementProperty xmi:id="_LVgoYJHnEeC1cpVMwFmQkQ" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_MHE4wCXhEd-wiJ8m5XAddw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_TWh4gJHnEeC1cpVMwFmQkQ" guid="_TWh4gJHnEeC1cpVMwFmQkQ" pred="_U_DmA93AEd-ms9NsV3fnQQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_7oUCkZKdEeCbV-Oof7KymA" name="language_guideline" guid="_7oUCkZKdEeCbV-Oof7KymA" presentationName="Language guideline" briefDescription="Guidelines for using the modelling language." isPlanned="false" superActivities="_3w0RUR0jEd65QJax4GT0MQ">
+      <methodElementProperty xmi:id="_7oUCkpKdEeCbV-Oof7KymA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-nwe8GCKn9umiuU4GHkw2sw" href="uma://-B3apaSVsGoiP7UX6mSqjdg#-nwe8GCKn9umiuU4GHkw2sw"/>
+      <WorkProduct href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#_XFj2YJHkEeC1cpVMwFmQkQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_7olIUZKdEeCbV-Oof7KymA" name="tooling_guideline" guid="_7olIUZKdEeCbV-Oof7KymA" presentationName="Tooling guideline" briefDescription="Guidelines for using the modelling tooling." isPlanned="false" superActivities="_3w0RUR0jEd65QJax4GT0MQ">
+      <methodElementProperty xmi:id="_7olIUpKdEeCbV-Oof7KymA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-Yp8bEyPfmVj5aAlFdnhtoQ" href="uma://-B3apaSVsGoiP7UX6mSqjdg#-Yp8bEyPfmVj5aAlFdnhtoQ"/>
+      <WorkProduct href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#_ceFnIBz7Ed60rOWMCnTZyg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_nRQtEZKhEeCbV-Oof7KymA" name="epf_core_plugin" guid="_nRQtEZKhEeCbV-Oof7KymA" presentationName="EPF core plugin" briefDescription="The core plugins define the kernel." isPlanned="false" superActivities="_3w0RUR0jEd65QJax4GT0MQ">
+      <methodElementProperty xmi:id="_nRQtEpKhEeCbV-Oof7KymA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-DPbD0VnPxnTWu3yHjn5vaA" href="uma://-B3apaSVsGoiP7UX6mSqjdg#-DPbD0VnPxnTWu3yHjn5vaA"/>
+      <WorkProduct href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#_4YCu8FY0EeCmC7fuNTHhhQ"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_3w0RUR0jEd65QJax4GT0MQ" name="practice_development" guid="_3w0RUR0jEd65QJax4GT0MQ" presentationName="Practice development" breakdownElements="_U_DmA93AEd-ms9NsV3fnQQ _U_DmAt3AEd-ms9NsV3fnQQ _U_DmBN3AEd-ms9NsV3fnQQ _U_XIAN3AEd-ms9NsV3fnQQ _HuiXIZHmEeC1cpVMwFmQkQ _LVeMIJHnEeC1cpVMwFmQkQ _LVgBUJHnEeC1cpVMwFmQkQ _7oUCkZKdEeCbV-Oof7KymA _7olIUZKdEeCbV-Oof7KymA _nRQtEZKhEeCbV-Oof7KymA">
+      <methodElementProperty xmi:id="_kBYGQdeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-B3apaSVsGoiP7UX6mSqjdg" href="uma://-B3apaSVsGoiP7UX6mSqjdg#-B3apaSVsGoiP7UX6mSqjdg"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_6KEEEBoXEd6Vpr8V6Jy-eA"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_6KEEEBoXEd6Vpr8V6Jy-eA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

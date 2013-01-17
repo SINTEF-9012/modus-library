@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-GiVPMAhhL5s9AuLyWfq7cg" name="new_toolmentor,_K-0HoPfAEd-qBr8EL56jIA" guid="-GiVPMAhhL5s9AuLyWfq7cg" changeDate="2010-11-24T12:46:52.274+0100">
+  <mainDescription>&lt;h3>&#xD;
+    Enterprise Architect (EA) SoaML tool mentor&#xD;
+&lt;/h3>&#xD;
+&lt;h4>&#xD;
+    Issue #1: EA does not properly support UML collaboration modelling&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    EA does not properly support UML collaboration modelling. This means that modelling of&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Services architectures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Service contracts&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    are not really supported by EA. EA does however &quot;fake&quot; the support for these concepts so that &quot;pictures&quot; can be&#xD;
+    modelled that resembles SoaML services architectures and service contracts. Unfortunately, since there are no proper&#xD;
+    modelling support, the consistency of all of these different &quot;pictures&quot; must be&amp;nbsp;manually &quot;hand-coded&quot; in the&#xD;
+    models.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Because of this issue we advise that you only use services architectures to depict high-level service-oriented&#xD;
+    descriptions, and that you specify the services using service interfaces rather than service contracts.&#xD;
+&lt;/p>&#xD;
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

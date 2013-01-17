@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-CZi7NvbcYSf5Wfvj0LiF3w" name="new_term_definition,_hG3EEJzYEeCjAYLMIp9ZDA" guid="-CZi7NvbcYSf5Wfvj0LiF3w" changeDate="2011-06-22T16:04:34.527+0200">
+  <mainDescription>&lt;p>&#xD;
+    Collaboration is extended to indicate whether the role to part bindings of CollaborationUses typed by a Collaboration&#xD;
+    are strictly enforced or not.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Collaboration, ServiceContract or ServicesArchitecture represents a pattern of interaction between roles. This&#xD;
+    interaction may be informal and loosly defined as in a requirements sketch. Or it may represent formal agreements or&#xD;
+    requirements that must be fulfilled exactly. A Collaboration’s isStrict property establishes the default value of the&#xD;
+    isStrict property for any CollaborationUse typed by the Collaboration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note that as a ServiceContract is binding on the ServiceInterfaces named in that contract, a CollaborationUse is not&#xD;
+    required if the types are compatible.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

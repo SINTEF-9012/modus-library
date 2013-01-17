@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-jQ-sItrs4bQeWYFf5s4Ccg" name=",_Xjnf8HwsEd6zE6DaMH4mBQ" guid="-jQ-sItrs4bQeWYFf5s4Ccg" authors="Christian Hahn" changeDate="2009-08-11T11:30:30.362+0200" changeDescription="Initial input&#x9;" version="0.1">
+  <mainDescription>&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&lt;SPAN lang=EN-GB style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>A &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Role&lt;/SPAN> in JACK defines a relationship between a role tenderer (which could be a &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Team&lt;/SPAN>) and a role filler (sub-team), specifying the goals that both participants must achieve. &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Role&lt;/SPAN> definitions are a very important concept to define &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Teams&lt;/SPAN> as those specify which messages—which are rather &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Events&lt;/SPAN>—the role fillers are able to react to and which messages they are likely to send.&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P></mainDescription>
+  <sections xmi:id="_nq66sHwsEd6zE6DaMH4mBQ" name="Define Roles" guid="_nq66sHwsEd6zE6DaMH4mBQ">
+    <sectionDescription>&lt;p>&#xD;
+    Roles are used in Jack as interface of an Agent that can communicate through its Roles&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Define the name of the Role&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></sectionDescription>
+  </sections>
+  <sections xmi:id="_qhq9cIWEEd6Lb6GZuo4wTA" name="Add handled Events" guid="_qhq9cIWEEd6Lb6GZuo4wTA">
+    <sectionDescription>Specifies the Events the Role is able to handle</sectionDescription>
+  </sections>
+  <sections xmi:id="_sKt-4IWEEd6Lb6GZuo4wTA" name="Add posted Events" guid="_sKt-4IWEEd6Lb6GZuo4wTA">
+    <sectionDescription>Specifies the Events the Rrole is able to post</sectionDescription>
+  </sections>
+  <purpose>Create roles in JACK</purpose>
+</org.eclipse.epf.uma:TaskDescription>

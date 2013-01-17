@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_09rJ4NquEd-RHtsSMqnPrA" guid="_09rJ4NquEd-RHtsSMqnPrA">
+    <subManagers xmi:id="_TrplIYDoEd6lNYuk36nUnQ" href="uma://_To-EkIDoEd6lNYuk36nUnQ#_TrplIYDoEd6lNYuk36nUnQ"/>
+    <resourceDescriptors xmi:id="_TqKXYIDoEd6lNYuk36nUnQ" id="_To-EkIDoEd6lNYuk36nUnQ" uri="capabilitypatterns/define_business_motivations_and_strategies/model.xmi"/>
+    <resourceDescriptors xmi:id="_0rCcgG-_Ed6zv6nlDL4ZGQ" id="-8rhzPU2sNd23k8CaKmP4iw" uri="tasks/Define_business_dictionary.xmi"/>
+    <resourceDescriptors xmi:id="_Wmn80TwGEd-wzrbdBPyHjA" id="-qRA29dezKOKSzRLifsQ0HA" uri="guidances/practices/Business_motivation_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_ihrF8Br-Ed-bArCnVzoI8Q" id="-av3HbF5FdHvPOH7aHIefpw" uri="guidances/supportingmaterials/references.bmm.xmi"/>
+    <resourceDescriptors xmi:id="_AksZIH0IEd63rfdoUaFg2Q" id="-C7GpcGEyUEno_IdBSPNWJw" uri="guidances/toolmentors/Modelio_BMM_tool_mentor.xmi"/>
+    <resourceDescriptors xmi:id="_WfhVkW--Ed6zv6nlDL4ZGQ" id="-yraIJggBnBoWcO1H8_nhRA" uri="tasks/Define_business_requirements.xmi"/>
+    <resourceDescriptors xmi:id="_H0iBcG-2Ed6zv6nlDL4ZGQ" id="-0XaRUuk0hGD0hO9ngmScig" uri="tasks/Define_business_goals.xmi"/>
+    <resourceDescriptors xmi:id="_uyXVwG-7Ed6zv6nlDL4ZGQ" id="-AI-SE6yhaBaDV8pxgy2fsw" uri="tasks/Define_business_rules.xmi"/>
+    <resourceDescriptors xmi:id="_2myq0DpGEd6TnIgyHPSV-Q" id="-w5D9CYQSdyaYjeibeGMQIg" uri="guidances/examples/Marketplace_BMM_Model_example.xmi"/>
+    <resourceDescriptors xmi:id="_429_sFApEd6NGfjlGBNnwA" id="-2wEHq88Szwv45wIw1UKw8Q" uri="workproducts/BMM_Business_Rules_Model.xmi"/>
+    <resourceDescriptors xmi:id="_70CYIIW7Ed6DneKAlTqFLQ" id="-UuRMbS3pVVq5HtDwOZbUXQ" uri="workproducts/BMM_Goal_Model.xmi"/>
+    <resourceDescriptors xmi:id="_EjGNcYDvEd6lNYuk36nUnQ" id="-pdIgsK_5kXTHewIyTYPtdw" uri="workproducts/BMM_Dictionary_Model.xmi"/>
+    <resourceDescriptors xmi:id="_AXWpQakREd6pBu2oaywvsg" id="-cLMY6m5V3Lqu8Dm1MNXRvA" uri="workproducts/BMM_Requirements_Model.xmi"/>
+    <resourceDescriptors xmi:id="_HocSQeZoEd-5YeUvCnM2dQ" id="-g6QgfCL1R9vDOQLOVm_DBQ" uri="guidances/supportingmaterials/release_info_business_motivation_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_6djv4eZoEd-5YeUvCnM2dQ" id="-4GufszDXJIQKKb_7Eo4IcQ" uri="guidances/guidelines/bmm_notation.xmi"/>
+    <resourceDescriptors xmi:id="_K_dmgOZqEd-5YeUvCnM2dQ" id="-BazXXBpraSwVZOBVROtiBw" uri="guidances/roadmaps/how_to_adopt_business_motivation_modelling.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_09h_8NquEd-RHtsSMqnPrA" name="practice.business.business_motivation_modelling.base-sintef" guid="_09h_8NquEd-RHtsSMqnPrA" briefDescription="This plugin contains the Business motivation modelling practice." authors="Brian Elvesæter (SINTEF)" changeDate="2010-10-27T12:51:36.363+0200">
+    <methodElementProperty xmi:id="_09rJ4tquEd-RHtsSMqnPrA" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_09h_8dquEd-RHtsSMqnPrA" name="Content" guid="_09h_8dquEd-RHtsSMqnPrA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_09h_8tquEd-RHtsSMqnPrA" name="Categories" guid="_09h_8tquEd-RHtsSMqnPrA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_09h_89quEd-RHtsSMqnPrA" name="Domains" guid="_09h_89quEd-RHtsSMqnPrA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_IMg9AOXWEd-o7-eCfuNF5g" name="business_modelling_domain.assign" guid="_IMg9AOXWEd-o7-eCfuNF5g" variabilityType="contributes" workProducts="_G9HxoOG4Ed-AyrTFSpVP8g">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_iESMoNxcEd-LYKXkOhPACw#_SgtFkN0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_09h_9NquEd-RHtsSMqnPrA" name="Disciplines" guid="_09h_9NquEd-RHtsSMqnPrA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_6UqhsOHKEd-Zh__EEWu-og" name="business_modelling_discipline.assign" guid="_6UqhsOHKEd-Zh__EEWu-og" variabilityType="contributes" tasks="_dSxyEG--Ed6zv6nlDL4ZGQ _5eCkYG-yEd6zv6nlDL4ZGQ _x6x4MG-7Ed6zv6nlDL4ZGQ _kCsq4G-3Ed6zv6nlDL4ZGQ">
+            <methodElementProperty xmi:id="_-90eIOHKEd-Zh__EEWu-og" name="CategoryElementsSortType" value="Alphabetic"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_iESMoNxcEd-LYKXkOhPACw#_-ftccN0BEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_09h_9dquEd-RHtsSMqnPrA" name="RoleSets" guid="_09h_9dquEd-RHtsSMqnPrA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_09h_9tquEd-RHtsSMqnPrA" name="WP Types" guid="_09h_9tquEd-RHtsSMqnPrA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_09h_99quEd-RHtsSMqnPrA" name="Tools" guid="_09h_99quEd-RHtsSMqnPrA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_09h_-NquEd-RHtsSMqnPrA" name="StandardCategories" guid="_09h_-NquEd-RHtsSMqnPrA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_09h_-dquEd-RHtsSMqnPrA" name="CustomCategories" guid="_09h_-dquEd-RHtsSMqnPrA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_09h_-tquEd-RHtsSMqnPrA" name="Hidden" guid="_09h_-tquEd-RHtsSMqnPrA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_09h_-9quEd-RHtsSMqnPrA" name="Custom Categories" guid="_09h_-9quEd-RHtsSMqnPrA"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_09h__NquEd-RHtsSMqnPrA" name="CoreContent" guid="_09h__NquEd-RHtsSMqnPrA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MuTtgNqvEd-RHtsSMqnPrA" name="release_info" guid="_MuTtgNqvEd-RHtsSMqnPrA">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_m20HcNqvEd-RHtsSMqnPrA" name="release_info_business_motivation_modelling" guid="_m20HcNqvEd-RHtsSMqnPrA" presentationName="Practice: Business motivation modelling" briefDescription="Business motivation modelling practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-g6QgfCL1R9vDOQLOVm_DBQ" href="uma://-g6QgfCL1R9vDOQLOVm_DBQ#-g6QgfCL1R9vDOQLOVm_DBQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_PgZaoNqvEd-RHtsSMqnPrA" name="business_motivation_modelling" guid="_PgZaoNqvEd-RHtsSMqnPrA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_KlxsADwEEd-wzrbdBPyHjA" name="business_motivation_modelling" guid="_KlxsADwEEd-wzrbdBPyHjA" presentationName="Business motivation modelling" briefDescription="This practice describes how to define business motivations, strategies and goals using BMM." contentReferences="_-AFV8FAmEd6NGfjlGBNnwA _eDALwIDuEd6lNYuk36nUnQ _wiTlMIW7Ed6DneKAlTqFLQ _9tBJ8KkQEd6pBu2oaywvsg _dSxyEG--Ed6zv6nlDL4ZGQ _5eCkYG-yEd6zv6nlDL4ZGQ _x6x4MG-7Ed6zv6nlDL4ZGQ _kCsq4G-3Ed6zv6nlDL4ZGQ _U-BMQOZoEd-5YeUvCnM2dQ _Fd0i4OZqEd-5YeUvCnM2dQ">
+            <presentation xmi:id="-qRA29dezKOKSzRLifsQ0HA" href="uma://-qRA29dezKOKSzRLifsQ0HA#-qRA29dezKOKSzRLifsQ0HA"/>
+            <activityReferences href="uma://_To-EkIDoEd6lNYuk36nUnQ#_To-EkYDoEd6lNYuk36nUnQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_dSxyEG--Ed6zv6nlDL4ZGQ" name="define_business_dictionary" guid="_dSxyEG--Ed6zv6nlDL4ZGQ" presentationName="Define business dictionary" briefDescription="This task defines the guided procedure for specifying a business dictionary model." performedBy="_U-BMQOZoEd-5YeUvCnM2dQ" output="_eDALwIDuEd6lNYuk36nUnQ">
+            <presentation xmi:id="-8rhzPU2sNd23k8CaKmP4iw" href="uma://-8rhzPU2sNd23k8CaKmP4iw#-8rhzPU2sNd23k8CaKmP4iw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_5eCkYG-yEd6zv6nlDL4ZGQ" name="define_business_goals" guid="_5eCkYG-yEd6zv6nlDL4ZGQ" presentationName="Define business goals" briefDescription="This task defines the guided procedure for identifying and specifying business goals." performedBy="_U-BMQOZoEd-5YeUvCnM2dQ" output="_wiTlMIW7Ed6DneKAlTqFLQ">
+            <presentation xmi:id="-0XaRUuk0hGD0hO9ngmScig" href="uma://-0XaRUuk0hGD0hO9ngmScig#-0XaRUuk0hGD0hO9ngmScig"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_x6x4MG-7Ed6zv6nlDL4ZGQ" name="define_business_requirements" guid="_x6x4MG-7Ed6zv6nlDL4ZGQ" presentationName="Define business requirements" briefDescription="This task defines the guided procedure for identifying and specifying business requirements." performedBy="_U-BMQOZoEd-5YeUvCnM2dQ" output="_9tBJ8KkQEd6pBu2oaywvsg">
+            <presentation xmi:id="-yraIJggBnBoWcO1H8_nhRA" href="uma://-yraIJggBnBoWcO1H8_nhRA#-yraIJggBnBoWcO1H8_nhRA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_kCsq4G-3Ed6zv6nlDL4ZGQ" name="define_business_rules" guid="_kCsq4G-3Ed6zv6nlDL4ZGQ" presentationName="Define business rules" briefDescription="This task defines the guided procedure for specifying business rules." performedBy="_U-BMQOZoEd-5YeUvCnM2dQ" output="_-AFV8FAmEd6NGfjlGBNnwA">
+            <presentation xmi:id="-AI-SE6yhaBaDV8pxgy2fsw" href="uma://-AI-SE6yhaBaDV8pxgy2fsw#-AI-SE6yhaBaDV8pxgy2fsw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-AFV8FAmEd6NGfjlGBNnwA" name="bmm_business_rules_model" guid="_-AFV8FAmEd6NGfjlGBNnwA" presentationName="Business Rules Model" briefDescription="This model is relevant for creating business rules">
+            <presentation xmi:id="-2wEHq88Szwv45wIw1UKw8Q" href="uma://-2wEHq88Szwv45wIw1UKw8Q#-2wEHq88Szwv45wIw1UKw8Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_eDALwIDuEd6lNYuk36nUnQ" name="bmm_dictionary_model" guid="_eDALwIDuEd6lNYuk36nUnQ" presentationName="Dictionary Model" briefDescription="BMM Dictionary Model.">
+            <presentation xmi:id="-pdIgsK_5kXTHewIyTYPtdw" href="uma://-pdIgsK_5kXTHewIyTYPtdw#-pdIgsK_5kXTHewIyTYPtdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_wiTlMIW7Ed6DneKAlTqFLQ" name="bmm_goal_model" guid="_wiTlMIW7Ed6DneKAlTqFLQ" presentationName="Goal Model" briefDescription="BMM Goal Model.">
+            <presentation xmi:id="-UuRMbS3pVVq5HtDwOZbUXQ" href="uma://-UuRMbS3pVVq5HtDwOZbUXQ#-UuRMbS3pVVq5HtDwOZbUXQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_9tBJ8KkQEd6pBu2oaywvsg" name="bmm_requirements_model" guid="_9tBJ8KkQEd6pBu2oaywvsg" presentationName="Requirements Model" briefDescription="BMM Requirements Model.">
+            <presentation xmi:id="-cLMY6m5V3Lqu8Dm1MNXRvA" href="uma://-cLMY6m5V3Lqu8Dm1MNXRvA#-cLMY6m5V3Lqu8Dm1MNXRvA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_G9HxoOG4Ed-AyrTFSpVP8g" name="business_model.assign" guid="_G9HxoOG4Ed-AyrTFSpVP8g" variabilityType="contributes" deliveredWorkProducts="_-AFV8FAmEd6NGfjlGBNnwA _eDALwIDuEd6lNYuk36nUnQ _wiTlMIW7Ed6DneKAlTqFLQ _9tBJ8KkQEd6pBu2oaywvsg">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_DETUsOGyEd-AyrTFSpVP8g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_U-BMQOZoEd-5YeUvCnM2dQ" name="business_architect.assign" guid="_U-BMQOZoEd-5YeUvCnM2dQ" variabilityType="contributes" responsibleFor="_-AFV8FAmEd6NGfjlGBNnwA _eDALwIDuEd6lNYuk36nUnQ _wiTlMIW7Ed6DneKAlTqFLQ _9tBJ8KkQEd6pBu2oaywvsg">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJwhntEd6VV7P4WguglA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_Fd0i4OZqEd-5YeUvCnM2dQ" name="how_to_adopt_business_motivation_modelling" guid="_Fd0i4OZqEd-5YeUvCnM2dQ" presentationName="How to adopt the Business motivation modelling practice" briefDescription="This roadmap describes how to adopt the Business motivation modelling practice." guidelines="_zR-6AOZoEd-5YeUvCnM2dQ">
+            <presentation xmi:id="-BazXXBpraSwVZOBVROtiBw" href="uma://-BazXXBpraSwVZOBVROtiBw#-BazXXBpraSwVZOBVROtiBw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_SguYENqvEd-RHtsSMqnPrA" name="tool_mentors" guid="_SguYENqvEd-RHtsSMqnPrA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_UR8eENqvEd-RHtsSMqnPrA" name="modelio" guid="_UR8eENqvEd-RHtsSMqnPrA">
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_r3as0FZ7Ed6NKeijDtiuXg" name="modelio_bmm_tool_mentor" guid="_r3as0FZ7Ed6NKeijDtiuXg" presentationName="Modelio BMM tool mentor" briefDescription="Modelio tool mentor for BMM modelling.">
+              <presentation xmi:id="-C7GpcGEyUEno_IdBSPNWJw" href="uma://-C7GpcGEyUEno_IdBSPNWJw#-C7GpcGEyUEno_IdBSPNWJw"/>
+            </contentElements>
+          </childPackages>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_R-5bgDVREd6AVLjFI1RCcQ" name="bmm" guid="_R-5bgDVREd6AVLjFI1RCcQ" presentationName="Business motivation modelling" briefDescription="Method components for business motivation modelling using the Business Motivation Model (BMM) standard.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_dhSmADpGEd6TnIgyHPSV-Q" name="marketplace_bmm_model_example" guid="_dhSmADpGEd6TnIgyHPSV-Q" presentationName="Marketplace BMM Model example" briefDescription="Exemplifies the modeling of business motivations for the buyer-seller scenario, with figures and explantions.">
+            <presentation xmi:id="-w5D9CYQSdyaYjeibeGMQIg" href="uma://-w5D9CYQSdyaYjeibeGMQIg#-w5D9CYQSdyaYjeibeGMQIg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_bLaqEBr-Ed-bArCnVzoI8Q" name="references.bmm" guid="_bLaqEBr-Ed-bArCnVzoI8Q" variabilityType="contributes">
+            <presentation xmi:id="-av3HbF5FdHvPOH7aHIefpw" href="uma://-av3HbF5FdHvPOH7aHIefpw#-av3HbF5FdHvPOH7aHIefpw"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_vsno4EKmEdyrauqpmnA8jQ#__nHToFndEd2EdJKkAyeBng"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_zR-6AOZoEd-5YeUvCnM2dQ" name="bmm_notation" guid="_zR-6AOZoEd-5YeUvCnM2dQ" presentationName="Business Motivation Model (BMM)" briefDescription="The Business Motivation Model (BMM) provides a scheme or structure for developing, communicating, and managing business plans in an organized manner.">
+            <presentation xmi:id="-4GufszDXJIQKKb_7Eo4IcQ" href="uma://-4GufszDXJIQKKb_7Eo4IcQ#-4GufszDXJIQKKb_7Eo4IcQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_09h__dquEd-RHtsSMqnPrA" name="CapabilityPatterns" guid="_09h__dquEd-RHtsSMqnPrA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_zpGV4FZ6Ed6NKeijDtiuXg" name="business_motivation_modelling" guid="_zpGV4FZ6Ed6NKeijDtiuXg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_To-EkIDoEd6lNYuk36nUnQ" href="uma://_To-EkIDoEd6lNYuk36nUnQ#_To-EkIDoEd6lNYuk36nUnQ"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_09h__tquEd-RHtsSMqnPrA" name="DeliveryProcesses" guid="_09h__tquEd-RHtsSMqnPrA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_09h__9quEd-RHtsSMqnPrA" name="ProcessContributions" guid="_09h__9quEd-RHtsSMqnPrA"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_yLWzUNxbEd-LYKXkOhPACw#_yLWzUNxbEd-LYKXkOhPACw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

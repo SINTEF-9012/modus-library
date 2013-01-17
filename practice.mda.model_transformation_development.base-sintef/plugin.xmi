@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_M1JcgMb_Ed-2_-I8Ok7trA" guid="_M1JcgMb_Ed-2_-I8Ok7trA">
+    <subManagers xmi:id="_0-xWkR0aEd65QJax4GT0MQ" href="uma://_0-UqoB0aEd65QJax4GT0MQ#_0-xWkR0aEd65QJax4GT0MQ"/>
+    <resourceDescriptors xmi:id="_7mYZMB0ZEd65QJax4GT0MQ" id="-FpmJA8UBWmXnb6h-UrYphw" uri="guidances/toolmentors/mofscript_documentation.xmi"/>
+    <resourceDescriptors xmi:id="__TTW4R0ZEd65QJax4GT0MQ" id="-7BQ0yZcp8O0jaCzMyVjaog" uri="guidances/toolmentors/atl_documentation.xmi"/>
+    <resourceDescriptors xmi:id="_NnuewB0aEd65QJax4GT0MQ" id="-QP4pCeqNH0JVYQNZ-_hjww" uri="guidances/toolmentors/openarchitectureware_documentation.xmi"/>
+    <resourceDescriptors xmi:id="_HrJyoR0aEd65QJax4GT0MQ" id="-F3XsvxXX2xoAmZpNOVOeWQ" uri="guidances/toolmentors/kermeta_documentation.xmi"/>
+    <resourceDescriptors xmi:id="_OQetANuCEd-pTLmXJigeaQ" id="-C25lJzvG_uyykg6Bps-bgA" uri="guidances/practices/model_transformation_development.xmi"/>
+    <resourceDescriptors xmi:id="_jUYkoNuCEd-pTLmXJigeaQ" id="-3q8aCDo_buLwa0eX46DRTw" uri="guidances/roadmaps/how_to_adopt_model_transformation_development.xmi"/>
+    <resourceDescriptors xmi:id="_oozEkNuCEd-pTLmXJigeaQ" id="-GcylkNlgYxgxKKuiBGH7bw" uri="guidances/supportingmaterials/references.model_transformation_development.xmi"/>
+    <resourceDescriptors xmi:id="_2LVcgNuCEd-pTLmXJigeaQ" id="-m1IzqeaRjtIzKzhfYwBurw" uri="guidances/supportingmaterials/qvt_specification.xmi"/>
+    <resourceDescriptors xmi:id="_AAcgcNuDEd-pTLmXJigeaQ" id="-mK3wjKbDBj0fefXHYxuh3g" uri="tools/java.xmi"/>
+    <resourceDescriptors xmi:id="_HjQxoNuDEd-pTLmXJigeaQ" id="-xzA8Fcdn7AVMbdJ2TaIFsA" uri="tools/mtf.xmi"/>
+    <resourceDescriptors xmi:id="_P9YeQNuDEd-pTLmXJigeaQ" id="-Bh4adAi1W157Z-x0eyrwoQ" uri="tools/atl.xmi"/>
+    <resourceDescriptors xmi:id="_dZF1cNuDEd-pTLmXJigeaQ" id="-FmjIhQG5mdvrZkQ2MyyPHQ" uri="guidances/examples/atl_example.xmi"/>
+    <resourceDescriptors xmi:id="_l2gGoNuDEd-pTLmXJigeaQ" id="-eIUo5O1j91thd92IyvbegQ" uri="guidances/toolmentors/atl_tutorial.xmi"/>
+    <resourceDescriptors xmi:id="_dbsn8N0MEd-xB8a51ZHHaA" id="-bxwLRxa_2y8jKkYyGR9Udg" uri="guidances/supportingmaterials/release_info_model_transformation_development.xmi"/>
+    <resourceDescriptors xmi:id="_0-Uqox0aEd65QJax4GT0MQ" id="_0-UqoB0aEd65QJax4GT0MQ" uri="capabilitypatterns/develop_model_transformation/model.xmi"/>
+    <resourceDescriptors xmi:id="_hKqqYFYpEeCmC7fuNTHhhQ" id="-Pr-G91nyFFp6rTkr4jv6FQ" uri="guidances/concepts/model_mapping_and_transformation.xmi"/>
+    <resourceDescriptors xmi:id="_5qjEMFYqEeCmC7fuNTHhhQ" id="-mxSWnyL0KRwIq_vnzndWuA" uri="tasks/implement_model_transformation.xmi"/>
+    <resourceDescriptors xmi:id="_YW56sJA9EeCcDNN8IC9C3w" id="-iy2wX-dj0J25C54HVppakQ" uri="guidances/guidelines/model_transformation_guidelines.xmi"/>
+    <resourceDescriptors xmi:id="_LYRAYJBFEeCcDNN8IC9C3w" id="-63KLDobpgYq4iMa-gLElWQ" uri="tools/mofscript.xmi"/>
+    <resourceDescriptors xmi:id="_GBu9UJEFEeC5epJZOtC-_w" id="-kninAkcWfYAp-VPn-ALScQ" uri="tasks/specify_mapping_rules.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_M0_rgMb_Ed-2_-I8Ok7trA" name="practice.mda.model_transformation_development.base-sintef" guid="_M0_rgMb_Ed-2_-I8Ok7trA" briefDescription="This plugin contains the Model transformation development practice." authors="Brian Elvesæter (SINTEF)" changeDate="2011-03-24T16:31:28.045+0100">
+    <methodElementProperty xmi:id="_kNt5JNeMEd-Mq_S1iaxctg" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M0_rgcb_Ed-2_-I8Ok7trA" name="Content" guid="_M0_rgcb_Ed-2_-I8Ok7trA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M0_rgsb_Ed-2_-I8Ok7trA" name="Categories" guid="_M0_rgsb_Ed-2_-I8Ok7trA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M0_rg8b_Ed-2_-I8Ok7trA" name="Domains" guid="_M0_rg8b_Ed-2_-I8Ok7trA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_I1qDkOjqEd-PDJqDwrH_Hg" name="generative_modelling_tooling_domain.assign" guid="_I1qDkOjqEd-PDJqDwrH_Hg" variabilityType="contributes" workProducts="_i4HgwBz6Ed60rOWMCnTZyg">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_enWLsNxcEd-LYKXkOhPACw#_BZiT0N0DEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M0_rhMb_Ed-2_-I8Ok7trA" name="Disciplines" guid="_M0_rhMb_Ed-2_-I8Ok7trA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_yLbfINuHEd-pTLmXJigeaQ" name="generative_modelling_tooling_discipline.assign" guid="_yLbfINuHEd-pTLmXJigeaQ" variabilityType="contributes" tasks="_mP1RYB0kEd65QJax4GT0MQ _oOpHcB0kEd65QJax4GT0MQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_enWLsNxcEd-LYKXkOhPACw#_3RUGoN0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M0_rhcb_Ed-2_-I8Ok7trA" name="RoleSets" guid="_M0_rhcb_Ed-2_-I8Ok7trA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M0_rhsb_Ed-2_-I8Ok7trA" name="WP Types" guid="_M0_rhsb_Ed-2_-I8Ok7trA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M0_rh8b_Ed-2_-I8Ok7trA" name="Tools" guid="_M0_rh8b_Ed-2_-I8Ok7trA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_9t1koNuCEd-pTLmXJigeaQ" name="java" guid="_9t1koNuCEd-pTLmXJigeaQ" presentationName="Java" briefDescription="Java">
+            <presentation xmi:id="-mK3wjKbDBj0fefXHYxuh3g" href="uma://-mK3wjKbDBj0fefXHYxuh3g#-mK3wjKbDBj0fefXHYxuh3g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_ELCRkNuDEd-pTLmXJigeaQ" name="mtf" guid="_ELCRkNuDEd-pTLmXJigeaQ" presentationName="MTF" briefDescription="Model Transformation Framework (MTF)">
+            <presentation xmi:id="-xzA8Fcdn7AVMbdJ2TaIFsA" href="uma://-xzA8Fcdn7AVMbdJ2TaIFsA#-xzA8Fcdn7AVMbdJ2TaIFsA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_MJnRsNuDEd-pTLmXJigeaQ" name="atl" guid="_MJnRsNuDEd-pTLmXJigeaQ" presentationName="ATL" briefDescription="Atlas Transformation Language (ATL)" examples="_YEd6INuDEd-pTLmXJigeaQ" toolMentors="_t7hywB0ZEd65QJax4GT0MQ _eoUBoNuDEd-pTLmXJigeaQ">
+            <presentation xmi:id="-Bh4adAi1W157Z-x0eyrwoQ" href="uma://-Bh4adAi1W157Z-x0eyrwoQ#-Bh4adAi1W157Z-x0eyrwoQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_CCEGAJBFEeCcDNN8IC9C3w" name="mofscript" guid="_CCEGAJBFEeCcDNN8IC9C3w" presentationName="MOFScript" briefDescription="MOFScript" toolMentors="_uIGDYBz-Ed65QJax4GT0MQ">
+            <presentation xmi:id="-63KLDobpgYq4iMa-gLElWQ" href="uma://-63KLDobpgYq4iMa-gLElWQ#-63KLDobpgYq4iMa-gLElWQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M0_riMb_Ed-2_-I8Ok7trA" name="StandardCategories" guid="_M0_riMb_Ed-2_-I8Ok7trA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M0_ricb_Ed-2_-I8Ok7trA" name="CustomCategories" guid="_M0_ricb_Ed-2_-I8Ok7trA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M0_risb_Ed-2_-I8Ok7trA" name="Hidden" guid="_M0_risb_Ed-2_-I8Ok7trA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_M0_ri8b_Ed-2_-I8Ok7trA" name="Custom Categories" guid="_M0_ri8b_Ed-2_-I8Ok7trA"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M0_rjMb_Ed-2_-I8Ok7trA" name="CoreContent" guid="_M0_rjMb_Ed-2_-I8Ok7trA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_EyUN4CFQEd-b9J9HanW37g" name="model_transformation_development" guid="_EyUN4CFQEd-b9J9HanW37g">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_mP1RYB0kEd65QJax4GT0MQ" name="specify_mapping_rules" guid="_mP1RYB0kEd65QJax4GT0MQ" presentationName="Specify mapping rules" briefDescription="This task describes how to specify mapping rules." performedBy="_22ljYN0LEd-xB8a51ZHHaA" output="_BGxaoFYqEeCmC7fuNTHhhQ _i4HgwBz6Ed60rOWMCnTZyg">
+            <presentation xmi:id="-kninAkcWfYAp-VPn-ALScQ" href="uma://-kninAkcWfYAp-VPn-ALScQ#-kninAkcWfYAp-VPn-ALScQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_oOpHcB0kEd65QJax4GT0MQ" name="implement_model_transformation" guid="_oOpHcB0kEd65QJax4GT0MQ" presentationName="Implement model transformation" briefDescription="This task describes how to implement a model transformation." performedBy="_22ljYN0LEd-xB8a51ZHHaA" mandatoryInput="_BGxaoFYqEeCmC7fuNTHhhQ _i4HgwBz6Ed60rOWMCnTZyg" output="_Yc-FAFYqEeCmC7fuNTHhhQ">
+            <presentation xmi:id="-mxSWnyL0KRwIq_vnzndWuA" href="uma://-mxSWnyL0KRwIq_vnzndWuA#-mxSWnyL0KRwIq_vnzndWuA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_i4HgwBz6Ed60rOWMCnTZyg" name="model_to_text_mapping_rules" guid="_i4HgwBz6Ed60rOWMCnTZyg" presentationName="Model to text mapping rules"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_hIdkMBz-Ed65QJax4GT0MQ" name="model_transformation_guidelines" guid="_hIdkMBz-Ed65QJax4GT0MQ" presentationName="Model transformation guidelines" briefDescription="Model transformation guidelines.">
+            <presentation xmi:id="-iy2wX-dj0J25C54HVppakQ" href="uma://-iy2wX-dj0J25C54HVppakQ#-iy2wX-dj0J25C54HVppakQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_LQCMINhTEd-luNMZUPxfLg" name="model_transformation_development" guid="_LQCMINhTEd-luNMZUPxfLg" presentationName="Model transformation development" briefDescription="This practice describes how to develop model transformations." contentReferences="_xWM5kNuCEd-pTLmXJigeaQ _Zdx3MFYpEeCmC7fuNTHhhQ _hIdkMBz-Ed65QJax4GT0MQ _i4HgwBz6Ed60rOWMCnTZyg _oOpHcB0kEd65QJax4GT0MQ _mP1RYB0kEd65QJax4GT0MQ _22ljYN0LEd-xB8a51ZHHaA _YBvywNuCEd-pTLmXJigeaQ _MJnRsNuDEd-pTLmXJigeaQ _9t1koNuCEd-pTLmXJigeaQ _CCEGAJBFEeCcDNN8IC9C3w _ELCRkNuDEd-pTLmXJigeaQ">
+            <presentation xmi:id="-C25lJzvG_uyykg6Bps-bgA" href="uma://-C25lJzvG_uyykg6Bps-bgA#-C25lJzvG_uyykg6Bps-bgA"/>
+            <activityReferences href="uma://_0-UqoB0aEd65QJax4GT0MQ#_0-UqoR0aEd65QJax4GT0MQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_YBvywNuCEd-pTLmXJigeaQ" name="how_to_adopt_model_transformation_development" guid="_YBvywNuCEd-pTLmXJigeaQ" presentationName="How to adopt the Model transformation development practice" briefDescription="This roadmap describes how to adopt the Model transformation development practice.">
+            <presentation xmi:id="-3q8aCDo_buLwa0eX46DRTw" href="uma://-3q8aCDo_buLwa0eX46DRTw#-3q8aCDo_buLwa0eX46DRTw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_mDOJcNuCEd-pTLmXJigeaQ" name="references.model_transformation_development" guid="_mDOJcNuCEd-pTLmXJigeaQ" variabilityType="contributes">
+            <presentation xmi:id="-GcylkNlgYxgxKKuiBGH7bw" href="uma://-GcylkNlgYxgxKKuiBGH7bw#-GcylkNlgYxgxKKuiBGH7bw"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_7J4wUNq1Ed-RHtsSMqnPrA#_zfHv4PPWEd-GtPTRjkeUMg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_22ljYN0LEd-xB8a51ZHHaA" name="transformation_engineer.assign" guid="_22ljYN0LEd-xB8a51ZHHaA" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_gY6kwBoYEd6Vpr8V6Jy-eA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_Zdx3MFYpEeCmC7fuNTHhhQ" name="model_mapping_and_transformation" guid="_Zdx3MFYpEeCmC7fuNTHhhQ" presentationName="Model mapping and transformation">
+            <presentation xmi:id="-Pr-G91nyFFp6rTkr4jv6FQ" href="uma://-Pr-G91nyFFp6rTkr4jv6FQ#-Pr-G91nyFFp6rTkr4jv6FQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_BGxaoFYqEeCmC7fuNTHhhQ" name="model_to_model_mapping_rules" guid="_BGxaoFYqEeCmC7fuNTHhhQ" presentationName="Model to model mapping rules"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_Yc-FAFYqEeCmC7fuNTHhhQ" name="model_transformation" guid="_Yc-FAFYqEeCmC7fuNTHhhQ" presentationName="Model transformation" deliveredWorkProducts="_BGxaoFYqEeCmC7fuNTHhhQ _i4HgwBz6Ed60rOWMCnTZyg"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9R24cNtwEd-pTLmXJigeaQ" name="release_info" guid="_9R24cNtwEd-pTLmXJigeaQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_2eKFINtyEd-pTLmXJigeaQ" name="release_info_model_transformation_development" guid="_2eKFINtyEd-pTLmXJigeaQ" presentationName="Practice: Model transformation development" briefDescription="Model transformation development practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-bxwLRxa_2y8jKkYyGR9Udg" href="uma://-bxwLRxa_2y8jKkYyGR9Udg#-bxwLRxa_2y8jKkYyGR9Udg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-hJWENtwEd-pTLmXJigeaQ" name="qvt_concepts" guid="_-hJWENtwEd-pTLmXJigeaQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_xWM5kNuCEd-pTLmXJigeaQ" name="qvt_specification" guid="_xWM5kNuCEd-pTLmXJigeaQ" presentationName="QVT specification" briefDescription="QVT specification.">
+            <presentation xmi:id="-m1IzqeaRjtIzKzhfYwBurw" href="uma://-m1IzqeaRjtIzKzhfYwBurw#-m1IzqeaRjtIzKzhfYwBurw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_AAN8INtxEd-pTLmXJigeaQ" name="tool_mentors" guid="_AAN8INtxEd-pTLmXJigeaQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BesFQNtxEd-pTLmXJigeaQ" name="mofscript" guid="_BesFQNtxEd-pTLmXJigeaQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_uIGDYBz-Ed65QJax4GT0MQ" name="mofscript_documentation" guid="_uIGDYBz-Ed65QJax4GT0MQ" presentationName="MOFScript: Documentation">
+              <presentation xmi:id="-FpmJA8UBWmXnb6h-UrYphw" href="uma://-FpmJA8UBWmXnb6h-UrYphw#-FpmJA8UBWmXnb6h-UrYphw"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_G9WGUNtxEd-pTLmXJigeaQ" name="openarchitectureware" guid="_G9WGUNtxEd-pTLmXJigeaQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_LUWt8B0aEd65QJax4GT0MQ" name="openarchitectureware_documentation" guid="_LUWt8B0aEd65QJax4GT0MQ" presentationName="openArchitectureWare: Documentation">
+              <presentation xmi:id="-QP4pCeqNH0JVYQNZ-_hjww" href="uma://-QP4pCeqNH0JVYQNZ-_hjww#-QP4pCeqNH0JVYQNZ-_hjww"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_I6d6UNtxEd-pTLmXJigeaQ" name="kermeta" guid="_I6d6UNtxEd-pTLmXJigeaQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_GV6eAB0aEd65QJax4GT0MQ" name="kermeta_documentation" guid="_GV6eAB0aEd65QJax4GT0MQ" presentationName="Kermeta: Documentation">
+              <presentation xmi:id="-F3XsvxXX2xoAmZpNOVOeWQ" href="uma://-F3XsvxXX2xoAmZpNOVOeWQ#-F3XsvxXX2xoAmZpNOVOeWQ"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NVIu0NtxEd-pTLmXJigeaQ" name="atl" guid="_NVIu0NtxEd-pTLmXJigeaQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_t7hywB0ZEd65QJax4GT0MQ" name="atl_documentation" guid="_t7hywB0ZEd65QJax4GT0MQ" presentationName="ATL: Documentation">
+              <presentation xmi:id="-7BQ0yZcp8O0jaCzMyVjaog" href="uma://-7BQ0yZcp8O0jaCzMyVjaog#-7BQ0yZcp8O0jaCzMyVjaog"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_YEd6INuDEd-pTLmXJigeaQ" name="atl_example" guid="_YEd6INuDEd-pTLmXJigeaQ" presentationName="ATL: Example">
+              <presentation xmi:id="-FmjIhQG5mdvrZkQ2MyyPHQ" href="uma://-FmjIhQG5mdvrZkQ2MyyPHQ#-FmjIhQG5mdvrZkQ2MyyPHQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_eoUBoNuDEd-pTLmXJigeaQ" name="atl_tutorial" guid="_eoUBoNuDEd-pTLmXJigeaQ" presentationName="ATL: Tutorial">
+              <presentation xmi:id="-eIUo5O1j91thd92IyvbegQ" href="uma://-eIUo5O1j91thd92IyvbegQ#-eIUo5O1j91thd92IyvbegQ"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BBd4kNuDEd-pTLmXJigeaQ" name="java" guid="_BBd4kNuDEd-pTLmXJigeaQ"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Cz5fgNuDEd-pTLmXJigeaQ" name="mtf" guid="_Cz5fgNuDEd-pTLmXJigeaQ"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_M0_rjcb_Ed-2_-I8Ok7trA" name="CapabilityPatterns" guid="_M0_rjcb_Ed-2_-I8Ok7trA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_0-UqoB0aEd65QJax4GT0MQ" href="uma://_0-UqoB0aEd65QJax4GT0MQ#_0-UqoB0aEd65QJax4GT0MQ"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_M0_rjsb_Ed-2_-I8Ok7trA" name="DeliveryProcesses" guid="_M0_rjsb_Ed-2_-I8Ok7trA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_M0_rj8b_Ed-2_-I8Ok7trA" name="ProcessContributions" guid="_M0_rj8b_Ed-2_-I8Ok7trA"/>
+    <bases href="uma://_7J4wUNq1Ed-RHtsSMqnPrA#_7J4wUNq1Ed-RHtsSMqnPrA"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_enWLsNxcEd-LYKXkOhPACw#_enWLsNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_MxSNcNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_v52qwNxbEd-LYKXkOhPACw#_v52qwNxbEd-LYKXkOhPACw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

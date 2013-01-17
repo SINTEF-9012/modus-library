@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-jz_zhoWkRIbOv_oKvR8eOg" name=",_V0gukEMFEd-jmMkKIL7cjw" guid="-jz_zhoWkRIbOv_oKvR8eOg" authors="Dima Panfilenko (DFKI IWi)" changeDate="2010-04-08T13:54:04.562+0200" version="0.1">
+  <copyrightStatement href="uma://_kwazABFxEd6C2PqX2OSy5A#_Fo1qgDpDEd6TnIgyHPSV-Q"/>
+  <mainDescription>&lt;p>&#xD;
+    This method defines the guided procedure for mapping BPMN to UML2&amp;nbsp;class&amp;nbsp;constructs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is an automated tool which transforms your&amp;nbsp;BPMN input model to a&amp;nbsp;UML2 output model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See the Steps page for detailled constructs.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_3OrYQEMFEd-jmMkKIL7cjw" name="1. Create Data Model" guid="_3OrYQEMFEd-jmMkKIL7cjw"/>
+  <sections xmi:id="_9ROJgEMFEd-jmMkKIL7cjw" name="2. Check Consistency of the Data Model" guid="_9ROJgEMFEd-jmMkKIL7cjw"/>
+  <sections xmi:id="_49it0EMFEd-jmMkKIL7cjw" name="3. Map Data Model to UML2 Class Diagram" guid="_49it0EMFEd-jmMkKIL7cjw">
+    <sectionDescription>&lt;p>&#xD;
+    Generate the UML2 class model out of the data model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The following constructs are transformed:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        DataObject&amp;nbsp;2 Class&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Association 2 UML Association&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Aggregation 2 UML Aggregation&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Generalisation 2 UML Generalisation&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <keyConsiderations>CIM2PIM transformation</keyConsiderations>
+  <purpose>To derive an initial&amp;nbsp;UML2 class model from a BPMN&amp;nbsp;model.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

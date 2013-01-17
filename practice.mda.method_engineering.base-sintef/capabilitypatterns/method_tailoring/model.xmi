@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_wueK8FYzEeCmC7fuNTHhhQ" guid="_wueK8FYzEeCmC7fuNTHhhQ">
+    <resourceDescriptors xmi:id="_wueK8VYzEeCmC7fuNTHhhQ" id="-hx1Yt2UDwfd2NQXvqwez4w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_SdWqQJHmEeC1cpVMwFmQkQ" id="-fB5qaSJtYJF8eQa8uz0v9g" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_wuBfAFYzEeCmC7fuNTHhhQ" name="method_tailoring" guid="_wuBfAFYzEeCmC7fuNTHhhQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Mz7joJHmEeC1cpVMwFmQkQ" name="compose_practices" guid="_Mz7joJHmEeC1cpVMwFmQkQ" presentationName="Compose practices" briefDescription="This task describes how to compose practices." superActivities="_wuBfAVYzEeCmC7fuNTHhhQ" mandatoryInput="_Mz8KspHmEeC1cpVMwFmQkQ" output="_Mz8KtJHmEeC1cpVMwFmQkQ" performedPrimarilyBy="_Mz8KsJHmEeC1cpVMwFmQkQ">
+      <Task href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#_ZRW1ENeTEd-Mq_S1iaxctg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_Mz8KsJHmEeC1cpVMwFmQkQ" name="method_engineer" guid="_Mz8KsJHmEeC1cpVMwFmQkQ" presentationName="Method engineer" isPlanned="false" superActivities="_wuBfAVYzEeCmC7fuNTHhhQ" modifies="_Mz8KtJHmEeC1cpVMwFmQkQ _NGy1QJHmEeC1cpVMwFmQkQ">
+      <methodElementProperty xmi:id="_Mz8KsZHmEeC1cpVMwFmQkQ" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_knzAABoYEd6Vpr8V6Jy-eA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Mz8KspHmEeC1cpVMwFmQkQ" name="epf_practice_plugin" guid="_Mz8KspHmEeC1cpVMwFmQkQ" presentationName="EPF practice plugin" isPlanned="false" superActivities="_wuBfAVYzEeCmC7fuNTHhhQ">
+      <methodElementProperty xmi:id="_Mz8Ks5HmEeC1cpVMwFmQkQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#_6wJZYNtfEd-pTLmXJigeaQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Mz8KtJHmEeC1cpVMwFmQkQ" name="epf_process_plugin" guid="_Mz8KtJHmEeC1cpVMwFmQkQ" presentationName="EPF process plugin" isPlanned="false" superActivities="_wuBfAVYzEeCmC7fuNTHhhQ">
+      <methodElementProperty xmi:id="_Mz8KtZHmEeC1cpVMwFmQkQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#__3wzcNtfEd-pTLmXJigeaQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_NGyOMJHmEeC1cpVMwFmQkQ" name="define_method_website" guid="_NGyOMJHmEeC1cpVMwFmQkQ" presentationName="Define method website" briefDescription="This task describes how to define a method website." superActivities="_wuBfAVYzEeCmC7fuNTHhhQ" linkToPredecessor="_V5XeIJHmEeC1cpVMwFmQkQ" mandatoryInput="_Mz8KspHmEeC1cpVMwFmQkQ _Mz8KtJHmEeC1cpVMwFmQkQ" output="_NGy1QJHmEeC1cpVMwFmQkQ" performedPrimarilyBy="_Mz8KsJHmEeC1cpVMwFmQkQ">
+      <presentation xmi:id="-fB5qaSJtYJF8eQa8uz0v9g" href="uma://-hx1Yt2UDwfd2NQXvqwez4w#-fB5qaSJtYJF8eQa8uz0v9g"/>
+      <Task href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#_Spw54NtgEd-pTLmXJigeaQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_NGy1QJHmEeC1cpVMwFmQkQ" name="epf_publish_plugin" guid="_NGy1QJHmEeC1cpVMwFmQkQ" presentationName="EPF publish plugin" isPlanned="false" superActivities="_wuBfAVYzEeCmC7fuNTHhhQ">
+      <methodElementProperty xmi:id="_NGy1QZHmEeC1cpVMwFmQkQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#_EDa7kNtgEd-pTLmXJigeaQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_V5XeIJHmEeC1cpVMwFmQkQ" guid="_V5XeIJHmEeC1cpVMwFmQkQ" pred="_Mz7joJHmEeC1cpVMwFmQkQ"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_wuBfAVYzEeCmC7fuNTHhhQ" name="method_tailoring" guid="_wuBfAVYzEeCmC7fuNTHhhQ" presentationName="Method tailoring" breakdownElements="_Mz7joJHmEeC1cpVMwFmQkQ _Mz8KsJHmEeC1cpVMwFmQkQ _Mz8KspHmEeC1cpVMwFmQkQ _Mz8KtJHmEeC1cpVMwFmQkQ _NGyOMJHmEeC1cpVMwFmQkQ _NGy1QJHmEeC1cpVMwFmQkQ">
+      <presentation xmi:id="-hx1Yt2UDwfd2NQXvqwez4w" href="uma://-hx1Yt2UDwfd2NQXvqwez4w#-hx1Yt2UDwfd2NQXvqwez4w"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_rBplIFX-EeCmC7fuNTHhhQ"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_rBplIFX-EeCmC7fuNTHhhQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

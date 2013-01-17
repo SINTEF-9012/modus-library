@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_fh0AgXXUEd6y559hJOP-yw" guid="_fh0AgXXUEd6y559hJOP-yw">
+    <subManagers xmi:id="_IarRYn0dEd6On6TUtok0Og" href="uma://_HJTJEH0dEd6On6TUtok0Og#_IarRYn0dEd6On6TUtok0Og"/>
+    <resourceDescriptors xmi:id="_hr-4YXXcEd6y559hJOP-yw" id="-XAfbqo5-iH6RgcbGI4KYpg" uri="customcategories/SHAPE_models_techniques.xmi"/>
+    <resourceDescriptors xmi:id="_quc-cXXcEd6y559hJOP-yw" id="-7QEyn5j3PtlJ9UciNA98bQ" uri="customcategories/ServiceVariability.xmi"/>
+    <resourceDescriptors xmi:id="_qF-MsXXdEd6y559hJOP-yw" id="-H1xRUX4hKDIdWfJqugdrXg" uri="tasks/Create_ServiceVariabilitySpecificationModel.xmi"/>
+    <resourceDescriptors xmi:id="_WqiDgXXkEd6y559hJOP-yw" id="-bQzRkf3umLvNtPgf4oXeRg" uri="tasks/Generate_ServiceVariant.xmi"/>
+    <resourceDescriptors xmi:id="_c6C5wXXkEd6y559hJOP-yw" id="_c55IwHXkEd6y559hJOP-yw" uri="capabilitypatterns/PIM_level_methodology/model.xmi"/>
+    <resourceDescriptors xmi:id="_IarRYX0dEd6On6TUtok0Og" id="_HJTJEH0dEd6On6TUtok0Og" uri="capabilitypatterns/Service_Customization/model.xmi"/>
+    <resourceDescriptors xmi:id="_-GEk4WMlEd-2eNPi9l6wMg" id="-ptjmqjlqvnf3sKxK7-zy-Q" uri="tasks/Create_ServiceVariabilityResolutionModel.xmi"/>
+    <resourceDescriptors xmi:id="_trKNQIJrEd6Ljca46QJL5g" id="-bpy3uXKhqDjYeYA62w4B6A" uri="workproducts/Service_Variability_Resolution_Model.xmi"/>
+    <resourceDescriptors xmi:id="_trT-QIJrEd6Ljca46QJL5g" id="-IEOcjD4N5nFiHDFjY6tXFg" uri="workproducts/Service_Variability_Specification_Model.xmi"/>
+    <resourceDescriptors xmi:id="_-kf70eaDEd-2NJepU9I_bg" id="-vb2wfb6lhLfgzyEMK7ajCA" uri="tools/SHAPE_ServiceVariabilityTool.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_fhq2kHXUEd6y559hJOP-yw" name="practice.architecture.service_customization.base_shape-sap" guid="_fhq2kHXUEd6y559hJOP-yw" presentationName="ShaML-ServiceCustomization-MethodLibrary" briefDescription="This contains the SHAPE methods for customizing services by variability modelling. " authors="Michael Stollberg (SAP) " changeDate="2010-05-19T12:10:31.560+0200" changeDescription="2.0: revision wrt. final version of the SHAPE Service Variability technique|1.1:  Added capability pattern|1.0: initial version " version="2.0">
+    <methodElementProperty xmi:id="_kDBFAdeMEd-Mq_S1iaxctg" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_fhq2kXXUEd6y559hJOP-yw" name="Content" guid="_fhq2kXXUEd6y559hJOP-yw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_fhq2knXUEd6y559hJOP-yw" name="Categories" guid="_fhq2knXUEd6y559hJOP-yw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_fhq2k3XUEd6y559hJOP-yw" name="Domains" guid="_fhq2k3XUEd6y559hJOP-yw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_fhq2lHXUEd6y559hJOP-yw" name="Disciplines" guid="_fhq2lHXUEd6y559hJOP-yw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_fhq2lXXUEd6y559hJOP-yw" name="RoleSets" guid="_fhq2lXXUEd6y559hJOP-yw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_fhq2lnXUEd6y559hJOP-yw" name="WP Types" guid="_fhq2lnXUEd6y559hJOP-yw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_fhq2l3XUEd6y559hJOP-yw" name="Tools" guid="_fhq2l3XUEd6y559hJOP-yw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_-N4LkOaDEd-2NJepU9I_bg" name="SHAPE_ServiceVariabilityTool" guid="_-N4LkOaDEd-2NJepU9I_bg" presentationName="SHAPE Service Variability Tool" briefDescription="Tool for defining variants of services by variation modeling ">
+            <presentation xmi:id="-vb2wfb6lhLfgzyEMK7ajCA" href="uma://-vb2wfb6lhLfgzyEMK7ajCA#-vb2wfb6lhLfgzyEMK7ajCA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_fhq2mHXUEd6y559hJOP-yw" name="StandardCategories" guid="_fhq2mHXUEd6y559hJOP-yw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_fhq2mXXUEd6y559hJOP-yw" name="CustomCategories" guid="_fhq2mXXUEd6y559hJOP-yw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_fhq2mnXUEd6y559hJOP-yw" name="Hidden" guid="_fhq2mnXUEd6y559hJOP-yw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_fhq2m3XUEd6y559hJOP-yw" name="Custom Categories" guid="_fhq2m3XUEd6y559hJOP-yw" categorizedElements="_3IStIHXVEd6y559hJOP-yw _9EJAgHXVEd6y559hJOP-yw _Px6fgHXcEd6y559hJOP-yw _ofrvEKRmEd6sed4uhw_PyA"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_3IStIHXVEd6y559hJOP-yw" name="Service" guid="_3IStIHXVEd6y559hJOP-yw" variabilityType="contributes" categorizedElements="_0AbgIHXcEd6y559hJOP-yw _8aCg4GMlEd-2eNPi9l6wMg _cF2SIHXjEd6y559hJOP-yw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_kwazABFxEd6C2PqX2OSy5A#_GnXX8BF1Ed6C2PqX2OSy5A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9EJAgHXVEd6y559hJOP-yw" name="PIM" guid="_9EJAgHXVEd6y559hJOP-yw" variabilityType="contributes" categorizedElements="_0AbgIHXcEd6y559hJOP-yw _8aCg4GMlEd-2eNPi9l6wMg _cF2SIHXjEd6y559hJOP-yw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_kwazABFxEd6C2PqX2OSy5A#_Tx-0kBF0Ed6C2PqX2OSy5A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Px6fgHXcEd6y559hJOP-yw" name="SHAPE_models_techniques" guid="_Px6fgHXcEd6y559hJOP-yw" presentationName="SHAPE models and techniques" briefDescription="gathers all models and techniques that are newly developed in the SHAPE project " variabilityType="extends" categorizedElements="_iZSDQHXcEd6y559hJOP-yw">
+            <presentation xmi:id="-XAfbqo5-iH6RgcbGI4KYpg" href="uma://-XAfbqo5-iH6RgcbGI4KYpg#-XAfbqo5-iH6RgcbGI4KYpg"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_kwazABFxEd6C2PqX2OSy5A#_rnQ4wDiyEd6Yxdq0b3cxJw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_iZSDQHXcEd6y559hJOP-yw" name="ServiceVariability" guid="_iZSDQHXcEd6y559hJOP-yw" presentationName="Service Variability" briefDescription="Models and techniques for Service Variability developed in the SHAPE project ">
+            <presentation xmi:id="-7QEyn5j3PtlJ9UciNA98bQ" href="uma://-7QEyn5j3PtlJ9UciNA98bQ#-7QEyn5j3PtlJ9UciNA98bQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_ofrvEKRmEd6sed4uhw_PyA" name="ServiceVariability_1" guid="_ofrvEKRmEd6sed4uhw_PyA" variabilityType="contributes" categorizedElements="_0AbgIHXcEd6y559hJOP-yw _8aCg4GMlEd-2eNPi9l6wMg _cF2SIHXjEd6y559hJOP-yw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_kwazABFxEd6C2PqX2OSy5A#_AidDYIJsEd6Ljca46QJL5g"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_fhq2nHXUEd6y559hJOP-yw" name="CoreContent" guid="_fhq2nHXUEd6y559hJOP-yw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_uHIEEHXUEd6y559hJOP-yw" name="ServiceVariability" guid="_uHIEEHXUEd6y559hJOP-yw" presentationName="Service Variability" briefDescription="Contains methods for using the SHAPE Service Variability tool that supports the customization of services by creating explicit service variability models and variants of services for easier consumption. ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0AbgIHXcEd6y559hJOP-yw" name="Create_ServiceVariabilitySpecificationModel" guid="_0AbgIHXcEd6y559hJOP-yw" presentationName="Create Service Variability Specification Model" briefDescription="describe the variable aspects of a service as the basis for creating a service variant " output="_tf-4AYJrEd6Ljca46QJL5g">
+            <presentation xmi:id="-H1xRUX4hKDIdWfJqugdrXg" href="uma://-H1xRUX4hKDIdWfJqugdrXg#-H1xRUX4hKDIdWfJqugdrXg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_cF2SIHXjEd6y559hJOP-yw" name="Generate_ServiceVariant" guid="_cF2SIHXjEd6y559hJOP-yw" presentationName="Generate Service Variant" briefDescription="generation (automated) of Service Interface description of customized service variant; input: Service Variability Resolution Model " mandatoryInput="_tf-4AIJrEd6Ljca46QJL5g" optionalInput="_tf-4AYJrEd6Ljca46QJL5g">
+            <presentation xmi:id="-bQzRkf3umLvNtPgf4oXeRg" href="uma://-bQzRkf3umLvNtPgf4oXeRg#-bQzRkf3umLvNtPgf4oXeRg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8aCg4GMlEd-2eNPi9l6wMg" name="Create_ServiceVariabilityResolutionModel" guid="_8aCg4GMlEd-2eNPi9l6wMg" presentationName="Create a Service Variability Resolution Model" briefDescription="tool-supported creation of a Service Variability Resolution Model, which describes a customized variant of a service by resolving the variable aspects as defined in the corresponding Service Variability Specification Model.  " mandatoryInput="_tf-4AYJrEd6Ljca46QJL5g" output="_tf-4AIJrEd6Ljca46QJL5g">
+            <presentation xmi:id="-ptjmqjlqvnf3sKxK7-zy-Q" href="uma://-ptjmqjlqvnf3sKxK7-zy-Q#-ptjmqjlqvnf3sKxK7-zy-Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_tf-4AIJrEd6Ljca46QJL5g" name="Service_Variability_Resolution_Model" guid="_tf-4AIJrEd6Ljca46QJL5g" presentationName="Service Variability Resolution Model" briefDescription="Model of a customized Service Variant, defining the resolution of a Service Variability Specification Model  ">
+            <presentation xmi:id="-bpy3uXKhqDjYeYA62w4B6A" href="uma://-bpy3uXKhqDjYeYA62w4B6A#-bpy3uXKhqDjYeYA62w4B6A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_tf-4AYJrEd6Ljca46QJL5g" name="Service_Variability_Specification_Model" guid="_tf-4AYJrEd6Ljca46QJL5g" presentationName="Service Variability Specification Model" briefDescription="Explicit description of the variable aspects of a service on the basis of the SHAPE Service Variability Metamodel ">
+            <presentation xmi:id="-IEOcjD4N5nFiHDFjY6tXFg" href="uma://-IEOcjD4N5nFiHDFjY6tXFg#-IEOcjD4N5nFiHDFjY6tXFg"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_fhq2nXXUEd6y559hJOP-yw" name="CapabilityPatterns" guid="_fhq2nXXUEd6y559hJOP-yw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_HJTJEH0dEd6On6TUtok0Og" href="uma://_HJTJEH0dEd6On6TUtok0Og#_HJTJEH0dEd6On6TUtok0Og"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_fhq2nnXUEd6y559hJOP-yw" name="DeliveryProcesses" guid="_fhq2nnXUEd6y559hJOP-yw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_fhq2n3XUEd6y559hJOP-yw" name="ProcessContributions" guid="_fhq2n3XUEd6y559hJOP-yw"/>
+    <bases href="uma://_kwazABFxEd6C2PqX2OSy5A#_kwazABFxEd6C2PqX2OSy5A"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

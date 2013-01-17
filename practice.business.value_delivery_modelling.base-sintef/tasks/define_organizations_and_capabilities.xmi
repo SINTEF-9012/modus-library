@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-E_OlOczBiZGFtv9icyrE1w" name=",_9S528Cf1EeKbT_45B08XTA" guid="-E_OlOczBiZGFtv9icyrE1w" changeDate="2012-11-12T11:50:07.745+0100">
+  <mainDescription>&lt;p>&#xD;
+    A value delivery modeling tool can also use a capability library to guide the modeling user in productively&#xD;
+    discovering:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Activities; as will be discussed later, an activity defines its capability requirement by referencing a capability&#xD;
+        in the library.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Capability offers; multiple capability offers might refer to the same capability in the library.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Capability resources; resources are business items, which can reference business items definitions, associated with&#xD;
+        capability definitions in the library.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Inputs and outputs that capability methods need to handle, given the capability that they support; we will discuss&#xD;
+        details of this later.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The linkage between capability offer and capability will also provide the opportunity to rationalize capability offers,&#xD;
+    by e.g. comparing them, e.g. based on the capability methods and resources that support these, or based on performance&#xD;
+    measurements (see 3.1.5), and based on these comparisons, deciding to e.g. combine capability offers where appropriate,&#xD;
+    e.g. to improve economy-of-scale.&#xD;
+&lt;/p></mainDescription>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To define organizations and capabilities using VDML.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_ZXIEEeZ0Ed-5YeUvCnM2dQ" guid="_ZXIEEeZ0Ed-5YeUvCnM2dQ">
+    <resourceDescriptors xmi:id="_ZXIEEuZ0Ed-5YeUvCnM2dQ" id="-sg-nhbFDKqIo4VuvNyzlkQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_O6r_EPPVEd-GtPTRjkeUMg" id="-YiyCu0ELZuEzMfZfXHuj8A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_O6ubUPPVEd-GtPTRjkeUMg" id="-TTlAKgUtqFtXFz46au9WJA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_O6w3kPPVEd-GtPTRjkeUMg" id="-rZhi5wsf4MlslYgTqdcvng" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_YFTP0OZ0Ed-5YeUvCnM2dQ" name="step1_soaml_sysml_design_in_cim_layer" guid="_YFTP0OZ0Ed-5YeUvCnM2dQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_OIY_cPPVEd-GtPTRjkeUMg" name="define_behavior_diagram" guid="_OIY_cPPVEd-GtPTRjkeUMg" presentationName="Define behaviour diagram" briefDescription="Behavior diagram from SysML is a type of diagram that depicts behavioral features of a system or business process.  This includes activity, state machine, and as well as the sequence diagrams. Business Process Modeling Notation (BPMN) is also used here to support the understanding the internal procedures related to scientific research and communicate these procedures in a standard manner." isPlanned="false" superActivities="_YFTP0eZ0Ed-5YeUvCnM2dQ" linkToPredecessor="_VrMQQPPaEd-GtPTRjkeUMg" output="_OIbbsPPVEd-GtPTRjkeUMg">
+      <Task href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_gz2QcN_dEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_OIZmgPPVEd-GtPTRjkeUMg" name="define_community_services_architecture" guid="_OIZmgPPVEd-GtPTRjkeUMg" presentationName="Define community services architecture" isPlanned="false" superActivities="_YFTP0eZ0Ed-5YeUvCnM2dQ" linkToPredecessor="_JtS64PPaEd-GtPTRjkeUMg" output="_OIbbsvPVEd-GtPTRjkeUMg">
+      <Task href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_eWVsMN_dEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_OIZmgfPVEd-GtPTRjkeUMg" name="define_participant_services_architecture" guid="_OIZmgfPVEd-GtPTRjkeUMg" presentationName="Define participant services architecture" briefDescription="A participant Services Architecture specifies the architecture for a particular Participant. Within a participant, where there is a concept of “management” exists, a services architecture illustrates how sub-participants and external collaborators work together and would often be accompanied by a business process. Other services architectures and service contracts may be used here." isPlanned="false" superActivities="_YFTP0eZ0Ed-5YeUvCnM2dQ" linkToPredecessor="_VrKbEPPaEd-GtPTRjkeUMg" output="_OIbbtPPVEd-GtPTRjkeUMg">
+      <Task href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_jAz3QN_dEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_OIZmgvPVEd-GtPTRjkeUMg" name="define_requirement_diagram_and_use_case_diagram" guid="_OIZmgvPVEd-GtPTRjkeUMg" presentationName="Define requirement diagram and use case diagram" isPlanned="false" superActivities="_YFTP0eZ0Ed-5YeUvCnM2dQ">
+      <Task href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_GpbBkO6cEd6OKalzbxNDQw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_OIbbsPPVEd-GtPTRjkeUMg" name="Product_Behavior Diagram" guid="_OIbbsPPVEd-GtPTRjkeUMg" presentationName="New Artifact" isPlanned="false" superActivities="_YFTP0eZ0Ed-5YeUvCnM2dQ">
+      <methodElementProperty xmi:id="_OIbbsfPVEd-GtPTRjkeUMg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-YiyCu0ELZuEzMfZfXHuj8A" href="uma://-sg-nhbFDKqIo4VuvNyzlkQ#-YiyCu0ELZuEzMfZfXHuj8A"/>
+      <WorkProduct href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_6m5XwN_dEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_OIbbsvPVEd-GtPTRjkeUMg" name="Product_Community Services Architecture" guid="_OIbbsvPVEd-GtPTRjkeUMg" presentationName="New Artifact" briefDescription="Community Services Architecture is from SoaML. A Services Architecture is a network of participant roles providing and consuming services to fulfill a purpose.  The services architecture defines the requirements for the types of participants and service realizations that fulfill those roles." isPlanned="false" superActivities="_YFTP0eZ0Ed-5YeUvCnM2dQ">
+      <methodElementProperty xmi:id="_OIbbs_PVEd-GtPTRjkeUMg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-TTlAKgUtqFtXFz46au9WJA" href="uma://-sg-nhbFDKqIo4VuvNyzlkQ#-TTlAKgUtqFtXFz46au9WJA"/>
+      <WorkProduct href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_3tYM8N_dEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_OIbbtPPVEd-GtPTRjkeUMg" name="Product_Participant Services Architecture" guid="_OIbbtPPVEd-GtPTRjkeUMg" presentationName="New Artifact" isPlanned="false" superActivities="_YFTP0eZ0Ed-5YeUvCnM2dQ">
+      <methodElementProperty xmi:id="_OIbbtfPVEd-GtPTRjkeUMg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-rZhi5wsf4MlslYgTqdcvng" href="uma://-sg-nhbFDKqIo4VuvNyzlkQ#-rZhi5wsf4MlslYgTqdcvng"/>
+      <WorkProduct href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_ES7YMN_eEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_JtS64PPaEd-GtPTRjkeUMg" guid="_JtS64PPaEd-GtPTRjkeUMg" pred="_OIZmgvPVEd-GtPTRjkeUMg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_VrKbEPPaEd-GtPTRjkeUMg" guid="_VrKbEPPaEd-GtPTRjkeUMg" pred="_OIZmgPPVEd-GtPTRjkeUMg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_VrMQQPPaEd-GtPTRjkeUMg" guid="_VrMQQPPaEd-GtPTRjkeUMg" pred="_OIZmgPPVEd-GtPTRjkeUMg"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_YFTP0eZ0Ed-5YeUvCnM2dQ" name="step1_soaml_sysml_design_in_cim_layer" guid="_YFTP0eZ0Ed-5YeUvCnM2dQ" presentationName="SoaML, SysML Design in CIM Layer" breakdownElements="_OIY_cPPVEd-GtPTRjkeUMg _OIZmgPPVEd-GtPTRjkeUMg _OIZmgfPVEd-GtPTRjkeUMg _OIZmgvPVEd-GtPTRjkeUMg _OIbbsPPVEd-GtPTRjkeUMg _OIbbsvPVEd-GtPTRjkeUMg _OIbbtPPVEd-GtPTRjkeUMg">
+      <methodElementProperty xmi:id="_ZTjysOZ0Ed-5YeUvCnM2dQ" name="process_synFree" value="true"/>
+      <presentation xmi:id="-sg-nhbFDKqIo4VuvNyzlkQ" href="uma://-sg-nhbFDKqIo4VuvNyzlkQ#-sg-nhbFDKqIo4VuvNyzlkQ"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_6_OWMPPUEd-GtPTRjkeUMg"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_6_OWMPPUEd-GtPTRjkeUMg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-z6ta3sLAbAvbBuSiL6_gMQ" name="Pattern,_EkOroX0aEd63rfdoUaFg2Q" guid="-z6ta3sLAbAvbBuSiL6_gMQ">
+    <mainDescription>&lt;p>&#xD;
+    Create a&amp;nbsp;CIM model out of&amp;nbsp;a PIM model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    First You have to model a CIM model, choose one of the provided CIM process modelling capability patterns.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    After that you can build a PIM model out of the CIM model.&#xD;
+&lt;/p></mainDescription>
+    <scope>&lt;p>&#xD;
+    CIM2PIM transformation.&#xD;
+&lt;/p></scope>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-0YqPuTU32Nc6Yb6NlIo9eA" name="BPMN2SoaML,_PvZlAkJWEd-wN_tDdvqWug" guid="-0YqPuTU32Nc6Yb6NlIo9eA">
+    <keyConsiderations>CIM2PIM transformation</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This method defines the guided procedure for mapping BPMN models to SoaML models.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is an automated tool which transforms your&amp;nbsp;bpmn input model to a&amp;nbsp;soaml output model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See the Steps page for detailled constructs.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5E-bNFSKbLcNyS1etAHxdA" name="BPMN_model,_PvZlBUJWEd-wN_tDdvqWug" guid="-5E-bNFSKbLcNyS1etAHxdA">
+    <refinedDescription>&lt;p>&#xD;
+    BPMN is intended to provide a standard notation that is understandable by all business stakeholders (i.e. business&#xD;
+    analysts, technical developers,and business managers), aiming at bridging the communication gap that frequently occurs&#xD;
+    between business process design and implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    BPMN distinguishes 3 basic types of sub-models of a business process :&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Private (internal) business processes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Abstract (public) processes, and&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Collaboration (global) processes.&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;p>&#xD;
+    Modeling in BPMN is made by simple diagrams with a small set of graphical elements. It should make it easy for business&#xD;
+    users as well as developers to understand the flow and the process. The four basic categories of elements are as&#xD;
+    follows:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Flow Objects (Events, Activities, Gateways)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Connecting Objects (Sequence Flow, Message Flow, Association)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Swimlanes (Pool, Lane)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Artefacts&amp;nbsp;(Data Object, Group, Annotation)&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;p>&#xD;
+    These four categories of elements give us the opportunity to make a simple business process diagram (BPD). It is also&#xD;
+    allowed in BPD to make your own type of a Flow Object or an Artifact to make the diagram more understandable.&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KpTnOv3C6WjAcrtHKtpcTg" name="BPMN2UML2Activity,_AAihYEMEEd-jmMkKIL7cjw" guid="-KpTnOv3C6WjAcrtHKtpcTg">
+    <refinedDescription>The method defines the procedure for mapping BPMN Annotation to SoaML Message Type</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-a2PBeV_Z88RxriuSnHj88Q" name="DataObject2MessageType,_pCKXwEMcEd-kgp7hZxYUEg" guid="-a2PBeV_Z88RxriuSnHj88Q">
+    <refinedDescription>The method defines the procedure for mapping BPMN DataObject to SoaML Message Type</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Gh5nBrF1irzyWhEL64EjHg" name="BPMN_Model,_pCKXwkMcEd-kgp7hZxYUEg" guid="-Gh5nBrF1irzyWhEL64EjHg">
+    <refinedDescription>&lt;p>&#xD;
+    BPMN is intended to provide a standard notation that is understandable by all business stakeholders (i.e. business&#xD;
+    analysts, technical developers,and business managers), aiming at bridging the communication gap that frequently occurs&#xD;
+    between business process design and implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    BPMN distinguishes 3 basic types of sub-models of a business process :&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Private (internal) business processes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Abstract (public) processes, and&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Collaboration (global) processes.&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;p>&#xD;
+    Modeling in BPMN is made by simple diagrams with a small set of graphical elements. It should make it easy for business&#xD;
+    users as well as developers to understand the flow and the process. The four basic categories of elements are as&#xD;
+    follows:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Flow Objects (Events, Activities, Gateways)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Connecting Objects (Sequence Flow, Message Flow, Association)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Swimlanes (Pool, Lane)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Artefacts&amp;nbsp;(Data Object, Group, Annotation)&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;p>&#xD;
+    These four categories of elements give us the opportunity to make a simple business process diagram (BPD). It is also&#xD;
+    allowed in BPD to make your own type of a Flow Object or an Artifact to make the diagram more understandable.&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Wcq1RSswDzbR2d2QLuyRAw" name="Ontology,_pCKXxEMcEd-kgp7hZxYUEg" guid="-Wcq1RSswDzbR2d2QLuyRAw">
+    <refinedDescription>&lt;p>&#xD;
+    An ontology is a knowledge representation format that define the terminology and background knowledge of a domain. They&#xD;
+    have been identiﬁed as the base technology for the Semantic Web, the grand vision for the further evolution of the&#xD;
+    World Wide Web.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Adopting the denotation from the philosophical study of being and existence, an ontology is deﬁned as a ”formal,&#xD;
+    explicit speciﬁcation of a shared conceptualization”.&amp;nbsp; This means that an ontology deﬁnes a conceptual model of a&#xD;
+    domain that ideally represents an agreed consensus among involved parties. The conceptual model is deﬁned in terms of&#xD;
+    concepts that denote the entities in the domain of discourse. These are characterized by properties, and relations&#xD;
+    describe associations between concepts whereby subsump-&lt;br />&#xD;
+    tion and membership relations deﬁne the taxonomic backbone of the ontology. Additional domain knowledge can be speciﬁed&#xD;
+    in terms of axioms. Individuals in the domain are rep-&lt;br />&#xD;
+    resented as instances of a concept.&amp;nbsp; The conceptual model is then represented in a formal, machine-processable&#xD;
+    language upon which reasoning techniques can be applied for advanced information processing. The major merit is that&#xD;
+    ontologies can bridge the gap between the real world and IT systems , and that heterogeneous data can be integrated on&#xD;
+    the semantic level by deﬁning mappings between ontologies.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-1xzs_srLrM7xzyPn3uy4-Q" name="Organization_Model,_pCKXxUMcEd-kgp7hZxYUEg" guid="-1xzs_srLrM7xzyPn3uy4-Q">
+    <refinedDescription>&lt;P class=MsoBodyText style=&quot;MARGIN: 6pt 0cm 0pt&quot;>&lt;SPAN lang=EN-GB>The Organisation&amp;nbsp;&lt;SPAN style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/SPAN>model &lt;/SPAN>&lt;SPAN lang=EN-GB>describes the organisational structure that is related to an underlying activity. The core element of the organisational view is the role. Role is a model element that derives from the organisational view and creates a link between the organisational and the process view. Each role is assigned to one or more people, while one person can carry out more than one role. At the same time each role can be part of an organisational unit. Roles can be hierarchically composed. Organisational units can have a hierarchical structure. For organisational units, the hierarchy represents the department structure of an enterprise, which allows to subdivide/aggregate business units. &lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-fx5UryCUMPxmlklfALyulg" name="EPC_Model,_pCKXxkMcEd-kgp7hZxYUEg" guid="-fx5UryCUMPxmlklfALyulg">
+    <refinedDescription>The EPC&amp;nbsp; metamodel is used to configure the structure and privacy of processes on a language based meta level. The&#xD;
+executing instances are here exemplary applications and organisation units. The core element of the EPC concept is the&#xD;
+flow, which is expressed with the flow element class. This element can be divided into events, which stand at the beginning&#xD;
+and at the end of each process and the time consuming function element. The control of the process flow is ensured by&#xD;
+connectors which follow a predicate logic. Between different functions or different processes messages can be exchanged.&#xD;
+The flow between different processes is possible by the flow connection element. &lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-PVrFMfwPEWHJECjit4yGtA" name="DataObject2ObjectNode,_puui0EMcEd-kgp7hZxYUEg" guid="-PVrFMfwPEWHJECjit4yGtA">
+    <refinedDescription>The method defines the procedure for mapping BPMN DataObject to UML ObjectNode</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bUPtKxJL5fh4Smo-X8jgkA" name="SoaML_Architecture_and_Behaviour_Diagram,_puui0UMcEd-kgp7hZxYUEg" guid="-bUPtKxJL5fh4Smo-X8jgkA">
+    <refinedDescription>Activity diagram that describes the behaviour (dynamics) of a service architecture. The behaviour represents the business&#xD;
+logic of the global service that is being specified &#xD;
+&lt;p>&#xD;
+    &lt;span lang=&quot;EN-GB&quot;&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-GB; mso-fareast-language: NO-BOK; mso-bidi-language: AR-SA&quot;>A&#xD;
+    choreography is a UML Behaviour such as may be shown on an interaction diagram or activity diagram that is owned by the&#xD;
+    ServiceContract. The choreography defines what must go between the contract roles as defined by their service&#xD;
+    interfaces—when, and how each party is playing their role in that service without regard for who is participating.&lt;span&#xD;
+    style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> The service contract &lt;i style=&quot;mso-bidi-font-style: normal&quot;>separates the&#xD;
+    concerns&lt;/i> of how all parties agree to provide or use the service from how any party implements their role in that&#xD;
+    service – or from their internal business process.&lt;/span>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Y3gpWDtc--lKa0Ncxjr8WA" name="ERM2UML2Class,_OnauUEPMEd-ZGKVMvRaOVg" guid="-Y3gpWDtc--lKa0Ncxjr8WA">
+    <keyConsiderations>CIM2PIM transformation</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This method defines the guided procedure for mapping BPMN to UML2&amp;nbsp;class&amp;nbsp;constructs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is an automated tool which transforms your&amp;nbsp;BPMN input model to a&amp;nbsp;UML2 output model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See the Steps page for detailled constructs.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-CAcqQ_oieVQ2avfCCPuj5Q" name="BR2SoaML,_G31JUEMEEd-jmMkKIL7cjw" guid="-CAcqQ_oieVQ2avfCCPuj5Q">
+    <refinedDescription>&lt;p>&#xD;
+    This method defines the guided procedure for mapping BR to SoaML constraint constructs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is an automated tool which transforms your&amp;nbsp;BR input model to a&amp;nbsp;SoaML output model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See the Steps page for detailled constructs.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

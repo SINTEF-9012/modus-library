@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_h1kxkBHDEeGJLqiKwS3dqQ" guid="_h1kxkBHDEeGJLqiKwS3dqQ">
+    <subManagers xmi:id="_C8grURHGEeGJLqiKwS3dqQ" href="uma://_C6t7kBHGEeGJLqiKwS3dqQ#_C8grURHGEeGJLqiKwS3dqQ"/>
+    <resourceDescriptors xmi:id="_cqRU4RHEEeGJLqiKwS3dqQ" id="-F3w4SL7ZGGYOX_JPWmmdDg" uri="guidances/supportingmaterials/release_info_system_information_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_C8NJURHGEeGJLqiKwS3dqQ" id="_C6t7kBHGEeGJLqiKwS3dqQ" uri="capabilitypatterns/system_information_modelling/model.xmi"/>
+    <resourceDescriptors xmi:id="_f2p_ERQ6EeGgOd2_jEsctg" id="-b76dnEvw2vZFZ4jb8aEwMA" uri="guidances/practices/system_information_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_gkeuYBQ6EeGgOd2_jEsctg" id="-PrtQzuukd83krVdl5T09Vw" uri="guidances/roadmaps/system_information_modelling_roadmap.xmi"/>
+    <resourceDescriptors xmi:id="_oW3FkRQ6EeGgOd2_jEsctg" id="-UP7QeSQd0s5HICIIhdRSPA" uri="tasks/define_system_information_model.xmi"/>
+    <resourceDescriptors xmi:id="_thILARQ6EeGgOd2_jEsctg" id="-BMXJ7Q038gbJ22NmO_Gcgg" uri="workproducts/system_information_model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_h01KsBHDEeGJLqiKwS3dqQ" name="practice.architecture.system_information_modelling.base-sintef" guid="_h01KsBHDEeGJLqiKwS3dqQ">
+    <methodElementProperty xmi:id="_h1t7gBHDEeGJLqiKwS3dqQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_h01KsRHDEeGJLqiKwS3dqQ" name="Content" guid="_h01KsRHDEeGJLqiKwS3dqQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_h01KshHDEeGJLqiKwS3dqQ" name="Categories" guid="_h01KshHDEeGJLqiKwS3dqQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_h01KsxHDEeGJLqiKwS3dqQ" name="Domains" guid="_h01KsxHDEeGJLqiKwS3dqQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_yY81kBQ6EeGgOd2_jEsctg" name="architecture_modelling_domain.assign" guid="_yY81kBQ6EeGgOd2_jEsctg" variabilityType="contributes" workProducts="_BWKOABHFEeGJLqiKwS3dqQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_iESMoNxcEd-LYKXkOhPACw#_JQuH8N0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_h01KtBHDEeGJLqiKwS3dqQ" name="Disciplines" guid="_h01KtBHDEeGJLqiKwS3dqQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_uZ9QcBQ6EeGgOd2_jEsctg" name="architecture_modelling_discipline.assign" guid="_uZ9QcBQ6EeGgOd2_jEsctg" variabilityType="contributes" tasks="_lyd2MBQ6EeGgOd2_jEsctg">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_iESMoNxcEd-LYKXkOhPACw#_Fx_-UN0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_h01KtRHDEeGJLqiKwS3dqQ" name="RoleSets" guid="_h01KtRHDEeGJLqiKwS3dqQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_h01KthHDEeGJLqiKwS3dqQ" name="WP Types" guid="_h01KthHDEeGJLqiKwS3dqQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_h01KtxHDEeGJLqiKwS3dqQ" name="Tools" guid="_h01KtxHDEeGJLqiKwS3dqQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_h01KuBHDEeGJLqiKwS3dqQ" name="StandardCategories" guid="_h01KuBHDEeGJLqiKwS3dqQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_h01KuRHDEeGJLqiKwS3dqQ" name="CustomCategories" guid="_h01KuRHDEeGJLqiKwS3dqQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_h01KuhHDEeGJLqiKwS3dqQ" name="Hidden" guid="_h01KuhHDEeGJLqiKwS3dqQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_h01KuxHDEeGJLqiKwS3dqQ" name="Custom Categories" guid="_h01KuxHDEeGJLqiKwS3dqQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_h01KvBHDEeGJLqiKwS3dqQ" name="CoreContent" guid="_h01KvBHDEeGJLqiKwS3dqQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_C_1-EBHEEeGJLqiKwS3dqQ" name="system_information_modelling" guid="_C_1-EBHEEeGJLqiKwS3dqQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_rwr6YBHEEeGJLqiKwS3dqQ" name="system_information_modelling" guid="_rwr6YBHEEeGJLqiKwS3dqQ" presentationName="System information modelling" briefDescription="This practice describes how to define an information model for a information software system." contentReferences="_BWKOABHFEeGJLqiKwS3dqQ _lyd2MBQ6EeGgOd2_jEsctg _GwLmsBHFEeGJLqiKwS3dqQ _6hO9kBHEEeGJLqiKwS3dqQ">
+            <methodElementProperty xmi:id="_Pl5j4Lb9EeGSldvlqRCwfg" name="me_edited" value="true"/>
+            <presentation xmi:id="-b76dnEvw2vZFZ4jb8aEwMA" href="uma://-b76dnEvw2vZFZ4jb8aEwMA#-b76dnEvw2vZFZ4jb8aEwMA"/>
+            <activityReferences href="uma://_C6t7kBHGEeGJLqiKwS3dqQ#_C6t7kRHGEeGJLqiKwS3dqQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_6hO9kBHEEeGJLqiKwS3dqQ" name="system_information_modelling_roadmap" guid="_6hO9kBHEEeGJLqiKwS3dqQ" presentationName="How to adopt the system information modelling practice" briefDescription="This roadmap describes how to adopt the System information modelling practice.">
+            <presentation xmi:id="-PrtQzuukd83krVdl5T09Vw" href="uma://-PrtQzuukd83krVdl5T09Vw#-PrtQzuukd83krVdl5T09Vw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_BWKOABHFEeGJLqiKwS3dqQ" name="system_information_model" guid="_BWKOABHFEeGJLqiKwS3dqQ" presentationName="System information model" briefDescription="&lt;TBD>">
+            <presentation xmi:id="-BMXJ7Q038gbJ22NmO_Gcgg" href="uma://-BMXJ7Q038gbJ22NmO_Gcgg#-BMXJ7Q038gbJ22NmO_Gcgg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_GwLmsBHFEeGJLqiKwS3dqQ" name="system_architech.assign" guid="_GwLmsBHFEeGJLqiKwS3dqQ" variabilityType="contributes" responsibleFor="_BWKOABHFEeGJLqiKwS3dqQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_lyd2MBQ6EeGgOd2_jEsctg" name="define_system_information_model" guid="_lyd2MBQ6EeGgOd2_jEsctg" presentationName="Define system information model" briefDescription="This task describes how to define a System information model." performedBy="_GwLmsBHFEeGJLqiKwS3dqQ" output="_BWKOABHFEeGJLqiKwS3dqQ">
+            <methodElementProperty xmi:id="_rL_yoLb8EeGSldvlqRCwfg" name="me_edited" value="true"/>
+            <presentation xmi:id="-UP7QeSQd0s5HICIIhdRSPA" href="uma://-UP7QeSQd0s5HICIIhdRSPA#-UP7QeSQd0s5HICIIhdRSPA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Fk-0UBHEEeGJLqiKwS3dqQ" name="release_info" guid="_Fk-0UBHEEeGJLqiKwS3dqQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_cphuABHEEeGJLqiKwS3dqQ" name="release_info_system_information_modelling" guid="_cphuABHEEeGJLqiKwS3dqQ" presentationName="Practice: System information modelling" briefDescription="System information modelling practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-F3w4SL7ZGGYOX_JPWmmdDg" href="uma://-F3w4SL7ZGGYOX_JPWmmdDg#-F3w4SL7ZGGYOX_JPWmmdDg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_IJOSsBHEEeGJLqiKwS3dqQ" name="tool_mentors" guid="_IJOSsBHEEeGJLqiKwS3dqQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8lwAwBQ6EeGgOd2_jEsctg" name="papyrus" guid="_8lwAwBQ6EeGgOd2_jEsctg"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_h01KvRHDEeGJLqiKwS3dqQ" name="CapabilityPatterns" guid="_h01KvRHDEeGJLqiKwS3dqQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_A4ZegBHGEeGJLqiKwS3dqQ" name="system_information_modelling" guid="_A4ZegBHGEeGJLqiKwS3dqQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_C6t7kBHGEeGJLqiKwS3dqQ" href="uma://_C6t7kBHGEeGJLqiKwS3dqQ#_C6t7kBHGEeGJLqiKwS3dqQ"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_h0-UoBHDEeGJLqiKwS3dqQ" name="DeliveryProcesses" guid="_h0-UoBHDEeGJLqiKwS3dqQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_h0-UoRHDEeGJLqiKwS3dqQ" name="ProcessContributions" guid="_h0-UoRHDEeGJLqiKwS3dqQ"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_7J4wUNq1Ed-RHtsSMqnPrA#_7J4wUNq1Ed-RHtsSMqnPrA"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_yLWzUNxbEd-LYKXkOhPACw#_yLWzUNxbEd-LYKXkOhPACw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

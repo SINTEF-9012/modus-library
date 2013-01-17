@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_s63FYA7NEeG7mKurZhyY1A" guid="_s63FYA7NEeG7mKurZhyY1A">
+    <subManagers xmi:id="_aKL3kQ9wEeGUrJHR_a_BCQ" href="uma://_aJ48oA9wEeGUrJHR_a_BCQ#_aKL3kQ9wEeGUrJHR_a_BCQ"/>
+    <resourceDescriptors xmi:id="_HvLccA7OEeG7mKurZhyY1A" id="-MS5YCsYo5PApWuhOpROHlw" uri="guidances/supportingmaterials/release_info_user_story.xmi"/>
+    <resourceDescriptors xmi:id="_jl32gQ7OEeG7mKurZhyY1A" id="-VsFwVR9B-Ns53NFnAB4pwA" uri="guidances/practices/user_story.xmi"/>
+    <resourceDescriptors xmi:id="_jl32gg7OEeG7mKurZhyY1A" id="-s7q_Kc9uZtw_NcnVJEoI6g" uri="guidances/roadmaps/how_to_adopt_user_story.xmi"/>
+    <resourceDescriptors xmi:id="_jmBAcA7OEeG7mKurZhyY1A" id="-e_KkNK_j_XiLwL_ijeohUg" uri="workproducts/requirements_model.assign.xmi"/>
+    <resourceDescriptors xmi:id="_jmBAcQ7OEeG7mKurZhyY1A" id="-oKGdCvP0iYOzxpDEwdPSQw" uri="workproducts/non_functional_requirements.xmi"/>
+    <resourceDescriptors xmi:id="_jmBAcw7OEeG7mKurZhyY1A" id="-8FAOLuG0RJtywHEeApd67A" uri="workproducts/epics.xmi"/>
+    <resourceDescriptors xmi:id="_jmBAdA7OEeG7mKurZhyY1A" id="-D5RgL7PCPbVKZv8X6FSHdw" uri="workproducts/user_stories.xmi"/>
+    <resourceDescriptors xmi:id="_jmBAdQ7OEeG7mKurZhyY1A" id="-ZakdDpKXh_vlEqQALnujxw" uri="tasks/estimate_user_stories.xmi"/>
+    <resourceDescriptors xmi:id="_jmBAdg7OEeG7mKurZhyY1A" id="-D4M2UzqT9JbDv2rWZMZu0g" uri="tasks/prioritize_user_stories.xmi"/>
+    <resourceDescriptors xmi:id="_jmKxcA7OEeG7mKurZhyY1A" id="-IE5YIfxpHZOJioO6fRfLjw" uri="tasks/write_user_stories.xmi"/>
+    <resourceDescriptors xmi:id="_jmKxcQ7OEeG7mKurZhyY1A" id="-dpeLHMGOLOXq4jQHDdbm9Q" uri="tasks/categorize_user_stories.xmi"/>
+    <resourceDescriptors xmi:id="_jmKxcg7OEeG7mKurZhyY1A" id="-c26YwEQpmGj1TPePMl2O-w" uri="guidances/templates/use_case_template.xmi"/>
+    <resourceDescriptors xmi:id="_aJ48ow9wEeGUrJHR_a_BCQ" id="_aJ48oA9wEeGUrJHR_a_BCQ" uri="capabilitypatterns/User%20story/model.xmi"/>
+    <resourceDescriptors xmi:id="_QfUfUQ9xEeGUrJHR_a_BCQ" id="-Vv0sJiNdI5Y3-DVXgq2u7A" uri="workproducts/themes.xmi"/>
+    <resourceDescriptors xmi:id="_O-w8cQ96EeGUrJHR_a_BCQ" id="-5srNI3ruxhLSbUd3EAxDgw" uri="guidances/supportingmaterials/references.user_story.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_s6tUYA7NEeG7mKurZhyY1A" name="practice.requirements.user_story.base-sintef" guid="_s6tUYA7NEeG7mKurZhyY1A" briefDescription="This plugin contains the user story practice." authors="Brian Elvesæter (SINTEF)" changeDate="2011-11-15T12:10:54.684+0100">
+    <methodElementProperty xmi:id="_s63FYg7NEeG7mKurZhyY1A" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_s6tUYQ7NEeG7mKurZhyY1A" name="Content" guid="_s6tUYQ7NEeG7mKurZhyY1A">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_s6tUYg7NEeG7mKurZhyY1A" name="Categories" guid="_s6tUYg7NEeG7mKurZhyY1A">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_s6tUYw7NEeG7mKurZhyY1A" name="Domains" guid="_s6tUYw7NEeG7mKurZhyY1A">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_EWlI8A7OEeG7mKurZhyY1A" name="requirements_modelling_domain.assign" guid="_EWlI8A7OEeG7mKurZhyY1A" variabilityType="contributes" workProducts="_jYx1vw7OEeG7mKurZhyY1A">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_iESMoNxcEd-LYKXkOhPACw#_UhZyAN0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_s6tUZA7NEeG7mKurZhyY1A" name="Disciplines" guid="_s6tUZA7NEeG7mKurZhyY1A">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_B8570A7OEeG7mKurZhyY1A" name="requirements_modelling_discipline.assign" guid="_B8570A7OEeG7mKurZhyY1A" variabilityType="contributes" tasks="_jYx1vA7OEeG7mKurZhyY1A _jYx1tQ7OEeG7mKurZhyY1A _jYx1uA7OEeG7mKurZhyY1A">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_iESMoNxcEd-LYKXkOhPACw#_C-RScN0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_s6tUZQ7NEeG7mKurZhyY1A" name="RoleSets" guid="_s6tUZQ7NEeG7mKurZhyY1A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_s6tUZg7NEeG7mKurZhyY1A" name="WP Types" guid="_s6tUZg7NEeG7mKurZhyY1A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_s6tUZw7NEeG7mKurZhyY1A" name="Tools" guid="_s6tUZw7NEeG7mKurZhyY1A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_s6tUaA7NEeG7mKurZhyY1A" name="StandardCategories" guid="_s6tUaA7NEeG7mKurZhyY1A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_s6tUaQ7NEeG7mKurZhyY1A" name="CustomCategories" guid="_s6tUaQ7NEeG7mKurZhyY1A">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_s6tUag7NEeG7mKurZhyY1A" name="Hidden" guid="_s6tUag7NEeG7mKurZhyY1A">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_s6tUaw7NEeG7mKurZhyY1A" name="Custom Categories" guid="_s6tUaw7NEeG7mKurZhyY1A"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_s6tUbA7NEeG7mKurZhyY1A" name="CoreContent" guid="_s6tUbA7NEeG7mKurZhyY1A">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Hub1kA7OEeG7mKurZhyY1A" name="release_info" guid="_Hub1kA7OEeG7mKurZhyY1A">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_Hub1kQ7OEeG7mKurZhyY1A" name="release_info_user_story" guid="_Hub1kQ7OEeG7mKurZhyY1A" presentationName="Practice: User Story" briefDescription="User Story practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <methodElementProperty xmi:id="_WgEYgCnvEeKvjc8Bl_M3NQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-MS5YCsYo5PApWuhOpROHlw" href="uma://-MS5YCsYo5PApWuhOpROHlw#-MS5YCsYo5PApWuhOpROHlw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ifNJYA7OEeG7mKurZhyY1A" name="tool_mentors" guid="_ifNJYA7OEeG7mKurZhyY1A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jYx1sA7OEeG7mKurZhyY1A" name="user_story" guid="_jYx1sA7OEeG7mKurZhyY1A" presentationName="User story">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_jYx1wA7OEeG7mKurZhyY1A" name="user_story" guid="_jYx1wA7OEeG7mKurZhyY1A" presentationName="User Story" briefDescription="This practice describes how to capture, define and manage user requirements written as user stories." contentReferences="_jYx1tg7OEeG7mKurZhyY1A _9vbjoA9uEeGUrJHR_a_BCQ _jYx1tA7OEeG7mKurZhyY1A _jYx1vA7OEeG7mKurZhyY1A _jYx1tQ7OEeG7mKurZhyY1A _jYx1uA7OEeG7mKurZhyY1A _jYx1sg7OEeG7mKurZhyY1A _jYx1uw7OEeG7mKurZhyY1A _jYx1sw7OEeG7mKurZhyY1A">
+            <methodElementProperty xmi:id="_PfOL8CnvEeKvjc8Bl_M3NQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-VsFwVR9B-Ns53NFnAB4pwA" href="uma://-VsFwVR9B-Ns53NFnAB4pwA#-VsFwVR9B-Ns53NFnAB4pwA"/>
+            <activityReferences href="uma://_aJ48oA9wEeGUrJHR_a_BCQ#_aJ48oQ9wEeGUrJHR_a_BCQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_jYx1sw7OEeG7mKurZhyY1A" name="how_to_adopt_user_story" guid="_jYx1sw7OEeG7mKurZhyY1A" presentationName="How to adopt the User Story practice" briefDescription="This roadmap describes how to adopt the User Story practice.">
+            <methodElementProperty xmi:id="_SyodcCnvEeKvjc8Bl_M3NQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-s7q_Kc9uZtw_NcnVJEoI6g" href="uma://-s7q_Kc9uZtw_NcnVJEoI6g#-s7q_Kc9uZtw_NcnVJEoI6g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_jYx1sg7OEeG7mKurZhyY1A" name="stakeholder.assign" guid="_jYx1sg7OEeG7mKurZhyY1A" variabilityType="contributes" responsibleFor="_jYx1tg7OEeG7mKurZhyY1A _jYx1tA7OEeG7mKurZhyY1A">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_K7n0EOaFEd-2NJepU9I_bg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_jYx1uw7OEeG7mKurZhyY1A" name="system_developer.assign" guid="_jYx1uw7OEeG7mKurZhyY1A" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJxhntEd6VV7P4WguglA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_jYx1vw7OEeG7mKurZhyY1A" name="requirements_model.assign" guid="_jYx1vw7OEeG7mKurZhyY1A" briefDescription="The requirements model identifies the system requirements." variabilityType="contributes" deliveredWorkProducts="_jYx1tg7OEeG7mKurZhyY1A _jYx1tA7OEeG7mKurZhyY1A">
+            <presentation xmi:id="-e_KkNK_j_XiLwL_ijeohUg" href="uma://-e_KkNK_j_XiLwL_ijeohUg#-e_KkNK_j_XiLwL_ijeohUg"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_2t4YUOG2Ed-AyrTFSpVP8g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_jYx1tg7OEeG7mKurZhyY1A" name="epics" guid="_jYx1tg7OEeG7mKurZhyY1A" presentationName="Epics" briefDescription="An Epic is a group of related User Stories.">
+            <presentation xmi:id="-8FAOLuG0RJtywHEeApd67A" href="uma://-8FAOLuG0RJtywHEeApd67A#-8FAOLuG0RJtywHEeApd67A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_jYx1tA7OEeG7mKurZhyY1A" name="user_stories" guid="_jYx1tA7OEeG7mKurZhyY1A" presentationName="User stories" briefDescription="A User Story is an Independent, Negotiable, Valuable, Estimatable, Small, Testable requirement (INVEST) ">
+            <presentation xmi:id="-D5RgL7PCPbVKZv8X6FSHdw" href="uma://-D5RgL7PCPbVKZv8X6FSHdw#-D5RgL7PCPbVKZv8X6FSHdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jYx1vA7OEeG7mKurZhyY1A" name="estimate_user_stories" guid="_jYx1vA7OEeG7mKurZhyY1A" presentationName="Estimate user stories." briefDescription="This task describes how to estimate user stories." performedBy="_jYx1uw7OEeG7mKurZhyY1A" mandatoryInput="_jYx1tg7OEeG7mKurZhyY1A _jYx1tA7OEeG7mKurZhyY1A" output="_jYx1tg7OEeG7mKurZhyY1A _jYx1tA7OEeG7mKurZhyY1A">
+            <presentation xmi:id="-ZakdDpKXh_vlEqQALnujxw" href="uma://-ZakdDpKXh_vlEqQALnujxw#-ZakdDpKXh_vlEqQALnujxw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jYx1tQ7OEeG7mKurZhyY1A" name="prioritize_user_stories" guid="_jYx1tQ7OEeG7mKurZhyY1A" presentationName="Prioritize user stories" briefDescription="This task describes how prioritize user stories." performedBy="_jYx1sg7OEeG7mKurZhyY1A" mandatoryInput="_jYx1tA7OEeG7mKurZhyY1A _jYx1tg7OEeG7mKurZhyY1A" output="_jYx1tA7OEeG7mKurZhyY1A _jYx1tg7OEeG7mKurZhyY1A">
+            <presentation xmi:id="-D4M2UzqT9JbDv2rWZMZu0g" href="uma://-D4M2UzqT9JbDv2rWZMZu0g#-D4M2UzqT9JbDv2rWZMZu0g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jYx1uA7OEeG7mKurZhyY1A" name="write_user_stories" guid="_jYx1uA7OEeG7mKurZhyY1A" presentationName="Write user stories" briefDescription="This task describes how to write user stories." performedBy="_jYx1sg7OEeG7mKurZhyY1A" output="_jYx1tA7OEeG7mKurZhyY1A _jYx1tg7OEeG7mKurZhyY1A _9vbjoA9uEeGUrJHR_a_BCQ">
+            <presentation xmi:id="-IE5YIfxpHZOJioO6fRfLjw" href="uma://-IE5YIfxpHZOJioO6fRfLjw#-IE5YIfxpHZOJioO6fRfLjw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_9vbjoA9uEeGUrJHR_a_BCQ" name="themes" guid="_9vbjoA9uEeGUrJHR_a_BCQ" presentationName="Themes" briefDescription="A Theme is a top-level objective that may span projects and products. ">
+            <presentation xmi:id="-Vv0sJiNdI5Y3-DVXgq2u7A" href="uma://-Vv0sJiNdI5Y3-DVXgq2u7A#-Vv0sJiNdI5Y3-DVXgq2u7A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_OytdcA96EeGUrJHR_a_BCQ" name="references.user_story" guid="_OytdcA96EeGUrJHR_a_BCQ" variabilityType="contributes">
+            <presentation xmi:id="-5srNI3ruxhLSbUd3EAxDgw" href="uma://-5srNI3ruxhLSbUd3EAxDgw#-5srNI3ruxhLSbUd3EAxDgw"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_7J4wUNq1Ed-RHtsSMqnPrA#_zfHv4PPWEd-GtPTRjkeUMg"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_s6tUbQ7NEeG7mKurZhyY1A" name="CapabilityPatterns" guid="_s6tUbQ7NEeG7mKurZhyY1A">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_YbW-QA9wEeGUrJHR_a_BCQ" name="user_story" guid="_YbW-QA9wEeGUrJHR_a_BCQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_aJ48oA9wEeGUrJHR_a_BCQ" href="uma://_aJ48oA9wEeGUrJHR_a_BCQ#_aJ48oA9wEeGUrJHR_a_BCQ"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_s6tUbg7NEeG7mKurZhyY1A" name="DeliveryProcesses" guid="_s6tUbg7NEeG7mKurZhyY1A"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_s6tUbw7NEeG7mKurZhyY1A" name="ProcessContributions" guid="_s6tUbw7NEeG7mKurZhyY1A"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_yLWzUNxbEd-LYKXkOhPACw#_yLWzUNxbEd-LYKXkOhPACw"/>
+    <bases href="uma://_7J4wUNq1Ed-RHtsSMqnPrA#_7J4wUNq1Ed-RHtsSMqnPrA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

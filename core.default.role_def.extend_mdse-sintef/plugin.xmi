@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_aXT-QNeYEd-Mq_S1iaxctg" guid="_aXT-QNeYEd-Mq_S1iaxctg">
+    <resourceDescriptors xmi:id="_fS298FWoEd6U-KgRUwr2Aw" id="-utmuqGbqsEwxWXOJAnFxZQ" uri="roles/System_Architect.xmi"/>
+    <resourceDescriptors xmi:id="_gfbD8BntEd6VV7P4WguglA" id="-YCJO1Dpv1kSOFhhQG1UbEQ" uri="roles/requirements_analyst.xmi"/>
+    <resourceDescriptors xmi:id="_q3SYQYcdEd6EVeogAa9sog" id="-Ll7sXY32gAucEikuW17Pzg" uri="roles/Domain_expert.xmi"/>
+    <resourceDescriptors xmi:id="_gfmqIBntEd6VV7P4WguglA" id="-Bk6AvSALcQmxtQ6lYq5qOQ" uri="roles/user2.xmi"/>
+    <resourceDescriptors xmi:id="_2_pMoakIEd6pBu2oaywvsg" id="-6gO4jn4duZ8F8rcRlVmjJA" uri="roles/Tester.xmi"/>
+    <resourceDescriptors xmi:id="_j96E4DszEd-Ux61kS3X6hw" id="-uPrhaySxWQSmEOZ1Vq-NLw" uri="../core.shape.framework.base-sintef/roles/SWS_engineer.xmi"/>
+    <resourceDescriptors xmi:id="_hb_o8eEPEd-QcdsL5iaWCQ" id="-5jnSc-3vLkQsKOMz1y4oeQ" uri="roles/business_analyst.xmi"/>
+    <resourceDescriptors xmi:id="_7q5cAeaEEd-2NJepU9I_bg" id="-6igAlVud34kAc94Hzf1dDw" uri="roles/system_developer.xmi"/>
+    <resourceDescriptors xmi:id="_2830YOaJEd-g_d7yXRHZDg" id="-LdPZURL2sn8OGYkGkbRnkw" uri="rolesets/development_role_set.xmi"/>
+    <resourceDescriptors xmi:id="_OwSmQeaKEd-g_d7yXRHZDg" id="-NMA2wiAYV--VM-4TV6DeOQ" uri="rolesets/supporting_role_set.xmi"/>
+    <resourceDescriptors xmi:id="_mLZJUOaLEd-g_d7yXRHZDg" id="-t1D_MWAKu2fJG8igS3GGJA" uri="roles/end_user.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_aXK0UNeYEd-Mq_S1iaxctg" name="core.default.role_def.extend_mdse-sintef" guid="_aXK0UNeYEd-Mq_S1iaxctg" briefDescription="This plugin defines the default set of roles for adopting model-driven software engineering (MDSE)." authors="Brian Elvesæter (SINTEF)" changeDate="2010-10-21T12:52:39.739+0200" changeDescription="0.1: Initial outline." version="0.1">
+    <methodElementProperty xmi:id="_aXT-QteYEd-Mq_S1iaxctg" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aXK0UdeYEd-Mq_S1iaxctg" name="Content" guid="_aXK0UdeYEd-Mq_S1iaxctg">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aXK0UteYEd-Mq_S1iaxctg" name="Categories" guid="_aXK0UteYEd-Mq_S1iaxctg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aXK0U9eYEd-Mq_S1iaxctg" name="Domains" guid="_aXK0U9eYEd-Mq_S1iaxctg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aXK0VNeYEd-Mq_S1iaxctg" name="Disciplines" guid="_aXK0VNeYEd-Mq_S1iaxctg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aXK0VdeYEd-Mq_S1iaxctg" name="RoleSets" guid="_aXK0VdeYEd-Mq_S1iaxctg">
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_4uUy8N3NEd-ms9NsV3fnQQ" name="development_role_set" guid="_4uUy8N3NEd-ms9NsV3fnQQ" presentationName="Development roles" briefDescription="This category lists all development roles in MDSE. " variabilityType="replaces" roles="_gIqJwhntEd6VV7P4WguglA _UEhLEIcdEd6EVeogAa9sog _gIpisBntEd6VV7P4WguglA _gIqJxhntEd6VV7P4WguglA _mWo3cDMyEd6_xOMajArapw _gIqw0BntEd6VV7P4WguglA _VHH-AOEPEd-QcdsL5iaWCQ _exrw0OaLEd-g_d7yXRHZDg _K7n0EOaFEd-2NJepU9I_bg">
+            <methodElementProperty xmi:id="_khahwOEPEd-QcdsL5iaWCQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <presentation xmi:id="-LdPZURL2sn8OGYkGkbRnkw" href="uma://-LdPZURL2sn8OGYkGkbRnkw#-LdPZURL2sn8OGYkGkbRnkw"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:RoleSet" href="uma://_A118oMYaEdyXeo04os5BOw#_SHN90MYaEdyXeo04os5BOw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_IVhiQOaKEd-g_d7yXRHZDg" name="supporting_role_set" guid="_IVhiQOaKEd-g_d7yXRHZDg" presentationName="Supporting roles" briefDescription="This category lists all supporting roles in MDSE." variabilityType="replaces" roles="_bdM20NxPEd-LYKXkOhPACw _aIm7oOaFEd-2NJepU9I_bg _eyAvsOaFEd-2NJepU9I_bg _F_MY4ObeEd-Eut7DiqIzBA">
+            <methodElementProperty xmi:id="_cnL9QOaNEd-g_d7yXRHZDg" name="CategoryElementsSortType" value="Alphabetic"/>
+            <presentation xmi:id="-NMA2wiAYV--VM-4TV6DeOQ" href="uma://-NMA2wiAYV--VM-4TV6DeOQ#-NMA2wiAYV--VM-4TV6DeOQ"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:RoleSet" href="uma://_A118oMYaEdyXeo04os5BOw#_Wi8j4L9yEd-AG_DXKKgAXg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aXK0VteYEd-Mq_S1iaxctg" name="WP Types" guid="_aXK0VteYEd-Mq_S1iaxctg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aXK0V9eYEd-Mq_S1iaxctg" name="Tools" guid="_aXK0V9eYEd-Mq_S1iaxctg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aXK0WNeYEd-Mq_S1iaxctg" name="StandardCategories" guid="_aXK0WNeYEd-Mq_S1iaxctg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aXK0WdeYEd-Mq_S1iaxctg" name="CustomCategories" guid="_aXK0WdeYEd-Mq_S1iaxctg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aXK0WteYEd-Mq_S1iaxctg" name="Hidden" guid="_aXK0WteYEd-Mq_S1iaxctg">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_aXK0W9eYEd-Mq_S1iaxctg" name="Custom Categories" guid="_aXK0W9eYEd-Mq_S1iaxctg"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aXK0XNeYEd-Mq_S1iaxctg" name="CoreContent" guid="_aXK0XNeYEd-Mq_S1iaxctg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_GsnN4NebEd-Mq_S1iaxctg" name="development_roles" guid="_GsnN4NebEd-Mq_S1iaxctg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_gIpisBntEd6VV7P4WguglA" name="requirements_analyst" guid="_gIpisBntEd6VV7P4WguglA" presentationName="Requirements analyst" briefDescription="This worker is mainly involved in the processes related to the requirements of the customers. " variabilityType="extendsReplaces">
+            <presentation xmi:id="-YCJO1Dpv1kSOFhhQG1UbEQ" href="uma://-YCJO1Dpv1kSOFhhQG1UbEQ#-YCJO1Dpv1kSOFhhQG1UbEQ"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_0VxJsMlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_gIqJwhntEd6VV7P4WguglA" name="business_architect" guid="_gIqJwhntEd6VV7P4WguglA" presentationName="Business architect" briefDescription="This worker is involved in the design of the composition workflow and all the issues around it like security, transactions or exception handling."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_UEhLEIcdEd6EVeogAa9sog" name="domain_expert" guid="_UEhLEIcdEd6EVeogAa9sog" presentationName="Domain expert" briefDescription="Has expert knowledge about a particular domain that is being modelled.">
+            <presentation xmi:id="-Ll7sXY32gAucEikuW17Pzg" href="uma://-Ll7sXY32gAucEikuW17Pzg#-Ll7sXY32gAucEikuW17Pzg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_gIqJxhntEd6VV7P4WguglA" name="system_developer" guid="_gIqJxhntEd6VV7P4WguglA" presentationName="System developer" briefDescription="This is the worker who builds the services." variabilityType="extendsReplaces">
+            <presentation xmi:id="-6igAlVud34kAc94Hzf1dDw" href="uma://-6igAlVud34kAc94Hzf1dDw#-6igAlVud34kAc94Hzf1dDw"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_0YDosMlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_mWo3cDMyEd6_xOMajArapw" name="system_architect" guid="_mWo3cDMyEd6_xOMajArapw" presentationName="System architect" briefDescription="Works on developing and maintaining a service-oriented architecture for the IT portfolio of a company." variabilityType="extendsReplaces">
+            <presentation xmi:id="-utmuqGbqsEwxWXOJAnFxZQ" href="uma://-utmuqGbqsEwxWXOJAnFxZQ#-utmuqGbqsEwxWXOJAnFxZQ"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_gIqw0BntEd6VV7P4WguglA" name="tester" guid="_gIqw0BntEd6VV7P4WguglA" presentationName="Tester" briefDescription="This worker is involved in the processes where testing and validation are performed." variabilityType="extendsReplaces">
+            <presentation xmi:id="-6gO4jn4duZ8F8rcRlVmjJA" href="uma://-6gO4jn4duZ8F8rcRlVmjJA#-6gO4jn4duZ8F8rcRlVmjJA"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_0ZM4MclgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_VHH-AOEPEd-QcdsL5iaWCQ" name="business_analyst" guid="_VHH-AOEPEd-QcdsL5iaWCQ" presentationName="Business analyst" briefDescription="Responsible for analyzing the business needs of clients to help identify business problems and propose solutions.">
+            <presentation xmi:id="-5jnSc-3vLkQsKOMz1y4oeQ" href="uma://-5jnSc-3vLkQsKOMz1y4oeQ#-5jnSc-3vLkQsKOMz1y4oeQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_K7n0EOaFEd-2NJepU9I_bg" name="stakeholder" guid="_K7n0EOaFEd-2NJepU9I_bg" presentationName="Stakeholder" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_dTa6gMAYEdqX-s4mWhkyqQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_exrw0OaLEd-g_d7yXRHZDg" name="end_user" guid="_exrw0OaLEd-g_d7yXRHZDg" presentationName="End-user" briefDescription="This worker is involved in the requirements gathering and when agreements about the system are needed.">
+            <presentation xmi:id="-t1D_MWAKu2fJG8igS3GGJA" href="uma://-t1D_MWAKu2fJG8igS3GGJA#-t1D_MWAKu2fJG8igS3GGJA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Y2Se8NxPEd-LYKXkOhPACw" name="supporting_roles" guid="_Y2Se8NxPEd-LYKXkOhPACw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_bdM20NxPEd-LYKXkOhPACw" name="platform_specialist" guid="_bdM20NxPEd-LYKXkOhPACw" presentationName="Platform specialist"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_aIm7oOaFEd-2NJepU9I_bg" name="process_engineer" guid="_aIm7oOaFEd-2NJepU9I_bg" presentationName="Process engineer" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_jmrVYL9xEd-AG_DXKKgAXg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_eyAvsOaFEd-2NJepU9I_bg" name="tool_specialist" guid="_eyAvsOaFEd-2NJepU9I_bg" presentationName="Tool specialist" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_jmrVYb9xEd-AG_DXKKgAXg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_F_MY4ObeEd-Eut7DiqIzBA" name="project_manager" guid="_F_MY4ObeEd-Eut7DiqIzBA" presentationName="Project manager" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_0a0o0MlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_aXK0XdeYEd-Mq_S1iaxctg" name="CapabilityPatterns" guid="_aXK0XdeYEd-Mq_S1iaxctg"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_aXK0XteYEd-Mq_S1iaxctg" name="DeliveryProcesses" guid="_aXK0XteYEd-Mq_S1iaxctg"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_aXK0X9eYEd-Mq_S1iaxctg" name="ProcessContributions" guid="_aXK0X9eYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_A118oMYaEdyXeo04os5BOw#_A118oMYaEdyXeo04os5BOw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

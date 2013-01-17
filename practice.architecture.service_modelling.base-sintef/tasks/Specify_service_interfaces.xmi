@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Qx_Ywb5ZXdFa_iZsfuTTrA" name="Define_service_interfaces,_UKEdsC5uEd6lwuZlFT8K0A" guid="-Qx_Ywb5ZXdFa_iZsfuTTrA" authors="Brian Elvesæter (SINTEF), Cyril Carrez (SINTEF), Svein G. Johnsen (SINTEF)" changeDate="2010-05-10T19:04:58.331+0200" changeDescription="0.4: Revised description according to SoaML methodology book chapter.|0.3: Updated steps.|0.2: Revised and aligned with new set of work products defined in the framework library.|0.1: Initial outline." version="0.4">
+  <mainDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>The service contracts specified in&#xD;
+    the business architecture modelling are refined to&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+    size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>service interfaces in the service architecture modelling. SoaML allows for two&#xD;
+    types&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>of service&#xD;
+    interfaces:&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Medi&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Medi&quot;>&lt;strong>Simple&#xD;
+            interfaces:&lt;/strong>&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>The simple&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-ReguItal&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-ReguItal&quot;>interface&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>focuses attention on a one-way interaction&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>provided by a participant on a port&#xD;
+            represented as a UML interface. The&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>participant receives operations on this port and may provide results to the&#xD;
+            caller.&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>This&#xD;
+            kind of one-way interface can be used with ”anonymous” callers and the&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>participant makes no assumptions about the&#xD;
+            caller or the choreography of the&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>service. The one-way service corresponds most directly to simpler remote&#xD;
+            procedure&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>call&#xD;
+            (RPC) style Web services.&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Medi&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Medi&quot;>&lt;strong>Service interface&#xD;
+            based:&lt;/strong>&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>A&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-ReguItal&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-ReguItal&quot;>service interface&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+            size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>based approach allows for bidirectional&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>services, those where there are ”callbacks”&#xD;
+            from the provider to the&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>consumer as part of a conversation between the parties. A service interface&#xD;
+            defines&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>the&#xD;
+            interface and responsibilities of a participant to provide or consume a&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>service. It is used as the type of a service&#xD;
+            or a request port. A service interface&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>may include specific protocols, commands and information exchange by&#xD;
+            which&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>actions&#xD;
+            are initiated and the result of the real world effects are made available as&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;&#xD;
+            face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>specified through the functionality portion&#xD;
+            of a service.&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>Interfaces and service interfaces are&#xD;
+    modelled as UML interfaces and classes and specified using UML class diagrams.&lt;/font>&lt;/font>&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_1fbTMFxWEd--udEuEJEYBQ" name="0. Define package structure." guid="_1fbTMFxWEd--udEuEJEYBQ">
+    <sectionDescription>&lt;p>&#xD;
+    It is advisable to organize complex Service Interfaces in separate UML Packages. Create an UML Package that will be&#xD;
+    used for the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Specification of the ServiceInterface.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specification of the MessageTypes for the ServiceInterface.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specification of the DataTypes for the ServiceInterface.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Placeholder for&amp;nbsp;Service Interface Diagram for the ServiceInterface.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Placeholder for the Information Diagram for the MessageType structure for the ServiceInterface.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_vzDd8LMrEd6PFsH-DLYRGQ" name="1. Define the service interfaces." guid="_vzDd8LMrEd6PFsH-DLYRGQ">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>Create the service interface as a UML&#xD;
+    class with the stereotype&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;CMMI10&quot;>&lt;font size=&quot;2&quot;&#xD;
+    face=&quot;CMMI10&quot;>&amp;lt;&amp;lt;&lt;/font>&lt;/font>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+    face=&quot;NimbusRomNo9L-Regu&quot;>ServiceInterface&lt;/font>&lt;/font>&lt;font size=&quot;2&quot; face=&quot;CMMI10&quot;>&lt;font size=&quot;2&quot;&#xD;
+    face=&quot;CMMI10&quot;>&amp;gt;&amp;gt;&lt;/font>&lt;/font>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>.&#xD;
+    The service contracts can be used to identify the service interfaces.&lt;/font>&lt;/font>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_eQv7gFW6Ed6Z8ZdIzxbE9A" name="2. Define the provided and required interfaces." guid="_eQv7gFW6Ed6Z8ZdIzxbE9A">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>Define the provided and&lt;/font>&lt;/font>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>required interface for the service&#xD;
+    interface. These required and proved interfaces&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+    face=&quot;NimbusRomNo9L-Regu&quot;>are modelled as UML interfaces and represented in the service interface as&#xD;
+    parts&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>with a&#xD;
+    connection. The required and provided interfaces are refined from the&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;&#xD;
+    face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>interface types of the consumer and provider roles&#xD;
+    defined in the service contracts.&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+    face=&quot;NimbusRomNo9L-Regu&quot;>However, in the service contracts these interfaces were primarily defined&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>as business-level interfaces. These&#xD;
+    interfaces can be refined directly, or possibly&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+    face=&quot;NimbusRomNo9L-Regu&quot;>mapped to a new set of interfaces that will be used to detail the IT-level&#xD;
+    artefacts.&lt;/font>&lt;/font>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To specify service interfaces.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

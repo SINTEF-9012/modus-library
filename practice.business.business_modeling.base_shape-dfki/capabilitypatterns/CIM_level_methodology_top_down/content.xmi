@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-odzikXtyZmsjUN3SUayUoA" name="Create a Data View,_g5b_MYi2Ed609piMjO-xvw" guid="-odzikXtyZmsjUN3SUayUoA"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-4JNfHft7xXIC_NkOkDVmSA" name="Create a Organisational view,_3mDhEYi2Ed609piMjO-xvw" guid="-4JNfHft7xXIC_NkOkDVmSA"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-ua3_7-PV0KtRLzThEGre6w" name="Create a BR view,_tjDyIYi2Ed609piMjO-xvw" guid="-ua3_7-PV0KtRLzThEGre6w"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-PuQH5kOrNtyDp040UXUHnQ" name="Create a EPC view,_HZm5YYi3Ed609piMjO-xvw" guid="-PuQH5kOrNtyDp040UXUHnQ"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-Xoe9AMm4zMaSm52L-Vs_lw" name="Create a BPMN View,_M2kGwYi2Ed609piMjO-xvw" guid="-Xoe9AMm4zMaSm52L-Vs_lw"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-kfWv8-83UspjQ1PNFlyD4Q" name="ENTERPRISE,_elRUYU7zEd65M-yHtGQz8g" guid="-kfWv8-83UspjQ1PNFlyD4Q"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-xO1qG8N8Cs47hlw-RgXASg" name="TOVE,_tROXAU7pEd65M-yHtGQz8g" guid="-xO1qG8N8Cs47hlw-RgXASg"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-baKYKHVaPGiGMPgu-Bzi1w" name="METHONTOLOGY,_lUEHoU7zEd65M-yHtGQz8g" guid="-baKYKHVaPGiGMPgu-Bzi1w"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-lLNUO_nPS5u93k_X8L5neA" name="SHAPE_DFKI_IWI,_mwwkEVeDEd637brWif56XQ" guid="-lLNUO_nPS5u93k_X8L5neA">
+    <mainDescription>&lt;p>&#xD;
+    This process defines the 'methodology logic' for the CIM-level modelling within the SHAPE Methodology.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Here, 'methodology logic' means a reasonable, sense making sequence of the methods (i.e. the creation of models) on the&#xD;
+    CIM level. This capability pattern defines a complete CIM level methodology logic where certain aspects are mandatory&#xD;
+    and others are optional. The later can be (de)selected by the user, and the respective methods will not be included in&#xD;
+    the final EPF delivery process (that defines the final customized methodology).&#xD;
+&lt;/p></mainDescription>
+    <purpose>&lt;p>&#xD;
+    (1) Define reasonable method sequence for SHAPE CIM-level modelling&lt;br />&#xD;
+    (2) Serve as basis for CIM-level wizard of the SHAPE custom methodology tool&#xD;
+&lt;/p></purpose>
+    <scope>CIM-level methodology logic.</scope>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-sjFzAUnDdE0W9-sOSfDfnQ" name="ENTERPRISE,_elRUYU7zEd65M-yHtGQz8g" guid="-sjFzAUnDdE0W9-sOSfDfnQ"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-ZtWp4nVbFHZ68oq9LX7UPA" name="METHONTOLOGY,_lUEHoU7zEd65M-yHtGQz8g" guid="-ZtWp4nVbFHZ68oq9LX7UPA"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-Gtw8h6kAP0_2Afk7nC6F-Q" name="TOVE,_tROXAU7pEd65M-yHtGQz8g" guid="-Gtw8h6kAP0_2Afk7nC6F-Q"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-AIgGoKaiItZwO9WjRkfbOA" name="BMM_Modelling,_To-EkYDoEd6lNYuk36nUnQ" guid="-AIgGoKaiItZwO9WjRkfbOA">
+    <mainDescription>This process defines the methodology logic for the BMM modelling activity within the SHAPE methodology.</mainDescription>
+    <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To define the business motivation model.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+    <scope>CIM-level methodology logic.</scope>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-MM54Jabd0avBw_6yz4Y3Ww" name="Create a Data View,_g5b_MYi2Ed609piMjO-xvw" guid="-MM54Jabd0avBw_6yz4Y3Ww"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TW6g84XZwvlH5NH0pW6g8A" name="Analyst,_LydJczwjEd-qjbwc3TjCdQ" guid="-TW6g84XZwvlH5NH0pW6g8A">
+    <refinedDescription>This role&amp;nbsp;has a very important role at the beginning of the development, because it gathers and analyzes the&#xD;
+requirements which the service composition has to fulfil.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ywj7WgSSOvIa9ztuLS_hmg" name="Ontology,_LyTYdjwjEd-qjbwc3TjCdQ" guid="-ywj7WgSSOvIa9ztuLS_hmg">
+    <refinedDescription>&lt;p>&#xD;
+    An ontology is a knowledge representation format that define the terminology and background knowledge of a domain. They&#xD;
+    have been identiﬁed as the base technology for the Semantic Web, the grand vision for the further evolution of the&#xD;
+    World Wide Web.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Adopting the denotation from the philosophical study of being and existence, an ontology is deﬁned as a ”formal,&#xD;
+    explicit speciﬁcation of a shared conceptualization”.&amp;nbsp; This means that an ontology deﬁnes a conceptual model of a&#xD;
+    domain that ideally represents an agreed consensus among involved parties. The conceptual model is deﬁned in terms of&#xD;
+    concepts that denote the entities in the domain of discourse. These are characterized by properties, and relations&#xD;
+    describe associations between concepts whereby subsump-&lt;br />&#xD;
+    tion and membership relations deﬁne the taxonomic backbone of the ontology. Additional domain knowledge can be speciﬁed&#xD;
+    in terms of axioms. Individuals in the domain are rep-&lt;br />&#xD;
+    resented as instances of a concept.&amp;nbsp; The conceptual model is then represented in a formal, machine-processable&#xD;
+    language upon which reasoning techniques can be applied for advanced information processing. The major merit is that&#xD;
+    ontologies can bridge the gap between the real world and IT systems , and that heterogeneous data can be integrated on&#xD;
+    the semantic level by deﬁning mappings between ontologies.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--OBE037yeknog1uzqaNlRA" name="ontology_engineer,_LyTYeTwjEd-qjbwc3TjCdQ" guid="--OBE037yeknog1uzqaNlRA">
+    <refinedDescription>Models a given domain as an ontology through the definition of&amp;nbsp; classes, properties, relations, instances, and axioms.&#xD;
+Also responsible for specifying the relationship between ontologies using mediators.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-prQhA-B7G7EVPCinHO-Jpg" name="Analyst,_LydJfDwjEd-qjbwc3TjCdQ" guid="-prQhA-B7G7EVPCinHO-Jpg">
+    <refinedDescription>This role&amp;nbsp;has a very important role at the beginning of the development, because it gathers and analyzes the&#xD;
+requirements which the service composition has to fulfil.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-PZ6sW86UriRMRKddL8ApsA" name="Ontology,_LydJdjwjEd-qjbwc3TjCdQ" guid="-PZ6sW86UriRMRKddL8ApsA">
+    <refinedDescription>&lt;p>&#xD;
+    An ontology is a knowledge representation format that define the terminology and background knowledge of a domain. They&#xD;
+    have been identiﬁed as the base technology for the Semantic Web, the grand vision for the further evolution of the&#xD;
+    World Wide Web.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Adopting the denotation from the philosophical study of being and existence, an ontology is deﬁned as a ”formal,&#xD;
+    explicit speciﬁcation of a shared conceptualization”.&amp;nbsp; This means that an ontology deﬁnes a conceptual model of a&#xD;
+    domain that ideally represents an agreed consensus among involved parties. The conceptual model is deﬁned in terms of&#xD;
+    concepts that denote the entities in the domain of discourse. These are characterized by properties, and relations&#xD;
+    describe associations between concepts whereby subsump-&lt;br />&#xD;
+    tion and membership relations deﬁne the taxonomic backbone of the ontology. Additional domain knowledge can be speciﬁed&#xD;
+    in terms of axioms. Individuals in the domain are rep-&lt;br />&#xD;
+    resented as instances of a concept.&amp;nbsp; The conceptual model is then represented in a formal, machine-processable&#xD;
+    language upon which reasoning techniques can be applied for advanced information processing. The major merit is that&#xD;
+    ontologies can bridge the gap between the real world and IT systems , and that heterogeneous data can be integrated on&#xD;
+    the semantic level by deﬁning mappings between ontologies.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-sgFyTJtn9RqyGSM_iowFYA" name="ontology_engineer,_LydJgDwjEd-qjbwc3TjCdQ" guid="-sgFyTJtn9RqyGSM_iowFYA">
+    <refinedDescription>Models a given domain as an ontology through the definition of&amp;nbsp; classes, properties, relations, instances, and axioms.&#xD;
+Also responsible for specifying the relationship between ontologies using mediators.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WLmUJtVUXwdHEso1hm6jaw" name="Analyst,_LydJijwjEd-qjbwc3TjCdQ" guid="-WLmUJtVUXwdHEso1hm6jaw">
+    <refinedDescription>This role&amp;nbsp;has a very important role at the beginning of the development, because it gathers and analyzes the&#xD;
+requirements which the service composition has to fulfil.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-lRrjSX7wwIk5upSsrJ0fYw" name="Ontology,_LydJiTwjEd-qjbwc3TjCdQ" guid="-lRrjSX7wwIk5upSsrJ0fYw">
+    <refinedDescription>&lt;p>&#xD;
+    An ontology is a knowledge representation format that define the terminology and background knowledge of a domain. They&#xD;
+    have been identiﬁed as the base technology for the Semantic Web, the grand vision for the further evolution of the&#xD;
+    World Wide Web.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Adopting the denotation from the philosophical study of being and existence, an ontology is deﬁned as a ”formal,&#xD;
+    explicit speciﬁcation of a shared conceptualization”.&amp;nbsp; This means that an ontology deﬁnes a conceptual model of a&#xD;
+    domain that ideally represents an agreed consensus among involved parties. The conceptual model is deﬁned in terms of&#xD;
+    concepts that denote the entities in the domain of discourse. These are characterized by properties, and relations&#xD;
+    describe associations between concepts whereby subsump-&lt;br />&#xD;
+    tion and membership relations deﬁne the taxonomic backbone of the ontology. Additional domain knowledge can be speciﬁed&#xD;
+    in terms of axioms. Individuals in the domain are rep-&lt;br />&#xD;
+    resented as instances of a concept.&amp;nbsp; The conceptual model is then represented in a formal, machine-processable&#xD;
+    language upon which reasoning techniques can be applied for advanced information processing. The major merit is that&#xD;
+    ontologies can bridge the gap between the real world and IT systems , and that heterogeneous data can be integrated on&#xD;
+    the semantic level by deﬁning mappings between ontologies.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--LRWiUmywuU5c6bCbGa1Iw" name="ontology_engineer,_LydJizwjEd-qjbwc3TjCdQ" guid="--LRWiUmywuU5c6bCbGa1Iw">
+    <refinedDescription>Models a given domain as an ontology through the definition of&amp;nbsp; classes, properties, relations, instances, and axioms.&#xD;
+Also responsible for specifying the relationship between ontologies using mediators.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Qk5pquXXnUeOzikTC7mFJg" name="SWS_engineer,_LydJiDwjEd-qjbwc3TjCdQ" guid="-Qk5pquXXnUeOzikTC7mFJg">
+    <refinedDescription>&lt;p>&#xD;
+    Models the functional, non functional, and behavioural aspects of services, and functional, non functional, and&#xD;
+    behavioural requirements of goals. Also responsible for modeling the relationship between Web Services and Goals using&#xD;
+    mediators.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-l0TOdQn21TRhDhSmEB6mzw" name="Create_Business_Rules_Model,_VKX7HTwjEd-qjbwc3TjCdQ" guid="-l0TOdQn21TRhDhSmEB6mzw">
+    <refinedDescription>&lt;p>&#xD;
+    This task defines the guided procedure for specifying business rules.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Business Rules Model allows specifying the operational constraints and limitations.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-S5ARYzSZJfOBlY93zeTYnA" name="Create_Dictionary_Model,_VKX7GTwjEd-qjbwc3TjCdQ" guid="-S5ARYzSZJfOBlY93zeTYnA">
+    <refinedDescription>&lt;p>&#xD;
+    This task defines the guided procedure for specifying a business dictionary model. This model is necessary to define&#xD;
+    the terminology used.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Dictionary Model defines terms and relations between them. The terms are specified with textual descriptions, while&#xD;
+    relations between the terms are represented with links in a specific Dictionary Diagram.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QY0yGA02WxU6ysdg9yZQRA" name="Create_Goal_Model,_VKX7FTwjEd-qjbwc3TjCdQ" guid="-QY0yGA02WxU6ysdg9yZQRA">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>The purpose of the BMM is to agree&#xD;
+    with the business stakeholders the business goals that will be met by implementing the service-oriented architecture,&#xD;
+    so that a set of required high level business processes can be identified for further analysis. BMM provides a scheme&#xD;
+    or structure for developing, communicating, and managing business plans in an organized manner.&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>In particular, the BMM supports&#xD;
+    the&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+    face=&quot;NimbusRomNo9L-Regu&quot;>following:&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>It identifies factors that&#xD;
+            motivate the establishment of business plans.&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>It identifies and defines the&#xD;
+            elements of business plans.&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>It indicates how all these&#xD;
+            factors and elements inter-relate.&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>Among these elements you find&#xD;
+    business policies and business rule that provide&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+    face=&quot;NimbusRomNo9L-Regu&quot;>governance for and guidance to the business. Once produced and agreed, the BMM&lt;/font>&lt;/font>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>serves as a reference that ensures&#xD;
+    that a full assessment may be made of all the&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+    face=&quot;NimbusRomNo9L-Regu&quot;>business implications of any proposed changes to the service-oriented&#xD;
+    architecture.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>The specification of the goals and&#xD;
+    company’s motivations are defined in a business goals diagram. The goals can be structured by applying containers&#xD;
+    within the BMM model. The containers contain one or more goals diagrams in which you can define the goals and their&#xD;
+    relationships.&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Num7qWxaKveApZQ2EFX9Sg" name="Create_Requirements_Model,_VKX7FzwjEd-qjbwc3TjCdQ" guid="-Num7qWxaKveApZQ2EFX9Sg">
+    <refinedDescription>&lt;p>&#xD;
+    This task defines the guided procedure for identifying and specifying business requirements. This model is used to&#xD;
+    specify the requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Requirements Model defines the requirements, their relations and relevant use cases.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-NnaX3E08J5mg3xJ-5UKX_A" name="SoaML_Information_Diagram,_VKX7EjwjEd-qjbwc3TjCdQ" guid="-NnaX3E08J5mg3xJ-5UKX_A">
+    <refinedDescription>Class diagram that describes data structure of exchanged messages.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AbGpcKiqlprNg5-7M3jB0w" name="SoaML_Organization_Diagram,_VKX7IDwjEd-qjbwc3TjCdQ" guid="-AbGpcKiqlprNg5-7M3jB0w">
+    <refinedDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+    &lt;span lang=&quot;EN-GB&quot;>Component diagram that describes structure (i.e. static) of a participant architecture.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+    &lt;span lang=&quot;EN-GB&quot;>A services architecture has components at two levels of granularity: The &lt;i&#xD;
+    style=&quot;mso-bidi-font-style: normal&quot;>community&lt;/i> services architecture is a “top level” view of how independent&#xD;
+    participants work together for some purpose.&lt;span style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> The services architecture of&#xD;
+    a community does not assume or require any one controlling entity or process.&lt;span&#xD;
+    style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> The services architecture of a community is modelled as collaboration&#xD;
+    stereotyped as &amp;lt;&amp;lt;ServicesArchitecture&amp;gt;&amp;gt;.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+    &lt;span lang=&quot;EN-GB&quot;>A participant may also have services architecture – one that shows how parts of that participant&#xD;
+    (e.g., departments within an organization) work together to provide the services of the owning participant.&lt;span&#xD;
+    style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> The services architecture of a participant is shown as a UML structured class&#xD;
+    or component with the &amp;lt;&amp;lt;ParticipantArchitecture&amp;gt;&amp;gt; stereotype and frequently has an associated business&#xD;
+    process.&lt;/span>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jJKmZQG_6XH7sH4dfCzd2A" name="SoaML_Capability_and_Goal_Diagram,_VKX7GjwjEd-qjbwc3TjCdQ" guid="-jJKmZQG_6XH7sH4dfCzd2A">
+    <refinedDescription>Class diagram that describes capabilities and goals of the services.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-S-O-zGDUIyNyAkVm07YX3Q" name="Create ELane Element,_iaZmxzwjEd-qjbwc3TjCdQ" guid="-S-O-zGDUIyNyAkVm07YX3Q">
+    <refinedDescription>&lt;p>&#xD;
+    The ELane Element is a lane which is part of a pool. It is similarly to the BPMN Lane.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-GKUsKl1Bl8d_vOOjwqGFtQ" name="Analyst,_iaZmtDwjEd-qjbwc3TjCdQ" guid="-GKUsKl1Bl8d_vOOjwqGFtQ">
+    <refinedDescription>This role&amp;nbsp;has a very important role at the beginning of the development, because it gathers and analyzes the&#xD;
+requirements which the service composition has to fulfil.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JwuPrSyWLl1jimvit9_6LQ" name="Business_Process_Modeller,_iaP1tTwjEd-qjbwc3TjCdQ" guid="-JwuPrSyWLl1jimvit9_6LQ">
+    <refinedDescription>This role&amp;nbsp;also selects the services which better fulfil the requirements and calculates the QoS that the composed&#xD;
+service can guarantee.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-lNzIOQ8u2FaWTCOOMcLKaQ" name="Designer,_iaZmxjwjEd-qjbwc3TjCdQ" guid="-lNzIOQ8u2FaWTCOOMcLKaQ">
+    <refinedDescription>&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify&quot;>&lt;SPAN style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3>&lt;FONT face=&quot;Times New Roman&quot;>This worker is involved in the design of the components which compose the software system.&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/FONT>&lt;/SPAN>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Q_rq3YGOM4DCpJCV-dFs_w" name="User,_iaZmvjwjEd-qjbwc3TjCdQ" guid="-Q_rq3YGOM4DCpJCV-dFs_w">
+    <refinedDescription>This worker is involved in the requirements gathering and when agreements about the system are needed.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-oGk1eWnuLjRGUtRJQ27zfQ" name="Create ApplicationSystem,_iaP1szwjEd-qjbwc3TjCdQ" guid="-oGk1eWnuLjRGUtRJQ27zfQ">
+    <refinedDescription>&lt;p>&#xD;
+    The application system element is an input or output of a function.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-tIZKvUHVyzUz7BObJwgMnQ" name="Create Flow Connection,_iaZmyDwjEd-qjbwc3TjCdQ" guid="-tIZKvUHVyzUz7BObJwgMnQ">
+    <refinedDescription>&lt;p>&#xD;
+    A flow connection is the connection between flow elements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You can connect an event or a function with each other,&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    or an event or a function with an OR/XOR/AND.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-a5uBBxdfbPRue9jvpIC_PA" name="Create Function,_iaZmujwjEd-qjbwc3TjCdQ" guid="-a5uBBxdfbPRue9jvpIC_PA">
+    <refinedDescription>&lt;p>&#xD;
+    One of the basic elements that you need to model your EPC.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    What a&amp;nbsp;function&amp;nbsp;can be:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - stands for a certain activity or application which is accomplished by a certain person. The activity needs an input&#xD;
+    to arrive a condition.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    IMPORTANT: needs always an input!&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-fNfiUvuutin5Op610uV8gA" name="Create Message Connection,_iaZmsjwjEd-qjbwc3TjCdQ" guid="-fNfiUvuutin5Op610uV8gA">
+    <refinedDescription>&lt;p>&#xD;
+    A message connection element is needed to get a connection between messages.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Its the relationship between those elements.&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-lP7fChQ8nMLNvTCuSOkwfw" name="Create OR Connector(EPC View),_iaZmuTwjEd-qjbwc3TjCdQ" guid="-lP7fChQ8nMLNvTCuSOkwfw">
+    <refinedDescription>&lt;p>&#xD;
+    The OR element is a connector element.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You need an OR&amp;nbsp;if you have two possibilities&amp;nbsp;and one or two of them&amp;nbsp;are true.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-hjeY5eRdS9NhSSqf0x3rew" name="Create Organisation(EPC View),_iaZmvzwjEd-qjbwc3TjCdQ" guid="-hjeY5eRdS9NhSSqf0x3rew">
+    <refinedDescription>&lt;p>&#xD;
+    The organisational units are rolls or persons, who are responsible for certain functions.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-YKCyXC3otBNag4Sjdzj2wQ" name="Create XOR Connector(EPC View),_iaZmsTwjEd-qjbwc3TjCdQ" guid="-YKCyXC3otBNag4Sjdzj2wQ">
+    <refinedDescription>&lt;p>&#xD;
+    The XOR element is a connector element.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You need an&amp;nbsp;exclusive OR&amp;nbsp;if you have two possibilities but only one of them has to be true.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aAYk_zkeCnIZn6i83TOR4g" name="Create AND Connector(EPC View),_iaZmyTwjEd-qjbwc3TjCdQ" guid="-aAYk_zkeCnIZn6i83TOR4g">
+    <refinedDescription>&lt;p>&#xD;
+    The AND element is a connector element.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You need an&amp;nbsp;AND&amp;nbsp;if you have two possibilities and you want to start them parallel.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-S4w_njLbPrJ3LUzRyoymDQ" name="Create Event(EPC View),_iaZmuDwjEd-qjbwc3TjCdQ" guid="-S4w_njLbPrJ3LUzRyoymDQ">
+    <refinedDescription>&lt;p>&#xD;
+    One of the basic elements that you need to model your EPC.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    What an event can be:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - A trigger&amp;nbsp;of a certain function, which describes a status. (function input)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - A&amp;nbsp;status which is arrived after an activity. (function output)&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;p>&#xD;
+    --&amp;gt; An EPC has always n event as starting element.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-R9fn4DATl1oKHX2D2cC5RQ" name="Process_model,_iaZmwjwjEd-qjbwc3TjCdQ" guid="-R9fn4DATl1oKHX2D2cC5RQ">
+    <refinedDescription>The EPC&amp;nbsp; metamodel is used to configure the structure and privacy of processes on a language based meta level. The&#xD;
+executing instances are here exemplary applications and organisation units. The core element of the EPC concept is the&#xD;
+flow, which is expressed with the flow element class. This element can be divided into events, which stand at the beginning&#xD;
+and at the end of each process and the time consuming function element. The control of the process flow is ensured by&#xD;
+connectors which follow a predicate logic. Between different functions or different processes messages can be exchanged.&#xD;
+The flow between different processes is possible by the flow connection element. &lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-VWcmuw5taGAQ801tgp3ZsQ" name="Create Activity,_xGzwzDwjEd-qjbwc3TjCdQ" guid="-VWcmuw5taGAQ801tgp3ZsQ">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>An activity is a generic term for work that company performs.&#xD;
+    An activity can be atomic or non-atomic (compound). The types of activities that are a part of a Process Model are:&#xD;
+    Process, Sub-Process, and Task. Tasks and Sub-Processes are rounded rectangles. Processes are either unbounded or a&#xD;
+    contained within a Pool.&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-nN8qqWwhlH9Yq-eUScEYOQ" name="Create Annotation,_xGzwyDwjEd-qjbwc3TjCdQ" guid="-nN8qqWwhlH9Yq-eUScEYOQ">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>Text Annotations are a mechanism for a modeler to provide&#xD;
+    additional information for the reader of a BPMN Diagram.&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Z1_X62hxOaeYDvUfExm4tA" name="Create Artifact,_xGzwxTwjEd-qjbwc3TjCdQ" guid="-Z1_X62hxOaeYDvUfExm4tA">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Artifacts are used to provide additional information about the Process. There are four standardized Artifacts, but&#xD;
+    modelers or modeling tools are free to add as many Artifacts as required. There may be addition BPMN efforts to&#xD;
+    standardize a larger set of Artifacts for general use or for vertical markets.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    The current set of Artifacts include:&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    - Data Object&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    - Group&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    - Annotation&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_hlpAMZqgk45_E4wv6nb-A" name="Create End Event,_xGzwwTwjEd-qjbwc3TjCdQ" guid="-_hlpAMZqgk45_E4wv6nb-A">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>As the name implies, the End Event indicates where a process&#xD;
+    will end.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>Start&#xD;
+    and most Intermediate Events have “Triggers” that define the cause for the event. There are multiple ways that these&#xD;
+    events can be triggered. End Events may define a “Result” that is a consequence of a Sequence Flow&#xD;
+    ending.&lt;/font>&lt;/font>&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2WqWc6tSfs7u3iqY5xKPCw" name="Create Gateway,_xGzw1TwjEd-qjbwc3TjCdQ" guid="-2WqWc6tSfs7u3iqY5xKPCw">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>A Gateway is used to control the divergence and convergence of&#xD;
+    Sequence Flow. Thus, it will determine branching, forking, merging, and joining of paths. Internal Markers will&#xD;
+    indicate the type of behavior control.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>Icons within the diamond shape will indicate the type of flow&#xD;
+    control behavior. The types of control include:&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>• XOR -- exclusive decision and merging. Both Data-Based and&#xD;
+    Event-Based. Data-Based can be shown with or without the “X” marker.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>• OR -- inclusive decision and merging&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>• Complex -- complex conditions and situations (e.g., 3 out of&#xD;
+    5)&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>• AND -- forking and joining&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>Each type of control affects both the incoming and outgoing&#xD;
+    Flow.&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-H8JPSGJEQ2G4_Kxn9EbFoA" name="Create Intermediate Event,_xGzw0zwjEd-qjbwc3TjCdQ" guid="-H8JPSGJEQ2G4_Kxn9EbFoA">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>Intermediate Events occur between a Start Event and an End&#xD;
+    Event. It will affect the flow of the process, but will not start or (directly) terminate the process.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>Start&#xD;
+    and most Intermediate Events have “Triggers” that define the cause for the event. There are multiple ways that these&#xD;
+    events can be triggered. End Events may define a “Result” that is a consequence of a Sequence Flow&#xD;
+    ending.&lt;/font>&lt;/font>&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5OK39hu02JdFP6W3sXfYLQ" name="Create Lane,_xGzw1zwjEd-qjbwc3TjCdQ" guid="-5OK39hu02JdFP6W3sXfYLQ">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>A Lane is a sub-partition within a Pool and will extend the&#xD;
+    entire length of the Pool, either vertically or horizontally. Lanes are used to organize and categorize&#xD;
+    activities.&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_KQKFaPZGGNa2uvnG3rVJA" name="Create Message Flow,_xGzwzjwjEd-qjbwc3TjCdQ" guid="-_KQKFaPZGGNa2uvnG3rVJA">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>A Message Flow is used to show the flow of messages between two&#xD;
+    participants that are prepared to send and receive them. In BPMN, two separate Pools in the Diagram will represent the&#xD;
+    two participants (e.g., business entities or business roles).&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jrtcI-uh8wfitDnTyOfnCg" name="Create Pool,_xGzw0jwjEd-qjbwc3TjCdQ" guid="-jrtcI-uh8wfitDnTyOfnCg">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>A Pool represents a Participant in a Process. It is also acts&#xD;
+    as a “swimlane” and a graphical container for partitioning a set of activities from other Pools, usually in the context&#xD;
+    of B2B situations.&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KuCvnioYYZRi6xp-IkQooQ" name="Create Sequence Flow,_xGzwyzwjEd-qjbwc3TjCdQ" guid="-KuCvnioYYZRi6xp-IkQooQ">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>A Sequence Flow is used to show the order that activities will&#xD;
+    be performed in a Process.&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TEny5CeJpg3bock6mffYBw" name="Create Start Event,_xGzw0DwjEd-qjbwc3TjCdQ" guid="-TEny5CeJpg3bock6mffYBw">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>As the name implies, the Start Event indicates where a&#xD;
+    particular process will start.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>Start and most Intermediate Events have “Triggers” that define&#xD;
+    the cause for the event. There are multiple ways that these events can be triggered.End Events may define a “Result”&#xD;
+    that is a consequence of a Sequence Flow ending.&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-18SR2tKU00svEct3rgIHnA" name="User,_xGzwwjwjEd-qjbwc3TjCdQ" guid="-18SR2tKU00svEct3rgIHnA">
+    <refinedDescription>This worker is involved in the requirements gathering and when agreements about the system are needed.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-MMtl7p1ndHDtN9MWLK-7hg" name="Analyst,_xGzwyTwjEd-qjbwc3TjCdQ" guid="-MMtl7p1ndHDtN9MWLK-7hg">
+    <refinedDescription>This role&amp;nbsp;has a very important role at the beginning of the development, because it gathers and analyzes the&#xD;
+requirements which the service composition has to fulfil.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Mvjn8Syx1mgfXmHfsDnB7w" name="Business_Process_Modeller,_xGzwyjwjEd-qjbwc3TjCdQ" guid="-Mvjn8Syx1mgfXmHfsDnB7w">
+    <refinedDescription>This role&amp;nbsp;also selects the services which better fulfil the requirements and calculates the QoS that the composed&#xD;
+service can guarantee.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-k282znjKq48SKPG1dtJlmA" name="Designer,_xGzw2TwjEd-qjbwc3TjCdQ" guid="-k282znjKq48SKPG1dtJlmA">
+    <refinedDescription>&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify&quot;>&lt;SPAN style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3>&lt;FONT face=&quot;Times New Roman&quot;>This worker is involved in the design of the components which compose the software system.&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/FONT>&lt;/SPAN>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UX7BoWX9FFu9EmdG6RjkNQ" name="BPMN_model,_xGzw1jwjEd-qjbwc3TjCdQ" guid="-UX7BoWX9FFu9EmdG6RjkNQ">
+    <refinedDescription>&lt;p>&#xD;
+    BPMN is intended to provide a standard notation that is understandable by all business stakeholders (i.e. business&#xD;
+    analysts, technical developers,and business managers), aiming at bridging the communication gap that frequently occurs&#xD;
+    between business process design and implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    BPMN distinguishes 3 basic types of sub-models of a business process :&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Private (internal) business processes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Abstract (public) processes, and&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Collaboration (global) processes.&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;p>&#xD;
+    Modeling in BPMN is made by simple diagrams with a small set of graphical elements. It should make it easy for business&#xD;
+    users as well as developers to understand the flow and the process. The four basic categories of elements are as&#xD;
+    follows:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Flow Objects (Events, Activities, Gateways)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Connecting Objects (Sequence Flow, Message Flow, Association)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Swimlanes (Pool, Lane)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Artefacts&amp;nbsp;(Data Object, Group, Annotation)&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;p>&#xD;
+    These four categories of elements give us the opportunity to make a simple business process diagram (BPD). It is also&#xD;
+    allowed in BPD to make your own type of a Flow Object or an Artifact to make the diagram more understandable.&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9kh4qGAtiEyjf6uRUdCgWQ" name="Analyst,_8u-GszwjEd-qjbwc3TjCdQ" guid="-9kh4qGAtiEyjf6uRUdCgWQ">
+    <refinedDescription>This role&amp;nbsp;has a very important role at the beginning of the development, because it gathers and analyzes the&#xD;
+requirements which the service composition has to fulfil.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bIvZpsYf4nvNJJtRIwxFxQ" name="Business_Process_Modeller,_8u-GuzwjEd-qjbwc3TjCdQ" guid="-bIvZpsYf4nvNJJtRIwxFxQ">
+    <refinedDescription>This role&amp;nbsp;also selects the services which better fulfil the requirements and calculates the QoS that the composed&#xD;
+service can guarantee.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-sZdEkVGuVbuk2Z8kK7QzwQ" name="Designer,_8u-GuDwjEd-qjbwc3TjCdQ" guid="-sZdEkVGuVbuk2Z8kK7QzwQ">
+    <refinedDescription>&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify&quot;>&lt;SPAN style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3>&lt;FONT face=&quot;Times New Roman&quot;>This worker is involved in the design of the components which compose the software system.&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/FONT>&lt;/SPAN>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-1dQlo8msqw8tuZQ_XX2d-A" name="User,_8u-GwjwjEd-qjbwc3TjCdQ" guid="-1dQlo8msqw8tuZQ_XX2d-A">
+    <refinedDescription>This worker is involved in the requirements gathering and when agreements about the system are needed.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4b8HGADAFU1SegYeG0ON9w" name="Create Condition,_8u-GtDwjEd-qjbwc3TjCdQ" guid="-4b8HGADAFU1SegYeG0ON9w">
+    <refinedDescription>&lt;p>&#xD;
+    The condition element is a part of the if construction.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gPiCGS1bPFFIhGxftD1unw" name="Create Connector,_8u-GuTwjEd-qjbwc3TjCdQ" guid="-gPiCGS1bPFFIhGxftD1unw">
+    <refinedDescription>&lt;p>&#xD;
+    A connection element is needed to get a connection between keywords, statements, connectors or conditions.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Its the relationship between those elements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There are three connectors: AND, OR and XOR&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Lnm_lbH7rTEH-oiq5EACBQ" name="Create ELSE Keyword,_8u-GujwjEd-qjbwc3TjCdQ" guid="-Lnm_lbH7rTEH-oiq5EACBQ">
+    <refinedDescription>&lt;p>&#xD;
+    The ELSE construct is an add on for the IF construct.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The ELSE construct is used if you have two alternatives.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yOm2ZquMCGKUPV57f0ezTQ" name="Create IF Keyword,_8u-GvTwjEd-qjbwc3TjCdQ" guid="-yOm2ZquMCGKUPV57f0ezTQ">
+    <refinedDescription>&lt;p>&#xD;
+    The IF construct uses a logical expression to decide, if there will be used one/several statements or conditions.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4kcOxVPDGJyQpofV2kVe5g" name="Create Keyword,_8u-GwTwjEd-qjbwc3TjCdQ" guid="-4kcOxVPDGJyQpofV2kVe5g">
+    <refinedDescription>A Keyword is an element which is used to build if, else and check constructs.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8rykVnbLFfDDxzAs0-CyqA" name="Create Statement,_8u-GvzwjEd-qjbwc3TjCdQ" guid="-8rykVnbLFfDDxzAs0-CyqA">
+    <refinedDescription>The statement element is the description of the true or false options of the if construct.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QxwS3yaf0WobtEI0w3-54Q" name="Create THEN Keyword,_8u-GsTwjEd-qjbwc3TjCdQ" guid="-QxwS3yaf0WobtEI0w3-54Q">
+    <refinedDescription>&lt;p>&#xD;
+    The THEN construct is a part of the if construct.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If the IF part of the if-construct is true, the THEN&amp;nbsp;keyword introduces the statement/Condition, which has to&#xD;
+    performed.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Tcdu32ruFlB5EAOltjIXmg" name="Create Data Object(Data View),_JKsnkTwkEd-qjbwc3TjCdQ" guid="-Tcdu32ruFlB5EAOltjIXmg">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>Data Objects provide information about what activities require&#xD;
+    to be performed and/or what they produce.&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9CTnyUsd3hA0e3Q7kMYIdw" name="Analyst,_JKsnljwkEd-qjbwc3TjCdQ" guid="-9CTnyUsd3hA0e3Q7kMYIdw">
+    <refinedDescription>This role&amp;nbsp;has a very important role at the beginning of the development, because it gathers and analyzes the&#xD;
+requirements which the service composition has to fulfil.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-k1SosofZu4Lp0ZZhoJTLvA" name="Business_Process_Modeller,_JKsnkzwkEd-qjbwc3TjCdQ" guid="-k1SosofZu4Lp0ZZhoJTLvA">
+    <refinedDescription>This role&amp;nbsp;also selects the services which better fulfil the requirements and calculates the QoS that the composed&#xD;
+service can guarantee.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-T_oC-Vex2fVspbzt6opAxQ" name="Designer,_JKsnkjwkEd-qjbwc3TjCdQ" guid="-T_oC-Vex2fVspbzt6opAxQ">
+    <refinedDescription>&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify&quot;>&lt;SPAN style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3>&lt;FONT face=&quot;Times New Roman&quot;>This worker is involved in the design of the components which compose the software system.&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/FONT>&lt;/SPAN>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-1LxYd6Nzs8379AlEUMUGRQ" name="User,_JKsnlDwkEd-qjbwc3TjCdQ" guid="-1LxYd6Nzs8379AlEUMUGRQ">
+    <refinedDescription>This worker is involved in the requirements gathering and when agreements about the system are needed.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xQGBWnwzZNrB77jHbeJPlw" name="Create Attribute,_JKsnlTwkEd-qjbwc3TjCdQ" guid="-xQGBWnwzZNrB77jHbeJPlw">
+    <refinedDescription>&lt;p>&#xD;
+    Attributes are&amp;nbsp;the data elements, such as numbers, strings, or date values, that describe the state and contents&#xD;
+    of a BPMN Object.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AKatH-OonyFGmqNWRtbImA" name="Create Relationship,_JKsnlzwkEd-qjbwc3TjCdQ" guid="-AKatH-OonyFGmqNWRtbImA">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;>&lt;font face=&quot;Arial&quot; size=&quot;2&quot;>An&amp;nbsp;relationship is used to&amp;nbsp;connect two different data&#xD;
+    elements.&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-fH-5YEw_2vhAlTB25LDwow" name="Analyst,_btRx9TwkEd-qjbwc3TjCdQ" guid="-fH-5YEw_2vhAlTB25LDwow">
+    <refinedDescription>This role&amp;nbsp;has a very important role at the beginning of the development, because it gathers and analyzes the&#xD;
+requirements which the service composition has to fulfil.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WIUuGyk5Kstfy4kU8LA7Ww" name="Business_Process_Modeller,_btRx9DwkEd-qjbwc3TjCdQ" guid="-WIUuGyk5Kstfy4kU8LA7Ww">
+    <refinedDescription>This role&amp;nbsp;also selects the services which better fulfil the requirements and calculates the QoS that the composed&#xD;
+service can guarantee.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-X-plCGhtOSGlmuUyNot-kg" name="Designer,_btRx-TwkEd-qjbwc3TjCdQ" guid="-X-plCGhtOSGlmuUyNot-kg">
+    <refinedDescription>&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify&quot;>&lt;SPAN style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3>&lt;FONT face=&quot;Times New Roman&quot;>This worker is involved in the design of the components which compose the software system.&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/FONT>&lt;/SPAN>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-eoGQL6f8WbtGNuI_lOTfsg" name="User,_btRx9zwkEd-qjbwc3TjCdQ" guid="-eoGQL6f8WbtGNuI_lOTfsg">
+    <refinedDescription>This worker is involved in the requirements gathering and when agreements about the system are needed.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-sA2sb19iAu_n2rG22oWFjw" name="Create Assignment,_btRx-jwkEd-qjbwc3TjCdQ" guid="-sA2sb19iAu_n2rG22oWFjw">
+    <refinedDescription>&lt;p>&#xD;
+    The assignment element is the connector element of the organisation view.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - Assignment&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - Hierarchy&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-S0xLa2SzAH0z3qF8HEhxow" name="Create Organisation Element,_btRx-zwkEd-qjbwc3TjCdQ" guid="-S0xLa2SzAH0z3qF8HEhxow">
+    <refinedDescription>&lt;p>&#xD;
+    An organisation element is an element in the organisation view.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You can choose between several organisation elements:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - Person&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - OrgUnit&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - OrgRole&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - Assignment&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6oCCLTuFAMQslm7UL_cx1A" name="Create OrgRole,_btRx9jwkEd-qjbwc3TjCdQ" guid="-6oCCLTuFAMQslm7UL_cx1A">
+    <refinedDescription>&lt;p>&#xD;
+    Role is an element, which manages the connection between organisation and process view.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-FCeGDcCign2rDDavWcuFVQ" name="Create OrgUnit,_btRx-DwkEd-qjbwc3TjCdQ" guid="-FCeGDcCign2rDDavWcuFVQ">
+    <refinedDescription>OrgUnit is a divisional company structure.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ub8ec46BC14N1ExfRY7WPA" name="Create Person,_btRx_DwkEd-qjbwc3TjCdQ" guid="-ub8ec46BC14N1ExfRY7WPA">
+    <refinedDescription>The person represents a person which is responsible for the particular area.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-v_Tw3rk6YmR7EsMDYQhudg" name="Organization_Model,_btRx8TwkEd-qjbwc3TjCdQ" guid="-v_Tw3rk6YmR7EsMDYQhudg">
+    <refinedDescription>&lt;P class=MsoBodyText style=&quot;MARGIN: 6pt 0cm 0pt&quot;>&lt;SPAN lang=EN-GB>The Organisation&amp;nbsp;&lt;SPAN style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/SPAN>model &lt;/SPAN>&lt;SPAN lang=EN-GB>describes the organisational structure that is related to an underlying activity. The core element of the organisational view is the role. Role is a model element that derives from the organisational view and creates a link between the organisational and the process view. Each role is assigned to one or more people, while one person can carry out more than one role. At the same time each role can be part of an organisational unit. Roles can be hierarchically composed. Organisational units can have a hierarchical structure. For organisational units, the hierarchy represents the department structure of an enterprise, which allows to subdivide/aggregate business units. &lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-SzMFYr9C52WOJkOYwwE0rQ" name="Transform_EPC2BPMN,_MoVOLzwOEd-wzrbdBPyHjA" guid="-SzMFYr9C52WOJkOYwwE0rQ">
+    <keyConsiderations>CIM2CIM transformation</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The process defines&amp;nbsp;the transformation logic from CIM EPC process model to CIM BPMN process model in SHAPE&#xD;
+    methodology&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is an automated tool which transforms your epc input model to a bpmn output model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See the Steps page for detailled constructs.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

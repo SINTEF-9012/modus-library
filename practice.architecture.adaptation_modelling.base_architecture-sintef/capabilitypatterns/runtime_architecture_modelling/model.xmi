@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_qvvVYQeUEeCk4NIWYgM-Lg" guid="_qvvVYQeUEeCk4NIWYgM-Lg">
+    <resourceDescriptors xmi:id="_qvvVYgeUEeCk4NIWYgM-Lg" id="-t8UNv5dJjauhW2O_vTwAlQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_3J03gQeUEeCk4NIWYgM-Lg" id="-vvbTc76g7zehym_wbPORNA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_qu_ugAeUEeCk4NIWYgM-Lg" name="runtime_architecture_modelling" guid="_qu_ugAeUEeCk4NIWYgM-Lg">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_0ova0AeUEeCk4NIWYgM-Lg" name="define_base_model" guid="_0ova0AeUEeCk4NIWYgM-Lg" presentationName="Define base model" briefDescription="This task describes the process of defining the base model as a part of the architectural aspects model" isPlanned="false" superActivities="_qu_ugQeUEeCk4NIWYgM-Lg" optionalInput="_0ova0weUEeCk4NIWYgM-Lg" output="_0ova1QeUEeCk4NIWYgM-Lg" performedPrimarilyBy="_0ova0QeUEeCk4NIWYgM-Lg">
+      <Task href="uma://_ijALQO5rEd-0xPxjwuNm4A#_CsRS0PJTEd-FpZGj9I_2_g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_0ova0QeUEeCk4NIWYgM-Lg" name="system_architect" guid="_0ova0QeUEeCk4NIWYgM-Lg" presentationName="System architect" briefDescription="Works on developing and maintaining a service-oriented architecture for the IT portfolio of a company." isPlanned="false" superActivities="_qu_ugQeUEeCk4NIWYgM-Lg" modifies="_0pVQtAeUEeCk4NIWYgM-Lg _0pVQsQeUEeCk4NIWYgM-Lg _0ova1QeUEeCk4NIWYgM-Lg" responsibleFor="_0pVQtAeUEeCk4NIWYgM-Lg _0pVQsQeUEeCk4NIWYgM-Lg _0ova1QeUEeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_0ova0geUEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-vvbTc76g7zehym_wbPORNA" href="uma://-t8UNv5dJjauhW2O_vTwAlQ#-vvbTc76g7zehym_wbPORNA"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_0ova0weUEeCk4NIWYgM-Lg" name="architecture_model" guid="_0ova0weUEeCk4NIWYgM-Lg" presentationName="Architecture model" briefDescription="This deliverable constitutes the DiVA adaptation model that is used at runtime to drive system adaptation" isPlanned="false" superActivities="_qu_ugQeUEeCk4NIWYgM-Lg" deliverableParts="_0p7toQeUEeCk4NIWYgM-Lg _0p7tpAeUEeCk4NIWYgM-Lg _0p7tpweUEeCk4NIWYgM-Lg _0p7tqgeUEeCk4NIWYgM-Lg _0p7trQeUEeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_0ova1AeUEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_iESMoNxcEd-LYKXkOhPACw#_vIqTYOG2Ed-AyrTFSpVP8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_0ova1QeUEeCk4NIWYgM-Lg" name="base_architecture_model" guid="_0ova1QeUEeCk4NIWYgM-Lg" presentationName="Base architecture model" briefDescription="The base model includes the general architecture of the application and the components which should be present in all configurations of the system." isPlanned="false" superActivities="_qu_ugQeUEeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_0ova1geUEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_ijALQO5rEd-0xPxjwuNm4A#_VTSGsPJSEd-FpZGj9I_2_g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_0pVQsQeUEeCk4NIWYgM-Lg" name="architectural_aspects_model" guid="_0pVQsQeUEeCk4NIWYgM-Lg" presentationName="Architectural aspects model" briefDescription="In the DiVA approach, the variability in the system is implemented by separating the variants defined in the adaptation models in aspect models which can be woven in the base application whenever this variant is selected in a configuration during reasoning." isPlanned="false" superActivities="_qu_ugQeUEeCk4NIWYgM-Lg" deliverableParts="_0pVQtAeUEeCk4NIWYgM-Lg _0ova1QeUEeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_0pVQsgeUEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_ijALQO5rEd-0xPxjwuNm4A#_PKMBgPJSEd-FpZGj9I_2_g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_0pVQtAeUEeCk4NIWYgM-Lg" name="aspect_models" guid="_0pVQtAeUEeCk4NIWYgM-Lg" presentationName="Aspect models" briefDescription="For each variant in the adaptation model, one aspect should be defined in order to implement the feature provided by this variant in the application." isPlanned="false" superActivities="_qu_ugQeUEeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_0pVQtQeUEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_ijALQO5rEd-0xPxjwuNm4A#_Z3M90PJSEd-FpZGj9I_2_g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_0p7toQeUEeCk4NIWYgM-Lg" name="variant_model" guid="_0p7toQeUEeCk4NIWYgM-Lg" presentationName="Variant model" briefDescription="This work product contains the variability of the system, i.e. the parts of the system that can change during adaptation." isPlanned="false">
+      <methodElementProperty xmi:id="_0p7togeUEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_g5Y9gOzIEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_0p7tpAeUEeCk4NIWYgM-Lg" name="context_model" guid="_0p7tpAeUEeCk4NIWYgM-Lg" presentationName="Context model" briefDescription="The context elements that affect system adaptation" isPlanned="false">
+      <methodElementProperty xmi:id="_0p7tpQeUEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_c9aQIOzIEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_0p7tpweUEeCk4NIWYgM-Lg" name="test_cases" guid="_0p7tpweUEeCk4NIWYgM-Lg" presentationName="Test cases" briefDescription="Test cases are defined and used to test the adaptation model." isPlanned="false">
+      <methodElementProperty xmi:id="_0p7tqAeUEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_kqpooOzIEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_0p7tqgeUEeCk4NIWYgM-Lg" name="constraints_model" guid="_0p7tqgeUEeCk4NIWYgM-Lg" presentationName="Constraints model" briefDescription="The constraints on the variability and context of the adaptation model, to control number of possible configurations." isPlanned="false">
+      <methodElementProperty xmi:id="_0p7tqweUEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_pAFbAOzMEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_0p7trQeUEeCk4NIWYgM-Lg" name="adaptation_policies" guid="_0p7trQeUEeCk4NIWYgM-Lg" presentationName="Adaptation policies" briefDescription="This artifact contains the adaptation policies of the adaptation model, i.e. Properties, QoS impacts and Priority rules" isPlanned="false">
+      <methodElementProperty xmi:id="_0p7trgeUEeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_sa1qoOzMEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_05lTMAeUEeCk4NIWYgM-Lg" name="define_aspect_models" guid="_05lTMAeUEeCk4NIWYgM-Lg" presentationName="Define aspect models" briefDescription="This task describes the process of defining the aspect models as a part of the architectural aspects model." isPlanned="false" superActivities="_qu_ugQeUEeCk4NIWYgM-Lg" linkToPredecessor="_2OXU0AeUEeCk4NIWYgM-Lg" mandatoryInput="_0ova1QeUEeCk4NIWYgM-Lg" optionalInput="_0ova0weUEeCk4NIWYgM-Lg" output="_0pVQtAeUEeCk4NIWYgM-Lg" performedPrimarilyBy="_0ova0QeUEeCk4NIWYgM-Lg">
+      <Task href="uma://_ijALQO5rEd-0xPxjwuNm4A#_SGbTsPJTEd-FpZGj9I_2_g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_1GsiIAeUEeCk4NIWYgM-Lg" name="integrate_and_test_aspects" guid="_1GsiIAeUEeCk4NIWYgM-Lg" presentationName="Integrate and test aspects" briefDescription="This task includes taking care of the possible interactions between the aspects and setting constraints on the order they should be woven in the base model. The aspects are then tested by weaving sets of test configurations defined in the adaptation model." isPlanned="false" superActivities="_qu_ugQeUEeCk4NIWYgM-Lg" linkToPredecessor="_2YWXQAeUEeCk4NIWYgM-Lg" mandatoryInput="_0pVQsQeUEeCk4NIWYgM-Lg _0ova0weUEeCk4NIWYgM-Lg" output="_0pVQsQeUEeCk4NIWYgM-Lg" performedPrimarilyBy="_0ova0QeUEeCk4NIWYgM-Lg">
+      <Task href="uma://_ijALQO5rEd-0xPxjwuNm4A#_csbpEPJTEd-FpZGj9I_2_g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_2OXU0AeUEeCk4NIWYgM-Lg" guid="_2OXU0AeUEeCk4NIWYgM-Lg" pred="_0ova0AeUEeCk4NIWYgM-Lg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_2YWXQAeUEeCk4NIWYgM-Lg" guid="_2YWXQAeUEeCk4NIWYgM-Lg" pred="_05lTMAeUEeCk4NIWYgM-Lg"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_qu_ugQeUEeCk4NIWYgM-Lg" name="runtime_architecture_modelling" guid="_qu_ugQeUEeCk4NIWYgM-Lg" presentationName="Runtime architecture definition" briefDescription="This capability pattern defines the guided procedure for specifying the runtime architecture of a DiVA system." breakdownElements="_0ova0AeUEeCk4NIWYgM-Lg _0ova0QeUEeCk4NIWYgM-Lg _0ova0weUEeCk4NIWYgM-Lg _0ova1QeUEeCk4NIWYgM-Lg _0pVQsQeUEeCk4NIWYgM-Lg _0pVQtAeUEeCk4NIWYgM-Lg _05lTMAeUEeCk4NIWYgM-Lg _1GsiIAeUEeCk4NIWYgM-Lg">
+      <presentation xmi:id="-t8UNv5dJjauhW2O_vTwAlQ" href="uma://-t8UNv5dJjauhW2O_vTwAlQ#-t8UNv5dJjauhW2O_vTwAlQ"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_Uw9rsAOIEeCKOY6tSwZy2A"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_Uw9rsAOIEeCKOY6tSwZy2A"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

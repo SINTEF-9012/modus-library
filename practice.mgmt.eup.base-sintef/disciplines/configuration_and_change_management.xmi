@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-dpm3e1kt7toXyvzqHhbzeg" name="Configuration and Change Management,_RVca8BrbEd6fSbYYEOE5Vw" guid="-dpm3e1kt7toXyvzqHhbzeg" changeDate="2009-08-04T15:11:36.632+0200" changeDescription="0.1: Initial outline." version="0.1">
+  <mainDescription>&lt;p>&#xD;
+    The Change Management discipline in RUP deals with three specific areas: configuration management, change request&#xD;
+    management, and Status and measurement management.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Configuration management: Configuration management is responsible for the systematic structuring of the products.&#xD;
+        Artifacts such as documents and models need to be under version control and these changes must be visible. It also&#xD;
+        keeps track of dependencies between artifacts so all related articles are updated when changes are made.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Change request management: During the system development process many artifacts with several versions exist. CRM&#xD;
+        keeps track of the proposals for change.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Status and measurement management: Change requests have states such as new, logged, approved, assigned and&#xD;
+        complete. A change request also has attributes such as root cause, or nature (like defect and enhancement),&#xD;
+        priority etc. These states and attributes are stored in database so useful reports about the progress of the&#xD;
+        project can be produced. Rational also has a product to maintain change requests called ClearQuest. This activity&#xD;
+        has procedures to be followed.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

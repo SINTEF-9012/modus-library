@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-wlyydI6TjXZ51i-CWkeXzw" name="refine_value_network view,_HloN4VF0EeGhK6PCw6rfMg" guid="-wlyydI6TjXZ51i-CWkeXzw" changeDate="2011-06-29T14:36:17.305+0200">
+  <mainDescription>&lt;p align=&quot;left&quot;>&#xD;
+    VDML supports multiple viewpoints, each focusing on a different abstraction of the design of an enterprise. An&#xD;
+    interesting viewpoint for our purposes is the Value Network View, which we recall in this section.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    ServiceML supports a Value Network View graphical notation that is inspired from Verna Allee’s Value Networks [Allee&#xD;
+    2002]. It focuses on the Deliverable Flows that occur between the Roles of a Collaboration.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_HloN41F0EeGhK6PCw6rfMg" name="1. Identify business processes." guid="_HloN41F0EeGhK6PCw6rfMg">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>The business model&amp;nbsp;should&#xD;
+    contain refined descriptions of the business processes which are relevant to the service-oriented architecture to be&#xD;
+    defined. These are the business processes that will enable the goals to be met and include the roles which collaborate&#xD;
+    through services that are to be specified and developed.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    Identify the relevant business processes for the service-oriented architecture following these guidelines:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            Identify public and collaborative business processes that involve interactions and potential usage of software&#xD;
+            services between different business organizations. These processes are candidates for public&#xD;
+            &lt;em>community-level services architectures&lt;/em> in SoaML.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            Identify private business processes for the business entities under your ownership control that are involved in&#xD;
+            the services architecture under consideration.&amp;nbsp;These processes are candidates for&#xD;
+            internal&amp;nbsp;&lt;em>participant-level services architectures&lt;/em> in SoaML.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            The business goals resulting from any previous&amp;nbsp;modelling steps can be used to scope the selection. In&#xD;
+            particular if an existing goal analysis has been made from which you can select the business processes linked&#xD;
+            to the business goals.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_HloN4lF0EeGhK6PCw6rfMg" name="2. Detailing of business processes." guid="_HloN4lF0EeGhK6PCw6rfMg">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Each of the selected business processes identified is a candidate for a SoaML services architecture. Create new&#xD;
+    business process diagrams and refine the selected business processes following these guidelines:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            Identify the business entities and model them as either pools (if different business organizations) or&#xD;
+            swimlanes (in the case of different organizational roles or units within the same organization). The pools and&#xD;
+            swimlanes are associated with participants in SoaML.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            Focus on the tasks that describe the interaction points between the business entities. These interaction points&#xD;
+            will be associated with service contracts in SoaML.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            Identify the data flows between these tasks. These data objects will be associated with message types or data&#xD;
+            entities in SoaML.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <purpose>&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        To refine value network view for service modelling.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

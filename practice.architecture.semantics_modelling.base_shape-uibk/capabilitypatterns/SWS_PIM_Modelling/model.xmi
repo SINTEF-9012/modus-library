@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_oqRhAq3TEd6jJcdBhS8YNw" guid="_oqRhAq3TEd6jJcdBhS8YNw">
+    <resourceDescriptors xmi:id="_oqRhA63TEd6jJcdBhS8YNw" id="-mfvDtVRuNMNYWmoJAAr-Ug" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_neZjwK3TEd6jJcdBhS8YNw" name="SWS_PIM_Modelling" guid="_neZjwK3TEd6jJcdBhS8YNw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_neZjyq3TEd6jJcdBhS8YNw" name="SWS PIM level modelling" guid="_neZjyq3TEd6jJcdBhS8YNw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_neZjzK3TEd6jJcdBhS8YNw" name="SWS PIM level modelling" guid="_neZjzK3TEd6jJcdBhS8YNw" presentationName="SWS PIM level modelling" superActivities="_neZjya3TEd6jJcdBhS8YNw" breakdownElements="_neZj1K3TEd6jJcdBhS8YNw _neZj0a3TEd6jJcdBhS8YNw _neZj063TEd6jJcdBhS8YNw _neZj0q3TEd6jJcdBhS8YNw _neZjy63TEd6jJcdBhS8YNw _neZj0K3TEd6jJcdBhS8YNw _3j73sPqlEd68-aqICre0mw _3j73sfqlEd68-aqICre0mw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_neZj1K3TEd6jJcdBhS8YNw" name="SoaML_Model" guid="_neZj1K3TEd6jJcdBhS8YNw" presentationName="SoaML Model" briefDescription="A model that defines the service architecture in a platform-indepent manner." isPlanned="false" superActivities="_neZjzK3TEd6jJcdBhS8YNw">
+        <methodElementProperty xmi:id="_kBzkEdeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_neZj063TEd6jJcdBhS8YNw" name="Solution_Architect" guid="_neZj063TEd6jJcdBhS8YNw" presentationName="Solution Architect" briefDescription="Works on developing and maintaining a service-oriented architecture for the IT portfolio of a company." isPlanned="false" superActivities="_neZjzK3TEd6jJcdBhS8YNw" modifies="_3j73sfqlEd68-aqICre0mw">
+        <methodElementProperty xmi:id="_kB0yMNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <Role href="uma://_kwazABFxEd6C2PqX2OSy5A#_mWo3cDMyEd6_xOMajArapw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_neZj0a3TEd6jJcdBhS8YNw" name="design_SWS_architecture" guid="_neZj0a3TEd6jJcdBhS8YNw" presentationName="Design high-level architecture for Semantic Web Services" briefDescription="Design high-level architecture for Semantic Web Services at PIM level" superActivities="_neZjzK3TEd6jJcdBhS8YNw" mandatoryInput="_neZj1K3TEd6jJcdBhS8YNw _3j73sPqlEd68-aqICre0mw" output="_3j73sfqlEd68-aqICre0mw" performedPrimarilyBy="_neZj063TEd6jJcdBhS8YNw">
+        <methodElementProperty xmi:id="_kBzkENeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_neZj063TEd6jJcdBhS8YNw/performedPrimarilyBy"/>
+        <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_emjOwKjwEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-wf9UHXrBXOpcwU_HMNSm-A#_etV90KjxEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-wf9UHXrBXOpcwU_HMNSm-A#_iCOO8KjxEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-wf9UHXrBXOpcwU_HMNSm-A#_l18YMKjxEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-wf9UHXrBXOpcwU_HMNSm-A#_nUsOIKjxEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-wf9UHXrBXOpcwU_HMNSm-A#_onM-4KjxEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-wf9UHXrBXOpcwU_HMNSm-A#_rUENwKjxEd6RxrScOu9Dlg"/>
+        <performedPrimarilyByExcluded href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJwBntEd6VV7P4WguglA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_neZj0q3TEd6jJcdBhS8YNw" name="design_SWS_capabilities" guid="_neZj0q3TEd6jJcdBhS8YNw" presentationName="Design Semantic Web Services capabilities" briefDescription="Design Semantic Web Services capabilities at PIM level" superActivities="_neZjzK3TEd6jJcdBhS8YNw" mandatoryInput="_neZj1K3TEd6jJcdBhS8YNw _3j73sPqlEd68-aqICre0mw" output="_3j73sfqlEd68-aqICre0mw">
+        <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_MPGEYKjyEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-aLi-crS2WihKiC9QGNrxUQ#_UBo-MKjzEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-aLi-crS2WihKiC9QGNrxUQ#_U8qcAKjzEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-aLi-crS2WihKiC9QGNrxUQ#_WlCvEKjzEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-aLi-crS2WihKiC9QGNrxUQ#_YKkicKjzEd6RxrScOu9Dlg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_neZjy63TEd6jJcdBhS8YNw" name="design_SWS_coreographies" guid="_neZjy63TEd6jJcdBhS8YNw" presentationName="Design Semantic Web Services coreographies" briefDescription="Design Semantic Web Services coreographies at PIM level" superActivities="_neZjzK3TEd6jJcdBhS8YNw" mandatoryInput="_neZj1K3TEd6jJcdBhS8YNw _3j73sPqlEd68-aqICre0mw" output="_3j73sfqlEd68-aqICre0mw">
+        <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_PWVQMKj0Ed6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-Aq4zPFeZAwMRjwLpIQsNvw#_gWVIUKkGEd6RxrScOu9Dlg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_neZj0K3TEd6jJcdBhS8YNw" name="design_SWS_ontologies" guid="_neZj0K3TEd6jJcdBhS8YNw" presentationName="Design Semantic Web Service ontologies" briefDescription="Design Semantic Web Service ontologies at PIM level" superActivities="_neZjzK3TEd6jJcdBhS8YNw" mandatoryInput="_3j73sPqlEd68-aqICre0mw" output="_3j73sfqlEd68-aqICre0mw">
+        <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_efSPsKkdEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-_EcoHfL3fqZ996rZ-ZdkiA#_nKvj8KkdEd6RxrScOu9Dlg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_3j73sPqlEd68-aqICre0mw" name="SWS_requirements" guid="_3j73sPqlEd68-aqICre0mw" presentationName="Semantic Web Service Requirements Specification" briefDescription="Semantic Web Service Requirements Specification." isPlanned="false" superActivities="_neZjzK3TEd6jJcdBhS8YNw">
+        <methodElementProperty xmi:id="_kBzkEteMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_VgmRU7J8Ed6WTpR2FpAgWw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_3j73sfqlEd68-aqICre0mw" name="SWS_SoaML_SWS_model" guid="_3j73sfqlEd68-aqICre0mw" presentationName="SoaML Semantic Web Service extension model" briefDescription="SoaML Semantic Web Service extension model." isPlanned="false" superActivities="_neZjzK3TEd6jJcdBhS8YNw">
+        <methodElementProperty xmi:id="_kBzkE9eMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_VgmRUbJ8Ed6WTpR2FpAgWw"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_neZjya3TEd6jJcdBhS8YNw" name="SWS_PIM_Modelling" guid="_neZjya3TEd6jJcdBhS8YNw" presentationName="SWS PIM modelling" briefDescription="Capability pattern for the PIM-level modelling activity of MEMOS." breakdownElements="_neZjzK3TEd6jJcdBhS8YNw">
+      <methodElementProperty xmi:id="_kB2nYNeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-mfvDtVRuNMNYWmoJAAr-Ug" href="uma://-mfvDtVRuNMNYWmoJAAr-Ug#-mfvDtVRuNMNYWmoJAAr-Ug"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

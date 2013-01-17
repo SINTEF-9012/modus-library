@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_TrplIYDoEd6lNYuk36nUnQ" guid="_TrplIYDoEd6lNYuk36nUnQ">
+    <resourceDescriptors xmi:id="_TrplIoDoEd6lNYuk36nUnQ" id="-4qwi3oCeJYgvy5mpET_-aA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_-GsdsNrLEd-RHtsSMqnPrA" id="-VJSLZyPI4BCmwpuSsSF_PQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_-GsdsdrLEd-RHtsSMqnPrA" id="-DUZhWEC4pJwBiM9rOn430Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_-G1noNrLEd-RHtsSMqnPrA" id="-XZZKAAgkdG5CJz9REZ409Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_-G1nodrLEd-RHtsSMqnPrA" id="-dYkPF4zV-RQlpkFoDzsisQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_xyIbYeZpEd-5YeUvCnM2dQ" id="-_zk6Oh6DQN_e7WPItCgaaQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_To-EkIDoEd6lNYuk36nUnQ" name="define_business_motivations_and_strategies" guid="_To-EkIDoEd6lNYuk36nUnQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_xhJb0DwBEd-wzrbdBPyHjA" name="define_business_rules" guid="_xhJb0DwBEd-wzrbdBPyHjA" presentationName="Define business rules" briefDescription="This task defines the guided procedure for specifying business rules." isOptional="true" superActivities="_To-EkYDoEd6lNYuk36nUnQ" isSynchronizedWithSource="false" output="_vSDEROZpEd-5YeUvCnM2dQ" performedPrimarilyBy="_vR56UeZpEd-5YeUvCnM2dQ">
+      <presentation xmi:id="-VJSLZyPI4BCmwpuSsSF_PQ" href="uma://-4qwi3oCeJYgvy5mpET_-aA#-VJSLZyPI4BCmwpuSsSF_PQ"/>
+      <Task href="uma://_09h_8NquEd-RHtsSMqnPrA#_kCsq4G-3Ed6zv6nlDL4ZGQ"/>
+      <selectedSteps href="uma://-AI-SE6yhaBaDV8pxgy2fsw#_TNI7oG-6Ed6zv6nlDL4ZGQ"/>
+      <selectedSteps href="uma://-AI-SE6yhaBaDV8pxgy2fsw#_ec3jcG-6Ed6zv6nlDL4ZGQ"/>
+      <selectedSteps href="uma://-AI-SE6yhaBaDV8pxgy2fsw#_MSm9AG-7Ed6zv6nlDL4ZGQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_xhJb0TwBEd-wzrbdBPyHjA" name="define_business_dictionary" guid="_xhJb0TwBEd-wzrbdBPyHjA" presentationName="Define business dictionary" briefDescription="This task defines the guided procedure for specifying a business dictionary model." isOptional="true" superActivities="_To-EkYDoEd6lNYuk36nUnQ" isSynchronizedWithSource="false" output="_vR56V-ZpEd-5YeUvCnM2dQ" performedPrimarilyBy="_vR56UeZpEd-5YeUvCnM2dQ">
+      <presentation xmi:id="-DUZhWEC4pJwBiM9rOn430Q" href="uma://-4qwi3oCeJYgvy5mpET_-aA#-DUZhWEC4pJwBiM9rOn430Q"/>
+      <Task href="uma://_09h_8NquEd-RHtsSMqnPrA#_dSxyEG--Ed6zv6nlDL4ZGQ"/>
+      <selectedSteps href="uma://-8rhzPU2sNd23k8CaKmP4iw#_EvChEG-_Ed6zv6nlDL4ZGQ"/>
+      <selectedSteps href="uma://-8rhzPU2sNd23k8CaKmP4iw#_O27-IG-_Ed6zv6nlDL4ZGQ"/>
+      <selectedSteps href="uma://-8rhzPU2sNd23k8CaKmP4iw#_uKZaAG-_Ed6zv6nlDL4ZGQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_xhJb0jwBEd-wzrbdBPyHjA" name="define_business_goals" guid="_xhJb0jwBEd-wzrbdBPyHjA" presentationName="Define business goals" briefDescription="This task defines the guided procedure for identifying and specifying business goals." superActivities="_To-EkYDoEd6lNYuk36nUnQ" isSynchronizedWithSource="false" output="_vR56VOZpEd-5YeUvCnM2dQ" performedPrimarilyBy="_vR56UeZpEd-5YeUvCnM2dQ">
+      <presentation xmi:id="-XZZKAAgkdG5CJz9REZ409Q" href="uma://-4qwi3oCeJYgvy5mpET_-aA#-XZZKAAgkdG5CJz9REZ409Q"/>
+      <Task href="uma://_09h_8NquEd-RHtsSMqnPrA#_5eCkYG-yEd6zv6nlDL4ZGQ"/>
+      <selectedSteps href="uma://-0XaRUuk0hGD0hO9ngmScig#_BkAJcG-0Ed6zv6nlDL4ZGQ"/>
+      <selectedSteps href="uma://-0XaRUuk0hGD0hO9ngmScig#_UEYUYG-0Ed6zv6nlDL4ZGQ"/>
+      <selectedSteps href="uma://-0XaRUuk0hGD0hO9ngmScig#_NE91wG-1Ed6zv6nlDL4ZGQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_xhJb0zwBEd-wzrbdBPyHjA" name="define_business_requirements" guid="_xhJb0zwBEd-wzrbdBPyHjA" presentationName="Define business requirements" briefDescription="This task defines the guided procedure for identifying and specifying business requirements." isOptional="true" superActivities="_To-EkYDoEd6lNYuk36nUnQ" isSynchronizedWithSource="false" output="_vSDEQeZpEd-5YeUvCnM2dQ" performedPrimarilyBy="_vR56UeZpEd-5YeUvCnM2dQ">
+      <presentation xmi:id="-dYkPF4zV-RQlpkFoDzsisQ" href="uma://-4qwi3oCeJYgvy5mpET_-aA#-dYkPF4zV-RQlpkFoDzsisQ"/>
+      <Task href="uma://_09h_8NquEd-RHtsSMqnPrA#_x6x4MG-7Ed6zv6nlDL4ZGQ"/>
+      <selectedSteps href="uma://-yraIJggBnBoWcO1H8_nhRA#_q8YGMG-8Ed6zv6nlDL4ZGQ"/>
+      <selectedSteps href="uma://-yraIJggBnBoWcO1H8_nhRA#_H5VkwG-9Ed6zv6nlDL4ZGQ"/>
+      <selectedSteps href="uma://-yraIJggBnBoWcO1H8_nhRA#_zsie0G-9Ed6zv6nlDL4ZGQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_vR56UeZpEd-5YeUvCnM2dQ" name="business_architect" guid="_vR56UeZpEd-5YeUvCnM2dQ" presentationName="Business architect" briefDescription="This worker is involved in the design of the composition workflow and all the issues around it like security, transactions or exception handling." isPlanned="false" superActivities="_To-EkYDoEd6lNYuk36nUnQ" modifies="_vSDEROZpEd-5YeUvCnM2dQ _vR56V-ZpEd-5YeUvCnM2dQ _vR56VOZpEd-5YeUvCnM2dQ _vSDEQeZpEd-5YeUvCnM2dQ">
+      <methodElementProperty xmi:id="_vR56UuZpEd-5YeUvCnM2dQ" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJwhntEd6VV7P4WguglA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_vR56VOZpEd-5YeUvCnM2dQ" name="bmm_goal_model" guid="_vR56VOZpEd-5YeUvCnM2dQ" presentationName="Goal Model" briefDescription="BMM Goal Model." isPlanned="false" superActivities="_To-EkYDoEd6lNYuk36nUnQ">
+      <methodElementProperty xmi:id="_vR56VeZpEd-5YeUvCnM2dQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_09h_8NquEd-RHtsSMqnPrA#_wiTlMIW7Ed6DneKAlTqFLQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_vR56V-ZpEd-5YeUvCnM2dQ" name="bmm_dictionary_model" guid="_vR56V-ZpEd-5YeUvCnM2dQ" presentationName="Dictionary Model" briefDescription="BMM Dictionary Model." isPlanned="false" superActivities="_To-EkYDoEd6lNYuk36nUnQ">
+      <methodElementProperty xmi:id="_vR56WOZpEd-5YeUvCnM2dQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_09h_8NquEd-RHtsSMqnPrA#_eDALwIDuEd6lNYuk36nUnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_vSDEQeZpEd-5YeUvCnM2dQ" name="bmm_requirements_model" guid="_vSDEQeZpEd-5YeUvCnM2dQ" presentationName="Requirements Model" briefDescription="BMM Requirements Model." isPlanned="false" superActivities="_To-EkYDoEd6lNYuk36nUnQ">
+      <methodElementProperty xmi:id="_vSDEQuZpEd-5YeUvCnM2dQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_09h_8NquEd-RHtsSMqnPrA#_9tBJ8KkQEd6pBu2oaywvsg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_vSDEROZpEd-5YeUvCnM2dQ" name="bmm_business_rules_model" guid="_vSDEROZpEd-5YeUvCnM2dQ" presentationName="Business Rules Model" briefDescription="This model is relevant for creating business rules" isPlanned="false" superActivities="_To-EkYDoEd6lNYuk36nUnQ">
+      <methodElementProperty xmi:id="_vSDEReZpEd-5YeUvCnM2dQ" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-_zk6Oh6DQN_e7WPItCgaaQ" href="uma://-4qwi3oCeJYgvy5mpET_-aA#-_zk6Oh6DQN_e7WPItCgaaQ"/>
+      <WorkProduct href="uma://_09h_8NquEd-RHtsSMqnPrA#_-AFV8FAmEd6NGfjlGBNnwA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_To-EkYDoEd6lNYuk36nUnQ" name="define_business_motivations_and_strategies" guid="_To-EkYDoEd6lNYuk36nUnQ" presentationName="Define business motivations and strategies" briefDescription="This capability pattern defines the guided procedure for specifying business motivations and strategies." breakdownElements="_xhJb0jwBEd-wzrbdBPyHjA _xhJb0TwBEd-wzrbdBPyHjA _xhJb0zwBEd-wzrbdBPyHjA _xhJb0DwBEd-wzrbdBPyHjA _vR56UeZpEd-5YeUvCnM2dQ _vR56VOZpEd-5YeUvCnM2dQ _vR56V-ZpEd-5YeUvCnM2dQ _vSDEQeZpEd-5YeUvCnM2dQ _vSDEROZpEd-5YeUvCnM2dQ">
+      <methodElementProperty xmi:id="_j-cHAdeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-4qwi3oCeJYgvy5mpET_-aA" href="uma://-4qwi3oCeJYgvy5mpET_-aA#-4qwi3oCeJYgvy5mpET_-aA"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_qY0T4PPwEd-aSLmU6PqmFQ"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_qY0T4PPwEd-aSLmU6PqmFQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

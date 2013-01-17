@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_g6oSAYi2Ed609piMjO-xvw" guid="_g6oSAYi2Ed609piMjO-xvw">
+    <resourceDescriptors xmi:id="_g6oSAoi2Ed609piMjO-xvw" id="-IucQ1cVOMQP4JniG3GRP_g" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_g5b_MIi2Ed609piMjO-xvw" name="Data_modelling" guid="_g5b_MIi2Ed609piMjO-xvw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_OfUAwJ4AEd6s7YgGIghgTQ" name="Create a new Data View" guid="_OfUAwJ4AEd6s7YgGIghgTQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_OfUAwZ4AEd6s7YgGIghgTQ" name="Create a new Data View" guid="_OfUAwZ4AEd6s7YgGIghgTQ" presentationName="Create a new Data View" isOptional="true" superActivities="_g5b_MYi2Ed609piMjO-xvw" breakdownElements="_OfUAw54AEd6s7YgGIghgTQ _OfUAxJ4AEd6s7YgGIghgTQ _OfUAxZ4AEd6s7YgGIghgTQ _OfUAxp4AEd6s7YgGIghgTQ _OfUAx54AEd6s7YgGIghgTQ _OfUAwp4AEd6s7YgGIghgTQ _OfUAyJ4AEd6s7YgGIghgTQ _Oj6z8J4AEd6s7YgGIghgTQ _w99_op03Ed6PosulQ5FKng"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_OfUAwp4AEd6s7YgGIghgTQ" name="Create Data Object(Data View)" guid="_OfUAwp4AEd6s7YgGIghgTQ" presentationName="Create a new Data Object" briefDescription="Creation of Data Objects&#xD;&#xA;&#xD;&#xA;Data Objects provide information about what activities require to be performed and/or what they produce. &#xD;&#xA;" superActivities="_OfUAwZ4AEd6s7YgGIghgTQ" output="_Oj6z8J4AEd6s7YgGIghgTQ" performedPrimarilyBy="_OfUAw54AEd6s7YgGIghgTQ _OfUAxJ4AEd6s7YgGIghgTQ _OfUAxZ4AEd6s7YgGIghgTQ _OfUAxp4AEd6s7YgGIghgTQ _OfUAx54AEd6s7YgGIghgTQ">
+        <methodElementProperty xmi:id="_j47U4NeMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_Oj6z8J4AEd6s7YgGIghgTQ/output"/>
+        <methodElementProperty xmi:id="_j47U4deMEd-Mq_S1iaxctg" name="descriptor_customization" value="2"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_DP3SwJ1xEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_fKKewFUVEd6C1uTeH2AdkQ"/>
+        <selectedSteps href="uma://-_S24yG3GS_neQXxaAapm7g#_vg9RkFUWEd6C1uTeH2AdkQ"/>
+        <selectedSteps href="uma://-_S24yG3GS_neQXxaAapm7g#_xYWRAFUWEd6C1uTeH2AdkQ"/>
+        <outputExclude href="uma://_kwazABFxEd6C2PqX2OSy5A#_ypo8sIGrEd6tqIeaIOtuNA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_OfUAw54AEd6s7YgGIghgTQ" name="Analyst" guid="_OfUAw54AEd6s7YgGIghgTQ" presentationName="Analyst" briefDescription="This worker is mainly involved in the processes related to the requirements of the customers. " isPlanned="false" superActivities="_OfUAwZ4AEd6s7YgGIghgTQ" modifies="_Oj6z8J4AEd6s7YgGIghgTQ">
+        <methodElementProperty xmi:id="_j46t0NeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_edtocFUVEd6C1uTeH2AdkQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_OfUAxJ4AEd6s7YgGIghgTQ" name="Business_Process_Modeller" guid="_OfUAxJ4AEd6s7YgGIghgTQ" presentationName="Business Process Modeller" briefDescription="This worker is involved in the design of the composition workflow and all the issues around it like security, transactions or exception handling." isPlanned="false" superActivities="_OfUAwZ4AEd6s7YgGIghgTQ" modifies="_Oj6z8J4AEd6s7YgGIghgTQ">
+        <methodElementProperty xmi:id="_j46t0deMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_eduPgVUVEd6C1uTeH2AdkQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_OfUAxZ4AEd6s7YgGIghgTQ" name="Business Analyst" guid="_OfUAxZ4AEd6s7YgGIghgTQ" presentationName="Business Analyst" briefDescription="Responsible for analyzing the business needs of clients to help identify business problems and propose solutions." isPlanned="false" superActivities="_OfUAwZ4AEd6s7YgGIghgTQ" modifies="_Oj6z8J4AEd6s7YgGIghgTQ">
+        <methodElementProperty xmi:id="_j46t0teMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_eduPgFUVEd6C1uTeH2AdkQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_OfUAxp4AEd6s7YgGIghgTQ" name="Designer" guid="_OfUAxp4AEd6s7YgGIghgTQ" presentationName="Designer" isPlanned="false" superActivities="_OfUAwZ4AEd6s7YgGIghgTQ" modifies="_Oj6z8J4AEd6s7YgGIghgTQ">
+        <methodElementProperty xmi:id="_j46t09eMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_eduPglUVEd6C1uTeH2AdkQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_OfUAx54AEd6s7YgGIghgTQ" name="User" guid="_OfUAx54AEd6s7YgGIghgTQ" presentationName="User" isPlanned="false" superActivities="_OfUAwZ4AEd6s7YgGIghgTQ" modifies="_Oj6z8J4AEd6s7YgGIghgTQ">
+        <methodElementProperty xmi:id="_j46t1NeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_eduPg1UVEd6C1uTeH2AdkQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_OfUAyJ4AEd6s7YgGIghgTQ" name="Create Attribute" guid="_OfUAyJ4AEd6s7YgGIghgTQ" presentationName="Create an attribute" briefDescription="Creation of Attributes&#xD;&#xA;&#xD;&#xA;Attributes are the data elements, such as numbers, strings, or date values, that describe the state and contents of a BPMN Object. &#xD;&#xA;" superActivities="_OfUAwZ4AEd6s7YgGIghgTQ" output="_Oj6z8J4AEd6s7YgGIghgTQ" performedPrimarilyBy="_OfUAw54AEd6s7YgGIghgTQ _OfUAxJ4AEd6s7YgGIghgTQ _OfUAxZ4AEd6s7YgGIghgTQ _OfUAxp4AEd6s7YgGIghgTQ _OfUAx54AEd6s7YgGIghgTQ">
+        <methodElementProperty xmi:id="_j46t1deMEd-Mq_S1iaxctg" name="descriptor_localUsingInfo" value="_Oj6z8J4AEd6s7YgGIghgTQ/output"/>
+        <methodElementProperty xmi:id="_j46t1teMEd-Mq_S1iaxctg" name="descriptor_customization" value="2"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_DP3SwJ1xEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_rcYeUFUVEd6C1uTeH2AdkQ"/>
+        <selectedSteps href="uma://-2Im7JoBUU6eRBHKmZ_pH5Q#_mSYzwFUXEd6C1uTeH2AdkQ"/>
+        <selectedSteps href="uma://-2Im7JoBUU6eRBHKmZ_pH5Q#_osL8sFUXEd6C1uTeH2AdkQ"/>
+        <outputExclude href="uma://_kwazABFxEd6C2PqX2OSy5A#_ypo8sIGrEd6tqIeaIOtuNA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Oj6z8J4AEd6s7YgGIghgTQ" name="Ontology" guid="_Oj6z8J4AEd6s7YgGIghgTQ" presentationName="Ontology" briefDescription="This work product refers to ontologies that are defined in a formal ontology specification language. " isPlanned="false" superActivities="_OfUAwZ4AEd6s7YgGIghgTQ">
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_QBOysFXDEd6iZIDJYUIm8w"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_Kff7QBfEEd61O54aE5cSOg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_w99_op03Ed6PosulQ5FKng" name="Create Relationship" guid="_w99_op03Ed6PosulQ5FKng" presentationName="Create a new relationship" briefDescription="Creation of Relationships&#xD;&#xA;&#xD;&#xA;An relationship is used to connect two different data elements. &#xD;&#xA;" superActivities="_OfUAwZ4AEd6s7YgGIghgTQ">
+        <methodElementProperty xmi:id="_j46GwNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="2"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_DP3SwJ1xEd66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_s2bacFUVEd6C1uTeH2AdkQ"/>
+        <selectedSteps href="uma://-v9j-UuJWnnepce6TtmqzRw#_w5q7gFUXEd6C1uTeH2AdkQ"/>
+        <selectedSteps href="uma://-v9j-UuJWnnepce6TtmqzRw#_3GAh8FUXEd6C1uTeH2AdkQ"/>
+        <performedPrimarilyByExcluded href="uma://__KzlEDvMEd6gtI8tb9yUjw#_edtocFUVEd6C1uTeH2AdkQ"/>
+        <performedPrimarilyByExcluded href="uma://__KzlEDvMEd6gtI8tb9yUjw#_eduPgVUVEd6C1uTeH2AdkQ"/>
+        <performedPrimarilyByExcluded href="uma://__KzlEDvMEd6gtI8tb9yUjw#_eduPgFUVEd6C1uTeH2AdkQ"/>
+        <performedPrimarilyByExcluded href="uma://__KzlEDvMEd6gtI8tb9yUjw#_eduPglUVEd6C1uTeH2AdkQ"/>
+        <performedPrimarilyByExcluded href="uma://__KzlEDvMEd6gtI8tb9yUjw#_eduPg1UVEd6C1uTeH2AdkQ"/>
+        <outputExclude href="uma://_kwazABFxEd6C2PqX2OSy5A#_ypo8sIGrEd6tqIeaIOtuNA"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_g5b_MYi2Ed609piMjO-xvw" name="Data_modelling" guid="_g5b_MYi2Ed609piMjO-xvw" presentationName="Create a Data view" briefDescription="Creation of Data models" breakdownElements="_OfUAwZ4AEd6s7YgGIghgTQ">
+      <methodElementProperty xmi:id="_j47U4teMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-IucQ1cVOMQP4JniG3GRP_g" href="uma://-IucQ1cVOMQP4JniG3GRP_g#-IucQ1cVOMQP4JniG3GRP_g"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

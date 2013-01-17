@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-og6SOQ0SGDyCCNL-UxD7Dw" name="estimating_the_backlog,_4n-W7xQqEeG-roQgfHQS3A" guid="-og6SOQ0SGDyCCNL-UxD7Dw">
+    <refinedDescription>&lt;p>&#xD;
+    Prior to release planning and periodically as the product backlog evolves and the team gains insight through experience&#xD;
+    the Scrum Team will estimate the size of items on the Product Backlog.&amp;nbsp;&amp;nbsp; This is key information to help&#xD;
+    the&amp;nbsp;Product Owner make prioritization decisions (some items may become less of a priority if the&amp;nbsp;Product&#xD;
+    Owner learns that major effort will be required to deliver them).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Estimations are relative and&amp;nbsp;are measured in “points” rather than real-world units of effort.&amp;nbsp; To the&#xD;
+    uninitiated this may&amp;nbsp;seem unpredicatable but after the first few sprints Scrum teams can empirically derive&amp;nbsp;a&#xD;
+    velocity&amp;nbsp;that allows them to&amp;nbsp;accurately predict delivery capability.&amp;nbsp;&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jKqR0UxCWZRXE13t_PhlWw" name="ordering_the_backlog,_4n-W6hQqEeG-roQgfHQS3A" guid="-jKqR0UxCWZRXE13t_PhlWw">
+    <refinedDescription>&lt;p>&#xD;
+    The Product Backlog is a prioritized list of work to be completed by the team.&amp;nbsp; It is continuously updated by the&#xD;
+    Product Owner&amp;nbsp;based on&amp;nbsp;feedback from the end-user (as they are exposed to new product increments) and&#xD;
+    also&amp;nbsp;in response to&amp;nbsp;the&amp;nbsp;evolving technical and business landscape.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is important that the&amp;nbsp;team provides the Product Owner with sizing estimates&amp;nbsp;for the&amp;nbsp;Product Backlog&#xD;
+    items to enable the&amp;nbsp;Product Owner to balance&amp;nbsp;business need with&amp;nbsp;the estimated cost of implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Scrum update:&lt;/strong> The Product Backlog is “ordered,” instead of “prioritized,” providing flexibility to the&#xD;
+    Product Owner to optimize value in his or her unique circumstances.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-oAUK9dYM6xJF8ql-xHvzfQ" name="sprint_planning_meeting,_4n-W7RQqEeG-roQgfHQS3A" guid="-oAUK9dYM6xJF8ql-xHvzfQ">
+    <keyConsiderations>The product owner doesn't have to describe every item being tracked on the product backlog. Depending on the size of the&#xD;
+backlog and the speed of the team it may be sufficient to describe only the high priority items, saving the discussion of&#xD;
+lower priority items for the next sprint planning meeting. Typically, the Scrum team will provide guidance when they start&#xD;
+to get further into the backlog list than they know could be done in the next sprint.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The Sprint Planning Meeting is attended by the Product Owner, Scrum Master, the entire Scrum Team, and any interested&#xD;
+    and appropriate management or customer representatives.&lt;br />&#xD;
+    &lt;br />&#xD;
+    During the sprint planning meeting the product owner describes the highest priority features to the team. The team asks&#xD;
+    enough questions during this meeting so that they can go off after the meeting and determine which tasks they will move&#xD;
+    from the product backlog to the sprint backlog.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Collectively, the Scrum team and the product owner define a sprint goal, which is a short description of what the&#xD;
+    sprint will attempt to achieve. The success of the sprint will later be assessed during the Sprint Review Meeting&#xD;
+    against the sprint goal, rather than against each specific item selected from the product backlog.&lt;br />&#xD;
+    &lt;br />&#xD;
+    After the sprint planning meeting, the Scrum team meets separately to discuss what they heard and decide how much they&#xD;
+    can commit to during the coming sprint. In some cases there will be negotiation with the product owner but it will&#xD;
+    always be up to the team to determine how much they can commit to completing.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-hkA82t17GirpwOcFeH--fQ" name="sprint_retrospective,_4n-W8RQqEeG-roQgfHQS3A" guid="-hkA82t17GirpwOcFeH--fQ">
+    <keyConsiderations>&lt;p>&#xD;
+    The &lt;a class=&quot;elementLink&quot; href=&quot;./../../Scrum/roles/scrum_team_8D8F2B3.html&quot; guid=&quot;_O65KUOF6Edyp34pwdTOSVQ&quot;>Scrum&#xD;
+    Team&lt;/a>, the &lt;a class=&quot;elementLink&quot; href=&quot;./../../Scrum/roles/product_owner_10E7BD3.html&quot;&#xD;
+    guid=&quot;_QcnRMOF5Edyp34pwdTOSVQ&quot;>Product Owner&lt;/a>, and the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../Scrum/roles/scrummaster_357FCB70.html&quot; guid=&quot;_Bw-twOF6Edyp34pwdTOSVQ&quot;>ScrumMaster&lt;/a> will all attend,&#xD;
+    and a neutral outsider will facilitate the meeting.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The Sprint Retrospective is an opportunity for the team to discuss what's working and what's not working, and agree on&#xD;
+    changes to try.&amp;nbsp; One approach taken is that the whole team gathers and discusses what they’d like to&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Start doing&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Stop doing&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Continue doing&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Hffv1-yiLMWPNIIQouvSuw" name="sprint_review_meeting,_4n-W5RQqEeG-roQgfHQS3A" guid="-Hffv1-yiLMWPNIIQouvSuw">
+    <keyConsiderations>The sprint review meeting is intentionally kept very informal, typically with rules forbidding the use of PowerPoint slides&#xD;
+and allowing no more than two hours of preparation time for the meeting. A sprint review meeting should not become a&#xD;
+distraction or significant detour for the team; rather, it should be a natural result of the sprint.&lt;br /></keyConsiderations>
+    <refinedDescription>At the end of each sprint a sprint review meeting is held. During this meeting the Scrum team shows what they accomplished&#xD;
+during the sprint. Typically this takes the form of a demo of the new features.&lt;br />&#xD;
+&lt;br />&#xD;
+Participants in the sprint review typically include the Product Owner, the Scrum team, the ScrumMaster, management,&#xD;
+customers, and engineers from other projects.&lt;br />&#xD;
+&lt;br />&#xD;
+During the sprint review the project is assessed against the sprint goal determined during the Sprint planning meeting.&#xD;
+Ideally the team has completed each product backlog item brought into the sprint, but it is more important that they&#xD;
+achieve the overall goal of the sprint.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EXLgtXHcrrRW0__-vmU9sQ" name="the_daily_scrum,_4n-W6BQqEeG-roQgfHQS3A" guid="-EXLgtXHcrrRW0__-vmU9sQ">
+    <keyConsiderations>&lt;p>&#xD;
+    There is an old joke in which a chicken and a pig are talking and the chicken says, &quot;Let's start a restaurant.&quot; The pig&#xD;
+    replies, &quot;Good idea, but what should we call it?&quot; &quot;How about 'Ham and Eggs'&quot; says the chicken. &quot;No thanks,&quot; says the&#xD;
+    pig, &quot;I'd be committed, you'd only be involved.&quot; The joke is meant to point out the difference between those who are&#xD;
+    committed on a project and those who are only involved. Scrum affords special status to those who are committed and&#xD;
+    many teams enforce a rule in which only those who are committed are allowed to talk during the daily scrum.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Any impediments that are raised become the ScrumMaster's responsibility to resolve as quickly as possible. Typical&#xD;
+    impediments are:&lt;br />&#xD;
+    &lt;br />&#xD;
+    * My ____ broke and I need a new one today.&lt;br />&#xD;
+    * I still haven't got the software I ordered a month ago.&lt;br />&#xD;
+    * I need help debugging a problem with ______.&lt;br />&#xD;
+    * I'm struggling to learn ______ and would like to pair with someone on it.&lt;br />&#xD;
+    * I can't get the vendor's tech support group to call me back.&lt;br />&#xD;
+    * Our new contractor can't start because no one is here to sign her contract.&lt;br />&#xD;
+    * I can't get the ____ group to give me any time and I need to meet with them.&lt;br />&#xD;
+    * The department VP has asked me to work on something else &quot;for a day or two.&quot;&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>On each day of a sprint, the team holds daily meetings (“the daily scrum”). Meetings are typically held in the same&#xD;
+location and at the same time each day. Ideally the daily scrums are held in the morning as they help set the context for&#xD;
+the coming day's work.&lt;br />&#xD;
+&lt;br />&#xD;
+All team members are required to attend the daily scrum. Anyone else (for example, a departmental VP, a salesperson, or a&#xD;
+developer from another project) is allowed to attend but is there only to listen. This makes the daily scrums an excellent&#xD;
+way for a Scrum team to disseminate status information--if you're interested in hearing where things are at, attend that&#xD;
+day's meeting.&lt;br />&#xD;
+&lt;br />&#xD;
+The daily scrum is not used as a problem-solving or issue resolution meeting. Issues that are raised are taken offline and&#xD;
+usually dealt with by the relevant sub-group immediately after the daily scrum. During the daily scrum each team member&#xD;
+provides answers to the following three questions:&lt;br />&#xD;
+&lt;br />&#xD;
+1. What did you do yesterday?&lt;br />&#xD;
+2. What will you do today?&lt;br />&#xD;
+3. Are there any impediments in your way?&lt;br />&#xD;
+&lt;br />&#xD;
+By focusing on what each person accomplished yesterday and will accomplish today the team gains an excellent understanding&#xD;
+of what work has been done and what work remains. The daily scrum is not a status update meeting in which a boss is&#xD;
+collecting information about who is behind schedule. Rather, it is a meeting in which team members make commitments to each&#xD;
+other. If a programmer stands up and says &quot;Today I will finish the data storage module&quot; everyone knows that in tomorrow's&#xD;
+meeting he will say whether or not he did finish. This has the wonderful effect of helping a team realize the significance&#xD;
+of these commitments and that their commitments are to each other, not to some far-off customer or salesman.&lt;br />&#xD;
+&lt;br />&#xD;
+In cases where the ScrumMaster cannot remove these impediments directly himself (e.g., usually the more technical issues)&#xD;
+he still takes responsibility for making sure someone on the team does quickly resolve the issue.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-SjokG4rRKI4dE3Co3YnMew" name="scrum_team,_4n-W7hQqEeG-roQgfHQS3A" guid="-SjokG4rRKI4dE3Co3YnMew">
+    <refinedDescription>&lt;p>&#xD;
+    The Team:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Is cross-functional, with seven (plus/minus two) members;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Selects the Sprint goal and specifies work results;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Has the right to do everything within the boundaries of the project guidelines to reach the Sprint goal;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Organizes itself and its work; and&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Demos work results to the Product Owner.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Scrum teams do not include any of the traditional software engineering roles such as programmer, designer, tester, or&#xD;
+    architect. Everyone on the project works together to complete the set of work they have collectively committed to&#xD;
+    complete within a sprint. Scrum teams develop a deep form of camaraderie and a feeling that &quot;we're all in this&#xD;
+    together.&quot;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A&amp;nbsp;typical Scrum team&amp;nbsp;is 5-9 people but can be scaled using a Scrum of Scrums.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KVPaujf5em9HJdW0TrtSZQ" name="product_owner,_4n-W5BQqEeG-roQgfHQS3A" guid="-KVPaujf5em9HJdW0TrtSZQ">
+    <refinedDescription>&lt;p>&#xD;
+    The Product Owner has the following responsibilities:&#xD;
+&lt;/p>&#xD;
+&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        Define the features of the product;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Decide on release date and content;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Be responsible for the profitability of the product (ROI);&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Prioritize features according to market value;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Adjust features and priority every 30 days, as needed; and&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Accept or reject work results.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The product owner is responsible for the first of the three Scrum ceremonies&amp;nbsp;:&amp;nbsp;Sprint Planning&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Scrum Team looks at the prioritized Product Backlog and slices off the top priority items and commits to completing&#xD;
+    them during a sprint. These items become the Sprint Backlog.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In return for the Scrum team's commitment to completing the selected tasks, the Product Owner commits that he or she&#xD;
+    will not throw new requirements at the team during the sprint. Requirements are allowed to change but only outside the&#xD;
+    sprint. Once the team starts on a sprint it remains maniacally focused on the goal of that sprint.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zJiUaMT7YdOdXb5hAG3bkw" name="scrum_master,_4n-W8hQqEeG-roQgfHQS3A" guid="-zJiUaMT7YdOdXb5hAG3bkw">
+    <keyConsiderations>&lt;p>&#xD;
+    The ScrumMaster:&#xD;
+&lt;/p>&#xD;
+&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        is not the project manager but a facilitative team leader and Scrum process manager&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        monitors sprint tasks to ensure sprint success but does not create/assign tasks (the team creates/assigns tasks)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        is part of the team: he shares responsibility with the other team members&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        must regularly, physically meet the other team members&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The Scrum Master:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Represents management to the project (liaison);&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is responsible for enacting Scrum values and practices;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Runs The Daily Scrum meetings;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Removes impediments;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Shields the team from external interferences;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensures that the team is fully functional and productive; and&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Enables close cooperation across all roles and functions.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h4>&#xD;
+    Scrum Master Service to the Product Owner&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The Scrum Master serves the Product Owner in several ways, including:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Finding techniques for effective Product Backlog management;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Clearly communicating vision, goals, and Product Backlog items to the Development Team;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Teaching the Scrum Team to create clear and concise Product Backlog items;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Understanding long-term product planning in an empirical environment;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Understanding and practicing agility; and,&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Facilitating Scrum events as requested or needed.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h4>&#xD;
+    Scrum Master Service to the Development Team&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The Scrum Master serves the Development Team in several ways, including:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Coaching the Development Team in self-organization and cross-functionality;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Teaching and leading the Development Team to create high-value products;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Removing impediments to the Development Team’s progress;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Facilitating Scrum events as requested or needed; and,&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Coaching the Development Team in organizational environments in which Scrum is not yet fully adopted and&#xD;
+        understood.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h4>&#xD;
+    Scrum Master Service to the Organization&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The Scrum Master serves the organization in several ways, including:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Leading and coaching the organization in its Scrum adoption;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Planning Scrum implementations within the organization;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Helping employees and stakeholders understand and enact Scrum and empirical product development;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Causing change that increases the productivity of the Scrum Team; and,&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Working with other Scrum Masters to increase the effectiveness of the application of Scrum in the organization.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xTWxyzxvZxdj9Qzxr-OhSg" name="product_backlog,_4n-W4hQqEeG-roQgfHQS3A" guid="-xTWxyzxvZxdj9Qzxr-OhSg">
+    <refinedDescription>&lt;p>&#xD;
+    When a project is initiated there is no comprehensive, time-consuming effort to write down all foreseeable tasks or&#xD;
+    requirements. Typically, a project writes down everything obvious, which is almost always more than enough for a first&#xD;
+    sprint. The Product Backlog is then allowed to grow and change as more is learned about the product and its customers.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    During the &lt;a class=&quot;elementLink&quot; href=&quot;./../../Scrum/tasks/sprint_planning_meeting_9F0B8F28.html&quot;&#xD;
+    guid=&quot;_4gCKAOF9Edyp34pwdTOSVQ&quot;>Sprint Planning Meeting&lt;/a> the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../Scrum/roles/product_owner_10E7BD3.html&quot; guid=&quot;_QcnRMOF5Edyp34pwdTOSVQ&quot;>Product Owner&lt;/a> prioritizes the&#xD;
+    items in the Product Backlog and describes them to the team. The team then determines which items they can complete&#xD;
+    during the coming Sprint. The team then moves items from the Product Backlog to the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../Scrum/workproducts/sprint_backlog_7A5B8A37.html&quot; guid=&quot;_Q5Ki8OF8Edyp34pwdTOSVQ&quot;>Sprint Backlog&lt;/a>. In&#xD;
+    doing they expand each Product Backlog item into one or more Sprint Backlog tasks so they can more effectively share&#xD;
+    work during the Sprint. Conceptually, the team starts at the top of the prioritized Product Backlog list and draws a&#xD;
+    line after the lowest of the high priority items they feel they can complete. In practice it is not unusual to see a&#xD;
+    team select, for example, the top five items and then two items from lower on the list but that are associated with the&#xD;
+    initial five.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Product backlog items can be technical tasks (&quot;Refactor the Login class to throw an exception&quot;) or more user-centric&#xD;
+    (&quot;Allow undo on the setup screen&quot;). A very interesting prospect is expressing Scrum backlog items in the form of&#xD;
+    Extreme Programming's User Stories.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Product Backlog can be maintained in an Excel spreadsheet. An example from a real project is shown below. This&#xD;
+    Excel spreadsheet shows each product backlog item assigned a general priority (Very High, High, etc.) by the Product&#xD;
+    Owner. Estimates have been developed by the developers but it is understood that they are very imprecise and are useful&#xD;
+    only for rough assignments of tasks into the various sprints.&#xD;
+&lt;/p>&lt;img height=&quot;482&quot; alt=&quot;&quot; src=&quot;./../../practice.mgmt.scrum.base-sintef/workproducts/resources/productbacklog.jpg&quot; width=&quot;500&quot; /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aa55q5-66-kqLgx45dy5wg" name="sprint_backlog,_4n-W5xQqEeG-roQgfHQS3A" guid="-aa55q5-66-kqLgx45dy5wg">
+    <refinedDescription>&lt;p>&#xD;
+    Items on the sprint backlog are drawn from the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../Scrum/workproducts/product_backlog_68345C16.html&quot; guid=&quot;_OZIPIOF8Edyp34pwdTOSVQ&quot;>Product Backlog&lt;/a>, by&#xD;
+    the team based on the priorities set by the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../Scrum/roles/product_owner_10E7BD3.html&quot; guid=&quot;_QcnRMOF5Edyp34pwdTOSVQ&quot;>Product Owner&lt;/a> and the team's&#xD;
+    perception of the time it will take to complete the various features.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is critical that the team selects the items and size of the sprint backlog. Because they are the ones committing to&#xD;
+    completing the tasks they must be the ones to choose what they are committing to.&#xD;
+&lt;/p>&#xD;
+&lt;div id=&quot;content&quot;>&#xD;
+    &lt;p>&#xD;
+        The sprint backlog is very commonly maintained as an Excel spreadsheet but it is also possible to use your defect&#xD;
+        tracking system or any of a number of software products designed specifically for Scrum or agile. An example of the&#xD;
+        Sprint Backlog in Excel looks like this:&#xD;
+    &lt;/p>&lt;img height=&quot;188&quot; alt=&quot;Sprint backlog&quot; src=&quot;./../../practice.mgmt.scrum.base-sintef/workproducts/resources/sprintbacklog.gif&quot; width=&quot;400&quot; /> &#xD;
+    &lt;p>&#xD;
+        During the Sprint the &lt;a class=&quot;elementLink&quot; href=&quot;./../../Scrum/roles/scrummaster_357FCB70.html&quot;&#xD;
+        guid=&quot;_Bw-twOF6Edyp34pwdTOSVQ&quot;>ScrumMaster&lt;/a> maintains the sprint backlog by updating it to reflect which tasks&#xD;
+        are completed and how long the team thinks it will take to complete those that are not yet done. The estimated work&#xD;
+        remaining in the sprint is calculated daily and graphed, resulting in a &lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../Scrum/workproducts/sprint_burndown_chart_F647C347.html&quot; guid=&quot;_YzmSIF8sEd22Gu98eFOlrQ&quot;>Sprint&#xD;
+        Burndown Chart&lt;/a>&#xD;
+    &lt;/p>&#xD;
+&lt;/div></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HL8mvw9mf-oSGb_99riqDA" name="taskboard,_4n-W4xQqEeG-roQgfHQS3A" guid="-HL8mvw9mf-oSGb_99riqDA">
+    <refinedDescription>&lt;p>&#xD;
+    The task board shows all the work the team is&amp;nbsp;doing during a sprint. It is updated&amp;nbsp;continuously throughout&#xD;
+    the sprint–if someone thinks of a new task they&amp;nbsp;write a new card and puts it on the board. Either during or&#xD;
+    before&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../Scrum/tasks/the_daily_scrum_C8FB7908.html&quot;&#xD;
+    guid=&quot;_oSM0AOF-Edyp34pwdTOSVQ&quot;>The Daily Scrum&lt;/a>, estimates are changed (up or down) and cards are moved around the&#xD;
+    board.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The task board might look like this:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span class=&quot;articleImage&quot;>&lt;img style=&quot;WIDTH: 461px; HEIGHT: 336px&quot; height=&quot;447&quot; alt=&quot;&quot;&#xD;
+    src=&quot;./../../practice.mgmt.scrum.base-sintef/workproducts/resources/MockedTaskBoard.jpg&quot; width=&quot;600&quot; />&lt;a&#xD; 
+    href=&quot;http://www.mountaingoatsoftware.com/system/hidden_asset/file/29/MockedTaskBoard.jpg&quot; >&lt;u>&lt;font&#xD;
+    color=&quot;#0000ff&quot;>&amp;nbsp;&lt;/font>&lt;/u>&lt;/a>&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span class=&quot;articleImage&quot;>&lt;br />&#xD;
+    &amp;nbsp;&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Each row on the task board is a product backlog item (in this&amp;nbsp; particular example stories). During the &lt;a&#xD;
+    class=&quot;elementLinkWithUserText&quot; href=&quot;./../../Scrum/tasks/sprint_planning_meeting_9F0B8F28.html&quot;&#xD;
+    guid=&quot;_4gCKAOF9Edyp34pwdTOSVQ&quot;>sprint planning meeting&lt;/a> the team selects the product backlog items they can complete&#xD;
+    during the coming sprint. Each product backlog item is turned into multiple &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../Scrum/workproducts/sprint_backlog_7A5B8A37.html&quot; guid=&quot;_Q5Ki8OF8Edyp34pwdTOSVQ&quot;>sprint backlog&lt;/a> items.&#xD;
+    Each of these is represented by one task card that is placed on the task board. Each task card starts on the task board&#xD;
+    in the “To Do” column. The columns are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Story&lt;/b>–The story description (“As a user I want to…”) shown on that row.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>To Do&lt;/b>–This holds all the cards that are not done or in process.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Work In Process&lt;/b>–Any card being worked on goes here. The programmer who chooses to work on it moves it over&#xD;
+        when she’s ready to start the task. Often this happens during the Daily Scrum when someone says, “I’m going to work&#xD;
+        on the boojum today.”&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>To Verify&lt;/b>–A lot of tasks have corresponding test task cards. So, if there’s a “Code the boojum class” card&#xD;
+        there is likely one or more task cards related to testing: “Test the boojum”, “Write FitNesse tests for the&#xD;
+        boojum,” “Write FitNesse fixture for the boojum,” etc. Some task cards don’t often get corresponding test cards&#xD;
+        (“Fix Bug #321 in Bugzilla”) so those are placed in the “To Verify” column.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Done&lt;/b>–Cards pile up over here when they’re done. They’re removed at the end of the sprint.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ALfk3wV4we0maiyFlMNd4Q" name="potentially_shippable_product_incremement,_4n-W8BQqEeG-roQgfHQS3A" guid="-ALfk3wV4we0maiyFlMNd4Q">
+    <keyConsiderations>&lt;p>&#xD;
+    There is much debate&amp;nbsp;about the difference between &quot;potentially shippable (done)&quot; and&amp;nbsp;&quot;shippable&quot;.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Mike Cohn states:&#xD;
+&lt;/p>&#xD;
+&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>&#xD;
+    &lt;p>&#xD;
+        .. &quot;potentially shippable&quot; and &quot;shippable&quot; are not the same thing. Some large or complex projects will require the&#xD;
+        use of &quot;release sprint&quot; or &quot;hardening sprint&quot; at the end of a release cycle (say 6 two-week sprints then a 2-week&#xD;
+        release sprint). The release sprint is not a dumping ground for sloppy work; rather it is a place where some&#xD;
+        hardening of the system can occur.&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;p>&#xD;
+    One thing is clear Scrum teams&amp;nbsp;need to agree&amp;nbsp;on their definition of &quot;potentially shippable&quot;&#xD;
+    and&amp;nbsp;&quot;shippable&quot; and to&amp;nbsp;come to a shared&amp;nbsp;understanding with the Product Owner.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    Scrum requires that each sprint deliver a potentially shippable product increment.&amp;nbsp; The increment must consist of&#xD;
+    thoroughly tested code that has been built into an executable, and the user operation of the functionality is&#xD;
+    documeneted&amp;nbsp;either in Help files or user documentation.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9RKYCwp7Nq4CQgGLjjwBZw" name="development_team,_4n-W6RQqEeG-roQgfHQS3A" guid="-9RKYCwp7Nq4CQgGLjjwBZw">
+    <keyConsiderations>&lt;h4>&#xD;
+    Development Team Size&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    Optimal Development Team size is small enough to remain nimble and large enough to complete significant work. Fewer&#xD;
+    than three Development Team members decreases interaction and results in smaller productivity gains. Smaller&#xD;
+    Development Teams may encounter skill constraints during the Sprint, causing the Development Team to be unable to&#xD;
+    deliver a potentially releasable Increment. Having more than nine members requires too much coordination. Large&#xD;
+    Development Teams generate too much complexity for an empirical process to manage. The Product Owner and Scrum Master&#xD;
+    roles are not included in this count unless they are also executing the work of the Sprint Backlog.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The Development Team consists of professionals who do the work of delivering a potentially releasable Increment of&#xD;
+    &quot;Done&quot; product at the end of each Sprint. Only members of the Development Team create the Increment.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Development Teams are structured and empowered by the organization to organize and manage their own work. The resulting&#xD;
+    synergy optimizes the Development Team’s overall efficiency and effectiveness. Development Teams have the following&#xD;
+    characteristics:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        They are self-organizing. No one (not even the Scrum Master) tells the Development Team how to turn Product Backlog&#xD;
+        into Increments of potentially releasable functionality;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Development Teams are cross-functional, with all of the skills as a team necessary to create a product Increment;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Scrum recognizes no titles for Development Team members other than Developer, regardless of the work being&#xD;
+        performed by the person; there are no exceptions to this rule;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Individual Development Team members may have specialized skills and areas of focus, but accountability belongs to&#xD;
+        the Development Team as a whole; and,&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Development Teams do not contain sub-teams dedicated to particular domains like testing or business analysis.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

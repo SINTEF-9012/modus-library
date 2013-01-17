@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-qNRS25aaqguCOYfKmf511Q" name=",_R69qcIWlEd6Lb6GZuo4wTA" guid="-qNRS25aaqguCOYfKmf511Q" authors="Chrisitan Hahn" changeDate="2009-08-11T11:29:05.112+0200" changeDescription="Initial input" version="0.1">
+  <mainDescription>&lt;P>&lt;SPAN lang=EN-GB style=&quot;mso-ansi-language: EN-GB&quot;>The Organisation represents a generic grouping of Agents and provides the codebase for further specialised organisations, such as holons for instance. The members of the Organisations are characterized by Roles, which describe and identify the part they play within the Organisation. &lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&lt;SPAN lang=EN-GB style=&quot;FONT-FAMILY: Arial; mso-bidi-font-size: 10.0pt&quot;>&lt;o:p>&lt;FONT size=3>&amp;nbsp;&lt;/FONT>&lt;/o:p>&lt;/SPAN>&lt;/P>&#xD;
+&lt;br/></mainDescription>
+  <sections xmi:id="_itxOYIWnEd6Lb6GZuo4wTA" name="Define the Organizational type" guid="_itxOYIWnEd6Lb6GZuo4wTA">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>The organisation in JADE represents a generic grouping of Agents, it&#xD;
+    enables&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>a straightforward support of organisational structures from the&#xD;
+    PIM4Agents. The Organisation&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>also provides the codebase for further&#xD;
+    specialized organisations, such as holons for instance. The&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>members of the&#xD;
+    Organisation are characterized by Roles, which describe and identify the part&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>they play within the Organisation&lt;/font>&lt;/font>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_jyA5oIWnEd6Lb6GZuo4wTA" name="Define the Roles the Organization requires" guid="_jyA5oIWnEd6Lb6GZuo4wTA">
+    <sectionDescription>Roles are used inside Organization to structure the organization forms. They are played by Agents</sectionDescription>
+  </sections>
+  <sections xmi:id="_lddHwIWnEd6Lb6GZuo4wTA" name="Define the Knowledge that is used by the Organization" guid="_lddHwIWnEd6Lb6GZuo4wTA">
+    <sectionDescription>As an Organization is considered as specialization of Agent, it may also act as autonomous entity and it may use Knowledge&#xD;
+as part of its deliberation process</sectionDescription>
+  </sections>
+  <purpose>Used to define social grouping within JADE</purpose>
+</org.eclipse.epf.uma:TaskDescription>

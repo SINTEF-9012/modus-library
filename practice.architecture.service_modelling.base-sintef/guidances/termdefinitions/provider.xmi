@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-HQ0-RYoqJfw_DmkOmDnqyg" name="new_term_definition,_aissIJzbEeCjAYLMIp9ZDA" guid="-HQ0-RYoqJfw_DmkOmDnqyg">
+  <mainDescription>&lt;p>&#xD;
+    Provider models the type of a service provider in a consumer/provider relationship. A provider is then used as the type&#xD;
+    of a role in a service contract and the type of a port on a participant.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A «Provider» models the interface provided by the provider of a service. The provider of the service delivers the&#xD;
+    results of the service interaction. The provider will normally be the one that responds to the service interaction.&#xD;
+    Provider interfaces are used in as the type of a «ServiceContract» and are bound by the terms and conditions of that&#xD;
+    service contract.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The «Provider» interface is intended to be used as the port type of a participant that provides a service.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

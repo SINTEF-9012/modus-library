@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-n3cxc3UxAjMqyWjmmQIddA" name="define_business_information,_nWZiQObrEd-nztBGQnvNAA" guid="-n3cxc3UxAjMqyWjmmQIddA" changeDate="2010-11-03T02:43:07.324+0100">
+  <mainDescription>&lt;p>&#xD;
+    Methods and techniques:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The Business Resource Model is generally prepared at the same time as the associated Business Process &amp;amp; Roles&#xD;
+        model, and methods and techniques used are similar, i.e. activities that include brain-storming sessions,&#xD;
+        structured workshops, interviews and feed-back sessions, and detailed modelling using a UML tool.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The Resources that are of concern to the business will mostly, but not entirely, be discovered from consideration&#xD;
+        of the things that have to happen in the business (as contained in the Business Process Model). All resources&#xD;
+        either make those things happen, or are involved in those things that happen, in that, what happens, happens to&#xD;
+        them.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        In addition, reference should be made to, and consistency maintained with, the Context Statement, since that is a&#xD;
+        representation at a high level of all the main things of interest to the Product.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The set of business concepts are then refined into a class model, at the level of detail being considered which&#xD;
+        defines the interesting attributes of and relationships between all the resources (both actors and artefacts)&#xD;
+        identified in the Business Process Model.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The conceptual model used is the same as for the Business Process model, namely the Business Modelling Conceptual&#xD;
+        Model, with additional freedom to add any relevant associations, attributes and state machines, as provided by&#xD;
+        standard UML.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Packaging of this class model is a modelling choice, but dependencies can be reduced by confining resources to the&#xD;
+        communities with which they are involved. Thus, each «Community» package would contain two packages, one with the&#xD;
+        relevant Business Process Model, the other with the relevant Business Resource Model.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <sections xmi:id="_IljOwObsEd-nztBGQnvNAA" name="1. Create an information diagram." guid="_IljOwObsEd-nztBGQnvNAA">
+    <sectionDescription>Create a UML class diagram. This diagram will be used for describing&amp;nbsp;the details of a&amp;nbsp;business process. If the&#xD;
+business model contains many business processes you may think about creating a class diagram describing the information for&#xD;
+each business process.</sectionDescription>
+  </sections>
+  <sections xmi:id="_R7lKAObsEd-nztBGQnvNAA" name="2. Create classes representing the dataobjects in the business process and link them using type by associations." guid="_R7lKAObsEd-nztBGQnvNAA"/>
+  <sections xmi:id="_WQ6_UOb8Ed-nztBGQnvNAA" name="3. Refine the classes." guid="_WQ6_UOb8Ed-nztBGQnvNAA">
+    <sectionDescription>&lt;p>&#xD;
+    The information modelled here does not need to be complete. It may be sufficient to just link the class to a particular&#xD;
+    information standard or just describe the most important properties of the dataobjects.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To identify and define the business information that flows between tasks and pools in the business processes.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-r7nrBJh5WszCP-2bLgXzhQ" name="new_term_definition,_UGvVUJzbEeCjAYLMIp9ZDA" guid="-r7nrBJh5WszCP-2bLgXzhQ">
+  <mainDescription>&lt;p>&#xD;
+    A participant is the type of a provider and/or consumer of services.&amp;nbsp; In the business domain a participant may be&#xD;
+    a person, organization or system.&amp;nbsp; In the systems domain a participant may be a system, application or component.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Participant represents some (possibly concrete) party or component that provides and/or consumes services –&#xD;
+    participants may represent people, organizations or systems that provide and/or use services. A Participant is a&#xD;
+    service provider if it offers a service. A Participant is a service consumer if it uses a service – a participant may&#xD;
+    provide or consume any number of services. Service consumer and provider are roles Participants play: the role of&#xD;
+    providers in some services and consumers in others, depending on the capabilities they provide and the needs they have&#xD;
+    to carry out their capabilities. Since most consumers and providers have both services and requests, Participant is&#xD;
+    used to model both.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Participants have ports. These ports may use the «Service» and «Request» stereotypes which are the interaction points&#xD;
+    where services are offered or consumed respectively. Internally a participant may specify a behavior, a business&#xD;
+    process or a more granular service contract as a Participant Architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A concrete Participant may participate in and/or adhere to any number of services architectures. A composite structure&#xD;
+    is generally used to define the concrete sub-components of the participant.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The full scope of a SOA is realized when the relationship between participants is described using a services&#xD;
+    architecture. A services architecture shows how participants work together for a purpose, providing and using services.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

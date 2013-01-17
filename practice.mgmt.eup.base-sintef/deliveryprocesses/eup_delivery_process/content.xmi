@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-6yUhXwf_ENLr4GNoodFPQA" name="Elaboration,_67nykXtsEd6pqPlgZ3tDbA" guid="-6yUhXwf_ENLr4GNoodFPQA">
+    <mainDescription>&lt;p>&#xD;
+    The elaboration phase is where the project starts to take shape. In this phase the problem domain analysis is made and&#xD;
+    the architecture of the project gets its basic form. The key domain analysis for the elaboration is system&#xD;
+    architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This phase must pass the Lifecycle Architecture Milestone by the following criteria:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A use-case model in which the use-cases and the actors have been identified and most of the use-case descriptions&#xD;
+        are developed. The use-case model should be 80% complete.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A description of the software architecture in a software system development process.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        An executable architecture that realizes architecturally significant use cases.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Business case and risk list which are revised.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A development plan for the overall project.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Prototypes that demonstrably mitigate each identified technical risk.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    If the project cannot pass this milestone, there is still time for it to be canceled or redesigned. After leaving this&#xD;
+    phase, the project transitions into a high-risk operation where changes are much more difficult and detrimental when&#xD;
+    made.&#xD;
+&lt;/p></mainDescription>
+    <purpose>The primary objective is to mitigate the key risk items identified by analysis up to the end of this phase.</purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:BreakdownElementDescription xmi:id="-X2I9qsZyLe1SX4rWPw7W3A" name=",_F2ggoIDwEd6lNYuk36nUnQ" guid="-X2I9qsZyLe1SX4rWPw7W3A"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-rtKL8kJePlFOdV76i7xmug" name="Construction,_8BEXsXtsEd6pqPlgZ3tDbA" guid="-rtKL8kJePlFOdV76i7xmug">
+    <mainDescription>&lt;p>&#xD;
+    In this phase, the main focus goes to the development of components and other features of the system being designed.&#xD;
+    This is the phase when the bulk of the coding takes place. In larger projects, several construction iterations may be&#xD;
+    developed in an effort to divide the use cases into manageable segments that produce demonstrable prototypes.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This phase produces the first external release of the software. Its conclusion is marked by the Initial Operational&#xD;
+    Capability Milestone.&#xD;
+&lt;/p></mainDescription>
+    <purpose>The primary objective is to build the software system.</purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-2oNe6RlMly-rUUjzTLK_gw" name="Inception,_9AGLwXtsEd6pqPlgZ3tDbA" guid="-2oNe6RlMly-rUUjzTLK_gw">
+    <mainDescription>&lt;p>&#xD;
+    In this phase the business case which includes business context, success factors (expected revenue, market recognition,&#xD;
+    etc), and financial forecast is established. To complement the business case, a basic use case model, project plan,&#xD;
+    initial risk assessment and project description (the core project requirements, constraints and key features are&#xD;
+    generated.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The phase must pass the&amp;nbsp;Lifecycle Objective Milestone by the following criteria:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Stakeholder concurrence on scope definition and cost/schedule estimates.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Requirements understanding as evidenced by the fidelity of the primary use cases.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Credibility of the cost/schedule estimates, priorities, risks, and development process.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Depth and breadth of any architectural prototype that was developed.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Establishing a baseline by which to compare actual expenditures versus planned expenditures.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    If the project does not pass this milestone&amp;nbsp;it can either be cancelled or it can repeat this phase after being&#xD;
+    redesigned to better meet the criteria.&#xD;
+&lt;/p></mainDescription>
+    <purpose>The primary objective is to scope the system adequately as a basis for validating initial costing and budgets.</purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:BreakdownElementDescription xmi:id="-M3g8SfpzkoQKgj8BkIgYyw" name=",_3HjY4IDvEd6lNYuk36nUnQ" guid="-M3g8SfpzkoQKgj8BkIgYyw"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-YWWzHQT4spXmhkwgwUWDOw" name="Transition,__I-84YDoEd6lNYuk36nUnQ" guid="-YWWzHQT4spXmhkwgwUWDOw">
+    <mainDescription>&lt;p>&#xD;
+    The activities of this phase include training of the end users and maintainers and beta testing of the system to&#xD;
+    validate it against the end users' expectations. The product is also checked against the quality level set in the&#xD;
+    Inception phase.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If all objectives are met, the Product Release Milestone is reached and the development cycle ends.&#xD;
+&lt;/p></mainDescription>
+    <purpose>The primary objective is to 'transition' the system from the development into production, making it available to and&#xD;
+understood by the end user.</purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-X4mJOdASNU6QeRl56H0Sow" name="Production,_fotPb4D3Ed6lNYuk36nUnQ" guid="-X4mJOdASNU6QeRl56H0Sow">
+    <mainDescription>&lt;p>&#xD;
+    This process will differ from organization to organization and perhaps even from system to system, but the fundamental&#xD;
+    goal remains the same: keep the system running and help users to use it. Shrink-wrapped software, for example, will not&#xD;
+    require operational support but will typically require a help desk to assist users. Organizations that implement&#xD;
+    systems for internal use will usually require an operational staff to run and monitor systems. The Production phase,&#xD;
+    like the rest of the EUP, requires each organization to tailor it to meet their specific needs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Production phase ends when the release of a system has been slated for retirement or when support for that release&#xD;
+    has ended. The latter may occur immediately upon the release of a newer version, some time after the release of a newer&#xD;
+    version, or simply on a date that the business has decided to end support. The Release Retirement milestone, described&#xD;
+    in detail in a later section, is the final approval for a release to exit the production phase.&#xD;
+&lt;/p>This phase typically has one iteration because it applies to the operational lifetime of a single release of your&#xD;
+software. There may be multiple iterations, however, if you defined multiple levels of support that your software will have&#xD;
+over time.</mainDescription>
+    <purpose>The goal of the Production phase is to keep systems useful and productive after they have been deployed to the user&#xD;
+community.</purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-GZxyoEuKj3HqCS6u9_ZxEg" name="Retirement,_fotPbYD3Ed6lNYuk36nUnQ" guid="-GZxyoEuKj3HqCS6u9_ZxEg">
+    <mainDescription>&lt;p>&#xD;
+    System releases are removed from production for several reasons, including:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The system is being complete replaced. It is not uncommon to see homegrown systems for human resource functions&#xD;
+        being replaced by COTS systems such as SAP (www.sap.com) or Oracle Financials (www.oracle.com).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The release is no longer to be supported. Sometimes organizations will have several releases in production at the&#xD;
+        same time, and over time older releases are dropped.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The system no longer needed to support the current business model. A organization may explore a new business area&#xD;
+        by developing new systems only to discover that it is not cost effective.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The system is redundant. Organizations that grow by mergers and/or acquisitions often end up with redundant systems&#xD;
+        as they consolidate their operations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The system has become obsolete.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In most cases, the retirement of older releases is a handled during the deployment of a newer version of the system and&#xD;
+    is a relatively simple exercise. Typically, the deployment of the new release includes steps to remove the previous&#xD;
+    release. There are times, however, when you do not retire a release simply because you deploy a newer version. This may&#xD;
+    happen if you can not require users to migrate to the new release or if you must maintain an older system for backward&#xD;
+    compatibility.&lt;br />&#xD;
+    &lt;br />&#xD;
+    The final retirement of a system can be a different matter. In this case you cannot rely on a newer version of your&#xD;
+    system being available to supply the functionality which you are retiring. Instead this functionality, and the data&#xD;
+    which supports it, is either implemented by another system (often in a very different manner to the end user) or is&#xD;
+    completely removed. The implication is that you may have significant rework to do in order to update the other systems&#xD;
+    which interface to this functionality. Final retirement of a system is typically executed in parallel with the&#xD;
+    implementation of other system(s) which are replacing it, such as when an internally-developed system is replaced by a&#xD;
+    commercial off the shelf (COTS) solution. In these situations the two efforts must be closely coordinated and may even&#xD;
+    be staffed by the same personnel.&#xD;
+&lt;/p></mainDescription>
+    <purpose>&lt;p>&#xD;
+    The goal of this phase is the removal of a system release from production, and occasionally even the complete system&#xD;
+    itself, an activity also known as system decommissioning or system sunsetting. Retirement of systems is a serious issue&#xD;
+    faced by many organizations today as legacy systems are removed and replaced by new systems. You must strive to&#xD;
+    complete this effort with minimal impact to business operations.&#xD;
+&lt;/p></purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-ejeHRnSAcwr_wxvviTF8lw" name="StatoilHydro Methodology,_XmV8gXtrEd6pqPlgZ3tDbA" guid="-ejeHRnSAcwr_wxvviTF8lw"/>
+</xmi:XMI>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-0Mi8dok8BSHzJ__g7mTCAg" name="new_example,_CEkZIJwGEeCxNIYmmT7D_A" guid="-0Mi8dok8BSHzJ__g7mTCAg" changeDate="2011-08-12T15:43:38.256+0200">
+  <mainDescription>&lt;h3>&#xD;
+    Value Delivery Modeling Language (VDML):&amp;nbsp;Collaboration diagram example&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./resources/vdml_collaboration_diagram.png&quot; width=&quot;424&quot; height=&quot;278&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In the diagram, ovals represent roles, rectangles represent collaborations and the rounded rectangle represents an&#xD;
+    actor/person. The arrows indicate containment, so an arrow into a collaboration indicates a role in the collaboration,&#xD;
+    and an arrow into a role indicates participation in that role. Thus the Claims Processing Department is in a&#xD;
+    subordinate role of the XYZ Company, and Fred is in an Employee role of XYZ Company, and as such is in a Claims Agent&#xD;
+    role in the Claims Processing Department. As a Claims Agent he participates in a Quality Reviewer role of the Work Team&#xD;
+    collaboration, and as a Quality Reviewer, he is in a Member role of the Quality Committee collaboration.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

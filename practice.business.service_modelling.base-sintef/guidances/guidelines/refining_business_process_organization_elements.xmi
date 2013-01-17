@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-wRgZpLjleA3hVV1-J5N2ZQ" name="new_guideline,_4S9OsKGjEeC1A-PuG6Rlow" guid="-wRgZpLjleA3hVV1-J5N2ZQ">
+  <mainDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Another traditional requirement of process modelling is to be able to model the organization roles or units that are&#xD;
+    involved in the execution of a process. This requirement is realized in BPMN through various constructs:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;strong>Pool:&lt;/strong> A pool acts as a container for a process, each one representing a participant.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;strong>Participants:&lt;/strong> Participants define a general business role, e.g., a buyer, seller, shipper or&#xD;
+            supplier, or they can represent a specific business entity.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;strong>Lanes:&lt;/strong> Lanes create sub-partitions for the objects within a pool and often represent internal&#xD;
+            business roles within a process.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    However, since BPMN is constrained to support only the concepts of modelling that are applicable to business processes,&#xD;
+    also definition of organizational models and resources is out of scope for BPMN. We therefore introduce an extension to&#xD;
+    BPMN that uses SoaML participants to detail the organization roles used in the business process diagrams. Class&#xD;
+    diagrams will be used for defining the SoaML participants.&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            Define your main organization units and their internal roles. Go through your business process diagrams and map&#xD;
+            the pools, participants and lanes to SoaML participants. It is recommended to group the organization unit and&#xD;
+            any associated internal roles within a UML package. Within these packages create UML class diagrams where you&#xD;
+            define the SoaML participants. These participants should be linked with the pools and lanes in the BPMN&#xD;
+            diagrams in order to maintain consistency between the BPMN and SoaML models.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            Indicate whether these participants represents an organization unit (e.g. company or department), a&#xD;
+            organization roles (e.g. chief engineer or secretary), a specific software system or undecided. In some cases&#xD;
+            we see that business process models define a specific lane as interacting with a planned or existing software&#xD;
+            system. In the business perspective of an SOA we are focused on the participants that use and require software&#xD;
+            services, while in the IT perspective of an SOA we are focused on the specifications of the software components&#xD;
+            that provide the software services. In SoaML the concept of a participant is used to represent both of these&#xD;
+            aspects.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

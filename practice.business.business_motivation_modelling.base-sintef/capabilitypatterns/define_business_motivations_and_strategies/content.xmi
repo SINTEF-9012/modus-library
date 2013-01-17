@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-4qwi3oCeJYgvy5mpET_-aA" name="BMM_Modelling,_To-EkYDoEd6lNYuk36nUnQ" guid="-4qwi3oCeJYgvy5mpET_-aA">
+    <mainDescription>This capability pattern defines the guided procedure for specifying business motivations and strategies.</mainDescription>
+    <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To specify the&amp;nbsp;business motivations and strategies.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-VJSLZyPI4BCmwpuSsSF_PQ" name="Define_business_rules,_xhJb0DwBEd-wzrbdBPyHjA" guid="-VJSLZyPI4BCmwpuSsSF_PQ">
+    <refinedDescription>&lt;p>&#xD;
+    This task defines the guided procedure for specifying business rules.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Business Rules Model allows specifying the operational constraints and limitations.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-DUZhWEC4pJwBiM9rOn430Q" name="Define_business_dictionary,_xhJb0TwBEd-wzrbdBPyHjA" guid="-DUZhWEC4pJwBiM9rOn430Q">
+    <refinedDescription>&lt;p>&#xD;
+    This task defines the guided procedure for specifying a business dictionary model. This model is necessary to define&#xD;
+    the terminology used.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Dictionary Model defines terms and relations between them. The terms are specified with textual descriptions, while&#xD;
+    relations between the terms are represented with links in a specific Dictionary Diagram.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-XZZKAAgkdG5CJz9REZ409Q" name="Define_business_goals,_xhJb0jwBEd-wzrbdBPyHjA" guid="-XZZKAAgkdG5CJz9REZ409Q">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>The purpose of the BMM is to agree&#xD;
+    with the business stakeholders the business goals that will be met by implementing the service-oriented architecture,&#xD;
+    so that a set of required high level business processes can be identified for further analysis. BMM provides a scheme&#xD;
+    or structure for developing, communicating, and managing business plans in an organized manner.&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>In particular, the BMM supports&#xD;
+    the&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+    face=&quot;NimbusRomNo9L-Regu&quot;>following:&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>It identifies factors that&#xD;
+            motivate the establishment of business plans.&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>It identifies and defines the&#xD;
+            elements of business plans.&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>It indicates how all these&#xD;
+            factors and elements inter-relate.&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>Among these elements you find&#xD;
+    business policies and business rule that provide&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+    face=&quot;NimbusRomNo9L-Regu&quot;>governance for and guidance to the business. Once produced and agreed, the BMM&lt;/font>&lt;/font>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>serves as a reference that ensures&#xD;
+    that a full assessment may be made of all the&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+    face=&quot;NimbusRomNo9L-Regu&quot;>business implications of any proposed changes to the service-oriented&#xD;
+    architecture.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>The specification of the goals and&#xD;
+    company’s motivations are defined in a business goals diagram. The goals can be structured by applying containers&#xD;
+    within the BMM model. The containers contain one or more goals diagrams in which you can define the goals and their&#xD;
+    relationships.&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dYkPF4zV-RQlpkFoDzsisQ" name="Define_business_requirements,_xhJb0zwBEd-wzrbdBPyHjA" guid="-dYkPF4zV-RQlpkFoDzsisQ">
+    <refinedDescription>&lt;p>&#xD;
+    This task defines the guided procedure for identifying and specifying business requirements. This model is used to&#xD;
+    specify the requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Requirements Model defines the requirements, their relations and relevant use cases.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_zk6Oh6DQN_e7WPItCgaaQ" name="bmm_business_rules_model,_vSDEROZpEd-5YeUvCnM2dQ" guid="-_zk6Oh6DQN_e7WPItCgaaQ">
+    <refinedDescription>Rules are illustrated in rule diagrams and they consist of rule elements. They are hierarchically integrated by&#xD;
+connections, so there are special subsets for conditions, statements, keywords and connectors. Those are specialised sets&#xD;
+of connectors (xor, or, and), keywords (if, then, else, check), conditions and statements. The last two concepts can have&#xD;
+atomic entities. Keywords decide the further rule flow. &lt;br />&#xD;
+Checks can be used to proof specific states during the rule flow. The rule concept is aligned to the business motivation&#xD;
+model to implement the motivation, which follows some strategy. The implementation of processes according to the rule can&#xD;
+be found in the statement element. When a statement is true, then the underlying process will be executed.&amp;nbsp;</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

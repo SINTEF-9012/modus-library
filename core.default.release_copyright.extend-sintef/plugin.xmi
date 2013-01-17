@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9GXosBoNEd6-1oAFrrP8yQ" guid="_9GXosBoNEd6-1oAFrrP8yQ">
+    <resourceDescriptors xmi:id="_NSV-8U8-Ed60J7bp6UBzQg" id="-83UXw8ckdpsvoAl4Byogwg" uri="customcategories/Levels.xmi"/>
+    <resourceDescriptors xmi:id="_Ot1FgU8-Ed60J7bp6UBzQg" id="-C3fZ9yfE3d_8qhnulwFwJA" uri="customcategories/CIM.xmi"/>
+    <resourceDescriptors xmi:id="_PjneAU8-Ed60J7bp6UBzQg" id="-2_7tO0rk5Fhma7tKlKNZJQ" uri="customcategories/CIM2PIM.xmi"/>
+    <resourceDescriptors xmi:id="_QqF94U8-Ed60J7bp6UBzQg" id="-RKv1z7NF--8r2fOc1D4_Uw" uri="customcategories/PIM.xmi"/>
+    <resourceDescriptors xmi:id="_R-kdgU8-Ed60J7bp6UBzQg" id="-CAJd-y2GXUvlVd-DmIn_Zg" uri="customcategories/PIM2PSM.xmi"/>
+    <resourceDescriptors xmi:id="_TLm4YU8-Ed60J7bp6UBzQg" id="-7YhYHbJjnhnA7QXkISNGPg" uri="customcategories/PSM.xmi"/>
+    <resourceDescriptors xmi:id="_EavNUBwNEeG4w6WhFaGTMQ" id="-Bm-AbKOWWpHa3MiBpmiPOw" uri="guidances/supportingmaterials/sintef_copyright.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_9FeQ0BoNEd6-1oAFrrP8yQ" name="core.default.release_copyright.extend-sintef" guid="_9FeQ0BoNEd6-1oAFrrP8yQ" briefDescription="This plugin defines the default copyright for SINTEF plugins." authors="Brian Elvesæter (SINTEF)" changeDate="2010-10-18T14:54:26.669+0200" changeDescription="0.1: Initial outline." version="0.1" copyrightStatement="_GeXK0Na8Ed-d6Ia20mQhAw">
+    <methodElementProperty xmi:id="_j4Kf4NeMEd-Mq_S1iaxctg" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9FeQ0RoNEd6-1oAFrrP8yQ" name="Content" guid="_9FeQ0RoNEd6-1oAFrrP8yQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9FeQ0hoNEd6-1oAFrrP8yQ" name="Categories" guid="_9FeQ0hoNEd6-1oAFrrP8yQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9FeQ0xoNEd6-1oAFrrP8yQ" name="Domains" guid="_9FeQ0xoNEd6-1oAFrrP8yQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9FeQ1BoNEd6-1oAFrrP8yQ" name="Disciplines" guid="_9FeQ1BoNEd6-1oAFrrP8yQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9FeQ1RoNEd6-1oAFrrP8yQ" name="RoleSets" guid="_9FeQ1RoNEd6-1oAFrrP8yQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9FeQ1hoNEd6-1oAFrrP8yQ" name="WP Types" guid="_9FeQ1hoNEd6-1oAFrrP8yQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9FeQ1xoNEd6-1oAFrrP8yQ" name="Tools" guid="_9FeQ1xoNEd6-1oAFrrP8yQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9FeQ2BoNEd6-1oAFrrP8yQ" name="StandardCategories" guid="_9FeQ2BoNEd6-1oAFrrP8yQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9FeQ2RoNEd6-1oAFrrP8yQ" name="CustomCategories" guid="_9FeQ2RoNEd6-1oAFrrP8yQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9FeQ2hoNEd6-1oAFrrP8yQ" name="Hidden" guid="_9FeQ2hoNEd6-1oAFrrP8yQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9FnawBoNEd6-1oAFrrP8yQ" name="Custom Categories" guid="_9FnawBoNEd6-1oAFrrP8yQ" categorizedElements="_MRYRME8-Ed60J7bp6UBzQg _Wz5NsE8-Ed60J7bp6UBzQg"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_MRYRME8-Ed60J7bp6UBzQg" name="levels" guid="_MRYRME8-Ed60J7bp6UBzQg" presentationName="Ascpects" briefDescription="Ascpects of the SHAPE reference matrix" categorizedElements="_OhKigE8-Ed60J7bp6UBzQg _PjT8AE8-Ed60J7bp6UBzQg _QeULsE8-Ed60J7bp6UBzQg _R9-noE8-Ed60J7bp6UBzQg _TLAbcE8-Ed60J7bp6UBzQg">
+            <presentation xmi:id="-83UXw8ckdpsvoAl4Byogwg" href="uma://-83UXw8ckdpsvoAl4Byogwg#-83UXw8ckdpsvoAl4Byogwg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_OhKigE8-Ed60J7bp6UBzQg" name="cim" guid="_OhKigE8-Ed60J7bp6UBzQg" presentationName="CIM" briefDescription="The Computation Independent Model ">
+            <presentation xmi:id="-C3fZ9yfE3d_8qhnulwFwJA" href="uma://-C3fZ9yfE3d_8qhnulwFwJA#-C3fZ9yfE3d_8qhnulwFwJA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_PjT8AE8-Ed60J7bp6UBzQg" name="cim2pim" guid="_PjT8AE8-Ed60J7bp6UBzQg" presentationName="CIM2PIM" briefDescription="The transformation from CIM to PIM model">
+            <presentation xmi:id="-2_7tO0rk5Fhma7tKlKNZJQ" href="uma://-2_7tO0rk5Fhma7tKlKNZJQ#-2_7tO0rk5Fhma7tKlKNZJQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_QeULsE8-Ed60J7bp6UBzQg" name="pim" guid="_QeULsE8-Ed60J7bp6UBzQg" presentationName="PIM">
+            <presentation xmi:id="-RKv1z7NF--8r2fOc1D4_Uw" href="uma://-RKv1z7NF--8r2fOc1D4_Uw#-RKv1z7NF--8r2fOc1D4_Uw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_R9-noE8-Ed60J7bp6UBzQg" name="pim2psm" guid="_R9-noE8-Ed60J7bp6UBzQg" presentationName="PIM2PSM" briefDescription="Transformation layer between PIM and PSM models">
+            <presentation xmi:id="-CAJd-y2GXUvlVd-DmIn_Zg" href="uma://-CAJd-y2GXUvlVd-DmIn_Zg#-CAJd-y2GXUvlVd-DmIn_Zg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_TLAbcE8-Ed60J7bp6UBzQg" name="psm" guid="_TLAbcE8-Ed60J7bp6UBzQg" presentationName="PSM" briefDescription="System architecture model for realization on a specific&#xD;&#xA;technology platform, system engineer perspectives.">
+            <presentation xmi:id="-7YhYHbJjnhnA7QXkISNGPg" href="uma://-7YhYHbJjnhnA7QXkISNGPg#-7YhYHbJjnhnA7QXkISNGPg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Wz5NsE8-Ed60J7bp6UBzQg" name="aspects" guid="_Wz5NsE8-Ed60J7bp6UBzQg" presentationName="Aspects" briefDescription="The aspect of the SHAPE reference matrix"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9FnawRoNEd6-1oAFrrP8yQ" name="CoreContent" guid="_9FnawRoNEd6-1oAFrrP8yQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BLY1UNa8Ed-d6Ia20mQhAw" name="sintef_copyright" guid="_BLY1UNa8Ed-d6Ia20mQhAw" presentationName="Copyright">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_GeXK0Na8Ed-d6Ia20mQhAw" name="sintef_copyright" guid="_GeXK0Na8Ed-d6Ia20mQhAw" shapeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif" nodeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif">
+            <methodElementProperty xmi:id="_JouH4CdYEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <presentation xmi:id="-Bm-AbKOWWpHa3MiBpmiPOw" href="uma://-Bm-AbKOWWpHa3MiBpmiPOw#-Bm-AbKOWWpHa3MiBpmiPOw"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9FnawhoNEd6-1oAFrrP8yQ" name="CapabilityPatterns" guid="_9FnawhoNEd6-1oAFrrP8yQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9FnawxoNEd6-1oAFrrP8yQ" name="DeliveryProcesses" guid="_9FnawxoNEd6-1oAFrrP8yQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9FnaxBoNEd6-1oAFrrP8yQ" name="ProcessContributions" guid="_9FnaxBoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_BGi8IQeREeCk4NIWYgM-Lg" guid="_BGi8IQeREeCk4NIWYgM-Lg">
+    <resourceDescriptors xmi:id="_BGi8IgeREeCk4NIWYgM-Lg" id="-KR1UN4jKAVvbz9Z3ZKfvFA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_WcBr8QeREeCk4NIWYgM-Lg" id="-rPlU16XkaV-E8fy3TzDQAg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_eD-UwQeREeCk4NIWYgM-Lg" id="-5SBqCyiT6xYMcEsTMOC_DA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_eEIFwAeREeCk4NIWYgM-Lg" id="-M1KLSYQimJ1VFaDaNswQ2g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_eEIFwQeREeCk4NIWYgM-Lg" id="-oey5QLfwvLId1Puvlf1frQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_BEBMkAeREeCk4NIWYgM-Lg" name="adaptation_modelling" guid="_BEBMkAeREeCk4NIWYgM-Lg">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_VGe1UAeREeCk4NIWYgM-Lg" name="identify_variability_and_context" guid="_VGe1UAeREeCk4NIWYgM-Lg" presentationName="Identify variability and context" briefDescription="This task explains how to identify the relevant variants and context elements that drive the adaptation of the system" isPlanned="false" superActivities="_BEBMkQeREeCk4NIWYgM-Lg" optionalInput="_VGe1UweREeCk4NIWYgM-Lg" output="_VGe1VQeREeCk4NIWYgM-Lg _VGe1VweREeCk4NIWYgM-Lg" performedPrimarilyBy="_VGe1UQeREeCk4NIWYgM-Lg">
+      <presentation xmi:id="-rPlU16XkaV-E8fy3TzDQAg" href="uma://-KR1UN4jKAVvbz9Z3ZKfvFA#-rPlU16XkaV-E8fy3TzDQAg"/>
+      <Task href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_sdnm8OzOEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_VGe1UQeREeCk4NIWYgM-Lg" name="adaptation_logic_modeller" guid="_VGe1UQeREeCk4NIWYgM-Lg" presentationName="Adaptation logic modeller" briefDescription="This person is responsible for specifying the adaptation logic of the DiVA system, i.e. how the system adapts to changes in context." isPlanned="false" superActivities="_BEBMkQeREeCk4NIWYgM-Lg" modifies="_VGe1VQeREeCk4NIWYgM-Lg _VGe1VweREeCk4NIWYgM-Lg _VHrIIQeREeCk4NIWYgM-Lg _VHhXJweREeCk4NIWYgM-Lg _VHhXJAeREeCk4NIWYgM-Lg" responsibleFor="_VHrIIQeREeCk4NIWYgM-Lg _VHhXJweREeCk4NIWYgM-Lg _VHhXJAeREeCk4NIWYgM-Lg _VHhXIQeREeCk4NIWYgM-Lg _VGe1VweREeCk4NIWYgM-Lg _VGe1VQeREeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_VGe1UgeREeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#__53b0AOZEeCKOY6tSwZy2A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_VGe1UweREeCk4NIWYgM-Lg" name="requirements_model" guid="_VGe1UweREeCk4NIWYgM-Lg" presentationName="Requirements model" briefDescription="This model contains the information about variability and adaptation of the system. It is realised by a feature model which contains information about the variability, context, and functional and non-functional goals." isPlanned="false" superActivities="_BEBMkQeREeCk4NIWYgM-Lg" deliverableParts="_VHOcMQeREeCk4NIWYgM-Lg _VHOcNAeREeCk4NIWYgM-Lg _VHOcNweREeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_VGe1VAeREeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_iESMoNxcEd-LYKXkOhPACw#_2t4YUOG2Ed-AyrTFSpVP8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_VGe1VQeREeCk4NIWYgM-Lg" name="context_model" guid="_VGe1VQeREeCk4NIWYgM-Lg" presentationName="Context model" briefDescription="The context elements that affect system adaptation" isPlanned="false" superActivities="_BEBMkQeREeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_VGe1VgeREeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_c9aQIOzIEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_VGe1VweREeCk4NIWYgM-Lg" name="variant_model" guid="_VGe1VweREeCk4NIWYgM-Lg" presentationName="Variant model" briefDescription="This work product contains the variability of the system, i.e. the parts of the system that can change during adaptation." isPlanned="false" superActivities="_BEBMkQeREeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_VGe1WAeREeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_g5Y9gOzIEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_VHOcMQeREeCk4NIWYgM-Lg" name="context" guid="_VHOcMQeREeCk4NIWYgM-Lg" presentationName="Context" briefDescription="We need to be able to relate the identified context entities to the features/goals that are affected by this context." isPlanned="false">
+      <methodElementProperty xmi:id="_VHOcMgeREeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_7IO30O2rEd--BOZpIYnXRA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_VHOcNAeREeCk4NIWYgM-Lg" name="feature_model" guid="_VHOcNAeREeCk4NIWYgM-Lg" presentationName="Feature model" briefDescription="The feature model is generated based on automatic analysis of natural language in the ArborCraft tool, then it is refined in subsequent steps. " isPlanned="false">
+      <methodElementProperty xmi:id="_VHOcNQeREeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_pUl3EO2rEd--BOZpIYnXRA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_VHOcNweREeCk4NIWYgM-Lg" name="goal" guid="_VHOcNweREeCk4NIWYgM-Lg" presentationName="Goals" briefDescription="While feature models can reflect the set of available functions, a system needs to be justified in terms of stakeholder needs and wishes. Goal models justify existence of all functional requirements (hard goals) and quality measures (soft goals) of a software system in terms of stakeholder intentions. This approach is supported by ArborCraftExt (through its integrated EA-Miner component)." isPlanned="false">
+      <methodElementProperty xmi:id="_VHOcOAeREeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_uNNy4O2rEd--BOZpIYnXRA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_VHhXIQeREeCk4NIWYgM-Lg" name="architecture_model" guid="_VHhXIQeREeCk4NIWYgM-Lg" presentationName="Architecture model" briefDescription="This deliverable constitutes the DiVA adaptation model that is used at runtime to drive system adaptation" isPlanned="false" superActivities="_BEBMkQeREeCk4NIWYgM-Lg" deliverableParts="_VGe1VweREeCk4NIWYgM-Lg _VGe1VQeREeCk4NIWYgM-Lg _VHrIIQeREeCk4NIWYgM-Lg _VHhXJweREeCk4NIWYgM-Lg _VHhXJAeREeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_VHhXIgeREeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_iESMoNxcEd-LYKXkOhPACw#_vIqTYOG2Ed-AyrTFSpVP8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_VHhXJAeREeCk4NIWYgM-Lg" name="adaptation_policies" guid="_VHhXJAeREeCk4NIWYgM-Lg" presentationName="Adaptation policies" briefDescription="This artifact contains the adaptation policies of the adaptation model, i.e. Properties, QoS impacts and Priority rules" isPlanned="false" superActivities="_BEBMkQeREeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_VHhXJQeREeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_sa1qoOzMEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_VHhXJweREeCk4NIWYgM-Lg" name="constraints_model" guid="_VHhXJweREeCk4NIWYgM-Lg" presentationName="Constraints model" briefDescription="The constraints on the variability and context of the adaptation model, to control number of possible configurations." isPlanned="false" superActivities="_BEBMkQeREeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_VHhXKAeREeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_pAFbAOzMEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_VHrIIQeREeCk4NIWYgM-Lg" name="test_cases" guid="_VHrIIQeREeCk4NIWYgM-Lg" presentationName="Test cases" briefDescription="Test cases are defined and used to test the adaptation model." isPlanned="false" superActivities="_BEBMkQeREeCk4NIWYgM-Lg">
+      <methodElementProperty xmi:id="_VHrIIgeREeCk4NIWYgM-Lg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_kqpooOzIEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_YfCFgAeREeCk4NIWYgM-Lg" name="define_test_cases" guid="_YfCFgAeREeCk4NIWYgM-Lg" presentationName="Define test cases" briefDescription="This task explains how to define the test cases that will drive the test-driven and iterative development of the adaptation model" isPlanned="false" superActivities="_BEBMkQeREeCk4NIWYgM-Lg" linkToPredecessor="_bBL5MAeREeCk4NIWYgM-Lg" mandatoryInput="_VGe1VQeREeCk4NIWYgM-Lg _VGe1VweREeCk4NIWYgM-Lg" output="_VHrIIQeREeCk4NIWYgM-Lg" performedPrimarilyBy="_VGe1UQeREeCk4NIWYgM-Lg">
+      <presentation xmi:id="-5SBqCyiT6xYMcEsTMOC_DA" href="uma://-KR1UN4jKAVvbz9Z3ZKfvFA#-5SBqCyiT6xYMcEsTMOC_DA"/>
+      <Task href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_rAfhoOzOEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ZJ9R0AeREeCk4NIWYgM-Lg" name="model_constraints" guid="_ZJ9R0AeREeCk4NIWYgM-Lg" presentationName="Model constraints" briefDescription="This task details how to model the constraints on the adaptation model" isPlanned="false" superActivities="_BEBMkQeREeCk4NIWYgM-Lg" linkToPredecessor="_bfSxgAeREeCk4NIWYgM-Lg" mandatoryInput="_VGe1VQeREeCk4NIWYgM-Lg _VGe1VweREeCk4NIWYgM-Lg" optionalInput="_VHrIIQeREeCk4NIWYgM-Lg" output="_VHhXJweREeCk4NIWYgM-Lg" performedPrimarilyBy="_VGe1UQeREeCk4NIWYgM-Lg">
+      <presentation xmi:id="-M1KLSYQimJ1VFaDaNswQ2g" href="uma://-KR1UN4jKAVvbz9Z3ZKfvFA#-M1KLSYQimJ1VFaDaNswQ2g"/>
+      <Task href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_OJJtcOzPEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ZclS4AeREeCk4NIWYgM-Lg" name="define_adaptation_policies" guid="_ZclS4AeREeCk4NIWYgM-Lg" presentationName="Define adaptation policies" briefDescription="This task describes how to define the adaptation policies" isPlanned="false" superActivities="_BEBMkQeREeCk4NIWYgM-Lg" mandatoryInput="_VGe1VQeREeCk4NIWYgM-Lg _VGe1VweREeCk4NIWYgM-Lg" optionalInput="_VHhXJweREeCk4NIWYgM-Lg _VHrIIQeREeCk4NIWYgM-Lg" output="_VHhXJAeREeCk4NIWYgM-Lg" performedPrimarilyBy="_VGe1UQeREeCk4NIWYgM-Lg">
+      <presentation xmi:id="-oey5QLfwvLId1Puvlf1frQ" href="uma://-KR1UN4jKAVvbz9Z3ZKfvFA#-oey5QLfwvLId1Puvlf1frQ"/>
+      <Task href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_Rt4YcOzPEd--R6Ia0d6GOQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_bBL5MAeREeCk4NIWYgM-Lg" guid="_bBL5MAeREeCk4NIWYgM-Lg" pred="_VGe1UAeREeCk4NIWYgM-Lg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_bfSxgAeREeCk4NIWYgM-Lg" guid="_bfSxgAeREeCk4NIWYgM-Lg" pred="_YfCFgAeREeCk4NIWYgM-Lg"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_BEBMkQeREeCk4NIWYgM-Lg" name="adaptation_modelling" guid="_BEBMkQeREeCk4NIWYgM-Lg" presentationName="Adapatation modelling" briefDescription="This capability pattern defines the guided procedure for specifying the adaptation logic of a DiVA system." breakdownElements="_VGe1UAeREeCk4NIWYgM-Lg _VGe1UQeREeCk4NIWYgM-Lg _VGe1UweREeCk4NIWYgM-Lg _VGe1VQeREeCk4NIWYgM-Lg _VGe1VweREeCk4NIWYgM-Lg _VHhXIQeREeCk4NIWYgM-Lg _VHhXJAeREeCk4NIWYgM-Lg _VHhXJweREeCk4NIWYgM-Lg _VHrIIQeREeCk4NIWYgM-Lg _YfCFgAeREeCk4NIWYgM-Lg _ZJ9R0AeREeCk4NIWYgM-Lg _ZclS4AeREeCk4NIWYgM-Lg">
+      <presentation xmi:id="-KR1UN4jKAVvbz9Z3ZKfvFA" href="uma://-KR1UN4jKAVvbz9Z3ZKfvFA#-KR1UN4jKAVvbz9Z3ZKfvFA"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_Uw9rsAOIEeCKOY6tSwZy2A"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_Uw9rsAOIEeCKOY6tSwZy2A"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

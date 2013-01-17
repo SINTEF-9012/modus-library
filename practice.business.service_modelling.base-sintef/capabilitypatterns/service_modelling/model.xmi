@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_BDxhAVJREeG_AJV-uw1zUA" guid="_BDxhAVJREeG_AJV-uw1zUA">
+    <resourceDescriptors xmi:id="_BDxhAlJREeG_AJV-uw1zUA" id="-Kkn5Lge1XJA0UOWo75HO5A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_LJAPIVJSEeG_AJV-uw1zUA" id="-p4zFgi1HwJF1wLehDepVKw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_LJJZEFJSEeG_AJV-uw1zUA" id="-2SrZlkkL8xJ4BMFEbFae0Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_LJJZEVJSEeG_AJV-uw1zUA" id="-r_ZmAIoEhZANaXyYS6Ku_w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_LJJZElJSEeG_AJV-uw1zUA" id="-TkYEMfsK1W6dFGsB3chE4A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_LJJZE1JSEeG_AJV-uw1zUA" id="-7D4-Bioa1lu17nl7P6jhPw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_LJJZFFJSEeG_AJV-uw1zUA" id="-Iu6C2CFVJrou7awMlMHwiA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_LJJZFVJSEeG_AJV-uw1zUA" id="-lwBzLGhZ2Z-0Hx730J-zoQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_LJJZFlJSEeG_AJV-uw1zUA" id="-H_xRZhIIoutmBHl8aZBCkg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_LJJZF1JSEeG_AJV-uw1zUA" id="-qtLa4Rst9NoL5B9q1OgQiw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_LJJZGFJSEeG_AJV-uw1zUA" id="-F69nbwvP3ZD8GBNAsF4oRg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_8laX8VJTEeG_AJV-uw1zUA" id="-jmMpwX8Xm0fkza9ZA8MplQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_BDB6IFJREeG_AJV-uw1zUA" name="service_modelling" guid="_BDB6IFJREeG_AJV-uw1zUA">
+    <methodElementProperty xmi:id="_r1ax0Cm1EeK5vc5kbcw8xg" name="me_edited" value="true"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_KkZtQVJSEeG_AJV-uw1zUA" name="refine_value_network view" guid="_KkZtQVJSEeG_AJV-uw1zUA" presentationName="Refine value network view" briefDescription="This task describes how to refine the value network view for service modelling." superActivities="_BDB6IVJREeG_AJV-uw1zUA" mandatoryInput="_KkZtSVJSEeG_AJV-uw1zUA" output="_KkZtS1JSEeG_AJV-uw1zUA _KkZtRVJSEeG_AJV-uw1zUA">
+      <methodElementProperty xmi:id="_NcizECmuEeK5vc5kbcw8xg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-2SrZlkkL8xJ4BMFEbFae0Q" href="uma://-Kkn5Lge1XJA0UOWo75HO5A#-2SrZlkkL8xJ4BMFEbFae0Q"/>
+      <examples href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_93OexVJLEeG_AJV-uw1zUA"/>
+      <guidelines href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_M9VSYFF0EeGhK6PCw6rfMg"/>
+      <Task href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_HloN4VF0EeGhK6PCw6rfMg"/>
+      <selectedSteps href="uma://-wlyydI6TjXZ51i-CWkeXzw#_HloN41F0EeGhK6PCw6rfMg"/>
+      <selectedSteps href="uma://-wlyydI6TjXZ51i-CWkeXzw#_HloN4lF0EeGhK6PCw6rfMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_KkZtQ1JSEeG_AJV-uw1zUA" name="specify_service_contracts_and_choreographies" guid="_KkZtQ1JSEeG_AJV-uw1zUA" presentationName="Specify service contracts and choreographies" briefDescription="This task describes how to specify a service contract and its choreography." superActivities="_BDB6IVJREeG_AJV-uw1zUA" linkToPredecessor="_feT7YFJSEeG_AJV-uw1zUA" output="_KkZtRVJSEeG_AJV-uw1zUA _KkZtT1JSEeG_AJV-uw1zUA">
+      <methodElementProperty xmi:id="_NcnrkCmuEeK5vc5kbcw8xg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-TkYEMfsK1W6dFGsB3chE4A" href="uma://-Kkn5Lge1XJA0UOWo75HO5A#-TkYEMfsK1W6dFGsB3chE4A"/>
+      <examples href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_93OexFJLEeG_AJV-uw1zUA"/>
+      <guidelines href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_M9VSYVF0EeGhK6PCw6rfMg"/>
+      <Task href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_Hlo08FF0EeGhK6PCw6rfMg"/>
+      <selectedSteps href="uma://-bkqmI2rO4KqsFT7hi0kkfw#_Hlo09FF0EeGhK6PCw6rfMg"/>
+      <selectedSteps href="uma://-bkqmI2rO4KqsFT7hi0kkfw#_Hlo08lF0EeGhK6PCw6rfMg"/>
+      <selectedSteps href="uma://-bkqmI2rO4KqsFT7hi0kkfw#_Hlo081F0EeGhK6PCw6rfMg"/>
+      <selectedSteps href="uma://-bkqmI2rO4KqsFT7hi0kkfw#_Hlo08VF0EeGhK6PCw6rfMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_KkZtRFJSEeG_AJV-uw1zUA" name="specify_services_architectures" guid="_KkZtRFJSEeG_AJV-uw1zUA" presentationName="Specify services architectures" briefDescription="This task describes how to specify a services architecture." superActivities="_BDB6IVJREeG_AJV-uw1zUA" linkToPredecessor="_pMyAUS1SEeKyWralSrmW_A" output="_KkZtRVJSEeG_AJV-uw1zUA _KkZtUVJSEeG_AJV-uw1zUA">
+      <methodElementProperty xmi:id="_NcpgwCmuEeK5vc5kbcw8xg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-7D4-Bioa1lu17nl7P6jhPw" href="uma://-Kkn5Lge1XJA0UOWo75HO5A#-7D4-Bioa1lu17nl7P6jhPw"/>
+      <examples href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_93OexVJLEeG_AJV-uw1zUA"/>
+      <examples href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_93OewVJLEeG_AJV-uw1zUA"/>
+      <guidelines href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_M9VSYVF0EeGhK6PCw6rfMg"/>
+      <guidelines href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_M9VSYlF0EeGhK6PCw6rfMg"/>
+      <guidelines href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_M9VSYFF0EeGhK6PCw6rfMg"/>
+      <Task href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_Hlo09VF0EeGhK6PCw6rfMg"/>
+      <selectedSteps href="uma://-VAjMAIv2fxRi4fsIJaXCdw#_Hlo09lF0EeGhK6PCw6rfMg"/>
+      <selectedSteps href="uma://-VAjMAIv2fxRi4fsIJaXCdw#_Hlo0-FF0EeGhK6PCw6rfMg"/>
+      <selectedSteps href="uma://-VAjMAIv2fxRi4fsIJaXCdw#_Hlo091F0EeGhK6PCw6rfMg"/>
+      <selectedSteps href="uma://-VAjMAIv2fxRi4fsIJaXCdw#_Hlo0-VF0EeGhK6PCw6rfMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_KkZtRVJSEeG_AJV-uw1zUA" name="service_model" guid="_KkZtRVJSEeG_AJV-uw1zUA" presentationName="Service Model" isPlanned="false" superActivities="_BDB6IVJREeG_AJV-uw1zUA" deliverableParts="_KkZtS1JSEeG_AJV-uw1zUA _KkZtT1JSEeG_AJV-uw1zUA _KkZtUVJSEeG_AJV-uw1zUA">
+      <methodElementProperty xmi:id="_KkZtRlJSEeG_AJV-uw1zUA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_Nca3QCmuEeK5vc5kbcw8xg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_vDQO0FF0EeGhK6PCw6rfMg"/>
+      <deliverablePartsExclude href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_oC5KcFF0EeGhK6PCw6rfMg"/>
+      <deliverablePartsExclude href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_oC4jYFF0EeGhK6PCw6rfMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_KkZtSVJSEeG_AJV-uw1zUA" name="value_delivery_model.slot" guid="_KkZtSVJSEeG_AJV-uw1zUA" presentationName="[Value Delivery Model]" briefDescription="This work product slot represents the Value Delivery Model input." isPlanned="false" superActivities="_BDB6IVJREeG_AJV-uw1zUA">
+      <methodElementProperty xmi:id="_KkZtSlJSEeG_AJV-uw1zUA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_Ncg94CmuEeK5vc5kbcw8xg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_oC4jYVF0EeGhK6PCw6rfMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_KkZtS1JSEeG_AJV-uw1zUA" name="value_network_view" guid="_KkZtS1JSEeG_AJV-uw1zUA" presentationName="Value Network View" briefDescription="This work product specifies the refined Value Network View for service modelling." isPlanned="false" superActivities="_BDB6IVJREeG_AJV-uw1zUA">
+      <methodElementProperty xmi:id="_KkZtTFJSEeG_AJV-uw1zUA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_NcdTgCmuEeK5vc5kbcw8xg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-lwBzLGhZ2Z-0Hx730J-zoQ" href="uma://-Kkn5Lge1XJA0UOWo75HO5A#-lwBzLGhZ2Z-0Hx730J-zoQ"/>
+      <WorkProduct href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_oC4jYlF0EeGhK6PCw6rfMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_KkZtT1JSEeG_AJV-uw1zUA" name="service_contracts_and_choreographies" guid="_KkZtT1JSEeG_AJV-uw1zUA" presentationName="Service contracts and choreographies" briefDescription="This work product specifies the services contracts and choreographies." isPlanned="false" superActivities="_BDB6IVJREeG_AJV-uw1zUA">
+      <methodElementProperty xmi:id="_KkZtUFJSEeG_AJV-uw1zUA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_NccFYCmuEeK5vc5kbcw8xg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-qtLa4Rst9NoL5B9q1OgQiw" href="uma://-Kkn5Lge1XJA0UOWo75HO5A#-qtLa4Rst9NoL5B9q1OgQiw"/>
+      <examples href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_93OexFJLEeG_AJV-uw1zUA"/>
+      <WorkProduct href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_oC5KcVF0EeGhK6PCw6rfMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_KkZtUVJSEeG_AJV-uw1zUA" name="services_architectures" guid="_KkZtUVJSEeG_AJV-uw1zUA" presentationName="Services architectures" briefDescription="This work product specifies the services architectures." isPlanned="false" superActivities="_BDB6IVJREeG_AJV-uw1zUA">
+      <methodElementProperty xmi:id="_KkZtUlJSEeG_AJV-uw1zUA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_Ncd6kCmuEeK5vc5kbcw8xg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-F69nbwvP3ZD8GBNAsF4oRg" href="uma://-Kkn5Lge1XJA0UOWo75HO5A#-F69nbwvP3ZD8GBNAsF4oRg"/>
+      <examples href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_93OexVJLEeG_AJV-uw1zUA"/>
+      <WorkProduct href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_oC5KclF0EeGhK6PCw6rfMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_feT7YFJSEeG_AJV-uw1zUA" guid="_feT7YFJSEeG_AJV-uw1zUA" pred="_KkZtRFJSEeG_AJV-uw1zUA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_xSYkhFJTEeG_AJV-uw1zUA" name="business_architecture_model" guid="_xSYkhFJTEeG_AJV-uw1zUA" presentationName="Business architecture model" briefDescription="This work product defines the business view of the service-oriented architecture in a platform-indepent manner." isPlanned="false" superActivities="_BDB6IVJREeG_AJV-uw1zUA" deliverableParts="_xSYkh1JTEeG_AJV-uw1zUA _xSYkilJTEeG_AJV-uw1zUA _xSYkjVJTEeG_AJV-uw1zUA _xSYkkFJTEeG_AJV-uw1zUA _xSYkk1JTEeG_AJV-uw1zUA">
+      <methodElementProperty xmi:id="_xSYkhVJTEeG_AJV-uw1zUA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_Ncqu4CmuEeK5vc5kbcw8xg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-jmMpwX8Xm0fkza9ZA8MplQ" href="uma://-Kkn5Lge1XJA0UOWo75HO5A#-jmMpwX8Xm0fkza9ZA8MplQ"/>
+      <guidelines href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_sU8lcKnBEd6i-6W-cB2-Qw"/>
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_Ckb_MKGcEeCo46MenWbwvA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_xSYkh1JTEeG_AJV-uw1zUA" name="business_goals" guid="_xSYkh1JTEeG_AJV-uw1zUA" presentationName="Business goals" briefDescription="This work product specifies the business goals." isPlanned="false">
+      <methodElementProperty xmi:id="_xSYkiFJTEeG_AJV-uw1zUA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_NcuZQCmuEeK5vc5kbcw8xg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <examples href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_uqMwMKJdEeCKp9wzOHzvHg"/>
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_vwgbkKGaEeCo46MenWbwvA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_xSYkilJTEeG_AJV-uw1zUA" name="business_processes" guid="_xSYkilJTEeG_AJV-uw1zUA" presentationName="Business processes" briefDescription="This work product specifies the refined business processes suitable for SOA modelling." isPlanned="false">
+      <methodElementProperty xmi:id="_xSYki1JTEeG_AJV-uw1zUA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_Ncr9ACmuEeK5vc5kbcw8xg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <examples href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_U5EqUKLzEeCs2vaY4B2J3g"/>
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_yelLYKGaEeCo46MenWbwvA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_xSYkjVJTEeG_AJV-uw1zUA" name="capabilities" guid="_xSYkjVJTEeG_AJV-uw1zUA" presentationName="Capabilites" briefDescription="This work product specifies the capabilities." isPlanned="false">
+      <methodElementProperty xmi:id="_xSYkjlJTEeG_AJV-uw1zUA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_NctyMCmuEeK5vc5kbcw8xg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <examples href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_P6qH4Cd9Ed-WoP7PlhRWug"/>
+      <examples href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_NBwBYKL2EeCs2vaY4B2J3g"/>
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_oSVZ0KGaEeCo46MenWbwvA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_xSYkkFJTEeG_AJV-uw1zUA" name="services_architectures" guid="_xSYkkFJTEeG_AJV-uw1zUA" presentationName="Services architectures" briefDescription="This work product specifies the services architectures." isPlanned="false">
+      <methodElementProperty xmi:id="_xSYkkVJTEeG_AJV-uw1zUA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_NcskECmuEeK5vc5kbcw8xg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <examples href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_4Ol00Cd0Ed-WoP7PlhRWug"/>
+      <examples href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_scbNoKL4EeCs2vaY4B2J3g"/>
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_1hVKsKGaEeCo46MenWbwvA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_xSYkk1JTEeG_AJV-uw1zUA" name="service_contracts_and_choreographies" guid="_xSYkk1JTEeG_AJV-uw1zUA" presentationName="Service contracts and choreographies" briefDescription="This work product specifies the services contracts and choreographies." isPlanned="false">
+      <methodElementProperty xmi:id="_xSYklFJTEeG_AJV-uw1zUA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_NctLICmuEeK5vc5kbcw8xg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <examples href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_E-iloKMGEeCs2vaY4B2J3g"/>
+      <examples href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_r1fNUCd4Ed-WoP7PlhRWug"/>
+      <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_4rEi0KGaEeCo46MenWbwvA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ghLUAS0DEeKyWralSrmW_A" name="case_management_model" guid="_ghLUAS0DEeKyWralSrmW_A" presentationName="Case Management Model" isPlanned="false" superActivities="_BDB6IVJREeG_AJV-uw1zUA" deliverableParts="_ghUd8S0DEeKyWralSrmW_A">
+      <methodElementProperty xmi:id="_ghLUAi0DEeKyWralSrmW_A" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_ghUd8y0DEeKyWralSrmW_A" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_aOXL0CdVEeKDGNEPRzZzCg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ghUd8S0DEeKyWralSrmW_A" name="case_management_submodel" guid="_ghUd8S0DEeKyWralSrmW_A" presentationName="Case management submodel" isPlanned="false">
+      <methodElementProperty xmi:id="_ghUd8i0DEeKyWralSrmW_A" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_ghUd9C0DEeKyWralSrmW_A" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <examples href="uma://_FU5nEMcTEd-2_-I8Ok7trA#_cYo_UJwFEeCxNIYmmT7D_A"/>
+      <guidelines href="uma://_FU5nEMcTEd-2_-I8Ok7trA#_hipjUMKXEeCQKuG3dPvCNA"/>
+      <WorkProduct href="uma://_FU5nEMcTEd-2_-I8Ok7trA#_MBvtUKF_EeCKTcfDSRMRtw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_pMyAUS1SEeKyWralSrmW_A" guid="_pMyAUS1SEeKyWralSrmW_A" pred="_KkZtQVJSEeG_AJV-uw1zUA"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_BDB6IVJREeG_AJV-uw1zUA" name="service_modelling" guid="_BDB6IVJREeG_AJV-uw1zUA" presentationName="Service modelling" breakdownElements="_KkZtQVJSEeG_AJV-uw1zUA _KkZtQ1JSEeG_AJV-uw1zUA _KkZtRFJSEeG_AJV-uw1zUA _KkZtRVJSEeG_AJV-uw1zUA _KkZtSVJSEeG_AJV-uw1zUA _KkZtS1JSEeG_AJV-uw1zUA _KkZtT1JSEeG_AJV-uw1zUA _KkZtUVJSEeG_AJV-uw1zUA _xSYkhFJTEeG_AJV-uw1zUA _ghLUAS0DEeKyWralSrmW_A">
+      <presentation xmi:id="-Kkn5Lge1XJA0UOWo75HO5A" href="uma://-Kkn5Lge1XJA0UOWo75HO5A#-Kkn5Lge1XJA0UOWo75HO5A"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_2mBPIFGUEeGhK6PCw6rfMg"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_2mBPIFGUEeGhK6PCw6rfMg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

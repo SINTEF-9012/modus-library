@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-VAjMAIv2fxRi4fsIJaXCdw" name="Specify_services_architecture,_IbzfwC5uEd6lwuZlFT8K0A" guid="-VAjMAIv2fxRi4fsIJaXCdw" authors="Brian Elvesæter (SINTEF), Cyril Carrez (SINTEF), Svein G. Johnsen (SINTEF)" changeDate="2011-06-30T11:06:20.567+0200" changeDescription="0.4: Revised description according to SoaML methodology book chapter.|0.3: Revised description.|0.2: Revised and aligned with new set of work products defined in the framework library.|0.1: Initial outline." version="0.4">
+  <mainDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Services architectures are modelled as UML collaborations with the stereotype &amp;lt;&amp;lt;ServicesArchitecture&amp;gt;&amp;gt;. A&#xD;
+    services architecture has components at two levels of granularity:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            The community services architecture is a ”top level” view of how independent participants work together for&#xD;
+            some purpose. The services architecture of a community does not assume or require any single controlling entity&#xD;
+            or process.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            A participant may also have a participant services architecture, which specifies how parts of that participant&#xD;
+            (e.g., departments within an organization) work together to provide the services of the owning participant.&#xD;
+            Participants that realize this specification must adhere to the architecture it specifies.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    We recommend to create a UML package for each services architecture.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_Hlo09lF0EeGhK6PCw6rfMg" name="1. Create a service architecture." guid="_Hlo09lF0EeGhK6PCw6rfMg">
+    <sectionDescription>&lt;p>&#xD;
+    Create a UML Collaboration with the&amp;nbsp;stereotype&amp;nbsp;&amp;lt;&amp;lt;ServicesArchitecture&amp;gt;&amp;gt; which specifies the&#xD;
+    services architecture. This empty services architecture will be further refined in the following steps. We advice to&#xD;
+    create a separate diagram for each services architecture.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Hlo0-FF0EeGhK6PCw6rfMg" name="2. Identify the participants." guid="_Hlo0-FF0EeGhK6PCw6rfMg">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Participants are modelled as UML classes stereotyped &amp;lt;&amp;lt;Participant&amp;gt;&amp;gt;. Participants are identified from&#xD;
+    pools, participants and lanes specified in the BPMN processes.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Identify the different participants involved in the services architecture. If the architecture&amp;nbsp;is complex (i.e.,&#xD;
+    with more than two participants), the designer can use a composite structure diagram involving only the participants&#xD;
+    taking part of the service.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Hlo091F0EeGhK6PCw6rfMg" name="3. Identify the service contracts." guid="_Hlo091F0EeGhK6PCw6rfMg">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Identify the possible interactions between the different participants. The interactions are represented as service&#xD;
+    contracts. A service contract is a UML collaboration with the stereotype &amp;lt;&amp;lt;ServiceContract&amp;gt;&amp;gt;. In this step&#xD;
+    you will only specify an empty UML collaboration. The detailing of the service contracts are&amp;nbsp;further elaborated in&#xD;
+    the task &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.architecture.service_modelling.base-sintef/tasks/specify_service_contracts_and_choreographies_1FE05204.html&quot;&#xD;
+     guid=&quot;_Hlo08FF0EeGhK6PCw6rfMg&quot;>Specify service contracts and choreographies&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Hlo0-VF0EeGhK6PCw6rfMg" name="4. Specify the services architecture." guid="_Hlo0-VF0EeGhK6PCw6rfMg">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Once all service contracts and participants have been identified, the service designer can use them to build the&#xD;
+    service architecture. Roles in the UML collaboration are typed by the identified participants, while UML collaboration&#xD;
+    uses are linked to the service contracts. The modeller has to bind the different roles to the appropriate collaboration&#xD;
+    uses, hence specifying how participants will interact.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To specify a services architecture.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

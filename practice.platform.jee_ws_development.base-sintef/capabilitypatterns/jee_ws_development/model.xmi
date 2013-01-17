@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_z54iIJ1wEeCOw7xpsfr5Cw" guid="_z54iIJ1wEeCOw7xpsfr5Cw">
+    <resourceDescriptors xmi:id="_z54iIZ1wEeCOw7xpsfr5Cw" id="-LVsiX3dNFV-u_roetFBE4g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_z56XUJ1wEeCOw7xpsfr5Cw" id="-EpiayidLfgN2pawHc9Kdzg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_z56-YJ1wEeCOw7xpsfr5Cw" id="-iJkB_zhm-5pPKzxSPv3yXg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_z57lcJ1wEeCOw7xpsfr5Cw" id="-DeAOAVpOk_uJSf5XQIdTtQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_DSfyUaGMEeC6m4lNxCxazg" id="-32pnfc7b7h7u17QHN6zrrA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_DSfyUqGMEeC6m4lNxCxazg" id="-ssaMmtkvhbOpyaq-T5xmJg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_DSpjUKGMEeC6m4lNxCxazg" id="-dlfvZWHRXtwt4tRWCHyo1w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_DSpjUaGMEeC6m4lNxCxazg" id="--KdleG80AQX-3fHyIuj6_A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_DSpjUqGMEeC6m4lNxCxazg" id="-8GikFTSLQOaP_CrQGZVdVQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_DSpjU6GMEeC6m4lNxCxazg" id="-VWJsQx7nvOfZXT6XRKckOg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_DSpjVKGMEeC6m4lNxCxazg" id="-c3-M859oKPf0Lsg6q_iP-g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_NpFysaGMEeC6m4lNxCxazg" id="-YwUn8nqUOHnzngYC7qTOKw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_NsVB0RQoEeG7hs90RB7LQA" id="-Rub6hIJwFXMXXhczIp_C3Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_NsVB0hQoEeG7hs90RB7LQA" id="-V2yhY5OjqjHz0sVgr-gQTw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_7lYMQJzCEeCwZfi5IJDs5w" name="jee_ws_development" guid="_7lYMQJzCEeCwZfi5IJDs5w">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-pNJoJzCEeCwZfi5IJDs5w" name="implement_web_service" guid="_-pNJoJzCEeCwZfi5IJDs5w" presentationName="Implement Web service" briefDescription="This task describes how to implement a Web service using JEE technologies." superActivities="_7lYMQZzCEeCwZfi5IJDs5w" linkToPredecessor="_nXn7UBQoEeG7hs90RB7LQA" optionalInput="_g1iYAdVWEeCSuohv1oAxXQ _g1jmIdVWEeCSuohv1oAxXQ" output="_g1jmIdVWEeCSuohv1oAxXQ" performedPrimarilyBy="_-pOXwJzCEeCwZfi5IJDs5w">
+      <presentation xmi:id="-LVsiX3dNFV-u_roetFBE4g" href="uma://-LVsiX3dNFV-u_roetFBE4g#-LVsiX3dNFV-u_roetFBE4g"/>
+      <toolmentor href="uma://_Psr-oNhIEd-luNMZUPxfLg#_z-hi0H0HEd63rfdoUaFg2Q"/>
+      <toolmentor href="uma://_Psr-oNhIEd-luNMZUPxfLg#_u7V2UBQmEeG7hs90RB7LQA"/>
+      <Task href="uma://_Psr-oNhIEd-luNMZUPxfLg#_8PZewH0FEd63rfdoUaFg2Q"/>
+      <selectedSteps href="uma://-nMclbOQDXTQ_4EkuJx0Ggg#_30eEMH0IEd63rfdoUaFg2Q"/>
+      <selectedSteps href="uma://-nMclbOQDXTQ_4EkuJx0Ggg#_498NsH0IEd63rfdoUaFg2Q"/>
+      <selectedSteps href="uma://-nMclbOQDXTQ_4EkuJx0Ggg#_OAy8cH0JEd63rfdoUaFg2Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-pOXwJzCEeCwZfi5IJDs5w" name="system_developer" guid="_-pOXwJzCEeCwZfi5IJDs5w" presentationName="System developer" briefDescription="This is the worker who builds the services." isPlanned="false" superActivities="_7lYMQZzCEeCwZfi5IJDs5w" modifies="_g13IIdVWEeCSuohv1oAxXQ _g1iYAdVWEeCSuohv1oAxXQ _g1jmIdVWEeCSuohv1oAxXQ">
+      <methodElementProperty xmi:id="_z59aoJ1wEeCOw7xpsfr5Cw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-EpiayidLfgN2pawHc9Kdzg" href="uma://-LVsiX3dNFV-u_roetFBE4g#-EpiayidLfgN2pawHc9Kdzg"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJxhntEd6VV7P4WguglA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_TKhRkJzDEeCwZfi5IJDs5w" name="deploy_web_service" guid="_TKhRkJzDEeCwZfi5IJDs5w" presentationName="Deploy Web service" briefDescription="This task describes how to deploy a Web service." superActivities="_7lYMQZzCEeCwZfi5IJDs5w" linkToPredecessor="_rm1GsRQoEeG7hs90RB7LQA _sPJD4RQoEeG7hs90RB7LQA _sscq8RQoEeG7hs90RB7LQA" mandatoryInput="_g1iYAdVWEeCSuohv1oAxXQ _g1jmIdVWEeCSuohv1oAxXQ" output="_g13IIdVWEeCSuohv1oAxXQ" performedPrimarilyBy="_-pOXwJzCEeCwZfi5IJDs5w">
+      <presentation xmi:id="-iJkB_zhm-5pPKzxSPv3yXg" href="uma://-LVsiX3dNFV-u_roetFBE4g#-iJkB_zhm-5pPKzxSPv3yXg"/>
+      <toolmentor href="uma://_Psr-oNhIEd-luNMZUPxfLg#_-10M0JzDEeCwZfi5IJDs5w"/>
+      <toolmentor href="uma://_Psr-oNhIEd-luNMZUPxfLg#_YfzewJzEEeCwZfi5IJDs5w"/>
+      <Task href="uma://_Psr-oNhIEd-luNMZUPxfLg#_Vctw4H0IEd63rfdoUaFg2Q"/>
+      <selectedSteps href="uma://-r2DHkv5Q5-gjTn_K0QiKoA#_9Ez8cH0IEd63rfdoUaFg2Q"/>
+      <selectedSteps href="uma://-r2DHkv5Q5-gjTn_K0QiKoA#_-oqU0H0IEd63rfdoUaFg2Q"/>
+      <selectedSteps href="uma://-r2DHkv5Q5-gjTn_K0QiKoA#_CdM9cH0JEd63rfdoUaFg2Q"/>
+      <selectedSteps href="uma://-r2DHkv5Q5-gjTn_K0QiKoA#_IhHAoH0JEd63rfdoUaFg2Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Ie6M0KGMEeC6m4lNxCxazg" name="generate_web_service" guid="_Ie6M0KGMEeC6m4lNxCxazg" presentationName="Generate Web service" briefDescription="This task describes how to generate a skeleton Web service to be used in the implementation task." superActivities="_7lYMQZzCEeCwZfi5IJDs5w" mandatoryInput="_g1hJ4dVWEeCSuohv1oAxXQ" output="_g1iYAdVWEeCSuohv1oAxXQ _g1jmIdVWEeCSuohv1oAxXQ" performedPrimarilyBy="_-pOXwJzCEeCwZfi5IJDs5w">
+      <presentation xmi:id="-YwUn8nqUOHnzngYC7qTOKw" href="uma://-LVsiX3dNFV-u_roetFBE4g#-YwUn8nqUOHnzngYC7qTOKw"/>
+      <toolmentor href="uma://_Psr-oNhIEd-luNMZUPxfLg#_kH0d8H0JEd63rfdoUaFg2Q"/>
+      <toolmentor href="uma://_Psr-oNhIEd-luNMZUPxfLg#_pyapQH0JEd63rfdoUaFg2Q"/>
+      <toolmentor href="uma://_Psr-oNhIEd-luNMZUPxfLg#_NpoBYKGQEeC6m4lNxCxazg"/>
+      <Task href="uma://_Psr-oNhIEd-luNMZUPxfLg#_ScnBgKGLEeC6m4lNxCxazg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_g1hJ4dVWEeCSuohv1oAxXQ" name="architecture_model" guid="_g1hJ4dVWEeCSuohv1oAxXQ" presentationName="Architecture model" isPlanned="false" superActivities="_7lYMQZzCEeCwZfi5IJDs5w">
+      <methodElementProperty xmi:id="_g1hJ4tVWEeCSuohv1oAxXQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_iESMoNxcEd-LYKXkOhPACw#_vIqTYOG2Ed-AyrTFSpVP8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_g1iYAdVWEeCSuohv1oAxXQ" name="web_service_description" guid="_g1iYAdVWEeCSuohv1oAxXQ" presentationName="Web service description" isPlanned="false" superActivities="_7lYMQZzCEeCwZfi5IJDs5w" deliverableParts="_g15kYdVWEeCSuohv1oAxXQ _g16ygdVWEeCSuohv1oAxXQ _g18AodVWEeCSuohv1oAxXQ">
+      <methodElementProperty xmi:id="_g1iYAtVWEeCSuohv1oAxXQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Psr-oNhIEd-luNMZUPxfLg#_TjlMMKIxEeCuT8KNYAZ7Ug"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_g1jmIdVWEeCSuohv1oAxXQ" name="web_service_implementation" guid="_g1jmIdVWEeCSuohv1oAxXQ" presentationName="Web service implementation" isPlanned="false" superActivities="_7lYMQZzCEeCwZfi5IJDs5w" deliverableParts="_s0_8QRQjEeG7hs90RB7LQA _s0_8RBQjEeG7hs90RB7LQA _s0_8RxQjEeG7hs90RB7LQA">
+      <methodElementProperty xmi:id="_g1jmItVWEeCSuohv1oAxXQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Psr-oNhIEd-luNMZUPxfLg#_cAZngKIxEeCuT8KNYAZ7Ug"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_g13IIdVWEeCSuohv1oAxXQ" name="deployed_web_service" guid="_g13IIdVWEeCSuohv1oAxXQ" presentationName="Deployed Web service" isPlanned="false" superActivities="_7lYMQZzCEeCwZfi5IJDs5w">
+      <methodElementProperty xmi:id="_g13IItVWEeCSuohv1oAxXQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Psr-oNhIEd-luNMZUPxfLg#_m2dIIKGOEeC6m4lNxCxazg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_g15kYdVWEeCSuohv1oAxXQ" name="ws_bpel_document" guid="_g15kYdVWEeCSuohv1oAxXQ" presentationName="BPEL Document" briefDescription="BPEL Document." isPlanned="false">
+      <methodElementProperty xmi:id="_g15kYtVWEeCSuohv1oAxXQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Psr-oNhIEd-luNMZUPxfLg#_xt7OUIW8Ed6DneKAlTqFLQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_g16ygdVWEeCSuohv1oAxXQ" name="ws_wsdl_document" guid="_g16ygdVWEeCSuohv1oAxXQ" presentationName="WSDL Document" briefDescription="WSDL Document." isPlanned="false">
+      <methodElementProperty xmi:id="_g16ygtVWEeCSuohv1oAxXQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Psr-oNhIEd-luNMZUPxfLg#_m44XUIGeEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_g18AodVWEeCSuohv1oAxXQ" name="ws_xsd_document" guid="_g18AodVWEeCSuohv1oAxXQ" presentationName="XSD Document" briefDescription="XSD Document." isPlanned="false">
+      <methodElementProperty xmi:id="_g18AotVWEeCSuohv1oAxXQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Psr-oNhIEd-luNMZUPxfLg#_-4Jz4IGeEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s0_8QRQjEeG7hs90RB7LQA" name="jee_jar_file" guid="_s0_8QRQjEeG7hs90RB7LQA" presentationName="Java Archive file" briefDescription="Java Archive file." isPlanned="false">
+      <methodElementProperty xmi:id="_s0_8QhQjEeG7hs90RB7LQA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Psr-oNhIEd-luNMZUPxfLg#_u3k-IIGcEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s0_8RBQjEeG7hs90RB7LQA" name="jee_java_source_file" guid="_s0_8RBQjEeG7hs90RB7LQA" presentationName="Java source file" briefDescription="Java source file." isPlanned="false">
+      <methodElementProperty xmi:id="_s0_8RRQjEeG7hs90RB7LQA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Psr-oNhIEd-luNMZUPxfLg#_u3k-IYGcEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s0_8RxQjEeG7hs90RB7LQA" name="jee_war_file" guid="_s0_8RxQjEeG7hs90RB7LQA" presentationName="Web Archive file." briefDescription="Web Archive file." isPlanned="false">
+      <methodElementProperty xmi:id="_s0_8SBQjEeG7hs90RB7LQA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Psr-oNhIEd-luNMZUPxfLg#_u3k-IoGcEd6tqIeaIOtuNA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_L6q28BQoEeG7hs90RB7LQA" name="implement_javaserver_faces" guid="_L6q28BQoEeG7hs90RB7LQA" presentationName="Implement JavaServer Faces" briefDescription="This task describes how to implement the Web tier using JavaServer Faces." superActivities="_7lYMQZzCEeCwZfi5IJDs5w" linkToPredecessor="_mKHmYBQoEeG7hs90RB7LQA" performedPrimarilyBy="_-pOXwJzCEeCwZfi5IJDs5w">
+      <presentation xmi:id="-Rub6hIJwFXMXXhczIp_C3Q" href="uma://-LVsiX3dNFV-u_roetFBE4g#-Rub6hIJwFXMXXhczIp_C3Q"/>
+      <toolmentor href="uma://_Psr-oNhIEd-luNMZUPxfLg#_uNKFMBQnEeG7hs90RB7LQA"/>
+      <toolmentor href="uma://_Psr-oNhIEd-luNMZUPxfLg#_z-hi0H0HEd63rfdoUaFg2Q"/>
+      <Task href="uma://_Psr-oNhIEd-luNMZUPxfLg#_64dvoBQmEeG7hs90RB7LQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_MdoaEBQoEeG7hs90RB7LQA" name="implement_java_persistence" guid="_MdoaEBQoEeG7hs90RB7LQA" presentationName="Implement Java Persistence" briefDescription="This task describes how to implement the Persistence tier using Java Persistence." superActivities="_7lYMQZzCEeCwZfi5IJDs5w" linkToPredecessor="_n8EsMRQoEeG7hs90RB7LQA" performedPrimarilyBy="_-pOXwJzCEeCwZfi5IJDs5w">
+      <presentation xmi:id="-V2yhY5OjqjHz0sVgr-gQTw" href="uma://-LVsiX3dNFV-u_roetFBE4g#-V2yhY5OjqjHz0sVgr-gQTw"/>
+      <toolmentor href="uma://_Psr-oNhIEd-luNMZUPxfLg#_kdsWQBQnEeG7hs90RB7LQA"/>
+      <toolmentor href="uma://_Psr-oNhIEd-luNMZUPxfLg#_z-hi0H0HEd63rfdoUaFg2Q"/>
+      <Task href="uma://_Psr-oNhIEd-luNMZUPxfLg#_W2uKQBQnEeG7hs90RB7LQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_mKHmYBQoEeG7hs90RB7LQA" guid="_mKHmYBQoEeG7hs90RB7LQA" pred="_Ie6M0KGMEeC6m4lNxCxazg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_nXn7UBQoEeG7hs90RB7LQA" guid="_nXn7UBQoEeG7hs90RB7LQA" pred="_Ie6M0KGMEeC6m4lNxCxazg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_n8EsMRQoEeG7hs90RB7LQA" guid="_n8EsMRQoEeG7hs90RB7LQA" pred="_Ie6M0KGMEeC6m4lNxCxazg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_rm1GsRQoEeG7hs90RB7LQA" guid="_rm1GsRQoEeG7hs90RB7LQA" pred="_-pNJoJzCEeCwZfi5IJDs5w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_sPJD4RQoEeG7hs90RB7LQA" guid="_sPJD4RQoEeG7hs90RB7LQA" pred="_MdoaEBQoEeG7hs90RB7LQA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_sscq8RQoEeG7hs90RB7LQA" guid="_sscq8RQoEeG7hs90RB7LQA" pred="_L6q28BQoEeG7hs90RB7LQA"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_7lYMQZzCEeCwZfi5IJDs5w" name="jee_ws_development" guid="_7lYMQZzCEeCwZfi5IJDs5w" presentationName="JEE Web Services development" breakdownElements="_Ie6M0KGMEeC6m4lNxCxazg _L6q28BQoEeG7hs90RB7LQA _-pNJoJzCEeCwZfi5IJDs5w _-pOXwJzCEeCwZfi5IJDs5w _MdoaEBQoEeG7hs90RB7LQA _TKhRkJzDEeCwZfi5IJDs5w _g1hJ4dVWEeCSuohv1oAxXQ _g1iYAdVWEeCSuohv1oAxXQ _g1jmIdVWEeCSuohv1oAxXQ _g13IIdVWEeCSuohv1oAxXQ">
+      <presentation xmi:id="-DeAOAVpOk_uJSf5XQIdTtQ" href="uma://-LVsiX3dNFV-u_roetFBE4g#-DeAOAVpOk_uJSf5XQIdTtQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-9ohIae5jg7J5zU6C-cpqDw" name=",_hT2vIHwlEd6zE6DaMH4mBQ" guid="-9ohIae5jg7J5zU6C-cpqDw" authors="Christian Hahn" changeDate="2009-08-11T11:32:00.784+0200" changeDescription="Initial input" version="0.1">
+  <mainDescription>&lt;P>&lt;SPAN lang=EN-GB style=&quot;mso-ansi-language: EN-GB&quot;>A &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Team&lt;/SPAN> is a specialization of an &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Agent&lt;/SPAN> that is a distinct reasoning entity which is characterized by the &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Roles&lt;/SPAN> it performs (i.e. to play &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Roles&lt;/SPAN> in other &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Teams&lt;/SPAN> as well) and/or the &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Roles&lt;/SPAN> it requires others to perform. The formation of a given &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Team&lt;/SPAN> is achieved by attaching sub-teams capable of performing the &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Roles&lt;/SPAN> required by the &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Team&lt;/SPAN> to achieve a common goal. By filling the required &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Roles&lt;/SPAN>, a &lt;SPAN style=&quot;mso-bidi-font-style: italic&quot;>Team&lt;/SPAN> can delegate tasks to its team members. &lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P></mainDescription>
+  <sections xmi:id="_jTMh8HwrEd6zE6DaMH4mBQ" name="Define Teams" guid="_jTMh8HwrEd6zE6DaMH4mBQ">
+    <sectionDescription>&lt;p>&#xD;
+    Teams in JACK are used to form social units consisting of several Agents/Teams.&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Define the name of the Team&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></sectionDescription>
+  </sections>
+  <sections xmi:id="_G1w6oIWEEd6Lb6GZuo4wTA" name="Define Roles that are required" guid="_G1w6oIWEEd6Lb6GZuo4wTA">
+    <sectionDescription>To build the Team structure, the Team defines a set of Roles that are required by the Team itself and performed by other&#xD;
+(atomic) Teams.</sectionDescription>
+  </sections>
+  <sections xmi:id="_I0a_sIWEEd6Lb6GZuo4wTA" name="Define posted Events" guid="_I0a_sIWEEd6Lb6GZuo4wTA">
+    <sectionDescription>Represent the Events that are posted by the Team itself.</sectionDescription>
+  </sections>
+  <sections xmi:id="_NQI9EIWEEd6Lb6GZuo4wTA" name="Define handled Events" guid="_NQI9EIWEEd6Lb6GZuo4wTA">
+    <sectionDescription>Represent the Events that are handled by the Team itself.</sectionDescription>
+  </sections>
+  <sections xmi:id="_QMDUkIWEEd6Lb6GZuo4wTA" name="Define TeamPlans available to the Team" guid="_QMDUkIWEEd6Lb6GZuo4wTA">
+    <sectionDescription>In order to coordinate the Team member, so-called TeamPlans are used. These plans express what the different Roles required&#xD;
+by the Team need to achieve.</sectionDescription>
+  </sections>
+  <purpose>Create teams in JACK</purpose>
+</org.eclipse.epf.uma:TaskDescription>

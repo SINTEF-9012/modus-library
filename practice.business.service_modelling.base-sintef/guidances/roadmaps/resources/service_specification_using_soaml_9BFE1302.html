@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="no" xml:lang="no" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Concept: Service specification using SoaML</title>
+<meta name="uma.type" content="Concept">
+<meta name="uma.name" content="service_specification_using_soaml">
+<meta name="uma.presentationName" content="Service specification using SoaML">
+<meta name="element_type" content="concept">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_l_dVQJzZEeCjAYLMIp9ZDA"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Concept: Service specification using SoaML</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">Service specification using SoaML</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Related Elements</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.architecture.service_modelling.base-sintef/guidances/roadmaps/how_to_adopt_service_interface_and_component_modelling_5E9763A5.html" guid="_1HjfkN3YEd--Io3WTn6Mgw">How to adopt the Service interface and component modelling practice</a>
+</li>
+<li>
+<a href="./../../../practice.architecture.service_modelling.base-sintef/guidances/roadmaps/how_to_adopt_services_architecture_and_contract_modelling_88EAB9FF.html" guid="_tKI9EN3YEd--Io3WTn6Mgw">How to adopt the Services architecture and contract modelling practice</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p align="left">
+    SoaML supports different approaches to SOA. This has resulted in the definition of different but overlapping language
+    constructs in the UML profile. The specification distinguishes between three different approaches to specifying a
+    service [Elvesæter, et al. 2011]<sup>1</sup>:
+</p>
+<ul>
+    <li>
+        <div align="left">
+            The <a class="elementLink" href="./../../../practice.architecture.service_modelling.base-sintef/guidances/concepts/simple_interface_based_approach_FC8E76B1.html" guid="_W6pcQDf5Ed-Uc_4T-VlC6Q">Simple interface based approach</a>&nbsp;uses a UML interface to specify a
+            one-way service interaction.
+        </div>
+    </li>
+    <li>
+        <div align="left">
+            The <a class="elementLink" href="./../../../practice.architecture.service_modelling.base-sintef/guidances/concepts/service_contract_based_approach_433FFD9E.html" guid="_N-Gp8Df3Ed-Uc_4T-VlC6Q">Service contract based approach</a>&nbsp;extends a UML collaboration to specify
+            a binary or n-ary service interaction.
+        </div>
+    </li>
+    <li>
+        <div align="left">
+            The <a class="elementLink" href="./../../../practice.architecture.service_modelling.base-sintef/guidances/concepts/service_interface_based_approach_D895EA03.html" guid="_kJPkgDf5Ed-Uc_4T-VlC6Q">Service interface based approach</a> extends a UML class to specify a binary or
+            n-ary service interaction.
+        </div>
+    </li>
+</ul>
+<p align="left">
+    Both the service contract and service interface based approaches entail the specification of simple interfaces,
+    typically one for each of the roles participating in the service interaction. Thus a service contract or a service
+    interface can be seen as an extension of the simple interface based approach.
+</p>
+<p align="left">
+    _____
+</p>
+<p align="left">
+    <font size="1"><sup>1</sup>[Elvesæter, et al. 2011] B. Elvesæter, A.-J. Berre, and A. Sadovykh, "Specifying Services
+    using the Service oriented architecture Modeling Language (SoaML): A baseline for Specification of Cloud-based
+    Services", in Proc. of the CLOSER 2011, 2011.</font> <a href="http://www.closer.scitevents.org/CLOSER2011/"><font     size="1">http://www.closer.scitevents.org/CLOSER2011/</font></a> <font size="1">&nbsp;</font>
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    Copyright &copy; 2010-2012 <a href="http://neffics.eu/consortium/" target="_blank">The NEFFICS Consortium</a>. All rights
+    reserved.
+</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

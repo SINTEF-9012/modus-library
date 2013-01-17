@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-n0OSvPIScA_iGeZlGwPjrQ" name=",_0zuqEObrEd-nztBGQnvNAA" guid="-n0OSvPIScA_iGeZlGwPjrQ">
+  <mainDescription>&lt;p>&#xD;
+    A business process is a sequence of actions carried out by different actors working together to deliver a tangible&#xD;
+    result and bring added business value to the company. A business process model generally describes the business and not&#xD;
+    the IT system. A business process is transversal, and is generally based on several structures and applications of one&#xD;
+    or several organizations. Business process descriptions bring real business vision&amp;nbsp;and constitute an excellent&#xD;
+    formalization and analysis tool when constructing systems. In the context of a development project&amp;nbsp;they&#xD;
+    are&amp;nbsp;used in business-oriented activities related to requirements, specifications and analysis.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Business process model is derived through a set of activities that encompass brain-storming sessions, structured&#xD;
+    workshops, interviews and feed-back sessions, and detailed modelling using a BPMN2 modelling tool.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_rPmYsOb8Ed-nztBGQnvNAA" name="1. Create a process diagram." guid="_rPmYsOb8Ed-nztBGQnvNAA">
+    <sectionDescription>This diagram will be used for describing&amp;nbsp;the details of a&amp;nbsp;business process.</sectionDescription>
+  </sections>
+  <sections xmi:id="_wWmuwOb8Ed-nztBGQnvNAA" name="2. Define pools and link them to the organization units defined in the organization view." guid="_wWmuwOb8Ed-nztBGQnvNAA">
+    <sectionDescription>If you have not defined an organization unit in the&amp;nbsp;organization view make sure to do so first. See Organization&#xD;
+Modelling for further details.</sectionDescription>
+  </sections>
+  <sections xmi:id="_3D0NoOb8Ed-nztBGQnvNAA" name="3. Define lanes for the organisation units and roles participating in the business process and link them to the elements defined in the organization view." guid="_3D0NoOb8Ed-nztBGQnvNAA">
+    <sectionDescription>&lt;p>&#xD;
+    Partitions and lanes should be associated with roles or organizational units. See Organization Modelling for further&#xD;
+    details.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_81q3gOb8Ed-nztBGQnvNAA" name="4. Define the sequence of tasks and link them via flows." guid="_81q3gOb8Ed-nztBGQnvNAA">
+    <sectionDescription>&lt;p>&#xD;
+    Be sure to create a start event and an end event to connect the sequence of tasks. Use tasks if the action is a detail&#xD;
+    of the business process under consideration. Use a subprocess reference if you want to refer to another business&#xD;
+    process which have been defined as a separate BPMN process. Remember that each of the processes defined in your&#xD;
+    organization view should be modelled as separate BPMN processes.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_H993EOb8Ed-nztBGQnvNAA" name="5. Derive initial process model from business goals." guid="_H993EOb8Ed-nztBGQnvNAA">
+    <sectionDescription>&lt;p>&#xD;
+    The Business Process Model is derived directly from the Goal Model. Goals may be thought of as high level statements of&#xD;
+    the things that have to happen in a business, each expressed as an outcome, but in a way that leaves unspecified how&#xD;
+    that outcome is to be made to occur. As goal analysis proceeds, the analyst becomes aware that he or she is&#xD;
+    increasingly describing not so much a desired outcome as the means by which a higher level outcome is to be achieved,&#xD;
+    namely an enabling behaviour. The distinction between goal and behaviour to achieve a goal is inevitably blurred and to&#xD;
+    some extent subjective. The key thing to remember is that, whereas a goal is some desired state of affairs, a behaviour&#xD;
+    is a specification for something that happens, the end result of which is the desired state of affairs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Thus, the first step in creating the Business Process Model will be the identification of the enabling behaviours that&#xD;
+    have to happen for each goal to be achieved. Initially this is done through a brain-storming process and production of&#xD;
+    an unstructured list of enabling behaviours for each goal. This list is then consolidated into a single set of enabling&#xD;
+    behaviours that, together, support all goals. This is the starting point for the Business Process Model which may then&#xD;
+    be entered into the tool using the Business Process Modelling Profile.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Each Enabling Behaviour is entered into the package containing the business processes in the top level Community model&#xD;
+    as a Class stereotyped either as &amp;lt;&amp;lt;Business Process&amp;gt;&amp;gt;, where it can clearly be seen that this behaviour can&#xD;
+    be represented as a set of steps with a defined beginning and end, or, where no such approach is apparent, as a&#xD;
+    &amp;lt;&amp;lt;Behavioural Policy&amp;gt;&amp;gt;. The distinction between the two kinds of Enabling Behaviour may be subjective. The&#xD;
+    key point is that Business Processes should be capable of being expressed as a set of structured steps, each performed&#xD;
+    by some actor (resource) representing a concrete person, a machine (e.g. an IT system) or a collection of people and/&#xD;
+    or machines.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_KlyN4Ob8Ed-nztBGQnvNAA" name="6. Detailing of business processes." guid="_KlyN4Ob8Ed-nztBGQnvNAA">
+    <sectionDescription>&lt;p>&#xD;
+    Each business process that involves the Product in any way has to be detailed to the extent that, when the model is&#xD;
+    complete, the Product's role in that business process is fully understood and specified.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In general (but not exclusively), the reason for detailing a process is because the actor-resource that performs that&#xD;
+    process is a composite that includes the Product being modelled together with some other resources, not part of this&#xD;
+    development, such as a user or an interfacing system or component. Thus, it is necessary to detail both the process&#xD;
+    itself and the structure of actor resource that performs that process, and the method for detailing processes is one in&#xD;
+    which both concepts are decomposed in parallel. In short,&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the process being detailed (which may be some step in a higher level process), a thing that has to happen, is&#xD;
+        considered as consisting of a set of steps, and:&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the thing that performs that higher level step, an actor resource, is considered, at a more detailed level, as a&#xD;
+        community of resources each fulfilling a role, each role being responsible for one or more of the steps in the&#xD;
+        detailed process.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Note that the &quot;sequence&quot; or focus of doing the two decompositions listed above may be either the behaviour (processes)&#xD;
+    of the resource or its structure. It may, in a full model, be a mixture of the two. In some circumstances it may be the&#xD;
+    case that the structure and broad roles of the constituents of an actor-resource are pre-defined, in which case the&#xD;
+    appropriate approach may be to say, at the commencement of detailing some business process, &quot;Let us examine the roles&#xD;
+    played by this organisational entity (modelled as an actor-resource), and, concurrently, examine the detail of the&#xD;
+    processes in which it is involved.&quot;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Alternatively, in some circumstances, it may be more appropriate to say, &quot;We know this thing has to happen, and that&#xD;
+    this high level actor-resource makes it happen; let us examine the way it happens (i.e. the things that are done), and&#xD;
+    then identify a suitable structure for the high level actor-resource to support it.&quot;&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To identify and define the business processes the software services are to support.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

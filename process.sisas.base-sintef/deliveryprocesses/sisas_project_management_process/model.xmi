@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_6IYg8PMoEd-GSqCvii8E_g" guid="_6IYg8PMoEd-GSqCvii8E_g">
+    <resourceDescriptors xmi:id="_6IYg8fMoEd-GSqCvii8E_g" id="-ZKzLtKShsLvcp7cCQu0_eQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_dqkAAPMpEd-GSqCvii8E_g" id="-yIHJDoPIK293iBToSoCWqw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_dqoRcPMpEd-GSqCvii8E_g" id="-4CeYIjzANcKEcQC6w0rbQA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_dqqGoPMpEd-GSqCvii8E_g" id="-Wm1XU6P8QkP06wBXq3YVPQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_dqrUwPMpEd-GSqCvii8E_g" id="-gaTvfZdmmd_bfOUEPk50hw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_dqtJ8PMpEd-GSqCvii8E_g" id="-CeLE-lhhChUJw1bAzRKiDA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_dqu_IPMpEd-GSqCvii8E_g" id="-f-CpB4ylbW9C5-tymqyUJg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_dqwNQPMpEd-GSqCvii8E_g" id="-M1Br09QKM7CDyi5cp4eOYA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_dqyCcPMpEd-GSqCvii8E_g" id="-rR8mT5YL73oD8NKyZzAmaA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_dqz3oPMpEd-GSqCvii8E_g" id="-nz3whmp6A77QpzBWcIyN6A" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_6HJx4PMoEd-GSqCvii8E_g" name="sisas_project_management_process" guid="_6HJx4PMoEd-GSqCvii8E_g">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cUI_ovMpEd-GSqCvii8E_g" name="eup_delivery_process" guid="_cUI_ovMpEd-GSqCvii8E_g">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cUIYl_MpEd-GSqCvii8E_g" name="Elaboration" guid="_cUIYl_MpEd-GSqCvii8E_g">
+        <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_cUI_oPMpEd-GSqCvii8E_g" name="Elaboration" guid="_cUI_oPMpEd-GSqCvii8E_g" presentationName="Elaboration" superActivities="_cUHxgfMpEd-GSqCvii8E_g" linkToPredecessor="_cUI_ofMpEd-GSqCvii8E_g" breakdownElements="_cUIYmPMpEd-GSqCvii8E_g">
+          <presentation xmi:id="-yIHJDoPIK293iBToSoCWqw" href="uma://-ZKzLtKShsLvcp7cCQu0_eQ#-yIHJDoPIK293iBToSoCWqw"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_cUIYmPMpEd-GSqCvii8E_g" name="Lifecycle Architecture Milestone " guid="_cUIYmPMpEd-GSqCvii8E_g" presentationName="Lifecycle Architecture Milestone" superActivities="_cUI_oPMpEd-GSqCvii8E_g">
+          <presentation xmi:id="-4CeYIjzANcKEcQC6w0rbQA" href="uma://-ZKzLtKShsLvcp7cCQu0_eQ#-4CeYIjzANcKEcQC6w0rbQA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_cUI_ofMpEd-GSqCvii8E_g" guid="_cUI_ofMpEd-GSqCvii8E_g" pred="_cUHxgPMpEd-GSqCvii8E_g"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cUHxgvMpEd-GSqCvii8E_g" name="Construction" guid="_cUHxgvMpEd-GSqCvii8E_g">
+        <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_cUHxhPMpEd-GSqCvii8E_g" name="Construction" guid="_cUHxhPMpEd-GSqCvii8E_g" presentationName="Construction" superActivities="_cUHxgfMpEd-GSqCvii8E_g" linkToPredecessor="_cUHxg_MpEd-GSqCvii8E_g" breakdownElements="_cUIYkPMpEd-GSqCvii8E_g">
+          <presentation xmi:id="-Wm1XU6P8QkP06wBXq3YVPQ" href="uma://-ZKzLtKShsLvcp7cCQu0_eQ#-Wm1XU6P8QkP06wBXq3YVPQ"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_cUIYkPMpEd-GSqCvii8E_g" name="Initial Operational Capability Milestone" guid="_cUIYkPMpEd-GSqCvii8E_g" presentationName="Initial Operational Capability Milestone" superActivities="_cUHxhPMpEd-GSqCvii8E_g"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_cUHxg_MpEd-GSqCvii8E_g" guid="_cUHxg_MpEd-GSqCvii8E_g" pred="_cUI_oPMpEd-GSqCvii8E_g"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cUHKdfMpEd-GSqCvii8E_g" name="Inception" guid="_cUHKdfMpEd-GSqCvii8E_g">
+        <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_cUHxgPMpEd-GSqCvii8E_g" name="Inception" guid="_cUHxgPMpEd-GSqCvii8E_g" presentationName="Inception" superActivities="_cUHxgfMpEd-GSqCvii8E_g" breakdownElements="_cUHKdvMpEd-GSqCvii8E_g">
+          <presentation xmi:id="-gaTvfZdmmd_bfOUEPk50hw" href="uma://-ZKzLtKShsLvcp7cCQu0_eQ#-gaTvfZdmmd_bfOUEPk50hw"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_cUHKdvMpEd-GSqCvii8E_g" name="Lifecycle Objective Milestone" guid="_cUHKdvMpEd-GSqCvii8E_g" presentationName="Lifecycle Objective Milestone" superActivities="_cUHxgPMpEd-GSqCvii8E_g">
+          <presentation xmi:id="-CeLE-lhhChUJw1bAzRKiDA" href="uma://-ZKzLtKShsLvcp7cCQu0_eQ#-CeLE-lhhChUJw1bAzRKiDA"/>
+        </processElements>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cUHKcfMpEd-GSqCvii8E_g" name="Transition" guid="_cUHKcfMpEd-GSqCvii8E_g">
+        <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_cUHKc_MpEd-GSqCvii8E_g" name="Transition" guid="_cUHKc_MpEd-GSqCvii8E_g" presentationName="Transition" superActivities="_cUHxgfMpEd-GSqCvii8E_g" linkToPredecessor="_cUHKcvMpEd-GSqCvii8E_g" breakdownElements="_cUHKdPMpEd-GSqCvii8E_g">
+          <presentation xmi:id="-f-CpB4ylbW9C5-tymqyUJg" href="uma://-ZKzLtKShsLvcp7cCQu0_eQ#-f-CpB4ylbW9C5-tymqyUJg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_cUHKdPMpEd-GSqCvii8E_g" name="Product Release Milestone " guid="_cUHKdPMpEd-GSqCvii8E_g" presentationName="Product Release Milestone " superActivities="_cUHKc_MpEd-GSqCvii8E_g"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_cUHKcvMpEd-GSqCvii8E_g" guid="_cUHKcvMpEd-GSqCvii8E_g" pred="_cUHxhPMpEd-GSqCvii8E_g"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cUIYkfMpEd-GSqCvii8E_g" name="Production" guid="_cUIYkfMpEd-GSqCvii8E_g">
+        <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_cUIYk_MpEd-GSqCvii8E_g" name="Production" guid="_cUIYk_MpEd-GSqCvii8E_g" presentationName="Production" superActivities="_cUHxgfMpEd-GSqCvii8E_g" linkToPredecessor="_cUIYkvMpEd-GSqCvii8E_g">
+          <presentation xmi:id="-M1Br09QKM7CDyi5cp4eOYA" href="uma://-ZKzLtKShsLvcp7cCQu0_eQ#-M1Br09QKM7CDyi5cp4eOYA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_cUIYkvMpEd-GSqCvii8E_g" guid="_cUIYkvMpEd-GSqCvii8E_g" pred="_cUHKc_MpEd-GSqCvii8E_g"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cUIYlPMpEd-GSqCvii8E_g" name="Retirement" guid="_cUIYlPMpEd-GSqCvii8E_g">
+        <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_cUIYlvMpEd-GSqCvii8E_g" name="Retirement" guid="_cUIYlvMpEd-GSqCvii8E_g" presentationName="Retirement" superActivities="_cUHxgfMpEd-GSqCvii8E_g" linkToPredecessor="_cUIYlfMpEd-GSqCvii8E_g">
+          <presentation xmi:id="-rR8mT5YL73oD8NKyZzAmaA" href="uma://-ZKzLtKShsLvcp7cCQu0_eQ#-rR8mT5YL73oD8NKyZzAmaA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_cUIYlfMpEd-GSqCvii8E_g" guid="_cUIYlfMpEd-GSqCvii8E_g" pred="_cUIYk_MpEd-GSqCvii8E_g"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_cUHxgfMpEd-GSqCvii8E_g" name="eup_delivery_process" guid="_cUHxgfMpEd-GSqCvii8E_g" presentationName="EUP Delivery Process" superActivities="_6HJx4fMoEd-GSqCvii8E_g" breakdownElements="_cUHxgPMpEd-GSqCvii8E_g _cUI_oPMpEd-GSqCvii8E_g _cUHxhPMpEd-GSqCvii8E_g _cUHKc_MpEd-GSqCvii8E_g _cUIYk_MpEd-GSqCvii8E_g _cUIYlvMpEd-GSqCvii8E_g">
+        <methodElementProperty xmi:id="_cUJmsPMpEd-GSqCvii8E_g" name="process_synFree" value="true"/>
+        <presentation xmi:id="-nz3whmp6A77QpzBWcIyN6A" href="uma://-ZKzLtKShsLvcp7cCQu0_eQ#-nz3whmp6A77QpzBWcIyN6A"/>
+        <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_8WQO0BoXEd6Vpr8V6Jy-eA"/>
+        <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_8WQO0BoXEd6Vpr8V6Jy-eA"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_6HJx4fMoEd-GSqCvii8E_g" name="sisas_project_management_process" guid="_6HJx4fMoEd-GSqCvii8E_g" presentationName="SiSaS project management process" breakdownElements="_cUHxgfMpEd-GSqCvii8E_g">
+      <presentation xmi:id="-ZKzLtKShsLvcp7cCQu0_eQ" href="uma://-ZKzLtKShsLvcp7cCQu0_eQ#-ZKzLtKShsLvcp7cCQu0_eQ"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_8WQO0BoXEd6Vpr8V6Jy-eA"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_8WQO0BoXEd6Vpr8V6Jy-eA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

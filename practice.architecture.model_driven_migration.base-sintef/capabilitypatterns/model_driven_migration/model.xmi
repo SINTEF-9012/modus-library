@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_PzX1wKGIEeC6m4lNxCxazg" guid="_PzX1wKGIEeC6m4lNxCxazg">
+    <resourceDescriptors xmi:id="_PzX1waGIEeC6m4lNxCxazg" id="-aQAJZjyIvgyrBsDXeyPZjA" uri="../model_driven_migration.remics/content.xmi"/>
+    <resourceDescriptors xmi:id="_WfFf0KGIEeC6m4lNxCxazg" id="-pY1mWVWjNOQenOWrAkPBvw" uri="../model_driven_migration.remics/content.xmi"/>
+    <resourceDescriptors xmi:id="_WfLmcKGIEeC6m4lNxCxazg" id="-QqispH-H4SI3YUZ5G1UqOA" uri="../model_driven_migration.remics/content.xmi"/>
+    <resourceDescriptors xmi:id="_WfRtEKGIEeC6m4lNxCxazg" id="-Qnxsk19Pk6-bKgICmPZsnQ" uri="../model_driven_migration.remics/content.xmi"/>
+    <resourceDescriptors xmi:id="_WfXzsKGIEeC6m4lNxCxazg" id="-k6PW7vO2eoizoD05aQA-LA" uri="../model_driven_migration.remics/content.xmi"/>
+    <resourceDescriptors xmi:id="_WfdTQKGIEeC6m4lNxCxazg" id="-Sj6fuiXAweZjDZOE82b15A" uri="../model_driven_migration.remics/content.xmi"/>
+    <resourceDescriptors xmi:id="_WfjZ4KGIEeC6m4lNxCxazg" id="-gTWBQgZoSpKNFSPrFHntpA" uri="../model_driven_migration.remics/content.xmi"/>
+    <resourceDescriptors xmi:id="_WfpggKGIEeC6m4lNxCxazg" id="-Lxvm7-tWZVzDjv7T_OT7Mg" uri="../model_driven_migration.remics/content.xmi"/>
+    <resourceDescriptors xmi:id="_WfvAEKGIEeC6m4lNxCxazg" id="-iFaZyLlk8wGbXFAk4aYSng" uri="../model_driven_migration.remics/content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_Px-uoKGIEeC6m4lNxCxazg" name="model_driven_migration" guid="_Px-uoKGIEeC6m4lNxCxazg">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_TmT74KGIEeC6m4lNxCxazg" name="define_service_migration_model" guid="_TmT74KGIEeC6m4lNxCxazg" presentationName="Define service migration model" briefDescription="This task describes how to define a service migration model" superActivities="_Px-uoaGIEeC6m4lNxCxazg" additionallyPerformedBy="_TmT746GIEeC6m4lNxCxazg _TmT75aGIEeC6m4lNxCxazg" output="_TmdF0KGIEeC6m4lNxCxazg" performedPrimarilyBy="_TmT74aGIEeC6m4lNxCxazg">
+      <presentation xmi:id="-pY1mWVWjNOQenOWrAkPBvw" href="uma://-BFKchpePFv1wBKnT6eFVaw#-pY1mWVWjNOQenOWrAkPBvw"/>
+      <supportingMaterials href="uma://_Jsb3MNnCEd6zvIb1dP7WTA#_sTZKsJsnEeCui_A0lCfdaQ"/>
+      <Task href="uma://_Jsb3MNnCEd6zvIb1dP7WTA#_I8f5oFCsEeCQQoyAiE5Lcw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_TmT74aGIEeC6m4lNxCxazg" name="system_developer" guid="_TmT74aGIEeC6m4lNxCxazg" presentationName="System developer" briefDescription="This is the worker who builds the services." isPlanned="false" superActivities="_Px-uoaGIEeC6m4lNxCxazg" modifies="_TmdF0KGIEeC6m4lNxCxazg" responsibleFor="_TnDiwaGIEeC6m4lNxCxazg _TmdF0KGIEeC6m4lNxCxazg">
+      <methodElementProperty xmi:id="_TmT74qGIEeC6m4lNxCxazg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-QqispH-H4SI3YUZ5G1UqOA" href="uma://-BFKchpePFv1wBKnT6eFVaw#-QqispH-H4SI3YUZ5G1UqOA"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJxhntEd6VV7P4WguglA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_TmT746GIEeC6m4lNxCxazg" name="system_architect" guid="_TmT746GIEeC6m4lNxCxazg" presentationName="System architect" briefDescription="Works on developing and maintaining a service-oriented architecture for the IT portfolio of a company." isPlanned="false" superActivities="_Px-uoaGIEeC6m4lNxCxazg" responsibleFor="_Tm5xxKGIEeC6m4lNxCxazg _Tm5xwaGIEeC6m4lNxCxazg">
+      <methodElementProperty xmi:id="_TmT75KGIEeC6m4lNxCxazg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-Qnxsk19Pk6-bKgICmPZsnQ" href="uma://-BFKchpePFv1wBKnT6eFVaw#-Qnxsk19Pk6-bKgICmPZsnQ"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_TmT75aGIEeC6m4lNxCxazg" name="tester" guid="_TmT75aGIEeC6m4lNxCxazg" presentationName="Tester" briefDescription="This worker is involved in the processes where testing and validation are performed." isPlanned="false" superActivities="_Px-uoaGIEeC6m4lNxCxazg" responsibleFor="_Tmm20aGIEeC6m4lNxCxazg">
+      <methodElementProperty xmi:id="_TmT75qGIEeC6m4lNxCxazg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-k6PW7vO2eoizoD05aQA-LA" href="uma://-BFKchpePFv1wBKnT6eFVaw#-k6PW7vO2eoizoD05aQA-LA"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqw0BntEd6VV7P4WguglA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TmdF0KGIEeC6m4lNxCxazg" name="service_migration_model" guid="_TmdF0KGIEeC6m4lNxCxazg" presentationName="Service migration model" isPlanned="false" superActivities="_Px-uoaGIEeC6m4lNxCxazg">
+      <methodElementProperty xmi:id="_TmdF0aGIEeC6m4lNxCxazg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-Sj6fuiXAweZjDZOE82b15A" href="uma://-BFKchpePFv1wBKnT6eFVaw#-Sj6fuiXAweZjDZOE82b15A"/>
+      <WorkProduct href="uma://_Jsb3MNnCEd6zvIb1dP7WTA#_kbzucFCsEeCQQoyAiE5Lcw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Tmm20aGIEeC6m4lNxCxazg" name="validation_and_release_report" guid="_Tmm20aGIEeC6m4lNxCxazg" presentationName="Validation and release report" isPlanned="false" superActivities="_Px-uoaGIEeC6m4lNxCxazg">
+      <methodElementProperty xmi:id="_Tmm20qGIEeC6m4lNxCxazg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Jsb3MNnCEd6zvIb1dP7WTA#_24QboFCsEeCQQoyAiE5Lcw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Tm5xwaGIEeC6m4lNxCxazg" name="as_is_architecture_model" guid="_Tm5xwaGIEeC6m4lNxCxazg" presentationName="As-is architecture model" briefDescription="&lt;TBD>" isPlanned="false" superActivities="_Px-uoaGIEeC6m4lNxCxazg">
+      <methodElementProperty xmi:id="_Tm5xwqGIEeC6m4lNxCxazg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-gTWBQgZoSpKNFSPrFHntpA" href="uma://-BFKchpePFv1wBKnT6eFVaw#-gTWBQgZoSpKNFSPrFHntpA"/>
+      <WorkProduct href="uma://_Jsb3MNnCEd6zvIb1dP7WTA#_3E5LIOGrEd-AyrTFSpVP8g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Tm5xxKGIEeC6m4lNxCxazg" name="candidate_services" guid="_Tm5xxKGIEeC6m4lNxCxazg" presentationName="Candidate services" isPlanned="false" superActivities="_Px-uoaGIEeC6m4lNxCxazg">
+      <methodElementProperty xmi:id="_Tm5xxaGIEeC6m4lNxCxazg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Jsb3MNnCEd6zvIb1dP7WTA#_xFPUIFCsEeCQQoyAiE5Lcw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TnDiwaGIEeC6m4lNxCxazg" name="web_service_implementation" guid="_TnDiwaGIEeC6m4lNxCxazg" presentationName="Web service implementation" isPlanned="false" superActivities="_Px-uoaGIEeC6m4lNxCxazg">
+      <methodElementProperty xmi:id="_TnDiwqGIEeC6m4lNxCxazg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Jsb3MNnCEd6zvIb1dP7WTA#_p_CtgFCsEeCQQoyAiE5Lcw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_UXJi8KGIEeC6m4lNxCxazg" name="define_service_interfaces" guid="_UXJi8KGIEeC6m4lNxCxazg" presentationName="Define service interfaces" superActivities="_Px-uoaGIEeC6m4lNxCxazg" linkToPredecessor="_bxJ2YaGIEeC6m4lNxCxazg" output="_TmdF0KGIEeC6m4lNxCxazg" performedPrimarilyBy="_TmT74aGIEeC6m4lNxCxazg">
+      <presentation xmi:id="-Lxvm7-tWZVzDjv7T_OT7Mg" href="uma://-BFKchpePFv1wBKnT6eFVaw#-Lxvm7-tWZVzDjv7T_OT7Mg"/>
+      <supportingMaterials href="uma://_Jsb3MNnCEd6zvIb1dP7WTA#_sTZKsJsnEeCui_A0lCfdaQ"/>
+      <Task href="uma://_Jsb3MNnCEd6zvIb1dP7WTA#_Iy6qYFCtEeCQQoyAiE5Lcw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_VYlKwKGIEeC6m4lNxCxazg" name="define_operation_behaviours" guid="_VYlKwKGIEeC6m4lNxCxazg" presentationName="Define operation behaviours" briefDescription="This task describes how to define operation behaviours." superActivities="_Px-uoaGIEeC6m4lNxCxazg" linkToPredecessor="_cKMogKGIEeC6m4lNxCxazg" output="_TmdF0KGIEeC6m4lNxCxazg" performedPrimarilyBy="_TmT74aGIEeC6m4lNxCxazg">
+      <presentation xmi:id="-iFaZyLlk8wGbXFAk4aYSng" href="uma://-BFKchpePFv1wBKnT6eFVaw#-iFaZyLlk8wGbXFAk4aYSng"/>
+      <supportingMaterials href="uma://_Jsb3MNnCEd6zvIb1dP7WTA#_sTZKsJsnEeCui_A0lCfdaQ"/>
+      <Task href="uma://_Jsb3MNnCEd6zvIb1dP7WTA#_PPjWoFCtEeCQQoyAiE5Lcw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_bxJ2YaGIEeC6m4lNxCxazg" guid="_bxJ2YaGIEeC6m4lNxCxazg" pred="_TmT74KGIEeC6m4lNxCxazg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_cKMogKGIEeC6m4lNxCxazg" guid="_cKMogKGIEeC6m4lNxCxazg" pred="_UXJi8KGIEeC6m4lNxCxazg"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_Px-uoaGIEeC6m4lNxCxazg" name="model_driven_migration" guid="_Px-uoaGIEeC6m4lNxCxazg" presentationName="Model-driven migration" breakdownElements="_TmT74KGIEeC6m4lNxCxazg _TmT74aGIEeC6m4lNxCxazg _TmT746GIEeC6m4lNxCxazg _TmT75aGIEeC6m4lNxCxazg _TmdF0KGIEeC6m4lNxCxazg _Tmm20aGIEeC6m4lNxCxazg _Tm5xwaGIEeC6m4lNxCxazg _Tm5xxKGIEeC6m4lNxCxazg _TnDiwaGIEeC6m4lNxCxazg _UXJi8KGIEeC6m4lNxCxazg _VYlKwKGIEeC6m4lNxCxazg">
+      <presentation xmi:id="-aQAJZjyIvgyrBsDXeyPZjA" href="uma://-BFKchpePFv1wBKnT6eFVaw#-aQAJZjyIvgyrBsDXeyPZjA"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_CLABkPPvEd-aSLmU6PqmFQ"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_CLABkPPvEd-aSLmU6PqmFQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

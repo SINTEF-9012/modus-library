@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ZakdDpKXh_vlEqQALnujxw" name=",_JuN24OHREd-nwfeZTt0t8A" guid="-ZakdDpKXh_vlEqQALnujxw" changeDate="2011-06-16T15:47:55.632+0200">
+  <mainDescription>&lt;p>&#xD;
+    The System Boundary Model describes the system boundaries, the actors and their responsibilities, and the services&#xD;
+    offered by the system. Interactions between the system and its environment are identified and might also be detailed by&#xD;
+    modelling stimuli and responses using UML sequence diagrams.&#xD;
+&lt;/p>&#xD;
+&lt;a id=&quot;N1004D&quot; name=&quot;N1004D&quot;>&lt;/a>&lt;a id=&quot;Goals&quot; name=&quot;Goals&quot;>&lt;/a> &#xD;
+&lt;h4>&#xD;
+    Goals&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The System Boundary Model should:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identify and describe system boundaries, main services and actors.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Who uses the system?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Who maintains the system?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                What other systems use this system?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Who gets information from the system?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Who provides information to the system?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Does anything happen automatically at present time?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Who starts up and shuts down the system?&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Assure a common understanding of the system and its purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify interactions between the system and its environment.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                What services are required from the system by the actor?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Which events are/will be initiated by the actor, and which events are the actor interested in?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Which events occur and who is/will be notified about them?&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <sections xmi:id="__ZRwoObkEd-Eut7DiqIzBA" name="1. Identify actors" guid="__ZRwoObkEd-Eut7DiqIzBA">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Ask: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Who uses the system?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Who maintains the system?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                What other systems use this system?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Who gets information from the system?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Who provides information to the system?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Does anything happen automatically at preset times?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Who starts and shut down the system?&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Examples: persons/roles, software systems, things/objects (hardware) networks, etc.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Describe the actors responsibilities (short)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_MOnEUOblEd-Eut7DiqIzBA" name="2. Identify use cases" guid="_MOnEUOblEd-Eut7DiqIzBA">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Go through the list of actors and identify what services they need to fulfil their obligations&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Answer the following Questions &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                What services do the actor requires from the system?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Which events will the actor initiate and which events will the actor be interested in?&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Which events/notifications occur? (the notifications reaching the actor independent of his interest (e.g.&#xD;
+                error notifications)&lt;br />&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To define the System boundary model.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_GvcYEO2XEd--BOZpIYnXRA" guid="_GvcYEO2XEd--BOZpIYnXRA">
+    <subManagers xmi:id="_pC8WkQzdEeC0l9qo9DKfjQ" href="uma://_pBdI0AzdEeC0l9qo9DKfjQ#_pC8WkQzdEeC0l9qo9DKfjQ"/>
+    <resourceDescriptors xmi:id="_FqfY0e2wEd--BOZpIYnXRA" id="-300FujZ39nbyANqkWvkFRQ" uri="tasks/extract_feature_model.xmi"/>
+    <resourceDescriptors xmi:id="_QGjXse5jEd-0xPxjwuNm4A" id="-eIO5gpPcy-QWY8fC3g4thQ" uri="tasks/recover_goals%2011.xmi"/>
+    <resourceDescriptors xmi:id="_X4iQ0e5kEd-0xPxjwuNm4A" id="-8KCh5-mZVcdx51Q6RuTRBQ" uri="tasks/enrich_models.xmi"/>
+    <resourceDescriptors xmi:id="_91DEUe5kEd-0xPxjwuNm4A" id="-gNp56g7JqU6zxRTAM_iMcg" uri="tasks/refine_context_and_variability.xmi"/>
+    <resourceDescriptors xmi:id="_S7ItQe5lEd-0xPxjwuNm4A" id="-59dpFE8tlNnR2hlhMad_tg" uri="tasks/similarity_assessment%202.xmi"/>
+    <resourceDescriptors xmi:id="_9d-WMO5mEd-0xPxjwuNm4A" id="-eWYVUjaLlx4E24bP9LR7vw" uri="tasks/composition_support%207.xmi"/>
+    <resourceDescriptors xmi:id="_f-GiYe5nEd-0xPxjwuNm4A" id="-2_qLUdI9PYJe8pHxfhcy-Q" uri="tasks/synchronise.xmi"/>
+    <resourceDescriptors xmi:id="_pCMvsQzdEeC0l9qo9DKfjQ" id="_pBdI0AzdEeC0l9qo9DKfjQ" uri="capabilitypatterns/Requirements%20engineering/model.xmi"/>
+    <resourceDescriptors xmi:id="_MvOiIQ0FEeC0l9qo9DKfjQ" id="-c6Eu8xx9NdwVjfT81Vk6lA" uri="guidances/practices/diva_adaptation_requirements_modelling%203.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Gsw3gO2XEd--BOZpIYnXRA" name="practice.requirements.adaptation_requirements_modelling.base-sintef" guid="_Gsw3gO2XEd--BOZpIYnXRA" briefDescription="This plugin contains the DIVE adaptation requirements modelling practice." authors="Vegard Dehlen (SINTEF), Brian Elvesæter (SINTEF)" changeDate="2011-06-21T14:27:32.764+0200">
+    <methodElementProperty xmi:id="_GwL-8O2XEd--BOZpIYnXRA" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Gsw3ge2XEd--BOZpIYnXRA" name="Content" guid="_Gsw3ge2XEd--BOZpIYnXRA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Gsw3gu2XEd--BOZpIYnXRA" name="Categories" guid="_Gsw3gu2XEd--BOZpIYnXRA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Gsw3g-2XEd--BOZpIYnXRA" name="Domains" guid="_Gsw3g-2XEd--BOZpIYnXRA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Gsw3hO2XEd--BOZpIYnXRA" name="Disciplines" guid="_Gsw3hO2XEd--BOZpIYnXRA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Gsw3he2XEd--BOZpIYnXRA" name="RoleSets" guid="_Gsw3he2XEd--BOZpIYnXRA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Gsw3hu2XEd--BOZpIYnXRA" name="WP Types" guid="_Gsw3hu2XEd--BOZpIYnXRA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Gsw3h-2XEd--BOZpIYnXRA" name="Tools" guid="_Gsw3h-2XEd--BOZpIYnXRA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Gsw3iO2XEd--BOZpIYnXRA" name="StandardCategories" guid="_Gsw3iO2XEd--BOZpIYnXRA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Gsw3ie2XEd--BOZpIYnXRA" name="CustomCategories" guid="_Gsw3ie2XEd--BOZpIYnXRA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Gsw3iu2XEd--BOZpIYnXRA" name="Hidden" guid="_Gsw3iu2XEd--BOZpIYnXRA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Gsw3i-2XEd--BOZpIYnXRA" name="Custom Categories" guid="_Gsw3i-2XEd--BOZpIYnXRA"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Gsw3jO2XEd--BOZpIYnXRA" name="CoreContent" guid="_Gsw3jO2XEd--BOZpIYnXRA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QdH-UO2XEd--BOZpIYnXRA" name="adaptation_elicitation" guid="_QdH-UO2XEd--BOZpIYnXRA" presentationName="Requirements engineering" briefDescription="This practise deals with the elicitation of requirements related to variability and adaptation of the system.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_samV0O2XEd--BOZpIYnXRA" name="adaptation_requirements_model.assign" guid="_samV0O2XEd--BOZpIYnXRA" briefDescription="This model contains the information about variability and adaptation of the system. It is realised by a feature model which contains information about the variability, context, and functional and non-functional goals." variabilityType="contributes" deliveredWorkProducts="_7IO30O2rEd--BOZpIYnXRA _pUl3EO2rEd--BOZpIYnXRA _uNNy4O2rEd--BOZpIYnXRA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_2t4YUOG2Ed-AyrTFSpVP8g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_pUl3EO2rEd--BOZpIYnXRA" name="feature_model" guid="_pUl3EO2rEd--BOZpIYnXRA" presentationName="Feature model" briefDescription="The feature model is generated based on automatic analysis of natural language in the ArborCraft tool, then it is refined in subsequent steps. "/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_uNNy4O2rEd--BOZpIYnXRA" name="goal" guid="_uNNy4O2rEd--BOZpIYnXRA" presentationName="Goals" briefDescription="While feature models can reflect the set of available functions, a system needs to be justified in terms of stakeholder needs and wishes. Goal models justify existence of all functional requirements (hard goals) and quality measures (soft goals) of a software system in terms of stakeholder intentions. This approach is supported by ArborCraftExt (through its integrated EA-Miner component)."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_7IO30O2rEd--BOZpIYnXRA" name="context" guid="_7IO30O2rEd--BOZpIYnXRA" presentationName="Context" briefDescription="We need to be able to relate the identified context entities to the features/goals that are affected by this context."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_cZ2iIO2vEd--BOZpIYnXRA" name="extract_feature_model" guid="_cZ2iIO2vEd--BOZpIYnXRA" presentationName="Extract model elements" performedBy="_B_7bUAOYEeCKOY6tSwZy2A" mandatoryInput="_WB0C8O5oEd-0xPxjwuNm4A" output="_pUl3EO2rEd--BOZpIYnXRA" additionallyPerformedBy="_N_xG4AOXEeCKOY6tSwZy2A">
+            <presentation xmi:id="-300FujZ39nbyANqkWvkFRQ" href="uma://-300FujZ39nbyANqkWvkFRQ#-300FujZ39nbyANqkWvkFRQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Eo9N4O2xEd--BOZpIYnXRA" name="recover_goals" guid="_Eo9N4O2xEd--BOZpIYnXRA" presentationName="Recover goals" performedBy="_B_7bUAOYEeCKOY6tSwZy2A" mandatoryInput="_pUl3EO2rEd--BOZpIYnXRA" output="_uNNy4O2rEd--BOZpIYnXRA" additionallyPerformedBy="_N_xG4AOXEeCKOY6tSwZy2A">
+            <presentation xmi:id="-eIO5gpPcy-QWY8fC3g4thQ" href="uma://-eIO5gpPcy-QWY8fC3g4thQ#-eIO5gpPcy-QWY8fC3g4thQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_MqbZoO5kEd-0xPxjwuNm4A" name="enrich_models" guid="_MqbZoO5kEd-0xPxjwuNm4A" presentationName="Enrich feature model" performedBy="_B_7bUAOYEeCKOY6tSwZy2A" mandatoryInput="_pUl3EO2rEd--BOZpIYnXRA" output="_pUl3EO2rEd--BOZpIYnXRA" additionallyPerformedBy="_N_xG4AOXEeCKOY6tSwZy2A">
+            <presentation xmi:id="-8KCh5-mZVcdx51Q6RuTRBQ" href="uma://-8KCh5-mZVcdx51Q6RuTRBQ#-8KCh5-mZVcdx51Q6RuTRBQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_x1ds4O5kEd-0xPxjwuNm4A" name="refine_context_and_variability" guid="_x1ds4O5kEd-0xPxjwuNm4A" presentationName="Refine context and adaptation" performedBy="_B_7bUAOYEeCKOY6tSwZy2A" mandatoryInput="_pUl3EO2rEd--BOZpIYnXRA _uNNy4O2rEd--BOZpIYnXRA" output="_7IO30O2rEd--BOZpIYnXRA" additionallyPerformedBy="_N_xG4AOXEeCKOY6tSwZy2A">
+            <presentation xmi:id="-gNp56g7JqU6zxRTAM_iMcg" href="uma://-gNp56g7JqU6zxRTAM_iMcg#-gNp56g7JqU6zxRTAM_iMcg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_M_cK4O5lEd-0xPxjwuNm4A" name="similarity_assessment" guid="_M_cK4O5lEd-0xPxjwuNm4A" presentationName="Similarity assessment" performedBy="_B_7bUAOYEeCKOY6tSwZy2A" mandatoryInput="_samV0O2XEd--BOZpIYnXRA" output="_samV0O2XEd--BOZpIYnXRA">
+            <presentation xmi:id="-59dpFE8tlNnR2hlhMad_tg" href="uma://-59dpFE8tlNnR2hlhMad_tg#-59dpFE8tlNnR2hlhMad_tg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_uwDJMO5mEd-0xPxjwuNm4A" name="composition_support" guid="_uwDJMO5mEd-0xPxjwuNm4A" presentationName="Composition" performedBy="_B_7bUAOYEeCKOY6tSwZy2A" mandatoryInput="_samV0O2XEd--BOZpIYnXRA" output="_samV0O2XEd--BOZpIYnXRA">
+            <presentation xmi:id="-eWYVUjaLlx4E24bP9LR7vw" href="uma://-eWYVUjaLlx4E24bP9LR7vw#-eWYVUjaLlx4E24bP9LR7vw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_WcxWEO5nEd-0xPxjwuNm4A" name="synchronise" guid="_WcxWEO5nEd-0xPxjwuNm4A" presentationName="Synchronise models" performedBy="_B_7bUAOYEeCKOY6tSwZy2A" mandatoryInput="_samV0O2XEd--BOZpIYnXRA" output="_samV0O2XEd--BOZpIYnXRA">
+            <presentation xmi:id="-2_qLUdI9PYJe8pHxfhcy-Q" href="uma://-2_qLUdI9PYJe8pHxfhcy-Q#-2_qLUdI9PYJe8pHxfhcy-Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_WB0C8O5oEd-0xPxjwuNm4A" name="textual_requirements" guid="_WB0C8O5oEd-0xPxjwuNm4A" presentationName="Textual requirements"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_CtHyIAOQEeCKOY6tSwZy2A" name="diva_adaptation_requirements_modelling" guid="_CtHyIAOQEeCKOY6tSwZy2A" presentationName="DiVA - Requirements modelling" contentReferences="_WB0C8O5oEd-0xPxjwuNm4A _samV0O2XEd--BOZpIYnXRA _pUl3EO2rEd--BOZpIYnXRA _uNNy4O2rEd--BOZpIYnXRA _7IO30O2rEd--BOZpIYnXRA _cZ2iIO2vEd--BOZpIYnXRA _Eo9N4O2xEd--BOZpIYnXRA _MqbZoO5kEd-0xPxjwuNm4A _x1ds4O5kEd-0xPxjwuNm4A _uwDJMO5mEd-0xPxjwuNm4A _M_cK4O5lEd-0xPxjwuNm4A _WcxWEO5nEd-0xPxjwuNm4A">
+            <presentation xmi:id="-c6Eu8xx9NdwVjfT81Vk6lA" href="uma://-c6Eu8xx9NdwVjfT81Vk6lA#-c6Eu8xx9NdwVjfT81Vk6lA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_N_xG4AOXEeCKOY6tSwZy2A" name="stakeholder.assign" guid="_N_xG4AOXEeCKOY6tSwZy2A" variabilityType="contributes" responsibleFor="_WB0C8O5oEd-0xPxjwuNm4A">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_dTa6gMAYEdqX-s4mWhkyqQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_B_7bUAOYEeCKOY6tSwZy2A" name="requirements_analyst.assign" guid="_B_7bUAOYEeCKOY6tSwZy2A" variabilityType="contributes" responsibleFor="_samV0O2XEd--BOZpIYnXRA _7IO30O2rEd--BOZpIYnXRA _pUl3EO2rEd--BOZpIYnXRA _uNNy4O2rEd--BOZpIYnXRA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIpisBntEd6VV7P4WguglA"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Gsw3je2XEd--BOZpIYnXRA" name="CapabilityPatterns" guid="_Gsw3je2XEd--BOZpIYnXRA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_pBdI0AzdEeC0l9qo9DKfjQ" href="uma://_pBdI0AzdEeC0l9qo9DKfjQ#_pBdI0AzdEeC0l9qo9DKfjQ"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Gsw3ju2XEd--BOZpIYnXRA" name="DeliveryProcesses" guid="_Gsw3ju2XEd--BOZpIYnXRA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Gsw3j-2XEd--BOZpIYnXRA" name="ProcessContributions" guid="_Gsw3j-2XEd--BOZpIYnXRA"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

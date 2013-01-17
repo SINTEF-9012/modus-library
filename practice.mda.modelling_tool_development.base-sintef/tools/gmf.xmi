@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-U-kSX6U4FrGdvZQxyBoS4Q" name="new_tool,_G0C_kJBLEeCcDNN8IC9C3w" guid="-U-kSX6U4FrGdvZQxyBoS4Q" changeDate="2011-06-09T15:23:04.712+0200">
+  <mainDescription>&lt;p>&#xD;
+    The Eclipse Graphical Modeling Framework (GMF) provides a generative component and runtime infrastructure for&#xD;
+    developing graphical editors based on EMF and GEF.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    GMF uses and therefore depends on EMF. GMF is not in anyway a replacement for EMF. EMF provides core facilities for&#xD;
+    defining models, and generating java code for manipulating and persisting instances of those models. The generated code&#xD;
+    includes an implementation of the observer pattern.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Because it is common for GEF editors to manipulate an object model (and use observer pattern) it pairs very well with&#xD;
+    EMF and has become a popular combination (see IBM redbook on using emf and gef).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The GMF project aims to simplify the combination of these two technologies by allows GEF editors to be specified and&#xD;
+    generated using models. i.e. GMF allows you to generate GEF editors for manipulating your EMF models.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

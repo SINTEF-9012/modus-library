@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-8atVfjsXh9Lb9d0NKElzjg" name="eup_management_workflow,_zGpIceczEd-T6-CV2MW9sw" guid="-8atVfjsXh9Lb9d0NKElzjg">
+    <mainDescription>This capability pattern describes a baseline workflow for project management.</mainDescription>
+    <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To support project management.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-uKRnSf4hNDleXDgID7g3rg" name="define_project_proposal,_A5J2EOc0Ed-T6-CV2MW9sw" guid="-uKRnSf4hNDleXDgID7g3rg">
+    <refinedDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Goal &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Make sure that everyone understands the project&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Deliverables&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                High level Description of the project (context statement) and why (vision statement)&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Conclusion and references to the other deliverables &#xD;
+                &lt;ul>&#xD;
+                    &lt;li>&#xD;
+                        Business models, SBM, requirements, etc.&#xD;
+                    &lt;/li>&#xD;
+                &lt;/ul>&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Activities&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Couple of people (not many) write out a brief but complete description of the project&lt;br />&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-T4pt_u3YSrao00H7MGJ1rg" name="inception_review,_A5J2Eec0Ed-T6-CV2MW9sw" guid="-T4pt_u3YSrao00H7MGJ1rg">
+    <refinedDescription>&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        Preliminary business plan&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Preliminary project plan&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Assess feasibility &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Business potentials (opportunities)&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Architecture modernization assessment (if legacy)&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Technologies&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Costs &amp;amp; risks&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                People and comptenecy&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ke8og5Bc2pACpNBFB99juQ" name="project_proposal,_A5KdIOc0Ed-T6-CV2MW9sw" guid="-ke8og5Bc2pACpNBFB99juQ">
+    <refinedDescription>&lt;p>&#xD;
+    The Project proposal should contain the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Preliminary business plan&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Preliminary project plan&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Assess feasibility &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Business potentials (opportunities)&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Architecture modernization assessment (if legacy)&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Technologies&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Costs &amp;amp; risks&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                People and comptenecy&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gyJGCHAs8ah3s8xx8I32ug" name="inception_outcome,_A5KdIuc0Ed-T6-CV2MW9sw" guid="-gyJGCHAs8ah3s8xx8I32ug">
+    <refinedDescription>The assessment result of an inception review.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5379BpgtR8TpLNaEcrAnMQ" name="technical_audit,_EILW0Oc0Ed-T6-CV2MW9sw" guid="-5379BpgtR8TpLNaEcrAnMQ">
+    <refinedDescription>&lt;p>&#xD;
+    This taks describes how to do a technical audit.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-k-jGJ9IE6NdM7CPxDBbSiQ" name="system_implementation_plan,_EIMk8Oc0Ed-T6-CV2MW9sw" guid="-k-jGJ9IE6NdM7CPxDBbSiQ">
+    <refinedDescription>&lt;p>&#xD;
+    This work product describes a system implementation plan.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-DEzZl6W93CNIR_2G7PKF_Q" name="define_system_implementation_plan,_x68U4Oc0Ed-T6-CV2MW9sw" guid="-DEzZl6W93CNIR_2G7PKF_Q">
+    <refinedDescription>This task describes how to define the system implementation plan.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZiU1e5TkEhr6dDrssoyqkQ" name="system_architect,_enYkEec1Ed-T6-CV2MW9sw" guid="-ZiU1e5TkEhr6dDrssoyqkQ">
+    <refinedDescription>This worker is involved in the design of the components which compose the software system. This worker is involved in the&#xD;
+design of the architecture of the system, with its components and their interfaces.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-sE3iO15xwjp10iyOGI_m-A" name="behavior_diagram,_ddcNIfPxEd-aSLmU6PqmFQ" guid="-sE3iO15xwjp10iyOGI_m-A">
+    <refinedDescription>&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>The following diagram is a BPMN example which show the details process of how Temperature Monitoring System get real time temperature and report feedback.&lt;/FONT>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;FONT size=3 face=Calibri>&amp;nbsp;&lt;/FONT>&lt;/o:p>&lt;/P>&#xD;
+&lt;P style=&quot;PAGE-BREAK-AFTER: avoid; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt&quot; class=BodyMain align=center>&lt;SPAN style=&quot;mso-no-proof: yes&quot;>&lt;?xml:namespace prefix = v ns = &quot;urn:schemas-microsoft-com:vml&quot; />&lt;v:shapetype id=_x0000_t75 stroked=&quot;f&quot; filled=&quot;f&quot; path=&quot;m@4@5l@4@11@9@11@9@5xe&quot; o:preferrelative=&quot;t&quot; o:spt=&quot;75&quot; coordsize=&quot;21600,21600&quot;>&lt;v:stroke joinstyle=&quot;miter&quot;>&lt;/v:stroke>&lt;v:formulas>&lt;v:f eqn=&quot;if lineDrawn pixelLineWidth 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @0 1 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum 0 0 @1&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @2 1 2&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @3 21600 pixelWidth&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @3 21600 pixelHeight&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @0 0 1&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @6 1 2&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @7 21600 pixelWidth&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @8 21600 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @7 21600 pixelHeight&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @10 21600 0&quot;>&lt;/v:f>&lt;/v:formulas>&lt;v:path o:connecttype=&quot;rect&quot; gradientshapeok=&quot;t&quot; o:extrusionok=&quot;f&quot;>&lt;/v:path>&lt;o:lock aspectratio=&quot;t&quot; v:ext=&quot;edit&quot;>&lt;/o:lock>&lt;/v:shapetype>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0cm 0cm 10pt&quot; class=MsoCaption align=center>&lt;IMG alt=BPMN src=&quot;./../../practice.architecture.mathematical_systems_engineering.base_sisas-sintef/workproducts/resources/BPMN.png&quot; width=600 height=423>&lt;/P>&#xD;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0cm 0cm 10pt&quot; class=MsoCaption align=center>&lt;a name=&quot;_Toc238805376&quot;>&lt;STRONG>&lt;FONT color=#4f81bd face=Calibri>Figure &lt;/FONT>&lt;/STRONG>&lt;/a>&lt;STRONG>&lt;FONT color=#4f81bd>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-bookmark: _Toc238805376&quot;>&lt;SPAN style=&quot;mso-no-proof: yes&quot;>9&lt;/SPAN>&lt;/SPAN>&lt;SPAN style=&quot;mso-bookmark: _Toc238805376&quot;>. BPMN example for Real Time Temperature Report&lt;/SPAN>&lt;/FONT>&lt;/FONT>&lt;/STRONG>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UaHnp_6BbHiYXgBVTZV1dw" name="community_services_architecture,_dddbQfPxEd-aSLmU6PqmFQ" guid="-UaHnp_6BbHiYXgBVTZV1dw">
+    <refinedDescription>&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>Because we use the top down approach solution, with the “community services architecture”, we can have the top level view of how participants work together for some purpose. The services architecture of a community does not assume or require any one controlling entity or process. Other services architectures and service contracts may be used here. A community Services Architecture is defined using a UML Collaboration.&lt;SPAN style=&quot;mso-spacerun: yes&quot;>&amp;nbsp; &lt;/SPAN>The purpose of collaboration is to illustrate how kinds of entities work together for some purpose. The services architecture serves to define the requirements of each of the participants. . The participant roles are filled by participants with service ports required of the entities that fill these roles and are then bound by the services architectures in which they participate.&lt;/FONT>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;FONT size=3 face=Calibri>&amp;nbsp;&lt;/FONT>&lt;/o:p>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>This is a service architecture diagram for Scientific Temperature Monitoring System. It shows the Service Orient Architecture design of how user uses the Temperature Monitoring System.&lt;/FONT>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;IMG alt=&quot;SoaML Service Architecture&quot; src=&quot;./../../practice.architecture.mathematical_systems_engineering.base_sisas-sintef/workproducts/resources/SoaML Service Architecture.png&quot; width=600 height=365>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;o:p>&lt;FONT size=3 face=Calibri>&amp;nbsp;&lt;/FONT>&lt;/o:p>&lt;/P>&#xD;
+&lt;P style=&quot;PAGE-BREAK-AFTER: avoid; MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;mso-no-proof: yes&quot;>&lt;?xml:namespace prefix = v ns = &quot;urn:schemas-microsoft-com:vml&quot; />&lt;v:shapetype id=_x0000_t75 stroked=&quot;f&quot; filled=&quot;f&quot; path=&quot;m@4@5l@4@11@9@11@9@5xe&quot; o:preferrelative=&quot;t&quot; o:spt=&quot;75&quot; coordsize=&quot;21600,21600&quot;>&lt;v:stroke joinstyle=&quot;miter&quot;>&lt;/v:stroke>&lt;v:formulas>&lt;v:f eqn=&quot;if lineDrawn pixelLineWidth 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @0 1 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum 0 0 @1&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @2 1 2&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @3 21600 pixelWidth&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @3 21600 pixelHeight&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @0 0 1&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @6 1 2&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @7 21600 pixelWidth&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @8 21600 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @7 21600 pixelHeight&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @10 21600 0&quot;>&lt;/v:f>&lt;/v:formulas>&lt;v:path o:connecttype=&quot;rect&quot; gradientshapeok=&quot;t&quot; o:extrusionok=&quot;f&quot;>&lt;/v:path>&lt;o:lock aspectratio=&quot;t&quot; v:ext=&quot;edit&quot;>&lt;/o:lock>&lt;/v:shapetype>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0cm 0cm 10pt&quot; class=MsoCaption align=center>&lt;a name=&quot;_Toc238805375&quot;>&lt;STRONG>&lt;FONT color=#4f81bd face=Calibri>Figure &lt;/FONT>&lt;/STRONG>&lt;/a>&lt;STRONG>&lt;FONT color=#4f81bd>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-bookmark: _Toc238805375&quot;>&lt;SPAN style=&quot;mso-no-proof: yes&quot;>8&lt;/SPAN>&lt;/SPAN>&lt;SPAN style=&quot;mso-bookmark: _Toc238805375&quot;>. Service Architecture example&lt;/SPAN>&lt;/FONT>&lt;/FONT>&lt;/STRONG>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;o:p>&lt;FONT size=3 face=Calibri>&amp;nbsp;&lt;/FONT>&lt;/o:p>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>There are three service participants in this model: Operator, Administrator, and Temperature System. The three participants communicate with each other through different service collaboration services.&lt;/FONT>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4Nu6xgqKuNtOKLUAjt8-9A" name="participant_services_architecture,_ddfQcfPxEd-aSLmU6PqmFQ" guid="-4Nu6xgqKuNtOKLUAjt8-9A">
+    <refinedDescription>&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>An example of participant service architecture for “Temperature Monitor” is shown in the following diagram.&lt;/FONT>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;FONT size=3 face=Calibri>&amp;nbsp;&lt;/FONT>&lt;/o:p>&lt;/P>&#xD;
+&lt;P style=&quot;PAGE-BREAK-AFTER: avoid; MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;mso-no-proof: yes&quot;>&lt;?xml:namespace prefix = v ns = &quot;urn:schemas-microsoft-com:vml&quot; />&lt;v:shapetype id=_x0000_t75 stroked=&quot;f&quot; filled=&quot;f&quot; path=&quot;m@4@5l@4@11@9@11@9@5xe&quot; o:preferrelative=&quot;t&quot; o:spt=&quot;75&quot; coordsize=&quot;21600,21600&quot;>&lt;v:stroke joinstyle=&quot;miter&quot;>&lt;/v:stroke>&lt;v:formulas>&lt;v:f eqn=&quot;if lineDrawn pixelLineWidth 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @0 1 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum 0 0 @1&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @2 1 2&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @3 21600 pixelWidth&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @3 21600 pixelHeight&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @0 0 1&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @6 1 2&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @7 21600 pixelWidth&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @8 21600 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @7 21600 pixelHeight&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @10 21600 0&quot;>&lt;/v:f>&lt;/v:formulas>&lt;v:path o:connecttype=&quot;rect&quot; gradientshapeok=&quot;t&quot; o:extrusionok=&quot;f&quot;>&lt;/v:path>&lt;o:lock aspectratio=&quot;t&quot; v:ext=&quot;edit&quot;>&lt;/o:lock>&lt;/v:shapetype>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0cm 0cm 10pt&quot; class=MsoCaption align=center>&lt;IMG alt=&quot;Participant Services Architecture&quot; src=&quot;./../../practice.architecture.mathematical_systems_engineering.base_sisas-sintef/workproducts/resources/Participant Services Architecture.png&quot; width=537 height=277>&lt;/P>&#xD;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0cm 0cm 10pt&quot; class=MsoCaption align=center>&lt;a name=&quot;_Toc238805377&quot;>&lt;STRONG>&lt;FONT color=#4f81bd face=Calibri>Figure &lt;/FONT>&lt;/STRONG>&lt;/a>&lt;STRONG>&lt;FONT color=#4f81bd>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-bookmark: _Toc238805377&quot;>&lt;SPAN style=&quot;mso-no-proof: yes&quot;>10&lt;/SPAN>&lt;/SPAN>&lt;SPAN style=&quot;mso-bookmark: _Toc238805377&quot;>. Participant services architecture Example&lt;/SPAN>&lt;/FONT>&lt;/FONT>&lt;/STRONG>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-N8590ruvdu5WKo6M3ror8A" name="requirement_diagram_and_use_case_diagram,_ddhFofPxEd-aSLmU6PqmFQ" guid="-N8590ruvdu5WKo6M3ror8A">
+    <refinedDescription>&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>The following diagram is a requirement diagram of Temperature Monitoring Scientific software.&lt;/FONT>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>&lt;/FONT>&amp;nbsp;&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>&lt;IMG alt=&quot;Requirement Diagram&quot; src=&quot;./../../practice.architecture.mathematical_systems_engineering.base_sisas-sintef/workproducts/./resources/Requirement Diagram.png&quot; width=588 height=290>&lt;/FONT>&lt;/P>&#xD;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt&quot; class=BodyMain align=center>&lt;SPAN style=&quot;mso-no-proof: yes&quot;>&lt;?xml:namespace prefix = v ns = &quot;urn:schemas-microsoft-com:vml&quot; />&lt;v:shapetype id=_x0000_t75 coordsize=&quot;21600,21600&quot; o:spt=&quot;75&quot; o:preferrelative=&quot;t&quot; path=&quot;m@4@5l@4@11@9@11@9@5xe&quot; filled=&quot;f&quot; stroked=&quot;f&quot;>&lt;v:stroke joinstyle=&quot;miter&quot;>&lt;/v:stroke>&lt;v:formulas>&lt;v:f eqn=&quot;if lineDrawn pixelLineWidth 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @0 1 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum 0 0 @1&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @2 1 2&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @3 21600 pixelWidth&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @3 21600 pixelHeight&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @0 0 1&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @6 1 2&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @7 21600 pixelWidth&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @8 21600 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @7 21600 pixelHeight&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @10 21600 0&quot;>&lt;/v:f>&lt;/v:formulas>&lt;v:path o:extrusionok=&quot;f&quot; gradientshapeok=&quot;t&quot; o:connecttype=&quot;rect&quot;>&lt;/v:path>&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:lock v:ext=&quot;edit&quot; aspectratio=&quot;t&quot;>&lt;/o:lock>&lt;/v:shapetype>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0cm 0cm 10pt&quot; class=MsoCaption align=center>&lt;a name=&quot;_Toc238805373&quot;>&lt;STRONG>&lt;FONT color=#4f81bd face=Calibri>Figure &lt;/FONT>&lt;/STRONG>&lt;/a>&lt;STRONG>&lt;FONT color=#4f81bd>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-bookmark: _Toc238805373&quot;>&lt;SPAN style=&quot;mso-no-proof: yes&quot;>6&lt;/SPAN>&lt;/SPAN>&lt;SPAN style=&quot;mso-bookmark: _Toc238805373&quot;>. MOSiSaS Methodology Requirement Diagram&lt;/SPAN>&lt;/FONT>&lt;/FONT>&lt;/STRONG>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>This requirement diagram presents the requirements from two aspects: Functionality and Operating Environment. There are also some sub requirements in each specific aspect.&lt;/FONT>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;o:p>&lt;FONT size=3 face=Calibri>&amp;nbsp;&lt;/FONT>&lt;/o:p>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3>&lt;FONT face=Calibri>The requirement diagram includes all the requirements while use case diagram presents the functional requirements. Use case is considered as a mechanism to capture the functional system requirement.&lt;SPAN style=&quot;mso-spacerun: yes&quot;>&amp;nbsp; &lt;/SPAN>&lt;/FONT>&lt;/FONT>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;o:p>&lt;FONT size=3 face=Calibri>&amp;nbsp;&lt;/FONT>&lt;/o:p>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>The following diagram is a use case diagram shows the functional requirement in the scientific temperature monitoring system:&lt;/FONT>&lt;SPAN style=&quot;BORDER-BOTTOM: black 1pt; BORDER-LEFT: black 1pt; PADDING-BOTTOM: 0cm; PADDING-LEFT: 0cm; LAYOUT-GRID-MODE: line; PADDING-RIGHT: 0cm; FONT-FAMILY: 'Times New Roman','serif'; BACKGROUND: black; COLOR: black; FONT-SIZE: 0pt; BORDER-TOP: black 1pt; BORDER-RIGHT: black 1pt; PADDING-TOP: 0cm; mso-fareast-font-family: 'Times New Roman'; mso-border-alt: none black 0cm; mso-font-width: 0%&quot;> &lt;/SPAN>&lt;SPAN style=&quot;mso-no-proof: yes&quot;>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0cm 0cm 10pt&quot; class=MsoCaption align=center>&lt;STRONG>&lt;FONT color=#4f81bd>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-bookmark: _Toc238805374&quot;>&lt;/SPAN>&lt;/FONT>&lt;/FONT>&lt;/STRONG>&amp;nbsp;&lt;/P>&#xD;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0cm 0cm 10pt&quot; class=MsoCaption align=center>&lt;STRONG>&lt;FONT color=#4f81bd>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-bookmark: _Toc238805374&quot;>&lt;IMG alt=&quot;Use Case&quot; src=&quot;./../../practice.architecture.mathematical_systems_engineering.base_sisas-sintef/workproducts/./resources/Use Case.png&quot; width=600 height=420>&lt;/SPAN>&lt;/FONT>&lt;/FONT>&lt;/STRONG>&lt;/P>&#xD;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0cm 0cm 10pt&quot; class=MsoCaption align=center>&lt;STRONG>&lt;FONT color=#4f81bd>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-bookmark: _Toc238805374&quot;>&lt;a name=&quot;_Toc238805374&quot;>&lt;STRONG>&lt;FONT color=#4f81bd face=Calibri>Figure &lt;/FONT>&lt;/STRONG>&lt;/a>&lt;STRONG>&lt;FONT color=#4f81bd>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-bookmark: _Toc238805374&quot;>&lt;SPAN style=&quot;mso-no-proof: yes&quot;>7&lt;/SPAN>&lt;/SPAN>&lt;SPAN style=&quot;mso-bookmark: _Toc238805374&quot;>. Use Case example&lt;/SPAN>&lt;/FONT>&lt;/FONT>&lt;/STRONG>&lt;/SPAN>&lt;/FONT>&lt;/FONT>&lt;/STRONG>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>The system actors, such as Administrator and Operator, have different use cases, which stand for the functional requirements from different actors. The relationship between Use Cases could be include or extend.&lt;/FONT>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bAcNKn4TPiNK1KUb9324IQ" name="logical_architecture,_ddiTwfPxEd-aSLmU6PqmFQ" guid="-bAcNKn4TPiNK1KUb9324IQ">
+    <refinedDescription>&amp;lt;TBD&amp;gt;</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7ioscEJ4n4WqjYNPmFzXyg" name="matlab_or_modelica_mathematical_model,_ddkwAPPxEd-aSLmU6PqmFQ" guid="-7ioscEJ4n4WqjYNPmFzXyg">
+    <refinedDescription>&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>Here we use Temperature Constrains as an example to show how to use Modelica Language. &lt;/FONT>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;FONT size=3 face=Calibri>&amp;nbsp;&lt;/FONT>&lt;/o:p>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>The temperature checking algorithm Modelica script:&lt;/FONT>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;FONT face=Calibri>function temperatureConstrains&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-tab-count: 1&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN>input&lt;SPAN style=&quot;mso-tab-count: 1&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN>Real temperature;&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-tab-count: 1&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN>output&lt;SPAN style=&quot;mso-tab-count: 1&quot;>&amp;nbsp; &lt;/SPAN>String feedback;&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;FONT face=Calibri>protected&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-tab-count: 1&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN>constant Real max = 2000;&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-tab-count: 1&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN>constant Real min = -200;&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;o:p>&lt;FONT face=Calibri>&amp;nbsp;&lt;/FONT>&lt;/o:p>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;FONT face=Calibri>algorithm&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-tab-count: 1&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN>if temperature &amp;gt; max then&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-tab-count: 2&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN>feedback := &quot;Dangerous! Temperature too high.&quot;;&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-tab-count: 1&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN>elseif temperature &amp;lt; min then&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-tab-count: 2&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN>feedback := &quot;Dangerous! Temperature too low.&quot;;&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-tab-count: 1&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN>else &lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-tab-count: 2&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN>feedback := &quot;Temperature is in secure range&quot;;&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-tab-count: 1&quot;>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN>end if;&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;o:p>&lt;FONT face=Calibri>&amp;nbsp;&lt;/FONT>&lt;/o:p>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;COLOR: #0070c0; FONT-SIZE: 11pt&quot;>&lt;FONT face=Calibri>end temperatureConstrains;&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;o:p>&lt;FONT size=3 face=Calibri>&amp;nbsp;&lt;/FONT>&lt;/o:p>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>If we input the temperature like 500, the algorithm should give output like “Temperature is in secure range”.&lt;/FONT>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ekdm8JJ3gy96ofOQGt8z9g" name="service_specification,_ddmlMfPxEd-aSLmU6PqmFQ" guid="-ekdm8JJ3gy96ofOQGt8z9g">
+    <refinedDescription>&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>The following model is service specification diagram. It shows how Temperature Monitor provides service to and receives service from other participants. &lt;/FONT>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;FONT size=3 face=Calibri>&amp;nbsp;&lt;/FONT>&lt;/o:p>&lt;/P>&#xD;
+&lt;P style=&quot;PAGE-BREAK-AFTER: avoid; TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt&quot; class=BodyMain align=center>&lt;SPAN style=&quot;mso-no-proof: yes&quot;>&lt;?xml:namespace prefix = v ns = &quot;urn:schemas-microsoft-com:vml&quot; />&lt;v:shapetype id=_x0000_t75 stroked=&quot;f&quot; filled=&quot;f&quot; path=&quot;m@4@5l@4@11@9@11@9@5xe&quot; o:preferrelative=&quot;t&quot; o:spt=&quot;75&quot; coordsize=&quot;21600,21600&quot;>&lt;v:stroke joinstyle=&quot;miter&quot;>&lt;/v:stroke>&lt;v:formulas>&lt;v:f eqn=&quot;if lineDrawn pixelLineWidth 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @0 1 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum 0 0 @1&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @2 1 2&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @3 21600 pixelWidth&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @3 21600 pixelHeight&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @0 0 1&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @6 1 2&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @7 21600 pixelWidth&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @8 21600 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @7 21600 pixelHeight&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @10 21600 0&quot;>&lt;/v:f>&lt;/v:formulas>&lt;v:path o:connecttype=&quot;rect&quot; gradientshapeok=&quot;t&quot; o:extrusionok=&quot;f&quot;>&lt;/v:path>&lt;o:lock aspectratio=&quot;t&quot; v:ext=&quot;edit&quot;>&lt;/o:lock>&lt;/v:shapetype>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0cm 0cm 10pt&quot; class=MsoCaption align=center>&lt;IMG alt=&quot;Service Specfication Example&quot; src=&quot;./../../practice.architecture.mathematical_systems_engineering.base_sisas-sintef/workproducts/resources/Service Specfication Example.png&quot; width=360 height=326>&lt;/P>&#xD;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0cm 0cm 10pt&quot; class=MsoCaption align=center>&lt;a name=&quot;_Toc238805379&quot;>&lt;STRONG>&lt;FONT color=#4f81bd face=Calibri>Figure &lt;/FONT>&lt;/STRONG>&lt;/a>&lt;STRONG>&lt;FONT color=#4f81bd>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-bookmark: _Toc238805379&quot;>&lt;SPAN style=&quot;mso-no-proof: yes&quot;>12&lt;/SPAN>&lt;/SPAN>&lt;SPAN style=&quot;mso-bookmark: _Toc238805379&quot;>. Service Specification Example&lt;/SPAN>&lt;/FONT>&lt;/FONT>&lt;/STRONG>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>From this model we can see there are two service interfaces for the service provider Temperature Monitor. The required interface “DataReceiverInterface” provides two functions, which allows user to receive and filter temperature data. &lt;SPAN style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/SPAN>The provided interface “DataAnalyserInterface” provides two functions, which can check temperature and send the feedback to operators.&lt;/FONT>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-RqQDjnkByx2f9Ov1Lrhi_g" name="structure_diagram,_ddoaYfPxEd-aSLmU6PqmFQ" guid="-RqQDjnkByx2f9Ov1Lrhi_g">
+    <refinedDescription>&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>The following diagram is a block model for Temperature Monitor. &lt;/FONT>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;FONT size=3 face=Calibri>&amp;nbsp;&lt;/FONT>&lt;/o:p>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;o:p>&lt;IMG alt=&quot;Block diagram example&quot; src=&quot;./../../practice.architecture.mathematical_systems_engineering.base_sisas-sintef/workproducts/resources/Block.png&quot; width=545 height=270>&lt;/o:p>&lt;/P>&#xD;
+&lt;P style=&quot;PAGE-BREAK-AFTER: avoid; MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;SPAN style=&quot;mso-no-proof: yes&quot;>&lt;?xml:namespace prefix = v ns = &quot;urn:schemas-microsoft-com:vml&quot; />&lt;v:shapetype id=_x0000_t75 stroked=&quot;f&quot; filled=&quot;f&quot; path=&quot;m@4@5l@4@11@9@11@9@5xe&quot; o:preferrelative=&quot;t&quot; o:spt=&quot;75&quot; coordsize=&quot;21600,21600&quot;>&lt;v:stroke joinstyle=&quot;miter&quot;>&lt;/v:stroke>&lt;v:formulas>&lt;v:f eqn=&quot;if lineDrawn pixelLineWidth 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @0 1 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum 0 0 @1&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @2 1 2&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @3 21600 pixelWidth&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @3 21600 pixelHeight&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @0 0 1&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @6 1 2&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @7 21600 pixelWidth&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @8 21600 0&quot;>&lt;/v:f>&lt;v:f eqn=&quot;prod @7 21600 pixelHeight&quot;>&lt;/v:f>&lt;v:f eqn=&quot;sum @10 21600 0&quot;>&lt;/v:f>&lt;/v:formulas>&lt;v:path o:connecttype=&quot;rect&quot; gradientshapeok=&quot;t&quot; o:extrusionok=&quot;f&quot;>&lt;/v:path>&lt;o:lock aspectratio=&quot;t&quot; v:ext=&quot;edit&quot;>&lt;/o:lock>&lt;/v:shapetype>&lt;/SPAN>&lt;/P>&#xD;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0cm 0cm 10pt&quot; class=MsoCaption align=center>&lt;a name=&quot;_Toc238805378&quot;>&lt;STRONG>&lt;FONT color=#4f81bd face=Calibri>Figure &lt;/FONT>&lt;/STRONG>&lt;/a>&lt;STRONG>&lt;FONT color=#4f81bd>&lt;FONT face=Calibri>&lt;SPAN style=&quot;mso-bookmark: _Toc238805378&quot;>&lt;SPAN style=&quot;mso-no-proof: yes&quot;>11&lt;/SPAN>&lt;/SPAN>&lt;SPAN style=&quot;mso-bookmark: _Toc238805378&quot;>. Block diagram example&lt;/SPAN>&lt;/FONT>&lt;/FONT>&lt;/STRONG>&lt;/P>&#xD;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=BodyMain>&lt;FONT size=3 face=Calibri>We can see there are two internal blocks inside Temperature Monitor, and they are Data Receiver and Temperature Analyzer. The “Data Receiver” gets the real time temperature data and filters the useless data.&lt;SPAN style=&quot;mso-spacerun: yes&quot;>&amp;nbsp; &lt;/SPAN>Then the temperature data is passed to Block “Temperature Analyzer” gets the data and checks whether the data is in safe range. According to the checked result, the feedback result is sent to operator.&lt;/FONT>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

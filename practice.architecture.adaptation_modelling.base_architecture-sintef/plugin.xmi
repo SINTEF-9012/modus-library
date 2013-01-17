@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_ijJ8QO5rEd-0xPxjwuNm4A" guid="_ijJ8QO5rEd-0xPxjwuNm4A">
+    <subManagers xmi:id="_qvvVYQeUEeCk4NIWYgM-Lg" href="uma://_qu_ugAeUEeCk4NIWYgM-Lg#_qvvVYQeUEeCk4NIWYgM-Lg"/>
+    <resourceDescriptors xmi:id="_qu_ugweUEeCk4NIWYgM-Lg" id="_qu_ugAeUEeCk4NIWYgM-Lg" uri="capabilitypatterns/runtime_architecture_modelling/model.xmi"/>
+    <resourceDescriptors xmi:id="_mJp7oQzlEeC0l9qo9DKfjQ" id="-75Ykpi88pXphpSfBgWwVmQ" uri="guidances/practices/diva_adaptation_architecture_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_5-19YAzlEeC0l9qo9DKfjQ" id="-ITdqbBKzQYEb1cK_Ponh5g" uri="tasks/define_aspect_models.xmi"/>
+    <resourceDescriptors xmi:id="_MVwqUQzmEeC0l9qo9DKfjQ" id="-rBnZbZ71wmElqGnFGjTqLw" uri="tasks/define_base_model.xmi"/>
+    <resourceDescriptors xmi:id="_yUGNUQznEeC0l9qo9DKfjQ" id="-sqgIVKAkwPbngNi7fZg_Cg" uri="tasks/integrate_and_test_aspects%203.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_ijALQO5rEd-0xPxjwuNm4A" name="practice.architecture.adaptation_modelling.base_architecture-sintef" guid="_ijALQO5rEd-0xPxjwuNm4A" briefDescription="This plugin contains the DIVA adaptation modelling practice." authors="Vegard Dehlen (SINTEF), Brian Elvesæter (SINTEF)" changeDate="2011-06-21T14:18:52.590+0200">
+    <methodElementProperty xmi:id="_ijJ8Qu5rEd-0xPxjwuNm4A" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ijALQe5rEd-0xPxjwuNm4A" name="Content" guid="_ijALQe5rEd-0xPxjwuNm4A">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ijALQu5rEd-0xPxjwuNm4A" name="Categories" guid="_ijALQu5rEd-0xPxjwuNm4A">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ijALQ-5rEd-0xPxjwuNm4A" name="Domains" guid="_ijALQ-5rEd-0xPxjwuNm4A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ijALRO5rEd-0xPxjwuNm4A" name="Disciplines" guid="_ijALRO5rEd-0xPxjwuNm4A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ijALRe5rEd-0xPxjwuNm4A" name="RoleSets" guid="_ijALRe5rEd-0xPxjwuNm4A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ijALRu5rEd-0xPxjwuNm4A" name="WP Types" guid="_ijALRu5rEd-0xPxjwuNm4A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ijALR-5rEd-0xPxjwuNm4A" name="Tools" guid="_ijALR-5rEd-0xPxjwuNm4A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ijALSO5rEd-0xPxjwuNm4A" name="StandardCategories" guid="_ijALSO5rEd-0xPxjwuNm4A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ijALSe5rEd-0xPxjwuNm4A" name="CustomCategories" guid="_ijALSe5rEd-0xPxjwuNm4A">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ijALSu5rEd-0xPxjwuNm4A" name="Hidden" guid="_ijALSu5rEd-0xPxjwuNm4A">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_ijALS-5rEd-0xPxjwuNm4A" name="Custom Categories" guid="_ijALS-5rEd-0xPxjwuNm4A"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ijALTO5rEd-0xPxjwuNm4A" name="CoreContent" guid="_ijALTO5rEd-0xPxjwuNm4A">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iBRuMPJQEd-FpZGj9I_2_g" name="adaptation_architecture_modelling" guid="_iBRuMPJQEd-FpZGj9I_2_g" presentationName="Runtime architecture definition" briefDescription="Creating the architectural aspect models that are weaved and un-weaved at runtime to drive the adaptation of a DiVA system.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_PKMBgPJSEd-FpZGj9I_2_g" name="architectural_aspects_model" guid="_PKMBgPJSEd-FpZGj9I_2_g" presentationName="Architectural aspects model" briefDescription="In the DiVA approach, the variability in the system is implemented by separating the variants defined in the adaptation models in aspect models which can be woven in the base application whenever this variant is selected in a configuration during reasoning." deliveredWorkProducts="_Z3M90PJSEd-FpZGj9I_2_g _VTSGsPJSEd-FpZGj9I_2_g"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_VTSGsPJSEd-FpZGj9I_2_g" name="base_architecture_model" guid="_VTSGsPJSEd-FpZGj9I_2_g" presentationName="Base architecture model" briefDescription="The base model includes the general architecture of the application and the components which should be present in all configurations of the system."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Z3M90PJSEd-FpZGj9I_2_g" name="aspect_models" guid="_Z3M90PJSEd-FpZGj9I_2_g" presentationName="Aspect models" briefDescription="For each variant in the adaptation model, one aspect should be defined in order to implement the feature provided by this variant in the application."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CsRS0PJTEd-FpZGj9I_2_g" name="define_base_model" guid="_CsRS0PJTEd-FpZGj9I_2_g" presentationName="Define base model" briefDescription="This task describes the process of defining the base model as a part of the architectural aspects model" performedBy="_02ecUAOYEeCKOY6tSwZy2A" output="_VTSGsPJSEd-FpZGj9I_2_g">
+            <presentation xmi:id="-rBnZbZ71wmElqGnFGjTqLw" href="uma://-rBnZbZ71wmElqGnFGjTqLw#-rBnZbZ71wmElqGnFGjTqLw"/>
+            <optionalInput href="uma://_iESMoNxcEd-LYKXkOhPACw#_vIqTYOG2Ed-AyrTFSpVP8g"/>
+            <optionalInput href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_X1NuoOzFEd--R6Ia0d6GOQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_SGbTsPJTEd-FpZGj9I_2_g" name="define_aspect_models" guid="_SGbTsPJTEd-FpZGj9I_2_g" presentationName="Define aspect models" briefDescription="This task describes the process of defining the aspect models as a part of the architectural aspects model." performedBy="_02ecUAOYEeCKOY6tSwZy2A" mandatoryInput="_VTSGsPJSEd-FpZGj9I_2_g" output="_Z3M90PJSEd-FpZGj9I_2_g">
+            <presentation xmi:id="-ITdqbBKzQYEb1cK_Ponh5g" href="uma://-ITdqbBKzQYEb1cK_Ponh5g#-ITdqbBKzQYEb1cK_Ponh5g"/>
+            <optionalInput href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_X1NuoOzFEd--R6Ia0d6GOQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_csbpEPJTEd-FpZGj9I_2_g" name="integrate_and_test_aspects" guid="_csbpEPJTEd-FpZGj9I_2_g" presentationName="Integrate and test aspects" briefDescription="This task includes taking care of the possible interactions between the aspects and setting constraints on the order they should be woven in the base model. The aspects are then tested by weaving sets of test configurations defined in the adaptation model." performedBy="_02ecUAOYEeCKOY6tSwZy2A" output="_PKMBgPJSEd-FpZGj9I_2_g">
+            <presentation xmi:id="-sqgIVKAkwPbngNi7fZg_Cg" href="uma://-sqgIVKAkwPbngNi7fZg_Cg#-sqgIVKAkwPbngNi7fZg_Cg"/>
+            <mandatoryInput href="#_PKMBgPJSEd-FpZGj9I_2_g"/>
+            <mandatoryInput href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_X1NuoOzFEd--R6Ia0d6GOQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_jr3S0AOKEeCKOY6tSwZy2A" name="diva_adaptation_architecture_modelling" guid="_jr3S0AOKEeCKOY6tSwZy2A" presentationName="DiVA - Runtime architecture modelling" briefDescription="Define the component aspect model that serves as the architecture of the adaptive features of the system. The DiVA technology allows the weaving and un-weaving of these aspects on the model level at runtime. " contentReferences="_PKMBgPJSEd-FpZGj9I_2_g _VTSGsPJSEd-FpZGj9I_2_g _Z3M90PJSEd-FpZGj9I_2_g _CsRS0PJTEd-FpZGj9I_2_g _SGbTsPJTEd-FpZGj9I_2_g _csbpEPJTEd-FpZGj9I_2_g">
+            <presentation xmi:id="-75Ykpi88pXphpSfBgWwVmQ" href="uma://-75Ykpi88pXphpSfBgWwVmQ#-75Ykpi88pXphpSfBgWwVmQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_02ecUAOYEeCKOY6tSwZy2A" name="system_architect.assign" guid="_02ecUAOYEeCKOY6tSwZy2A" variabilityType="contributes" responsibleFor="_PKMBgPJSEd-FpZGj9I_2_g _Z3M90PJSEd-FpZGj9I_2_g _VTSGsPJSEd-FpZGj9I_2_g">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ijALTe5rEd-0xPxjwuNm4A" name="CapabilityPatterns" guid="_ijALTe5rEd-0xPxjwuNm4A">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_qu_ugAeUEeCk4NIWYgM-Lg" href="uma://_qu_ugAeUEeCk4NIWYgM-Lg#_qu_ugAeUEeCk4NIWYgM-Lg"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ijALTu5rEd-0xPxjwuNm4A" name="DeliveryProcesses" guid="_ijALTu5rEd-0xPxjwuNm4A"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ijALT-5rEd-0xPxjwuNm4A" name="ProcessContributions" guid="_ijALT-5rEd-0xPxjwuNm4A"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_XSYj0OzEEd--R6Ia0d6GOQ"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_IarRYn0dEd6On6TUtok0Og" guid="_IarRYn0dEd6On6TUtok0Og">
+    <resourceDescriptors xmi:id="_IarRY30dEd6On6TUtok0Og" id="-kbrCoIt8mdMgchyRy0DIFQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_HJTJEH0dEd6On6TUtok0Og" name="Service_Customization" guid="_HJTJEH0dEd6On6TUtok0Og">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_tDTzcH0jEd6On6TUtok0Og" name="Service Customization" guid="_tDTzcH0jEd6On6TUtok0Og">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_tDTzcX0jEd6On6TUtok0Og" name="Service Customization" guid="_tDTzcX0jEd6On6TUtok0Og" presentationName="Service Customization" briefDescription="This process defines the methodology logic for the service variability customization activity within the SHAPE methodology." isOptional="true" superActivities="_HJTJEX0dEd6On6TUtok0Og" breakdownElements="_tDTzdX0jEd6On6TUtok0Og _thjdkabDEd6Ll-XI4dYUJA _thjdkqbDEd6Ll-XI4dYUJA _gOsdwmMrEd-2eNPi9l6wMg _gOsdw2MrEd-2eNPi9l6wMg _liddcGMrEd-2eNPi9l6wMg _liddcWMrEd-2eNPi9l6wMg _liddc2MrEd-2eNPi9l6wMg _mCfoYGMrEd-2eNPi9l6wMg _tDTzd30jEd6On6TUtok0Og _OY4dUGMsEd-2eNPi9l6wMg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_tDTzeH0jEd6On6TUtok0Og" guid="_tDTzeH0jEd6On6TUtok0Og"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_tDTzdX0jEd6On6TUtok0Og" name="SoaML Service_diagram" guid="_tDTzdX0jEd6On6TUtok0Og" presentationName="SoaML Service Diagram" briefDescription="This diagram presents WHAT is the service. This model should define mainly the operations and the interface of the service. This diagram will represent the service from a static point of view.This diagram coul be represented with class diagrams (for defining ServiceInterface) and Collaboration diagram that describes entities that work together for some purpose." isPlanned="false" superActivities="_tDTzcX0jEd6On6TUtok0Og">
+        <methodElementProperty xmi:id="_kCcdQNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_thjdkabDEd6Ll-XI4dYUJA" name="ServiceConfigurationSpecification" guid="_thjdkabDEd6Ll-XI4dYUJA" presentationName="Service Configuration Specification" briefDescription="Explicit description of the variable aspects of a service on the basis of the SHAPE Service Variability Metamodel " isPlanned="false" superActivities="_tDTzcX0jEd6On6TUtok0Og">
+        <methodElementProperty xmi:id="_kCxNYNeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <examples href="uma://_IHangNxHEd-LYKXkOhPACw#_MAcmIIJrEd6Ljca46QJL5g"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_tf-4AYJrEd6Ljca46QJL5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_thjdkqbDEd6Ll-XI4dYUJA" name="ServiceConfigurationResolution" guid="_thjdkqbDEd6Ll-XI4dYUJA" presentationName="Service Configuration Resolution" briefDescription="Model of a customized Service Variant, defining the resolution of a Service Variability Specification Model  " isPlanned="false" superActivities="_tDTzcX0jEd6On6TUtok0Og">
+        <methodElementProperty xmi:id="_kC37ENeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <examples href="uma://_IHangNxHEd-LYKXkOhPACw#_MAcmIIJrEd6Ljca46QJL5g"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_tf-4AIJrEd6Ljca46QJL5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_gOsdwmMrEd-2eNPi9l6wMg" name="System_Architect" guid="_gOsdwmMrEd-2eNPi9l6wMg" presentationName="System Architect" briefDescription="Works on developing and maintaining a service-oriented architecture for the IT portfolio of a company." isPlanned="false" superActivities="_tDTzcX0jEd6On6TUtok0Og">
+        <Role href="uma://_kwazABFxEd6C2PqX2OSy5A#_mWo3cDMyEd6_xOMajArapw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gOsdw2MrEd-2eNPi9l6wMg" name="SoaML_Model" guid="_gOsdw2MrEd-2eNPi9l6wMg" presentationName="SoaML Model" briefDescription="A model that defines the service architecture in a platform-indepent manner." isPlanned="false" superActivities="_tDTzcX0jEd6On6TUtok0Og"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_liddcGMrEd-2eNPi9l6wMg" name="Create_ServiceVariabilitySpecificationModel" guid="_liddcGMrEd-2eNPi9l6wMg" presentationName="Create Service Variability Specification Model" briefDescription="describe the variable aspects of a service as the basis for creating a service variant " superActivities="_tDTzcX0jEd6On6TUtok0Og" isSynchronizedWithSource="false" additionallyPerformedBy="_gOsdwmMrEd-2eNPi9l6wMg" mandatoryInput="_gOsdw2MrEd-2eNPi9l6wMg" optionalInput="_tDTzdX0jEd6On6TUtok0Og _liddc2MrEd-2eNPi9l6wMg" output="_thjdkabDEd6Ll-XI4dYUJA" performedPrimarilyBy="_liddcWMrEd-2eNPi9l6wMg">
+        <toolmentor href="uma://_IHangNxHEd-LYKXkOhPACw#_wPftIFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_fhq2kHXUEd6y559hJOP-yw#_0AbgIHXcEd6y559hJOP-yw"/>
+        <selectedSteps href="uma://-H1xRUX4hKDIdWfJqugdrXg#_cdwqkHXdEd6y559hJOP-yw"/>
+        <selectedSteps href="uma://-H1xRUX4hKDIdWfJqugdrXg#_lbVCgHXdEd6y559hJOP-yw"/>
+        <selectedSteps href="uma://-H1xRUX4hKDIdWfJqugdrXg#_hwWzgKRqEd6sed4uhw_PyA"/>
+        <selectedSteps href="uma://-H1xRUX4hKDIdWfJqugdrXg#_XyKPkKRrEd6sed4uhw_PyA"/>
+        <performedPrimarilyByExcluded href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJxhntEd6VV7P4WguglA"/>
+        <additionallyPerformedByExclude href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+        <mandatoryInputExclude href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_CpF1oHgtEd68G4x-PNCvag"/>
+        <optionalInputExclude href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_RIjEYE9SEd6-NZGez4d8tw"/>
+        <optionalInputExclude href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_YF8y0IKAEd6Ljca46QJL5g"/>
+        <outputExclude href="uma://_fhq2kHXUEd6y559hJOP-yw#_tf-4AYJrEd6Ljca46QJL5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_liddcWMrEd-2eNPi9l6wMg" name="Service_Developer" guid="_liddcWMrEd-2eNPi9l6wMg" presentationName="Service Developer" briefDescription="This is the worker who builds the services." isPlanned="false" superActivities="_tDTzcX0jEd6On6TUtok0Og" modifies="_thjdkabDEd6Ll-XI4dYUJA">
+        <Role href="uma://_kwazABFxEd6C2PqX2OSy5A#_gIqJxhntEd6VV7P4WguglA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_liddc2MrEd-2eNPi9l6wMg" name="SoaML_Service_Interface_Diagram" guid="_liddc2MrEd-2eNPi9l6wMg" presentationName="SoaML Service Interface Diagram " briefDescription="Component diagram that describes how to interact with a service interface." isPlanned="false" superActivities="_tDTzcX0jEd6On6TUtok0Og"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_mCfoYGMrEd-2eNPi9l6wMg" name="Create_ServiceVariabilityResolutionModel" guid="_mCfoYGMrEd-2eNPi9l6wMg" presentationName="Create a Service Variability Resolution Model" briefDescription="tool-supported creation of a Service Variability Resolution Model, which describes a customized variant of a service by resolving the variable aspects as defined in the corresponding Service Variability Specification Model.  " superActivities="_tDTzcX0jEd6On6TUtok0Og" linkToPredecessor="_UyGpMWMsEd-2eNPi9l6wMg" additionallyPerformedBy="_gOsdwmMrEd-2eNPi9l6wMg" mandatoryInput="_thjdkabDEd6Ll-XI4dYUJA" optionalInput="_gOsdw2MrEd-2eNPi9l6wMg" output="_thjdkqbDEd6Ll-XI4dYUJA">
+        <toolmentor href="uma://_IHangNxHEd-LYKXkOhPACw#_wPftIFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_fhq2kHXUEd6y559hJOP-yw#_8aCg4GMlEd-2eNPi9l6wMg"/>
+        <selectedSteps href="uma://-ptjmqjlqvnf3sKxK7-zy-Q#_8aCg4mMlEd-2eNPi9l6wMg"/>
+        <selectedSteps href="uma://-ptjmqjlqvnf3sKxK7-zy-Q#_8aCg4WMlEd-2eNPi9l6wMg"/>
+        <additionallyPerformedByExclude href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+        <mandatoryInputExclude href="uma://_fhq2kHXUEd6y559hJOP-yw#_tf-4AYJrEd6Ljca46QJL5g"/>
+        <optionalInputExclude href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_CpF1oHgtEd68G4x-PNCvag"/>
+        <outputExclude href="uma://_fhq2kHXUEd6y559hJOP-yw#_tf-4AIJrEd6Ljca46QJL5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_tDTzd30jEd6On6TUtok0Og" name="Generate_ServiceVariant" guid="_tDTzd30jEd6On6TUtok0Og" presentationName="Generate Service Variant" briefDescription="generation (automated) of Service Interface description of customized service variant; input: Service Variability Resolution Model " superActivities="_tDTzcX0jEd6On6TUtok0Og" linkToPredecessor="_tDTzeH0jEd6On6TUtok0Og _clUt4WMsEd-2eNPi9l6wMg" isSynchronizedWithSource="false" mandatoryInput="_thjdkqbDEd6Ll-XI4dYUJA" optionalInput="_gOsdw2MrEd-2eNPi9l6wMg" output="_gOsdw2MrEd-2eNPi9l6wMg _liddc2MrEd-2eNPi9l6wMg">
+        <toolmentor href="uma://_IHangNxHEd-LYKXkOhPACw#_wPftIFXHEd6iZIDJYUIm8w"/>
+        <Task href="uma://_fhq2kHXUEd6y559hJOP-yw#_cF2SIHXjEd6y559hJOP-yw"/>
+        <selectedSteps href="uma://-bQzRkf3umLvNtPgf4oXeRg#_GWOHgHXkEd6y559hJOP-yw"/>
+        <selectedSteps href="uma://-bQzRkf3umLvNtPgf4oXeRg#_US1MUHXkEd6y559hJOP-yw"/>
+        <additionallyPerformedByExclude href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+        <mandatoryInputExclude href="uma://_fhq2kHXUEd6y559hJOP-yw#_tf-4AIJrEd6Ljca46QJL5g"/>
+        <optionalInputExclude href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_CpF1oHgtEd68G4x-PNCvag"/>
+        <optionalInputExclude href="uma://_fhq2kHXUEd6y559hJOP-yw#_tf-4AYJrEd6Ljca46QJL5g"/>
+        <outputExclude href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_CpF1oHgtEd68G4x-PNCvag"/>
+        <outputExclude href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_YF8y0IKAEd6Ljca46QJL5g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_OY4dUGMsEd-2eNPi9l6wMg" name="BMM_Dictionary_Model" guid="_OY4dUGMsEd-2eNPi9l6wMg" presentationName="Dictionary Model" briefDescription="BMM Dictionary Model." isPlanned="false" superActivities="_tDTzcX0jEd6On6TUtok0Og">
+        <WorkProduct href="uma://_09h_8NquEd-RHtsSMqnPrA#_eDALwIDuEd6lNYuk36nUnQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_UyGpMWMsEd-2eNPi9l6wMg" guid="_UyGpMWMsEd-2eNPi9l6wMg" pred="_liddcGMrEd-2eNPi9l6wMg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_clUt4WMsEd-2eNPi9l6wMg" guid="_clUt4WMsEd-2eNPi9l6wMg" pred="_mCfoYGMrEd-2eNPi9l6wMg"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_HJTJEX0dEd6On6TUtok0Og" name="Service_Customization" guid="_HJTJEX0dEd6On6TUtok0Og" presentationName="Service Customization" briefDescription="Methodology process for creating customized service variants with the SHAPE Service Variability technique." breakdownElements="_tDTzcX0jEd6On6TUtok0Og">
+      <methodElementProperty xmi:id="_kDBFANeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-kbrCoIt8mdMgchyRy0DIFQ" href="uma://-kbrCoIt8mdMgchyRy0DIFQ#-kbrCoIt8mdMgchyRy0DIFQ"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_KJWgoCYJEd-_-qcazwayRQ"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_KJWgoCYJEd-_-qcazwayRQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

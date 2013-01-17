@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-rPjDhpHukJDmNAkYdrQYgg" name="new_concept,_1RXIMJwMEeCb2cFFaexWpQ" guid="-rPjDhpHukJDmNAkYdrQYgg">
+  <mainDescription>&lt;p>&#xD;
+    &amp;nbsp;A case file defines the type and structure of the information that is relevant to the case. '&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The structure of the case file, including its parts and part properties are defined by the case model. Case conditional&#xD;
+    expressions must be able to reference case file part properties as well as data elements within documents. Where a&#xD;
+    document is not in machine readable form (e.g., a scanned image), then relevant data must be determined by a human who&#xD;
+    interprets the document and assigns appropriate values to properties on the associated case file part.&#xD;
+&lt;/p>&#xD;
+&lt;p style=&quot;MARGIN-BOTTOM: 0cm&quot;>&#xD;
+    Case file is a recursive structure of parts [folders] containing parts and/or documents, either by value or by&#xD;
+    reference.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_2UWXUKF_EeCKTcfDSRMRtw" guid="_2UWXUKF_EeCKTcfDSRMRtw">
+    <resourceDescriptors xmi:id="_2UWXUaF_EeCKTcfDSRMRtw" id="-jKlJ-EO4_ZCKMhAQGPr-Tw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_5QaG4C1QEeKyWralSrmW_A" id="-CGHXDeLPI02ksvWAlkUcJA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_5QaG4S1QEeKyWralSrmW_A" id="--5PgZY5hpW1QNruz1sQzVA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_5QaG4i1QEeKyWralSrmW_A" id="-85D5exvItvt4ZYefu8VVOw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_5QaG4y1QEeKyWralSrmW_A" id="-2X-mV_NGGIHeBbJSBo9TyA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_5QaG5C1QEeKyWralSrmW_A" id="-RTSyzCZrzZ427iuudtH1Ow" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_2T65gKF_EeCKTcfDSRMRtw" name="case_management_modelling_workflow" guid="_2T65gKF_EeCKTcfDSRMRtw">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4_PQQKF_EeCKTcfDSRMRtw" name="define_case_management_model" guid="_4_PQQKF_EeCKTcfDSRMRtw" presentationName="Define case management model" superActivities="_2T65gaF_EeCKTcfDSRMRtw" output="_gfiVQS0DEeKyWralSrmW_A" performedPrimarilyBy="_4_RsgKF_EeCKTcfDSRMRtw">
+      <methodElementProperty xmi:id="_gf1QMC0DEeKyWralSrmW_A" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_FU5nEMcTEd-2_-I8Ok7trA#_OpiO8KF_EeCKTcfDSRMRtw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_4_RsgKF_EeCKTcfDSRMRtw" name="solution_architect" guid="_4_RsgKF_EeCKTcfDSRMRtw" presentationName="Solution Architect" briefDescription="This worker is involved in the design of the composition workflow and all the issues around it like security, transactions or exception handling." isPlanned="false" superActivities="_2T65gaF_EeCKTcfDSRMRtw" modifies="_gfiVQS0DEeKyWralSrmW_A" responsibleFor="_gf_BMi0DEeKyWralSrmW_A _gf_BNS0DEeKyWralSrmW_A _gf_BOC0DEeKyWralSrmW_A _gf_BOy0DEeKyWralSrmW_A _gf_BPi0DEeKyWralSrmW_A _gf_BQS0DEeKyWralSrmW_A _gf_BRC0DEeKyWralSrmW_A _gfiVQS0DEeKyWralSrmW_A _gf_BRy0DEeKyWralSrmW_A">
+      <methodElementProperty xmi:id="_4_RsgaF_EeCKTcfDSRMRtw" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_gf_BSS0DEeKyWralSrmW_A" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Role href="uma://_FU5nEMcTEd-2_-I8Ok7trA#_Q6IYkKF_EeCKTcfDSRMRtw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4_STkKF_EeCKTcfDSRMRtw" name="case_management_submodel" guid="_4_STkKF_EeCKTcfDSRMRtw" presentationName="Case management submodel" isPlanned="false" superActivities="_2T65gaF_EeCKTcfDSRMRtw">
+      <methodElementProperty xmi:id="_4_STkaF_EeCKTcfDSRMRtw" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_gf_BMC0DEeKyWralSrmW_A" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <examples href="uma://_FU5nEMcTEd-2_-I8Ok7trA#_cYo_UJwFEeCxNIYmmT7D_A"/>
+      <guidelines href="uma://_FU5nEMcTEd-2_-I8Ok7trA#_hipjUMKXEeCQKuG3dPvCNA"/>
+      <WorkProduct href="uma://_FU5nEMcTEd-2_-I8Ok7trA#_MBvtUKF_EeCKTcfDSRMRtw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gfiVQS0DEeKyWralSrmW_A" name="case_management_model" guid="_gfiVQS0DEeKyWralSrmW_A" presentationName="Case Management Model" isPlanned="false" superActivities="_2T65gaF_EeCKTcfDSRMRtw" deliverableParts="_4_STkKF_EeCKTcfDSRMRtw">
+      <methodElementProperty xmi:id="_gfiVQi0DEeKyWralSrmW_A" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_gf1QMS0DEeKyWralSrmW_A" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_aOXL0CdVEeKDGNEPRzZzCg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gf_BMi0DEeKyWralSrmW_A" name="business_goals" guid="_gf_BMi0DEeKyWralSrmW_A" presentationName="Business goals" briefDescription="This work product specifies the business goals." isPlanned="false" superActivities="_2T65gaF_EeCKTcfDSRMRtw">
+      <methodElementProperty xmi:id="_gf_BMy0DEeKyWralSrmW_A" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_gf_BSi0DEeKyWralSrmW_A" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-CGHXDeLPI02ksvWAlkUcJA" href="uma://-jKlJ-EO4_ZCKMhAQGPr-Tw#-CGHXDeLPI02ksvWAlkUcJA"/>
+      <WorkProduct href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_oC4jYFF0EeGhK6PCw6rfMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gf_BNS0DEeKyWralSrmW_A" name="business_process_model.slot" guid="_gf_BNS0DEeKyWralSrmW_A" presentationName="[business process model]" briefDescription="This work product slot represents the business process model input." isPlanned="false" superActivities="_2T65gaF_EeCKTcfDSRMRtw">
+      <methodElementProperty xmi:id="_gf_BNi0DEeKyWralSrmW_A" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_ggILIC0DEeKyWralSrmW_A" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_oC4jYVF0EeGhK6PCw6rfMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gf_BOC0DEeKyWralSrmW_A" name="business_processes" guid="_gf_BOC0DEeKyWralSrmW_A" presentationName="Business processes" briefDescription="This work product specifies the refined business processes suitable for SOA modelling." isPlanned="false" superActivities="_2T65gaF_EeCKTcfDSRMRtw">
+      <methodElementProperty xmi:id="_gf_BOS0DEeKyWralSrmW_A" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_gf_BSy0DEeKyWralSrmW_A" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="--5PgZY5hpW1QNruz1sQzVA" href="uma://-jKlJ-EO4_ZCKMhAQGPr-Tw#--5PgZY5hpW1QNruz1sQzVA"/>
+      <WorkProduct href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_oC4jYlF0EeGhK6PCw6rfMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gf_BOy0DEeKyWralSrmW_A" name="service_model" guid="_gf_BOy0DEeKyWralSrmW_A" presentationName="Service Model" isPlanned="false" superActivities="_2T65gaF_EeCKTcfDSRMRtw" deliverableParts="_gf_BMi0DEeKyWralSrmW_A _gf_BOC0DEeKyWralSrmW_A _gf_BPi0DEeKyWralSrmW_A _gf_BQS0DEeKyWralSrmW_A _gf_BRC0DEeKyWralSrmW_A">
+      <methodElementProperty xmi:id="_gf_BPC0DEeKyWralSrmW_A" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_ggILJC0DEeKyWralSrmW_A" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_4zQQcLVlEeG-o5qJTdyH5A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gf_BPi0DEeKyWralSrmW_A" name="capabilities" guid="_gf_BPi0DEeKyWralSrmW_A" presentationName="Capabilites" briefDescription="This work product specifies the capabilities." isPlanned="false" superActivities="_2T65gaF_EeCKTcfDSRMRtw">
+      <methodElementProperty xmi:id="_gf_BPy0DEeKyWralSrmW_A" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_ggILIS0DEeKyWralSrmW_A" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-85D5exvItvt4ZYefu8VVOw" href="uma://-jKlJ-EO4_ZCKMhAQGPr-Tw#-85D5exvItvt4ZYefu8VVOw"/>
+      <WorkProduct href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_oC5KcFF0EeGhK6PCw6rfMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gf_BQS0DEeKyWralSrmW_A" name="service_contracts_and_choreographies" guid="_gf_BQS0DEeKyWralSrmW_A" presentationName="Service contracts and choreographies" briefDescription="This work product specifies the services contracts and choreographies." isPlanned="false" superActivities="_2T65gaF_EeCKTcfDSRMRtw">
+      <methodElementProperty xmi:id="_gf_BQi0DEeKyWralSrmW_A" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_ggILIi0DEeKyWralSrmW_A" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-2X-mV_NGGIHeBbJSBo9TyA" href="uma://-jKlJ-EO4_ZCKMhAQGPr-Tw#-2X-mV_NGGIHeBbJSBo9TyA"/>
+      <examples href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_93OexFJLEeG_AJV-uw1zUA"/>
+      <WorkProduct href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_oC5KcVF0EeGhK6PCw6rfMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gf_BRC0DEeKyWralSrmW_A" name="services_architectures" guid="_gf_BRC0DEeKyWralSrmW_A" presentationName="Services architectures" briefDescription="This work product specifies the services architectures." isPlanned="false" superActivities="_2T65gaF_EeCKTcfDSRMRtw">
+      <methodElementProperty xmi:id="_gf_BRS0DEeKyWralSrmW_A" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_ggILJS0DEeKyWralSrmW_A" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-RTSyzCZrzZ427iuudtH1Ow" href="uma://-jKlJ-EO4_ZCKMhAQGPr-Tw#-RTSyzCZrzZ427iuudtH1Ow"/>
+      <examples href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_93OexVJLEeG_AJV-uw1zUA"/>
+      <WorkProduct href="uma://_BUtsgJvlEeCpqZ2idIvIxQ#_oC5KclF0EeGhK6PCw6rfMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gf_BRy0DEeKyWralSrmW_A" name="business_process_model" guid="_gf_BRy0DEeKyWralSrmW_A" presentationName="Business Process Model" isPlanned="false" superActivities="_2T65gaF_EeCKTcfDSRMRtw">
+      <methodElementProperty xmi:id="_gf_BSC0DEeKyWralSrmW_A" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_ggILIy0DEeKyWralSrmW_A" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_yoXxEMEiEeGgb_xjjvFwfg"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_2T65gaF_EeCKTcfDSRMRtw" name="case_management_modelling_workflow" guid="_2T65gaF_EeCKTcfDSRMRtw" presentationName="Case management modelling workflow" breakdownElements="_4_PQQKF_EeCKTcfDSRMRtw _4_RsgKF_EeCKTcfDSRMRtw _4_STkKF_EeCKTcfDSRMRtw _gfiVQS0DEeKyWralSrmW_A _gf_BMi0DEeKyWralSrmW_A _gf_BNS0DEeKyWralSrmW_A _gf_BOC0DEeKyWralSrmW_A _gf_BOy0DEeKyWralSrmW_A _gf_BPi0DEeKyWralSrmW_A _gf_BQS0DEeKyWralSrmW_A _gf_BRC0DEeKyWralSrmW_A _gf_BRy0DEeKyWralSrmW_A">
+      <presentation xmi:id="-jKlJ-EO4_ZCKMhAQGPr-Tw" href="uma://-jKlJ-EO4_ZCKMhAQGPr-Tw#-jKlJ-EO4_ZCKMhAQGPr-Tw"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_xRzqgKF_EeCKTcfDSRMRtw"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_xRzqgKF_EeCKTcfDSRMRtw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

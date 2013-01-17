@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-iTVpYPTmFgjrX9--7bqk9Q" name="new_example,_FPn24L6XEeCOB4Yzghr2dQ" guid="-iTVpYPTmFgjrX9--7bqk9Q" changeDate="2011-08-04T14:48:57.665+0200">
+  <mainDescription>&lt;h3>&#xD;
+    Cell Phone Operator (CPO): Software components&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    The three participants of the community services architecture (see &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.architecture.service_modelling.base-sintef/guidances/examples/cpo_services_architecture_example_4BCD4825.html&quot;&#xD;
+     guid=&quot;_scbNoKL4EeCs2vaY4B2J3g&quot;>CPO: Services architecture example&lt;/a>)&amp;nbsp;are refined and assembled in the component&#xD;
+    model of Figure 17 (i.e. components CustomerWeb, AcmeCPOServices and OtherCPOServices).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./resources/cpo_software_components_example.png&quot; width=&quot;600&quot; height=&quot;396&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 17:&lt;/strong> Software components (UML class diagram)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The three components are connected using request and service ports. For instance, the component CustomerWeb has a port&#xD;
+    which is typed by the conjugate service interface ˜PlaceOrderInterface, which means that it has to implement the&#xD;
+    callback confirmOrderAndPay specified in the &amp;lt;&amp;lt;Consumer&amp;gt;&amp;gt; interface CustomerOrder. Similarly the component&#xD;
+    AcmeCPOServices has a port which is typed by the service interface PlaceOrderInterface, which means the component has&#xD;
+    to implement the operations defined in the &amp;lt;&amp;lt;Provider&amp;gt;&amp;gt; interface MobileServicesOrder (see &lt;a&#xD;
+    class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.architecture.service_modelling.base-sintef/guidances/examples/cpo_interfaces_and_messages_example_31B93979.html&quot;&#xD;
+     guid=&quot;_0sB-ML6VEeCOB4Yzghr2dQ&quot;>CPO: Interfaces and messages example&lt;/a>). As the two ports are typed by matching&#xD;
+    interfaces, they can be connected together.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The two components CustomerManager and CPOManager inside the AcmeCPOServices corresponds to the participants defined&#xD;
+    for the participant-level services architecture (see &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../practice.architecture.service_modelling.base-sintef/guidances/examples/cpo_services_architecture_example_4BCD4825.html&quot;&#xD;
+     guid=&quot;_scbNoKL4EeCs2vaY4B2J3g&quot;>CPO: Services architecture example&lt;/a>). These two internal components are&#xD;
+    interconnected through the AcmeCheckMobileServicesPortingInterface and AcmeExecuteMobileServicesPortingInterface&#xD;
+    request (conjugate service interface) and provider (service interface) port types.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The system component OtherCPOServices of Figure 17 is considered an external third party service, which means that&#xD;
+    its&amp;nbsp;internal structure may be unknown. This is why it has&amp;nbsp;no internal structure and is specified as a&#xD;
+    ”black-box”. However, such component must behave according to the service interfaces that type their ports, possibly&#xD;
+    including the corresponding service choreographies.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

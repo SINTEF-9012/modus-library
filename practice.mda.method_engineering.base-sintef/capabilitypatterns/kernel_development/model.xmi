@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Hv3qAFY0EeCmC7fuNTHhhQ" guid="_Hv3qAFY0EeCmC7fuNTHhhQ">
+    <resourceDescriptors xmi:id="_Hv3qAVY0EeCmC7fuNTHhhQ" id="-NC25dtgUzVpfr5aDLn0xtQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_sqpdkJHmEeC1cpVMwFmQkQ" id="-7atEMYD9-k5tfiCUhbr6nA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_HvTCQFY0EeCmC7fuNTHhhQ" name="kernel_development" guid="_HvTCQFY0EeCmC7fuNTHhhQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_rzzVIJHmEeC1cpVMwFmQkQ" name="define_kernel_element" guid="_rzzVIJHmEeC1cpVMwFmQkQ" presentationName="Define kernel element" briefDescription="This task describes how to define a kernel element." superActivities="_HvTCQVY0EeCmC7fuNTHhhQ" mandatoryInput="_rzz8MJHmEeC1cpVMwFmQkQ" output="_rzz8MJHmEeC1cpVMwFmQkQ" performedPrimarilyBy="_rzzVIZHmEeC1cpVMwFmQkQ">
+      <presentation xmi:id="-7atEMYD9-k5tfiCUhbr6nA" href="uma://-NC25dtgUzVpfr5aDLn0xtQ#-7atEMYD9-k5tfiCUhbr6nA"/>
+      <Task href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#_Y9Qs8JHmEeC1cpVMwFmQkQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_rzzVIZHmEeC1cpVMwFmQkQ" name="method_engineer" guid="_rzzVIZHmEeC1cpVMwFmQkQ" presentationName="Method engineer" isPlanned="false" superActivities="_HvTCQVY0EeCmC7fuNTHhhQ" modifies="_rzz8MJHmEeC1cpVMwFmQkQ">
+      <methodElementProperty xmi:id="_rzzVIpHmEeC1cpVMwFmQkQ" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_MxSNcNeYEd-Mq_S1iaxctg#_knzAABoYEd6Vpr8V6Jy-eA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_rzz8MJHmEeC1cpVMwFmQkQ" name="epf_core_plugin" guid="_rzz8MJHmEeC1cpVMwFmQkQ" presentationName="EPF core plugin" isPlanned="false" superActivities="_HvTCQVY0EeCmC7fuNTHhhQ">
+      <methodElementProperty xmi:id="_rzz8MZHmEeC1cpVMwFmQkQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_Y8SDoBo7Ed-fDItO-3aPHw#_4YCu8FY0EeCmC7fuNTHhhQ"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_HvTCQVY0EeCmC7fuNTHhhQ" name="kernel_development" guid="_HvTCQVY0EeCmC7fuNTHhhQ" presentationName="Kernel development" breakdownElements="_rzzVIJHmEeC1cpVMwFmQkQ _rzzVIZHmEeC1cpVMwFmQkQ _rzz8MJHmEeC1cpVMwFmQkQ">
+      <presentation xmi:id="-NC25dtgUzVpfr5aDLn0xtQ" href="uma://-NC25dtgUzVpfr5aDLn0xtQ#-NC25dtgUzVpfr5aDLn0xtQ"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_rBplIFX-EeCmC7fuNTHhhQ"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_rBplIFX-EeCmC7fuNTHhhQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

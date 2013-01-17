@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_ZXkwAeZ0Ed-5YeUvCnM2dQ" guid="_ZXkwAeZ0Ed-5YeUvCnM2dQ">
+    <resourceDescriptors xmi:id="_ZXkwAuZ0Ed-5YeUvCnM2dQ" id="-zqkzXKJyU9SUReFC_nQ6lw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_qYFIUPPVEd-GtPTRjkeUMg" id="-ATYA_q0iPQwFsTK0ai4V-w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_qYHkkPPVEd-GtPTRjkeUMg" id="-PEjDBsDIygRNrUgdDd9moQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_qYKn4PPVEd-GtPTRjkeUMg" id="-soaTtpc7Qr1X_Sjlhf051g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_qYNrMPPVEd-GtPTRjkeUMg" id="-a5Sji_XKXDblgJOHoxXmwg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_qYQugPPVEd-GtPTRjkeUMg" id="-G-9dH8-dC76P17keACddHA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_qYTx0PPVEd-GtPTRjkeUMg" id="-gAPYDTS5Mf6h4ILRPc_Upg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_qYW1IPPVEd-GtPTRjkeUMg" id="-zjOI3DT_nPfJNGyP0mYYzQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_qYafgPPVEd-GtPTRjkeUMg" id="-yVB6FuWuIpAR4vWYVJX-1A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_qYeJ4PPVEd-GtPTRjkeUMg" id="-0A2aZpnFOaeNZgVnzYOKsw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_YFTP0uZ0Ed-5YeUvCnM2dQ" name="step2_soaml_sysml_matlab_or_modelica_design_in_pim_layer" guid="_YFTP0uZ0Ed-5YeUvCnM2dQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_oea4APPVEd-GtPTRjkeUMg" name="define_logical_architecture" guid="_oea4APPVEd-GtPTRjkeUMg" presentationName="Define logical architecture" isPlanned="false" superActivities="_YFTP0-Z0Ed-5YeUvCnM2dQ" output="_oedUQPPVEd-GtPTRjkeUMg" performedPrimarilyBy="_oecGIPPVEd-GtPTRjkeUMg">
+      <Task href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_mtUv0N_eEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_oea4AfPVEd-GtPTRjkeUMg" name="define_matlab_or_modelica_mathematical_model" guid="_oea4AfPVEd-GtPTRjkeUMg" presentationName="Define MATLAB or Modelica Mathematical Model" isPlanned="false" superActivities="_YFTP0-Z0Ed-5YeUvCnM2dQ" output="_oedUQvPVEd-GtPTRjkeUMg" performedPrimarilyBy="_oecGIPPVEd-GtPTRjkeUMg">
+      <Task href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_qo2xQN_eEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_oebfEPPVEd-GtPTRjkeUMg" name="define_structure_diagram" guid="_oebfEPPVEd-GtPTRjkeUMg" presentationName="Define structure diagram" isPlanned="false" superActivities="_YFTP0-Z0Ed-5YeUvCnM2dQ" output="_oedURPPVEd-GtPTRjkeUMg" performedPrimarilyBy="_oecGIPPVEd-GtPTRjkeUMg">
+      <Task href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_gIz58N_eEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_oebfEfPVEd-GtPTRjkeUMg" name="service_specification" guid="_oebfEfPVEd-GtPTRjkeUMg" presentationName="Service specification" isPlanned="false" superActivities="_YFTP0-Z0Ed-5YeUvCnM2dQ" output="_oedURvPVEd-GtPTRjkeUMg" performedPrimarilyBy="_oecGIPPVEd-GtPTRjkeUMg">
+      <Task href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_jLavUN_eEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_oecGIPPVEd-GtPTRjkeUMg" name="system_architect" guid="_oecGIPPVEd-GtPTRjkeUMg" presentationName="System architect" briefDescription="Works on developing and maintaining a service-oriented architecture for the IT portfolio of a company." isPlanned="false" superActivities="_YFTP0-Z0Ed-5YeUvCnM2dQ" modifies="_oedUQPPVEd-GtPTRjkeUMg _oedUQvPVEd-GtPTRjkeUMg _oedURPPVEd-GtPTRjkeUMg _oedURvPVEd-GtPTRjkeUMg" responsibleFor="_oedURvPVEd-GtPTRjkeUMg _oedURPPVEd-GtPTRjkeUMg _oedUQvPVEd-GtPTRjkeUMg _oedUQPPVEd-GtPTRjkeUMg _oewPMPPVEd-GtPTRjkeUMg _oexdUfPVEd-GtPTRjkeUMg _oeyrcfPVEd-GtPTRjkeUMg _oez5kfPVEd-GtPTRjkeUMg">
+      <methodElementProperty xmi:id="_oecGIfPVEd-GtPTRjkeUMg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-ATYA_q0iPQwFsTK0ai4V-w" href="uma://-zqkzXKJyU9SUReFC_nQ6lw#-ATYA_q0iPQwFsTK0ai4V-w"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_mWo3cDMyEd6_xOMajArapw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_oedUQPPVEd-GtPTRjkeUMg" name="logical_architecture" guid="_oedUQPPVEd-GtPTRjkeUMg" presentationName="Logical Architecture" briefDescription="&lt;TBD>" isPlanned="false" superActivities="_YFTP0-Z0Ed-5YeUvCnM2dQ">
+      <methodElementProperty xmi:id="_oedUQfPVEd-GtPTRjkeUMg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-PEjDBsDIygRNrUgdDd9moQ" href="uma://-zqkzXKJyU9SUReFC_nQ6lw#-PEjDBsDIygRNrUgdDd9moQ"/>
+      <WorkProduct href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_0M_Z8N_eEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_oedUQvPVEd-GtPTRjkeUMg" name="matlab_or_modelica_mathematical_model" guid="_oedUQvPVEd-GtPTRjkeUMg" presentationName="MATLAB or Modelica Mathematical Model" briefDescription="Modelica can be used to define equations and mathematical functions. We can use Modelica to model some algorithms and integrated these models to our scientific software. " isPlanned="false" superActivities="_YFTP0-Z0Ed-5YeUvCnM2dQ">
+      <methodElementProperty xmi:id="_oedUQ_PVEd-GtPTRjkeUMg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-soaTtpc7Qr1X_Sjlhf051g" href="uma://-zqkzXKJyU9SUReFC_nQ6lw#-soaTtpc7Qr1X_Sjlhf051g"/>
+      <WorkProduct href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_3-ZPAN_eEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_oedURPPVEd-GtPTRjkeUMg" name="structure_diagram" guid="_oedURPPVEd-GtPTRjkeUMg" presentationName="Structure diagram" briefDescription="Structure diagram from SysML describe the hierarchy and interconnection between system structures. These diagrams include block definition diagram, internal block diagram, parametric diagram and package diagram." isPlanned="false" superActivities="_YFTP0-Z0Ed-5YeUvCnM2dQ">
+      <methodElementProperty xmi:id="_oedURfPVEd-GtPTRjkeUMg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-a5Sji_XKXDblgJOHoxXmwg" href="uma://-zqkzXKJyU9SUReFC_nQ6lw#-a5Sji_XKXDblgJOHoxXmwg"/>
+      <WorkProduct href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_ulu2gN_eEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_oedURvPVEd-GtPTRjkeUMg" name="service_specification" guid="_oedURvPVEd-GtPTRjkeUMg" presentationName="Service Specification" briefDescription="Service specification from SoaML specifies how services are provided or implemented. Service Interfaces are used here. Service interface allows specifying services in SoaML. It can specify the use and provision of operations between the service consumer and the service provider. This is done through the realization and usage of regular UML Interfaces by the Service Interface." isPlanned="false" superActivities="_YFTP0-Z0Ed-5YeUvCnM2dQ">
+      <methodElementProperty xmi:id="_oedUR_PVEd-GtPTRjkeUMg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-G-9dH8-dC76P17keACddHA" href="uma://-zqkzXKJyU9SUReFC_nQ6lw#-G-9dH8-dC76P17keACddHA"/>
+      <WorkProduct href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_xj3bkN_eEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_oewPMPPVEd-GtPTRjkeUMg" name="behavior_diagram" guid="_oewPMPPVEd-GtPTRjkeUMg" presentationName="Behavior Diagram" isPlanned="false" superActivities="_YFTP0-Z0Ed-5YeUvCnM2dQ">
+      <methodElementProperty xmi:id="_oewPMfPVEd-GtPTRjkeUMg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-gAPYDTS5Mf6h4ILRPc_Upg" href="uma://-zqkzXKJyU9SUReFC_nQ6lw#-gAPYDTS5Mf6h4ILRPc_Upg"/>
+      <WorkProduct href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_6m5XwN_dEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_oexdUfPVEd-GtPTRjkeUMg" name="community_services_architecture" guid="_oexdUfPVEd-GtPTRjkeUMg" presentationName="Community Services Architecture" briefDescription="Community Services Architecture is from SoaML. A Services Architecture is a network of participant roles providing and consuming services to fulfill a purpose.  The services architecture defines the requirements for the types of participants and service realizations that fulfill those roles." isPlanned="false" superActivities="_YFTP0-Z0Ed-5YeUvCnM2dQ">
+      <methodElementProperty xmi:id="_oexdUvPVEd-GtPTRjkeUMg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-zjOI3DT_nPfJNGyP0mYYzQ" href="uma://-zqkzXKJyU9SUReFC_nQ6lw#-zjOI3DT_nPfJNGyP0mYYzQ"/>
+      <WorkProduct href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_3tYM8N_dEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_oeyrcfPVEd-GtPTRjkeUMg" name="participant_services_architecture" guid="_oeyrcfPVEd-GtPTRjkeUMg" presentationName="Participant Services Architecture" isPlanned="false" superActivities="_YFTP0-Z0Ed-5YeUvCnM2dQ">
+      <methodElementProperty xmi:id="_oeyrcvPVEd-GtPTRjkeUMg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-yVB6FuWuIpAR4vWYVJX-1A" href="uma://-zqkzXKJyU9SUReFC_nQ6lw#-yVB6FuWuIpAR4vWYVJX-1A"/>
+      <WorkProduct href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_ES7YMN_eEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_oez5kfPVEd-GtPTRjkeUMg" name="requirement_diagram_and_use_case_diagram" guid="_oez5kfPVEd-GtPTRjkeUMg" presentationName="Requirement Diagram and Use Case Diagram" briefDescription="There are two diagrams that used to analyze the system requirement from SysML. The requirement diagram show what problems are going to be solved, what goals are going to achieve in target system. " isPlanned="false" superActivities="_YFTP0-Z0Ed-5YeUvCnM2dQ">
+      <methodElementProperty xmi:id="_oez5kvPVEd-GtPTRjkeUMg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-0A2aZpnFOaeNZgVnzYOKsw" href="uma://-zqkzXKJyU9SUReFC_nQ6lw#-0A2aZpnFOaeNZgVnzYOKsw"/>
+      <WorkProduct href="uma://_mQeN0OJ-Ed-Knc6oCYT2Zw#_o_66AN_dEd6Mcf1pX1YeQA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_YFTP0-Z0Ed-5YeUvCnM2dQ" name="step2_soaml_sysml_matlab_or_modelica_design_in_pim_layer" guid="_YFTP0-Z0Ed-5YeUvCnM2dQ" presentationName="SoaML, SysML, MATLAB or Modelica Design in PIM Layer" breakdownElements="_oea4APPVEd-GtPTRjkeUMg _oea4AfPVEd-GtPTRjkeUMg _oebfEPPVEd-GtPTRjkeUMg _oebfEfPVEd-GtPTRjkeUMg _oecGIPPVEd-GtPTRjkeUMg _oedUQPPVEd-GtPTRjkeUMg _oedUQvPVEd-GtPTRjkeUMg _oedURPPVEd-GtPTRjkeUMg _oedURvPVEd-GtPTRjkeUMg _oewPMPPVEd-GtPTRjkeUMg _oexdUfPVEd-GtPTRjkeUMg _oeyrcfPVEd-GtPTRjkeUMg _oez5kfPVEd-GtPTRjkeUMg">
+      <methodElementProperty xmi:id="_ZTjyseZ0Ed-5YeUvCnM2dQ" name="process_synFree" value="true"/>
+      <presentation xmi:id="-zqkzXKJyU9SUReFC_nQ6lw" href="uma://-zqkzXKJyU9SUReFC_nQ6lw#-zqkzXKJyU9SUReFC_nQ6lw"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_6_OWMPPUEd-GtPTRjkeUMg"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_6_OWMPPUEd-GtPTRjkeUMg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_kmM8UNxHEd-LYKXkOhPACw" guid="_kmM8UNxHEd-LYKXkOhPACw">
+    <resourceDescriptors xmi:id="_W06U8DpDEd6TnIgyHPSV-Q" id="-PbENg9NrediIP6Wi0Cvk9Q" uri="guidances/supportingmaterials/shape_copyright.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_kmDLUNxHEd-LYKXkOhPACw" name="core.default.release_copyright.extend_shape-sintef" guid="_kmDLUNxHEd-LYKXkOhPACw" authors="Brian Elvesæter (SINTEF)" changeDate="2010-10-28T17:03:51.580+0200" copyrightStatement="_Fo1qgDpDEd6TnIgyHPSV-Q">
+    <methodElementProperty xmi:id="_kmM8UtxHEd-LYKXkOhPACw" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kmDLUdxHEd-LYKXkOhPACw" name="Content" guid="_kmDLUdxHEd-LYKXkOhPACw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kmDLUtxHEd-LYKXkOhPACw" name="Categories" guid="_kmDLUtxHEd-LYKXkOhPACw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kmDLU9xHEd-LYKXkOhPACw" name="Domains" guid="_kmDLU9xHEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kmDLVNxHEd-LYKXkOhPACw" name="Disciplines" guid="_kmDLVNxHEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kmDLVdxHEd-LYKXkOhPACw" name="RoleSets" guid="_kmDLVdxHEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kmDLVtxHEd-LYKXkOhPACw" name="WP Types" guid="_kmDLVtxHEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kmDLV9xHEd-LYKXkOhPACw" name="Tools" guid="_kmDLV9xHEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kmDLWNxHEd-LYKXkOhPACw" name="StandardCategories" guid="_kmDLWNxHEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kmDLWdxHEd-LYKXkOhPACw" name="CustomCategories" guid="_kmDLWdxHEd-LYKXkOhPACw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kmDLWtxHEd-LYKXkOhPACw" name="Hidden" guid="_kmDLWtxHEd-LYKXkOhPACw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_kmDLW9xHEd-LYKXkOhPACw" name="Custom Categories" guid="_kmDLW9xHEd-LYKXkOhPACw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kmDLXNxHEd-LYKXkOhPACw" name="CoreContent" guid="_kmDLXNxHEd-LYKXkOhPACw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mZWU8NxHEd-LYKXkOhPACw" name="shape_copyright" guid="_mZWU8NxHEd-LYKXkOhPACw">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_Fo1qgDpDEd6TnIgyHPSV-Q" name="shape_copyright" guid="_Fo1qgDpDEd6TnIgyHPSV-Q" presentationName="SHAPE Consortium Copyright" shapeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif" nodeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif">
+            <presentation xmi:id="-PbENg9NrediIP6Wi0Cvk9Q" href="uma://-PbENg9NrediIP6Wi0Cvk9Q#-PbENg9NrediIP6Wi0Cvk9Q"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_kmDLXdxHEd-LYKXkOhPACw" name="CapabilityPatterns" guid="_kmDLXdxHEd-LYKXkOhPACw"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_kmDLXtxHEd-LYKXkOhPACw" name="DeliveryProcesses" guid="_kmDLXtxHEd-LYKXkOhPACw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_kmDLX9xHEd-LYKXkOhPACw" name="ProcessContributions" guid="_kmDLX9xHEd-LYKXkOhPACw"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

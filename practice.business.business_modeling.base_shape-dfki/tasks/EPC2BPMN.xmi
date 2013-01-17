@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-xrGWwUsh6dc70K4t3NSoSg" name=",_e6gToIvzEd6UuMM9_vAR6g" guid="-xrGWwUsh6dc70K4t3NSoSg" changeDate="2009-08-18T14:35:25.796+0200">
+  <mainDescription>&lt;p>&#xD;
+    The process defines&amp;nbsp;the transformation logic from CIM EPC process model to CIM BPMN process model in SHAPE&#xD;
+    methodology&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is an automated tool which transforms your epc input model to a bpmn output model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See the Steps page for detailled constructs.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_u-QdYKbJEd63WOy0WeehkQ" name="1. Create EPC model" guid="_u-QdYKbJEd63WOy0WeehkQ">
+    <sectionDescription>&lt;p>&#xD;
+    Choose elements out of the EPC toolbar and place them into your diagram.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    After that link the elements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If you&amp;nbsp;have&amp;nbsp;finished you are ready to go to the next step.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_DKMyQKbKEd63WOy0WeehkQ" name="2. Create aggregated Views" guid="_DKMyQKbKEd63WOy0WeehkQ">
+    <sectionDescription>Create aggregated Views, which you want to add to your process model.</sectionDescription>
+  </sections>
+  <sections xmi:id="_HfleIKbKEd63WOy0WeehkQ" name="3. Generate BPMN model" guid="_HfleIKbKEd63WOy0WeehkQ">
+    <sectionDescription>&lt;p>&#xD;
+    Generate the BPMN model out of the process model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The following constructs are transformed:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Function 2 Task&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Event 2 Start/End Event&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Position 2 Pool&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        System 2 Annotation&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        ProcessLink 2 SubProcess&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        OrgUnit 2 Pool&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data 2 DataObject&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        And 2 Parallel / Or 2 Inclusive / Xor 2 DataBasedExclusive&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Flows:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        ControlFlow 2 SequenceFlow&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Relation 2 Association&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <keyConsiderations>CIM2CIM transformation</keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>

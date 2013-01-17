@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-BZYfnsoYSDE24NPvrJjhmA" name="JEE_development,_PojNUX0dEd6On6TUtok0Og" guid="-BZYfnsoYSDE24NPvrJjhmA">
+    <mainDescription>This process defines the methodology logic for the PIM2PSM activity within the SHAPE methodology.</mainDescription>
+    <purpose>&lt;p>&#xD;
+    (1) Define a process sequence for the PIM2PSM activity within the&amp;nbsp;SHAPE methodology.&lt;br />&#xD;
+    (2) Serve as basis for&amp;nbsp;the SHAPE custom methodology tool.&#xD;
+&lt;/p></purpose>
+    <scope>PIM2PSM transformation.</scope>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6ZjtiSmkeVkEgtc5FUACsQ" name="SoaML2XSD,_ILpdN6dqEd68f4Walh_OYQ" guid="-6ZjtiSmkeVkEgtc5FUACsQ">
+    <refinedDescription>This method defines the guided procedure for transforming SoaML models to&amp;nbsp;XSD files.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-cSLwtiD24tXcjkGLymcASw" name="SoaML2BPEL,_ILpdMqdqEd68f4Walh_OYQ" guid="-cSLwtiD24tXcjkGLymcASw">
+    <refinedDescription>This method defines the guided procedure for transforming SoaML models to&amp;nbsp;BPEL files.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-D1Lf_RiZ-Mg7scP-cSxL1w" name="WS_BPEL_Document,_ILpdNadqEd68f4Walh_OYQ" guid="-D1Lf_RiZ-Mg7scP-cSxL1w">
+    <refinedDescription>To define a BPEL document for&amp;nbsp;process execution.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yVjuS_WUUWcoWnHigtRj7A" name="SoaML2WSDL,_ILpdNKdqEd68f4Walh_OYQ" guid="-yVjuS_WUUWcoWnHigtRj7A">
+    <refinedDescription>This method defines the guided procedure for transforming SoaML models to WSDL files.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-VKRcoyXl77cMtBP6bFsXOg" name="WS_WSDL_Document,_ZPj7hLMuEd6PFsH-DLYRGQ" guid="-VKRcoyXl77cMtBP6bFsXOg">
+    <refinedDescription>To define a WSDL document for describing the capabilities of a Web service.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AwP-3lLFL0mXhGKTq-N6tQ" name="SoaML2JEE,_XreBNKdqEd68f4Walh_OYQ" guid="-AwP-3lLFL0mXhGKTq-N6tQ">
+    <refinedDescription>This method defines the guided procedure for transforming&amp;nbsp;SoaML models to skeleton JEE source files.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

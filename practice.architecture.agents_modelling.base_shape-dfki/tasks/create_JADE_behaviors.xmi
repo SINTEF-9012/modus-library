@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Ksgdh9xYv6mvwS-3ZrLSQg" name=",_f8SsoIWkEd6Lb6GZuo4wTA" guid="-Ksgdh9xYv6mvwS-3ZrLSQg" authors="Christian Hahn" changeDate="2009-08-11T11:28:19.190+0200" changeDescription="Initial input" version="0.1">
+  <mainDescription>&lt;P>&lt;SPAN lang=EN-GB style=&quot;mso-ansi-language: EN-GB&quot;>The behaviour represents the codebase to all the actions that the agent can perform. Since it is the base of the behaviour model, it is abstract and its specialisations are the ones that can actually be instantiated and executed. &lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P></mainDescription>
+  <sections xmi:id="_wJ6x0IWkEd6Lb6GZuo4wTA" name="Define Brehavior" guid="_wJ6x0IWkEd6Lb6GZuo4wTA">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>The Behaviour represents the codebase to all the actions that the agent can&lt;/font>&lt;/font>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>perform. Since it is the base of the Behaviour model, it is abstract and its children are&#xD;
+    the ones&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>that can actually be instantiated and execute&lt;/font>&lt;/font>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_xPWv4IWkEd6Lb6GZuo4wTA" name="Define state machine representing the agent life cycle" guid="_xPWv4IWkEd6Lb6GZuo4wTA">
+    <sectionDescription>In order to give the agent a life cycle behavior a finite state machine is used which may be nested again. Any kind of&#xD;
+activities can be defined like sequences, loops, etc.</sectionDescription>
+  </sections>
+  <purpose>Used to define the behaviors how an agent in JADE acts</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_uaR54TvzEd-OFL4K-b4X_A" guid="_uaR54TvzEd-OFL4K-b4X_A">
+    <resourceDescriptors xmi:id="_uaR54jvzEd-OFL4K-b4X_A" id="-0FBC3hXNef78NWGsmH9ADA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_7pXJ4VwqEd-M3aJMD1EArw" id="-zXDmOJjUKUrep00-xXUOXQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_uZFnEDvzEd-OFL4K-b4X_A" name="WS_development" guid="_uZFnEDvzEd-OFL4K-b4X_A">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7Pbm9VwqEd-M3aJMD1EArw" name="JEE_development" guid="_7Pbm9VwqEd-M3aJMD1EArw">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_7Pbm8lwqEd-M3aJMD1EArw" name="JEE_development" guid="_7Pbm8lwqEd-M3aJMD1EArw" presentationName="JEE development" briefDescription="This capability pattern defines the guided procedure for developing JEE service implementations." superActivities="_uZFnETvzEd-OFL4K-b4X_A" breakdownElements="_7PSdBlwqEd-M3aJMD1EArw _7PSdAVwqEd-M3aJMD1EArw _7Pbm81wqEd-M3aJMD1EArw _7Pbm8VwqEd-M3aJMD1EArw _7Pbm9FwqEd-M3aJMD1EArw">
+        <presentation xmi:id="-zXDmOJjUKUrep00-xXUOXQ" href="uma://-0FBC3hXNef78NWGsmH9ADA#-zXDmOJjUKUrep00-xXUOXQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_7PSdBlwqEd-M3aJMD1EArw" name="Implement_Web_service" guid="_7PSdBlwqEd-M3aJMD1EArw" presentationName="Implement Web service" briefDescription="This task defines the guided procedure for implementing a Web service using JEE technologies." superActivities="_7Pbm8lwqEd-M3aJMD1EArw" output="_7Pbm81wqEd-M3aJMD1EArw" performedPrimarilyBy="_7PSdAVwqEd-M3aJMD1EArw">
+        <toolmentor href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_z-hi0H0HEd63rfdoUaFg2Q"/>
+        <Task href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_8PZewH0FEd63rfdoUaFg2Q"/>
+        <selectedSteps href="uma://-nMclbOQDXTQ_4EkuJx0Ggg#_30eEMH0IEd63rfdoUaFg2Q"/>
+        <selectedSteps href="uma://-nMclbOQDXTQ_4EkuJx0Ggg#_498NsH0IEd63rfdoUaFg2Q"/>
+        <selectedSteps href="uma://-nMclbOQDXTQ_4EkuJx0Ggg#_OAy8cH0JEd63rfdoUaFg2Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_7PSdAVwqEd-M3aJMD1EArw" name="Service_Developer" guid="_7PSdAVwqEd-M3aJMD1EArw" presentationName="Service Developer" briefDescription="This is the worker who builds the services." isPlanned="false" superActivities="_7Pbm8lwqEd-M3aJMD1EArw" modifies="_7Pbm9FwqEd-M3aJMD1EArw _7Pbm81wqEd-M3aJMD1EArw">
+        <methodElementProperty xmi:id="_kARTANeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://_kwazABFxEd6C2PqX2OSy5A#_gIqJxhntEd6VV7P4WguglA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_7Pbm81wqEd-M3aJMD1EArw" name="JEE_Java_source_file" guid="_7Pbm81wqEd-M3aJMD1EArw" presentationName="Java source file" briefDescription="Java source file." isPlanned="false" superActivities="_7Pbm8lwqEd-M3aJMD1EArw" impactedBy="_7Pbm9FwqEd-M3aJMD1EArw">
+        <methodElementProperty xmi:id="_kARTAdeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_u3k-IYGcEd6tqIeaIOtuNA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_7Pbm8VwqEd-M3aJMD1EArw" name="Deploy_Web_service" guid="_7Pbm8VwqEd-M3aJMD1EArw" presentationName="Deploy Web service" briefDescription="This task defines the guided procedure for deploying a Web service using JEE technologies." superActivities="_7Pbm8lwqEd-M3aJMD1EArw" linkToPredecessor="_7PSdB1wqEd-M3aJMD1EArw" mandatoryInput="_7Pbm81wqEd-M3aJMD1EArw" output="_7Pbm9FwqEd-M3aJMD1EArw" performedPrimarilyBy="_7PSdAVwqEd-M3aJMD1EArw">
+        <toolmentor href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_z-hi0H0HEd63rfdoUaFg2Q"/>
+        <Task href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_Vctw4H0IEd63rfdoUaFg2Q"/>
+        <selectedSteps href="uma://-r2DHkv5Q5-gjTn_K0QiKoA#_9Ez8cH0IEd63rfdoUaFg2Q"/>
+        <selectedSteps href="uma://-r2DHkv5Q5-gjTn_K0QiKoA#_-oqU0H0IEd63rfdoUaFg2Q"/>
+        <selectedSteps href="uma://-r2DHkv5Q5-gjTn_K0QiKoA#_CdM9cH0JEd63rfdoUaFg2Q"/>
+        <selectedSteps href="uma://-r2DHkv5Q5-gjTn_K0QiKoA#_IhHAoH0JEd63rfdoUaFg2Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_7Pbm9FwqEd-M3aJMD1EArw" name="JEE_JAR_file" guid="_7Pbm9FwqEd-M3aJMD1EArw" presentationName="Java Archive file" briefDescription="Java Archive file." isPlanned="false" superActivities="_7Pbm8lwqEd-M3aJMD1EArw" impacts="_7Pbm81wqEd-M3aJMD1EArw">
+        <methodElementProperty xmi:id="_kARTAteMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_u3k-IIGcEd6tqIeaIOtuNA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_7PSdB1wqEd-M3aJMD1EArw" guid="_7PSdB1wqEd-M3aJMD1EArw" pred="_7PSdBlwqEd-M3aJMD1EArw"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_uZFnETvzEd-OFL4K-b4X_A" name="WS_development" guid="_uZFnETvzEd-OFL4K-b4X_A" presentationName="WS development" briefDescription="This capability pattern defines the guided procedure for developing Web Services." breakdownElements="_7Pbm8lwqEd-M3aJMD1EArw">
+      <methodElementProperty xmi:id="_kATvQNeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-0FBC3hXNef78NWGsmH9ADA" href="uma://-0FBC3hXNef78NWGsmH9ADA#-0FBC3hXNef78NWGsmH9ADA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

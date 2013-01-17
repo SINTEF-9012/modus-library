@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_gT7b0ALIEeCfb6tsabKiXw" guid="_gT7b0ALIEeCfb6tsabKiXw">
+    <subManagers xmi:id="_ovJkYAeZEeCk4NIWYgM-Lg" href="uma://_ouZ9gAeZEeCk4NIWYgM-Lg#_ovJkYAeZEeCk4NIWYgM-Lg"/>
+    <resourceDescriptors xmi:id="_aK1H4QLOEeCVpbhjfTzsHQ" id="-cjqk2XWbXWYqfTnZRswhDg" uri="guidances/supportingmaterials/release_info_diva_methodology.xmi"/>
+    <resourceDescriptors xmi:id="_XNMAIQLQEeCVpbhjfTzsHQ" id="-sqYf0TnG-b9EYII7nlYp9Q" uri="guidances/supportingmaterials/diva_introduction.xmi"/>
+    <resourceDescriptors xmi:id="_viFucQLQEeCVpbhjfTzsHQ" id="-7cxM2m1d-nWcw8IewJAu2g" uri="guidances/supportingmaterials/welcome.diva.xmi"/>
+    <resourceDescriptors xmi:id="_HS-OwQRHEeCKOY6tSwZy2A" id="-YtKiq-G7MdLclEcEqHqsPA" uri="guidances/supportingmaterials/diva_case%20study%203.xmi"/>
+    <resourceDescriptors xmi:id="_LFhVgQRWEeCKOY6tSwZy2A" id="-i-GveZkzCkCKYGUtlXC9-g" uri="guidances/supportingmaterials/diva_methodology_overview.xmi"/>
+    <resourceDescriptors xmi:id="_oujHcAeZEeCk4NIWYgM-Lg" id="_ouZ9gAeZEeCk4NIWYgM-Lg" uri="deliveryprocesses/DiVA_process/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_gTL08ALIEeCfb6tsabKiXw" name="publish.diva.base-sintef" guid="_gTL08ALIEeCfb6tsabKiXw" briefDescription="This plugin contains the DIVA method website structure." authors="Vegard Dehlen (SINTEF), Brian Elvesæter (SINTEF)" changeDate="2011-03-24T10:22:04.154+0100">
+    <methodElementProperty xmi:id="_whE4gALLEeCVpbhjfTzsHQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gTL08QLIEeCfb6tsabKiXw" name="Content" guid="_gTL08QLIEeCfb6tsabKiXw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gTL08gLIEeCfb6tsabKiXw" name="Categories" guid="_gTL08gLIEeCfb6tsabKiXw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gTL08wLIEeCfb6tsabKiXw" name="Domains" guid="_gTL08wLIEeCfb6tsabKiXw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gTL09ALIEeCfb6tsabKiXw" name="Disciplines" guid="_gTL09ALIEeCfb6tsabKiXw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gTL09QLIEeCfb6tsabKiXw" name="RoleSets" guid="_gTL09QLIEeCfb6tsabKiXw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gTL09gLIEeCfb6tsabKiXw" name="WP Types" guid="_gTL09gLIEeCfb6tsabKiXw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gTL09wLIEeCfb6tsabKiXw" name="Tools" guid="_gTL09wLIEeCfb6tsabKiXw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gTL0-ALIEeCfb6tsabKiXw" name="StandardCategories" guid="_gTL0-ALIEeCfb6tsabKiXw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gTL0-QLIEeCfb6tsabKiXw" name="CustomCategories" guid="_gTL0-QLIEeCfb6tsabKiXw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gTL0-gLIEeCfb6tsabKiXw" name="Hidden" guid="_gTL0-gLIEeCfb6tsabKiXw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_gTL0-wLIEeCfb6tsabKiXw" name="Custom Categories" guid="_gTL0-wLIEeCfb6tsabKiXw" categorizedElements="_n_omcALMEeCVpbhjfTzsHQ _-Iqg0ALREeCVpbhjfTzsHQ _KFwk8ALSEeCVpbhjfTzsHQ _anMloAOQEeCKOY6tSwZy2A _kXGDUAOZEeCKOY6tSwZy2A"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_n_omcALMEeCVpbhjfTzsHQ" name="getting_started_list.diva" guid="_n_omcALMEeCVpbhjfTzsHQ" variabilityType="contributes" categorizedElements="_u5-F4ALNEeCVpbhjfTzsHQ __j9W0ARVEeCKOY6tSwZy2A _l_QyYARGEeCKOY6tSwZy2A">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCIHYMRdEdyD76CYS6Ta7A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_-Iqg0ALREeCVpbhjfTzsHQ" name="delivery_process_list.diva" guid="_-Iqg0ALREeCVpbhjfTzsHQ">
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_ouZ9gAeZEeCk4NIWYgM-Lg#_ouZ9gQeZEeCk4NIWYgM-Lg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_KFwk8ALSEeCVpbhjfTzsHQ" name="structured_practice_list.diva" guid="_KFwk8ALSEeCVpbhjfTzsHQ" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_RJ__ECLJEd2ct852UDqXGQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_CtHyIAOQEeCKOY6tSwZy2A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_lMhbAAOPEeCKOY6tSwZy2A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_ijALQO5rEd-0xPxjwuNm4A#_jr3S0AOKEeCKOY6tSwZy2A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_QSaGcPJVEd-FpZGj9I_2_g#_4L-HkAOPEeCKOY6tSwZy2A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_anMloAOQEeCKOY6tSwZy2A" name="release_info.diva" guid="_anMloAOQEeCKOY6tSwZy2A" variabilityType="contributes" categorizedElements="_RJwwAALOEeCVpbhjfTzsHQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_irqswCLOEd2ct852UDqXGQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_kXGDUAOZEeCKOY6tSwZy2A" name="role_set_list.diva" guid="_kXGDUAOZEeCKOY6tSwZy2A" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_7J4wUNq1Ed-RHtsSMqnPrA#_h2t8UN29Ed-ms9NsV3fnQQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Role" href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_N_xG4AOXEeCKOY6tSwZy2A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Role" href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_B_7bUAOYEeCKOY6tSwZy2A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Role" href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#__53b0AOZEeCKOY6tSwZy2A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Role" href="uma://_ijALQO5rEd-0xPxjwuNm4A#_02ecUAOYEeCKOY6tSwZy2A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Role" href="uma://_QSaGcPJVEd-FpZGj9I_2_g#_lHt1cAQ9EeCKOY6tSwZy2A"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gTL0_ALIEeCfb6tsabKiXw" name="CoreContent" guid="_gTL0_ALIEeCfb6tsabKiXw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wVnPYALLEeCVpbhjfTzsHQ" name="diva_methodology" guid="_wVnPYALLEeCVpbhjfTzsHQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_u5-F4ALNEeCVpbhjfTzsHQ" name="diva_introduction" guid="_u5-F4ALNEeCVpbhjfTzsHQ" presentationName="Introduction" briefDescription="Introduction">
+            <presentation xmi:id="-sqYf0TnG-b9EYII7nlYp9Q" href="uma://-sqYf0TnG-b9EYII7nlYp9Q#-sqYf0TnG-b9EYII7nlYp9Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="__78ZIALNEeCVpbhjfTzsHQ" name="welcome.diva" guid="__78ZIALNEeCVpbhjfTzsHQ" presentationName="DiVA methodology overview" briefDescription="Gives an overview of the principles behind the methodology, its scope and structure." variabilityType="replaces">
+            <presentation xmi:id="-7cxM2m1d-nWcw8IewJAu2g" href="uma://-7cxM2m1d-nWcw8IewJAu2g#-7cxM2m1d-nWcw8IewJAu2g"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_g910gCapEd21TMX858E1gw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_RJwwAALOEeCVpbhjfTzsHQ" name="release_info_diva_methodology" guid="_RJwwAALOEeCVpbhjfTzsHQ" presentationName="Release info" briefDescription="DiVA methodology release info.">
+            <presentation xmi:id="-cjqk2XWbXWYqfTnZRswhDg" href="uma://-cjqk2XWbXWYqfTnZRswhDg#-cjqk2XWbXWYqfTnZRswhDg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_l_QyYARGEeCKOY6tSwZy2A" name="diva_case study" guid="_l_QyYARGEeCKOY6tSwZy2A" presentationName="DiVA case study" briefDescription="This section describes the case study used throughout the examples in the methodology.">
+            <presentation xmi:id="-YtKiq-G7MdLclEcEqHqsPA" href="uma://-YtKiq-G7MdLclEcEqHqsPA#-YtKiq-G7MdLclEcEqHqsPA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="__j9W0ARVEeCKOY6tSwZy2A" name="diva_methodology_overview" guid="__j9W0ARVEeCKOY6tSwZy2A" presentationName="Methodology overview" briefDescription="This section details the principles behind the DiVA methodology, its scope and context, and its structure and contents.">
+            <presentation xmi:id="-i-GveZkzCkCKYGUtlXC9-g" href="uma://-i-GveZkzCkCKYGUtlXC9-g#-i-GveZkzCkCKYGUtlXC9-g"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gTL0_QLIEeCfb6tsabKiXw" name="CapabilityPatterns" guid="_gTL0_QLIEeCfb6tsabKiXw"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gTL0_gLIEeCfb6tsabKiXw" name="DeliveryProcesses" guid="_gTL0_gLIEeCfb6tsabKiXw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_ouZ9gAeZEeCk4NIWYgM-Lg" href="uma://_ouZ9gAeZEeCk4NIWYgM-Lg#_ouZ9gAeZEeCk4NIWYgM-Lg"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gTL0_wLIEeCfb6tsabKiXw" name="ProcessContributions" guid="_gTL0_wLIEeCfb6tsabKiXw"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_XSYj0OzEEd--R6Ia0d6GOQ#_XSYj0OzEEd--R6Ia0d6GOQ"/>
+    <bases href="uma://_ijALQO5rEd-0xPxjwuNm4A#_ijALQO5rEd-0xPxjwuNm4A"/>
+    <bases href="uma://_QSaGcPJVEd-FpZGj9I_2_g#_QSaGcPJVEd-FpZGj9I_2_g"/>
+    <bases href="uma://_Gsw3gO2XEd--BOZpIYnXRA#_Gsw3gO2XEd--BOZpIYnXRA"/>
+    <bases href="uma://_7J4wUNq1Ed-RHtsSMqnPrA#_7J4wUNq1Ed-RHtsSMqnPrA"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

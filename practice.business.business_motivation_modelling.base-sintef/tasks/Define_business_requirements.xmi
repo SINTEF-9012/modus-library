@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-yraIJggBnBoWcO1H8_nhRA" name="Create_Requirements_Model,_x6x4MG-7Ed6zv6nlDL4ZGQ" guid="-yraIJggBnBoWcO1H8_nhRA" authors="Andrey Sadovykh (SOFTEAM), Brian Elvesæter (SINTEF)" changeDate="2010-05-10T13:17:01.379+0200" changeDescription="0.3: Updated steps.|0.2: Updated description.|0.1: Initial outline." version="0.3">
+  <mainDescription>&lt;p>&#xD;
+    This task defines the guided procedure for identifying and specifying business requirements. This model is used to&#xD;
+    specify the requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Requirements Model defines the requirements, their relations and relevant use cases.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_q8YGMG-8Ed6zv6nlDL4ZGQ" name="1. Create Requirements Container." guid="_q8YGMG-8Ed6zv6nlDL4ZGQ">
+    <sectionDescription>The requirements may be structured / categorized and stored in specific containers. For example, a requirement for&#xD;
+&quot;technological independence&quot; can be categorized and stored in &quot;Non-functional Requirements&quot; container.</sectionDescription>
+  </sections>
+  <sections xmi:id="_H5VkwG-9Ed6zv6nlDL4ZGQ" name="2. Create Requirements Diagram." guid="_H5VkwG-9Ed6zv6nlDL4ZGQ">
+    <sectionDescription>&lt;p>&#xD;
+    The requirements diagram helps to specify the requirements and their relations. In order to relate requiremens the&#xD;
+    following links are available:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &quot;part of&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &quot;derive&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &quot;satisfy&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &quot;verify&quot;. This link can be used to indicate which use-case verifies the requirement&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &quot;refine&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All model elements may be related with the &quot;traceability&quot; links and described using &quot;note&quot; elements.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_zsie0G-9Ed6zv6nlDL4ZGQ" name="3. Create Requirement." guid="_zsie0G-9Ed6zv6nlDL4ZGQ">
+    <sectionDescription>&lt;p>&#xD;
+    The requirement is defined with a textual desciption. The following properties can be specified:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Name&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Origin&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Benifit, &quot;Critical|Major|Minor&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Cost&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Risk, &quot;Low|Medium|High&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Stability, &quot;Low|High&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Target Release&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Text, detailed textual description of the requirement&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To identify&amp;nbsp;and specify business requirements.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_D-7FoJwJEeCGK9oOEno3IA" guid="_D-7FoJwJEeCGK9oOEno3IA">
+    <subManagers xmi:id="_d6o8YKDNEeCXF5ZuS3W32Q" href="uma://_d6CfcKDNEeCXF5ZuS3W32Q#_d6o8YKDNEeCXF5ZuS3W32Q"/>
+    <resourceDescriptors xmi:id="_D-7FopwJEeCGK9oOEno3IA" id="-FHBsT-su8F47D7tInPcmOQ" uri="guidances/practices/value_delivery_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_D-7Fo5wJEeCGK9oOEno3IA" id="-bfeGOMstLIi6dWh2HZBiOQ" uri="guidances/roadmaps/how_to_adopt_value_delivery_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_D-7FpJwJEeCGK9oOEno3IA" id="-uvdFns34bGq0BaSdrsqXGg" uri="guidances/supportingmaterials/release_info_value_delivery_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_D_E2oJwJEeCGK9oOEno3IA" id="-h2RcpgtTWkxp2Bx2P79rJg" uri="guidances/concepts/collaboration.xmi"/>
+    <resourceDescriptors xmi:id="_D_E2oZwJEeCGK9oOEno3IA" id="-0Mi8dok8BSHzJ__g7mTCAg" uri="guidances/examples/vdml_collaboration_diagram.xmi"/>
+    <resourceDescriptors xmi:id="_D_E2opwJEeCGK9oOEno3IA" id="-e8K7IewlzwVVyiRqsk6IDQ" uri="guidances/termdefinitions/goal.xmi"/>
+    <resourceDescriptors xmi:id="_bQwFwJyrEeCb2cFFaexWpQ" id="-ScMU-UTicnV_-fQPyXLgrA" uri="guidances/examples/vdml_value_network_view.xmi"/>
+    <resourceDescriptors xmi:id="_BHSNEJysEeCb2cFFaexWpQ" id="-w-GatOY-jU7nDU130oYuRA" uri="guidances/termdefinitions/participant.xmi"/>
+    <resourceDescriptors xmi:id="_ElOTkJysEeCb2cFFaexWpQ" id="-pg1ZUQShIbi9Z-NigOgX9w" uri="guidances/termdefinitions/role.xmi"/>
+    <resourceDescriptors xmi:id="_HtPNYJysEeCb2cFFaexWpQ" id="-8hH7sD5P8wT87glg8jAQdw" uri="guidances/termdefinitions/assignment.xmi"/>
+    <resourceDescriptors xmi:id="_KvuuAJysEeCb2cFFaexWpQ" id="-kEKfEyZHEnz22sCABf-Zzw" uri="guidances/termdefinitions/actor.xmi"/>
+    <resourceDescriptors xmi:id="_NYoC4JysEeCb2cFFaexWpQ" id="-fc3W1z95eF57PbR6K8RZcg" uri="guidances/termdefinitions/person.xmi"/>
+    <resourceDescriptors xmi:id="_iRnrAJysEeCb2cFFaexWpQ" id="-JsbOP6b7f8lD07BKPcPFpg" uri="guidances/examples/vdml_activity_diagram.xmi"/>
+    <resourceDescriptors xmi:id="_xlk9QJysEeCb2cFFaexWpQ" id="-NIZo1UBkqiqq1fVPEKIF8A" uri="guidances/termdefinitions/activity.xmi"/>
+    <resourceDescriptors xmi:id="_1NNyUJysEeCb2cFFaexWpQ" id="-2Vc7_38X5o90QUdNis9C9w" uri="guidances/termdefinitions/deliverable.xmi"/>
+    <resourceDescriptors xmi:id="_4t31oJysEeCb2cFFaexWpQ" id="-Iu4oeSieU7dn09TxLYUHJA" uri="guidances/termdefinitions/deliverable_flow.xmi"/>
+    <resourceDescriptors xmi:id="_86JBwJysEeCb2cFFaexWpQ" id="-gT8VoMziFOZqf6PAK9p6TA" uri="guidances/termdefinitions/activity_port.xmi"/>
+    <resourceDescriptors xmi:id="_CRtjYJytEeCb2cFFaexWpQ" id="-9uHzFKgdb6KlZC01Abt2Lg" uri="guidances/termdefinitions/activity_input_port.xmi"/>
+    <resourceDescriptors xmi:id="_Grws0JytEeCb2cFFaexWpQ" id="-iSby4LwLL_HMPG3CQ1MXWQ" uri="guidances/termdefinitions/activity_output_port.xmi"/>
+    <resourceDescriptors xmi:id="_KRMicJytEeCb2cFFaexWpQ" id="-aMuhwGSZ37EyImrm3-B5iw" uri="guidances/termdefinitions/directive.xmi"/>
+    <resourceDescriptors xmi:id="_OWYPIJytEeCb2cFFaexWpQ" id="-Sd9e_c3QRytFQiPuSCk88w" uri="guidances/termdefinitions/collaberation_interface.xmi"/>
+    <resourceDescriptors xmi:id="_s7N1AJyuEeCb2cFFaexWpQ" id="-vLnN5WoVF9wTYJUNZcb15Q" uri="guidances/termdefinitions/assignment_delegation.xmi"/>
+    <resourceDescriptors xmi:id="_wZ6wgJyuEeCb2cFFaexWpQ" id="-zgo16tVfioKnAWjl3UkEow" uri="guidances/termdefinitions/flow_delegation.xmi"/>
+    <resourceDescriptors xmi:id="_zkX6UJyuEeCb2cFFaexWpQ" id="-vpazIkjpR6GNwxGt-cwUFA" uri="guidances/termdefinitions/port_delegation.xmi"/>
+    <resourceDescriptors xmi:id="_5sPQcJyuEeCb2cFFaexWpQ" id="-0-Jt6eH_La_vh77LQ9h-eA" uri="guidances/termdefinitions/interface_input_port.xmi"/>
+    <resourceDescriptors xmi:id="_9-tLMJyuEeCb2cFFaexWpQ" id="-l27gqa_vGim9pcCsHelSww" uri="guidances/termdefinitions/interface_output_port.xmi"/>
+    <resourceDescriptors xmi:id="_EiqAYJyvEeCb2cFFaexWpQ" id="-1ZgxFGZnF7nZKpug7CCA1w" uri="guidances/termdefinitions/intra_activity_deliverable_dependency.xmi"/>
+    <resourceDescriptors xmi:id="_I5jvMJyvEeCb2cFFaexWpQ" id="-b6L0ftaG0OQYGQly1hsFqg" uri="guidances/concepts/value.xmi"/>
+    <resourceDescriptors xmi:id="_N0oiEJyvEeCb2cFFaexWpQ" id="-j6_piAB0DytP-vp_zeFUpQ" uri="guidances/termdefinitions/value_proposition.xmi"/>
+    <resourceDescriptors xmi:id="_SKo5AJyvEeCb2cFFaexWpQ" id="-8faMMKZIBJeOHnUbxAYWaA" uri="guidances/termdefinitions/value_proposition_value.xmi"/>
+    <resourceDescriptors xmi:id="_VVr4sJyvEeCb2cFFaexWpQ" id="-xFQVCIHot--pqJ-zwjBiDg" uri="guidances/termdefinitions/value.xmi"/>
+    <resourceDescriptors xmi:id="_ZI3PYJyvEeCb2cFFaexWpQ" id="-iMnBdfjkqfmeRWrjQyD-fw" uri="guidances/termdefinitions/value_contribution.xmi"/>
+    <resourceDescriptors xmi:id="_dJHYwJyvEeCb2cFFaexWpQ" id="--Lm5YSozORsLQwi0qyI09w" uri="guidances/concepts/org_unit.xmi"/>
+    <resourceDescriptors xmi:id="_3sHWUJyvEeCb2cFFaexWpQ" id="-R80OCP0k4pn1yEh5EJmVdw" uri="guidances/termdefinitions/position.xmi"/>
+    <resourceDescriptors xmi:id="_55DH8JyvEeCb2cFFaexWpQ" id="-3SmDYTVjh1b1gmNcHfRm4w" uri="guidances/termdefinitions/employee.xmi"/>
+    <resourceDescriptors xmi:id="_8FJzIJyvEeCb2cFFaexWpQ" id="-ww4Z41_wdwC3xiFHCaAV6g" uri="guidances/termdefinitions/leader.xmi"/>
+    <resourceDescriptors xmi:id="__wZV0JyvEeCb2cFFaexWpQ" id="-1Td7kAG-cFoBETQkZwAthg" uri="guidances/termdefinitions/subordinate.xmi"/>
+    <resourceDescriptors xmi:id="_DKvVwJywEeCb2cFFaexWpQ" id="-pX-9J4btf0aNhDw86PV4Yg" uri="guidances/termdefinitions/responsibility.xmi"/>
+    <resourceDescriptors xmi:id="_HEw7UJywEeCb2cFFaexWpQ" id="-fVTS2mEC8jl5kXYFxSmWRg" uri="guidances/termdefinitions/means.xmi"/>
+    <resourceDescriptors xmi:id="_LRXeoJywEeCb2cFFaexWpQ" id="-lLlhztnjWO0B-w5QNKJgTA" uri="guidances/concepts/capability.xmi"/>
+    <resourceDescriptors xmi:id="_XhOtwJywEeCb2cFFaexWpQ" id="-Lt6OIgjZRra6PIl0Omb0ow" uri="guidances/termdefinitions/capability.xmi"/>
+    <resourceDescriptors xmi:id="_f0uN8JywEeCb2cFFaexWpQ" id="--TZQD5_An29f0LfPmTs7Iw" uri="guidances/termdefinitions/source.xmi"/>
+    <resourceDescriptors xmi:id="_jNjK8JywEeCb2cFFaexWpQ" id="-5ij0HyOaxG8dNoXPZ2tvvA" uri="guidances/termdefinitions/capability_component.xmi"/>
+    <resourceDescriptors xmi:id="_mMNUcJywEeCb2cFFaexWpQ" id="-9Y0xKQIa2ZJJ4iW-TgJ-3A" uri="guidances/termdefinitions/performer.xmi"/>
+    <resourceDescriptors xmi:id="_poKd8JywEeCb2cFFaexWpQ" id="-Vlj4FhY9wC_7qRp7ty4aLg" uri="guidances/termdefinitions/capability_means.xmi"/>
+    <resourceDescriptors xmi:id="_r1X8YJywEeCb2cFFaexWpQ" id="-KG7pRA6OKQuycz-kS_9z8w" uri="guidances/termdefinitions/machine.xmi"/>
+    <resourceDescriptors xmi:id="_vGlOcJywEeCb2cFFaexWpQ" id="-yxHV77EdlfwQz5hP8-mXDQ" uri="guidances/termdefinitions/descision_table.xmi"/>
+    <resourceDescriptors xmi:id="_6v3lwJywEeCb2cFFaexWpQ" id="-a1ddkvN3liitB4WOgk8uiw" uri="guidances/termdefinitions/process_role.xmi"/>
+    <resourceDescriptors xmi:id="_-kz3AJywEeCb2cFFaexWpQ" id="--G7yP3i5p4baMAvWwJlZJQ" uri="guidances/termdefinitions/case_role.xmi"/>
+    <resourceDescriptors xmi:id="_C1lIoJyxEeCb2cFFaexWpQ" id="-8NYuc-aCPMBE4KrtX9PQ5Q" uri="guidances/termdefinitions/application_role.xmi"/>
+    <resourceDescriptors xmi:id="_Icl0cJyxEeCb2cFFaexWpQ" id="-RhaxKNQ-m0YrC1mWDMS91w" uri="guidances/concepts/value_chains.xmi"/>
+    <resourceDescriptors xmi:id="_NRyo0JyxEeCb2cFFaexWpQ" id="-NjG1BPjmyakTx_LEc5WB0A" uri="guidances/termdefinitions/value_chain_role.xmi"/>
+    <resourceDescriptors xmi:id="_SlTw4JyxEeCb2cFFaexWpQ" id="-G6yUN6KjKsaCgZNUkoGMRg" uri="guidances/termdefinitions/value_chain_flow.xmi"/>
+    <resourceDescriptors xmi:id="_be8EAJyxEeCb2cFFaexWpQ" id="-_3jobbYhQj2CTDFDBfUAFA" uri="guidances/termdefinitions/inventory.xmi"/>
+    <resourceDescriptors xmi:id="_hHMF8JyxEeCb2cFFaexWpQ" id="-j1BtDPm_jTbh-xj-Mz-oSg" uri="guidances/concepts/business_relationship.xmi"/>
+    <resourceDescriptors xmi:id="_uaKX4JyxEeCb2cFFaexWpQ" id="-5s73-_PxkBDDoABYrXYGLA" uri="guidances/termdefinitions/party.xmi"/>
+    <resourceDescriptors xmi:id="_xDYc4JyxEeCb2cFFaexWpQ" id="-Ffmfu3hv9nUoJlaNoFPNMw" uri="guidances/termdefinitions/component.xmi"/>
+    <resourceDescriptors xmi:id="_1RuFkJyxEeCb2cFFaexWpQ" id="--_68Sb-ec41Hk24FCJcPTQ" uri="guidances/concepts/community.xmi"/>
+    <resourceDescriptors xmi:id="_OYOWUJy6EeCb2cFFaexWpQ" id="-VSejTGjHy_gDthPD07_Uaw" uri="guidances/termdefinitions/community_role.xmi"/>
+    <resourceDescriptors xmi:id="_RdaloJy6EeCb2cFFaexWpQ" id="-_gRmTLpggbL8qPlmV_BpQA" uri="guidances/termdefinitions/member.xmi"/>
+    <resourceDescriptors xmi:id="_Yi2-UJy6EeCb2cFFaexWpQ" id="-ZYkKUMjb7lCZp37uy9voIg" uri="guidances/termdefinitions/community_leader.xmi"/>
+    <resourceDescriptors xmi:id="_aMi48Jy6EeCb2cFFaexWpQ" id="-J41G-2s2UQRAKnJB2BQJig" uri="guidances/termdefinitions/subset.xmi"/>
+    <resourceDescriptors xmi:id="_eL_KAJy6EeCb2cFFaexWpQ" id="-bvC95-lxwpOcap_BwSliIA" uri="guidances/termdefinitions/community_responsibility.xmi"/>
+    <resourceDescriptors xmi:id="_hc46EJy6EeCb2cFFaexWpQ" id="-cPYtGoA2DigBluem_5DXmw" uri="guidances/termdefinitions/community_means.xmi"/>
+    <resourceDescriptors xmi:id="_zS1A4Jy6EeCb2cFFaexWpQ" id="-6z9PK3gXk5t4KGu6BiOT4Q" uri="guidances/concepts/metric.xmi"/>
+    <resourceDescriptors xmi:id="_-tDogJy6EeCb2cFFaexWpQ" id="-ffBySZjJVWgpurZ0A4Q4cg" uri="guidances/termdefinitions/metric.xmi"/>
+    <resourceDescriptors xmi:id="_BQ2a8Jy7EeCb2cFFaexWpQ" id="-jCK77l89j_EymvEweID0zA" uri="guidances/termdefinitions/result.xmi"/>
+    <resourceDescriptors xmi:id="_K-7p0Jy7EeCb2cFFaexWpQ" id="-O6ss0vMSEIOfovHvZc5JsA" uri="guidances/termdefinitions/primitive_metric.xmi"/>
+    <resourceDescriptors xmi:id="_ODZgYJy7EeCb2cFFaexWpQ" id="-75hPS8Fd4g3ikRUJOwG9Rg" uri="guidances/termdefinitions/qualitative_metric.xmi"/>
+    <resourceDescriptors xmi:id="_Qk_6cJy7EeCb2cFFaexWpQ" id="-129mjNv8JzRet4caRi58RA" uri="guidances/termdefinitions/computed_metric.xmi"/>
+    <resourceDescriptors xmi:id="_Td6oUJy7EeCb2cFFaexWpQ" id="-sIeuK9e_ei6SVCUezU7KEQ" uri="guidances/termdefinitions/lookup_data.xmi"/>
+    <resourceDescriptors xmi:id="_WoOoMJy7EeCb2cFFaexWpQ" id="-u0nbv3IdREd0xmx3o-Da4w" uri="guidances/termdefinitions/descriptive_result.xmi"/>
+    <resourceDescriptors xmi:id="_aiHq4Jy7EeCb2cFFaexWpQ" id="-lbJFiKSCBpZ1jpoJ3pofBQ" uri="guidances/termdefinitions/descriptive_value_ennumeration.xmi"/>
+    <resourceDescriptors xmi:id="_dv-G8Jy7EeCb2cFFaexWpQ" id="-bF8vh8CsVGC74g3pDeuQ_A" uri="guidances/termdefinitions/nummeric_result.xmi"/>
+    <resourceDescriptors xmi:id="_6vbf4Jy7EeCb2cFFaexWpQ" id="-OviAYmVNULo79Dm4wPvDzg" uri="guidances/concepts/business_model.xmi"/>
+    <resourceDescriptors xmi:id="_YaL4kJy8EeCb2cFFaexWpQ" id="-CzRCm1gbY1MawnYSB9C_5Q" uri="guidances/termdefinitions/business_model.xmi"/>
+    <resourceDescriptors xmi:id="_dzkYEJy8EeCb2cFFaexWpQ" id="-t7kdZl1OLD6NyjTnYCO2AQ" uri="guidances/termdefinitions/business_model_relationship.xmi"/>
+    <resourceDescriptors xmi:id="_hoYtgJy8EeCb2cFFaexWpQ" id="-F7lxsmwlPJdzLYwf-94lwA" uri="guidances/termdefinitions/business_model_building_block.xmi"/>
+    <resourceDescriptors xmi:id="_pizmYJy8EeCb2cFFaexWpQ" id="-A6PUY6bygiUOOcJ76siytw" uri="guidances/termdefinitions/library.xmi"/>
+    <resourceDescriptors xmi:id="_sH-44Jy8EeCb2cFFaexWpQ" id="-hOFMqp-EONNChRC7wupo9A" uri="guidances/termdefinitions/metric_definitions.xmi"/>
+    <resourceDescriptors xmi:id="_u3RJoJy8EeCb2cFFaexWpQ" id="-Kdry3a8jOReQ_5OY2uIMFw" uri="guidances/termdefinitions/values_definition.xmi"/>
+    <resourceDescriptors xmi:id="_4gAlgJy8EeCb2cFFaexWpQ" id="-RCUYSj53UuucP5Jsx9D45A" uri="guidances/termdefinitions/capability_tree_node.xmi"/>
+    <resourceDescriptors xmi:id="_7TBfsJy8EeCb2cFFaexWpQ" id="-OlUgJO7E5E2N_ISKA7wG8Q" uri="guidances/termdefinitions/capability_group.xmi"/>
+    <resourceDescriptors xmi:id="_-fPkEJy8EeCb2cFFaexWpQ" id="-GwoqRlHiOf76GiT2mxk9IA" uri="guidances/termdefinitions/capability_definition.xmi"/>
+    <resourceDescriptors xmi:id="_CNwdMJy9EeCb2cFFaexWpQ" id="-Z2iUw42oCx-x_Bj8bX5mUQ" uri="guidances/termdefinitions/capability_dependency.xmi"/>
+    <resourceDescriptors xmi:id="_sDCckJy-EeCb2cFFaexWpQ" id="-ag3S74WjuycGUzeXospXpg" uri="guidances/termdefinitions/deliverable_definition.xmi"/>
+    <resourceDescriptors xmi:id="_vB2XEJy-EeCb2cFFaexWpQ" id="-wxkDNDFqAXbHvqzCFkY6Ig" uri="guidances/termdefinitions/practice_definition.xmi"/>
+    <resourceDescriptors xmi:id="_F5QMoJy_EeCb2cFFaexWpQ" id="-zwxRw0Sxa0n6MZfg5YOQrQ" uri="guidances/termdefinitions/technologi_definition.xmi"/>
+    <resourceDescriptors xmi:id="_J18EoJy_EeCb2cFFaexWpQ" id="-T-HVW7z5rhU_ENtBm-EYDQ" uri="guidances/termdefinitions/metric_definition.xmi"/>
+    <resourceDescriptors xmi:id="_L5eCoJy_EeCb2cFFaexWpQ" id="-1h69WsA7yUcH221UZjsEYw" uri="guidances/termdefinitions/dimension.xmi"/>
+    <resourceDescriptors xmi:id="_mtZ_MJy_EeCb2cFFaexWpQ" id="-g6g1So2VuyeZKKIwXPIqfw" uri="guidances/termdefinitions/units_of_measure.xmi"/>
+    <resourceDescriptors xmi:id="_o1GrgJy_EeCb2cFFaexWpQ" id="-khG8SlNs1S2vhABsP20PXA" uri="guidances/termdefinitions/benchmark.xmi"/>
+    <resourceDescriptors xmi:id="_wIzioJy_EeCb2cFFaexWpQ" id="-poKRO2YjcwVnCuMSLKP41g" uri="guidances/concepts/risk_factor.xmi"/>
+    <resourceDescriptors xmi:id="_N-VWAJzCEeCb2cFFaexWpQ" id="-bIm-zU9vBvOjg2ax93muhQ" uri="guidances/termdefinitions/risk_scenario.xmi"/>
+    <resourceDescriptors xmi:id="_QISFEJzCEeCb2cFFaexWpQ" id="-aqG2V9uaOiXouh24p9vuAg" uri="guidances/termdefinitions/risk_factor.xmi"/>
+    <resourceDescriptors xmi:id="_T3StcJzCEeCb2cFFaexWpQ" id="-5EeC0JIyVQSED0UAlzeGvA" uri="guidances/termdefinitions/risk_factor_dependency.xmi"/>
+    <resourceDescriptors xmi:id="_dz6HkJzCEeCb2cFFaexWpQ" id="-m-b1mouW3MSYGWAF3xLk8g" uri="guidances/termdefinitions/extendable_element.xmi"/>
+    <resourceDescriptors xmi:id="_h4wdEJzCEeCb2cFFaexWpQ" id="-XcmvssQjBAx-KBmZ3T7TVA" uri="guidances/termdefinitions/extension_defenition.xmi"/>
+    <resourceDescriptors xmi:id="_kNrGAJzCEeCb2cFFaexWpQ" id="-l58BQ9I_HpcX9IfPOACwbQ" uri="guidances/termdefinitions/expression.xmi"/>
+    <resourceDescriptors xmi:id="_nxkqkJzCEeCb2cFFaexWpQ" id="-0iA0Q2qfkmhkwuCek12NBw" uri="guidances/termdefinitions/expression_property.xmi"/>
+    <resourceDescriptors xmi:id="_jZaFkJzEEeCb2cFFaexWpQ" id="-BUs6PqTdm-GPEgWBOKaDUQ" uri="guidances/termdefinitions/extension_property_definition.xmi"/>
+    <resourceDescriptors xmi:id="_lz-qkJzEEeCb2cFFaexWpQ" id="-movgJSam-F0mbjdvf4S_dQ" uri="guidances/termdefinitions/enumerations.xmi"/>
+    <resourceDescriptors xmi:id="_ovgnkJzEEeCb2cFFaexWpQ" id="-UgvEr6Y_uiIuiHZBMRmLow" uri="guidances/termdefinitions/enumeration_value.xmi"/>
+    <resourceDescriptors xmi:id="_YpLLQJzGEeCb2cFFaexWpQ" id="-rPpPnsp0lBsV9hoyZojsnA" uri="guidances/examples/vdml_notation.xmi"/>
+    <resourceDescriptors xmi:id="_d6Gw4KDNEeCXF5ZuS3W32Q" id="_d6CfcKDNEeCXF5ZuS3W32Q" uri="capabilitypatterns/value_delivery_modelling/model.xmi"/>
+    <resourceDescriptors xmi:id="_f-SwwKF-EeCKTcfDSRMRtw" id="-yVyLD_07X1ne69oCt-zOMg" uri="workproducts/activities.xmi"/>
+    <resourceDescriptors xmi:id="_PmyasMKXEeCQKuG3dPvCNA" id="-9UBjMm7J6C3_qmKy1-iIVA" uri="guidances/guidelines/vdml_guidance.xmi"/>
+    <resourceDescriptors xmi:id="_ENgv4MNIEeCGkIgyjTMixA" id="-KRMliqWWnvCLl72gl9WdUA" uri="guidances/supportingmaterials/references.vdml.xmi"/>
+    <resourceDescriptors xmi:id="_CldfgFL8EeGmntP9zKVTFw" id="-UGAmhtRLt8l2LS7IXDEu8g" uri="tasks/define_value_delivery_model.xmi"/>
+    <resourceDescriptors xmi:id="_iyoVUFMiEeGhzdEa67rTdA" id="-JHHBB2Wb9VEzcPYUbR_GcQ" uri="workproducts/value_delivery_model.assign.xmi"/>
+    <resourceDescriptors xmi:id="_IAFNwCdmEeKDGNEPRzZzCg" id="-KrAwqLjGQR8U5QF8xvHmzw" uri="guidances/toolmentors/neffics_business_operations_platform_vdml_editor.xmi"/>
+    <resourceDescriptors xmi:id="_QwwR0SdpEeKDGNEPRzZzCg" id="-J8styH-f3lDMv-woobE9iA" uri="tasks/define_activities.xmi"/>
+    <resourceDescriptors xmi:id="_PYRLwCf0EeKbT_45B08XTA" id="-j1VstAPcX_9AULIxOvdUGw" uri="workproducts/value.xmi"/>
+    <resourceDescriptors xmi:id="_j2PPUCf1EeKbT_45B08XTA" id="-gzexSvG21pnrbkj5y-McgA" uri="tasks/define_business_network_and_collaboration.xmi"/>
+    <resourceDescriptors xmi:id="_BEmm8Cf2EeKbT_45B08XTA" id="-E_OlOczBiZGFtv9icyrE1w" uri="tasks/define_organizations_and_capabilities.xmi"/>
+    <resourceDescriptors xmi:id="_D8dk4Cf2EeKbT_45B08XTA" id="-g-GOJQhDIWPotOdKX_oA2w" uri="tasks/define_value.xmi"/>
+    <resourceDescriptors xmi:id="_SR348CyQEeKglPds0ggRbw" id="-dI-1zY9lGqo7G17vI7Ir9g" uri="workproducts/organizations_and_capabilities.xmi"/>
+    <resourceDescriptors xmi:id="_pfi1QSyXEeKglPds0ggRbw" id="-Q_6AmQva_T-zAgGfuUwzRg" uri="workproducts/business_network_and_collaboration.xmi"/>
+    <resourceDescriptors xmi:id="_nPMGwCyYEeKglPds0ggRbw" id="-hwWL12hC2u_PsOr7vPP3GQ" uri="guidances/examples/xtrailer_example_business_network_and_collaboration.xmi"/>
+    <resourceDescriptors xmi:id="_S_BIcCy0EeKelu-xAJGrzw" id="-4adybbUcrKA6O_z9dgwFTw" uri="guidances/examples/xtrailer_example.xmi"/>
+    <resourceDescriptors xmi:id="_yDQAECy1EeKelu-xAJGrzw" id="-4mwZGxwrZa7nRLr9kXxNIg" uri="guidances/examples/xtrailer_example_organizations_and_capabilities.xmi"/>
+    <resourceDescriptors xmi:id="_TQvqQCy3EeKelu-xAJGrzw" id="-6C_iBn2v1Or3SPq-S7Cq8Q" uri="guidances/examples/xtrailer_example_activities.xmi"/>
+    <resourceDescriptors xmi:id="_WR1AMCy4EeKelu-xAJGrzw" id="-3Z61Jcw3gBKUn6uoNhBG8g" uri="guidances/examples/xtrailer_example_value.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Ocn6IJdUEeCYIKpsva4R0w" name="practice.business.value_delivery_modelling.base-sintef" guid="_Ocn6IJdUEeCYIKpsva4R0w" briefDescription="This plugin contains the base Value delivery modelling practice." authors="Brian Elvesæter (SINTEF)" changeDate="2012-11-07T12:22:20.947+0100">
+    <methodElementProperty xmi:id="_D-xUoJwJEeCGK9oOEno3IA" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_1tQ9sCdlEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ocn6IZdUEeCYIKpsva4R0w" name="Content" guid="_Ocn6IZdUEeCYIKpsva4R0w">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ocn6IpdUEeCYIKpsva4R0w" name="Categories" guid="_Ocn6IpdUEeCYIKpsva4R0w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ocn6I5dUEeCYIKpsva4R0w" name="Domains" guid="_Ocn6I5dUEeCYIKpsva4R0w">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_5vHLkEz1EeGzDcGxpv78iw" name="networked_business_value_analysis_domain.assign" guid="_5vHLkEz1EeGzDcGxpv78iw" variabilityType="contributes" workProducts="_R_XqcEz2EeGzDcGxpv78iw">
+            <methodElementProperty xmi:id="_sSTfICdlEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_254_UCdZEeKDGNEPRzZzCg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ocn6JJdUEeCYIKpsva4R0w" name="Disciplines" guid="_Ocn6JJdUEeCYIKpsva4R0w">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_DiRFAKDOEeCXF5ZuS3W32Q" name="networked_business_value_analysis_discipline.assign" guid="_DiRFAKDOEeCXF5ZuS3W32Q" variabilityType="contributes" tasks="_Kden0KDHEeCXF5ZuS3W32Q _LaleYCdpEeKDGNEPRzZzCg _ddF78Cf1EeKbT_45B08XTA _9S528Cf1EeKbT_45B08XTA _B5gOoCf2EeKbT_45B08XTA">
+            <methodElementProperty xmi:id="_pa3X8CdlEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <methodElementProperty xmi:id="_ewwt0Cf2EeKbT_45B08XTA" name="CategoryElementsSortType" value="Alphabetic"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_vy6VkCdZEeKDGNEPRzZzCg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ocn6JZdUEeCYIKpsva4R0w" name="RoleSets" guid="_Ocn6JZdUEeCYIKpsva4R0w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ocn6JpdUEeCYIKpsva4R0w" name="WP Types" guid="_Ocn6JpdUEeCYIKpsva4R0w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ocn6J5dUEeCYIKpsva4R0w" name="Tools" guid="_Ocn6J5dUEeCYIKpsva4R0w">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_8Vl9gKF-EeCKTcfDSRMRtw" name="neffics_business_operations_platform.assign" guid="_8Vl9gKF-EeCKTcfDSRMRtw" variabilityType="contributes" toolMentors="_DK8DwCdmEeKDGNEPRzZzCg">
+            <methodElementProperty xmi:id="_QGPckCdmEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_ZrOMELSiEeGOSY51NyhYZA#_mPjncLb0EeGSldvlqRCwfg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ocn6KJdUEeCYIKpsva4R0w" name="StandardCategories" guid="_Ocn6KJdUEeCYIKpsva4R0w"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ocn6KZdUEeCYIKpsva4R0w" name="CustomCategories" guid="_Ocn6KZdUEeCYIKpsva4R0w">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ocn6KpdUEeCYIKpsva4R0w" name="Hidden" guid="_Ocn6KpdUEeCYIKpsva4R0w">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Ocn6K5dUEeCYIKpsva4R0w" name="Custom Categories" guid="_Ocn6K5dUEeCYIKpsva4R0w" categorizedElements="_wjb2sC0DEeKyWralSrmW_A"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_wjb2sC0DEeKyWralSrmW_A" name="modelling_languages.assign" guid="_wjb2sC0DEeKyWralSrmW_A" variabilityType="contributes" categorizedElements="_9njNQC0DEeKyWralSrmW_A">
+            <methodElementProperty xmi:id="_5BuRoC0DEeKyWralSrmW_A" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_YGUGwCmxEeK5vc5kbcw8xg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9njNQC0DEeKyWralSrmW_A" name="vdml.assign" guid="_9njNQC0DEeKyWralSrmW_A" variabilityType="contributes" categorizedElements="_fTDqUJy7EeCb2cFFaexWpQ _c-LpMJyxEeCb2cFFaexWpQ _INihQJywEeCb2cFFaexWpQ _0Wp3oJwFEeCxNIYmmT7D_A _yICX0JyxEeCb2cFFaexWpQ _xkdakJy6EeCb2cFFaexWpQ _axDVMJyvEeCb2cFFaexWpQ _Ae-BkMNIEeCGkIgyjTMixA _s4UCQJy_EeCb2cFFaexWpQ _GoENsJyvEeCb2cFFaexWpQ _Ez_WEJyxEeCb2cFFaexWpQ _Z_Xg8JysEeCb2cFFaexWpQ _CEkZIJwGEeCxNIYmmT7D_A _ArccwMKXEeCQKuG3dPvCNA _o6nO4JzFEeCb2cFFaexWpQ _TL76wJyrEeCb2cFFaexWpQ">
+            <methodElementProperty xmi:id="_-SPwEC0DEeKyWralSrmW_A" name="me_edited" value="true"/>
+            <methodElementProperty xmi:id="_HeWTQC0EEeKyWralSrmW_A" name="CategoryElementsSortType" value="Alphabetic"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_1qG70CmxEeK5vc5kbcw8xg"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ocn6LJdUEeCYIKpsva4R0w" name="CoreContent" guid="_Ocn6LJdUEeCYIKpsva4R0w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y3akcJjOEeCx0dptiO5dMw" name="value_delivery_modelling" guid="_y3akcJjOEeCx0dptiO5dMw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_5G4XYJjOEeCx0dptiO5dMw" name="value_delivery_modelling" guid="_5G4XYJjOEeCx0dptiO5dMw" presentationName="Value Delivery Modelling" briefDescription="This practice describes how to define value delivery models using VDML." contentReferences="_fTDqUJy7EeCb2cFFaexWpQ _c-LpMJyxEeCb2cFFaexWpQ _INihQJywEeCb2cFFaexWpQ _0Wp3oJwFEeCxNIYmmT7D_A _yICX0JyxEeCb2cFFaexWpQ _xkdakJy6EeCb2cFFaexWpQ _axDVMJyvEeCb2cFFaexWpQ _s4UCQJy_EeCb2cFFaexWpQ _GoENsJyvEeCb2cFFaexWpQ _Ez_WEJyxEeCb2cFFaexWpQ _ArccwMKXEeCQKuG3dPvCNA _Z_Xg8JysEeCb2cFFaexWpQ _CEkZIJwGEeCxNIYmmT7D_A _o6nO4JzFEeCb2cFFaexWpQ _TL76wJyrEeCb2cFFaexWpQ _jPtH8Cc-EeKDGNEPRzZzCg _qG0SACf0EeKbT_45B08XTA _yEQCoCf0EeKbT_45B08XTA _4l0SMCf0EeKbT_45B08XTA _9YYCQCf0EeKbT_45B08XTA _GZZHUKDHEeCXF5ZuS3W32Q _FMdSwCdqEeKDGNEPRzZzCg _IknhYCdqEeKDGNEPRzZzCg _NoCX8CdqEeKDGNEPRzZzCg _DK8DwCdmEeKDGNEPRzZzCg _R_XqcEz2EeGzDcGxpv78iw _LaleYCdpEeKDGNEPRzZzCg _ddF78Cf1EeKbT_45B08XTA _9S528Cf1EeKbT_45B08XTA _B5gOoCf2EeKbT_45B08XTA _Kden0KDHEeCXF5ZuS3W32Q _F2iqMKDNEeCXF5ZuS3W32Q _C_ukcJjSEeCx0dptiO5dMw _8Vl9gKF-EeCKTcfDSRMRtw">
+            <methodElementProperty xmi:id="_PUgJQCf4EeKbT_45B08XTA" name="me_edited" value="true"/>
+            <presentation xmi:id="-FHBsT-su8F47D7tInPcmOQ" href="uma://-FHBsT-su8F47D7tInPcmOQ#-FHBsT-su8F47D7tInPcmOQ"/>
+            <activityReferences href="uma://_d6CfcKDNEeCXF5ZuS3W32Q#_d6CfcaDNEeCXF5ZuS3W32Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_C_ukcJjSEeCx0dptiO5dMw" name="how_to_adopt_value_delivery_modelling" guid="_C_ukcJjSEeCx0dptiO5dMw" presentationName="How to adopt the Value Delivery Modelling practice" briefDescription="This roadmap describes how to adopt the Value Delivery Modelling practice." supportingMaterials="_Ae-BkMNIEeCGkIgyjTMixA" conceptsAndPapers="_fTDqUJy7EeCb2cFFaexWpQ _c-LpMJyxEeCb2cFFaexWpQ _INihQJywEeCb2cFFaexWpQ _0Wp3oJwFEeCxNIYmmT7D_A _yICX0JyxEeCb2cFFaexWpQ _xkdakJy6EeCb2cFFaexWpQ _axDVMJyvEeCb2cFFaexWpQ _s4UCQJy_EeCb2cFFaexWpQ _Ez_WEJyxEeCb2cFFaexWpQ _GoENsJyvEeCb2cFFaexWpQ" guidelines="_ArccwMKXEeCQKuG3dPvCNA" examples="_Z_Xg8JysEeCb2cFFaexWpQ _CEkZIJwGEeCxNIYmmT7D_A _o6nO4JzFEeCb2cFFaexWpQ _TL76wJyrEeCb2cFFaexWpQ">
+            <methodElementProperty xmi:id="_O0sEACmpEeKgDIEH3SkN3Q" name="me_edited" value="true"/>
+            <presentation xmi:id="-bfeGOMstLIi6dWh2HZBiOQ" href="uma://-bfeGOMstLIi6dWh2HZBiOQ#-bfeGOMstLIi6dWh2HZBiOQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_GZZHUKDHEeCXF5ZuS3W32Q" name="activities" guid="_GZZHUKDHEeCXF5ZuS3W32Q" presentationName="Activities" briefDescription="This work product describes the activities." guidelines="_ArccwMKXEeCQKuG3dPvCNA" examples="_o6nO4JzFEeCb2cFFaexWpQ _jPtH8Cc-EeKDGNEPRzZzCg _qG0SACf0EeKbT_45B08XTA _Z_Xg8JysEeCb2cFFaexWpQ">
+            <methodElementProperty xmi:id="_rvovkCdoEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <presentation xmi:id="-yVyLD_07X1ne69oCt-zOMg" href="uma://-yVyLD_07X1ne69oCt-zOMg#-yVyLD_07X1ne69oCt-zOMg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Kden0KDHEeCXF5ZuS3W32Q" name="define_value_delivery_model" guid="_Kden0KDHEeCXF5ZuS3W32Q" presentationName="Define Value Delivery Model" briefDescription="This task describes to define and organize a Value Delivery Model." examples="_jPtH8Cc-EeKDGNEPRzZzCg" performedBy="_F2iqMKDNEeCXF5ZuS3W32Q" output="_R_XqcEz2EeGzDcGxpv78iw" toolMentors="_DK8DwCdmEeKDGNEPRzZzCg">
+            <methodElementProperty xmi:id="_XDvNMCf1EeKbT_45B08XTA" name="me_edited" value="true"/>
+            <presentation xmi:id="-UGAmhtRLt8l2LS7IXDEu8g" href="uma://-UGAmhtRLt8l2LS7IXDEu8g#-UGAmhtRLt8l2LS7IXDEu8g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_F2iqMKDNEeCXF5ZuS3W32Q" name="business_architect.assign" guid="_F2iqMKDNEeCXF5ZuS3W32Q" variabilityType="contributes" responsibleFor="_GZZHUKDHEeCXF5ZuS3W32Q _FMdSwCdqEeKDGNEPRzZzCg _IknhYCdqEeKDGNEPRzZzCg _NoCX8CdqEeKDGNEPRzZzCg _R_XqcEz2EeGzDcGxpv78iw">
+            <methodElementProperty xmi:id="_4OiAkCdlEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_0wQ9MCdVEeKDGNEPRzZzCg#_uWhiACdXEeKDGNEPRzZzCg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_R_XqcEz2EeGzDcGxpv78iw" name="value_delivery_model.assign" guid="_R_XqcEz2EeGzDcGxpv78iw" briefDescription="This work product supports business analysis and design based on evaluation of performance and stakeholder satisfaction achieved through the activities and interactions of people and organizations using business capabilities to apply resources and deliver stakeholder values." variabilityType="contributes" guidelines="_ArccwMKXEeCQKuG3dPvCNA" examples="_jPtH8Cc-EeKDGNEPRzZzCg _o6nO4JzFEeCb2cFFaexWpQ" deliveredWorkProducts="_GZZHUKDHEeCXF5ZuS3W32Q _FMdSwCdqEeKDGNEPRzZzCg _IknhYCdqEeKDGNEPRzZzCg _NoCX8CdqEeKDGNEPRzZzCg">
+            <methodElementProperty xmi:id="_8aKTgCdlEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <presentation xmi:id="-JHHBB2Wb9VEzcPYUbR_GcQ" href="uma://-JHHBB2Wb9VEzcPYUbR_GcQ#-JHHBB2Wb9VEzcPYUbR_GcQ"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_ttDGkMEiEeGgb_xjjvFwfg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_LaleYCdpEeKDGNEPRzZzCg" name="define_activities" guid="_LaleYCdpEeKDGNEPRzZzCg" presentationName="Define activities" briefDescription="This task provides guidance on how to define activities using VDML." examples="_jPtH8Cc-EeKDGNEPRzZzCg _qG0SACf0EeKbT_45B08XTA" performedBy="_F2iqMKDNEeCXF5ZuS3W32Q" mandatoryInput="_R_XqcEz2EeGzDcGxpv78iw" output="_GZZHUKDHEeCXF5ZuS3W32Q" toolMentors="_DK8DwCdmEeKDGNEPRzZzCg">
+            <methodElementProperty xmi:id="_Mnf9cCdpEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <presentation xmi:id="-J8styH-f3lDMv-woobE9iA" href="uma://-J8styH-f3lDMv-woobE9iA#-J8styH-f3lDMv-woobE9iA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_FMdSwCdqEeKDGNEPRzZzCg" name="business_network_and_collaboration" guid="_FMdSwCdqEeKDGNEPRzZzCg" presentationName="Business network and collaboration" briefDescription="This work product describes the business network and collaboration." examples="_jPtH8Cc-EeKDGNEPRzZzCg _yEQCoCf0EeKbT_45B08XTA _CEkZIJwGEeCxNIYmmT7D_A _TL76wJyrEeCb2cFFaexWpQ">
+            <methodElementProperty xmi:id="_HdDcYCdqEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <presentation xmi:id="-Q_6AmQva_T-zAgGfuUwzRg" href="uma://-Q_6AmQva_T-zAgGfuUwzRg#-Q_6AmQva_T-zAgGfuUwzRg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IknhYCdqEeKDGNEPRzZzCg" name="organizations_and_capabilities" guid="_IknhYCdqEeKDGNEPRzZzCg" presentationName="Organizations and capabilities" briefDescription="This work product describes the organizations and capabilities." examples="_jPtH8Cc-EeKDGNEPRzZzCg _4l0SMCf0EeKbT_45B08XTA">
+            <methodElementProperty xmi:id="_L8n_ACdqEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <presentation xmi:id="-dI-1zY9lGqo7G17vI7Ir9g" href="uma://-dI-1zY9lGqo7G17vI7Ir9g#-dI-1zY9lGqo7G17vI7Ir9g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_NoCX8CdqEeKDGNEPRzZzCg" name="value" guid="_NoCX8CdqEeKDGNEPRzZzCg" presentationName="Value" briefDescription="This work product describes the business values." examples="_jPtH8Cc-EeKDGNEPRzZzCg _9YYCQCf0EeKbT_45B08XTA">
+            <methodElementProperty xmi:id="_O5HlUCdqEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <presentation xmi:id="-j1VstAPcX_9AULIxOvdUGw" href="uma://-j1VstAPcX_9AULIxOvdUGw#-j1VstAPcX_9AULIxOvdUGw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ddF78Cf1EeKbT_45B08XTA" name="define_business_network_and_collaboration" guid="_ddF78Cf1EeKbT_45B08XTA" presentationName="Define business network and collaboration" briefDescription="This task provides guidance on how to define business network and collaboration using VDML." examples="_jPtH8Cc-EeKDGNEPRzZzCg _yEQCoCf0EeKbT_45B08XTA" performedBy="_F2iqMKDNEeCXF5ZuS3W32Q" mandatoryInput="_R_XqcEz2EeGzDcGxpv78iw" output="_IknhYCdqEeKDGNEPRzZzCg" toolMentors="_DK8DwCdmEeKDGNEPRzZzCg">
+            <methodElementProperty xmi:id="_fnZ3YCf1EeKbT_45B08XTA" name="me_edited" value="true"/>
+            <presentation xmi:id="-gzexSvG21pnrbkj5y-McgA" href="uma://-gzexSvG21pnrbkj5y-McgA#-gzexSvG21pnrbkj5y-McgA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_9S528Cf1EeKbT_45B08XTA" name="define_organizations_and_capabilities" guid="_9S528Cf1EeKbT_45B08XTA" presentationName="Define organizations and capabilities" briefDescription="This task provides guidance on how to define organizations and capabilities using VDML." examples="_jPtH8Cc-EeKDGNEPRzZzCg _4l0SMCf0EeKbT_45B08XTA" performedBy="_F2iqMKDNEeCXF5ZuS3W32Q" mandatoryInput="_R_XqcEz2EeGzDcGxpv78iw" output="_IknhYCdqEeKDGNEPRzZzCg" toolMentors="_DK8DwCdmEeKDGNEPRzZzCg">
+            <methodElementProperty xmi:id="_AOF1sCf2EeKbT_45B08XTA" name="me_edited" value="true"/>
+            <presentation xmi:id="-E_OlOczBiZGFtv9icyrE1w" href="uma://-E_OlOczBiZGFtv9icyrE1w#-E_OlOczBiZGFtv9icyrE1w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_B5gOoCf2EeKbT_45B08XTA" name="define_value" guid="_B5gOoCf2EeKbT_45B08XTA" presentationName="Define values" briefDescription="This task provides guidance on how to define business values in VDML." examples="_jPtH8Cc-EeKDGNEPRzZzCg _9YYCQCf0EeKbT_45B08XTA" performedBy="_F2iqMKDNEeCXF5ZuS3W32Q" mandatoryInput="_R_XqcEz2EeGzDcGxpv78iw" output="_NoCX8CdqEeKDGNEPRzZzCg" toolMentors="_DK8DwCdmEeKDGNEPRzZzCg">
+            <methodElementProperty xmi:id="_D8XeQCf2EeKbT_45B08XTA" name="me_edited" value="true"/>
+            <presentation xmi:id="-g-GOJQhDIWPotOdKX_oA2w" href="uma://-g-GOJQhDIWPotOdKX_oA2w#-g-GOJQhDIWPotOdKX_oA2w"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2DF2QJjOEeCx0dptiO5dMw" name="release_info" guid="_2DF2QJjOEeCx0dptiO5dMw">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_LG_t4JjPEeCx0dptiO5dMw" name="release_info_value_delivery_modelling" guid="_LG_t4JjPEeCx0dptiO5dMw" presentationName="Practice: Value Delivery Modelling" briefDescription="Value Delivery Modelling practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <methodElementProperty xmi:id="_5AKZACc9EeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <presentation xmi:id="-uvdFns34bGq0BaSdrsqXGg" href="uma://-uvdFns34bGq0BaSdrsqXGg#-uvdFns34bGq0BaSdrsqXGg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_3AiV8JjOEeCx0dptiO5dMw" name="vdml_concepts" guid="_3AiV8JjOEeCx0dptiO5dMw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0Wp3oJwFEeCxNIYmmT7D_A" name="collaboration" guid="_0Wp3oJwFEeCxNIYmmT7D_A" presentationName="Collaboration" briefDescription="Collaboration">
+            <presentation xmi:id="-h2RcpgtTWkxp2Bx2P79rJg" href="uma://-h2RcpgtTWkxp2Bx2P79rJg#-h2RcpgtTWkxp2Bx2P79rJg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_CEkZIJwGEeCxNIYmmT7D_A" name="vdml_collaboration_diagram" guid="_CEkZIJwGEeCxNIYmmT7D_A" presentationName="VDML: Collaboration diagram example" briefDescription="VDML: Collaboration diagram example">
+            <presentation xmi:id="-0Mi8dok8BSHzJ__g7mTCAg" href="uma://-0Mi8dok8BSHzJ__g7mTCAg#-0Mi8dok8BSHzJ__g7mTCAg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_toJi0JwGEeCxNIYmmT7D_A" name="goal" guid="_toJi0JwGEeCxNIYmmT7D_A" presentationName="Goal">
+            <presentation xmi:id="-e8K7IewlzwVVyiRqsk6IDQ" href="uma://-e8K7IewlzwVVyiRqsk6IDQ#-e8K7IewlzwVVyiRqsk6IDQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_TL76wJyrEeCb2cFFaexWpQ" name="vdml_value_network_view" guid="_TL76wJyrEeCb2cFFaexWpQ" presentationName="VDML: Value network view example" briefDescription="VDML: Value network view example">
+            <presentation xmi:id="-ScMU-UTicnV_-fQPyXLgrA" href="uma://-ScMU-UTicnV_-fQPyXLgrA#-ScMU-UTicnV_-fQPyXLgrA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_-gVY8JyrEeCb2cFFaexWpQ" name="participant" guid="_-gVY8JyrEeCb2cFFaexWpQ" presentationName="Participant">
+            <presentation xmi:id="-w-GatOY-jU7nDU130oYuRA" href="uma://-w-GatOY-jU7nDU130oYuRA#-w-GatOY-jU7nDU130oYuRA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_CZpM0JysEeCb2cFFaexWpQ" name="role" guid="_CZpM0JysEeCb2cFFaexWpQ" presentationName="Role">
+            <presentation xmi:id="-pg1ZUQShIbi9Z-NigOgX9w" href="uma://-pg1ZUQShIbi9Z-NigOgX9w#-pg1ZUQShIbi9Z-NigOgX9w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_F49zYJysEeCb2cFFaexWpQ" name="assignment" guid="_F49zYJysEeCb2cFFaexWpQ" presentationName="Assignment">
+            <presentation xmi:id="-8hH7sD5P8wT87glg8jAQdw" href="uma://-8hH7sD5P8wT87glg8jAQdw#-8hH7sD5P8wT87glg8jAQdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_JcAcUJysEeCb2cFFaexWpQ" name="actor" guid="_JcAcUJysEeCb2cFFaexWpQ" presentationName="Actor">
+            <presentation xmi:id="-kEKfEyZHEnz22sCABf-Zzw" href="uma://-kEKfEyZHEnz22sCABf-Zzw#-kEKfEyZHEnz22sCABf-Zzw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_L9gvwJysEeCb2cFFaexWpQ" name="person" guid="_L9gvwJysEeCb2cFFaexWpQ" presentationName="Person">
+            <presentation xmi:id="-fc3W1z95eF57PbR6K8RZcg" href="uma://-fc3W1z95eF57PbR6K8RZcg#-fc3W1z95eF57PbR6K8RZcg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_Z_Xg8JysEeCb2cFFaexWpQ" name="vdml_activity_diagram" guid="_Z_Xg8JysEeCb2cFFaexWpQ" presentationName="VDML: Activity diagram example" briefDescription="VDML: Activity diagram example">
+            <presentation xmi:id="-JsbOP6b7f8lD07BKPcPFpg" href="uma://-JsbOP6b7f8lD07BKPcPFpg#-JsbOP6b7f8lD07BKPcPFpg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_vbrRgJysEeCb2cFFaexWpQ" name="activity" guid="_vbrRgJysEeCb2cFFaexWpQ" presentationName="Activity">
+            <presentation xmi:id="-NIZo1UBkqiqq1fVPEKIF8A" href="uma://-NIZo1UBkqiqq1fVPEKIF8A#-NIZo1UBkqiqq1fVPEKIF8A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_ybeDcJysEeCb2cFFaexWpQ" name="deliverable" guid="_ybeDcJysEeCb2cFFaexWpQ" presentationName="Deliverable">
+            <presentation xmi:id="-2Vc7_38X5o90QUdNis9C9w" href="uma://-2Vc7_38X5o90QUdNis9C9w#-2Vc7_38X5o90QUdNis9C9w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_2ZHkwJysEeCb2cFFaexWpQ" name="deliverable_flow" guid="_2ZHkwJysEeCb2cFFaexWpQ" presentationName="Deliverable flow">
+            <presentation xmi:id="-Iu4oeSieU7dn09TxLYUHJA" href="uma://-Iu4oeSieU7dn09TxLYUHJA#-Iu4oeSieU7dn09TxLYUHJA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_7GX-EJysEeCb2cFFaexWpQ" name="activity_port" guid="_7GX-EJysEeCb2cFFaexWpQ" presentationName="Activity port">
+            <presentation xmi:id="-gT8VoMziFOZqf6PAK9p6TA" href="uma://-gT8VoMziFOZqf6PAK9p6TA#-gT8VoMziFOZqf6PAK9p6TA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="__liRAJysEeCb2cFFaexWpQ" name="activity_input_port" guid="__liRAJysEeCb2cFFaexWpQ" presentationName="Activity input port">
+            <presentation xmi:id="-9uHzFKgdb6KlZC01Abt2Lg" href="uma://-9uHzFKgdb6KlZC01Abt2Lg#-9uHzFKgdb6KlZC01Abt2Lg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_DK-tsJytEeCb2cFFaexWpQ" name="activity_output_port" guid="_DK-tsJytEeCb2cFFaexWpQ" presentationName="Activity output port">
+            <presentation xmi:id="-iSby4LwLL_HMPG3CQ1MXWQ" href="uma://-iSby4LwLL_HMPG3CQ1MXWQ#-iSby4LwLL_HMPG3CQ1MXWQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_IMHsUJytEeCb2cFFaexWpQ" name="directive" guid="_IMHsUJytEeCb2cFFaexWpQ" presentationName="Directive">
+            <presentation xmi:id="-aMuhwGSZ37EyImrm3-B5iw" href="uma://-aMuhwGSZ37EyImrm3-B5iw#-aMuhwGSZ37EyImrm3-B5iw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_LifyQJytEeCb2cFFaexWpQ" name="collaberation_interface" guid="_LifyQJytEeCb2cFFaexWpQ" presentationName="Collaberation Interface">
+            <presentation xmi:id="-Sd9e_c3QRytFQiPuSCk88w" href="uma://-Sd9e_c3QRytFQiPuSCk88w#-Sd9e_c3QRytFQiPuSCk88w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_k2UKcJyuEeCb2cFFaexWpQ" name="assignment_delegation" guid="_k2UKcJyuEeCb2cFFaexWpQ" presentationName="Assignment (Delegation)">
+            <presentation xmi:id="-vLnN5WoVF9wTYJUNZcb15Q" href="uma://-vLnN5WoVF9wTYJUNZcb15Q#-vLnN5WoVF9wTYJUNZcb15Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_t2Zq4JyuEeCb2cFFaexWpQ" name="flow_delegation" guid="_t2Zq4JyuEeCb2cFFaexWpQ" presentationName="Flow delegation">
+            <presentation xmi:id="-zgo16tVfioKnAWjl3UkEow" href="uma://-zgo16tVfioKnAWjl3UkEow#-zgo16tVfioKnAWjl3UkEow"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_xhzloJyuEeCb2cFFaexWpQ" name="port_delegation" guid="_xhzloJyuEeCb2cFFaexWpQ" presentationName="Port delegation">
+            <presentation xmi:id="-vpazIkjpR6GNwxGt-cwUFA" href="uma://-vpazIkjpR6GNwxGt-cwUFA#-vpazIkjpR6GNwxGt-cwUFA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_3Spi4JyuEeCb2cFFaexWpQ" name="interface_input_port" guid="_3Spi4JyuEeCb2cFFaexWpQ" presentationName="Interface input port">
+            <presentation xmi:id="-0-Jt6eH_La_vh77LQ9h-eA" href="uma://-0-Jt6eH_La_vh77LQ9h-eA#-0-Jt6eH_La_vh77LQ9h-eA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_7VlM0JyuEeCb2cFFaexWpQ" name="interface_output_port" guid="_7VlM0JyuEeCb2cFFaexWpQ" presentationName="Interface output port">
+            <presentation xmi:id="-l27gqa_vGim9pcCsHelSww" href="uma://-l27gqa_vGim9pcCsHelSww#-l27gqa_vGim9pcCsHelSww"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="__nBM0JyuEeCb2cFFaexWpQ" name="intra_activity_deliverable_dependency" guid="__nBM0JyuEeCb2cFFaexWpQ" presentationName="Intra Activity Deliverable Dependecy">
+            <presentation xmi:id="-1ZgxFGZnF7nZKpug7CCA1w" href="uma://-1ZgxFGZnF7nZKpug7CCA1w#-1ZgxFGZnF7nZKpug7CCA1w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_GoENsJyvEeCb2cFFaexWpQ" name="value" guid="_GoENsJyvEeCb2cFFaexWpQ" presentationName="Value" briefDescription="Value">
+            <presentation xmi:id="-b6L0ftaG0OQYGQly1hsFqg" href="uma://-b6L0ftaG0OQYGQly1hsFqg#-b6L0ftaG0OQYGQly1hsFqg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_LUv_QJyvEeCb2cFFaexWpQ" name="value_proposition" guid="_LUv_QJyvEeCb2cFFaexWpQ" presentationName="Value proposition">
+            <presentation xmi:id="-j6_piAB0DytP-vp_zeFUpQ" href="uma://-j6_piAB0DytP-vp_zeFUpQ#-j6_piAB0DytP-vp_zeFUpQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_Oob9kJyvEeCb2cFFaexWpQ" name="value_proposition_value" guid="_Oob9kJyvEeCb2cFFaexWpQ" presentationName="Value proposition value">
+            <presentation xmi:id="-8faMMKZIBJeOHnUbxAYWaA" href="uma://-8faMMKZIBJeOHnUbxAYWaA#-8faMMKZIBJeOHnUbxAYWaA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_TV0SsJyvEeCb2cFFaexWpQ" name="value" guid="_TV0SsJyvEeCb2cFFaexWpQ" presentationName="Value">
+            <presentation xmi:id="-xFQVCIHot--pqJ-zwjBiDg" href="uma://-xFQVCIHot--pqJ-zwjBiDg#-xFQVCIHot--pqJ-zwjBiDg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_W3NV0JyvEeCb2cFFaexWpQ" name="value_contribution" guid="_W3NV0JyvEeCb2cFFaexWpQ" presentationName="Value contribution">
+            <presentation xmi:id="-iMnBdfjkqfmeRWrjQyD-fw" href="uma://-iMnBdfjkqfmeRWrjQyD-fw#-iMnBdfjkqfmeRWrjQyD-fw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_axDVMJyvEeCb2cFFaexWpQ" name="org_unit" guid="_axDVMJyvEeCb2cFFaexWpQ" presentationName="Org unit" briefDescription="Org unit">
+            <presentation xmi:id="--Lm5YSozORsLQwi0qyI09w" href="uma://--Lm5YSozORsLQwi0qyI09w#--Lm5YSozORsLQwi0qyI09w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_xLStoJyvEeCb2cFFaexWpQ" name="means" guid="_xLStoJyvEeCb2cFFaexWpQ" presentationName="Means">
+            <presentation xmi:id="-fVTS2mEC8jl5kXYFxSmWRg" href="uma://-fVTS2mEC8jl5kXYFxSmWRg#-fVTS2mEC8jl5kXYFxSmWRg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_yJKrIJyvEeCb2cFFaexWpQ" name="responsibility" guid="_yJKrIJyvEeCb2cFFaexWpQ" presentationName="Responsibility">
+            <presentation xmi:id="-pX-9J4btf0aNhDw86PV4Yg" href="uma://-pX-9J4btf0aNhDw86PV4Yg#-pX-9J4btf0aNhDw86PV4Yg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_y3o6sJyvEeCb2cFFaexWpQ" name="subordinate" guid="_y3o6sJyvEeCb2cFFaexWpQ" presentationName="Subordinate">
+            <presentation xmi:id="-1Td7kAG-cFoBETQkZwAthg" href="uma://-1Td7kAG-cFoBETQkZwAthg#-1Td7kAG-cFoBETQkZwAthg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_zyFJsJyvEeCb2cFFaexWpQ" name="leader" guid="_zyFJsJyvEeCb2cFFaexWpQ" presentationName="Leader">
+            <presentation xmi:id="-ww4Z41_wdwC3xiFHCaAV6g" href="uma://-ww4Z41_wdwC3xiFHCaAV6g#-ww4Z41_wdwC3xiFHCaAV6g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_0TspAJyvEeCb2cFFaexWpQ" name="employee" guid="_0TspAJyvEeCb2cFFaexWpQ" presentationName="Employee">
+            <presentation xmi:id="-3SmDYTVjh1b1gmNcHfRm4w" href="uma://-3SmDYTVjh1b1gmNcHfRm4w#-3SmDYTVjh1b1gmNcHfRm4w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_0sI-MJyvEeCb2cFFaexWpQ" name="position" guid="_0sI-MJyvEeCb2cFFaexWpQ" presentationName="Position">
+            <presentation xmi:id="-R80OCP0k4pn1yEh5EJmVdw" href="uma://-R80OCP0k4pn1yEh5EJmVdw#-R80OCP0k4pn1yEh5EJmVdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_INihQJywEeCb2cFFaexWpQ" name="capability" guid="_INihQJywEeCb2cFFaexWpQ" presentationName="Capability" briefDescription="Capability">
+            <presentation xmi:id="-lLlhztnjWO0B-w5QNKJgTA" href="uma://-lLlhztnjWO0B-w5QNKJgTA#-lLlhztnjWO0B-w5QNKJgTA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_U-ymMJywEeCb2cFFaexWpQ" name="capability" guid="_U-ymMJywEeCb2cFFaexWpQ" presentationName="Capability">
+            <presentation xmi:id="-Lt6OIgjZRra6PIl0Omb0ow" href="uma://-Lt6OIgjZRra6PIl0Omb0ow#-Lt6OIgjZRra6PIl0Omb0ow"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_Zg9J0JywEeCb2cFFaexWpQ" name="descision_table" guid="_Zg9J0JywEeCb2cFFaexWpQ" presentationName="Descision table">
+            <presentation xmi:id="-yxHV77EdlfwQz5hP8-mXDQ" href="uma://-yxHV77EdlfwQz5hP8-mXDQ#-yxHV77EdlfwQz5hP8-mXDQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_aTJbwJywEeCb2cFFaexWpQ" name="machine" guid="_aTJbwJywEeCb2cFFaexWpQ" presentationName="Machine">
+            <presentation xmi:id="-KG7pRA6OKQuycz-kS_9z8w" href="uma://-KG7pRA6OKQuycz-kS_9z8w#-KG7pRA6OKQuycz-kS_9z8w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_bVj7AJywEeCb2cFFaexWpQ" name="capability_means" guid="_bVj7AJywEeCb2cFFaexWpQ" presentationName="Capability means">
+            <presentation xmi:id="-Vlj4FhY9wC_7qRp7ty4aLg" href="uma://-Vlj4FhY9wC_7qRp7ty4aLg#-Vlj4FhY9wC_7qRp7ty4aLg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_cAixsJywEeCb2cFFaexWpQ" name="performer" guid="_cAixsJywEeCb2cFFaexWpQ" presentationName="Performer">
+            <presentation xmi:id="-9Y0xKQIa2ZJJ4iW-TgJ-3A" href="uma://-9Y0xKQIa2ZJJ4iW-TgJ-3A#-9Y0xKQIa2ZJJ4iW-TgJ-3A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_cq7LcJywEeCb2cFFaexWpQ" name="capability_component" guid="_cq7LcJywEeCb2cFFaexWpQ" presentationName="Capability component">
+            <presentation xmi:id="-5ij0HyOaxG8dNoXPZ2tvvA" href="uma://-5ij0HyOaxG8dNoXPZ2tvvA#-5ij0HyOaxG8dNoXPZ2tvvA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_da524JywEeCb2cFFaexWpQ" name="source" guid="_da524JywEeCb2cFFaexWpQ" presentationName="Source">
+            <presentation xmi:id="--TZQD5_An29f0LfPmTs7Iw" href="uma://--TZQD5_An29f0LfPmTs7Iw#--TZQD5_An29f0LfPmTs7Iw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_4uPFMJywEeCb2cFFaexWpQ" name="process_role" guid="_4uPFMJywEeCb2cFFaexWpQ" presentationName="Process role">
+            <presentation xmi:id="-a1ddkvN3liitB4WOgk8uiw" href="uma://-a1ddkvN3liitB4WOgk8uiw#-a1ddkvN3liitB4WOgk8uiw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_9KDJMJywEeCb2cFFaexWpQ" name="case_role" guid="_9KDJMJywEeCb2cFFaexWpQ" presentationName="Case role">
+            <presentation xmi:id="--G7yP3i5p4baMAvWwJlZJQ" href="uma://--G7yP3i5p4baMAvWwJlZJQ#--G7yP3i5p4baMAvWwJlZJQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_ADA6YJyxEeCb2cFFaexWpQ" name="application_role" guid="_ADA6YJyxEeCb2cFFaexWpQ" presentationName="Application role">
+            <presentation xmi:id="-8NYuc-aCPMBE4KrtX9PQ5Q" href="uma://-8NYuc-aCPMBE4KrtX9PQ5Q#-8NYuc-aCPMBE4KrtX9PQ5Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_Ez_WEJyxEeCb2cFFaexWpQ" name="value_chains" guid="_Ez_WEJyxEeCb2cFFaexWpQ" presentationName="Value chains" briefDescription="Value chains">
+            <presentation xmi:id="-RhaxKNQ-m0YrC1mWDMS91w" href="uma://-RhaxKNQ-m0YrC1mWDMS91w#-RhaxKNQ-m0YrC1mWDMS91w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_KXkTYJyxEeCb2cFFaexWpQ" name="value_chain_role" guid="_KXkTYJyxEeCb2cFFaexWpQ" presentationName="Value chain role">
+            <presentation xmi:id="-NjG1BPjmyakTx_LEc5WB0A" href="uma://-NjG1BPjmyakTx_LEc5WB0A#-NjG1BPjmyakTx_LEc5WB0A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_Ph97sJyxEeCb2cFFaexWpQ" name="value_chain_flow" guid="_Ph97sJyxEeCb2cFFaexWpQ" presentationName="Value chain flow">
+            <presentation xmi:id="-G6yUN6KjKsaCgZNUkoGMRg" href="uma://-G6yUN6KjKsaCgZNUkoGMRg#-G6yUN6KjKsaCgZNUkoGMRg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_YvMgQJyxEeCb2cFFaexWpQ" name="inventory" guid="_YvMgQJyxEeCb2cFFaexWpQ" presentationName="Inventory">
+            <presentation xmi:id="-_3jobbYhQj2CTDFDBfUAFA" href="uma://-_3jobbYhQj2CTDFDBfUAFA#-_3jobbYhQj2CTDFDBfUAFA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_c-LpMJyxEeCb2cFFaexWpQ" name="business_relationship" guid="_c-LpMJyxEeCb2cFFaexWpQ" presentationName="Business relationship" briefDescription="Business relationship">
+            <presentation xmi:id="-j1BtDPm_jTbh-xj-Mz-oSg" href="uma://-j1BtDPm_jTbh-xj-Mz-oSg#-j1BtDPm_jTbh-xj-Mz-oSg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_smCu4JyxEeCb2cFFaexWpQ" name="party" guid="_smCu4JyxEeCb2cFFaexWpQ" presentationName="party">
+            <presentation xmi:id="-5s73-_PxkBDDoABYrXYGLA" href="uma://-5s73-_PxkBDDoABYrXYGLA#-5s73-_PxkBDDoABYrXYGLA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_vQaDYJyxEeCb2cFFaexWpQ" name="component" guid="_vQaDYJyxEeCb2cFFaexWpQ" presentationName="Component">
+            <presentation xmi:id="-Ffmfu3hv9nUoJlaNoFPNMw" href="uma://-Ffmfu3hv9nUoJlaNoFPNMw#-Ffmfu3hv9nUoJlaNoFPNMw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_yICX0JyxEeCb2cFFaexWpQ" name="community" guid="_yICX0JyxEeCb2cFFaexWpQ" presentationName="Community" briefDescription="Community">
+            <presentation xmi:id="--_68Sb-ec41Hk24FCJcPTQ" href="uma://--_68Sb-ec41Hk24FCJcPTQ#--_68Sb-ec41Hk24FCJcPTQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_Lrki0Jy6EeCb2cFFaexWpQ" name="community_role" guid="_Lrki0Jy6EeCb2cFFaexWpQ" presentationName="Community role">
+            <presentation xmi:id="-VSejTGjHy_gDthPD07_Uaw" href="uma://-VSejTGjHy_gDthPD07_Uaw#-VSejTGjHy_gDthPD07_Uaw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_QJHsMJy6EeCb2cFFaexWpQ" name="member" guid="_QJHsMJy6EeCb2cFFaexWpQ" presentationName="Member">
+            <presentation xmi:id="-_gRmTLpggbL8qPlmV_BpQA" href="uma://-_gRmTLpggbL8qPlmV_BpQA#-_gRmTLpggbL8qPlmV_BpQA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_SThuQJy6EeCb2cFFaexWpQ" name="community_means" guid="_SThuQJy6EeCb2cFFaexWpQ" presentationName="Community means">
+            <presentation xmi:id="-cPYtGoA2DigBluem_5DXmw" href="uma://-cPYtGoA2DigBluem_5DXmw#-cPYtGoA2DigBluem_5DXmw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_TdEwQJy6EeCb2cFFaexWpQ" name="community_responsibility" guid="_TdEwQJy6EeCb2cFFaexWpQ" presentationName="Community responsibility">
+            <presentation xmi:id="-bvC95-lxwpOcap_BwSliIA" href="uma://-bvC95-lxwpOcap_BwSliIA#-bvC95-lxwpOcap_BwSliIA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_UZMaQJy6EeCb2cFFaexWpQ" name="subset" guid="_UZMaQJy6EeCb2cFFaexWpQ" presentationName="Subset">
+            <presentation xmi:id="-J41G-2s2UQRAKnJB2BQJig" href="uma://-J41G-2s2UQRAKnJB2BQJig#-J41G-2s2UQRAKnJB2BQJig"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_Vun8IJy6EeCb2cFFaexWpQ" name="community_leader" guid="_Vun8IJy6EeCb2cFFaexWpQ" presentationName="Community leadder">
+            <presentation xmi:id="-ZYkKUMjb7lCZp37uy9voIg" href="uma://-ZYkKUMjb7lCZp37uy9voIg#-ZYkKUMjb7lCZp37uy9voIg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_xkdakJy6EeCb2cFFaexWpQ" name="metric" guid="_xkdakJy6EeCb2cFFaexWpQ" presentationName="Metric" briefDescription="Metric">
+            <presentation xmi:id="-6z9PK3gXk5t4KGu6BiOT4Q" href="uma://-6z9PK3gXk5t4KGu6BiOT4Q#-6z9PK3gXk5t4KGu6BiOT4Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_2inWoJy6EeCb2cFFaexWpQ" name="nummeric_result" guid="_2inWoJy6EeCb2cFFaexWpQ" presentationName="Nummeric result">
+            <presentation xmi:id="-bF8vh8CsVGC74g3pDeuQ_A" href="uma://-bF8vh8CsVGC74g3pDeuQ_A#-bF8vh8CsVGC74g3pDeuQ_A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_3O504Jy6EeCb2cFFaexWpQ" name="descriptive_value_ennumeration" guid="_3O504Jy6EeCb2cFFaexWpQ" presentationName="Descriptive value ennumeration">
+            <presentation xmi:id="-lbJFiKSCBpZ1jpoJ3pofBQ" href="uma://-lbJFiKSCBpZ1jpoJ3pofBQ#-lbJFiKSCBpZ1jpoJ3pofBQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_355SoJy6EeCb2cFFaexWpQ" name="descriptive_result" guid="_355SoJy6EeCb2cFFaexWpQ" presentationName="Descriptive result">
+            <presentation xmi:id="-u0nbv3IdREd0xmx3o-Da4w" href="uma://-u0nbv3IdREd0xmx3o-Da4w#-u0nbv3IdREd0xmx3o-Da4w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_4i_6AJy6EeCb2cFFaexWpQ" name="lookup_data" guid="_4i_6AJy6EeCb2cFFaexWpQ" presentationName="Lookup data">
+            <presentation xmi:id="-sIeuK9e_ei6SVCUezU7KEQ" href="uma://-sIeuK9e_ei6SVCUezU7KEQ#-sIeuK9e_ei6SVCUezU7KEQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_5XR2oJy6EeCb2cFFaexWpQ" name="computed_metric" guid="_5XR2oJy6EeCb2cFFaexWpQ" presentationName="Computed metric">
+            <presentation xmi:id="-129mjNv8JzRet4caRi58RA" href="uma://-129mjNv8JzRet4caRi58RA#-129mjNv8JzRet4caRi58RA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_6L-qAJy6EeCb2cFFaexWpQ" name="qualitative_metric" guid="_6L-qAJy6EeCb2cFFaexWpQ" presentationName="Qualitative metric">
+            <presentation xmi:id="-75hPS8Fd4g3ikRUJOwG9Rg" href="uma://-75hPS8Fd4g3ikRUJOwG9Rg#-75hPS8Fd4g3ikRUJOwG9Rg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_62_88Jy6EeCb2cFFaexWpQ" name="primitive_metric" guid="_62_88Jy6EeCb2cFFaexWpQ" presentationName="Primitive metric">
+            <presentation xmi:id="-O6ss0vMSEIOfovHvZc5JsA" href="uma://-O6ss0vMSEIOfovHvZc5JsA#-O6ss0vMSEIOfovHvZc5JsA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_7oSP8Jy6EeCb2cFFaexWpQ" name="result" guid="_7oSP8Jy6EeCb2cFFaexWpQ" presentationName="Result">
+            <presentation xmi:id="-jCK77l89j_EymvEweID0zA" href="uma://-jCK77l89j_EymvEweID0zA#-jCK77l89j_EymvEweID0zA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_8WwfgJy6EeCb2cFFaexWpQ" name="metric" guid="_8WwfgJy6EeCb2cFFaexWpQ" presentationName="Mtric">
+            <presentation xmi:id="-ffBySZjJVWgpurZ0A4Q4cg" href="uma://-ffBySZjJVWgpurZ0A4Q4cg#-ffBySZjJVWgpurZ0A4Q4cg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_fTDqUJy7EeCb2cFFaexWpQ" name="business_model" guid="_fTDqUJy7EeCb2cFFaexWpQ" presentationName="Business model" briefDescription="Business model">
+            <presentation xmi:id="-OviAYmVNULo79Dm4wPvDzg" href="uma://-OviAYmVNULo79Dm4wPvDzg#-OviAYmVNULo79Dm4wPvDzg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_AqoTAJy8EeCb2cFFaexWpQ" name="enumeration_value" guid="_AqoTAJy8EeCb2cFFaexWpQ" presentationName="Enumeration value">
+            <presentation xmi:id="-UgvEr6Y_uiIuiHZBMRmLow" href="uma://-UgvEr6Y_uiIuiHZBMRmLow#-UgvEr6Y_uiIuiHZBMRmLow"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_BZNQQJy8EeCb2cFFaexWpQ" name="expression" guid="_BZNQQJy8EeCb2cFFaexWpQ" presentationName="Expression">
+            <presentation xmi:id="-l58BQ9I_HpcX9IfPOACwbQ" href="uma://-l58BQ9I_HpcX9IfPOACwbQ#-l58BQ9I_HpcX9IfPOACwbQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_CH7-gJy8EeCb2cFFaexWpQ" name="risk_factor" guid="_CH7-gJy8EeCb2cFFaexWpQ" presentationName="Risk factor">
+            <presentation xmi:id="-aqG2V9uaOiXouh24p9vuAg" href="uma://-aqG2V9uaOiXouh24p9vuAg#-aqG2V9uaOiXouh24p9vuAg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_C6Vr0Jy8EeCb2cFFaexWpQ" name="dimension" guid="_C6Vr0Jy8EeCb2cFFaexWpQ" presentationName="Dimension">
+            <presentation xmi:id="-1h69WsA7yUcH221UZjsEYw" href="uma://-1h69WsA7yUcH221UZjsEYw#-1h69WsA7yUcH221UZjsEYw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_EKTe4Jy8EeCb2cFFaexWpQ" name="deliverable_definition" guid="_EKTe4Jy8EeCb2cFFaexWpQ" presentationName="Deliverable definition">
+            <presentation xmi:id="-ag3S74WjuycGUzeXospXpg" href="uma://-ag3S74WjuycGUzeXospXpg#-ag3S74WjuycGUzeXospXpg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_FX89wJy8EeCb2cFFaexWpQ" name="capability_tree_node" guid="_FX89wJy8EeCb2cFFaexWpQ" presentationName="Capability tree node">
+            <presentation xmi:id="-RCUYSj53UuucP5Jsx9D45A" href="uma://-RCUYSj53UuucP5Jsx9D45A#-RCUYSj53UuucP5Jsx9D45A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_HNLaAJy8EeCb2cFFaexWpQ" name="business_model_building_block" guid="_HNLaAJy8EeCb2cFFaexWpQ" presentationName="Business Model Building Block">
+            <presentation xmi:id="-F7lxsmwlPJdzLYwf-94lwA" href="uma://-F7lxsmwlPJdzLYwf-94lwA#-F7lxsmwlPJdzLYwf-94lwA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_HNMBEJy8EeCb2cFFaexWpQ" name="enumerations" guid="_HNMBEJy8EeCb2cFFaexWpQ" presentationName="Enumerations">
+            <presentation xmi:id="-movgJSam-F0mbjdvf4S_dQ" href="uma://-movgJSam-F0mbjdvf4S_dQ#-movgJSam-F0mbjdvf4S_dQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_HNMBEZy8EeCb2cFFaexWpQ" name="extension_defenition" guid="_HNMBEZy8EeCb2cFFaexWpQ" presentationName="Extension defenition">
+            <presentation xmi:id="-XcmvssQjBAx-KBmZ3T7TVA" href="uma://-XcmvssQjBAx-KBmZ3T7TVA#-XcmvssQjBAx-KBmZ3T7TVA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_HNMBEpy8EeCb2cFFaexWpQ" name="risk_scenario" guid="_HNMBEpy8EeCb2cFFaexWpQ" presentationName="Risk scenario">
+            <presentation xmi:id="-bIm-zU9vBvOjg2ax93muhQ" href="uma://-bIm-zU9vBvOjg2ax93muhQ#-bIm-zU9vBvOjg2ax93muhQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_HNMBE5y8EeCb2cFFaexWpQ" name="metric_definition" guid="_HNMBE5y8EeCb2cFFaexWpQ" presentationName="Metric definition">
+            <presentation xmi:id="-T-HVW7z5rhU_ENtBm-EYDQ" href="uma://-T-HVW7z5rhU_ENtBm-EYDQ#-T-HVW7z5rhU_ENtBm-EYDQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_HNMBFJy8EeCb2cFFaexWpQ" name="capability_dependency" guid="_HNMBFJy8EeCb2cFFaexWpQ" presentationName="Capability dependency">
+            <presentation xmi:id="-Z2iUw42oCx-x_Bj8bX5mUQ" href="uma://-Z2iUw42oCx-x_Bj8bX5mUQ#-Z2iUw42oCx-x_Bj8bX5mUQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_HNMBFZy8EeCb2cFFaexWpQ" name="values_definition" guid="_HNMBFZy8EeCb2cFFaexWpQ" presentationName="Values definition">
+            <presentation xmi:id="-Kdry3a8jOReQ_5OY2uIMFw" href="uma://-Kdry3a8jOReQ_5OY2uIMFw#-Kdry3a8jOReQ_5OY2uIMFw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_K5q54Jy8EeCb2cFFaexWpQ" name="business_model" guid="_K5q54Jy8EeCb2cFFaexWpQ" presentationName="Business model">
+            <presentation xmi:id="-CzRCm1gbY1MawnYSB9C_5Q" href="uma://-CzRCm1gbY1MawnYSB9C_5Q#-CzRCm1gbY1MawnYSB9C_5Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_K5q54Zy8EeCb2cFFaexWpQ" name="expression_property" guid="_K5q54Zy8EeCb2cFFaexWpQ" presentationName="Expression property">
+            <presentation xmi:id="-0iA0Q2qfkmhkwuCek12NBw" href="uma://-0iA0Q2qfkmhkwuCek12NBw#-0iA0Q2qfkmhkwuCek12NBw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_K5q54py8EeCb2cFFaexWpQ" name="extension_property_definition" guid="_K5q54py8EeCb2cFFaexWpQ" presentationName="Extension property definition">
+            <presentation xmi:id="-BUs6PqTdm-GPEgWBOKaDUQ" href="uma://-BUs6PqTdm-GPEgWBOKaDUQ#-BUs6PqTdm-GPEgWBOKaDUQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_K5q545y8EeCb2cFFaexWpQ" name="risk_factor_dependency" guid="_K5q545y8EeCb2cFFaexWpQ" presentationName="Risk factor dependency">
+            <presentation xmi:id="-5EeC0JIyVQSED0UAlzeGvA" href="uma://-5EeC0JIyVQSED0UAlzeGvA#-5EeC0JIyVQSED0UAlzeGvA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_K5q55Jy8EeCb2cFFaexWpQ" name="extendable_element" guid="_K5q55Jy8EeCb2cFFaexWpQ" presentationName="Extendable element">
+            <presentation xmi:id="-m-b1mouW3MSYGWAF3xLk8g" href="uma://-m-b1mouW3MSYGWAF3xLk8g#-m-b1mouW3MSYGWAF3xLk8g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_K5q55Zy8EeCb2cFFaexWpQ" name="units_of_measure" guid="_K5q55Zy8EeCb2cFFaexWpQ" presentationName="Units of measure">
+            <presentation xmi:id="-g6g1So2VuyeZKKIwXPIqfw" href="uma://-g6g1So2VuyeZKKIwXPIqfw#-g6g1So2VuyeZKKIwXPIqfw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_K5q55py8EeCb2cFFaexWpQ" name="benchmark" guid="_K5q55py8EeCb2cFFaexWpQ" presentationName="Benchmark">
+            <presentation xmi:id="-khG8SlNs1S2vhABsP20PXA" href="uma://-khG8SlNs1S2vhABsP20PXA#-khG8SlNs1S2vhABsP20PXA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_K5q555y8EeCb2cFFaexWpQ" name="practice_definition" guid="_K5q555y8EeCb2cFFaexWpQ" presentationName="Practice definition">
+            <presentation xmi:id="-wxkDNDFqAXbHvqzCFkY6Ig" href="uma://-wxkDNDFqAXbHvqzCFkY6Ig#-wxkDNDFqAXbHvqzCFkY6Ig"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_K5q56Jy8EeCb2cFFaexWpQ" name="technologi_definition" guid="_K5q56Jy8EeCb2cFFaexWpQ" presentationName="Technologi definiton">
+            <presentation xmi:id="-zwxRw0Sxa0n6MZfg5YOQrQ" href="uma://-zwxRw0Sxa0n6MZfg5YOQrQ#-zwxRw0Sxa0n6MZfg5YOQrQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_K5q56Zy8EeCb2cFFaexWpQ" name="capability_group" guid="_K5q56Zy8EeCb2cFFaexWpQ" presentationName="Capability group">
+            <presentation xmi:id="-OlUgJO7E5E2N_ISKA7wG8Q" href="uma://-OlUgJO7E5E2N_ISKA7wG8Q#-OlUgJO7E5E2N_ISKA7wG8Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_K5q56py8EeCb2cFFaexWpQ" name="capability_definition" guid="_K5q56py8EeCb2cFFaexWpQ" presentationName="Capability definition">
+            <presentation xmi:id="-GwoqRlHiOf76GiT2mxk9IA" href="uma://-GwoqRlHiOf76GiT2mxk9IA#-GwoqRlHiOf76GiT2mxk9IA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_K5q565y8EeCb2cFFaexWpQ" name="library" guid="_K5q565y8EeCb2cFFaexWpQ" presentationName="Library">
+            <presentation xmi:id="-A6PUY6bygiUOOcJ76siytw" href="uma://-A6PUY6bygiUOOcJ76siytw#-A6PUY6bygiUOOcJ76siytw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_K5q57Jy8EeCb2cFFaexWpQ" name="metric_definitions" guid="_K5q57Jy8EeCb2cFFaexWpQ" presentationName="Metric definitions">
+            <presentation xmi:id="-hOFMqp-EONNChRC7wupo9A" href="uma://-hOFMqp-EONNChRC7wupo9A#-hOFMqp-EONNChRC7wupo9A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_K5rg8Jy8EeCb2cFFaexWpQ" name="business_model_relationship" guid="_K5rg8Jy8EeCb2cFFaexWpQ" presentationName="Business model relationship">
+            <presentation xmi:id="-t7kdZl1OLD6NyjTnYCO2AQ" href="uma://-t7kdZl1OLD6NyjTnYCO2AQ#-t7kdZl1OLD6NyjTnYCO2AQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_s4UCQJy_EeCb2cFFaexWpQ" name="risk_factor" guid="_s4UCQJy_EeCb2cFFaexWpQ" presentationName="Risk factor" briefDescription="Risk factor">
+            <presentation xmi:id="-poKRO2YjcwVnCuMSLKP41g" href="uma://-poKRO2YjcwVnCuMSLKP41g#-poKRO2YjcwVnCuMSLKP41g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_o6nO4JzFEeCb2cFFaexWpQ" name="vdml_notation" guid="_o6nO4JzFEeCb2cFFaexWpQ" presentationName="VDML: Notation example" briefDescription="VDML: Notation example">
+            <presentation xmi:id="-rPpPnsp0lBsV9hoyZojsnA" href="uma://-rPpPnsp0lBsV9hoyZojsnA#-rPpPnsp0lBsV9hoyZojsnA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_ArccwMKXEeCQKuG3dPvCNA" name="vdml_guidance" guid="_ArccwMKXEeCQKuG3dPvCNA" presentationName="Value Delivery Modeling Language (VDML)" briefDescription="This guidance describes the Value Delivery Modeling Language (VDML).">
+            <presentation xmi:id="-9UBjMm7J6C3_qmKy1-iIVA" href="uma://-9UBjMm7J6C3_qmKy1-iIVA#-9UBjMm7J6C3_qmKy1-iIVA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_Ae-BkMNIEeCGkIgyjTMixA" name="references.vdml" guid="_Ae-BkMNIEeCGkIgyjTMixA" variabilityType="contributes">
+            <presentation xmi:id="-KRMliqWWnvCLl72gl9WdUA" href="uma://-KRMliqWWnvCLl72gl9WdUA#-KRMliqWWnvCLl72gl9WdUA"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_7J4wUNq1Ed-RHtsSMqnPrA#_zfHv4PPWEd-GtPTRjkeUMg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__7MLMKF-EeCKTcfDSRMRtw" name="tool_mentors" guid="__7MLMKF-EeCKTcfDSRMRtw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BO4AoKF_EeCKTcfDSRMRtw" name="neffics_business_operations_platform" guid="_BO4AoKF_EeCKTcfDSRMRtw">
+            <methodElementProperty xmi:id="_Jj5w8CdmEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_DK8DwCdmEeKDGNEPRzZzCg" name="neffics_business_operations_platform_vdml_editor" guid="_DK8DwCdmEeKDGNEPRzZzCg" presentationName="NEFFICS Business Operations Platform: VDML editor">
+              <methodElementProperty xmi:id="_HUyOACdmEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+              <presentation xmi:id="-KrAwqLjGQR8U5QF8xvHmzw" href="uma://-KrAwqLjGQR8U5QF8xvHmzw#-KrAwqLjGQR8U5QF8xvHmzw"/>
+            </contentElements>
+          </childPackages>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_d50oYCc-EeKDGNEPRzZzCg" name="examples" guid="_d50oYCc-EeKDGNEPRzZzCg">
+          <methodElementProperty xmi:id="_eYDcgCc-EeKDGNEPRzZzCg" name="me_edited" value="true"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gFbkUCc-EeKDGNEPRzZzCg" name="vlastuin" guid="_gFbkUCc-EeKDGNEPRzZzCg">
+            <methodElementProperty xmi:id="_g7mXUCc-EeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_jPtH8Cc-EeKDGNEPRzZzCg" name="xtrailer_example" guid="_jPtH8Cc-EeKDGNEPRzZzCg" presentationName="XTrailer: Example" examples="_qG0SACf0EeKbT_45B08XTA _yEQCoCf0EeKbT_45B08XTA _4l0SMCf0EeKbT_45B08XTA _9YYCQCf0EeKbT_45B08XTA">
+              <methodElementProperty xmi:id="_j_9gMCc-EeKDGNEPRzZzCg" name="me_edited" value="true"/>
+              <presentation xmi:id="-4adybbUcrKA6O_z9dgwFTw" href="uma://-4adybbUcrKA6O_z9dgwFTw#-4adybbUcrKA6O_z9dgwFTw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_qG0SACf0EeKbT_45B08XTA" name="xtrailer_example_activities" guid="_qG0SACf0EeKbT_45B08XTA" presentationName="XTrailer: Activities">
+              <methodElementProperty xmi:id="_tqUN8Cf0EeKbT_45B08XTA" name="me_edited" value="true"/>
+              <presentation xmi:id="-6C_iBn2v1Or3SPq-S7Cq8Q" href="uma://-6C_iBn2v1Or3SPq-S7Cq8Q#-6C_iBn2v1Or3SPq-S7Cq8Q"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_yEQCoCf0EeKbT_45B08XTA" name="xtrailer_example_business_network_and_collaboration" guid="_yEQCoCf0EeKbT_45B08XTA" presentationName="XTrailer: Business network and collaboration">
+              <methodElementProperty xmi:id="_2OMTgCf0EeKbT_45B08XTA" name="me_edited" value="true"/>
+              <presentation xmi:id="-hwWL12hC2u_PsOr7vPP3GQ" href="uma://-hwWL12hC2u_PsOr7vPP3GQ#-hwWL12hC2u_PsOr7vPP3GQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_4l0SMCf0EeKbT_45B08XTA" name="xtrailer_example_organizations_and_capabilities" guid="_4l0SMCf0EeKbT_45B08XTA" presentationName="XTrailer: Organizations and capabilities">
+              <methodElementProperty xmi:id="_8khjcCf0EeKbT_45B08XTA" name="me_edited" value="true"/>
+              <presentation xmi:id="-4mwZGxwrZa7nRLr9kXxNIg" href="uma://-4mwZGxwrZa7nRLr9kXxNIg#-4mwZGxwrZa7nRLr9kXxNIg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_9YYCQCf0EeKbT_45B08XTA" name="xtrailer_example_value" guid="_9YYCQCf0EeKbT_45B08XTA" presentationName="XTrailer: Value">
+              <methodElementProperty xmi:id="__ETYkCf0EeKbT_45B08XTA" name="me_edited" value="true"/>
+              <presentation xmi:id="-3Z61Jcw3gBKUn6uoNhBG8g" href="uma://-3Z61Jcw3gBKUn6uoNhBG8g#-3Z61Jcw3gBKUn6uoNhBG8g"/>
+            </contentElements>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Ocn6LZdUEeCYIKpsva4R0w" name="CapabilityPatterns" guid="_Ocn6LZdUEeCYIKpsva4R0w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_yYO9sKGYEeCo46MenWbwvA" name="value_delivery_modelling" guid="_yYO9sKGYEeCo46MenWbwvA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_d6CfcKDNEeCXF5ZuS3W32Q" href="uma://_d6CfcKDNEeCXF5ZuS3W32Q#_d6CfcKDNEeCXF5ZuS3W32Q"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Ocn6LpdUEeCYIKpsva4R0w" name="DeliveryProcesses" guid="_Ocn6LpdUEeCYIKpsva4R0w"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Ocn6L5dUEeCYIKpsva4R0w" name="ProcessContributions" guid="_Ocn6L5dUEeCYIKpsva4R0w"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_7J4wUNq1Ed-RHtsSMqnPrA#_7J4wUNq1Ed-RHtsSMqnPrA"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_yLWzUNxbEd-LYKXkOhPACw#_yLWzUNxbEd-LYKXkOhPACw"/>
+    <bases href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_Xy_FcBWsEeGINOUzJIOMxA"/>
+    <bases href="uma://_0wQ9MCdVEeKDGNEPRzZzCg#_0wQ9MCdVEeKDGNEPRzZzCg"/>
+    <bases href="uma://_ZrOMELSiEeGOSY51NyhYZA#_ZrOMELSiEeGOSY51NyhYZA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-X5vUn6-wLNpvo7t7kcHvsw" name="collaboration,_25EZMDv1Ed-OFL4K-b4X_A" guid="-X5vUn6-wLNpvo7t7kcHvsw" changeDate="2011-08-10T17:06:29.471+0200">
+  <mainDescription>&lt;p>&#xD;
+    A Collaboration contains two (2) or more Pools, representing the Participants in the Collaboration. The Message&#xD;
+    exchange between the Participants is shown by a Message Flow that connects two (2) Pools (or the objects within the&#xD;
+    Pools). The Messages associated with the Message Flow may also be shown.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Pool may be empty, a “black box,” or main show a Process within. Choreographies may be shown “in between” the Pools&#xD;
+    as they bisect the Message Flow between the Pools. All combinations of Pools, Processes, and a Choreography are allowed&#xD;
+    in a Collaboration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Collaborations specify interactions between two or more organisations. Those organisations will be specified as Pools&#xD;
+    (possibly cut down into Lanes), while their interactions will be specified as Message flows (see Figure 1). While&#xD;
+    collaborations included only Processes in BPMN1 (as in the figure above), BPMN2 allowed Choreographies as well. In that&#xD;
+    case, processes will exist inside the pools, and choreographies will exist between the pools.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/bpmn_concept_collaboration.png&quot; width=&quot;541&quot; height=&quot;253&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 1:&lt;/strong> BPMN2 Collaboration example&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

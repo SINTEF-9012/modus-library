@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-wf9UHXrBXOpcwU_HMNSm-A" name=",_emjOwKjwEd6RxrScOu9Dlg" guid="-wf9UHXrBXOpcwU_HMNSm-A" authors="Mick Kerrigan, Davide Cerri (UIBK)" changeDate="2009-09-25T09:27:23.250+0200" version="0.1">
+  <mainDescription>The aim of this&amp;nbsp;task is to define the overview architecture of all the Web Service and Goal descriptions needed to&#xD;
+realise the requirements, along with the ontologies that they use. The high-level architecture also contains the mediators&#xD;
+that link Web Service, Goal and Ontology descriptions together.</mainDescription>
+  <sections xmi:id="_etV90KjxEd6RxrScOu9Dlg" name="Identify Semantic Web Services" guid="_etV90KjxEd6RxrScOu9Dlg">
+    <sectionDescription>The aim of this&amp;nbsp;step is to identify the concrete Web services that are mentioned in the requirements phase and to add&#xD;
+them to the high-level architecture. In this step, the architect should add the concrete Web services, refered to in the&#xD;
+Requirements Specification to the high-level picture of the architecture.</sectionDescription>
+  </sections>
+  <sections xmi:id="_iCOO8KjxEd6RxrScOu9Dlg" name="Identify Semantic Web Service descriptions" guid="_iCOO8KjxEd6RxrScOu9Dlg">
+    <sectionDescription>The aim of this&amp;nbsp;step is to identify the Semantic Web Service descriptions that are part of the high level&#xD;
+architecture. The Requirements Specification identifies functional, non functional, and behavioural aspects of services&#xD;
+that need to be described. For example, if a particular Web service needs two advertisements, each with their own non&#xD;
+functional description&lt;br />&#xD;
+and choreography, which need to be advertised on two broker services that use different formalisms, then the architect&#xD;
+should identify four Semantic Web Service descriptions. It should be noted that in complex scenarios the number of service&#xD;
+descriptions can get quite large, especially if many functional and behavioural advertisements need to be made on many&#xD;
+different types of broker services.</sectionDescription>
+  </sections>
+  <sections xmi:id="_l18YMKjxEd6RxrScOu9Dlg" name="Identify goal descriptions" guid="_l18YMKjxEd6RxrScOu9Dlg">
+    <sectionDescription>The aim of this step is to identify the Goal descriptions that are part of the high level architecture.&#xD;
+The&amp;nbsp;Requirements Specification refer to a number of Goal descriptions that must be included in the high level&#xD;
+architecture. The architect should build a list of Goals, where existing Goals are identified by their identifiers and new&#xD;
+Goals, which must be created in the&amp;nbsp;PSM modelling (implementation)&amp;nbsp;phase.</sectionDescription>
+  </sections>
+  <sections xmi:id="_nUsOIKjxEd6RxrScOu9Dlg" name="Identify ontologies" guid="_nUsOIKjxEd6RxrScOu9Dlg">
+    <sectionDescription>The aim of this&amp;nbsp;step is to identify the ontologies needed in the high level archiecture. This&amp;nbsp;step utilizes the&#xD;
+requirements from the Requirements Specification to identify the ontologies that are needed to build the Web Service and&#xD;
+Goal descriptions within the high level architecture and those related ontologies with which these ontologies should be&#xD;
+interoperable. The architect should build a list of ontologies; in this list, the architect should also specify which Web&#xD;
+Service and Goal descriptions use each of the ontologies, and the logical formalism that the ontology should be written in.</sectionDescription>
+  </sections>
+  <sections xmi:id="_onM-4KjxEd6RxrScOu9Dlg" name="Identify mediators" guid="_onM-4KjxEd6RxrScOu9Dlg">
+    <sectionDescription>The aim of this&amp;nbsp;step is to identify the mediators between the different Web Services, Goals and Ontologies present in&#xD;
+the high level architecture. A number of different types of mediators are required in the high level architecture. Ontology&#xD;
+to Ontology mediators are required between ontologies that need to interoperate with one another.&amp;nbsp;Web Service to Web&#xD;
+Service mediators and Goal to Goal mediators are needed where some relationship between two Web Service or two Goal&#xD;
+descriptions needs to be specified.&amp;nbsp;Finally, wgMediators are needed in cases where mediation based discovery broker&#xD;
+servcies are used, in order to connect Web&amp;nbsp; Service descriptions with the Goals that they resolve. The architect&#xD;
+should identify these&amp;nbsp;mediators by looking at the Requirements Specification.</sectionDescription>
+  </sections>
+  <sections xmi:id="_rUENwKjxEd6RxrScOu9Dlg" name="Identify mapping documents" guid="_rUENwKjxEd6RxrScOu9Dlg">
+    <sectionDescription>The aim of this&amp;nbsp;step is to identify the mapping documents that are required to enable the ooMediators in the high&#xD;
+level architecture. If mapping documents are to used to realize ooMediators within the system, then the architect should&#xD;
+identify and name the mapping documents that are required in order to realize those ooMediators previously identified. If&#xD;
+bidirectional mappings are required then two mapping documents, one for each direction, should be added to the&#xD;
+architecture.</sectionDescription>
+  </sections>
+  <purpose>Design an high-level architecture for Semantic Web Services, that includes all the needed elements, using the Semantic Web&#xD;
+Service extension of&amp;nbsp;SoaML.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

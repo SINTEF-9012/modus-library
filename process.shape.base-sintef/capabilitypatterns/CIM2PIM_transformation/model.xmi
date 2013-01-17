@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_PxLtsEJWEd-wN_tDdvqWug" guid="_PxLtsEJWEd-wN_tDdvqWug">
+    <resourceDescriptors xmi:id="_PxLtsUJWEd-wN_tDdvqWug" id="-z6ta3sLAbAvbBuSiL6_gMQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_9quTYNrLEd-RHtsSMqnPrA" id="-0YqPuTU32Nc6Yb6NlIo9eA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_9quTYdrLEd-RHtsSMqnPrA" id="-5E-bNFSKbLcNyS1etAHxdA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_9q3dUdrLEd-RHtsSMqnPrA" id="-KpTnOv3C6WjAcrtHKtpcTg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_9q3dUtrLEd-RHtsSMqnPrA" id="-a2PBeV_Z88RxriuSnHj88Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_9q3dU9rLEd-RHtsSMqnPrA" id="-Gh5nBrF1irzyWhEL64EjHg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_9rBOUNrLEd-RHtsSMqnPrA" id="-Wcq1RSswDzbR2d2QLuyRAw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_9rBOUdrLEd-RHtsSMqnPrA" id="-1xzs_srLrM7xzyPn3uy4-Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_9rBOUtrLEd-RHtsSMqnPrA" id="-fx5UryCUMPxmlklfALyulg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_9rK_UdrLEd-RHtsSMqnPrA" id="-PVrFMfwPEWHJECjit4yGtA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_9rK_UtrLEd-RHtsSMqnPrA" id="-bUPtKxJL5fh4Smo-X8jgkA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_9rUJQNrLEd-RHtsSMqnPrA" id="-Y3gpWDtc--lKa0Ncxjr8WA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_9rUJQtrLEd-RHtsSMqnPrA" id="-CAcqQ_oieVQ2avfCCPuj5Q" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_PvZlAEJWEd-wN_tDdvqWug" name="CIM2PIM_transformation" guid="_PvZlAEJWEd-wN_tDdvqWug">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_PvZlAUJWEd-wN_tDdvqWug" name="BPMN+UML2SoaML transformation" guid="_PvZlAUJWEd-wN_tDdvqWug">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_PvZlBkJWEd-wN_tDdvqWug" name="BPMN+UML2SoaML transformation" guid="_PvZlBkJWEd-wN_tDdvqWug" presentationName="BPMN2SoaML transformation" briefDescription="This process defines the methodology logic for the CIM2PIM activity within the SHAPE methodology." superActivities="_PvZlB0JWEd-wN_tDdvqWug" breakdownElements="_PvZlAkJWEd-wN_tDdvqWug _PvZlBUJWEd-wN_tDdvqWug _PvZlA0JWEd-wN_tDdvqWug _AAihYEMEEd-jmMkKIL7cjw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_PvZlAkJWEd-wN_tDdvqWug" name="BPMN2SoaML" guid="_PvZlAkJWEd-wN_tDdvqWug" presentationName="BPMN2SoaML" briefDescription="This method defines the guided procedure for mapping BPMN models to SoaML models." superActivities="_PvZlBkJWEd-wN_tDdvqWug" additionallyPerformedBy="_PvZlA0JWEd-wN_tDdvqWug" mandatoryInput="_PvZlBUJWEd-wN_tDdvqWug">
+        <presentation xmi:id="-0YqPuTU32Nc6Yb6NlIo9eA" href="uma://-z6ta3sLAbAvbBuSiL6_gMQ#-0YqPuTU32Nc6Yb6NlIo9eA"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_dA9DgJ13Ed66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_P5nZUYstEd6wSaCmnFc5Ig"/>
+        <optionalInputExclude href="uma://_09h_8NquEd-RHtsSMqnPrA#_-AFV8FAmEd6NGfjlGBNnwA"/>
+        <optionalInputExclude href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_Kff7QBfEEd61O54aE5cSOg"/>
+        <optionalInputExclude href="uma://__KzlEDvMEd6gtI8tb9yUjw#_kHHvsFAtEd6NGfjlGBNnwA"/>
+        <optionalInputExclude href="uma://__KzlEDvMEd6gtI8tb9yUjw#_5CI4cFAqEd6NGfjlGBNnwA"/>
+        <selectedStepsExclude href="uma://-YQOwIeSpXYmI_AADc2TjoA#_P5nZVIstEd6wSaCmnFc5Ig"/>
+        <selectedStepsExclude href="uma://-YQOwIeSpXYmI_AADc2TjoA#_P5nZUostEd6wSaCmnFc5Ig"/>
+        <selectedStepsExclude href="uma://-YQOwIeSpXYmI_AADc2TjoA#_P5nZU4stEd6wSaCmnFc5Ig"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_PvZlBUJWEd-wN_tDdvqWug" name="BPMN_model" guid="_PvZlBUJWEd-wN_tDdvqWug" presentationName="BPMN process model " briefDescription="The Business Process Modeling Notation (BPMN) is a widely used OMG standard for business process modeling, providing a graphical notation for specifying business processes in a Business Process Diagram (BPD). BPMN supports business process management for both technical users and business users by providing a notation that is intuitive to business users yet able to represent complex process semantics. &#xD;&#xA;" isPlanned="false" superActivities="_PvZlBkJWEd-wN_tDdvqWug">
+        <methodElementProperty xmi:id="_j5i_8deMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <methodElementProperty xmi:id="_j5kOFNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <presentation xmi:id="-5E-bNFSKbLcNyS1etAHxdA" href="uma://-z6ta3sLAbAvbBuSiL6_gMQ#-5E-bNFSKbLcNyS1etAHxdA"/>
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_V7MzkFW_Ed6iZIDJYUIm8w"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_PvZlA0JWEd-wN_tDdvqWug" name="Business_Process_Modeller" guid="_PvZlA0JWEd-wN_tDdvqWug" presentationName="Business Process Modeller" briefDescription="This worker is involved in the design of the composition workflow and all the issues around it like security, transactions or exception handling." isPlanned="false" superActivities="_PvZlBkJWEd-wN_tDdvqWug">
+        <methodElementProperty xmi:id="_j5kOEteMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <methodElementProperty xmi:id="_j5kOE9eMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://_kwazABFxEd6C2PqX2OSy5A#_gIqJwhntEd6VV7P4WguglA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_AAihYEMEEd-jmMkKIL7cjw" name="BPMN2UML2Activity" guid="_AAihYEMEEd-jmMkKIL7cjw" presentationName="BPMN2UML2Activity" briefDescription="The method defines the procedure for mapping BPMN Annotation to SoaML Message Type" isOptional="true" superActivities="_PvZlBkJWEd-wN_tDdvqWug" isSynchronizedWithSource="false">
+        <methodElementProperty xmi:id="_j5jnB9eMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <presentation xmi:id="-KpTnOv3C6WjAcrtHKtpcTg" href="uma://-z6ta3sLAbAvbBuSiL6_gMQ#-KpTnOv3C6WjAcrtHKtpcTg"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_dA9DgJ13Ed66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_MgJF4J4iEd6s7YgGIghgTQ"/>
+        <additionallyPerformedByExclude href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJwhntEd6VV7P4WguglA"/>
+        <mandatoryInputExclude href="uma://_7TPU4McSEd-2_-I8Ok7trA#_4ozKABfEEd61O54aE5cSOg"/>
+        <optionalInputExclude href="uma://_09h_8NquEd-RHtsSMqnPrA#_-AFV8FAmEd6NGfjlGBNnwA"/>
+        <optionalInputExclude href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_Kff7QBfEEd61O54aE5cSOg"/>
+        <optionalInputExclude href="uma://__KzlEDvMEd6gtI8tb9yUjw#_kHHvsFAtEd6NGfjlGBNnwA"/>
+        <optionalInputExclude href="uma://__KzlEDvMEd6gtI8tb9yUjw#_5CI4cFAqEd6NGfjlGBNnwA"/>
+        <selectedStepsExclude href="uma://-eZf3Vy2zbcS6a2qtg_zSuQ#_Bp108KRoEd6MK9c4_Uv4qw"/>
+        <selectedStepsExclude href="uma://-eZf3Vy2zbcS6a2qtg_zSuQ#_KLHeUKVsEd6kd7_KnYJq9Q"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cJT_YEMDEd-jmMkKIL7cjw" name="BMM2SoaML transformation" guid="_cJT_YEMDEd-jmMkKIL7cjw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_cJT_YUMDEd-jmMkKIL7cjw" name="BMM2SoaML transformation" guid="_cJT_YUMDEd-jmMkKIL7cjw" presentationName="Data2SoaML transformation" superActivities="_PvZlB0JWEd-wN_tDdvqWug" breakdownElements="_OnauUEPMEd-ZGKVMvRaOVg _pCKXwEMcEd-kgp7hZxYUEg _pCKXwUMcEd-kgp7hZxYUEg _pCKXwkMcEd-kgp7hZxYUEg _pCKXxEMcEd-kgp7hZxYUEg _pCKXxUMcEd-kgp7hZxYUEg _pCKXxkMcEd-kgp7hZxYUEg _puui0EMcEd-kgp7hZxYUEg _puui0UMcEd-kgp7hZxYUEg _Onj4QEPMEd-ZGKVMvRaOVg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_pCKXwEMcEd-kgp7hZxYUEg" name="DataObject2MessageType" guid="_pCKXwEMcEd-kgp7hZxYUEg" presentationName="DataObject2MessageType" briefDescription="The method defines the procedure for mapping BPMN DataObject to SoaML Message Type" isOptional="true" superActivities="_cJT_YUMDEd-jmMkKIL7cjw" isSynchronizedWithSource="false" additionallyPerformedBy="_pCKXwUMcEd-kgp7hZxYUEg" mandatoryInput="_pCKXwkMcEd-kgp7hZxYUEg" optionalInput="_pCKXxEMcEd-kgp7hZxYUEg _pCKXxUMcEd-kgp7hZxYUEg _pCKXxkMcEd-kgp7hZxYUEg">
+        <presentation xmi:id="-a2PBeV_Z88RxriuSnHj88Q" href="uma://-z6ta3sLAbAvbBuSiL6_gMQ#-a2PBeV_Z88RxriuSnHj88Q"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_dA9DgJ13Ed66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_z8HhAJ4iEd6s7YgGIghgTQ"/>
+        <selectedSteps href="uma://-B3gMED7TSISR_f1AzzoAwQ#_W_mdcKVsEd6kd7_KnYJq9Q"/>
+        <selectedSteps href="uma://-B3gMED7TSISR_f1AzzoAwQ#_YydiMKVsEd6kd7_KnYJq9Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_pCKXwUMcEd-kgp7hZxYUEg" name="Business_Architect" guid="_pCKXwUMcEd-kgp7hZxYUEg" presentationName="Business Architect" briefDescription="This worker is involved in the design of the composition workflow and all the issues around it like security, transactions or exception handling." isPlanned="false" superActivities="_cJT_YUMDEd-jmMkKIL7cjw">
+        <methodElementProperty xmi:id="_j5jnANeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://_kwazABFxEd6C2PqX2OSy5A#_gIqJwhntEd6VV7P4WguglA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_pCKXwkMcEd-kgp7hZxYUEg" name="BPMN_Model" guid="_pCKXwkMcEd-kgp7hZxYUEg" presentationName="BPMN Process Model " briefDescription="The Business Process Modeling Notation (BPMN) is a widely used OMG standard for business process modeling, providing a graphical notation for specifying business processes in a Business Process Diagram (BPD). BPMN supports business process management for both technical users and business users by providing a notation that is intuitive to business users yet able to represent complex process semantics. &#xD;&#xA;" isPlanned="false" superActivities="_cJT_YUMDEd-jmMkKIL7cjw">
+        <methodElementProperty xmi:id="_j5jnAdeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_j5k1INeMEd-Mq_S1iaxctg" name="descriptor_customization" value="2"/>
+        <presentation xmi:id="-Gh5nBrF1irzyWhEL64EjHg" href="uma://-z6ta3sLAbAvbBuSiL6_gMQ#-Gh5nBrF1irzyWhEL64EjHg"/>
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_V7MzkFW_Ed6iZIDJYUIm8w"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_pCKXxEMcEd-kgp7hZxYUEg" name="Ontology" guid="_pCKXxEMcEd-kgp7hZxYUEg" presentationName="Ontology" briefDescription="This work product refers to ontologies that are defined in a formal ontology specification language. " isPlanned="false" superActivities="_cJT_YUMDEd-jmMkKIL7cjw">
+        <methodElementProperty xmi:id="_j5jnA9eMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <presentation xmi:id="-Wcq1RSswDzbR2d2QLuyRAw" href="uma://-z6ta3sLAbAvbBuSiL6_gMQ#-Wcq1RSswDzbR2d2QLuyRAw"/>
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_QBOysFXDEd6iZIDJYUIm8w"/>
+        <WorkProduct href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_Kff7QBfEEd61O54aE5cSOg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_pCKXxUMcEd-kgp7hZxYUEg" name="Organization_Model" guid="_pCKXxUMcEd-kgp7hZxYUEg" presentationName="Organization Model" briefDescription="The Organisation  model describes the organisational structure that is related to an underlying activity." isPlanned="false" superActivities="_cJT_YUMDEd-jmMkKIL7cjw">
+        <methodElementProperty xmi:id="_j5jnBNeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <presentation xmi:id="-1xzs_srLrM7xzyPn3uy4-Q" href="uma://-z6ta3sLAbAvbBuSiL6_gMQ#-1xzs_srLrM7xzyPn3uy4-Q"/>
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_CSXUYFAwEd6NGfjlGBNnwA"/>
+        <WorkProduct href="uma://__KzlEDvMEd6gtI8tb9yUjw#_kHHvsFAtEd6NGfjlGBNnwA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_pCKXxkMcEd-kgp7hZxYUEg" name="EPC_Model" guid="_pCKXxkMcEd-kgp7hZxYUEg" presentationName="Process Model" briefDescription="The process model could be represented with the EPC metamodel. The EPC metamodel is used to configure the structure and privacy of the processes." isPlanned="false" superActivities="_cJT_YUMDEd-jmMkKIL7cjw">
+        <methodElementProperty xmi:id="_j5jnBdeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <presentation xmi:id="-fx5UryCUMPxmlklfALyulg" href="uma://-z6ta3sLAbAvbBuSiL6_gMQ#-fx5UryCUMPxmlklfALyulg"/>
+        <examples href="uma://_kwazABFxEd6C2PqX2OSy5A#_pPKdAFAsEd6NGfjlGBNnwA"/>
+        <WorkProduct href="uma://__KzlEDvMEd6gtI8tb9yUjw#_5CI4cFAqEd6NGfjlGBNnwA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_puui0EMcEd-kgp7hZxYUEg" name="DataObject2ObjectNode" guid="_puui0EMcEd-kgp7hZxYUEg" presentationName="DataObject2ObjectNode" briefDescription="The method defines the procedure for mapping BPMN DataObject to UML ObjectNode" isOptional="true" superActivities="_cJT_YUMDEd-jmMkKIL7cjw" isSynchronizedWithSource="false" additionallyPerformedBy="_pCKXwUMcEd-kgp7hZxYUEg" mandatoryInput="_pCKXwkMcEd-kgp7hZxYUEg" optionalInput="_pCKXxEMcEd-kgp7hZxYUEg _pCKXxUMcEd-kgp7hZxYUEg _pCKXxkMcEd-kgp7hZxYUEg" output="_puui0UMcEd-kgp7hZxYUEg">
+        <presentation xmi:id="-PVrFMfwPEWHJECjit4yGtA" href="uma://-z6ta3sLAbAvbBuSiL6_gMQ#-PVrFMfwPEWHJECjit4yGtA"/>
+        <examples href="uma://__KzlEDvMEd6gtI8tb9yUjw#_dA9DgJ13Ed66L-e4h6VCVQ"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_4Fp-oLdPEd6d--12oACH5w"/>
+        <selectedSteps href="uma://-gjkST7X53n8v9OgRPwHQqA#_JQpD8LdQEd6d--12oACH5w"/>
+        <selectedSteps href="uma://-gjkST7X53n8v9OgRPwHQqA#_OZRxsLdQEd6d--12oACH5w"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_puui0UMcEd-kgp7hZxYUEg" name="SoaML_Architecture_and_Behaviour_Diagram" guid="_puui0UMcEd-kgp7hZxYUEg" presentationName="SoaML Architecture and Behaviour Diagram" briefDescription="Activity diagram that describes the behaviour (dynamics) of a service architecture." isPlanned="false" superActivities="_cJT_YUMDEd-jmMkKIL7cjw">
+        <methodElementProperty xmi:id="_j5i_8NeMEd-Mq_S1iaxctg" name="descriptor_customization" value="3"/>
+        <methodElementProperty xmi:id="_j5jnBteMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <presentation xmi:id="-bUPtKxJL5fh4Smo-X8jgkA" href="uma://-z6ta3sLAbAvbBuSiL6_gMQ#-bUPtKxJL5fh4Smo-X8jgkA"/>
+        <WorkProduct href="uma://_1zV0AC5mEd6lwuZlFT8K0A#_lpgi0E9ZEd6-NZGez4d8tw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_OnauUEPMEd-ZGKVMvRaOVg" name="ERM2UML2Class" guid="_OnauUEPMEd-ZGKVMvRaOVg" presentationName="ERM2UML2Class" briefDescription="Provides the facilities for the data transformation aspect of the BPMN model" superActivities="_cJT_YUMDEd-jmMkKIL7cjw" mandatoryInput="_Onj4QEPMEd-ZGKVMvRaOVg">
+        <presentation xmi:id="-Y3gpWDtc--lKa0Ncxjr8WA" href="uma://-z6ta3sLAbAvbBuSiL6_gMQ#-Y3gpWDtc--lKa0Ncxjr8WA"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_V0gukEMFEd-jmMkKIL7cjw"/>
+        <selectedSteps href="uma://-jz_zhoWkRIbOv_oKvR8eOg#_3OrYQEMFEd-jmMkKIL7cjw"/>
+        <selectedSteps href="uma://-jz_zhoWkRIbOv_oKvR8eOg#_9ROJgEMFEd-jmMkKIL7cjw"/>
+        <selectedSteps href="uma://-jz_zhoWkRIbOv_oKvR8eOg#_49it0EMFEd-jmMkKIL7cjw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Onj4QEPMEd-ZGKVMvRaOVg" name="Data_View_Model" guid="_Onj4QEPMEd-ZGKVMvRaOVg" presentationName="Data_View_Model" superActivities="_cJT_YUMDEd-jmMkKIL7cjw">
+        <methodElementProperty xmi:id="_j5kOENeMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://__KzlEDvMEd6gtI8tb9yUjw#_ypo8sIGrEd6tqIeaIOtuNA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xSCsoEMDEd-jmMkKIL7cjw" name="Process2SoaML transformation" guid="_xSCsoEMDEd-jmMkKIL7cjw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xSCsoUMDEd-jmMkKIL7cjw" name="Process2SoaML transformation" guid="_xSCsoUMDEd-jmMkKIL7cjw" presentationName="BMM2SoaML transformation" superActivities="_PvZlB0JWEd-wN_tDdvqWug" breakdownElements="_G31JUEMEEd-jmMkKIL7cjw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_G31JUEMEEd-jmMkKIL7cjw" name="BR2SoaML" guid="_G31JUEMEEd-jmMkKIL7cjw" presentationName="BR2SoaML" briefDescription="Provides the facilities for the business rules transformation aspect of the BPMN model" isOptional="true" superActivities="_xSCsoUMDEd-jmMkKIL7cjw" isSynchronizedWithSource="false">
+        <presentation xmi:id="-CAcqQ_oieVQ2avfCCPuj5Q" href="uma://-z6ta3sLAbAvbBuSiL6_gMQ#-CAcqQ_oieVQ2avfCCPuj5Q"/>
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_0UkXkEMFEd-jmMkKIL7cjw"/>
+        <mandatoryInputExclude href="uma://_7TPU4McSEd-2_-I8Ok7trA#_4ozKABfEEd61O54aE5cSOg"/>
+        <selectedStepsExclude href="uma://-aKk6LeQopunLCo2Q8YoroQ#_Wv2gAEMGEd-jmMkKIL7cjw"/>
+        <selectedStepsExclude href="uma://-aKk6LeQopunLCo2Q8YoroQ#_Y0BXMEMGEd-jmMkKIL7cjw"/>
+        <selectedStepsExclude href="uma://-aKk6LeQopunLCo2Q8YoroQ#_bMwwMEMGEd-jmMkKIL7cjw"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_PvZlB0JWEd-wN_tDdvqWug" name="CIM2PIM_transformation" guid="_PvZlB0JWEd-wN_tDdvqWug" presentationName="CIM2PIM transformation" briefDescription="This process defines the methodology logic for the CIM2PIM activity within the SHAPE methodology." breakdownElements="_cJT_YUMDEd-jmMkKIL7cjw _PvZlBkJWEd-wN_tDdvqWug _xSCsoUMDEd-jmMkKIL7cjw">
+      <methodElementProperty xmi:id="_j5lcMNeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="-z6ta3sLAbAvbBuSiL6_gMQ" href="uma://-z6ta3sLAbAvbBuSiL6_gMQ#-z6ta3sLAbAvbBuSiL6_gMQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

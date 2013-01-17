@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-AAgC0Wb4Yh6EpzOSRPs05A" name="new_term_definition,_b0_foJzJEeCBtZoIrPpMBw" guid="-AAgC0Wb4Yh6EpzOSRPs05A">
+  <mainDescription>A part of a Message that is attached to rather than contained in the message. An Attachment denotes some component of a&#xD;
+messages which is an attachment to it (as opposed to a direct part of the message itself). In general this is not likely to&#xD;
+be used greatly in higher level design activities, but for many processes attached data is important to differentiate from&#xD;
+embedded message data. For example, a catalog service may return general product details as a part of the structured&#xD;
+message but images as attachments to the message; this also allows us to denote that the encoding of the images is binary&#xD;
+(as opposed to the textual encoding of the main message). Attachments may be used to indicate part of service data that can&#xD;
+be separately accessed, reducing the data sent between consumers and providers unless it is needed.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

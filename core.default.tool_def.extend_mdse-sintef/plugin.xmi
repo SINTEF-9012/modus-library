@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_yLf9QNxbEd-LYKXkOhPACw" guid="_yLf9QNxbEd-LYKXkOhPACw">
+    <resourceDescriptors xmi:id="_1JhAYhBjEeG0LPFDNl3dCw" id="-tvJZ9XKYSMjlQrc7aH2TIQ" uri="tools/modelio.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_yLWzUNxbEd-LYKXkOhPACw" name="core.default.tool_def.extend_mdse-sintef" guid="_yLWzUNxbEd-LYKXkOhPACw">
+    <methodElementProperty xmi:id="_1JhAYRBjEeG0LPFDNl3dCw" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yLWzUdxbEd-LYKXkOhPACw" name="Content" guid="_yLWzUdxbEd-LYKXkOhPACw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yLWzUtxbEd-LYKXkOhPACw" name="Categories" guid="_yLWzUtxbEd-LYKXkOhPACw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yLWzU9xbEd-LYKXkOhPACw" name="Domains" guid="_yLWzU9xbEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yLWzVNxbEd-LYKXkOhPACw" name="Disciplines" guid="_yLWzVNxbEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yLWzVdxbEd-LYKXkOhPACw" name="RoleSets" guid="_yLWzVdxbEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yLWzVtxbEd-LYKXkOhPACw" name="WP Types" guid="_yLWzVtxbEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yLWzV9xbEd-LYKXkOhPACw" name="Tools" guid="_yLWzV9xbEd-LYKXkOhPACw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_06fs8BBjEeG0LPFDNl3dCw" name="modelio" guid="_06fs8BBjEeG0LPFDNl3dCw" presentationName="Modelio" briefDescription="Modelio">
+            <presentation xmi:id="-tvJZ9XKYSMjlQrc7aH2TIQ" href="uma://-tvJZ9XKYSMjlQrc7aH2TIQ#-tvJZ9XKYSMjlQrc7aH2TIQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_BotPgBBlEeG0LPFDNl3dCw" name="enterprise_architect" guid="_BotPgBBlEeG0LPFDNl3dCw" presentationName="Enterprise Architect" briefDescription="Enterprise Architect"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_BotPgRBlEeG0LPFDNl3dCw" name="magicdraw" guid="_BotPgRBlEeG0LPFDNl3dCw" presentationName="MagicDraw" briefDescription="MagicDraw">
+            <methodElementProperty xmi:id="_B1WkYBBlEeG0LPFDNl3dCw" name="CategoryElementsSortType" value="Alphabetic"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_BotPghBlEeG0LPFDNl3dCw" name="rational_software_architect" guid="_BotPghBlEeG0LPFDNl3dCw" presentationName="Rational Software Architecture" briefDescription="Rational Software Architecture (RSA)"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_uBm3oBBlEeG0LPFDNl3dCw" name="apache_tomcat" guid="_uBm3oBBlEeG0LPFDNl3dCw" presentationName="Apache Tomcat" briefDescription="Apache Tomcat"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_uBm3oRBlEeG0LPFDNl3dCw" name="glassfish" guid="_uBm3oRBlEeG0LPFDNl3dCw" presentationName="Glassfish" briefDescription="Glassfish"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_uBm3ohBlEeG0LPFDNl3dCw" name="jee_sdk" guid="_uBm3ohBlEeG0LPFDNl3dCw" presentationName="JEE SDK" briefDescription="Java Enterprise Edition (JEE) SDK"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_uBm3oxBlEeG0LPFDNl3dCw" name="mofscript" guid="_uBm3oxBlEeG0LPFDNl3dCw" presentationName="MOFScript" briefDescription="MOFScript"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_u_MhQBBlEeG0LPFDNl3dCw" name="sisas_studio" guid="_u_MhQBBlEeG0LPFDNl3dCw" presentationName="SiSaS Studio" briefDescription="SiSaS Studio">
+            <methodElementProperty xmi:id="_dRmM8Lb_EeGSldvlqRCwfg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_eebkYBC3EeGhfJHCQDJMKQ" name="redmine" guid="_eebkYBC3EeGhfJHCQDJMKQ" presentationName="Redmine" briefDescription="Redmine"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_gmtfgBC3EeGhfJHCQDJMKQ" name="fusionforge" guid="_gmtfgBC3EeGhfJHCQDJMKQ" presentationName="FusionForge" briefDescription="FusionForge"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_kEOvQBC3EeGhfJHCQDJMKQ" name="svn" guid="_kEOvQBC3EeGhfJHCQDJMKQ" presentationName="SVN" briefDescription="SVN"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_oYW24BC3EeGhfJHCQDJMKQ" name="bugzilla" guid="_oYW24BC3EeGhfJHCQDJMKQ" presentationName="Bugzilla" briefDescription="Bugzilla"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_tPvckBC3EeGhfJHCQDJMKQ" name="eclipse" guid="_tPvckBC3EeGhfJHCQDJMKQ" presentationName="Eclipse" briefDescription="Eclipse"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_zMJwoBC3EeGhfJHCQDJMKQ" name="soapui" guid="_zMJwoBC3EeGhfJHCQDJMKQ" presentationName="soapUI" briefDescription="soapUI"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_-J6esBC3EeGhfJHCQDJMKQ" name="papyrus" guid="_-J6esBC3EeGhfJHCQDJMKQ" presentationName="Papyrus" briefDescription="Papyrus"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_TKEXsBHJEeGJLqiKwS3dqQ" name="balsamiq" guid="_TKEXsBHJEeGJLqiKwS3dqQ" presentationName="Balsamiq" briefDescription="Balsamiq"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_XiWmkBHJEeGJLqiKwS3dqQ" name="foreui" guid="_XiWmkBHJEeGJLqiKwS3dqQ" presentationName="ForeUI" briefDescription="ForeUI"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_Ow2FoEtZEeGtMvzv9BhHAQ" name="mathematica" guid="_Ow2FoEtZEeGtMvzv9BhHAQ" presentationName="Mathematica" briefDescription="Mathematica"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yLWzWNxbEd-LYKXkOhPACw" name="StandardCategories" guid="_yLWzWNxbEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yLWzWdxbEd-LYKXkOhPACw" name="CustomCategories" guid="_yLWzWdxbEd-LYKXkOhPACw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yLWzWtxbEd-LYKXkOhPACw" name="Hidden" guid="_yLWzWtxbEd-LYKXkOhPACw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_yLWzW9xbEd-LYKXkOhPACw" name="Custom Categories" guid="_yLWzW9xbEd-LYKXkOhPACw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yLWzXNxbEd-LYKXkOhPACw" name="CoreContent" guid="_yLWzXNxbEd-LYKXkOhPACw"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_yLWzXdxbEd-LYKXkOhPACw" name="CapabilityPatterns" guid="_yLWzXdxbEd-LYKXkOhPACw"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_yLWzXtxbEd-LYKXkOhPACw" name="DeliveryProcesses" guid="_yLWzXtxbEd-LYKXkOhPACw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_yLWzX9xbEd-LYKXkOhPACw" name="ProcessContributions" guid="_yLWzX9xbEd-LYKXkOhPACw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

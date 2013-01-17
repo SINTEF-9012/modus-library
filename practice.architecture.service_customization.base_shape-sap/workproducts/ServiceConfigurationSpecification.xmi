@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-P3irdw7GgbCytFFNgJNvmw"
+    name="new_artifact,_jn7r4HXVEd6y559hJOP-yw" guid="-P3irdw7GgbCytFFNgJNvmw" authors="Michael Stollberg (SAP) "
+    changeDate="2009-07-21T11:09:34.735+0200" version="1.0">
+  <copyrightStatement href="uma://_kwazABFxEd6C2PqX2OSy5A#_Fo1qgDpDEd6TnIgyHPSV-Q"/>
+  <mainDescription>&lt;p>&#xD;
+    This work product is based on the SHAPE Service Variability Metamodel that&amp;nbsp;supports the explicit description of&#xD;
+    variable aspects of a service with respected to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the operation level (i.e. in- and output messages, grouped in operations)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the data level (input and output fields of messages)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        explication of required elements (i.e. mandatory and optational aspects)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        contraint definition among operations and data fields&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        specification of default and fixed values for data fields.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The 'ServiceConfigurationSpecification' describes the confirable aspects (i.e. operations &amp;amp; data fields wrt. to&#xD;
+    mandatory vs. optional and constraints among these), and can contain pre-configurations for certain user groups (by&#xD;
+    defining default values).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This work product is the output of the SHAPE Editor for enabling service customization, and serves as the input for the&#xD;
+    Consumer Editor&amp;nbsp;that&amp;nbsp;supports the creation of actual service variants.&#xD;
+&lt;/p></mainDescription>
+  <purpose>This is the result of the 'Configuration Specification' Editor that explicitly describes the configurable aspects of a&#xD;
+service, serving as the basis for creating service variants&amp;nbsp;for end-users. &amp;nbsp;&amp;nbsp;</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

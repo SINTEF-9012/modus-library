@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-8rhzPU2sNd23k8CaKmP4iw" name="Create_Dictionary_Model,_dSxyEG--Ed6zv6nlDL4ZGQ" guid="-8rhzPU2sNd23k8CaKmP4iw" authors="Andrey Sadovykh (SOFTEAM), Brian Elvesæter (SINTEF)" changeDate="2010-03-24T12:56:35.876+0100" changeDescription="0.4: Revised description and categorization.|0.3: Updated steps.|0.2: Updated description.|0.1: Initial outline." version="0.4">
+  <mainDescription>&lt;p>&#xD;
+    This task defines the guided procedure for specifying a business dictionary model. This model is necessary to define&#xD;
+    the terminology used.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Dictionary Model defines terms and relations between them. The terms are specified with textual descriptions, while&#xD;
+    relations between the terms are represented with links in a specific Dictionary Diagram.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_EvChEG-_Ed6zv6nlDL4ZGQ" name="1. Create Dictionary." guid="_EvChEG-_Ed6zv6nlDL4ZGQ">
+    <sectionDescription>The Dictionary is a container of the &quot;term&quot; elements. This container helps to categorize and store the terms.</sectionDescription>
+  </sections>
+  <sections xmi:id="_O27-IG-_Ed6zv6nlDL4ZGQ" name="2. Create Dictionary Diagram." guid="_O27-IG-_Ed6zv6nlDL4ZGQ">
+    <sectionDescription>&lt;p>&#xD;
+    The Dictionary Diagram helps to represent the terms and their relations. The following links are available in order to&#xD;
+    represent the relations:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &quot;synonym&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &quot;antonym&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &quot;homonym&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &quot;related&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &quot;context&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &quot;kind of&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The &quot;traceability&quot; links can be used to relate any kinds of model elements.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_uKZaAG-_Ed6zv6nlDL4ZGQ" name="3. Create Term." guid="_uKZaAG-_Ed6zv6nlDL4ZGQ">
+    <sectionDescription>The terms are specified in a natural laguage with textual descirptions.</sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To specify a business dictionary model.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

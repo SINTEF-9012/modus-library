@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-H1xRUX4hKDIdWfJqugdrXg" name="Create_ServiceVariabilitySpecificationModel,_0AbgIHXcEd6y559hJOP-yw" guid="-H1xRUX4hKDIdWfJqugdrXg" changeDate="2010-05-19T10:59:08.743+0200" changeDescription="2.0: Revised wrt. final version of the SHAPE Service Variability technique|1.0: Method chunk created" version="2.0">
+  <mainDescription>This provides the guidance for creating a 'Service Variability Specification' that explicitly describes the variable&#xD;
+aspects of a service, serving as the basis for creating actual variants of a service for specific users.</mainDescription>
+  <sections xmi:id="_cdwqkHXdEd6y559hJOP-yw" name="Import_SoaML_Service_model" guid="_cdwqkHXdEd6y559hJOP-yw">
+    <sectionDescription>&lt;p>&#xD;
+    1. Choose the service for which&amp;nbsp;a variability specification model shall be defined&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    2. Import it into the Service Variability tool&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_lbVCgHXdEd6y559hJOP-yw" name="Create_ConfigurationSpecification_Skeleton " guid="_lbVCgHXdEd6y559hJOP-yw">
+    <sectionDescription>&lt;p>&#xD;
+    As the first step for creating the variability specification model, create the basic elements of the variability&#xD;
+    model.&amp;nbsp;These are the&amp;nbsp;elements defined in the&amp;nbsp;Service Variability Metamodel that are bound to exactly one&#xD;
+    element in the base model (i.e. the original service description), namely the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Operation level: SimpleConfigurableOperation with their Input-, Output- , and Error Messages, and the Message Parts&#xD;
+        &amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data Level: ConfigurableType&amp;nbsp;with their&amp;nbsp;ConfigurableProperty &amp;nbsp;&amp;nbsp;&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The SHAPE Service Variability Tool includes an extractor feature which automatically creates this skeleton. In case&#xD;
+    this is not supported by a tool that&amp;nbsp;extracts&amp;nbsp;this implict variability information automatically, do this&#xD;
+    stepwise as follows (starting on the data level, then move to the operation level):&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Consider the Message Types defined in the base model, and create a &quot;ConfigurableType&quot;&amp;nbsp;for each of them&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        For each type, add&amp;nbsp;a &quot;ConfigurableProperty&quot; for&amp;nbsp;all attributes and relations defined in the base model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Consider the operation descriptions in the base model, and create a &quot;SimpleConfigurableOperation&quot;&amp;nbsp;for each of&#xD;
+        them&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        For each operation, define the variability model elements for all Input-, Output- , and Error Messages&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        For each message, add a &quot;ConfigurableMessagePart&quot; element for the&amp;nbsp;input and output parameters.&amp;nbsp;&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;p>&#xD;
+    In case that the base model contains information on mandatory elements, this&amp;nbsp;can be taken over&amp;nbsp;into the&#xD;
+    variability model by setting the 'required'-property of the corresponding configuration element to 'true'.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_hwWzgKRqEd6sed4uhw_PyA" name="Add_explicit_variability_information" guid="_hwWzgKRqEd6sed4uhw_PyA">
+    <sectionDescription>&lt;p>&#xD;
+    The next step is to define the explicit variability information, i.e. usage conditions that can not be extracted from&#xD;
+    the base model.&amp;nbsp;The Service Variability supports the following mechansims for this:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Declaration of mandatory and optional elements, modeled by the boolean &lt;em>required&lt;/em> property of&#xD;
+        ConfigurableElement, which is the superclass for variability modeling on different levels of service&#xD;
+        descriptions.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Grouping of related operations into 'ComplexConfigurableOperations' with&#xD;
+        the&amp;nbsp;support&amp;nbsp;for&amp;nbsp;defining&amp;nbsp;exclusiveness by the 'multiple' property&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Define conditions and dependencies with explict support for defining excluding and requiring constraints. &amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_XyKPkKRrEd6sed4uhw_PyA" name="Preconfiguration" guid="_XyKPkKRrEd6sed4uhw_PyA">
+    <sectionDescription>&lt;p>&#xD;
+    Optionally, a pre-configuration of the service can be defined within the service variability model (e.g. for usage in&#xD;
+    Germany by defining 'Germany' as the default value for all location-related&amp;nbsp;data elements).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For this, the Service Variability Metamodel support the following mechanisms:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Selection of desired features for a specific application context, modeled by the boolean &lt;em>selected&lt;/em> property&#xD;
+        of ConfigurableElement, and&amp;nbsp;&lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Definition of fixed values that are changed within the application scenario or default values that are used for&#xD;
+        invocation when no concrete value is provided for, which is only applicable for ConfigurableDataElement.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    NOTE: on the data level, the definition of the variability&amp;nbsp;(and in particular the definition of default and fixed&#xD;
+    values) is done on the level of properties of the types by &lt;em>ConfigurableProperty&lt;/em>,&amp;nbsp;which ensures precise&#xD;
+    and flexible variability modeling.&lt;br />&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p>&lt;br /></sectionDescription>
+  </sections>
+  <purpose>guidance for the SHAPE Service Variability Specification Editor</purpose>
+</org.eclipse.epf.uma:TaskDescription>

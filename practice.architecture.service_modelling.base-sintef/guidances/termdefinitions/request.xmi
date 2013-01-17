@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-BqwQ2ZGKOw0sYtrtgXvH4A" name="new_term_definition,_LsgqEJzSEeCjAYLMIp9ZDA" guid="-BqwQ2ZGKOw0sYtrtgXvH4A">
+  <mainDescription>&lt;p>&#xD;
+    A Request represents a feature of a Participant that is the consumption of a service by one participant provided by&#xD;
+    others using well-defined terms, conditions and interfaces. A Request designates ports that define the connection point&#xD;
+    through which a Participant meets its needs through the consumption of services provided by others.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A request port is a “conjugate” port.&amp;nbsp; This means that the provided and required interfaces of the port type are&#xD;
+    inverted; this creates a port that uses the port type rather than implementing the port type.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Request extends Port to specify a feature of a Participant that represents a service the Participant needs and&#xD;
+    consumes from other participants. The request is defined by a ServiceInterface. It is used by the Participant either&#xD;
+    through delegation from its parts or through actions in its methods. The request may be connected to a business&#xD;
+    MotivationalElement to indicate the intended goals the Participant wishes to achieve. There may be constraints&#xD;
+    associated with the request that define its nonfunctional characteristics or expected qualities of service. This&#xD;
+    information may be used by potential providers to determine if their service meets the participant’s needs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Request may include the specification of the value required from another, and the request to obtain value from&#xD;
+    another. A Request is the visible point at which consumer requests are connected to service providers, and through&#xD;
+    which they interact in order to produce some real world effect.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Request may also be viewed as some need or set of related needs required by a consumer Participant and provided by&#xD;
+    some provider Participants that has some value, or achieves some objective of the connected parties. A Request is&#xD;
+    distinguished from a simple used Operation in that it may involve a conversation between the parties as specified by&#xD;
+    some communication protocol that is necessary to meet the needs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Request extends UML2 Port and changes how provided and required interfaces are interpreted by setting the ports&#xD;
+    isConjugated property to true. The capabilities consumed through the Request – its required interfaces – are derived&#xD;
+    from the interfaces realized by the service's ServiceInterface. The capabilities provided by a consumer in order to use&#xD;
+    the service – its provided interfaces -- are derived from the interfaces used by the service's ServiceInterface. These&#xD;
+    are the opposite of the provided and required interfaces of a Port or Service and indicate the use of a Service rather&#xD;
+    than the provision of a service. Since the provided and required interfaces are reversed, a request is the use of the&#xD;
+    service interface – or logically the conjugate type of the provider.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Distinguishing requests and services allows the same ServiceInterface to be used to type both the consumer and provider&#xD;
+    ports. Any Request can connect to any Service as long as their types are compatible. Request and Service effectively&#xD;
+    give Ports a direction indicating whether the capabilities defined by a ServiceInterface are used or provided.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

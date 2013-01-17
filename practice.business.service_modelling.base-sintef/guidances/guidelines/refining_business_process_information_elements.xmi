@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-NpQPVCPUnlx0pRBF4JrhSw" name="new_guideline,_XTQ6gKGjEeC1A-PuG6Rlow" guid="-NpQPVCPUnlx0pRBF4JrhSw">
+  <mainDescription>&lt;p align=&quot;left&quot;>&#xD;
+    A traditional requirement of process modelling is to be able to model the items (physical or information items) that&#xD;
+    are created, manipulated, and used during the execution of a process. This requirement is realized in BPMN through&#xD;
+    various constructs:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;strong>Data objects:&lt;/strong> Represent the data and documents in a process. Data objects usually define the&#xD;
+            inputs and outputs of activities.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;strong>Data inputs and outputs:&lt;/strong> Data requirements are captured as data inputs and input sets. Data&#xD;
+            that is produced is captured using data outputs and output sets.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;strong>Data associations:&lt;/strong> Used to move data between data objects and inputs and outputs of activities&#xD;
+            and processes.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;strong>Messages:&lt;/strong> Represent messages/communications between two separate participants.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    BPMN is constrained to support only the concepts of modelling that are applicable to business processes. This means&#xD;
+    that other types of modelling done by organizations for business purposes such as data and information models is out of&#xD;
+    scope for BPMN. We therefore introduce an extension to BPMN that uses the SoaML message type to detail the information&#xD;
+    elements. Class diagram will be used for describing these SoaML message types. If the business model contains many&#xD;
+    business processes you may think about creating a class diagram describing the information for each business process.&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            Go through your business process diagrams and identify the information items. Each of these information items&#xD;
+            maps to a message type or a data entity in SoaML. Both message types and data entities are stereotypes on&#xD;
+            class. So a first step would just be to create these information items as regular UML classes, and then we will&#xD;
+            refine them to either message types or data entities as part of the service architecture modelling.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            The information modelled here does not need to be complete. It may be sufficient to just link the class to a&#xD;
+            particular information standard or just describe the most important properties of the data objects.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

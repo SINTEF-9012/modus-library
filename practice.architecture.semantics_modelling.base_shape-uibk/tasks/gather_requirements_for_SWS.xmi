@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-p1VP_JW51gpt1jCTq1uJLw" name=",_hy59YKjtEd6RxrScOu9Dlg" guid="-p1VP_JW51gpt1jCTq1uJLw" authors="Mick Kerrigan, Davide Cerri (UIBK)" changeDate="2009-09-24T18:05:12.655+0200" version="0.1">
+  <mainDescription>&lt;p>&#xD;
+    In this&amp;nbsp;task requirements that are specific to Semantic Web Services are collected.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_sn5UgKjuEd6RxrScOu9Dlg" name="Gather functional requirements" guid="_sn5UgKjuEd6RxrScOu9Dlg">
+    <sectionDescription>&lt;p>&#xD;
+    If service advertisement is identified as a needed feature, then the requirements analyst should gain an understanding&#xD;
+    of the functionality of the service to be described or the functional aspects of the service to be found. Furthermore,&#xD;
+    requirements should be gathered related to the exact functional aspects of the Semantic Web Service artifacts to be&#xD;
+    created, for example which specific functionality of the Web service will be advertised. This step&#xD;
+    includes:&amp;nbsp;understanding the functionality of relevant services,&amp;nbsp;identifying&amp;nbsp;what service functionality&#xD;
+    should be advertised,&amp;nbsp;identifying where the service advertisements should be advertised,&amp;nbsp;identifying examples&#xD;
+    of user Goals that should find each advertisement,&amp;nbsp;understanding the functionality of the system that will issue a&#xD;
+    Goal.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_udj1oKjuEd6RxrScOu9Dlg" name="Gather non-functional requirements" guid="_udj1oKjuEd6RxrScOu9Dlg">
+    <sectionDescription>If service ranking is identified&amp;nbsp;as a needed feature,&amp;nbsp;then the requirements analyst should gather requirements&#xD;
+related to the non functional aspects of the Semantic Web Service artifacts or the Goal to be created. For example, the non&#xD;
+functional behaviour that will be advertised for a particular Web service or the non functional preferences that should be&#xD;
+applied in order to rank services return from service discovery. This step includes understanding the non functional&#xD;
+behaviour of the service and identifying non-functional properties to be advertised.</sectionDescription>
+  </sections>
+  <sections xmi:id="_yHQgMKjuEd6RxrScOu9Dlg" name="Gather behavioural requirements" guid="_yHQgMKjuEd6RxrScOu9Dlg">
+    <sectionDescription>If automatic invocation is identified&amp;nbsp;as a needed feature,&amp;nbsp;then the requirements analyst should gather&#xD;
+requirements related to the behavioural aspects of the Semantic Web Service or the Goal to be created, i.e. the external&#xD;
+interface of Web services that will be described or the way in which the requester wishes to interact with the service.&#xD;
+This step includes: understanding the behaviour of each of the operations on the service, understanding the relationship&#xD;
+between the operations on the service, identifying useful groupings of service operations, identifying which groupings of&#xD;
+service operations should be advertised.</sectionDescription>
+  </sections>
+  <sections xmi:id="_4qPFAKjuEd6RxrScOu9Dlg" name="Gather knowledge requirements" guid="_4qPFAKjuEd6RxrScOu9Dlg">
+    <sectionDescription>Using the functional, non functional, and behavioural requirements as input, the requirements analyst can begin the process&#xD;
+of requirements gathering for the ontologies that will be required to describe the functional, non functional, and&#xD;
+behavioural aspects of the Semantic Web Service or Goal to be created. This&amp;nbsp;involves the selection of an appropriate&#xD;
+ontology engineering methodology and performing the activities from this methodology. Thus, this step includes: identifying&#xD;
+what needs to be modeled, selecting an appropriate ontology engineering methodology, erforming the activities related to&#xD;
+requirements gathering in the selected methodology, identifying models that potential collaborators use.</sectionDescription>
+  </sections>
+  <sections xmi:id="_88oHQKjuEd6RxrScOu9Dlg" name="Manage requirements" guid="_88oHQKjuEd6RxrScOu9Dlg">
+    <sectionDescription>The aim of this&amp;nbsp;step is to analyse the requirements gathered throughout the previous steps to check for consistency&#xD;
+and to see if they meet the original&amp;nbsp;Business Requirements Specification. This&amp;nbsp;also includes the identification&#xD;
+of dependancies between the different requirements and the assignment of priorities to the different requirements. Thus,&#xD;
+this step inludes: deciding if requirements meet the problem to be addressed, identifying dependancies between gathered&#xD;
+requirements, prioritising requirements.</sectionDescription>
+  </sections>
+  <purpose>Gather requirements for Semantic Web Services</purpose>
+</org.eclipse.epf.uma:TaskDescription>

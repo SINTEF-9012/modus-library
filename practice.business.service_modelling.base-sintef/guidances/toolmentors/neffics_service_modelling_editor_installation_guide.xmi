@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-jGHKn7BLy9k25sf2b5TQ-Q" name="new_toolmentor,_rHJAoCnjEeK6srRiz90qtw" guid="-jGHKn7BLy9k25sf2b5TQ-Q" changeDate="2012-11-08T21:38:31.861+0100">
+  <mainDescription>&lt;h3>&#xD;
+    NEFFICS Service Modelling Editor: Installation guide&#xD;
+&lt;/h3>&#xD;
+&lt;h4>&#xD;
+    Purpose and functionality&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The NEFFICS Service Modelling Editor is available as a TomCat component. The current version allows the specification&#xD;
+    of all the features of Business-SoaML:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Simple Service Contracts (including specification of Roles in the Service Contract)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Compound Service Contracts (including specification of aggregated Roles and Collaboration uses)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Services Architecture (including specification of Participants and Collaboration uses refereeing to&#xD;
+        ServiceContracts).&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The editor also has an export functionality that allows exporting to a SoaML model with a UML Profile. Specification of&#xD;
+    service interfaces (i.e., Light-USDL) is, however, not currently implemented. It will be done in the next version.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The editor also provides support for the specification of Value Network:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Roles&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Tangible Deliverable Flows&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Intangible Deliverable Flows&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The editor is based on Oryx. Oryx started as an open-source, web-based BPMN editor. It allows us to provide a fully&#xD;
+    open-source solution when it comes to models and editors developed in WP5.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    Requirements and installation&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The editor is accessible directly on the web at &lt;a&#xD;
+    href=&quot;http://tomcat.thingml.org/backend/poem/repository&quot;>http://tomcat.thingml.org/backend/poem/repository&lt;/a> and thus&#xD;
+    does not require any installation. The editor has been tested and works with FireFox.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

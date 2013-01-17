@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-eegYldDwjvAAukOpp0GYAg" name=",_ZDyA4IWdEd6Lb6GZuo4wTA" guid="-eegYldDwjvAAukOpp0GYAg" authors="Christian Hahn" changeDate="2009-08-10T13:03:38.411+0200" changeDescription="Initial input&#x9;" version="0.1">
+  <mainDescription>&lt;P class=Arial style=&quot;MARGIN: 0cm 0cm 0pt&quot;>&lt;SPAN lang=EN-GB style=&quot;FONT-FAMILY: Arial&quot;>The ACL message is the base for agent communication. It implements an ACL message compliant to the FIPA ACL Message Structure Specification&amp;nbsp;and is parameterised by key:value pairs.&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P></mainDescription>
+  <sections xmi:id="_xVLA0IWgEd6Lb6GZuo4wTA" name="Define ACLMessage" guid="_xVLA0IWgEd6Lb6GZuo4wTA">
+    <sectionDescription>&lt;p>&#xD;
+    &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-ansi-language: EN-GB&quot;>The ACLMessage is the base for Agent communication. It implements&#xD;
+    an ACL message compliant to the FIPA ACL Message Structure Specification&amp;nbsp;and is parameterised though key:value&#xD;
+    pairs&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Define the name of the ACLMessage&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&lt;br />&#xD;
+&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_z7KysIWgEd6Lb6GZuo4wTA" name="Add key-value pairs" guid="_z7KysIWgEd6Lb6GZuo4wTA">
+    <sectionDescription>Used to parameterize ACLMessages</sectionDescription>
+  </sections>
+  <purpose>Create ACLMessages in JADE</purpose>
+</org.eclipse.epf.uma:TaskDescription>

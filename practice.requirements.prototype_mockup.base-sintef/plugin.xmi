@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_wYHkkQ7PEeG7mKurZhyY1A" guid="_wYHkkQ7PEeG7mKurZhyY1A">
+    <subManagers xmi:id="_mdoRQQ-TEeGDNfbD82mH8Q" href="uma://_mdVWUA-TEeGDNfbD82mH8Q#_mdoRQQ-TEeGDNfbD82mH8Q"/>
+    <resourceDescriptors xmi:id="_-k7BcA7PEeG7mKurZhyY1A" id="-MS5YCsYo5PApWuhOpROHlw" uri="guidances/supportingmaterials/release_info_prototype_mockup.xmi"/>
+    <resourceDescriptors xmi:id="_jmBAcg7OEeG7mKurZhyY1A" id="-Z3evOesLy5INFPht4B3_5A" uri="workproducts/prototype_mockup.xmi"/>
+    <resourceDescriptors xmi:id="_M3AKgQ7REeG7mKurZhyY1A" id="-s7q_Kc9uZtw_NcnVJEoI6g" uri="guidances/roadmaps/how_to_adopt_prototype_mockup.xmi"/>
+    <resourceDescriptors xmi:id="_zZejwJ1wEeCOw7xpsfr5Cw" id="-D4M2UzqT9JbDv2rWZMZu0g" uri="tasks/develop_prototype_mockup.xmi"/>
+    <resourceDescriptors xmi:id="_mdVWUw-TEeGDNfbD82mH8Q" id="_mdVWUA-TEeGDNfbD82mH8Q" uri="capabilitypatterns/prototype_development/model.xmi"/>
+    <resourceDescriptors xmi:id="_jEARYRQlEeG7hs90RB7LQA" id="-lxpmJMIpG47UBTM5WWvf_A" uri="guidances/toolmentors/balsamiq_installation.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_wYHkgA7PEeG7mKurZhyY1A" name="practice.requirements.prototype_mockup.base-sintef" guid="_wYHkgA7PEeG7mKurZhyY1A" briefDescription="This plugin defines the base prototype mockup practice." authors="Brian Elvesæter (SINTEF)" changeDate="2011-11-21T10:41:13.179+0100">
+    <methodElementProperty xmi:id="_wYHkkw7PEeG7mKurZhyY1A" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wYHkgQ7PEeG7mKurZhyY1A" name="Content" guid="_wYHkgQ7PEeG7mKurZhyY1A">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wYHkgg7PEeG7mKurZhyY1A" name="Categories" guid="_wYHkgg7PEeG7mKurZhyY1A">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wYHkgw7PEeG7mKurZhyY1A" name="Domains" guid="_wYHkgw7PEeG7mKurZhyY1A">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_LLDQ4A-TEeGDNfbD82mH8Q" name="requirements_modelling_domain.assign" guid="_LLDQ4A-TEeGDNfbD82mH8Q" variabilityType="contributes" workProducts="_l9zFQA7QEeG7mKurZhyY1A">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_iESMoNxcEd-LYKXkOhPACw#_UhZyAN0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wYHkhA7PEeG7mKurZhyY1A" name="Disciplines" guid="_wYHkhA7PEeG7mKurZhyY1A">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_do-S4A7REeG7mKurZhyY1A" name="requirements_modelling_discipline.assign" guid="_do-S4A7REeG7mKurZhyY1A" variabilityType="contributes" tasks="_OKVc4OHREd-nwfeZTt0t8A">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_iESMoNxcEd-LYKXkOhPACw#_C-RScN0CEd-xB8a51ZHHaA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wYHkhQ7PEeG7mKurZhyY1A" name="RoleSets" guid="_wYHkhQ7PEeG7mKurZhyY1A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wYHkhg7PEeG7mKurZhyY1A" name="WP Types" guid="_wYHkhg7PEeG7mKurZhyY1A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wYHkhw7PEeG7mKurZhyY1A" name="Tools" guid="_wYHkhw7PEeG7mKurZhyY1A">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_SMOb8BQlEeG7hs90RB7LQA" name="balsamiq.assign" guid="_SMOb8BQlEeG7hs90RB7LQA" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_yLWzUNxbEd-LYKXkOhPACw#_TKEXsBHJEeGJLqiKwS3dqQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wYHkiA7PEeG7mKurZhyY1A" name="StandardCategories" guid="_wYHkiA7PEeG7mKurZhyY1A"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wYHkiQ7PEeG7mKurZhyY1A" name="CustomCategories" guid="_wYHkiQ7PEeG7mKurZhyY1A">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wYHkig7PEeG7mKurZhyY1A" name="Hidden" guid="_wYHkig7PEeG7mKurZhyY1A">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_wYHkiw7PEeG7mKurZhyY1A" name="Custom Categories" guid="_wYHkiw7PEeG7mKurZhyY1A"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wYHkjA7PEeG7mKurZhyY1A" name="CoreContent" guid="_wYHkjA7PEeG7mKurZhyY1A">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-kLakA7PEeG7mKurZhyY1A" name="release_info" guid="_-kLakA7PEeG7mKurZhyY1A">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_-kLakQ7PEeG7mKurZhyY1A" name="release_info_prototype_mockup" guid="_-kLakQ7PEeG7mKurZhyY1A" presentationName="Practice: Prototype mockup" briefDescription="Prototype mockup practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-MS5YCsYo5PApWuhOpROHlw" href="uma://-MS5YCsYo5PApWuhOpROHlw#-MS5YCsYo5PApWuhOpROHlw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_WK6bUA7QEeG7mKurZhyY1A" name="tool_mentors" guid="_WK6bUA7QEeG7mKurZhyY1A">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_XrLX8BQlEeG7hs90RB7LQA" name="balsamiq" guid="_XrLX8BQlEeG7hs90RB7LQA">
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_fNf54BQlEeG7hs90RB7LQA" name="balsamiq_installation" guid="_fNf54BQlEeG7hs90RB7LQA" presentationName="Balsamiq: Installation" briefDescription="Balsamiq: Installation">
+              <presentation xmi:id="-lxpmJMIpG47UBTM5WWvf_A" href="uma://-lxpmJMIpG47UBTM5WWvf_A#-lxpmJMIpG47UBTM5WWvf_A"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_lqfLcBQlEeG7hs90RB7LQA" name="develop_prototype_mockup.assign" guid="_lqfLcBQlEeG7hs90RB7LQA" variabilityType="contributes" variabilityBasedOnElement="_OKVc4OHREd-nwfeZTt0t8A" toolMentors="_fNf54BQlEeG7hs90RB7LQA"/>
+          </childPackages>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_dNFdkA7QEeG7mKurZhyY1A" name="prototype_mockup" guid="_dNFdkA7QEeG7mKurZhyY1A">
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_l9zFQA7QEeG7mKurZhyY1A" name="requirements_model.assign" guid="_l9zFQA7QEeG7mKurZhyY1A" variabilityType="contributes" deliveredWorkProducts="_ufFW0N0UEd-xB8a51ZHHaA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_iESMoNxcEd-LYKXkOhPACw#_2t4YUOG2Ed-AyrTFSpVP8g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ufFW0N0UEd-xB8a51ZHHaA" name="prototype_mockup" guid="_ufFW0N0UEd-xB8a51ZHHaA" presentationName="Prototype mockup" briefDescription="This work product describes a prototype mockup of the system under design.&#xD;&#xA;">
+            <presentation xmi:id="-Z3evOesLy5INFPht4B3_5A" href="uma://-Z3evOesLy5INFPht4B3_5A#-Z3evOesLy5INFPht4B3_5A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_1Mh5QA7QEeG7mKurZhyY1A" name="prototype_mockup" guid="_1Mh5QA7QEeG7mKurZhyY1A" presentationName="Prototype mockup" contentReferences="_ufFW0N0UEd-xB8a51ZHHaA _OKVc4OHREd-nwfeZTt0t8A _wTAJEA7REeG7mKurZhyY1A _M2aUoA7REeG7mKurZhyY1A">
+            <activityReferences href="uma://_mdVWUA-TEeGDNfbD82mH8Q#_mdVWUQ-TEeGDNfbD82mH8Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_M2aUoA7REeG7mKurZhyY1A" name="how_to_adopt_prototype_mockup" guid="_M2aUoA7REeG7mKurZhyY1A" presentationName="How to adopt the prototype mockup practice" briefDescription="This roadmap describes how to adopt the prototype mockup practice.">
+            <presentation xmi:id="-s7q_Kc9uZtw_NcnVJEoI6g" href="uma://-s7q_Kc9uZtw_NcnVJEoI6g#-s7q_Kc9uZtw_NcnVJEoI6g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_OKVc4OHREd-nwfeZTt0t8A" name="develop_prototype_mockup" guid="_OKVc4OHREd-nwfeZTt0t8A" presentationName="Develop prototype mockup" briefDescription="This task describes how to develop a prototype mockup." performedBy="_wTAJEA7REeG7mKurZhyY1A" output="_ufFW0N0UEd-xB8a51ZHHaA">
+            <presentation xmi:id="-D4M2UzqT9JbDv2rWZMZu0g" href="uma://-D4M2UzqT9JbDv2rWZMZu0g#-D4M2UzqT9JbDv2rWZMZu0g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_wTAJEA7REeG7mKurZhyY1A" name="requirements_analyst.assign" guid="_wTAJEA7REeG7mKurZhyY1A" variabilityType="contributes" responsibleFor="_ufFW0N0UEd-xB8a51ZHHaA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIpisBntEd6VV7P4WguglA"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_wYHkjQ7PEeG7mKurZhyY1A" name="CapabilityPatterns" guid="_wYHkjQ7PEeG7mKurZhyY1A">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lTG-4A-TEeGDNfbD82mH8Q" name="prototype" guid="_lTG-4A-TEeGDNfbD82mH8Q">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_mdVWUA-TEeGDNfbD82mH8Q" href="uma://_mdVWUA-TEeGDNfbD82mH8Q#_mdVWUA-TEeGDNfbD82mH8Q"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_wYHkjg7PEeG7mKurZhyY1A" name="DeliveryProcesses" guid="_wYHkjg7PEeG7mKurZhyY1A"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_wYHkjw7PEeG7mKurZhyY1A" name="ProcessContributions" guid="_wYHkjw7PEeG7mKurZhyY1A"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_7J4wUNq1Ed-RHtsSMqnPrA#_7J4wUNq1Ed-RHtsSMqnPrA"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_yLWzUNxbEd-LYKXkOhPACw#_yLWzUNxbEd-LYKXkOhPACw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

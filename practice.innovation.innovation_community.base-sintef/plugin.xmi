@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_6gCNICc5EeKDGNEPRzZzCg" guid="_6gCNICc5EeKDGNEPRzZzCg">
+    <subManagers xmi:id="_6oVxUCf5EeKbT_45B08XTA" href="uma://_6n994Cf5EeKbT_45B08XTA#_6oVxUCf5EeKbT_45B08XTA"/>
+    <resourceDescriptors xmi:id="_Rk4MUSc7EeKDGNEPRzZzCg" id="-fvZlBQKEDRKG9_BZ1rqzjA" uri="guidances/supportingmaterials/release_info_innovation_community.xmi"/>
+    <resourceDescriptors xmi:id="_rHlKgSc7EeKDGNEPRzZzCg" id="-EIRC5U4n9xebSTs67jayyA" uri="guidances/practices/innovation_community.xmi"/>
+    <resourceDescriptors xmi:id="_1PUToCf4EeKbT_45B08XTA" id="-bOJU7MOOyW6G3esMJ0xLKw" uri="tasks/define_and_configure_innovation_process.xmi"/>
+    <resourceDescriptors xmi:id="_KRvkkCf5EeKbT_45B08XTA" id="-2zYZoP6-9HMiMhgS1eBbbQ" uri="tasks/running_ideation_campaigns.xmi"/>
+    <resourceDescriptors xmi:id="_bMP94Cf5EeKbT_45B08XTA" id="-xHiJcXusk_J8b0M5r7Uw3g" uri="workproducts/discussions.xmi"/>
+    <resourceDescriptors xmi:id="_eXX2ECf5EeKbT_45B08XTA" id="--FIIjdA6tmGHt6Kz9-FkFg" uri="workproducts/challenges.xmi"/>
+    <resourceDescriptors xmi:id="_ghjOoCf5EeKbT_45B08XTA" id="-6j4ztGfECv4OphI55gqYTg" uri="workproducts/ideas.xmi"/>
+    <resourceDescriptors xmi:id="_jl3UMCf5EeKbT_45B08XTA" id="-ty6IX0KloEb7LdJirZLHmg" uri="workproducts/proposals.xmi"/>
+    <resourceDescriptors xmi:id="_6oAaICf5EeKbT_45B08XTA" id="_6n994Cf5EeKbT_45B08XTA" uri="capabilitypatterns/innovation_community_workflow/model.xmi"/>
+    <resourceDescriptors xmi:id="_EWFegCmmEeKgDIEH3SkN3Q" id="-BjQUL0RjpPuYDswWx5xIoA" uri="tools/neffics_innovation_community.assign.xmi"/>
+    <resourceDescriptors xmi:id="_KPStkCmmEeKgDIEH3SkN3Q" id="-_prLmg1hbqIfxI3vFogH2Q" uri="guidances/toolmentors/neffics_innovation_community_user_guide.xmi"/>
+    <resourceDescriptors xmi:id="_IvuGUCmoEeKgDIEH3SkN3Q" id="-1jiq_oxvGwZBOKs_XkHKYg" uri="guidances/roadmaps/how_to_adopt_innovation_community.xmi"/>
+    <resourceDescriptors xmi:id="_gPoB4Sy_EeKtGPioRDeGQg" id="-oRvq4nulaG73NaK4ZkPRkA" uri="guidances/toolmentors/neffics_innovation_community_developer_guide.xmi"/>
+    <resourceDescriptors xmi:id="_oRJusCzHEeKtGPioRDeGQg" id="-MagTtdA6aC-CTjyQ4ah6ng" uri="tasks/create_working_groups.xmi"/>
+    <resourceDescriptors xmi:id="_ynTqMSzHEeKtGPioRDeGQg" id="-pevYmiSsO-Suxz8kZ33_2w" uri="tasks/define_strategic_focus_areas.xmi"/>
+    <resourceDescriptors xmi:id="_vkHpMCzLEeKtGPioRDeGQg" id="-HilvPPpHPsFkQOeBFUnMJg" uri="workproducts/innovation_process.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_6fdlYCc5EeKDGNEPRzZzCg" name="practice.innovation.innovation_community.base-sintef" guid="_6fdlYCc5EeKDGNEPRzZzCg" briefDescription="This plugin contains the base Induct Innovation community practice." authors="Brian Elvesæter (SINTEF), Bjørn Morten Ursin-Holm (Induct)" changeDate="2012-11-05T12:14:26.436+0100">
+    <methodElementProperty xmi:id="_6gITwCc5EeKDGNEPRzZzCg" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_9cMcQCc5EeKDGNEPRzZzCg" name="me_edited" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6fdlYSc5EeKDGNEPRzZzCg" name="Content" guid="_6fdlYSc5EeKDGNEPRzZzCg">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6fdlYic5EeKDGNEPRzZzCg" name="Categories" guid="_6fdlYic5EeKDGNEPRzZzCg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6fdlYyc5EeKDGNEPRzZzCg" name="Domains" guid="_6fdlYyc5EeKDGNEPRzZzCg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_zrHR0Cc7EeKDGNEPRzZzCg" name="innovation_modelling_domain.assign" guid="_zrHR0Cc7EeKDGNEPRzZzCg" variabilityType="contributes" workProducts="_U7p5oCzHEeKtGPioRDeGQg">
+            <methodElementProperty xmi:id="_8_4gMCzKEeKtGPioRDeGQg" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_-LTEIBWsEeGINOUzJIOMxA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6fdlZCc5EeKDGNEPRzZzCg" name="Disciplines" guid="_6fdlZCc5EeKDGNEPRzZzCg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_yNrqgCc7EeKDGNEPRzZzCg" name="innovation_modelling_discipline.assign" guid="_yNrqgCc7EeKDGNEPRzZzCg" variabilityType="contributes" tasks="_iuLOUCzHEeKtGPioRDeGQg _vyDY8CdkEeKDGNEPRzZzCg _qiUgECzHEeKtGPioRDeGQg _Hsn8cCf5EeKbT_45B08XTA">
+            <methodElementProperty xmi:id="_yOSHcCc7EeKDGNEPRzZzCg" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="__d4zsCzKEeKtGPioRDeGQg" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_r65O4BWsEeGINOUzJIOMxA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6fdlZSc5EeKDGNEPRzZzCg" name="RoleSets" guid="_6fdlZSc5EeKDGNEPRzZzCg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6fdlZic5EeKDGNEPRzZzCg" name="WP Types" guid="_6fdlZic5EeKDGNEPRzZzCg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6fdlZyc5EeKDGNEPRzZzCg" name="Tools" guid="_6fdlZyc5EeKDGNEPRzZzCg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_1H-C0CdmEeKDGNEPRzZzCg" name="neffics_innovation_community.assign" guid="_1H-C0CdmEeKDGNEPRzZzCg" variabilityType="contributes" toolMentors="_xMP0ICdmEeKDGNEPRzZzCg _b09NYCy_EeKtGPioRDeGQg">
+            <methodElementProperty xmi:id="_494kcCdmEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <methodElementProperty xmi:id="_xIVrcCy_EeKtGPioRDeGQg" name="CategoryElementsSortType" value="Alphabetic"/>
+            <presentation xmi:id="-BjQUL0RjpPuYDswWx5xIoA" href="uma://-BjQUL0RjpPuYDswWx5xIoA#-BjQUL0RjpPuYDswWx5xIoA"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_ZrOMELSiEeGOSY51NyhYZA#_hmpioLb0EeGSldvlqRCwfg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6fdlaCc5EeKDGNEPRzZzCg" name="StandardCategories" guid="_6fdlaCc5EeKDGNEPRzZzCg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6fdlaSc5EeKDGNEPRzZzCg" name="CustomCategories" guid="_6fdlaSc5EeKDGNEPRzZzCg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6fdlaic5EeKDGNEPRzZzCg" name="Hidden" guid="_6fdlaic5EeKDGNEPRzZzCg">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_6fdlayc5EeKDGNEPRzZzCg" name="Custom Categories" guid="_6fdlayc5EeKDGNEPRzZzCg"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6fdlbCc5EeKDGNEPRzZzCg" name="CoreContent" guid="_6fdlbCc5EeKDGNEPRzZzCg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MqR6kCc7EeKDGNEPRzZzCg" name="innovation_community" guid="_MqR6kCc7EeKDGNEPRzZzCg">
+          <methodElementProperty xmi:id="_NhIDACc7EeKDGNEPRzZzCg" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_iJktsCc7EeKDGNEPRzZzCg" name="innovation_manager.assign" guid="_iJktsCc7EeKDGNEPRzZzCg" variabilityType="contributes" responsibleFor="_U7p5oCzHEeKtGPioRDeGQg">
+            <methodElementProperty xmi:id="_jMOdgCc7EeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_0wQ9MCdVEeKDGNEPRzZzCg#_vIOEsCdXEeKDGNEPRzZzCg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_mNXTQCc7EeKDGNEPRzZzCg" name="innovation_community" guid="_mNXTQCc7EeKDGNEPRzZzCg" presentationName="Innovation Community" briefDescription="This practice provides guidance on how to implement the NEFFICS Innovation Community in your organization." contentReferences="_VOQ8gCf5EeKbT_45B08XTA _ZP5l8Cf5EeKbT_45B08XTA _TYRrQCf5EeKbT_45B08XTA _U7p5oCzHEeKtGPioRDeGQg _W58bMCf5EeKbT_45B08XTA _b09NYCy_EeKtGPioRDeGQg _xMP0ICdmEeKDGNEPRzZzCg _iuLOUCzHEeKtGPioRDeGQg _vyDY8CdkEeKDGNEPRzZzCg _qiUgECzHEeKtGPioRDeGQg _Hsn8cCf5EeKbT_45B08XTA _iJktsCc7EeKDGNEPRzZzCg _Ig3yACmoEeKgDIEH3SkN3Q">
+            <methodElementProperty xmi:id="_mNhEQCc7EeKDGNEPRzZzCg" name="PUBLISH_CATEGORY" value="true"/>
+            <methodElementProperty xmi:id="_nS_ekCc7EeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <presentation xmi:id="-EIRC5U4n9xebSTs67jayyA" href="uma://-EIRC5U4n9xebSTs67jayyA#-EIRC5U4n9xebSTs67jayyA"/>
+            <activityReferences href="uma://_6n994Cf5EeKbT_45B08XTA#_6n994Sf5EeKbT_45B08XTA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_vyDY8CdkEeKDGNEPRzZzCg" name="define_and_configure_innovation_process" guid="_vyDY8CdkEeKDGNEPRzZzCg" presentationName="Define and configure innovation process" briefDescription="This task describes how to define and configure an innovation process in the NEFFICS Innovation Community." performedBy="_iJktsCc7EeKDGNEPRzZzCg" output="_U7p5oCzHEeKtGPioRDeGQg" toolMentors="_b09NYCy_EeKtGPioRDeGQg _xMP0ICdmEeKDGNEPRzZzCg">
+            <methodElementProperty xmi:id="_x_PCMCdkEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <presentation xmi:id="-bOJU7MOOyW6G3esMJ0xLKw" href="uma://-bOJU7MOOyW6G3esMJ0xLKw#-bOJU7MOOyW6G3esMJ0xLKw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Hsn8cCf5EeKbT_45B08XTA" name="running_ideation_campaigns" guid="_Hsn8cCf5EeKbT_45B08XTA" presentationName="Running ideation campaigns" briefDescription="This task describes how to run ideation campaigns in the NEFFICS Innovation Community." performedBy="_iJktsCc7EeKDGNEPRzZzCg" toolMentors="_b09NYCy_EeKtGPioRDeGQg _xMP0ICdmEeKDGNEPRzZzCg">
+            <methodElementProperty xmi:id="_KRr6MCf5EeKbT_45B08XTA" name="me_edited" value="true"/>
+            <presentation xmi:id="-2zYZoP6-9HMiMhgS1eBbbQ" href="uma://-2zYZoP6-9HMiMhgS1eBbbQ#-2zYZoP6-9HMiMhgS1eBbbQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_TYRrQCf5EeKbT_45B08XTA" name="ideas" guid="_TYRrQCf5EeKbT_45B08XTA" presentationName="Ideas" briefDescription="This work product ...">
+            <methodElementProperty xmi:id="_UKytUCf5EeKbT_45B08XTA" name="me_edited" value="true"/>
+            <presentation xmi:id="-6j4ztGfECv4OphI55gqYTg" href="uma://-6j4ztGfECv4OphI55gqYTg#-6j4ztGfECv4OphI55gqYTg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_VOQ8gCf5EeKbT_45B08XTA" name="challenges" guid="_VOQ8gCf5EeKbT_45B08XTA" presentationName="Challenges" briefDescription="This work product ...">
+            <methodElementProperty xmi:id="_WELQ0Cf5EeKbT_45B08XTA" name="me_edited" value="true"/>
+            <presentation xmi:id="--FIIjdA6tmGHt6Kz9-FkFg" href="uma://--FIIjdA6tmGHt6Kz9-FkFg#--FIIjdA6tmGHt6Kz9-FkFg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_W58bMCf5EeKbT_45B08XTA" name="proposals" guid="_W58bMCf5EeKbT_45B08XTA" presentationName="Proposals" briefDescription="This work product ...">
+            <methodElementProperty xmi:id="_Xzy0UCf5EeKbT_45B08XTA" name="me_edited" value="true"/>
+            <presentation xmi:id="-ty6IX0KloEb7LdJirZLHmg" href="uma://-ty6IX0KloEb7LdJirZLHmg#-ty6IX0KloEb7LdJirZLHmg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ZP5l8Cf5EeKbT_45B08XTA" name="discussions" guid="_ZP5l8Cf5EeKbT_45B08XTA" presentationName="Discussions" briefDescription="This work product ...">
+            <methodElementProperty xmi:id="_bMMTgCf5EeKbT_45B08XTA" name="me_edited" value="true"/>
+            <presentation xmi:id="-xHiJcXusk_J8b0M5r7Uw3g" href="uma://-xHiJcXusk_J8b0M5r7Uw3g#-xHiJcXusk_J8b0M5r7Uw3g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_Ig3yACmoEeKgDIEH3SkN3Q" name="how_to_adopt_innovation_community" guid="_Ig3yACmoEeKgDIEH3SkN3Q" presentationName="How to adopt the Innovation Community practice" briefDescription="This roadmap describes how to adopt the Innovation Community practice.">
+            <methodElementProperty xmi:id="_gym3kCmoEeKgDIEH3SkN3Q" name="me_edited" value="true"/>
+            <presentation xmi:id="-1jiq_oxvGwZBOKs_XkHKYg" href="uma://-1jiq_oxvGwZBOKs_XkHKYg#-1jiq_oxvGwZBOKs_XkHKYg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_U7p5oCzHEeKtGPioRDeGQg" name="innovation_process" guid="_U7p5oCzHEeKtGPioRDeGQg" presentationName="Innovation process" briefDescription="This work product implements the support for an innovation process in the NEFFICS Innovation Community.">
+            <methodElementProperty xmi:id="_Web7ACzHEeKtGPioRDeGQg" name="me_edited" value="true"/>
+            <presentation xmi:id="-HilvPPpHPsFkQOeBFUnMJg" href="uma://-HilvPPpHPsFkQOeBFUnMJg#-HilvPPpHPsFkQOeBFUnMJg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_iuLOUCzHEeKtGPioRDeGQg" name="create_working_groups" guid="_iuLOUCzHEeKtGPioRDeGQg" presentationName="Create working groups" briefDescription="This task describes how to create appropriate working groups in the NEFFICS Innovation Community." performedBy="_iJktsCc7EeKDGNEPRzZzCg" toolMentors="_b09NYCy_EeKtGPioRDeGQg _xMP0ICdmEeKDGNEPRzZzCg">
+            <methodElementProperty xmi:id="_oQ_9sCzHEeKtGPioRDeGQg" name="me_edited" value="true"/>
+            <presentation xmi:id="-MagTtdA6aC-CTjyQ4ah6ng" href="uma://-MagTtdA6aC-CTjyQ4ah6ng#-MagTtdA6aC-CTjyQ4ah6ng"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_qiUgECzHEeKtGPioRDeGQg" name="define_strategic_focus_areas" guid="_qiUgECzHEeKtGPioRDeGQg" presentationName="Define strategic focus areas" briefDescription="This task describes how to define strategic focus areas for the NEFFICS Innovation Community." performedBy="_iJktsCc7EeKDGNEPRzZzCg" toolMentors="_b09NYCy_EeKtGPioRDeGQg _xMP0ICdmEeKDGNEPRzZzCg">
+            <methodElementProperty xmi:id="_ynJ5MCzHEeKtGPioRDeGQg" name="me_edited" value="true"/>
+            <presentation xmi:id="-pevYmiSsO-Suxz8kZ33_2w" href="uma://-pevYmiSsO-Suxz8kZ33_2w#-pevYmiSsO-Suxz8kZ33_2w"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Of5_cCc7EeKDGNEPRzZzCg" name="release_info" guid="_Of5_cCc7EeKDGNEPRzZzCg">
+          <methodElementProperty xmi:id="_O_v9ICc7EeKDGNEPRzZzCg" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_RkcHcCc7EeKDGNEPRzZzCg" name="release_info_innovation_community" guid="_RkcHcCc7EeKDGNEPRzZzCg" presentationName="Practice: Innovation Community" briefDescription="Innovation Community practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <methodElementProperty xmi:id="_WT-YsCc7EeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <presentation xmi:id="-fvZlBQKEDRKG9_BZ1rqzjA" href="uma://-fvZlBQKEDRKG9_BZ1rqzjA#-fvZlBQKEDRKG9_BZ1rqzjA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rVNIQCdmEeKDGNEPRzZzCg" name="tool_mentors" guid="_rVNIQCdmEeKDGNEPRzZzCg">
+          <methodElementProperty xmi:id="_r3kOcCdmEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_uEAQ0CdmEeKDGNEPRzZzCg" name="neffics_innovation_community" guid="_uEAQ0CdmEeKDGNEPRzZzCg">
+            <methodElementProperty xmi:id="_vzIsICdmEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_xMP0ICdmEeKDGNEPRzZzCg" name="neffics_innovation_community_user_guide" guid="_xMP0ICdmEeKDGNEPRzZzCg" presentationName="NEFFICS Innovation Community: User guide">
+              <methodElementProperty xmi:id="_ziD08CdmEeKDGNEPRzZzCg" name="me_edited" value="true"/>
+              <presentation xmi:id="-_prLmg1hbqIfxI3vFogH2Q" href="uma://-_prLmg1hbqIfxI3vFogH2Q#-_prLmg1hbqIfxI3vFogH2Q"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_b09NYCy_EeKtGPioRDeGQg" name="neffics_innovation_community_developer_guide" guid="_b09NYCy_EeKtGPioRDeGQg" presentationName="NEFFICS Innovation Community: Developer guide">
+              <methodElementProperty xmi:id="_eIPeoCy_EeKtGPioRDeGQg" name="me_edited" value="true"/>
+              <presentation xmi:id="-oRvq4nulaG73NaK4ZkPRkA" href="uma://-oRvq4nulaG73NaK4ZkPRkA#-oRvq4nulaG73NaK4ZkPRkA"/>
+            </contentElements>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6fdlbSc5EeKDGNEPRzZzCg" name="CapabilityPatterns" guid="_6fdlbSc5EeKDGNEPRzZzCg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Rh-4ACf5EeKbT_45B08XTA" name="innovation_community" guid="_Rh-4ACf5EeKbT_45B08XTA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_6n994Cf5EeKbT_45B08XTA" href="uma://_6n994Cf5EeKbT_45B08XTA#_6n994Cf5EeKbT_45B08XTA"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6fdlbic5EeKDGNEPRzZzCg" name="DeliveryProcesses" guid="_6fdlbic5EeKDGNEPRzZzCg"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6fdlbyc5EeKDGNEPRzZzCg" name="ProcessContributions" guid="_6fdlbyc5EeKDGNEPRzZzCg"/>
+    <bases href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_Xy_FcBWsEeGINOUzJIOMxA"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_7J4wUNq1Ed-RHtsSMqnPrA#_7J4wUNq1Ed-RHtsSMqnPrA"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_0wQ9MCdVEeKDGNEPRzZzCg#_0wQ9MCdVEeKDGNEPRzZzCg"/>
+    <bases href="uma://_ZrOMELSiEeGOSY51NyhYZA#_ZrOMELSiEeGOSY51NyhYZA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

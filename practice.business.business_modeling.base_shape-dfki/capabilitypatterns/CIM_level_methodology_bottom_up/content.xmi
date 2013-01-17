@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-z1Ol9ZrX_sySeYAc4UofHg" name="Create a Data View,_g5b_MYi2Ed609piMjO-xvw" guid="-z1Ol9ZrX_sySeYAc4UofHg"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="--crh_HUAzNKfP3pNFqv7ig" name="Create a Organisational view,_3mDhEYi2Ed609piMjO-xvw" guid="--crh_HUAzNKfP3pNFqv7ig"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-9xSpejJZ2CYT2QsMhYHY2w" name="Create a BR view,_tjDyIYi2Ed609piMjO-xvw" guid="-9xSpejJZ2CYT2QsMhYHY2w"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-hxknZfqGm0M0x1OjMSGiRw" name="Create a EPC view,_HZm5YYi3Ed609piMjO-xvw" guid="-hxknZfqGm0M0x1OjMSGiRw"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-0rhQCyIwnZ8erymMBmR8eA" name="ENTERPRISE,_elRUYU7zEd65M-yHtGQz8g" guid="-0rhQCyIwnZ8erymMBmR8eA"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-HTwLzjU_DwOehGXxN1GhGg" name="TOVE,_tROXAU7pEd65M-yHtGQz8g" guid="-HTwLzjU_DwOehGXxN1GhGg"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-ZEn-AlM_9_51bI1Oy1Fxmg" name="METHONTOLOGY,_lUEHoU7zEd65M-yHtGQz8g" guid="-ZEn-AlM_9_51bI1Oy1Fxmg"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-YULC2Fura6agv1JmsEkMNg" name="SHAPE_DFKI_IWI,_mwwkEVeDEd637brWif56XQ" guid="-YULC2Fura6agv1JmsEkMNg">
+    <mainDescription>&lt;p>&#xD;
+    This process defines the 'methodology logic' for the CIM-level modelling within the SHAPE Methodology.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Here, 'methodology logic' means a reasonable, sense making sequence of the methods (i.e. the creation of models) on the&#xD;
+    CIM level. This capability pattern defines a complete CIM level methodology logic where certain aspects are mandatory&#xD;
+    and others are optional. The later can be (de)selected by the user, and the respective methods will not be included in&#xD;
+    the final EPF delivery process (that defines the final customized methodology).&#xD;
+&lt;/p></mainDescription>
+    <purpose>&lt;p>&#xD;
+    (1) Define reasonable method sequence for SHAPE CIM-level modelling&lt;br />&#xD;
+    (2) Serve as basis for CIM-level wizard of the SHAPE custom methodology tool&#xD;
+&lt;/p></purpose>
+    <scope>CIM-level methodology logic.</scope>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-54uwnxL3o0TvRoQ2VOtm1g" name="Data Modelling,_eyoKqDfnEd-oSL5BwIo5rg" guid="-54uwnxL3o0TvRoQ2VOtm1g">
+    <refinedDescription>&lt;p>&#xD;
+    This method defines the guided procedure for modelling business&amp;nbsp;data in BPMN.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;data model is used for the&amp;nbsp;data structure in a business process. Its built to organize the structure.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An additional feature is the possibility to define private and public views. Here you can define which workgroups can&#xD;
+    see which elements. In the private view there are only a few elements shown. Only these elements which are contained by&#xD;
+    the related lane.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-GKVC5eovNsnMtCOrBCpPNA" name="Business Rules Modelling,_eyeZWDfnEd-oSL5BwIo5rg" guid="-GKVC5eovNsnMtCOrBCpPNA">
+    <refinedDescription>&lt;p>&#xD;
+    This method defines the guided procedure for modelling business&amp;nbsp;rules in BPMN.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;business&amp;nbsp;rules model is used for&amp;nbsp;the rules&amp;nbsp;structure in a business process. Its built to&#xD;
+    organize the structure.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An additional feature is the possibility to define private and public views. Here you can define which workgroups can&#xD;
+    see which elements. In the private view there are only a few elements shown. Only these elements which are contained by&#xD;
+    the related lane.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-fq3dxo3UwBjU0trpxBdxwQ" name="EPC Modelling,_eyoKXDfnEd-oSL5BwIo5rg" guid="-fq3dxo3UwBjU0trpxBdxwQ">
+    <refinedDescription>A business process is a sequence of actions carried out by different actors working together to deliver a tangible result&#xD;
+and bring added business value to the company. A business process model generally describes the business and not the IT&#xD;
+system. A business process is transversal, and is generally based on several structures and applications of one or several&#xD;
+organizations. Business process descriptions bring real business vision&amp;nbsp;and constitute an excellent formalization and&#xD;
+analysis tool when constructing systems. In the context of a development project&amp;nbsp;they are&amp;nbsp;used in&#xD;
+business-oriented activities related to requirements, specifications and analysis.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gcJRljs6F22jZfIB-P0LGQ" name="Create_Dictionary_Model,_eyeZXTfnEd-oSL5BwIo5rg" guid="-gcJRljs6F22jZfIB-P0LGQ">
+    <refinedDescription>&lt;p>&#xD;
+    This task defines the guided procedure for specifying a business dictionary model. This model is necessary to define&#xD;
+    the terminology used.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Dictionary Model defines terms and relations between them. The terms are specified with textual descriptions, while&#xD;
+    relations between the terms are represented with links in a specific Dictionary Diagram.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-GZkGWqRg8zArVv9wMJRBmw" name="SoaML_Information_Diagram,_eyeZaTfnEd-oSL5BwIo5rg" guid="-GZkGWqRg8zArVv9wMJRBmw">
+    <refinedDescription>Class diagram that describes data structure of exchanged messages.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--2AzSLEValfCiDPPTwsCOg" name="SoaML_Organization_Diagram,_eyeZYjfnEd-oSL5BwIo5rg" guid="--2AzSLEValfCiDPPTwsCOg">
+    <refinedDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+    &lt;span lang=&quot;EN-GB&quot;>Component diagram that describes structure (i.e. static) of a participant architecture.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+    &lt;span lang=&quot;EN-GB&quot;>A services architecture has components at two levels of granularity: The &lt;i&#xD;
+    style=&quot;mso-bidi-font-style: normal&quot;>community&lt;/i> services architecture is a “top level” view of how independent&#xD;
+    participants work together for some purpose.&lt;span style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> The services architecture of&#xD;
+    a community does not assume or require any one controlling entity or process.&lt;span&#xD;
+    style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> The services architecture of a community is modelled as collaboration&#xD;
+    stereotyped as &amp;lt;&amp;lt;ServicesArchitecture&amp;gt;&amp;gt;.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+    &lt;span lang=&quot;EN-GB&quot;>A participant may also have services architecture – one that shows how parts of that participant&#xD;
+    (e.g., departments within an organization) work together to provide the services of the owning participant.&lt;span&#xD;
+    style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> The services architecture of a participant is shown as a UML structured class&#xD;
+    or component with the &amp;lt;&amp;lt;ParticipantArchitecture&amp;gt;&amp;gt; stereotype and frequently has an associated business&#xD;
+    process.&lt;/span>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yk3Epe_y64CgrNUYF6PYQw" name="Create_Business_Rules_Model,_eyeZbjfnEd-oSL5BwIo5rg" guid="-yk3Epe_y64CgrNUYF6PYQw">
+    <refinedDescription>&lt;p>&#xD;
+    This task defines the guided procedure for specifying business rules.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Business Rules Model allows specifying the operational constraints and limitations.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-whZBnNP9M0-zuedhXYVsvg" name="Create_Goal_Model,_eyeZbDfnEd-oSL5BwIo5rg" guid="-whZBnNP9M0-zuedhXYVsvg">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>The purpose of the BMM is to agree&#xD;
+    with the business stakeholders the business goals that will be met by implementing the service-oriented architecture,&#xD;
+    so that a set of required high level business processes can be identified for further analysis. BMM provides a scheme&#xD;
+    or structure for developing, communicating, and managing business plans in an organized manner.&lt;/font>&lt;/font> &lt;font&#xD;
+    size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>In particular, the BMM supports&#xD;
+    the&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+    face=&quot;NimbusRomNo9L-Regu&quot;>following:&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>It identifies factors that&#xD;
+            motivate the establishment of business plans.&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>It identifies and defines the&#xD;
+            elements of business plans.&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>It indicates how all these&#xD;
+            factors and elements inter-relate.&lt;/font>&lt;/font>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>Among these elements you find&#xD;
+    business policies and business rule that provide&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+    face=&quot;NimbusRomNo9L-Regu&quot;>governance for and guidance to the business. Once produced and agreed, the BMM&lt;/font>&lt;/font>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>serves as a reference that ensures&#xD;
+    that a full assessment may be made of all the&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
+    face=&quot;NimbusRomNo9L-Regu&quot;>business implications of any proposed changes to the service-oriented&#xD;
+    architecture.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>The specification of the goals and&#xD;
+    company’s motivations are defined in a business goals diagram. The goals can be structured by applying containers&#xD;
+    within the BMM model. The containers contain one or more goals diagrams in which you can define the goals and their&#xD;
+    relationships.&lt;/font>&lt;/font>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jMEMD35I92IqqMwPwOpQ5w" name="Create_Requirements_Model,_eyeZajfnEd-oSL5BwIo5rg" guid="-jMEMD35I92IqqMwPwOpQ5w">
+    <refinedDescription>&lt;p>&#xD;
+    This task defines the guided procedure for identifying and specifying business requirements. This model is used to&#xD;
+    specify the requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Requirements Model defines the requirements, their relations and relevant use cases.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gPsAEEmlXq500FIBsBMu8w" name="SoaML_Capability_and_Goal_Diagram,_eyeZXzfnEd-oSL5BwIo5rg" guid="-gPsAEEmlXq500FIBsBMu8w">
+    <refinedDescription>Class diagram that describes capabilities and goals of the services.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AP35_TaU8Xn9PNww7w0BCA" name="Domain_Expert,_eyoKlzfnEd-oSL5BwIo5rg" guid="-AP35_TaU8Xn9PNww7w0BCA">
+    <refinedDescription>Has expert knowledge about a particular domain that is being modelled. Domain experts can assist in the modelling by&#xD;
+participating in modelling sessions or workshops and comment and review the models that are being defined.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IslGv9iQqriaMFyBT10Z-Q" name="Ontology,_eyoKeDfnEd-oSL5BwIo5rg" guid="-IslGv9iQqriaMFyBT10Z-Q">
+    <refinedDescription>&lt;p>&#xD;
+    An ontology is a knowledge representation format that define the terminology and background knowledge of a domain. They&#xD;
+    have been identiﬁed as the base technology for the Semantic Web, the grand vision for the further evolution of the&#xD;
+    World Wide Web.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Adopting the denotation from the philosophical study of being and existence, an ontology is deﬁned as a ”formal,&#xD;
+    explicit speciﬁcation of a shared conceptualization”.&amp;nbsp; This means that an ontology deﬁnes a conceptual model of a&#xD;
+    domain that ideally represents an agreed consensus among involved parties. The conceptual model is deﬁned in terms of&#xD;
+    concepts that denote the entities in the domain of discourse. These are characterized by properties, and relations&#xD;
+    describe associations between concepts whereby subsump-&lt;br />&#xD;
+    tion and membership relations deﬁne the taxonomic backbone of the ontology. Additional domain knowledge can be speciﬁed&#xD;
+    in terms of axioms. Individuals in the domain are rep-&lt;br />&#xD;
+    resented as instances of a concept.&amp;nbsp; The conceptual model is then represented in a formal, machine-processable&#xD;
+    language upon which reasoning techniques can be applied for advanced information processing. The major merit is that&#xD;
+    ontologies can bridge the gap between the real world and IT systems , and that heterogeneous data can be integrated on&#xD;
+    the semantic level by deﬁning mappings between ontologies.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ARBzWk29bE03xUd6PkvIvw" name="Ontology,_eyoKizfnEd-oSL5BwIo5rg" guid="-ARBzWk29bE03xUd6PkvIvw">
+    <refinedDescription>&lt;p>&#xD;
+    An ontology is a knowledge representation format that define the terminology and background knowledge of a domain. They&#xD;
+    have been identiﬁed as the base technology for the Semantic Web, the grand vision for the further evolution of the&#xD;
+    World Wide Web.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Adopting the denotation from the philosophical study of being and existence, an ontology is deﬁned as a ”formal,&#xD;
+    explicit speciﬁcation of a shared conceptualization”.&amp;nbsp; This means that an ontology deﬁnes a conceptual model of a&#xD;
+    domain that ideally represents an agreed consensus among involved parties. The conceptual model is deﬁned in terms of&#xD;
+    concepts that denote the entities in the domain of discourse. These are characterized by properties, and relations&#xD;
+    describe associations between concepts whereby subsump-&lt;br />&#xD;
+    tion and membership relations deﬁne the taxonomic backbone of the ontology. Additional domain knowledge can be speciﬁed&#xD;
+    in terms of axioms. Individuals in the domain are rep-&lt;br />&#xD;
+    resented as instances of a concept.&amp;nbsp; The conceptual model is then represented in a formal, machine-processable&#xD;
+    language upon which reasoning techniques can be applied for advanced information processing. The major merit is that&#xD;
+    ontologies can bridge the gap between the real world and IT systems , and that heterogeneous data can be integrated on&#xD;
+    the semantic level by deﬁning mappings between ontologies.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yzDZ4O2qTbDTg0SofZIq3w" name="Ontology,_eyoKhzfnEd-oSL5BwIo5rg" guid="-yzDZ4O2qTbDTg0SofZIq3w">
+    <refinedDescription>&lt;p>&#xD;
+    An ontology is a knowledge representation format that define the terminology and background knowledge of a domain. They&#xD;
+    have been identiﬁed as the base technology for the Semantic Web, the grand vision for the further evolution of the&#xD;
+    World Wide Web.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Adopting the denotation from the philosophical study of being and existence, an ontology is deﬁned as a ”formal,&#xD;
+    explicit speciﬁcation of a shared conceptualization”.&amp;nbsp; This means that an ontology deﬁnes a conceptual model of a&#xD;
+    domain that ideally represents an agreed consensus among involved parties. The conceptual model is deﬁned in terms of&#xD;
+    concepts that denote the entities in the domain of discourse. These are characterized by properties, and relations&#xD;
+    describe associations between concepts whereby subsump-&lt;br />&#xD;
+    tion and membership relations deﬁne the taxonomic backbone of the ontology. Additional domain knowledge can be speciﬁed&#xD;
+    in terms of axioms. Individuals in the domain are rep-&lt;br />&#xD;
+    resented as instances of a concept.&amp;nbsp; The conceptual model is then represented in a formal, machine-processable&#xD;
+    language upon which reasoning techniques can be applied for advanced information processing. The major merit is that&#xD;
+    ontologies can bridge the gap between the real world and IT systems , and that heterogeneous data can be integrated on&#xD;
+    the semantic level by deﬁning mappings between ontologies.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aCt33JspxdYM9om4tH7Y2A" name="Analyst,_i9ChGjwgEd-wzrbdBPyHjA" guid="-aCt33JspxdYM9om4tH7Y2A">
+    <refinedDescription>This role&amp;nbsp;has a very important role at the beginning of the development, because it gathers and analyzes the&#xD;
+requirements which the service composition has to fulfil.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9PxfRuKupxpDDDnmNmpXYQ" name="Business_Process_Modeller,_i9ChFzwgEd-wzrbdBPyHjA" guid="-9PxfRuKupxpDDDnmNmpXYQ">
+    <refinedDescription>This role&amp;nbsp;also selects the services which better fulfil the requirements and calculates the QoS that the composed&#xD;
+service can guarantee.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WNKui3Amf0sz6ipR-t2QdQ" name="Designer,_i9ChHTwgEd-wzrbdBPyHjA" guid="-WNKui3Amf0sz6ipR-t2QdQ">
+    <refinedDescription>&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify&quot;>&lt;SPAN style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3>&lt;FONT face=&quot;Times New Roman&quot;>This worker is involved in the design of the components which compose the software system.&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/FONT>&lt;/FONT>&lt;/SPAN>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-YSSrSeoAEk1dwXQgFSLLFQ" name="User,_i9ChFDwgEd-wzrbdBPyHjA" guid="-YSSrSeoAEk1dwXQgFSLLFQ">
+    <refinedDescription>This worker is involved in the requirements gathering and when agreements about the system are needed.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pBAYtKnNdJXt69RzVbRkpA" name="Create Assignment,_i9ChGTwgEd-wzrbdBPyHjA" guid="-pBAYtKnNdJXt69RzVbRkpA">
+    <refinedDescription>&lt;p>&#xD;
+    The assignment element is the connector element of the organisation view.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - Assignment&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - Hierarchy&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BrfkJj86_CAJXCksjySoFg" name="Create Organisation Element,_i9ChETwgEd-wzrbdBPyHjA" guid="-BrfkJj86_CAJXCksjySoFg">
+    <refinedDescription>&lt;p>&#xD;
+    An organisation element is an element in the organisation view.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You can choose between several organisation elements:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - Person&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - OrgUnit&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - OrgRole&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - Assignment&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-YAtr7OEGhEM93mIV5HL_pw" name="Create OrgRole,_i9ChFTwgEd-wzrbdBPyHjA" guid="-YAtr7OEGhEM93mIV5HL_pw">
+    <refinedDescription>&lt;p>&#xD;
+    Role is an element, which manages the connection between organisation and process view.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mspi8NehEVfrtjOnTl8UBA" name="Create OrgUnit,_i9ChHDwgEd-wzrbdBPyHjA" guid="-mspi8NehEVfrtjOnTl8UBA">
+    <refinedDescription>OrgUnit is a divisional company structure.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-F6MjLy8My4Mrr8LwGeSjPQ" name="Create Person,_i9ChGDwgEd-wzrbdBPyHjA" guid="-F6MjLy8My4Mrr8LwGeSjPQ">
+    <refinedDescription>The person represents a person which is responsible for the particular area.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-d28jshhbGnhgpDN3llumyA" name="Organization_Model,_i9ChEjwgEd-wzrbdBPyHjA" guid="-d28jshhbGnhgpDN3llumyA">
+    <refinedDescription>&lt;P class=MsoBodyText style=&quot;MARGIN: 6pt 0cm 0pt&quot;>&lt;SPAN lang=EN-GB>The Organisation&amp;nbsp;&lt;SPAN style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/SPAN>model &lt;/SPAN>&lt;SPAN lang=EN-GB>describes the organisational structure that is related to an underlying activity. The core element of the organisational view is the role. Role is a model element that derives from the organisational view and creates a link between the organisational and the process view. Each role is assigned to one or more people, while one person can carry out more than one role. At the same time each role can be part of an organisational unit. Roles can be hierarchically composed. Organisational units can have a hierarchical structure. For organisational units, the hierarchy represents the department structure of an enterprise, which allows to subdivide/aggregate business units. &lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-DsFCaWPGwFlS_4-ZQuDiPQ" name="Transform (BPMN),_eyoKjjfnEd-oSL5BwIo5rg" guid="-DsFCaWPGwFlS_4-ZQuDiPQ">
+    <keyConsiderations>CIM2CIM transformation</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The process defines&amp;nbsp;the transformation logic from CIM EPC process model to CIM BPMN process model in SHAPE&#xD;
+    methodology&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is an automated tool which transforms your epc input model to a bpmn output model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See the Steps page for detailled constructs.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

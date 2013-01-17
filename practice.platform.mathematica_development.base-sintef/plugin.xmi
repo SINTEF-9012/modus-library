@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_rmvwcEgYEeGo_NnI1Un8pQ" guid="_rmvwcEgYEeGo_NnI1Un8pQ">
+    <subManagers xmi:id="_NVOV0EtREeGtMvzv9BhHAQ" href="uma://_NU2iYEtREeGtMvzv9BhHAQ#_NVOV0EtREeGtMvzv9BhHAQ"/>
+    <resourceDescriptors xmi:id="_NU9QEEtREeGtMvzv9BhHAQ" id="_NU2iYEtREeGtMvzv9BhHAQ" uri="capabilitypatterns/mathematica_development/model.xmi"/>
+    <resourceDescriptors xmi:id="_YuQOIEtSEeGtMvzv9BhHAQ" id="-iJJEicf5pD1KisA1OEKipA" uri="guidances/supportingmaterials/release_info_mathematica_development.xmi"/>
+    <resourceDescriptors xmi:id="_k_5l8EtSEeGtMvzv9BhHAQ" id="-tm0gyDGEc-UCge08BI_4xA" uri="guidances/practices/mathematica_development.xmi"/>
+    <resourceDescriptors xmi:id="_zWQngEtSEeGtMvzv9BhHAQ" id="-Tt6H9Al7BEqp5rBd00IbYQ" uri="guidances/roadmaps/how_to_adopt_mathematica_development.xmi"/>
+    <resourceDescriptors xmi:id="_aOFMsEtTEeGtMvzv9BhHAQ" id="-HvS-LOpvsnqZkRu7eFhq8w" uri="tasks/compile_mathematica_source.xmi"/>
+    <resourceDescriptors xmi:id="_gfAYMEtTEeGtMvzv9BhHAQ" id="-vKLJTLtijvuq8plRC54IKw" uri="tasks/produce_mathematica_source.xmi"/>
+    <resourceDescriptors xmi:id="_wmpKIEtTEeGtMvzv9BhHAQ" id="-k-P8rmcc0Bg7B54IwuplcA" uri="workproducts/mathematica_executable.xmi"/>
+    <resourceDescriptors xmi:id="_zLlMEEtTEeGtMvzv9BhHAQ" id="-ySdFeDPg0ETc7XPVBIrvsQ" uri="workproducts/mathematica_source.xmi"/>
+    <resourceDescriptors xmi:id="_erPs0EtZEeGtMvzv9BhHAQ" id="-fRtuleh5IkzqO9xHwhKIew" uri="guidances/toolmentors/mathematica_compiler.xmi"/>
+    <resourceDescriptors xmi:id="_fLViIEtZEeGtMvzv9BhHAQ" id="-yGSySH0lJvqLxA2scEEd2A" uri="guidances/toolmentors/mathematica_editor.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_rmJTgEgYEeGo_NnI1Un8pQ" name="practice.platform.mathematica_development.base-sintef" guid="_rmJTgEgYEeGo_NnI1Un8pQ" briefDescription="This plugin contains the Mathematica development practice." authors="Brian Elvesæter (SINTEF)" changeDate="2012-01-30T15:45:28.079+0100">
+    <methodElementProperty xmi:id="_rmvwckgYEeGo_NnI1Un8pQ" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rmJTgUgYEeGo_NnI1Un8pQ" name="Content" guid="_rmJTgUgYEeGo_NnI1Un8pQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rmJTgkgYEeGo_NnI1Un8pQ" name="Categories" guid="_rmJTgkgYEeGo_NnI1Un8pQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rmJTg0gYEeGo_NnI1Un8pQ" name="Domains" guid="_rmJTg0gYEeGo_NnI1Un8pQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rmJThEgYEeGo_NnI1Un8pQ" name="Disciplines" guid="_rmJThEgYEeGo_NnI1Un8pQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rmJThUgYEeGo_NnI1Un8pQ" name="RoleSets" guid="_rmJThUgYEeGo_NnI1Un8pQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rmJThkgYEeGo_NnI1Un8pQ" name="WP Types" guid="_rmJThkgYEeGo_NnI1Un8pQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rmJTh0gYEeGo_NnI1Un8pQ" name="Tools" guid="_rmJTh0gYEeGo_NnI1Un8pQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_ptggYEtZEeGtMvzv9BhHAQ" name="mathematica.assign" guid="_ptggYEtZEeGtMvzv9BhHAQ" variabilityType="contributes" toolMentors="_S193EEgbEeGo_NnI1Un8pQ _Z6144EtZEeGtMvzv9BhHAQ">
+            <methodElementProperty xmi:id="_Rs_RMEtaEeGtMvzv9BhHAQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_yLWzUNxbEd-LYKXkOhPACw#_Ow2FoEtZEeGtMvzv9BhHAQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rmJTiEgYEeGo_NnI1Un8pQ" name="StandardCategories" guid="_rmJTiEgYEeGo_NnI1Un8pQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rmJTiUgYEeGo_NnI1Un8pQ" name="CustomCategories" guid="_rmJTiUgYEeGo_NnI1Un8pQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rmJTikgYEeGo_NnI1Un8pQ" name="Hidden" guid="_rmJTikgYEeGo_NnI1Un8pQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_rmJTi0gYEeGo_NnI1Un8pQ" name="Custom Categories" guid="_rmJTi0gYEeGo_NnI1Un8pQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rmJTjEgYEeGo_NnI1Un8pQ" name="CoreContent" guid="_rmJTjEgYEeGo_NnI1Un8pQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ttrnwEgYEeGo_NnI1Un8pQ" name="mathematica_development" guid="_ttrnwEgYEeGo_NnI1Un8pQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_80aWUEgYEeGo_NnI1Un8pQ" name="mathematica_development" guid="_80aWUEgYEeGo_NnI1Un8pQ" presentationName="Mathematica development" briefDescription="This practice describes how to expose mathematical functions in Mathematica as Web services." contentReferences="_VUkAcEgbEeGo_NnI1Un8pQ _Gquz0EgcEeGo_NnI1Un8pQ _Qxfv0EgZEeGo_NnI1Un8pQ _S193EEgbEeGo_NnI1Un8pQ _Z6144EtZEeGtMvzv9BhHAQ _Lrew4EgcEeGo_NnI1Un8pQ _WUBkQEgZEeGo_NnI1Un8pQ _snWcYEgZEeGo_NnI1Un8pQ _NX5r4EgbEeGo_NnI1Un8pQ _ptggYEtZEeGtMvzv9BhHAQ">
+            <presentation xmi:id="-tm0gyDGEc-UCge08BI_4xA" href="uma://-tm0gyDGEc-UCge08BI_4xA#-tm0gyDGEc-UCge08BI_4xA"/>
+            <activityReferences href="uma://_NU2iYEtREeGtMvzv9BhHAQ#_NU2iYUtREeGtMvzv9BhHAQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Qxfv0EgZEeGo_NnI1Un8pQ" name="mathematica_source" guid="_Qxfv0EgZEeGo_NnI1Un8pQ" presentationName="Mathematica source" briefDescription="&lt;TBD>">
+            <presentation xmi:id="-ySdFeDPg0ETc7XPVBIrvsQ" href="uma://-ySdFeDPg0ETc7XPVBIrvsQ#-ySdFeDPg0ETc7XPVBIrvsQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_WUBkQEgZEeGo_NnI1Un8pQ" name="produce_mathematica_source" guid="_WUBkQEgZEeGo_NnI1Un8pQ" presentationName="Produce mathematica source" briefDescription="This task describes how to produce a Mathematica source file." examples="_VUkAcEgbEeGo_NnI1Un8pQ" performedBy="_snWcYEgZEeGo_NnI1Un8pQ" output="_Qxfv0EgZEeGo_NnI1Un8pQ" toolMentors="_Z6144EtZEeGtMvzv9BhHAQ">
+            <presentation xmi:id="-vKLJTLtijvuq8plRC54IKw" href="uma://-vKLJTLtijvuq8plRC54IKw#-vKLJTLtijvuq8plRC54IKw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_snWcYEgZEeGo_NnI1Un8pQ" name="domain_expert.assign" guid="_snWcYEgZEeGo_NnI1Un8pQ" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_UEhLEIcdEd6EVeogAa9sog"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_NX5r4EgbEeGo_NnI1Un8pQ" name="how_to_adopt_mathematica_development" guid="_NX5r4EgbEeGo_NnI1Un8pQ" presentationName="How to adopt the Mathematica development practice." briefDescription="This roadmap describes how to adopt the Mathematica development practice.">
+            <presentation xmi:id="-Tt6H9Al7BEqp5rBd00IbYQ" href="uma://-Tt6H9Al7BEqp5rBd00IbYQ#-Tt6H9Al7BEqp5rBd00IbYQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_S193EEgbEeGo_NnI1Un8pQ" name="mathematica_compiler" guid="_S193EEgbEeGo_NnI1Un8pQ" presentationName="Mathematica: Compiler">
+            <presentation xmi:id="-fRtuleh5IkzqO9xHwhKIew" href="uma://-fRtuleh5IkzqO9xHwhKIew#-fRtuleh5IkzqO9xHwhKIew"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_VUkAcEgbEeGo_NnI1Un8pQ" name="mathematica_example" guid="_VUkAcEgbEeGo_NnI1Un8pQ" presentationName="Mathematica example"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Gquz0EgcEeGo_NnI1Un8pQ" name="mathematica_executable" guid="_Gquz0EgcEeGo_NnI1Un8pQ" presentationName="Mathematica executable" briefDescription="&lt;TBD>">
+            <presentation xmi:id="-k-P8rmcc0Bg7B54IwuplcA" href="uma://-k-P8rmcc0Bg7B54IwuplcA#-k-P8rmcc0Bg7B54IwuplcA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Lrew4EgcEeGo_NnI1Un8pQ" name="compile_mathematica_source" guid="_Lrew4EgcEeGo_NnI1Un8pQ" presentationName="Compile Mathematica source" briefDescription="This task describes how to compile a Mathematica source file." examples="_VUkAcEgbEeGo_NnI1Un8pQ" performedBy="_snWcYEgZEeGo_NnI1Un8pQ" mandatoryInput="_Qxfv0EgZEeGo_NnI1Un8pQ" output="_Gquz0EgcEeGo_NnI1Un8pQ" toolMentors="_S193EEgbEeGo_NnI1Un8pQ">
+            <presentation xmi:id="-HvS-LOpvsnqZkRu7eFhq8w" href="uma://-HvS-LOpvsnqZkRu7eFhq8w#-HvS-LOpvsnqZkRu7eFhq8w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_Z6144EtZEeGtMvzv9BhHAQ" name="mathematica_editor" guid="_Z6144EtZEeGtMvzv9BhHAQ" presentationName="Mathematica: Editor">
+            <presentation xmi:id="-yGSySH0lJvqLxA2scEEd2A" href="uma://-yGSySH0lJvqLxA2scEEd2A#-yGSySH0lJvqLxA2scEEd2A"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_YtupsEtSEeGtMvzv9BhHAQ" name="release_info" guid="_YtupsEtSEeGtMvzv9BhHAQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_YtupsUtSEeGtMvzv9BhHAQ" name="release_info_mathematica_development" guid="_YtupsUtSEeGtMvzv9BhHAQ" presentationName="Practice: Mathematica development" briefDescription="Mathematica development practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-iJJEicf5pD1KisA1OEKipA" href="uma://-iJJEicf5pD1KisA1OEKipA#-iJJEicf5pD1KisA1OEKipA"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_rmJTjUgYEeGo_NnI1Un8pQ" name="CapabilityPatterns" guid="_rmJTjUgYEeGo_NnI1Un8pQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_NU2iYEtREeGtMvzv9BhHAQ" href="uma://_NU2iYEtREeGtMvzv9BhHAQ#_NU2iYEtREeGtMvzv9BhHAQ"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_rmJTjkgYEeGo_NnI1Un8pQ" name="DeliveryProcesses" guid="_rmJTjkgYEeGo_NnI1Un8pQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_rmJTj0gYEeGo_NnI1Un8pQ" name="ProcessContributions" guid="_rmJTj0gYEeGo_NnI1Un8pQ"/>
+    <bases href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_aXK0UNeYEd-Mq_S1iaxctg"/>
+    <bases href="uma://_iESMoNxcEd-LYKXkOhPACw#_iESMoNxcEd-LYKXkOhPACw"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_yLWzUNxbEd-LYKXkOhPACw#_yLWzUNxbEd-LYKXkOhPACw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

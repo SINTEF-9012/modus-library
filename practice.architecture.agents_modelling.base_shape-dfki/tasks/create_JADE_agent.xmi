@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-iAcDxgsSO7s3ZFGan5Ldsw" name=",_Nho5wIWlEd6Lb6GZuo4wTA" guid="-iAcDxgsSO7s3ZFGan5Ldsw" authors="Christian Hahn" changeDate="2009-08-10T14:05:13.407+0200" changeDescription="Initial input" version="0.1">
+  <mainDescription>&lt;P>&lt;SPAN lang=EN-GB style=&quot;mso-ansi-language: EN-GB&quot;>The agent represents the class jade.core.Agent from the JADE API. The software agent performs various tasks, including message passing and the scheduling and execution of multiple concurrent activities. &lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P></mainDescription>
+  <sections xmi:id="_JBkLYIWmEd6Lb6GZuo4wTA" name="Define Agent type" guid="_JBkLYIWmEd6Lb6GZuo4wTA">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>The Agent represents the class jade.core.Agent from the JADE API. The software agent&#xD;
+    per&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>forms various tasks, including message passing and the scheduling and&#xD;
+    execution of multiple con&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>current activities&lt;/font>&lt;/font>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_KCF0QIWmEd6Lb6GZuo4wTA" name="Define Behaviors " guid="_KCF0QIWmEd6Lb6GZuo4wTA">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>The Behaviour represents the codebase to all the actions that the agent can&lt;/font>&lt;/font>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>perform. Since it is the base of the Behaviour model, it is abstract and its children are&#xD;
+    the ones&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>that can actually be instantiated and execute&lt;/font>&lt;/font>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_NS2aYIWmEd6Lb6GZuo4wTA" name="Define knowledge by referring to an Ontology" guid="_NS2aYIWmEd6Lb6GZuo4wTA">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>The Agent’s knowledge is stored in an Ontology,&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font&#xD;
+    size=&quot;2&quot;>which contains application specific concepts that Agents can use in their messages. It defines a&lt;/font>&lt;/font>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>vocabulary and relationships between the elements in this vocabulary. Correspondingly,&#xD;
+    the Con&lt;/font>&lt;/font>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>ceptSchema is an expression that describes an entity with a complex&#xD;
+    structure that can be defined&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>in terms of Slots&lt;/font>&lt;/font>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Pt-ZAIWmEd6Lb6GZuo4wTA" name="Define the Roles the Agent plays in an Organization" guid="_Pt-ZAIWmEd6Lb6GZuo4wTA">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>The members of the Organisations are characterized by Roles, which describe and identify&#xD;
+    the part they play within the Organisation&lt;/font>&lt;/font>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_SY4gEIWmEd6Lb6GZuo4wTA" name="Define the memberships of the Agents in Organizations" guid="_SY4gEIWmEd6Lb6GZuo4wTA">
+    <sectionDescription>The memberships are defined in order to specify in which contexts the Agent type is working</sectionDescription>
+  </sections>
+  <purpose>Autonomous entity in the impelemented system</purpose>
+</org.eclipse.epf.uma:TaskDescription>

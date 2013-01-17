@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-NtEE73-q5ksj_6KJBA_OIw" name="create_agent_type,_cBLDkHzgEd6XdpY1gOeKuQ" guid="-NtEE73-q5ksj_6KJBA_OIw" authors="Chrisian Hahn" changeDate="2009-07-30T10:11:21.390+0200" changeDescription="Initial input" version="0.1">
+  <mainDescription>Agents are the autonomous entities of the MAS. They perform DomainRoles and use Behaviors to behave in a reactive and&#xD;
+proactive manner. Knowledge is used to express the belief an Agent has about the world</mainDescription>
+  <sections xmi:id="_wyWzgHzgEd6XdpY1gOeKuQ" name="Define the Agent types" guid="_wyWzgHzgEd6XdpY1gOeKuQ">
+    <sectionDescription>&lt;p>&#xD;
+    Define the name of the agent type&#xD;
+&lt;/p>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_tmfkEIWqEd6RnNsGWKlbZQ" name="Refer to/define DomainRoles the Agent performs" guid="_tmfkEIWqEd6RnNsGWKlbZQ">
+    <sectionDescription>Refer to existing DomainRoles the agent should perform, introduce&amp;nbsp;new DomainRoles if necessary</sectionDescription>
+  </sections>
+  <sections xmi:id="_vZ-T4IWqEd6RnNsGWKlbZQ" name="Refer to/define Knowledge of the Agent" guid="_vZ-T4IWqEd6RnNsGWKlbZQ">
+    <sectionDescription>Refer to existing Knowledge, introduce new Knowledge&amp;nbsp;if necessary&amp;nbsp;</sectionDescription>
+  </sections>
+  <sections xmi:id="_IGMMQKLGEd6MnJuyPADf4Q" name="Refer to/define Resources of the Agent" guid="_IGMMQKLGEd6MnJuyPADf4Q">
+    <sectionDescription>Refer to existing&amp;nbsp;Resources the Agent should perform, introduce&amp;nbsp;new Resources if necessary</sectionDescription>
+  </sections>
+  <sections xmi:id="_JxepYKLGEd6MnJuyPADf4Q" name="Refer to/define Behaviors the Agent can use" guid="_JxepYKLGEd6MnJuyPADf4Q">
+    <sectionDescription>Refer to existing Behaviors the Agent may apply, introduce&amp;nbsp;new&amp;nbsp;Behaviors if necessary</sectionDescription>
+  </sections>
+  <sections xmi:id="_La1M0KLGEd6MnJuyPADf4Q" name="Refer to/define Capabilties the Agent can use " guid="_La1M0KLGEd6MnJuyPADf4Q">
+    <sectionDescription>Refer to existing Capabilities the Agent may apply, introduce&amp;nbsp;new&amp;nbsp;Capabilities if necessary</sectionDescription>
+  </sections>
+  <purpose>Create the Agent types of the MAS</purpose>
+</org.eclipse.epf.uma:TaskDescription>

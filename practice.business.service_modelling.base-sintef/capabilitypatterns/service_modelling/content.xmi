@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-Kkn5Lge1XJA0UOWo75HO5A" name="business_service_modelling,_BDB6IVJREeG_AJV-uw1zUA" guid="-Kkn5Lge1XJA0UOWo75HO5A"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2SrZlkkL8xJ4BMFEbFae0Q" name="refine_business_processes,_KkZtQVJSEeG_AJV-uw1zUA" guid="-2SrZlkkL8xJ4BMFEbFae0Q">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    VDML supports multiple viewpoints, each focusing on a different abstraction of the design of an enterprise. An&#xD;
+    interesting viewpoint for our purposes is the Value Network View, which we recall in this section.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    ServiceML supports a Value Network View graphical notation that is inspired from Verna Allee’s Value Networks [Allee&#xD;
+    2002]. It focuses on the Deliverable Flows that occur between the Roles of a Collaboration.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TkYEMfsK1W6dFGsB3chE4A" name="specify_service_contracts_and_choreographies,_KkZtQ1JSEeG_AJV-uw1zUA" guid="-TkYEMfsK1W6dFGsB3chE4A">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    SoaML allows different approaches to specify services. In our practice, we have chosen to combine two different&#xD;
+    approaches, as we see one fits more at the business level (service contract approach) and the other at the IT level&#xD;
+    (service interface approach). In the business architecture modelling we suggest to use service contracts that are&#xD;
+    further refined to service interfaces in the system architecture modelling. The specification of service contracts can&#xD;
+    be seen as the refinement of a services architecture. Service contracts are specified as UML collaborations in UML&#xD;
+    collaboration diagrams.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    An important part of the service contract is the choreography. The choreography is a specification of what is&#xD;
+    transmitted and when it is transmitted between parties to enact a service exchange. The choreography specifies&#xD;
+    exchanges between the parties - the data, assets and obligations that go between the parties. The choreography defines&#xD;
+    what happens between the provider and consumer participants without defining their internal processes - their internal&#xD;
+    processes do have to be compatible with their service contracts. The behaviour of the service contract can be described&#xD;
+    at the business level using any UML behaviour, e.g. state machines, activity diagrams and sequence diagrams. We&#xD;
+    recommend to model the behaviour of any complex service contracts in order to get a better understanding of the&#xD;
+    interaction between the roles. This model will later be refined at the IT level.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is advisable to create a separate UML Package for the specification of the ServiceContract. Place this package in&#xD;
+    the package that contains the ServicesArchitecture. The ServiceContract package will be used for the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Specifying&amp;nbsp;the Collaboration for the ServiceContract.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specifying&amp;nbsp;the ServiceInterfaces that represents the consumer and provider role in the ServiceContract.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specifying the Interaction that describes the behaviour of the ServiceContract.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Service Diagrams for the ServiceContract.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7D4-Bioa1lu17nl7P6jhPw" name="specify_services_architectures,_KkZtRFJSEeG_AJV-uw1zUA" guid="-7D4-Bioa1lu17nl7P6jhPw">
+    <refinedDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Services architectures are modelled as UML collaborations with the stereotype &amp;lt;&amp;lt;ServicesArchitecture&amp;gt;&amp;gt;. A&#xD;
+    services architecture has components at two levels of granularity:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            The community services architecture is a ”top level” view of how independent participants work together for&#xD;
+            some purpose. The services architecture of a community does not assume or require any single controlling entity&#xD;
+            or process.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            A participant may also have a participant services architecture, which specifies how parts of that participant&#xD;
+            (e.g., departments within an organization) work together to provide the services of the owning participant.&#xD;
+            Participants that realize this specification must adhere to the architecture it specifies.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    We recommend to create a UML package for each services architecture.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-lwBzLGhZ2Z-0Hx730J-zoQ" name="business_processes,_KkZtS1JSEeG_AJV-uw1zUA" guid="-lwBzLGhZ2Z-0Hx730J-zoQ">
+    <refinedDescription>The Value Network View is the starting point for service modelling. The Value Network View can be expressed using&#xD;
+Collaborations in VDML and maps to ServicesArchitectures in ServiceML.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qtLa4Rst9NoL5B9q1OgQiw" name="service_contracts_and_choreographies,_KkZtT1JSEeG_AJV-uw1zUA" guid="-qtLa4Rst9NoL5B9q1OgQiw">
+    <refinedDescription>&lt;p>&#xD;
+    A service contract approach defines service specifications (the service contract) that define the roles each&#xD;
+    participant plays in the service (such as provider and consumer) and the interfaces they implement to play that role in&#xD;
+    that service. The service contract represents an agreement between the involved participants for how the service is to&#xD;
+    be provided and consumed. This agreement includes the interfaces, choreography and any other terms and conditions.&#xD;
+    Service contracts are frequently part of one or more services architectures that define how a set of participants&#xD;
+    provide and use services for a particular business purpose or process.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;left&quot;>&#xD;
+    An important part of the service contract is the choreography. A choreography is a specification of what is transmitted&#xD;
+    and when it is transmitted between participants to enact a service exchange. The choreography defines what happens&#xD;
+    between the provider and consumer participants without defining their internal processes - their internal processes do&#xD;
+    have to be compatible with their service contracts.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-F69nbwvP3ZD8GBNAsF4oRg" name="services_architectures,_KkZtUVJSEeG_AJV-uw1zUA" guid="-F69nbwvP3ZD8GBNAsF4oRg">
+    <refinedDescription>&lt;p>&#xD;
+    A services architecture is a high level description of how participants work together for a purpose by providing and&#xD;
+    using services expressed as service contracts. The services architecture defines the requirements for the types of&#xD;
+    participants and service realizations that fulfill specific roles. A role defines the basic function (or set of&#xD;
+    functions) that an entity may perform in a particular context. In contrast, a participant specifies the type of a party&#xD;
+    that fills the role in the context of a specific services architecture. Both service contracts and participants can be&#xD;
+    reused when composing different services in other services architectures.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jmMpwX8Xm0fkza9ZA8MplQ" name="business_architecture_model,_xSYkhFJTEeG_AJV-uw1zUA" guid="-jmMpwX8Xm0fkza9ZA8MplQ">
+    <refinedDescription>&lt;img alt=&quot;&quot; src=&quot;./../../practice.architecture.service_modelling.base-sintef/workproducts/./resources/business_architecture_model.png&quot; width=&quot;600&quot; height=&quot;228&quot; />&lt;br />&#xD;
+&lt;p>&#xD;
+    This&amp;nbsp;work product is&amp;nbsp;represented as a SoaML model&amp;nbsp;that defines the business view of the service-oriented&#xD;
+    architecture in a platform-indepent manner.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

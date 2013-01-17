@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_rH-Sga3TEd6jJcdBhS8YNw" guid="_rH-Sga3TEd6jJcdBhS8YNw">
+    <resourceDescriptors xmi:id="_rH-Sgq3TEd6jJcdBhS8YNw" id="--RG5ejevpAh7SPrtSwkuTQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_p118QK3TEd6jJcdBhS8YNw" name="SWS_PIM2PSM_Transformation" guid="_p118QK3TEd6jJcdBhS8YNw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_p118Qa3TEd6jJcdBhS8YNw" name="SWS PIM2PSM transformation" guid="_p118Qa3TEd6jJcdBhS8YNw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_p118RK3TEd6jJcdBhS8YNw" name="SWS PIM2PSM transformation" guid="_p118RK3TEd6jJcdBhS8YNw" presentationName="SWS PIM2PSM transformation" superActivities="_p1_GPK3TEd6jJcdBhS8YNw" breakdownElements="_AcZ7QDszEd-Ux61kS3X6hw _AcZ7QjszEd-Ux61kS3X6hw _AcZ7QzszEd-Ux61kS3X6hw _AcZ7RDszEd-Ux61kS3X6hw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_AcZ7QDszEd-Ux61kS3X6hw" name="transform_SWS-SoaML_to_WSMO" guid="_AcZ7QDszEd-Ux61kS3X6hw" presentationName="Transform SoaML Semantic Web Service model to WSMO" briefDescription="Transform SoaML Semantic Web Service model (PIM level) to WSMO (PSM level)" superActivities="_p118RK3TEd6jJcdBhS8YNw" mandatoryInput="_AcZ7QjszEd-Ux61kS3X6hw _AcZ7QzszEd-Ux61kS3X6hw" output="_AcZ7RDszEd-Ux61kS3X6hw">
+        <Task href="uma://_ZXc3ME6cEd65M-yHtGQz8g#_aKTHEKkKEd6RxrScOu9Dlg"/>
+        <selectedSteps href="uma://-zCyesnuE3A7Tv065axpNxQ#_mxyzEKkKEd6RxrScOu9Dlg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_AcZ7QjszEd-Ux61kS3X6hw" name="SoaML_Model" guid="_AcZ7QjszEd-Ux61kS3X6hw" presentationName="SoaML Model" briefDescription="A model that defines the service architecture in a platform-indepent manner." superActivities="_p118RK3TEd6jJcdBhS8YNw">
+        <methodElementProperty xmi:id="_kBxH0deMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_AcZ7QzszEd-Ux61kS3X6hw" name="SWS_SoaML_SWS_model" guid="_AcZ7QzszEd-Ux61kS3X6hw" presentationName="SoaML Semantic Web Service extension model" briefDescription="SoaML Semantic Web Service extension model." superActivities="_p118RK3TEd6jJcdBhS8YNw">
+        <methodElementProperty xmi:id="_kBxH0teMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_VgmRUbJ8Ed6WTpR2FpAgWw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_AcZ7RDszEd-Ux61kS3X6hw" name="SWS_WSMO_model" guid="_AcZ7RDszEd-Ux61kS3X6hw" presentationName="WSMO model" briefDescription="WSMO model for Semantic Web Services." superActivities="_p118RK3TEd6jJcdBhS8YNw">
+        <methodElementProperty xmi:id="_kBxH09eMEd-Mq_S1iaxctg" name="descriptor_createdByReference" value="true"/>
+        <toolmentor href="uma://_kwazABFxEd6C2PqX2OSy5A#_n4_8QFXHEd6iZIDJYUIm8w"/>
+        <WorkProduct href="uma://_kwazABFxEd6C2PqX2OSy5A#_VgmRVLJ8Ed6WTpR2FpAgWw"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_p1_GPK3TEd6jJcdBhS8YNw" name="SWS_PIM2PSM_Transformation" guid="_p1_GPK3TEd6jJcdBhS8YNw" presentationName="SWS PIM2PSM transformation" briefDescription="Capability pattern for the PIM2PSM transormation activity of MEMOS." breakdownElements="_p118RK3TEd6jJcdBhS8YNw">
+      <methodElementProperty xmi:id="_kBxu4NeMEd-Mq_S1iaxctg" name="process_synFree" value="true"/>
+      <presentation xmi:id="--RG5ejevpAh7SPrtSwkuTQ" href="uma://--RG5ejevpAh7SPrtSwkuTQ#--RG5ejevpAh7SPrtSwkuTQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

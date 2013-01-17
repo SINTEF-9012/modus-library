@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-FC5cYQD_qK9Frv6oFy8Tiw" name="new_concept,_NHQ_YJynEeCb2cFFaexWpQ" guid="-FC5cYQD_qK9Frv6oFy8Tiw" changeDate="2011-06-22T10:11:34.852+0200">
+  <mainDescription>Events are changes in the state of a case that are of interest to initiate appropriate actions. The state of a case is&#xD;
+represented by the logical case file and the state of execution of the runtime plan. &#xD;
+&lt;p style=&quot;MARGIN-BOTTOM: 0cm&quot;>&#xD;
+    The logical case file model allows a modeler to express an event as a conditional expression on case file elements and,&#xD;
+    optionally, a date and time, that will become true when the event occurs. At runtime, the logical case file may be&#xD;
+    implemented in various forms including references to remote documents and databases.&#xD;
+&lt;/p>&#xD;
+&lt;p style=&quot;MARGIN-BOTTOM: 0cm&quot;>&#xD;
+    A modeler defines event elements that become active when the event condition is satisfied. There are also intrinsic&#xD;
+    events in plan elements that can be the basis for dependencies between plan elements. Dependence on these events is&#xD;
+    specified on the dependency of a subsequent plan element.&#xD;
+&lt;/p>&#xD;
+&lt;p style=&quot;MARGIN-BOTTOM: 0cm&quot;>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/event.jpg&quot; width=&quot;496&quot; height=&quot;316&quot; />&amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

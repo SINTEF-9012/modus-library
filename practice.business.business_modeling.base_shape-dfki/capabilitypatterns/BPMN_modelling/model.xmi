@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_M6SJIYi2Ed609piMjO-xvw" guid="_M6SJIYi2Ed609piMjO-xvw">
+    <resourceDescriptors xmi:id="_M6SJIoi2Ed609piMjO-xvw" id="-guLphW-5AbWLo1B3gGPvOw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_M2kGwIi2Ed609piMjO-xvw" name="BPMN_modelling" guid="_M2kGwIi2Ed609piMjO-xvw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_27qrAItNEd6ICpAXmDeg7g" name="Create a new BPMN View" guid="_27qrAItNEd6ICpAXmDeg7g">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_27r5IItNEd6ICpAXmDeg7g" name="Create a new BPMN View" guid="_27r5IItNEd6ICpAXmDeg7g" presentationName="Create a new BPMN View" superActivities="_M2kGwYi2Ed609piMjO-xvw" breakdownElements="_27sgMItNEd6ICpAXmDeg7g _27sgMYtNEd6ICpAXmDeg7g _27sgMotNEd6ICpAXmDeg7g _27tHQItNEd6ICpAXmDeg7g _27tHQYtNEd6ICpAXmDeg7g _27tHQotNEd6ICpAXmDeg7g _27tuUItNEd6ICpAXmDeg7g _27tuUYtNEd6ICpAXmDeg7g _27tuUotNEd6ICpAXmDeg7g _27uVYotNEd6ICpAXmDeg7g _27uVY4tNEd6ICpAXmDeg7g _27u8cItNEd6ICpAXmDeg7g _27u8cYtNEd6ICpAXmDeg7g _27u8cotNEd6ICpAXmDeg7g _27uVYItNEd6ICpAXmDeg7g _27uVYYtNEd6ICpAXmDeg7g _27u8dItNEd6ICpAXmDeg7g _27u8dYtNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_27sgMItNEd6ICpAXmDeg7g" name="Create Activity" guid="_27sgMItNEd6ICpAXmDeg7g" presentationName="Create an activity" superActivities="_27r5IItNEd6ICpAXmDeg7g" performedPrimarilyBy="_27uVYotNEd6ICpAXmDeg7g _27uVY4tNEd6ICpAXmDeg7g _27u8cItNEd6ICpAXmDeg7g _27u8cYtNEd6ICpAXmDeg7g _27u8cotNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_0g8e8D_0Ed6OCv3eGs9Gwg"/>
+        <selectedSteps href="uma://-bROjQLC0hhSqYyvU6UMqNQ#_NQGEgEYwEd6LIJ4mp_lkVg"/>
+        <selectedSteps href="uma://-bROjQLC0hhSqYyvU6UMqNQ#_LdwuwEYxEd6LIJ4mp_lkVg"/>
+        <selectedSteps href="uma://-WU3COW8zEVMtDUFXtyBUjA#_kfK9ED_3Ed6OCv3eGs9Gwg"/>
+        <selectedSteps href="uma://-WU3COW8zEVMtDUFXtyBUjA#_JBd7sEAAEd6CsaLEUcbP-Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_27sgMYtNEd6ICpAXmDeg7g" name="Create Annotation" guid="_27sgMYtNEd6ICpAXmDeg7g" presentationName="Create an annotation" superActivities="_27r5IItNEd6ICpAXmDeg7g" linkToPredecessor="_27vjg4tNEd6ICpAXmDeg7g" performedPrimarilyBy="_27uVYotNEd6ICpAXmDeg7g _27uVY4tNEd6ICpAXmDeg7g _27u8cItNEd6ICpAXmDeg7g _27u8cYtNEd6ICpAXmDeg7g _27u8cotNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_xseLoERnEd6rK5RiDPV2HA"/>
+        <selectedSteps href="uma://-yI22hw3TdbYX_GL4ch4m2A#_4b6HEEYzEd6LIJ4mp_lkVg"/>
+        <selectedSteps href="uma://-pqE3qamwO7WON-48WTclew#_JARtwEYzEd6LIJ4mp_lkVg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_27sgMotNEd6ICpAXmDeg7g" name="Create Artifact" guid="_27sgMotNEd6ICpAXmDeg7g" presentationName="Create an artifact" superActivities="_27r5IItNEd6ICpAXmDeg7g" linkToPredecessor="_27vjgotNEd6ICpAXmDeg7g" performedPrimarilyBy="_27uVYotNEd6ICpAXmDeg7g _27uVY4tNEd6ICpAXmDeg7g _27u8cItNEd6ICpAXmDeg7g _27u8cYtNEd6ICpAXmDeg7g _27u8cotNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_U6IXUD_2Ed6OCv3eGs9Gwg"/>
+        <selectedSteps href="uma://-pqE3qamwO7WON-48WTclew#_JARtwEYzEd6LIJ4mp_lkVg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_27tHQItNEd6ICpAXmDeg7g" name="Create End Event" guid="_27tHQItNEd6ICpAXmDeg7g" presentationName="Create an end event" superActivities="_27r5IItNEd6ICpAXmDeg7g" linkToPredecessor="_27vjgItNEd6ICpAXmDeg7g" performedPrimarilyBy="_27uVYotNEd6ICpAXmDeg7g _27uVY4tNEd6ICpAXmDeg7g _27u8cItNEd6ICpAXmDeg7g _27u8cYtNEd6ICpAXmDeg7g _27u8cotNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_XnMdUEl0Ed6Hx5Ue-mZZOA"/>
+        <selectedSteps href="uma://-1ZO28p630xkIn10bfTDKNw#_jiIagEoSEd6hxdrjXE4Gog"/>
+        <selectedSteps href="uma://-1ZO28p630xkIn10bfTDKNw#_uJR_YEoSEd6hxdrjXE4Gog"/>
+        <selectedSteps href="uma://-cFkG9lXWrpPW0zRNDH4eHg#_vw6CoEYvEd6LIJ4mp_lkVg"/>
+        <selectedSteps href="uma://-cFkG9lXWrpPW0zRNDH4eHg#_HnBjMEYwEd6LIJ4mp_lkVg"/>
+        <selectedSteps href="uma://-WU3COW8zEVMtDUFXtyBUjA#_kfK9ED_3Ed6OCv3eGs9Gwg"/>
+        <selectedSteps href="uma://-WU3COW8zEVMtDUFXtyBUjA#_JBd7sEAAEd6CsaLEUcbP-Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_27tHQYtNEd6ICpAXmDeg7g" name="Create Gateway" guid="_27tHQYtNEd6ICpAXmDeg7g" presentationName="Create a gateway" superActivities="_27r5IItNEd6ICpAXmDeg7g" performedPrimarilyBy="_27uVYotNEd6ICpAXmDeg7g _27uVY4tNEd6ICpAXmDeg7g _27u8cItNEd6ICpAXmDeg7g _27u8cYtNEd6ICpAXmDeg7g _27u8cotNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_ErhQID_1Ed6OCv3eGs9Gwg"/>
+        <selectedSteps href="uma://-yd2MOj4gXVHuS4aW7fozxg#_XLh9cEYxEd6LIJ4mp_lkVg"/>
+        <selectedSteps href="uma://-yd2MOj4gXVHuS4aW7fozxg#_bDyBYEYxEd6LIJ4mp_lkVg"/>
+        <selectedSteps href="uma://-WU3COW8zEVMtDUFXtyBUjA#_kfK9ED_3Ed6OCv3eGs9Gwg"/>
+        <selectedSteps href="uma://-WU3COW8zEVMtDUFXtyBUjA#_JBd7sEAAEd6CsaLEUcbP-Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_27tHQotNEd6ICpAXmDeg7g" name="Create Intermediate Event" guid="_27tHQotNEd6ICpAXmDeg7g" presentationName="Create an intermediate event" superActivities="_27r5IItNEd6ICpAXmDeg7g" performedPrimarilyBy="_27uVYotNEd6ICpAXmDeg7g _27uVY4tNEd6ICpAXmDeg7g _27u8cItNEd6ICpAXmDeg7g _27u8cYtNEd6ICpAXmDeg7g _27u8cotNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_qqN3wElzEd6Hx5Ue-mZZOA"/>
+        <selectedSteps href="uma://-Q-JOYN8JjGmU9qcg0y637g#_f2CxQEl4Ed6Hx5Ue-mZZOA"/>
+        <selectedSteps href="uma://-Q-JOYN8JjGmU9qcg0y637g#_LUk04EoTEd6hxdrjXE4Gog"/>
+        <selectedSteps href="uma://-cFkG9lXWrpPW0zRNDH4eHg#_vw6CoEYvEd6LIJ4mp_lkVg"/>
+        <selectedSteps href="uma://-cFkG9lXWrpPW0zRNDH4eHg#_HnBjMEYwEd6LIJ4mp_lkVg"/>
+        <selectedSteps href="uma://-WU3COW8zEVMtDUFXtyBUjA#_kfK9ED_3Ed6OCv3eGs9Gwg"/>
+        <selectedSteps href="uma://-WU3COW8zEVMtDUFXtyBUjA#_JBd7sEAAEd6CsaLEUcbP-Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_27tuUItNEd6ICpAXmDeg7g" name="Create Lane" guid="_27tuUItNEd6ICpAXmDeg7g" presentationName="Create a lane" superActivities="_27r5IItNEd6ICpAXmDeg7g" linkToPredecessor="_27u8c4tNEd6ICpAXmDeg7g _27vjgYtNEd6ICpAXmDeg7g" performedPrimarilyBy="_27uVYotNEd6ICpAXmDeg7g _27uVY4tNEd6ICpAXmDeg7g _27u8cItNEd6ICpAXmDeg7g _27u8cYtNEd6ICpAXmDeg7g _27u8cotNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_aAXisERnEd6rK5RiDPV2HA"/>
+        <selectedSteps href="uma://-uEWfYcU36lznZiw_neokjA#_vuaHAERoEd6rK5RiDPV2HA"/>
+        <selectedSteps href="uma://-uEWfYcU36lznZiw_neokjA#_2LZ_oERoEd6rK5RiDPV2HA"/>
+        <selectedSteps href="uma://-jnZNpWvmvcZMJVF6bywh1g#_uZb_gERlEd6rK5RiDPV2HA"/>
+        <selectedSteps href="uma://-jnZNpWvmvcZMJVF6bywh1g#_40PKcERlEd6rK5RiDPV2HA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_27tuUYtNEd6ICpAXmDeg7g" name="Create Message Flow" guid="_27tuUYtNEd6ICpAXmDeg7g" presentationName="Create a message flow" superActivities="_27r5IItNEd6ICpAXmDeg7g" performedPrimarilyBy="_27uVYotNEd6ICpAXmDeg7g _27uVY4tNEd6ICpAXmDeg7g _27u8cItNEd6ICpAXmDeg7g _27u8cYtNEd6ICpAXmDeg7g _27u8cotNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_b7BG8ERmEd6rK5RiDPV2HA"/>
+        <selectedSteps href="uma://-q7rAL4oqj81qJFLPrrzZfQ#_tDILkEYgEd6LIJ4mp_lkVg"/>
+        <selectedSteps href="uma://-q7rAL4oqj81qJFLPrrzZfQ#__l5jMEYgEd6LIJ4mp_lkVg"/>
+        <selectedSteps href="uma://-qc7liLS27iNQ48B96L6Aqg#_P3kYoERlEd6rK5RiDPV2HA"/>
+        <selectedSteps href="uma://-qc7liLS27iNQ48B96L6Aqg#_SMC8sERlEd6rK5RiDPV2HA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_27tuUotNEd6ICpAXmDeg7g" name="Create Pool" guid="_27tuUotNEd6ICpAXmDeg7g" presentationName="Create a pool" superActivities="_27r5IItNEd6ICpAXmDeg7g" performedPrimarilyBy="_27uVYotNEd6ICpAXmDeg7g _27uVY4tNEd6ICpAXmDeg7g _27u8cItNEd6ICpAXmDeg7g _27u8cYtNEd6ICpAXmDeg7g _27u8cotNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_XfsVsERnEd6rK5RiDPV2HA"/>
+        <selectedSteps href="uma://-i9_1AuMx-9hC6JOk6utMkQ#_FroowERoEd6rK5RiDPV2HA"/>
+        <selectedSteps href="uma://-i9_1AuMx-9hC6JOk6utMkQ#_QfLD0ERoEd6rK5RiDPV2HA"/>
+        <selectedSteps href="uma://-jnZNpWvmvcZMJVF6bywh1g#_uZb_gERlEd6rK5RiDPV2HA"/>
+        <selectedSteps href="uma://-jnZNpWvmvcZMJVF6bywh1g#_40PKcERlEd6rK5RiDPV2HA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_27uVYItNEd6ICpAXmDeg7g" name="Create Sequence Flow" guid="_27uVYItNEd6ICpAXmDeg7g" presentationName="Create a sequence flow" superActivities="_27r5IItNEd6ICpAXmDeg7g" performedPrimarilyBy="_27uVYotNEd6ICpAXmDeg7g _27uVY4tNEd6ICpAXmDeg7g _27u8cItNEd6ICpAXmDeg7g _27u8cYtNEd6ICpAXmDeg7g _27u8cotNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_Tx3OgERmEd6rK5RiDPV2HA"/>
+        <selectedSteps href="uma://-S3of54HfKm7aRsXxQOEzrQ#_oW__MEYWEd6LIJ4mp_lkVg"/>
+        <selectedSteps href="uma://-S3of54HfKm7aRsXxQOEzrQ#_svw5wEYXEd6LIJ4mp_lkVg"/>
+        <selectedSteps href="uma://-qc7liLS27iNQ48B96L6Aqg#_P3kYoERlEd6rK5RiDPV2HA"/>
+        <selectedSteps href="uma://-qc7liLS27iNQ48B96L6Aqg#_SMC8sERlEd6rK5RiDPV2HA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_27uVYYtNEd6ICpAXmDeg7g" name="Create Start Event" guid="_27uVYYtNEd6ICpAXmDeg7g" presentationName="Create a start Event" superActivities="_27r5IItNEd6ICpAXmDeg7g" performedPrimarilyBy="_27uVYotNEd6ICpAXmDeg7g _27uVY4tNEd6ICpAXmDeg7g _27u8cItNEd6ICpAXmDeg7g _27u8cYtNEd6ICpAXmDeg7g _27u8cotNEd6ICpAXmDeg7g">
+        <Task href="uma://__KzlEDvMEd6gtI8tb9yUjw#_sopQIElvEd6Hx5Ue-mZZOA"/>
+        <selectedSteps href="uma://-ey5oplR7PdGoY2j7iiLxGA#_DVK5IEl1Ed6Hx5Ue-mZZOA"/>
+        <selectedSteps href="uma://-ey5oplR7PdGoY2j7iiLxGA#_Zs1XUEl4Ed6Hx5Ue-mZZOA"/>
+        <selectedSteps href="uma://-cFkG9lXWrpPW0zRNDH4eHg#_vw6CoEYvEd6LIJ4mp_lkVg"/>
+        <selectedSteps href="uma://-cFkG9lXWrpPW0zRNDH4eHg#_HnBjMEYwEd6LIJ4mp_lkVg"/>
+        <selectedSteps href="uma://-WU3COW8zEVMtDUFXtyBUjA#_kfK9ED_3Ed6OCv3eGs9Gwg"/>
+        <selectedSteps href="uma://-WU3COW8zEVMtDUFXtyBUjA#_JBd7sEAAEd6CsaLEUcbP-Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_27uVYotNEd6ICpAXmDeg7g" name="Business Analyst" guid="_27uVYotNEd6ICpAXmDeg7g" presentationName="Business Analyst" isPlanned="false" superActivities="_27r5IItNEd6ICpAXmDeg7g">
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_5T2UoT_xEd6OCv3eGs9Gwg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_27uVY4tNEd6ICpAXmDeg7g" name="User" guid="_27uVY4tNEd6ICpAXmDeg7g" presentationName="User" isPlanned="false" superActivities="_27r5IItNEd6ICpAXmDeg7g">
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_5TsjsD_xEd6OCv3eGs9Gwg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_27u8cItNEd6ICpAXmDeg7g" name="Analyst" guid="_27u8cItNEd6ICpAXmDeg7g" presentationName="Analyst" isPlanned="false" superActivities="_27r5IItNEd6ICpAXmDeg7g">
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_rRVMQFUSEd6C1uTeH2AdkQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_27u8cYtNEd6ICpAXmDeg7g" name="Business_Process_Modeller" guid="_27u8cYtNEd6ICpAXmDeg7g" presentationName="Business Process Modeller" isPlanned="false" superActivities="_27r5IItNEd6ICpAXmDeg7g">
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_rRVzUFUSEd6C1uTeH2AdkQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_27u8cotNEd6ICpAXmDeg7g" name="Designer" guid="_27u8cotNEd6ICpAXmDeg7g" presentationName="Designer" isPlanned="false" superActivities="_27r5IItNEd6ICpAXmDeg7g">
+        <Role href="uma://__KzlEDvMEd6gtI8tb9yUjw#_rRVzUVUSEd6C1uTeH2AdkQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_27u8c4tNEd6ICpAXmDeg7g" guid="_27u8c4tNEd6ICpAXmDeg7g" pred="_27tuUotNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_27u8dItNEd6ICpAXmDeg7g" name="New Task Descriptor" guid="_27u8dItNEd6ICpAXmDeg7g" presentationName="Create an association" superActivities="_27r5IItNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_27u8dYtNEd6ICpAXmDeg7g" name="New Task Descriptor_2" guid="_27u8dYtNEd6ICpAXmDeg7g" presentationName="Create a sequence flow" superActivities="_27r5IItNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_27vjgItNEd6ICpAXmDeg7g" guid="_27vjgItNEd6ICpAXmDeg7g" pred="_27u8dYtNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_27vjgYtNEd6ICpAXmDeg7g" guid="_27vjgYtNEd6ICpAXmDeg7g" pred="_27tHQItNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_27vjgotNEd6ICpAXmDeg7g" guid="_27vjgotNEd6ICpAXmDeg7g" pred="_27u8dItNEd6ICpAXmDeg7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_27vjg4tNEd6ICpAXmDeg7g" guid="_27vjg4tNEd6ICpAXmDeg7g" pred="_27tuUYtNEd6ICpAXmDeg7g"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_M2kGwYi2Ed609piMjO-xvw" name="BPMN_modelling" guid="_M2kGwYi2Ed609piMjO-xvw" presentationName="Create a BPMN view" briefDescription="Creation of BPMN models" breakdownElements="_27r5IItNEd6ICpAXmDeg7g">
+      <presentation xmi:id="-guLphW-5AbWLo1B3gGPvOw" href="uma://-guLphW-5AbWLo1B3gGPvOw#-guLphW-5AbWLo1B3gGPvOw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-J_Wkkphu95pk3kkENQJ8Cw" name="new_term_definition,_2Ou94JylEeCb2cFFaexWpQ" guid="-J_Wkkphu95pk3kkENQJ8Cw">
+  <mainDescription>&lt;p>&#xD;
+    In human case work environments, tasks can be pretty complex. A complex task contains plan elements that define the&#xD;
+    detail of a complex work activity. Unlike a plan fragment, the boundary of a complex task has meaning in “run-time”:&#xD;
+    the complex task is instantiated and monitored as complex task element. When a complex task is enabled, any elements&#xD;
+    within it that are not enabled will become immediately executable. When there are no longer enabled and incomplete&#xD;
+    elements within the complex task, the complex task is complete. The elements within the complex task cannot be&#xD;
+    dependent on elements outside the boundary of the complex task.&lt;br />&#xD;
+    &lt;br />&#xD;
+    It will be quite common that a “primary” task comes along with additional detail to handle related actions such as&#xD;
+    interrupts, approvals, and “planned” planning tasks for follow-up planning.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

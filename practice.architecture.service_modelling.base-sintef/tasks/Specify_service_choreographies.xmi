@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-CZFVngSJ-Xlykua-q4BSmg" name="Define_service_interface_behaviour,_Xt2qYCasEd-W88dSHyarAQ" guid="-CZFVngSJ-Xlykua-q4BSmg" authors="Brian Elvesæter (SINTEF), Cyril Carrez (SINTEF), Svein G. Johnsen (SINTEF)" changeDate="2010-05-11T11:14:56.695+0200" changeDescription="0.4: Revised description according to SoaML methodology book chapter.|0.3: Updated steps.|0.2: Revised and aligned with new set of work products defined in the framework library.|0.1: Initial outline." version="0.4">
+  <mainDescription>&lt;p align=&quot;left&quot;>&#xD;
+    The behaviour of a service interface expresses the expected interaction between the consumers and providers of&#xD;
+    services. It can be specified as any UML behavior, the most common ones being activity, interaction or state machine.&#xD;
+    In the modelling steps below we outline the use of interactions in the form of sequence diagrams.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_Xt2qYyasEd-W88dSHyarAQ" name="0. Define package structure." guid="_Xt2qYyasEd-W88dSHyarAQ">
+    <sectionDescription>&lt;p>&#xD;
+    It is advisable to organize complex Service Interfaces in separate UML Packages. Create an UML Package that will be&#xD;
+    used for the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Specification of the ServiceInterface.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specification of the MessageTypes for the ServiceInterface.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specification of the DataTypes for the ServiceInterface.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Placeholder for&amp;nbsp;Service Interface Diagram for the ServiceInterface.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Placeholder for the Information Diagram for the MessageType structure for the ServiceInterface.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_Xt2qYSasEd-W88dSHyarAQ" name="1. Create a service interface behaviour diagram." guid="_Xt2qYSasEd-W88dSHyarAQ">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    The behaviour of the service interface can be described using a UML sequence diagram. Create an interaction diagram to&#xD;
+    model the sequence of the service choreography.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Xt2qYiasEd-W88dSHyarAQ" name="2. Define the service choreography between the interfaces." guid="_Xt2qYiasEd-W88dSHyarAQ">
+    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
+    Define the message sequence between the consumer and provider and interfaces. The sequence should be linked to&#xD;
+    operations defined in the interfaces. The modelling of the service choreography is an iterative process that is link to&#xD;
+    revising the interfaces and messages. Iterate this process of modelling steps until a complete service choreography can&#xD;
+    be specified.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To&amp;nbsp;specify the service interface behaviour.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

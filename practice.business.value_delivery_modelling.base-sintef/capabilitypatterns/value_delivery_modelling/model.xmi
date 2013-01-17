@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_d6o8YKDNEeCXF5ZuS3W32Q" guid="_d6o8YKDNEeCXF5ZuS3W32Q">
+    <resourceDescriptors xmi:id="_d6o8YaDNEeCXF5ZuS3W32Q" id="-bVCQ91Z3gCZlDZwLmzIQog" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_qaIdgKF-EeCKTcfDSRMRtw" id="-qaK6rChyNLoQWKgHOEm44A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ui2tkCf2EeKbT_45B08XTA" id="-apSJEVto_SgzXMACq46X2w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ui3UoCf2EeKbT_45B08XTA" id="-iP43Rqow3jFnSZLRXdUWDw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ui4iwCf2EeKbT_45B08XTA" id="-XhuQgAQzS8AvjEo8ebVveg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ui5J0Cf2EeKbT_45B08XTA" id="-pSawUCIT4iZnLV-zzTCg8g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ui6X8Cf2EeKbT_45B08XTA" id="-MeTfm0-1sQBd4F1k2woeDw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ui6_ACf2EeKbT_45B08XTA" id="-vIJAYAsIg3WZ1DqOUuqimA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ui7mECf2EeKbT_45B08XTA" id="-ZK5l7hqTOA6kM6CFgos6KQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_BP6TUCy9EeKelu-xAJGrzw" id="-2TeINdbbPPQg7CQdd-Sjpw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_d6CfcKDNEeCXF5ZuS3W32Q" name="value_delivery_modelling" guid="_d6CfcKDNEeCXF5ZuS3W32Q">
+    <methodElementProperty xmi:id="_ui04YCf2EeKbT_45B08XTA" name="me_edited" value="true"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_lRg94KF-EeCKTcfDSRMRtw" name="define_value_delivery_model" guid="_lRg94KF-EeCKTcfDSRMRtw" presentationName="Define Value Delivery Model" briefDescription="This task describes to define and organize a Value Delivery Model." superActivities="_d6CfcaDNEeCXF5ZuS3W32Q">
+      <methodElementProperty xmi:id="_oFhdwCf2EeKbT_45B08XTA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-apSJEVto_SgzXMACq46X2w" href="uma://-bVCQ91Z3gCZlDZwLmzIQog#-apSJEVto_SgzXMACq46X2w"/>
+      <toolmentor href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_DK8DwCdmEeKDGNEPRzZzCg"/>
+      <Task href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_Kden0KDHEeCXF5ZuS3W32Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sj0OACf2EeKbT_45B08XTA" name="define_activities" guid="_sj0OACf2EeKbT_45B08XTA" presentationName="Define activities" briefDescription="This task provides guidance on how to define activities using VDML." superActivities="_d6CfcaDNEeCXF5ZuS3W32Q" linkToPredecessor="_BpdLACf3EeKbT_45B08XTA" output="_snraUCf2EeKbT_45B08XTA">
+      <methodElementProperty xmi:id="_soB_oCf2EeKbT_45B08XTA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-iP43Rqow3jFnSZLRXdUWDw" href="uma://-bVCQ91Z3gCZlDZwLmzIQog#-iP43Rqow3jFnSZLRXdUWDw"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_jPtH8Cc-EeKDGNEPRzZzCg"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_qG0SACf0EeKbT_45B08XTA"/>
+      <toolmentor href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_DK8DwCdmEeKDGNEPRzZzCg"/>
+      <Task href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_LaleYCdpEeKDGNEPRzZzCg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sj0OASf2EeKbT_45B08XTA" name="define_business_network_and_collaboration" guid="_sj0OASf2EeKbT_45B08XTA" presentationName="Define business network and collaboration" briefDescription="This task provides guidance on how to define business network and collaboration using VDML." superActivities="_d6CfcaDNEeCXF5ZuS3W32Q" linkToPredecessor="_CmFyYCf3EeKbT_45B08XTA" output="_snraUif2EeKbT_45B08XTA">
+      <methodElementProperty xmi:id="_soFC8Cf2EeKbT_45B08XTA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-XhuQgAQzS8AvjEo8ebVveg" href="uma://-bVCQ91Z3gCZlDZwLmzIQog#-XhuQgAQzS8AvjEo8ebVveg"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_jPtH8Cc-EeKDGNEPRzZzCg"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_yEQCoCf0EeKbT_45B08XTA"/>
+      <toolmentor href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_DK8DwCdmEeKDGNEPRzZzCg"/>
+      <Task href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_ddF78Cf1EeKbT_45B08XTA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sj0OAif2EeKbT_45B08XTA" name="define_organizations_and_capabilities" guid="_sj0OAif2EeKbT_45B08XTA" presentationName="Define organizations and capabilities" briefDescription="This task provides guidance on how to define organizations and capabilities using VDML." superActivities="_d6CfcaDNEeCXF5ZuS3W32Q" linkToPredecessor="_EmMo8Cf3EeKbT_45B08XTA" output="_snraUif2EeKbT_45B08XTA">
+      <methodElementProperty xmi:id="_soHfMCf2EeKbT_45B08XTA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-pSawUCIT4iZnLV-zzTCg8g" href="uma://-bVCQ91Z3gCZlDZwLmzIQog#-pSawUCIT4iZnLV-zzTCg8g"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_jPtH8Cc-EeKDGNEPRzZzCg"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_4l0SMCf0EeKbT_45B08XTA"/>
+      <toolmentor href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_DK8DwCdmEeKDGNEPRzZzCg"/>
+      <Task href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_9S528Cf1EeKbT_45B08XTA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sj0OAyf2EeKbT_45B08XTA" name="define_value" guid="_sj0OAyf2EeKbT_45B08XTA" presentationName="Define values" briefDescription="This task provides guidance on how to define business values in VDML." superActivities="_d6CfcaDNEeCXF5ZuS3W32Q" linkToPredecessor="_GTi7kCf3EeKbT_45B08XTA" output="_snsBYCf2EeKbT_45B08XTA">
+      <methodElementProperty xmi:id="_soJUYCf2EeKbT_45B08XTA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-MeTfm0-1sQBd4F1k2woeDw" href="uma://-bVCQ91Z3gCZlDZwLmzIQog#-MeTfm0-1sQBd4F1k2woeDw"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_jPtH8Cc-EeKDGNEPRzZzCg"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_9YYCQCf0EeKbT_45B08XTA"/>
+      <toolmentor href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_DK8DwCdmEeKDGNEPRzZzCg"/>
+      <Task href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_B5gOoCf2EeKbT_45B08XTA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_snraUCf2EeKbT_45B08XTA" name="activities" guid="_snraUCf2EeKbT_45B08XTA" presentationName="Activities" briefDescription="This work product describes the activities." isPlanned="false" superActivities="_d6CfcaDNEeCXF5ZuS3W32Q">
+      <methodElementProperty xmi:id="_snraUSf2EeKbT_45B08XTA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_soDNwCf2EeKbT_45B08XTA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-vIJAYAsIg3WZ1DqOUuqimA" href="uma://-bVCQ91Z3gCZlDZwLmzIQog#-vIJAYAsIg3WZ1DqOUuqimA"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_jPtH8Cc-EeKDGNEPRzZzCg"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_qG0SACf0EeKbT_45B08XTA"/>
+      <WorkProduct href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_GZZHUKDHEeCXF5ZuS3W32Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_snraUif2EeKbT_45B08XTA" name="organizations_and_capabilities" guid="_snraUif2EeKbT_45B08XTA" presentationName="Organizations and capabilities" briefDescription="This work product describes the organizations and capabilities." isPlanned="false" superActivities="_d6CfcaDNEeCXF5ZuS3W32Q">
+      <methodElementProperty xmi:id="_snraUyf2EeKbT_45B08XTA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_soFqACf2EeKbT_45B08XTA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-2TeINdbbPPQg7CQdd-Sjpw" href="uma://-bVCQ91Z3gCZlDZwLmzIQog#-2TeINdbbPPQg7CQdd-Sjpw"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_jPtH8Cc-EeKDGNEPRzZzCg"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_4l0SMCf0EeKbT_45B08XTA"/>
+      <WorkProduct href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_IknhYCdqEeKDGNEPRzZzCg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_snsBYCf2EeKbT_45B08XTA" name="value" guid="_snsBYCf2EeKbT_45B08XTA" presentationName="Value" briefDescription="This work product describes the business values." isPlanned="false" superActivities="_d6CfcaDNEeCXF5ZuS3W32Q">
+      <methodElementProperty xmi:id="_snsBYSf2EeKbT_45B08XTA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_soKigCf2EeKbT_45B08XTA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-ZK5l7hqTOA6kM6CFgos6KQ" href="uma://-bVCQ91Z3gCZlDZwLmzIQog#-ZK5l7hqTOA6kM6CFgos6KQ"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_jPtH8Cc-EeKDGNEPRzZzCg"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_9YYCQCf0EeKbT_45B08XTA"/>
+      <WorkProduct href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_NoCX8CdqEeKDGNEPRzZzCg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_BpdLACf3EeKbT_45B08XTA" guid="_BpdLACf3EeKbT_45B08XTA" pred="_lRg94KF-EeCKTcfDSRMRtw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_CmFyYCf3EeKbT_45B08XTA" guid="_CmFyYCf3EeKbT_45B08XTA" pred="_lRg94KF-EeCKTcfDSRMRtw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_EmMo8Cf3EeKbT_45B08XTA" guid="_EmMo8Cf3EeKbT_45B08XTA" pred="_lRg94KF-EeCKTcfDSRMRtw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_GTi7kCf3EeKbT_45B08XTA" guid="_GTi7kCf3EeKbT_45B08XTA" pred="_lRg94KF-EeCKTcfDSRMRtw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ZHS-BCyjEeKelu-xAJGrzw" name="value_delivery_model" guid="_ZHS-BCyjEeKelu-xAJGrzw" presentationName="Value Delivery Model" briefDescription="This work product supports business analysis and design based on evaluation of performance and stakeholder satisfaction achieved through the activities and interactions of people and organizations using business capabilities to apply resources and deliver stakeholder values." isPlanned="false" superActivities="_d6CfcaDNEeCXF5ZuS3W32Q" deliverableParts="_snraUCf2EeKbT_45B08XTA _ZHS-ByyjEeKelu-xAJGrzw _snraUif2EeKbT_45B08XTA _snsBYCf2EeKbT_45B08XTA">
+      <methodElementProperty xmi:id="_ZHS-BSyjEeKelu-xAJGrzw" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_ZHS-CSyjEeKelu-xAJGrzw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_jPtH8Cc-EeKDGNEPRzZzCg"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_o6nO4JzFEeCb2cFFaexWpQ"/>
+      <guidelines href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_ArccwMKXEeCQKuG3dPvCNA"/>
+      <WorkProduct href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_ttDGkMEiEeGgb_xjjvFwfg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ZHS-ByyjEeKelu-xAJGrzw" name="business_network_and_collaboration" guid="_ZHS-ByyjEeKelu-xAJGrzw" presentationName="Business network and collaboration" briefDescription="This work product describes the business network and collaboration." isPlanned="false">
+      <methodElementProperty xmi:id="_ZHS-CCyjEeKelu-xAJGrzw" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_ZHS-CiyjEeKelu-xAJGrzw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_jPtH8Cc-EeKDGNEPRzZzCg"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_yEQCoCf0EeKbT_45B08XTA"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_CEkZIJwGEeCxNIYmmT7D_A"/>
+      <examples href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_TL76wJyrEeCb2cFFaexWpQ"/>
+      <WorkProduct href="uma://_Ocn6IJdUEeCYIKpsva4R0w#_FMdSwCdqEeKDGNEPRzZzCg"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_d6CfcaDNEeCXF5ZuS3W32Q" name="value_delivery_modelling" guid="_d6CfcaDNEeCXF5ZuS3W32Q" presentationName="Value delivery modelling" breakdownElements="_lRg94KF-EeCKTcfDSRMRtw _sj0OASf2EeKbT_45B08XTA _sj0OAif2EeKbT_45B08XTA _sj0OACf2EeKbT_45B08XTA _sj0OAyf2EeKbT_45B08XTA _snraUCf2EeKbT_45B08XTA _snraUif2EeKbT_45B08XTA _snsBYCf2EeKbT_45B08XTA _ZHS-BCyjEeKelu-xAJGrzw">
+      <presentation xmi:id="-bVCQ91Z3gCZlDZwLmzIQog" href="uma://-bVCQ91Z3gCZlDZwLmzIQog#-bVCQ91Z3gCZlDZwLmzIQog"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_yzyZsKDGEeCXF5ZuS3W32Q"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_yzyZsKDGEeCXF5ZuS3W32Q"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

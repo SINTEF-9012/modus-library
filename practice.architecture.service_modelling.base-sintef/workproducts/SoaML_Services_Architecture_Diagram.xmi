@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-lurta_gntET__a0H5T73xA" name="SoaML_Services_Architecture_Diagram,_fUnAMFw9Ed-W_augd5EN6g" guid="-lurta_gntET__a0H5T73xA" authors="Marisa Escalante (ESI), Brian Elvesæter (SINTEF)" changeDate="2010-05-10T16:14:15.846+0200" changeDescription="0.3: Name changed to align with SoaML diagram types in Modelio.|0.2: Updated descriptions.|0.1: Initial outline." version="0.3">
+  <mainDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+    &lt;span lang=&quot;EN-GB&quot;>Component diagram that describes structure (i.e. static) of a participant architecture.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+    &lt;span lang=&quot;EN-GB&quot;>A services architecture has components at two levels of granularity: The &lt;i&#xD;
+    style=&quot;mso-bidi-font-style: normal&quot;>community&lt;/i> services architecture is a “top level” view of how independent&#xD;
+    participants work together for some purpose.&lt;span style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> The services architecture of&#xD;
+    a community does not assume or require any one controlling entity or process.&lt;span&#xD;
+    style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> The services architecture of a community is modelled as collaboration&#xD;
+    stereotyped as &amp;lt;&amp;lt;ServicesArchitecture&amp;gt;&amp;gt;.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+    &lt;span lang=&quot;EN-GB&quot;>A participant may also have services architecture – one that shows how parts of that participant&#xD;
+    (e.g., departments within an organization) work together to provide the services of the owning participant.&lt;span&#xD;
+    style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> The services architecture of a participant is shown as a UML structured class&#xD;
+    or component with the &amp;lt;&amp;lt;ParticipantArchitecture&amp;gt;&amp;gt; stereotype and frequently has an associated business&#xD;
+    process.&lt;/span>&#xD;
+&lt;/p></mainDescription>
+  <purpose>&lt;span lang=&quot;EN-GB&quot;&#xD;
+style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-GB; mso-fareast-language: NO-BOK; mso-bidi-language: AR-SA&quot;>The&#xD;
+purpose of&amp;nbsp; SoaML organisation diagram is to illustrate how kinds of entities work together for some purpose.&#xD;
+Collaborations are based on the concepts of roles to define how entities are involved in that collaboration (how and why&#xD;
+they collaborate) without depending on what kind of entity is involved (e.g. a person, organization or&#xD;
+system).&amp;nbsp;&lt;/span></purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

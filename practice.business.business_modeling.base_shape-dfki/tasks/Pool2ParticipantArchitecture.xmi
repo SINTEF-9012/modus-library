@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-t4AYnVEXgtV3M6VxfBl5nQ" name=",_qSN6cJ4VEd6s7YgGIghgTQ" guid="-t4AYnVEXgtV3M6VxfBl5nQ" changeDate="2009-09-10T16:33:30.103+0200">
+  <mainDescription>The method defines the procedure for mapping BPMN pools to SoaML participant architectures</mainDescription>
+  <sections xmi:id="_fktLQKXeEd6p78icYoDlvw" name="Create new Pool" guid="_fktLQKXeEd6p78icYoDlvw">
+    <sectionDescription>Choose the&amp;nbsp;Pool element out of the toolbar and place it into your diagram.</sectionDescription>
+  </sections>
+  <sections xmi:id="_gVmcsKXeEd6p78icYoDlvw" name="Generate SoaML model" guid="_gVmcsKXeEd6p78icYoDlvw">
+    <sectionDescription>&lt;p class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+    &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Map BPMN model elements to SoaML&#xD;
+    model elements using the following mapping rules:&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+            &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Pool (in BPMN)&#xD;
+            to&amp;nbsp;Participant (in SoaML)&lt;/span>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+            &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Message flow (in BPMN)&#xD;
+            to&amp;nbsp;Services provider and services requestor (in SoaML)&lt;/span>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+            &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Activities (in BPMN)&#xD;
+            to&amp;nbsp;Ports and interfaces (in SoaML)&lt;/span>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+            &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Sub-process elements (in&#xD;
+            BPMN) to&amp;nbsp;Operations (in SoaML)&lt;br />&#xD;
+            &lt;/span>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_iEbWkNxcEd-LYKXkOhPACw" guid="_iEbWkNxcEd-LYKXkOhPACw">
+    <resourceDescriptors xmi:id="_IN9BYebcEd-Eut7DiqIzBA" id="-ONoDcdELkjQ45da7G9qeuA" uri="disciplines/business_modelling_discipline.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_iESMoNxcEd-LYKXkOhPACw" name="core.default.cat_def.extend_mdse-sintef" guid="_iESMoNxcEd-LYKXkOhPACw" briefDescription="This plugin contains the default Disciplines and Domains for Model-Driven Software Engineering (MDSE)." authors="Brian Elvesæter (SINTEF)" changeDate="2010-10-28T14:48:02.732+0200">
+    <methodElementProperty xmi:id="_iEbWktxcEd-LYKXkOhPACw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iESModxcEd-LYKXkOhPACw" name="Content" guid="_iESModxcEd-LYKXkOhPACw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iESMotxcEd-LYKXkOhPACw" name="Categories" guid="_iESMotxcEd-LYKXkOhPACw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iESMo9xcEd-LYKXkOhPACw" name="Domains" guid="_iESMo9xcEd-LYKXkOhPACw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_JQuH8N0CEd-xB8a51ZHHaA" name="architecture_modelling_domain" guid="_JQuH8N0CEd-xB8a51ZHHaA" presentationName="Architecture modelling" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_MRPloEFXEdy9ENCpSugIjA#_1r0bcK80Edy9cPK11VzBuQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_SgtFkN0CEd-xB8a51ZHHaA" name="business_modelling_domain" guid="_SgtFkN0CEd-xB8a51ZHHaA" presentationName="Business modelling" briefDescription="This is the list of work products related to the Business modelling domain."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_UhZyAN0CEd-xB8a51ZHHaA" name="requirements_modelling_domain" guid="_UhZyAN0CEd-xB8a51ZHHaA" presentationName="Requirements modelling" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_MRPloEFXEdy9ENCpSugIjA#_AIcLUK81Edy9cPK11VzBuQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_ftny0N0CEd-xB8a51ZHHaA" name="project_management_domain" guid="_ftny0N0CEd-xB8a51ZHHaA" presentationName="Project management" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_MRPloEFXEdy9ENCpSugIjA#_8M6J4K80Edy9cPK11VzBuQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_VsxF4OEIEd-QcdsL5iaWCQ" name="testing_domain" guid="_VsxF4OEIEd-QcdsL5iaWCQ" presentationName="Testing" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_MRPloEFXEdy9ENCpSugIjA#_CsgDgK81Edy9cPK11VzBuQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_Xa8e8OEIEd-QcdsL5iaWCQ" name="configuration_and_change_management_domain" guid="_Xa8e8OEIEd-QcdsL5iaWCQ" presentationName="Configuration and change management"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_gltlYOEIEd-QcdsL5iaWCQ" name="environment_domain" guid="_gltlYOEIEd-QcdsL5iaWCQ" presentationName="Environment" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_MRPloEFXEdy9ENCpSugIjA#_Fpj0ALrUEd-0rKmWr1vEGQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_kv-mYOEIEd-QcdsL5iaWCQ" name="platform_realization_domain" guid="_kv-mYOEIEd-QcdsL5iaWCQ" presentationName="Platform realization" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_MRPloEFXEdy9ENCpSugIjA#_5JQLoK80Edy9cPK11VzBuQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iESMpNxcEd-LYKXkOhPACw" name="Disciplines" guid="_iESMpNxcEd-LYKXkOhPACw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_-ftccN0BEd-xB8a51ZHHaA" name="business_modelling_discipline" guid="_-ftccN0BEd-xB8a51ZHHaA" presentationName="Business modelling" briefDescription="This discipline focuses on understanding the business and providing information for developing a system that satisfies business goals.">
+            <presentation xmi:id="-ONoDcdELkjQ45da7G9qeuA" href="uma://-ONoDcdELkjQ45da7G9qeuA#-ONoDcdELkjQ45da7G9qeuA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_C-RScN0CEd-xB8a51ZHHaA" name="requirements_modelling_discipline" guid="_C-RScN0CEd-xB8a51ZHHaA" presentationName="Requirements modelling" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_MRPloEFXEdy9ENCpSugIjA#_iGSHtVZ-EdyIUdvDLLUdeg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_Fx_-UN0CEd-xB8a51ZHHaA" name="architecture_modelling_discipline" guid="_Fx_-UN0CEd-xB8a51ZHHaA" presentationName="Architecture modelling" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_MRPloEFXEdy9ENCpSugIjA#_iGSHsFZ-EdyIUdvDLLUdeg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_coCh8N0CEd-xB8a51ZHHaA" name="project_management_discipline" guid="_coCh8N0CEd-xB8a51ZHHaA" presentationName="Project management" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_MRPloEFXEdy9ENCpSugIjA#_iGSHtFZ-EdyIUdvDLLUdeg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_J3wmwOEIEd-QcdsL5iaWCQ" name="platform_realization_discipline" guid="_J3wmwOEIEd-QcdsL5iaWCQ" presentationName="Platform realization" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_MRPloEFXEdy9ENCpSugIjA#_iGSHsVZ-EdyIUdvDLLUdeg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_NUArMOEIEd-QcdsL5iaWCQ" name="testing_discipline" guid="_NUArMOEIEd-QcdsL5iaWCQ" presentationName="Testing" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_MRPloEFXEdy9ENCpSugIjA#_iGSHtlZ-EdyIUdvDLLUdeg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_QLFmAOEIEd-QcdsL5iaWCQ" name="configuration_and_change_management_discipline" guid="_QLFmAOEIEd-QcdsL5iaWCQ" presentationName="Configuration and change management"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_T0t_IOEIEd-QcdsL5iaWCQ" name="environment_discipline" guid="_T0t_IOEIEd-QcdsL5iaWCQ" presentationName="Environment" variabilityType="extendsReplaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_MRPloEFXEdy9ENCpSugIjA#_qtv_gLtwEd-0rKmWr1vEGQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iESMpdxcEd-LYKXkOhPACw" name="RoleSets" guid="_iESMpdxcEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iESMptxcEd-LYKXkOhPACw" name="WP Types" guid="_iESMptxcEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iESMp9xcEd-LYKXkOhPACw" name="Tools" guid="_iESMp9xcEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iESMqNxcEd-LYKXkOhPACw" name="StandardCategories" guid="_iESMqNxcEd-LYKXkOhPACw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iESMqdxcEd-LYKXkOhPACw" name="CustomCategories" guid="_iESMqdxcEd-LYKXkOhPACw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iESMqtxcEd-LYKXkOhPACw" name="Hidden" guid="_iESMqtxcEd-LYKXkOhPACw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_iESMq9xcEd-LYKXkOhPACw" name="Custom Categories" guid="_iESMq9xcEd-LYKXkOhPACw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iESMrNxcEd-LYKXkOhPACw" name="CoreContent" guid="_iESMrNxcEd-LYKXkOhPACw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_DTAuEOENEd-QcdsL5iaWCQ" name="mdse_deliverables" guid="_DTAuEOENEd-QcdsL5iaWCQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_DETUsOGyEd-AyrTFSpVP8g" name="business_model" guid="_DETUsOGyEd-AyrTFSpVP8g" presentationName="Business model"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_vIqTYOG2Ed-AyrTFSpVP8g" name="architecture_model" guid="_vIqTYOG2Ed-AyrTFSpVP8g" presentationName="Architecture model"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_yZo78OG2Ed-AyrTFSpVP8g" name="platform_realization_model" guid="_yZo78OG2Ed-AyrTFSpVP8g" presentationName="Platform realization model"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_2t4YUOG2Ed-AyrTFSpVP8g" name="requirements_model" guid="_2t4YUOG2Ed-AyrTFSpVP8g" presentationName="Requirements model"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_iESMrdxcEd-LYKXkOhPACw" name="CapabilityPatterns" guid="_iESMrdxcEd-LYKXkOhPACw"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_iESMrtxcEd-LYKXkOhPACw" name="DeliveryProcesses" guid="_iESMrtxcEd-LYKXkOhPACw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_iESMr9xcEd-LYKXkOhPACw" name="ProcessContributions" guid="_iESMr9xcEd-LYKXkOhPACw"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_MRPloEFXEdy9ENCpSugIjA#_MRPloEFXEdy9ENCpSugIjA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

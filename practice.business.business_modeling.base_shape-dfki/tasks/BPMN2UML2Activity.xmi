@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-YheeIESA5fm5hhfkiRapog" name=",_rxD64EMEEd-jmMkKIL7cjw" guid="-YheeIESA5fm5hhfkiRapog" authors="Dima Panfilenko (DFKI IWi)" changeDate="2010-04-08T13:51:14.046+0200" version="0.1">
+  <copyrightStatement href="uma://_kwazABFxEd6C2PqX2OSy5A#_Fo1qgDpDEd6TnIgyHPSV-Q"/>
+  <mainDescription>&lt;p>&#xD;
+    This method defines the guided procedure for mapping BPMN to UML2 activity&amp;nbsp;constructs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is an automated tool which transforms your&amp;nbsp;BPMN input model to a&amp;nbsp;UML2 output model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See the Steps page for detailled constructs.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_6I-wwEMGEd-jmMkKIL7cjw" name="1. Define BPMN Process model" guid="_6I-wwEMGEd-jmMkKIL7cjw"/>
+  <sections xmi:id="_78wbgEMGEd-jmMkKIL7cjw" name="2. Map BPMN process constructs to UML2 activity constructs" guid="_78wbgEMGEd-jmMkKIL7cjw">
+    <sectionDescription>&lt;p class=&quot;MsoBodyText&quot; style=&quot;MARGIN: 0cm 0cm 6pt&quot;>&#xD;
+    &lt;span lang=&quot;EN-GB&quot; style=&quot;mso-bidi-font-size: 10.0pt; mso-bidi-font-weight: bold&quot;>Map BPMN model elements to UML2&#xD;
+    activity model elements using the mapping rules for the process transformation&lt;/span>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_AiwWQEMHEd-jmMkKIL7cjw" name="3. Refine resulting UML2 activity model" guid="_AiwWQEMHEd-jmMkKIL7cjw">
+    <sectionDescription>After you have&amp;nbsp;performed the mapping you have an initial UML2 activity model. This model&amp;nbsp;should be further&#xD;
+revised&amp;nbsp;using the defined guidelines for SoaML modelling.</sectionDescription>
+  </sections>
+  <keyConsiderations>CIM2PIM transformation</keyConsiderations>
+  <purpose>To derive an initial&amp;nbsp;UML2 activity&amp;nbsp;model from a BPMN&amp;nbsp;model.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_8gxjQEznEeGzDcGxpv78iw" guid="_8gxjQEznEeGzDcGxpv78iw">
+    <subManagers xmi:id="_PbukcFGVEeGhK6PCw6rfMg" href="uma://_PbZ0UFGVEeGhK6PCw6rfMg#_PbukcFGVEeGhK6PCw6rfMg"/>
+    <resourceDescriptors xmi:id="_J4ub0EzoEeGzDcGxpv78iw" id="-W82Sx-O-dFg_CggqbEkOvQ" uri="guidances/roadmaps/how_to_adopt_business_value_analysis.xmi"/>
+    <resourceDescriptors xmi:id="_kLuRsEzsEeGzDcGxpv78iw" id="-uvdFns34bGq0BaSdrsqXGg" uri="guidances/supportingmaterials/release_info_business_value_analysis.xmi"/>
+    <resourceDescriptors xmi:id="_ErZsQUzxEeGzDcGxpv78iw" id="-GZE99qc5nUZFBax9STQk4g" uri="workproducts/business_value_analysis_result.xmi"/>
+    <resourceDescriptors xmi:id="_SoNlYUzxEeGzDcGxpv78iw" id="-r6O1-aWHtchestBm8QvfDw" uri="tasks/perform_business_value_analysis.xmi"/>
+    <resourceDescriptors xmi:id="_PbbpgFGVEeGhK6PCw6rfMg" id="_PbZ0UFGVEeGhK6PCw6rfMg" uri="capabilitypatterns/business_value_analysis_workflow/model.xmi"/>
+    <resourceDescriptors xmi:id="_SqWVMFGYEeGhK6PCw6rfMg" id="-HFXfXH--cftccND3BYux1g" uri="guidances/practices/business_value_analysis.xmi"/>
+    <resourceDescriptors xmi:id="_uKUDcFMbEeGmntP9zKVTFw" id="-3KEq363h7B-ISDx_Ch-_fQ" uri="guidances/supportingmaterials/references.business_value_analysis.xmi"/>
+    <resourceDescriptors xmi:id="_uKV4oFMbEeGmntP9zKVTFw" id="-nzmOLZRDxCg9IIVrDTX-JA" uri="guidances/examples/business_value_analysis_example.xmi"/>
+    <resourceDescriptors xmi:id="_9YowkKp3EeGMEOeN2faruQ" id="-Ir4ngc76cth0R2iB0vj8xA" uri="workproducts/value_flow_model.xmi"/>
+    <resourceDescriptors xmi:id="_XAFE0Kp4EeGMEOeN2faruQ" id="-4uG0lTXHVsdpcqXub_1Nxg" uri="guidances/guidelines/table_of_measures.xmi"/>
+    <resourceDescriptors xmi:id="_hE4KkKp4EeGMEOeN2faruQ" id="-5SxpV3p_TKvGPBegL04tXA" uri="tasks/visualize_the_value_network.xmi"/>
+    <resourceDescriptors xmi:id="_xLhdICzREeKtGPioRDeGQg" id="-Qic18FHQV6nrKSJEGwh6lQ" uri="tasks/describe_deliverables_flow.xmi"/>
+    <resourceDescriptors xmi:id="_Ef-zkSzWEeKtGPioRDeGQg" id="-CcssDhB9PdLacXf1cqGUhQ" uri="guidances/examples/agr_flow_diagram.xmi"/>
+    <resourceDescriptors xmi:id="_FFDkoCzYEeKtGPioRDeGQg" id="-e_DrcRfXsXxct5580puPGw" uri="guidances/examples/agr_deliverables_flow.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_8gqOgEznEeGzDcGxpv78iw" name="practice.business.business_value_analysis.base-sintef" guid="_8gqOgEznEeGzDcGxpv78iw" briefDescription="This plugin contains the base Business value analysis practice." authors="Brian Elvesæter (SINTEF)" changeDate="2012-11-12T14:32:43.379+0100">
+    <methodElementProperty xmi:id="_8gxjQkznEeGzDcGxpv78iw" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_uxKUoCjNEeKP8re6oHh3mg" name="me_edited" value="true"/>
+    <copyrightStatement href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8gqOgUznEeGzDcGxpv78iw" name="Content" guid="_8gqOgUznEeGzDcGxpv78iw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8gqOgkznEeGzDcGxpv78iw" name="Categories" guid="_8gqOgkznEeGzDcGxpv78iw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8gqOg0znEeGzDcGxpv78iw" name="Domains" guid="_8gqOg0znEeGzDcGxpv78iw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_FWWjMEzwEeGzDcGxpv78iw" name="networked_business_value_analysis_domain.assign" guid="_FWWjMEzwEeGzDcGxpv78iw" variabilityType="contributes" workProducts="_hxw7MKp3EeGMEOeN2faruQ">
+            <methodElementProperty xmi:id="_ZvZQQCzZEeKtGPioRDeGQg" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_254_UCdZEeKDGNEPRzZzCg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8gqOhEznEeGzDcGxpv78iw" name="Disciplines" guid="_8gqOhEznEeGzDcGxpv78iw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_DsgQgEzwEeGzDcGxpv78iw" name="networked_business_value_analysis_discipline.assign" guid="_DsgQgEzwEeGzDcGxpv78iw" variabilityType="contributes" tasks="_tdS34CzREeKtGPioRDeGQg _PBwcEEzxEeGzDcGxpv78iw _beiNIKp4EeGMEOeN2faruQ">
+            <methodElementProperty xmi:id="_D5dHYEzwEeGzDcGxpv78iw" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_Vz98gCzZEeKtGPioRDeGQg" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_vy6VkCdZEeKDGNEPRzZzCg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8gqOhUznEeGzDcGxpv78iw" name="RoleSets" guid="_8gqOhUznEeGzDcGxpv78iw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8gqOhkznEeGzDcGxpv78iw" name="WP Types" guid="_8gqOhkznEeGzDcGxpv78iw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8gqOh0znEeGzDcGxpv78iw" name="Tools" guid="_8gqOh0znEeGzDcGxpv78iw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8gqOiEznEeGzDcGxpv78iw" name="StandardCategories" guid="_8gqOiEznEeGzDcGxpv78iw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8gqOiUznEeGzDcGxpv78iw" name="CustomCategories" guid="_8gqOiUznEeGzDcGxpv78iw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8gqOikznEeGzDcGxpv78iw" name="Hidden" guid="_8gqOikznEeGzDcGxpv78iw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_8gqOi0znEeGzDcGxpv78iw" name="Custom Categories" guid="_8gqOi0znEeGzDcGxpv78iw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8gqOjEznEeGzDcGxpv78iw" name="CoreContent" guid="_8gqOjEznEeGzDcGxpv78iw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__6fREEznEeGzDcGxpv78iw" name="business_value_analysis" guid="__6fREEznEeGzDcGxpv78iw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_B4xisEzoEeGzDcGxpv78iw" name="business_value_analysis" guid="_B4xisEzoEeGzDcGxpv78iw" presentationName="Business Value Analysis" briefDescription="This practice provides a framework for Business Value Analysis." contentReferences="_uJwp0FMbEeGmntP9zKVTFw _KeWCkKp4EeGMEOeN2faruQ _A0ThICzYEeKtGPioRDeGQg _8bEh8CzVEeKtGPioRDeGQg _uJwp0VMbEeGmntP9zKVTFw _I_leQEzxEeGzDcGxpv78iw _hxw7MKp3EeGMEOeN2faruQ _AmSRAEzxEeGzDcGxpv78iw _tdS34CzREeKtGPioRDeGQg _PBwcEEzxEeGzDcGxpv78iw _beiNIKp4EeGMEOeN2faruQ _6iF7wFGXEeGhK6PCw6rfMg _FpEkgEzoEeGzDcGxpv78iw">
+            <methodElementProperty xmi:id="_VWKg0CzGEeKtGPioRDeGQg" name="me_edited" value="true"/>
+            <presentation xmi:id="-HFXfXH--cftccND3BYux1g" href="uma://-HFXfXH--cftccND3BYux1g#-HFXfXH--cftccND3BYux1g"/>
+            <activityReferences href="uma://_PbZ0UFGVEeGhK6PCw6rfMg#_PbZ0UVGVEeGhK6PCw6rfMg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_FpEkgEzoEeGzDcGxpv78iw" name="how_to_adopt_business_value_analysis" guid="_FpEkgEzoEeGzDcGxpv78iw" presentationName="How to adopt the Business Value Analysis practice." briefDescription="This roadmap describes how to adopt the Business Value Analysis practice." supportingMaterials="_uJwp0FMbEeGmntP9zKVTFw" examples="_uJwp0VMbEeGmntP9zKVTFw">
+            <methodElementProperty xmi:id="_W4zYQCzGEeKtGPioRDeGQg" name="me_edited" value="true"/>
+            <presentation xmi:id="-W82Sx-O-dFg_CggqbEkOvQ" href="uma://-W82Sx-O-dFg_CggqbEkOvQ#-W82Sx-O-dFg_CggqbEkOvQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_AmSRAEzxEeGzDcGxpv78iw" name="business_value_analysis_result" guid="_AmSRAEzxEeGzDcGxpv78iw" presentationName="Business value analysis result" briefDescription="This work product describes ...">
+            <presentation xmi:id="-GZE99qc5nUZFBax9STQk4g" href="uma://-GZE99qc5nUZFBax9STQk4g#-GZE99qc5nUZFBax9STQk4g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_I_leQEzxEeGzDcGxpv78iw" name="business_model.slot" guid="_I_leQEzxEeGzDcGxpv78iw" presentationName="[business model]" briefDescription="This work product slot represents the business model input." isAbstract="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_PBwcEEzxEeGzDcGxpv78iw" name="perform_business_value_analysis" guid="_PBwcEEzxEeGzDcGxpv78iw" presentationName="Perform business value analysis" briefDescription="This task describes how to perform a business value analysis." performedBy="_6iF7wFGXEeGhK6PCw6rfMg" mandatoryInput="_I_leQEzxEeGzDcGxpv78iw" output="_AmSRAEzxEeGzDcGxpv78iw">
+            <methodElementProperty xmi:id="_uzF-cCzXEeKtGPioRDeGQg" name="me_edited" value="true"/>
+            <presentation xmi:id="-r6O1-aWHtchestBm8QvfDw" href="uma://-r6O1-aWHtchestBm8QvfDw#-r6O1-aWHtchestBm8QvfDw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_6iF7wFGXEeGhK6PCw6rfMg" name="business_architect.assign" guid="_6iF7wFGXEeGhK6PCw6rfMg" variabilityType="contributes" responsibleFor="_hxw7MKp3EeGMEOeN2faruQ">
+            <methodElementProperty xmi:id="_Yi5eYCzNEeKtGPioRDeGQg" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_0wQ9MCdVEeKDGNEPRzZzCg#_uWhiACdXEeKDGNEPRzZzCg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_uJwp0FMbEeGmntP9zKVTFw" name="references.business_value_analysis" guid="_uJwp0FMbEeGmntP9zKVTFw">
+            <presentation xmi:id="-3KEq363h7B-ISDx_Ch-_fQ" href="uma://-3KEq363h7B-ISDx_Ch-_fQ#-3KEq363h7B-ISDx_Ch-_fQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_uJwp0VMbEeGmntP9zKVTFw" name="business_value_analysis_example" guid="_uJwp0VMbEeGmntP9zKVTFw" presentationName="Business value analysis example" briefDescription="Business value analysis example">
+            <presentation xmi:id="-nzmOLZRDxCg9IIVrDTX-JA" href="uma://-nzmOLZRDxCg9IIVrDTX-JA#-nzmOLZRDxCg9IIVrDTX-JA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_hxw7MKp3EeGMEOeN2faruQ" name="value_flow_model" guid="_hxw7MKp3EeGMEOeN2faruQ" briefDescription="This work product captures the value-related aspects of a business model." variabilityType="contributes">
+            <methodElementProperty xmi:id="_jxV2UCf3EeKbT_45B08XTA" name="me_edited" value="true"/>
+            <presentation xmi:id="-Ir4ngc76cth0R2iB0vj8xA" href="uma://-Ir4ngc76cth0R2iB0vj8xA#-Ir4ngc76cth0R2iB0vj8xA"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_-3L3UMEiEeGgb_xjjvFwfg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_KeWCkKp4EeGMEOeN2faruQ" name="table_of_measures" guid="_KeWCkKp4EeGMEOeN2faruQ" presentationName="Table of measures" briefDescription="Value Metrics – 100 Representative Generic Measures and Units">
+            <presentation xmi:id="-4uG0lTXHVsdpcqXub_1Nxg" href="uma://-4uG0lTXHVsdpcqXub_1Nxg#-4uG0lTXHVsdpcqXub_1Nxg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_beiNIKp4EeGMEOeN2faruQ" name="visualize_the_value_network" guid="_beiNIKp4EeGMEOeN2faruQ" presentationName="Visualize the Value Network" briefDescription="This task describes how to visualize the Value Network." guidelines="_KeWCkKp4EeGMEOeN2faruQ" examples="_8bEh8CzVEeKtGPioRDeGQg" performedBy="_6iF7wFGXEeGhK6PCw6rfMg" output="_hxw7MKp3EeGMEOeN2faruQ">
+            <methodElementProperty xmi:id="_AhB1QCzXEeKtGPioRDeGQg" name="me_edited" value="true"/>
+            <presentation xmi:id="-5SxpV3p_TKvGPBegL04tXA" href="uma://-5SxpV3p_TKvGPBegL04tXA#-5SxpV3p_TKvGPBegL04tXA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_tdS34CzREeKtGPioRDeGQg" name="describe_deliverables_flow" guid="_tdS34CzREeKtGPioRDeGQg" presentationName="Describe deliverables flow" briefDescription="This task describes how to define deliverables flow." examples="_A0ThICzYEeKtGPioRDeGQg" performedBy="_6iF7wFGXEeGhK6PCw6rfMg" output="_hxw7MKp3EeGMEOeN2faruQ">
+            <methodElementProperty xmi:id="_un1YYCzREeKtGPioRDeGQg" name="me_edited" value="true"/>
+            <presentation xmi:id="-Qic18FHQV6nrKSJEGwh6lQ" href="uma://-Qic18FHQV6nrKSJEGwh6lQ#-Qic18FHQV6nrKSJEGwh6lQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_kLDjUEzsEeGzDcGxpv78iw" name="release_info" guid="_kLDjUEzsEeGzDcGxpv78iw">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_kLDjUUzsEeGzDcGxpv78iw" name="release_info_business_value_analysis" guid="_kLDjUUzsEeGzDcGxpv78iw" presentationName="Practice: Business Value Analysis" briefDescription="Business Value Analysis practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <methodElementProperty xmi:id="_IFgMYCnvEeKvjc8Bl_M3NQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-uvdFns34bGq0BaSdrsqXGg" href="uma://-uvdFns34bGq0BaSdrsqXGg#-uvdFns34bGq0BaSdrsqXGg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_XEdQ0CzVEeKtGPioRDeGQg" name="examples" guid="_XEdQ0CzVEeKtGPioRDeGQg">
+          <methodElementProperty xmi:id="_YQp-MCzVEeKtGPioRDeGQg" name="me_edited" value="true"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0qhWwCzVEeKtGPioRDeGQg" name="vlastuin" guid="_0qhWwCzVEeKtGPioRDeGQg">
+            <methodElementProperty xmi:id="_1PMxICzVEeKtGPioRDeGQg" name="me_edited" value="true"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_8bEh8CzVEeKtGPioRDeGQg" name="agr_flow_diagram" guid="_8bEh8CzVEeKtGPioRDeGQg" presentationName="AGR: Flow diagram">
+              <methodElementProperty xmi:id="_91B-gCzVEeKtGPioRDeGQg" name="me_edited" value="true"/>
+              <presentation xmi:id="-CcssDhB9PdLacXf1cqGUhQ" href="uma://-CcssDhB9PdLacXf1cqGUhQ#-CcssDhB9PdLacXf1cqGUhQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_A0ThICzYEeKtGPioRDeGQg" name="agr_deliverables_flow" guid="_A0ThICzYEeKtGPioRDeGQg" presentationName="AGR: Deliverables flow">
+              <methodElementProperty xmi:id="_FE5zoCzYEeKtGPioRDeGQg" name="me_edited" value="true"/>
+              <presentation xmi:id="-e_DrcRfXsXxct5580puPGw" href="uma://-e_DrcRfXsXxct5580puPGw#-e_DrcRfXsXxct5580puPGw"/>
+            </contentElements>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_8gqOjUznEeGzDcGxpv78iw" name="CapabilityPatterns" guid="_8gqOjUznEeGzDcGxpv78iw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_vX9F8FGUEeGhK6PCw6rfMg" name="business_value_analysis" guid="_vX9F8FGUEeGhK6PCw6rfMg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_PbZ0UFGVEeGhK6PCw6rfMg" href="uma://_PbZ0UFGVEeGhK6PCw6rfMg#_PbZ0UFGVEeGhK6PCw6rfMg"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_8gqOjkznEeGzDcGxpv78iw" name="DeliveryProcesses" guid="_8gqOjkznEeGzDcGxpv78iw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_8gqOj0znEeGzDcGxpv78iw" name="ProcessContributions" guid="_8gqOj0znEeGzDcGxpv78iw"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+    <bases href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_Xy_FcBWsEeGINOUzJIOMxA"/>
+    <bases href="uma://_0wQ9MCdVEeKDGNEPRzZzCg#_0wQ9MCdVEeKDGNEPRzZzCg"/>
+    <bases href="uma://_ZrOMELSiEeGOSY51NyhYZA#_ZrOMELSiEeGOSY51NyhYZA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

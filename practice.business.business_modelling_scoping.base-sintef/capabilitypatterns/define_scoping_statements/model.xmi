@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_PKxy8dz_Ed-xB8a51ZHHaA" guid="_PKxy8dz_Ed-xB8a51ZHHaA">
+    <resourceDescriptors xmi:id="_PKxy8tz_Ed-xB8a51ZHHaA" id="-4S37CfLRjqvNj7SIZwEj-Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_fjyowNz_Ed-xB8a51ZHHaA" id="-XWBsi9ounz2L8i5_vjUpXQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_fjyowdz_Ed-xB8a51ZHHaA" id="-VViS6vCw_gsxf0O8qTTBmg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_fjyowtz_Ed-xB8a51ZHHaA" id="-UM9BN9g4w_pk3dzT33eTVw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_fjyow9z_Ed-xB8a51ZHHaA" id="-XsQD7behjiuv0wF5wzvq4A" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_xQ25gOG3Ed-AyrTFSpVP8g" id="-uZlxcd_O92dB28br72cgmw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_PI_DMNz_Ed-xB8a51ZHHaA" name="define_scoping_statements" guid="_PI_DMNz_Ed-xB8a51ZHHaA">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ehlk4Nz_Ed-xB8a51ZHHaA" name="define_context_statement" guid="_ehlk4Nz_Ed-xB8a51ZHHaA" presentationName="Define context statement" briefDescription="Define context statement." isPlanned="false" superActivities="_PI_DMdz_Ed-xB8a51ZHHaA" additionallyPerformedBy="_FCNsxOELEd-QcdsL5iaWCQ" output="_ehlk4tz_Ed-xB8a51ZHHaA" performedPrimarilyBy="_3FUwUeGoEd-AyrTFSpVP8g">
+      <presentation xmi:id="-XWBsi9ounz2L8i5_vjUpXQ" href="uma://-4S37CfLRjqvNj7SIZwEj-Q#-XWBsi9ounz2L8i5_vjUpXQ"/>
+      <Task href="uma://_KbpVMNa7Ed-d6Ia20mQhAw#_ustH8NbFEd-d6Ia20mQhAw"/>
+      <selectedSteps href="uma://-LEXJ0YrOW4L3BjVqds4d0Q#_5tgtgNbGEd-d6Ia20mQhAw"/>
+      <selectedSteps href="uma://-LEXJ0YrOW4L3BjVqds4d0Q#_A5gaINbHEd-d6Ia20mQhAw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ehlk4dz_Ed-xB8a51ZHHaA" name="define_vision_statement" guid="_ehlk4dz_Ed-xB8a51ZHHaA" presentationName="Define vision statement" briefDescription="Define vision statement." isPlanned="false" superActivities="_PI_DMdz_Ed-xB8a51ZHHaA" linkToPredecessor="_noL9Adz_Ed-xB8a51ZHHaA" additionallyPerformedBy="_FCNsxOELEd-QcdsL5iaWCQ" output="_ehlk5Nz_Ed-xB8a51ZHHaA" performedPrimarilyBy="_3FUwUeGoEd-AyrTFSpVP8g">
+      <presentation xmi:id="-VViS6vCw_gsxf0O8qTTBmg" href="uma://-4S37CfLRjqvNj7SIZwEj-Q#-VViS6vCw_gsxf0O8qTTBmg"/>
+      <Task href="uma://_KbpVMNa7Ed-d6Ia20mQhAw#_xiozQNbFEd-d6Ia20mQhAw"/>
+      <selectedSteps href="uma://-QftojvqJ6ELLvSkdTxEw8A#_0BcnoObiEd-Eut7DiqIzBA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ehlk4tz_Ed-xB8a51ZHHaA" name="context_statement" guid="_ehlk4tz_Ed-xB8a51ZHHaA" presentationName="Context statement" briefDescription="The context statement places the subject of study, e.g. software system, within its environment." isPlanned="false" superActivities="_PI_DMdz_Ed-xB8a51ZHHaA">
+      <methodElementProperty xmi:id="_ehlk49z_Ed-xB8a51ZHHaA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-UM9BN9g4w_pk3dzT33eTVw" href="uma://-4S37CfLRjqvNj7SIZwEj-Q#-UM9BN9g4w_pk3dzT33eTVw"/>
+      <WorkProduct href="uma://_KbpVMNa7Ed-d6Ia20mQhAw#_njcVUNa8Ed-d6Ia20mQhAw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ehlk5Nz_Ed-xB8a51ZHHaA" name="vision_statement" guid="_ehlk5Nz_Ed-xB8a51ZHHaA" presentationName="Vision statement" briefDescription="Vision of the software to be developed." isPlanned="false" superActivities="_PI_DMdz_Ed-xB8a51ZHHaA">
+      <methodElementProperty xmi:id="_ehlk5dz_Ed-xB8a51ZHHaA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-XsQD7behjiuv0wF5wzvq4A" href="uma://-4S37CfLRjqvNj7SIZwEj-Q#-XsQD7behjiuv0wF5wzvq4A"/>
+      <WorkProduct href="uma://_KbpVMNa7Ed-d6Ia20mQhAw#_5gNc4Na8Ed-d6Ia20mQhAw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_noL9Adz_Ed-xB8a51ZHHaA" guid="_noL9Adz_Ed-xB8a51ZHHaA" pred="_ehlk4Nz_Ed-xB8a51ZHHaA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_FCNsxOELEd-QcdsL5iaWCQ" name="stakeholder" guid="_FCNsxOELEd-QcdsL5iaWCQ" presentationName="Stakeholder" briefDescription="This role represents interest groups whose needs must be satisfied by the project. It is a role that may be played by anyone who is (or potentially will be) materially affected by the outcome of the project." isPlanned="false" superActivities="_PI_DMdz_Ed-xB8a51ZHHaA">
+      <methodElementProperty xmi:id="_FCNsxeELEd-QcdsL5iaWCQ" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_dTa6gMAYEdqX-s4mWhkyqQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_3FUwUeGoEd-AyrTFSpVP8g" name="business_analyst" guid="_3FUwUeGoEd-AyrTFSpVP8g" presentationName="Business analyst" briefDescription="Responsible for analyzing the business needs of clients to help identify business problems and propose solutions." isPlanned="false" superActivities="_PI_DMdz_Ed-xB8a51ZHHaA" modifies="_ehlk4tz_Ed-xB8a51ZHHaA _ehlk5Nz_Ed-xB8a51ZHHaA" responsibleFor="_ehlk5Nz_Ed-xB8a51ZHHaA _ehlk4tz_Ed-xB8a51ZHHaA">
+      <methodElementProperty xmi:id="_3FUwUuGoEd-AyrTFSpVP8g" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-uZlxcd_O92dB28br72cgmw" href="uma://-4S37CfLRjqvNj7SIZwEj-Q#-uZlxcd_O92dB28br72cgmw"/>
+      <Role href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_VHH-AOEPEd-QcdsL5iaWCQ"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_PI_DMdz_Ed-xB8a51ZHHaA" name="define_scoping_statements" guid="_PI_DMdz_Ed-xB8a51ZHHaA" presentationName="Define scoping statements" briefDescription="This capability pattern describes a baseline workflow for how to define scoping statements." breakdownElements="_ehlk4Nz_Ed-xB8a51ZHHaA _ehlk4dz_Ed-xB8a51ZHHaA _ehlk4tz_Ed-xB8a51ZHHaA _ehlk5Nz_Ed-xB8a51ZHHaA _FCNsxOELEd-QcdsL5iaWCQ _3FUwUeGoEd-AyrTFSpVP8g">
+      <presentation xmi:id="-4S37CfLRjqvNj7SIZwEj-Q" href="uma://-4S37CfLRjqvNj7SIZwEj-Q#-4S37CfLRjqvNj7SIZwEj-Q"/>
+      <defaultContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_eo-ooPPwEd-aSLmU6PqmFQ"/>
+      <validContext href="uma://_qvQR4Ka_Ed6E5ZJPWXPtvQ#_eo-ooPPwEd-aSLmU6PqmFQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

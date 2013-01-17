@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-J8styH-f3lDMv-woobE9iA" name=",_LaleYCdpEeKDGNEPRzZzCg" guid="-J8styH-f3lDMv-woobE9iA">
+  <mainDescription>&lt;p>&#xD;
+    Activities may be designed by following these steps:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Define which capability is required in order to perform the work. This capability requirement can be defined based&#xD;
+        on a reference to a capability in a capability library.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Find organization units that provide capability offers for the capability that is required, and select one&#xD;
+        capability offer. This selection might be supported by assessment of measurements of performance and value&#xD;
+        contribution. Performance and value measurement will be discussed in 3.1.5.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        When the capability offer is supported by a capability method, which it typically the case with broader&#xD;
+        capabilities, delegate the work of the activity to that method, and assign the activity performing role to the&#xD;
+        organization that provides the capability offer of choice.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        When the capability is more atomic, no method might be defined, but the capability offer might be supported&#xD;
+        directly by resources, including people. These resources can then be considered for use by the activity. A subset&#xD;
+        of them may also be assigned the activity performing role.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It is also possible to define assignment of method roles specifically in the context of the delegation to that&#xD;
+        method.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Note that more variations are possible, such as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        When an organization unit provides just one capability offer, and all it does is performed in the context of just&#xD;
+        that capability, there might be no need to organize activities in a separately defined capability method. Rather&#xD;
+        the organization unit, as collaboration, can contain activities directly, and activities can delegate their work to&#xD;
+        the organization unit directly. It is even possible to delegate work to communities and business networks, though&#xD;
+        matching of required capability versus offered capability cannot be performed explicitly then.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        When an organization unit provides a capability offer that matches the capability that is required by an activity,&#xD;
+        and the activity delegates its work to that method accordingly, the activity performing role maybe be assigned to&#xD;
+        the method itself, instead of to the organization unit that provides the capability offer.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To define activities using VDML.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

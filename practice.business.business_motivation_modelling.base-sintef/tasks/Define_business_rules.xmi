@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-AI-SE6yhaBaDV8pxgy2fsw" name="Create_Business_Rules_Model,_kCsq4G-3Ed6zv6nlDL4ZGQ" guid="-AI-SE6yhaBaDV8pxgy2fsw" authors="Andrey Sadovykh (SOFTEAM), Brian Elvesæter (SINTEF)" changeDate="2010-03-24T12:55:13.662+0100" changeDescription="0.4: Revised description and categorization.|0.3: Updated steps.|0.2: Updated description.|0.1: Initial outline." version="0.4">
+  <mainDescription>&lt;p>&#xD;
+    This task defines the guided procedure for specifying business rules.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Business Rules Model allows specifying the operational constraints and limitations.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_TNI7oG-6Ed6zv6nlDL4ZGQ" name="1. Create Business Rules Container." guid="_TNI7oG-6Ed6zv6nlDL4ZGQ">
+    <sectionDescription>The business rules can be structured and stored in special container. For example, all that concerns tarification may be&#xD;
+stored in a &quot;Tarification&quot; container.</sectionDescription>
+  </sections>
+  <sections xmi:id="_ec3jcG-6Ed6zv6nlDL4ZGQ" name="2. Create Business Rule Diagram." guid="_ec3jcG-6Ed6zv6nlDL4ZGQ">
+    <sectionDescription>&lt;p>&#xD;
+    The Business Rule diagram can be used to specify the business rules and their relations. The diagram interface allows&#xD;
+    the following functionalities:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        to create &quot;Business Rule Container&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        to create &quot;Business Rule&quot; * to relate business rules with &quot;implement&quot; link * to relate business rules with &quot;refine&quot;&#xD;
+        link&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        to relate business rules with &quot;related&quot; link * to relate business rules with &quot;refers&quot; link&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        to relate all elements with traceability links * to add textual descriptions in &quot;note&quot; elements&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_MSm9AG-7Ed6zv6nlDL4ZGQ" name="3. Create Business Rule." guid="_MSm9AG-7Ed6zv6nlDL4ZGQ">
+    <sectionDescription>&lt;p>&#xD;
+    The business rules are specified with a textual descirption. The following properties are available for &quot;business rule&quot;&#xD;
+    model elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Name, a short textual name&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Example, a textual description of an example&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Exception, a textual description of an exception&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Source, a textual description of the origin of the business rule&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Rationale&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Text, a box for a detailed description of the business rule&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To specify business rules.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_7KB6Qdq1Ed-RHtsSMqnPrA" guid="_7KB6Qdq1Ed-RHtsSMqnPrA">
+    <resourceDescriptors xmi:id="_NVhGIPPXEd-GtPTRjkeUMg" id="-Z_Mxr2ZJdWp8a6gxNAVv9Q" uri="guidances/supportingmaterials/references.xmi"/>
+    <resourceDescriptors xmi:id="_7Sw7EPinEd-Q75sYXSDFRg" id="-iiR6xr9INDP2cS8Mb6zJ5w" uri="guidances/supportingmaterials/copyright.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_7J4wUNq1Ed-RHtsSMqnPrA" name="core.default.nav_view.extend-sintef" guid="_7J4wUNq1Ed-RHtsSMqnPrA" briefDescription="This plugin defines a default view for configurations of SINTEF methodologies." authors="Brian Elvesæter (SINTEF)" changeDate="2010-10-18T15:01:51.768+0200">
+    <methodElementProperty xmi:id="_7KLrQNq1Ed-RHtsSMqnPrA" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_7J4wUdq1Ed-RHtsSMqnPrA" name="Content" guid="_7J4wUdq1Ed-RHtsSMqnPrA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_7J4wUtq1Ed-RHtsSMqnPrA" name="Categories" guid="_7J4wUtq1Ed-RHtsSMqnPrA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_7J4wU9q1Ed-RHtsSMqnPrA" name="Domains" guid="_7J4wU9q1Ed-RHtsSMqnPrA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_7J4wVNq1Ed-RHtsSMqnPrA" name="Disciplines" guid="_7J4wVNq1Ed-RHtsSMqnPrA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_7J4wVdq1Ed-RHtsSMqnPrA" name="RoleSets" guid="_7J4wVdq1Ed-RHtsSMqnPrA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_7J4wVtq1Ed-RHtsSMqnPrA" name="WP Types" guid="_7J4wVtq1Ed-RHtsSMqnPrA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_7J4wV9q1Ed-RHtsSMqnPrA" name="Tools" guid="_7J4wV9q1Ed-RHtsSMqnPrA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_7J4wWNq1Ed-RHtsSMqnPrA" name="StandardCategories" guid="_7J4wWNq1Ed-RHtsSMqnPrA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_7J4wWdq1Ed-RHtsSMqnPrA" name="CustomCategories" guid="_7J4wWdq1Ed-RHtsSMqnPrA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_7J4wWtq1Ed-RHtsSMqnPrA" name="Hidden" guid="_7J4wWtq1Ed-RHtsSMqnPrA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_7J4wW9q1Ed-RHtsSMqnPrA" name="Custom Categories" guid="_7J4wW9q1Ed-RHtsSMqnPrA" categorizedElements="_VCkJENq3Ed-RHtsSMqnPrA"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_VCkJENq3Ed-RHtsSMqnPrA" name="navigation_view_generic.sintef" guid="_VCkJENq3Ed-RHtsSMqnPrA" presentationName="Methodology" shapeicon="customcategories/resources/lib_32.gif" nodeicon="customcategories/resources/lib_16.gif" variabilityType="replaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_1-9JoEKmEdyrauqpmnA8jQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_g910gCapEd21TMX858E1gw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCIHYMRdEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCIHYsRdEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_RJ__ECLJEd2ct852UDqXGQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_h2t8UN29Ed-ms9NsV3fnQQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#__O1Y8MRgEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_CXQicMRhEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_qdO80MRhEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_VTspMMRfEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_irqswCLOEd2ct852UDqXGQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_h2t8UN29Ed-ms9NsV3fnQQ" name="role_set_list" guid="_h2t8UN29Ed-ms9NsV3fnQQ" presentationName="Role sets" briefDescription="This category lists roles organized by role set." shapeicon="customcategories/resources/roles_dgm32.gif" nodeicon="customcategories/resources/roles_obj.gif">
+            <methodElementProperty xmi:id="_iPaJIN29Ed-ms9NsV3fnQQ" name="include" value="RoleSet"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_7J4wXNq1Ed-RHtsSMqnPrA" name="CoreContent" guid="_7J4wXNq1Ed-RHtsSMqnPrA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_w0ZPAPPWEd-GtPTRjkeUMg" name="general" guid="_w0ZPAPPWEd-GtPTRjkeUMg">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_zfHv4PPWEd-GtPTRjkeUMg" name="references" guid="_zfHv4PPWEd-GtPTRjkeUMg" presentationName="References" briefDescription="This page lists books, articles, and other references." variabilityType="replaces">
+            <presentation xmi:id="-Z_Mxr2ZJdWp8a6gxNAVv9Q" href="uma://-Z_Mxr2ZJdWp8a6gxNAVv9Q#-Z_Mxr2ZJdWp8a6gxNAVv9Q"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_vsno4EKmEdyrauqpmnA8jQ#__nHToFndEd2EdJKkAyeBng"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5JhWoPinEd-Q75sYXSDFRg" name="copyright" guid="_5JhWoPinEd-Q75sYXSDFRg">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_67eccPinEd-Q75sYXSDFRg" name="copyright" guid="_67eccPinEd-Q75sYXSDFRg" shapeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif" nodeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif" variabilityType="replaces">
+            <presentation xmi:id="-iiR6xr9INDP2cS8Mb6zJ5w" href="uma://-iiR6xr9INDP2cS8Mb6zJ5w#-iiR6xr9INDP2cS8Mb6zJ5w"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7J4wXdq1Ed-RHtsSMqnPrA" name="CapabilityPatterns" guid="_7J4wXdq1Ed-RHtsSMqnPrA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7J4wXtq1Ed-RHtsSMqnPrA" name="DeliveryProcesses" guid="_7J4wXtq1Ed-RHtsSMqnPrA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7J4wX9q1Ed-RHtsSMqnPrA" name="ProcessContributions" guid="_7J4wX9q1Ed-RHtsSMqnPrA"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+    <bases href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_9FeQ0BoNEd6-1oAFrrP8yQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>
