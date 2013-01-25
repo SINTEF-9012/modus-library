@@ -125,6 +125,7 @@
     <resourceDescriptors xmi:id="_yDQAECy1EeKelu-xAJGrzw" id="-4mwZGxwrZa7nRLr9kXxNIg" uri="guidances/examples/xtrailer_example_organizations_and_capabilities.xmi"/>
     <resourceDescriptors xmi:id="_TQvqQCy3EeKelu-xAJGrzw" id="-6C_iBn2v1Or3SPq-S7Cq8Q" uri="guidances/examples/xtrailer_example_activities.xmi"/>
     <resourceDescriptors xmi:id="_WR1AMCy4EeKelu-xAJGrzw" id="-3Z61Jcw3gBKUn6uoNhBG8g" uri="guidances/examples/xtrailer_example_value.xmi"/>
+    <resourceDescriptors xmi:id="_JQGg0GcEEeKiFYSF1N66Iw" id="-wzXDECrWi8wF4VtEuBo3_g" uri="guidances/examples/high_risk_pregnancy_example.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_Ocn6IJdUEeCYIKpsva4R0w" name="practice.business.value_delivery_modelling.base-sintef" guid="_Ocn6IJdUEeCYIKpsva4R0w" briefDescription="This plugin contains the base Value delivery modelling practice." authors="Brian Elvesæter (SINTEF)" changeDate="2012-11-07T12:22:20.947+0100">
     <methodElementProperty xmi:id="_D-xUoJwJEeCGK9oOEno3IA" name="plugin_synFree" value="true"/>
@@ -171,7 +172,7 @@
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Ocn6LJdUEeCYIKpsva4R0w" name="CoreContent" guid="_Ocn6LJdUEeCYIKpsva4R0w">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y3akcJjOEeCx0dptiO5dMw" name="value_delivery_modelling" guid="_y3akcJjOEeCx0dptiO5dMw">
-          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_5G4XYJjOEeCx0dptiO5dMw" name="value_delivery_modelling" guid="_5G4XYJjOEeCx0dptiO5dMw" presentationName="Value Delivery Modelling" briefDescription="This practice describes how to define value delivery models using VDML." contentReferences="_fTDqUJy7EeCb2cFFaexWpQ _c-LpMJyxEeCb2cFFaexWpQ _INihQJywEeCb2cFFaexWpQ _0Wp3oJwFEeCxNIYmmT7D_A _yICX0JyxEeCb2cFFaexWpQ _xkdakJy6EeCb2cFFaexWpQ _axDVMJyvEeCb2cFFaexWpQ _s4UCQJy_EeCb2cFFaexWpQ _GoENsJyvEeCb2cFFaexWpQ _Ez_WEJyxEeCb2cFFaexWpQ _ArccwMKXEeCQKuG3dPvCNA _Z_Xg8JysEeCb2cFFaexWpQ _CEkZIJwGEeCxNIYmmT7D_A _o6nO4JzFEeCb2cFFaexWpQ _TL76wJyrEeCb2cFFaexWpQ _jPtH8Cc-EeKDGNEPRzZzCg _qG0SACf0EeKbT_45B08XTA _yEQCoCf0EeKbT_45B08XTA _4l0SMCf0EeKbT_45B08XTA _9YYCQCf0EeKbT_45B08XTA _GZZHUKDHEeCXF5ZuS3W32Q _FMdSwCdqEeKDGNEPRzZzCg _IknhYCdqEeKDGNEPRzZzCg _NoCX8CdqEeKDGNEPRzZzCg _DK8DwCdmEeKDGNEPRzZzCg _R_XqcEz2EeGzDcGxpv78iw _LaleYCdpEeKDGNEPRzZzCg _ddF78Cf1EeKbT_45B08XTA _9S528Cf1EeKbT_45B08XTA _B5gOoCf2EeKbT_45B08XTA _Kden0KDHEeCXF5ZuS3W32Q _F2iqMKDNEeCXF5ZuS3W32Q _C_ukcJjSEeCx0dptiO5dMw _8Vl9gKF-EeCKTcfDSRMRtw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_5G4XYJjOEeCx0dptiO5dMw" name="value_delivery_modelling" guid="_5G4XYJjOEeCx0dptiO5dMw" presentationName="Value Delivery Modelling" briefDescription="This practice describes how to define value delivery models using VDML." contentReferences="_fTDqUJy7EeCb2cFFaexWpQ _c-LpMJyxEeCb2cFFaexWpQ _INihQJywEeCb2cFFaexWpQ _0Wp3oJwFEeCxNIYmmT7D_A _yICX0JyxEeCb2cFFaexWpQ _xkdakJy6EeCb2cFFaexWpQ _axDVMJyvEeCb2cFFaexWpQ _s4UCQJy_EeCb2cFFaexWpQ _GoENsJyvEeCb2cFFaexWpQ _Ez_WEJyxEeCb2cFFaexWpQ _ArccwMKXEeCQKuG3dPvCNA _EGSHUGcEEeKiFYSF1N66Iw _Z_Xg8JysEeCb2cFFaexWpQ _CEkZIJwGEeCxNIYmmT7D_A _o6nO4JzFEeCb2cFFaexWpQ _TL76wJyrEeCb2cFFaexWpQ _jPtH8Cc-EeKDGNEPRzZzCg _qG0SACf0EeKbT_45B08XTA _yEQCoCf0EeKbT_45B08XTA _4l0SMCf0EeKbT_45B08XTA _9YYCQCf0EeKbT_45B08XTA _GZZHUKDHEeCXF5ZuS3W32Q _FMdSwCdqEeKDGNEPRzZzCg _IknhYCdqEeKDGNEPRzZzCg _NoCX8CdqEeKDGNEPRzZzCg _DK8DwCdmEeKDGNEPRzZzCg _R_XqcEz2EeGzDcGxpv78iw _LaleYCdpEeKDGNEPRzZzCg _ddF78Cf1EeKbT_45B08XTA _9S528Cf1EeKbT_45B08XTA _B5gOoCf2EeKbT_45B08XTA _Kden0KDHEeCXF5ZuS3W32Q _F2iqMKDNEeCXF5ZuS3W32Q _C_ukcJjSEeCx0dptiO5dMw _8Vl9gKF-EeCKTcfDSRMRtw">
             <methodElementProperty xmi:id="_PUgJQCf4EeKbT_45B08XTA" name="me_edited" value="true"/>
             <presentation xmi:id="-FHBsT-su8F47D7tInPcmOQ" href="uma://-FHBsT-su8F47D7tInPcmOQ#-FHBsT-su8F47D7tInPcmOQ"/>
             <activityReferences href="uma://_d6CfcKDNEeCXF5ZuS3W32Q#_d6CfcaDNEeCXF5ZuS3W32Q"/>
@@ -557,25 +558,33 @@
           <methodElementProperty xmi:id="_eYDcgCc-EeKDGNEPRzZzCg" name="me_edited" value="true"/>
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gFbkUCc-EeKDGNEPRzZzCg" name="vlastuin" guid="_gFbkUCc-EeKDGNEPRzZzCg">
             <methodElementProperty xmi:id="_g7mXUCc-EeKDGNEPRzZzCg" name="me_edited" value="true"/>
-            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_jPtH8Cc-EeKDGNEPRzZzCg" name="xtrailer_example" guid="_jPtH8Cc-EeKDGNEPRzZzCg" presentationName="XTrailer: Example" examples="_qG0SACf0EeKbT_45B08XTA _yEQCoCf0EeKbT_45B08XTA _4l0SMCf0EeKbT_45B08XTA _9YYCQCf0EeKbT_45B08XTA">
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_jPtH8Cc-EeKDGNEPRzZzCg" name="xtrailer_example" guid="_jPtH8Cc-EeKDGNEPRzZzCg" presentationName="XTrailer: Example" briefDescription="XTrailer: Example" examples="_qG0SACf0EeKbT_45B08XTA _yEQCoCf0EeKbT_45B08XTA _4l0SMCf0EeKbT_45B08XTA _9YYCQCf0EeKbT_45B08XTA">
               <methodElementProperty xmi:id="_j_9gMCc-EeKDGNEPRzZzCg" name="me_edited" value="true"/>
               <presentation xmi:id="-4adybbUcrKA6O_z9dgwFTw" href="uma://-4adybbUcrKA6O_z9dgwFTw#-4adybbUcrKA6O_z9dgwFTw"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_qG0SACf0EeKbT_45B08XTA" name="xtrailer_example_activities" guid="_qG0SACf0EeKbT_45B08XTA" presentationName="XTrailer: Activities">
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_qG0SACf0EeKbT_45B08XTA" name="xtrailer_example_activities" guid="_qG0SACf0EeKbT_45B08XTA" presentationName="XTrailer: Activities" briefDescription="XTrailer: Activities">
               <methodElementProperty xmi:id="_tqUN8Cf0EeKbT_45B08XTA" name="me_edited" value="true"/>
               <presentation xmi:id="-6C_iBn2v1Or3SPq-S7Cq8Q" href="uma://-6C_iBn2v1Or3SPq-S7Cq8Q#-6C_iBn2v1Or3SPq-S7Cq8Q"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_yEQCoCf0EeKbT_45B08XTA" name="xtrailer_example_business_network_and_collaboration" guid="_yEQCoCf0EeKbT_45B08XTA" presentationName="XTrailer: Business network and collaboration">
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_yEQCoCf0EeKbT_45B08XTA" name="xtrailer_example_business_network_and_collaboration" guid="_yEQCoCf0EeKbT_45B08XTA" presentationName="XTrailer: Business network and collaboration" briefDescription="XTrailer: Business network and collaboration">
               <methodElementProperty xmi:id="_2OMTgCf0EeKbT_45B08XTA" name="me_edited" value="true"/>
               <presentation xmi:id="-hwWL12hC2u_PsOr7vPP3GQ" href="uma://-hwWL12hC2u_PsOr7vPP3GQ#-hwWL12hC2u_PsOr7vPP3GQ"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_4l0SMCf0EeKbT_45B08XTA" name="xtrailer_example_organizations_and_capabilities" guid="_4l0SMCf0EeKbT_45B08XTA" presentationName="XTrailer: Organizations and capabilities">
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_4l0SMCf0EeKbT_45B08XTA" name="xtrailer_example_organizations_and_capabilities" guid="_4l0SMCf0EeKbT_45B08XTA" presentationName="XTrailer: Organizations and capabilities" briefDescription="XTrailer: Organizations and capabilities">
               <methodElementProperty xmi:id="_8khjcCf0EeKbT_45B08XTA" name="me_edited" value="true"/>
               <presentation xmi:id="-4mwZGxwrZa7nRLr9kXxNIg" href="uma://-4mwZGxwrZa7nRLr9kXxNIg#-4mwZGxwrZa7nRLr9kXxNIg"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_9YYCQCf0EeKbT_45B08XTA" name="xtrailer_example_value" guid="_9YYCQCf0EeKbT_45B08XTA" presentationName="XTrailer: Value">
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_9YYCQCf0EeKbT_45B08XTA" name="xtrailer_example_value" guid="_9YYCQCf0EeKbT_45B08XTA" presentationName="XTrailer: Value" briefDescription="XTrailer: Value">
               <methodElementProperty xmi:id="__ETYkCf0EeKbT_45B08XTA" name="me_edited" value="true"/>
               <presentation xmi:id="-3Z61Jcw3gBKUn6uoNhBG8g" href="uma://-3Z61Jcw3gBKUn6uoNhBG8g#-3Z61Jcw3gBKUn6uoNhBG8g"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_zkRtkGcDEeKiFYSF1N66Iw" name="high_risk_pregnancy" guid="_zkRtkGcDEeKiFYSF1N66Iw">
+            <methodElementProperty xmi:id="_zkRtkWcDEeKiFYSF1N66Iw" name="pkg_loadCheck" value="true"/>
+            <methodElementProperty xmi:id="_01k9YGcDEeKiFYSF1N66Iw" name="me_edited" value="true"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_EGSHUGcEEeKiFYSF1N66Iw" name="high_risk_pregnancy_example" guid="_EGSHUGcEEeKiFYSF1N66Iw" presentationName="High Risk Pregnancy: Example" briefDescription="High Risk Pregnancy: Example">
+              <methodElementProperty xmi:id="_GTHLQGcEEeKiFYSF1N66Iw" name="me_edited" value="true"/>
+              <presentation xmi:id="-wzXDECrWi8wF4VtEuBo3_g" href="uma://-wzXDECrWi8wF4VtEuBo3_g#-wzXDECrWi8wF4VtEuBo3_g"/>
             </contentElements>
           </childPackages>
         </childPackages>

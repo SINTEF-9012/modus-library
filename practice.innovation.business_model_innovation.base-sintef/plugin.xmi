@@ -10,7 +10,7 @@
     <resourceDescriptors xmi:id="_Co0a0RRZEeGTU829fpxEZg" id="-c6ewibbhROs_23wdFA-Itw" uri="roles/business_architect.assign.xmi"/>
     <resourceDescriptors xmi:id="_Yddy4BRZEeGTU829fpxEZg" id="-fqgohI4NFpsAMZfe7noSCw" uri="tools/neffics_business_model_canvas.assign.xmi"/>
     <resourceDescriptors xmi:id="_etzvkBRZEeGTU829fpxEZg" id="-o1IBha7lXPPdlzWPw3xBGg" uri="guidances/toolmentors/neffics_business_model_canvas_user_guide.xmi"/>
-    <resourceDescriptors xmi:id="_ke4WURRZEeGTU829fpxEZg" id="-nzmOLZRDxCg9IIVrDTX-JA" uri="guidances/examples/business_model_example.xmi"/>
+    <resourceDescriptors xmi:id="_ke4WURRZEeGTU829fpxEZg" id="-nzmOLZRDxCg9IIVrDTX-JA" uri="guidances/examples/vlastuin_business_model_examples.xmi"/>
     <resourceDescriptors xmi:id="_KRyHMRaREeGN5IfqzXKCmQ" id="-y60wzwmIBo2VxT6CRiSv2A" uri="tools/other_tools.assign.xmi"/>
     <resourceDescriptors xmi:id="_dvQMgRaREeGN5IfqzXKCmQ" id="-mGNB821YGCKRap5xl-0QZQ" uri="guidances/toolmentors/value_network_tool_mentor.xmi"/>
     <resourceDescriptors xmi:id="_HOby4FGVEeGhK6PCw6rfMg" id="_HOYvkFGVEeGhK6PCw6rfMg" uri="capabilitypatterns/business_model_innovation_workflow/model.xmi"/>
@@ -39,6 +39,8 @@
     <resourceDescriptors xmi:id="_yyaLgVPBEeGZlfB-Ol6wYA" id="-rfZVBsgtinSX5wDrMK0iWg" uri="guidances/guidelines/relationship_innovation_leadership.xmi"/>
     <resourceDescriptors xmi:id="_64I8gVPBEeGZlfB-Ol6wYA" id="-JZrqXovWJIP39VbpTS9plg" uri="guidances/guidelines/process_innovation_leadership.xmi"/>
     <resourceDescriptors xmi:id="_xP3cwC6hEeK2FIDzHiqO5Q" id="-rPi5rHJsvr5iFEyEQ31llA" uri="guidances/guidelines/business_model_innovation_leadership.xmi"/>
+    <resourceDescriptors xmi:id="_PNq-YGb3EeKiFYSF1N66Iw" id="-d48CzamCwN8t4iZWdxfB7A" uri="guidances/examples/hrp_business_model_canvas.xmi"/>
+    <resourceDescriptors xmi:id="_HV6lsGb8EeKiFYSF1N66Iw" id="-MS5OrYdnrvgdmKoysQ9YwA" uri="guidances/examples/hsjd_business_model_examples.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_vwC_ABHcEeG_-5iAZ-mDRA" name="practice.innovation.business_model_innovation.base-sintef" guid="_vwC_ABHcEeG_-5iAZ-mDRA" briefDescription="This plugin contains the base Business Model Innovation practice." authors="Brian Elvesæter (SINTEF), Peter Lindgren (AAU)" changeDate="2012-11-12T06:55:18.839+0100">
     <methodElementProperty xmi:id="_vwpb8hHcEeG_-5iAZ-mDRA" name="plugin_synFree" value="true"/>
@@ -90,7 +92,7 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Y0V3QBRYEeGTU829fpxEZg" name="tool_mentors" guid="_Y0V3QBRYEeGTU829fpxEZg">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_SHkn0BRZEeGTU829fpxEZg" name="neffics_business_model_canvas" guid="_SHkn0BRZEeGTU829fpxEZg">
             <methodElementProperty xmi:id="_dpZHECmsEeK5vc5kbcw8xg" name="me_edited" value="true"/>
-            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_azGNgBRZEeGTU829fpxEZg" name="neffics_business_model_canvas_user_guide" guid="_azGNgBRZEeGTU829fpxEZg" presentationName="NEFFICS Business Model Canvas: User guide">
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_azGNgBRZEeGTU829fpxEZg" name="neffics_business_model_canvas_user_guide" guid="_azGNgBRZEeGTU829fpxEZg" presentationName="NEFFICS Business Model Canvas: User guide" examples="_HbEkwGb3EeKiFYSF1N66Iw">
               <methodElementProperty xmi:id="_OtsccLbwEeGSldvlqRCwfg" name="me_edited" value="true"/>
               <presentation xmi:id="-o1IBha7lXPPdlzWPw3xBGg" href="uma://-o1IBha7lXPPdlzWPw3xBGg#-o1IBha7lXPPdlzWPw3xBGg"/>
             </contentElements>
@@ -102,7 +104,7 @@
           </childPackages>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aBTZoBRYEeGTU829fpxEZg" name="business_model_innovation" guid="_aBTZoBRYEeGTU829fpxEZg">
-          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_cPyDYBRYEeGTU829fpxEZg" name="business_model_innovation" guid="_cPyDYBRYEeGTU829fpxEZg" presentationName="Business Model Innovation" briefDescription="This practice describes how to build and innovate your business model based on the NEFFICS Business Model Innovation Framework (7 building blocks)." contentReferences="_Q8ISAFMbEeGmntP9zKVTFw _LctXgFPBEeGZlfB-Ol6wYA _rq-rQFPAEeGZlfB-Ol6wYA _u1iA4FOuEeGcEMRXpnhBww _XMdjMFPBEeGZlfB-Ol6wYA _1hqAAFPBEeGZlfB-Ol6wYA _qFjJEFPBEeGZlfB-Ol6wYA _3Cxp8FPAEeGZlfB-Ol6wYA _ehN_sFPAEeGZlfB-Ol6wYA _iZLOEBRZEeGTU829fpxEZg _azGNgBRZEeGTU829fpxEZg _Zo1JsBaREeGN5IfqzXKCmQ __0ZMEBWwEeGINOUzJIOMxA _2G1SAFOzEeGab7kba9X4aQ _iS5NcFOzEeGab7kba9X4aQ _xE6QQFOzEeGab7kba9X4aQ _tePEgFOzEeGab7kba9X4aQ _o_kg0FOzEeGab7kba9X4aQ _0HDyoFOzEeGab7kba9X4aQ _rAyKoFOzEeGab7kba9X4aQ _kGTEwFOzEeGab7kba9X4aQ _mv0EsFOzEeGab7kba9X4aQ _6e-W8FOzEeGab7kba9X4aQ __LR88BRYEeGTU829fpxEZg _rcEnYBRYEeGTU829fpxEZg _VcpGMBRZEeGTU829fpxEZg _FyhGkBaREeGN5IfqzXKCmQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_cPyDYBRYEeGTU829fpxEZg" name="business_model_innovation" guid="_cPyDYBRYEeGTU829fpxEZg" presentationName="Business Model Innovation" briefDescription="This practice describes how to build and innovate your business model based on the NEFFICS Business Model Innovation Framework (7 building blocks)." contentReferences="_Q8ISAFMbEeGmntP9zKVTFw _gUoqsC6hEeK2FIDzHiqO5Q _LctXgFPBEeGZlfB-Ol6wYA _rq-rQFPAEeGZlfB-Ol6wYA _u1iA4FOuEeGcEMRXpnhBww _XMdjMFPBEeGZlfB-Ol6wYA _1hqAAFPBEeGZlfB-Ol6wYA _qFjJEFPBEeGZlfB-Ol6wYA _3Cxp8FPAEeGZlfB-Ol6wYA _ehN_sFPAEeGZlfB-Ol6wYA _HbEkwGb3EeKiFYSF1N66Iw _E4C1EGb8EeKiFYSF1N66Iw _iZLOEBRZEeGTU829fpxEZg _azGNgBRZEeGTU829fpxEZg _Zo1JsBaREeGN5IfqzXKCmQ __0ZMEBWwEeGINOUzJIOMxA _2G1SAFOzEeGab7kba9X4aQ _iS5NcFOzEeGab7kba9X4aQ _xE6QQFOzEeGab7kba9X4aQ _tePEgFOzEeGab7kba9X4aQ _o_kg0FOzEeGab7kba9X4aQ _0HDyoFOzEeGab7kba9X4aQ _rAyKoFOzEeGab7kba9X4aQ _kGTEwFOzEeGab7kba9X4aQ _mv0EsFOzEeGab7kba9X4aQ _6e-W8FOzEeGab7kba9X4aQ __LR88BRYEeGTU829fpxEZg _rcEnYBRYEeGTU829fpxEZg _VcpGMBRZEeGTU829fpxEZg _FyhGkBaREeGN5IfqzXKCmQ">
             <methodElementProperty xmi:id="_BIR-YCmpEeKgDIEH3SkN3Q" name="me_edited" value="true"/>
             <presentation xmi:id="-gEJHFSUq7wsV1d6oCo-mag" href="uma://-gEJHFSUq7wsV1d6oCo-mag#-gEJHFSUq7wsV1d6oCo-mag"/>
             <activityReferences href="uma://_TDpJYFMhEeGhzdEa67rTdA#_TDpJYVMhEeGhzdEa67rTdA"/>
@@ -116,10 +118,7 @@
             <presentation xmi:id="-c6ewibbhROs_23wdFA-Itw" href="uma://-c6ewibbhROs_23wdFA-Itw#-c6ewibbhROs_23wdFA-Itw"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_0wQ9MCdVEeKDGNEPRzZzCg#_uWhiACdXEeKDGNEPRzZzCg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_iZLOEBRZEeGTU829fpxEZg" name="business_model_example" guid="_iZLOEBRZEeGTU829fpxEZg" presentationName="Business model example" briefDescription="Business model example">
-            <presentation xmi:id="-nzmOLZRDxCg9IIVrDTX-JA" href="uma://-nzmOLZRDxCg9IIVrDTX-JA#-nzmOLZRDxCg9IIVrDTX-JA"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="__0ZMEBWwEeGINOUzJIOMxA" name="business_model.assign" guid="__0ZMEBWwEeGINOUzJIOMxA" briefDescription="This work product describes how an enterprise is designed to provide goods and/or services to consumers or corporate entities (business). " variabilityType="contributes" guidelines="_LctXgFPBEeGZlfB-Ol6wYA _rq-rQFPAEeGZlfB-Ol6wYA _u1iA4FOuEeGcEMRXpnhBww _XMdjMFPBEeGZlfB-Ol6wYA _1hqAAFPBEeGZlfB-Ol6wYA _qFjJEFPBEeGZlfB-Ol6wYA _3Cxp8FPAEeGZlfB-Ol6wYA _ehN_sFPAEeGZlfB-Ol6wYA" examples="_iZLOEBRZEeGTU829fpxEZg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="__0ZMEBWwEeGINOUzJIOMxA" name="business_model.assign" guid="__0ZMEBWwEeGINOUzJIOMxA" briefDescription="This work product describes how an enterprise is designed to provide goods and/or services to consumers or corporate entities (business). " variabilityType="contributes" guidelines="_LctXgFPBEeGZlfB-Ol6wYA _rq-rQFPAEeGZlfB-Ol6wYA _u1iA4FOuEeGcEMRXpnhBww _XMdjMFPBEeGZlfB-Ol6wYA _1hqAAFPBEeGZlfB-Ol6wYA _qFjJEFPBEeGZlfB-Ol6wYA _3Cxp8FPAEeGZlfB-Ol6wYA _ehN_sFPAEeGZlfB-Ol6wYA _gUoqsC6hEeK2FIDzHiqO5Q" examples="_iZLOEBRZEeGTU829fpxEZg _HbEkwGb3EeKiFYSF1N66Iw _E4C1EGb8EeKiFYSF1N66Iw">
             <methodElementProperty xmi:id="_7qWAEC0LEeKyWralSrmW_A" name="me_edited" value="true"/>
             <presentation xmi:id="-_N-xU4N5Na8nK2LxMgT2Kw" href="uma://-_N-xU4N5Na8nK2LxMgT2Kw#-_N-xU4N5Na8nK2LxMgT2Kw"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_GLXWgLVlEeG-o5qJTdyH5A"/>
@@ -202,6 +201,34 @@
             <methodElementProperty xmi:id="_jNHTsC6hEeK2FIDzHiqO5Q" name="me_edited" value="true"/>
             <presentation xmi:id="-rPi5rHJsvr5iFEyEQ31llA" href="uma://-rPi5rHJsvr5iFEyEQ31llA#-rPi5rHJsvr5iFEyEQ31llA"/>
           </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-gq1kGb2EeKiFYSF1N66Iw" name="examples" guid="_-gq1kGb2EeKiFYSF1N66Iw">
+          <methodElementProperty xmi:id="_-gq1kWb2EeKiFYSF1N66Iw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_-9bqEGb2EeKiFYSF1N66Iw" name="me_edited" value="true"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_DsuDsGb3EeKiFYSF1N66Iw" name="high_risk_pregnancy" guid="_DsuDsGb3EeKiFYSF1N66Iw">
+            <methodElementProperty xmi:id="_DsuDsWb3EeKiFYSF1N66Iw" name="pkg_loadCheck" value="true"/>
+            <methodElementProperty xmi:id="_EsEn4Gb3EeKiFYSF1N66Iw" name="me_edited" value="true"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_HbEkwGb3EeKiFYSF1N66Iw" name="hrp_business_model_canvas" guid="_HbEkwGb3EeKiFYSF1N66Iw" presentationName="High Risk Pregnancy: Business model canvas" briefDescription="High Risk Pregnancy: Business model canvas">
+              <methodElementProperty xmi:id="_M8CS8Gb3EeKiFYSF1N66Iw" name="me_edited" value="true"/>
+              <presentation xmi:id="-d48CzamCwN8t4iZWdxfB7A" href="uma://-d48CzamCwN8t4iZWdxfB7A#-d48CzamCwN8t4iZWdxfB7A"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yrmaIGb4EeKiFYSF1N66Iw" name="hsjd" guid="_yrmaIGb4EeKiFYSF1N66Iw">
+            <methodElementProperty xmi:id="_yrmaIWb4EeKiFYSF1N66Iw" name="pkg_loadCheck" value="true"/>
+            <methodElementProperty xmi:id="_zQKfwGb4EeKiFYSF1N66Iw" name="me_edited" value="true"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_E4C1EGb8EeKiFYSF1N66Iw" name="hsjd_business_model_examples" guid="_E4C1EGb8EeKiFYSF1N66Iw" presentationName="HSJD: Business model examples" briefDescription="HSJD: Business model examples">
+              <methodElementProperty xmi:id="_HV1GIGb8EeKiFYSF1N66Iw" name="me_edited" value="true"/>
+              <presentation xmi:id="-MS5OrYdnrvgdmKoysQ9YwA" href="uma://-MS5OrYdnrvgdmKoysQ9YwA#-MS5OrYdnrvgdmKoysQ9YwA"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_zv-oQGb4EeKiFYSF1N66Iw" name="vlastuin" guid="_zv-oQGb4EeKiFYSF1N66Iw">
+            <methodElementProperty xmi:id="_zv-oQWb4EeKiFYSF1N66Iw" name="pkg_loadCheck" value="true"/>
+            <methodElementProperty xmi:id="_0eGSgGb4EeKiFYSF1N66Iw" name="me_edited" value="true"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_iZLOEBRZEeGTU829fpxEZg" name="vlastuin_business_model_examples" guid="_iZLOEBRZEeGTU829fpxEZg" presentationName="Vlastuin: Business model examples" briefDescription="Vlastuin: Business model examples">
+              <methodElementProperty xmi:id="_otNo8Gb5EeKiFYSF1N66Iw" name="me_edited" value="true"/>
+              <presentation xmi:id="-nzmOLZRDxCg9IIVrDTX-JA" href="uma://-nzmOLZRDxCg9IIVrDTX-JA#-nzmOLZRDxCg9IIVrDTX-JA"/>
+            </contentElements>
+          </childPackages>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_vwC_DRHcEeG_-5iAZ-mDRA" name="CapabilityPatterns" guid="_vwC_DRHcEeG_-5iAZ-mDRA">

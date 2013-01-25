@@ -117,4 +117,88 @@
     Describe deliverables flow.&lt;br />&#xD;
 &lt;/p></refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QXaM5-uy9UMJLCG4OozIrA" name="activities,_oRJgYWbrEeKiFYSF1N66Iw" guid="-QXaM5-uy9UMJLCG4OozIrA">
+    <refinedDescription>&lt;p>&#xD;
+    An activity represents “work contributed to a collaboration by a participant in a role of the collaboration”. A role&#xD;
+    may contribute to multiple activities in the same collaboration. As the VDML ontology diagram in the figure&#xD;
+    below&amp;nbsp;highlights, roles perform activities, and activities require capabilities. Activities also create and/or&#xD;
+    consume value.&#xD;
+&lt;/p>&#xD;
+&lt;img alt=&quot;&quot; src=&quot;./../../practice.business.value_delivery_modelling.base-sintef/workproducts/resources/vdml_figure41.png&quot; width=&quot;496&quot; height=&quot;246&quot; />&lt;br />&#xD;
+&lt;br />&#xD;
+&lt;strong>Figure 41. VDML high-level ontology: Activity highlighted&lt;/strong></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UEyJSsw8eyjjjBWI0pPKqw" name="business_network_and_collaboration,_oRKHcWbrEeKiFYSF1N66Iw" guid="-UEyJSsw8eyjjjBWI0pPKqw">
+    <refinedDescription>&lt;p>&#xD;
+    VDML specializes collaboration into a few common sub-types. Figure 12 highlights two of them: “community” and “business&#xD;
+    network”.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./../../practice.business.value_delivery_modelling.base-sintef/workproducts/resources/vdml_figure12.png&quot; width=&quot;505&quot; height=&quot;250&quot; />&lt;br />&#xD;
+    &lt;br />&#xD;
+    &lt;strong>Figure 12. VDML high-level ontology: Collaboration highlighted&lt;br />&#xD;
+    &lt;/strong>&lt;br />&#xD;
+    A business network is “a collaboration between independent business (or economic) entities, potentially companies,&#xD;
+    agencies, individuals or anonymous members of communities of independent business entities, participating in an&#xD;
+    economic exchange”. A business network defines a business collaboration of roles.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A community is “a collaboration of participants with similar interests that work together for some shared purpose such&#xD;
+    as sharing knowledge”. A community defines an informal or “weak” collaboration of roles. The collaboration that a&#xD;
+    community represents is said to be “informal” and “weak”, as opposed to collaboration in the formal and structured part&#xD;
+    of the organization, as defined by organization units. Organization units (or org units) will be discussed later. We&#xD;
+    will revisit communities later, and will first focus discussion on business networks.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-D2-NqtILMV1GUM4vqjWiXA" name="organizations_and_capabilities,_oRKHdGbrEeKiFYSF1N66Iw" guid="-D2-NqtILMV1GUM4vqjWiXA">
+    <refinedDescription>&lt;p>&#xD;
+    Organization units are the building blocks to define the more formal and structured parts of organizations. An&#xD;
+    organization can be defined as “an administrative or functional structure normally interpreted as a network of&#xD;
+    organization units at a higher level in an organizational hierarchy”. An organization unit is “an administrative or&#xD;
+    functional organizational collaboration, with responsibility for defined resources, including a collaboration that&#xD;
+    occurs in the typical organization hierarchy, such as business units and departments (and also the company itself), as&#xD;
+    well as less formal organizational collaboration such as a committee, project, or task force”.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Organization units provide capabilities. A capability is “the ability to perform a particular kind of work and deliver&#xD;
+    desired value”. We will discuss about value later, but analyze capabilities in more detail first. Organization units&#xD;
+    that provide capabilities do need capability methods and/or resources to support these capabilities. The same or&#xD;
+    different organization units own these. A resource is “anything that is used or consumed in the production of a&#xD;
+    deliverable”. A capability method is “a reusable template for a collaboration configured for participants to perform&#xD;
+    activities to deliver a capability and to contribute value in a particular situation”. We will discuss about activities&#xD;
+    later. Both organization units and capability methods are collaborations of roles. As will be discussed later,&#xD;
+    capability methods, especially the more structured ones, are a perfect basis for process discovery. In particular,&#xD;
+    process definitions that comply with the BPMN standard (see BPMN (2011)), can be generated from capability methods&#xD;
+    (model transformation).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    These concepts, as highlighted, in the VDML ontology diagram in Figure 24.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./../../practice.business.value_delivery_modelling.base-sintef/workproducts/resources/vdml_figure24.png&quot; width=&quot;523&quot; height=&quot;259&quot; />&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 24. VDML high-level ontology: Organization Unit and Capability highlighted&lt;/strong>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-86OF9RfH5rnXuLTewZ_OUg" name="value,_oRKugWbrEeKiFYSF1N66Iw" guid="-86OF9RfH5rnXuLTewZ_OUg">
+    <refinedDescription>&lt;p>&#xD;
+    As the VDML ontology diagram in Figure 91 highlights, roles, based on their collaboration with each other, provide&#xD;
+    and/or receive value propositions. Value propositions articulate values. A value proposition is “an expression of the&#xD;
+    values offered to a recipient in terms of the recipient’s level of satisfaction”. In VDML “value” is defined as “a&#xD;
+    measurable benefit delivered to a recipient in association with a business item”. Any value should be identifiable and&#xD;
+    measurable, either objectively or subjectively. A value may have an objective measure, whereas the measure of the&#xD;
+    recipient’s level of satisfaction is subjective. Though values need not be intrinsic in a deliverable, but may often&#xD;
+    relate to a transaction, a relationship, a corporate “image” or reputation, etc., values are not actually received by&#xD;
+    recipients when there is no deliverable (or business item) exchanged whatsoever. Delivery of business items is the&#xD;
+    basis of exchanging values. Note again that deliverables need not be tangible. They are often intangible. Many values&#xD;
+    maybe associated with intangibles. As discussed in 3.1.4, roles perform activity. Activities create and consume value.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./../../practice.business.value_delivery_modelling.base-sintef/workproducts/resources/vdml_figure91.png&quot; width=&quot;480&quot; height=&quot;237&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 91. VDML high-level ontology: Value highlighted&lt;/strong>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
 </xmi:XMI>

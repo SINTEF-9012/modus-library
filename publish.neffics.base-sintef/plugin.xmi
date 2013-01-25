@@ -22,10 +22,16 @@
     <resourceDescriptors xmi:id="_j__WgBasEeGN5IfqzXKCmQ" id="-vUB2Nj395AztjwAcVahmjQ" uri="guidances/termdefinitions/social_capital.xmi"/>
     <resourceDescriptors xmi:id="_rF5CMRasEeGN5IfqzXKCmQ" id="-l4tgxpV8ZlRKnV5EjGpSGw" uri="guidances/termdefinitions/virtual_breeding_environment.xmi"/>
     <resourceDescriptors xmi:id="_9gclAEN6EeGWxYk7Ilr7Gg" id="-4ugyEwcp9XhlrUe73nnh4w" uri="guidances/supportingmaterials/neffics_glossary.xmi"/>
-    <resourceDescriptors xmi:id="_rOoUELb1EeGSldvlqRCwfg" id="-F_9XNB2MQeVbBMJoH1zZVg" uri="guidances/toolmentors/neffics_platform_user_guide.xmi"/>
+    <resourceDescriptors xmi:id="_rOoUELb1EeGSldvlqRCwfg" id="-F_9XNB2MQeVbBMJoH1zZVg" uri="guidances/toolmentors/neffics_platform_overview.xmi"/>
     <resourceDescriptors xmi:id="_1QhQ8SddEeKDGNEPRzZzCg" id="-YGyaFqrsKD4ITLGtYzSgzg" uri="tools/neffics_platform.assign.xmi"/>
     <resourceDescriptors xmi:id="_unHXMCdhEeKDGNEPRzZzCg" id="-ZnzSip8aC3sYa1tr-_hpcQ" uri="guidances/toolmentors/neffics_methodology_wiki_installation_guide.xmi"/>
     <resourceDescriptors xmi:id="_y_iwACdhEeKDGNEPRzZzCg" id="-rDQgP53e6mUQ_jRm3STbJw" uri="guidances/toolmentors/neffics_methodology_wiki_user_guide.xmi"/>
+    <resourceDescriptors xmi:id="_FIh5YGcCEeKiFYSF1N66Iw" id="-Nk_nZfXGxNGgHnqj0Yo6Fg" uri="guidances/termdefinitions/business_model_innovation_leadership.xmi"/>
+    <resourceDescriptors xmi:id="_MZbUIGcCEeKiFYSF1N66Iw" id="-AgaIQXVHHXx6F0NRJXA_Vw" uri="guidances/termdefinitions/business_model_innovation_management.xmi"/>
+    <resourceDescriptors xmi:id="_XVxs8GcCEeKiFYSF1N66Iw" id="-mztiIg5lWn_CefSZ07kp6g" uri="guidances/termdefinitions/business_model_innovation_implementation.xmi"/>
+    <resourceDescriptors xmi:id="_o2RIMGcCEeKiFYSF1N66Iw" id="-bic3yzSlTmUn0RPBkFsgZA" uri="guidances/termdefinitions/business_model_innovation_leadership_viewpoints.xmi"/>
+    <resourceDescriptors xmi:id="_wYRhEGcCEeKiFYSF1N66Iw" id="-Hqx-tPDhgS6q-u65TyUbxg" uri="guidances/termdefinitions/business_model_innovation_strategies.xmi"/>
+    <resourceDescriptors xmi:id="_H6DJUGcDEeKiFYSF1N66Iw" id="-kkP50X6M8ODKWPH74MclAw" uri="guidances/termdefinitions/business_model_cube.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_YGMPMLzIEd-GWpfvmLDtFA" name="publish.neffics.base-sintef" guid="_YGMPMLzIEd-GWpfvmLDtFA" briefDescription="This plugin contains the NEFFICS method website structure." authors="Brian Elvesæter (SINTEF)" changeDate="2012-11-15T14:32:20.634+0100">
     <methodElementProperty xmi:id="_kDDhQteMEd-Mq_S1iaxctg" name="plugin_synFree" value="true"/>
@@ -132,6 +138,7 @@
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_X1qJgBWtEeGINOUzJIOMxA" name="copyright" guid="_X1qJgBWtEeGINOUzJIOMxA">
           <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_dxGNMBWtEeGINOUzJIOMxA" name="sintef_copyright.neffics" guid="_dxGNMBWtEeGINOUzJIOMxA" shapeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif" nodeicon="guidances/supportingmaterials/resources/cr_sym_obj.gif" variabilityType="replaces">
+            <methodElementProperty xmi:id="_oXaB0GYZEeKl75ksi7fgRQ" name="me_edited" value="true"/>
             <presentation xmi:id="-HK891zVAlPLzfS4-x4cnNA" href="uma://-HK891zVAlPLzfS4-x4cnNA#-HK891zVAlPLzfS4-x4cnNA"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_9FeQ0BoNEd6-1oAFrrP8yQ#_GeXK0Na8Ed-d6Ia20mQhAw"/>
           </contentElements>
@@ -145,9 +152,11 @@
             <presentation xmi:id="-nK6hICIfxuv3ziNmEp-mGA" href="uma://-nK6hICIfxuv3ziNmEp-mGA#-nK6hICIfxuv3ziNmEp-mGA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_KfOj8BaqEeGN5IfqzXKCmQ" name="emotional_capital" guid="_KfOj8BaqEeGN5IfqzXKCmQ" presentationName="Emotional capital">
+            <methodElementProperty xmi:id="_13YDgGcBEeKiFYSF1N66Iw" name="me_edited" value="true"/>
             <presentation xmi:id="-pOxvfymVR5uew4fSmz7DJA" href="uma://-pOxvfymVR5uew4fSmz7DJA#-pOxvfymVR5uew4fSmz7DJA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_TYH3QBaqEeGN5IfqzXKCmQ" name="goodwill" guid="_TYH3QBaqEeGN5IfqzXKCmQ" presentationName="Goodwill">
+            <methodElementProperty xmi:id="_6oqBMGcBEeKiFYSF1N66Iw" name="me_edited" value="true"/>
             <presentation xmi:id="-xseOAYBdgfXtGhLo2V0sLg" href="uma://-xseOAYBdgfXtGhLo2V0sLg#-xseOAYBdgfXtGhLo2V0sLg"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_sHjlcBaqEeGN5IfqzXKCmQ" name="human_capital" guid="_sHjlcBaqEeGN5IfqzXKCmQ" presentationName="Human capital">
@@ -184,14 +193,39 @@
             <presentation xmi:id="-l4tgxpV8ZlRKnV5EjGpSGw" href="uma://-l4tgxpV8ZlRKnV5EjGpSGw#-l4tgxpV8ZlRKnV5EjGpSGw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_kbyNsEN6EeGWxYk7Ilr7Gg" name="neffics_glossary" guid="_kbyNsEN6EeGWxYk7Ilr7Gg" presentationName="NEFFICS glossary" briefDescription="A collection of important terms used in the NEFFICS methodology.">
+            <methodElementProperty xmi:id="_9pqeoGcCEeKiFYSF1N66Iw" name="me_edited" value="true"/>
             <presentation xmi:id="-4ugyEwcp9XhlrUe73nnh4w" href="uma://-4ugyEwcp9XhlrUe73nnh4w#-4ugyEwcp9XhlrUe73nnh4w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_vxlxAGcBEeKiFYSF1N66Iw" name="business_model_innovation_leadership" guid="_vxlxAGcBEeKiFYSF1N66Iw" presentationName="Business model innovation leadership (BMIL)">
+            <methodElementProperty xmi:id="_z8ENYGcBEeKiFYSF1N66Iw" name="me_edited" value="true"/>
+            <presentation xmi:id="-Nk_nZfXGxNGgHnqj0Yo6Fg" href="uma://-Nk_nZfXGxNGgHnqj0Yo6Fg#-Nk_nZfXGxNGgHnqj0Yo6Fg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_IDHbMGcCEeKiFYSF1N66Iw" name="business_model_innovation_management" guid="_IDHbMGcCEeKiFYSF1N66Iw" presentationName="Business model innovation management (BMIM)">
+            <methodElementProperty xmi:id="_Kk1xEGcCEeKiFYSF1N66Iw" name="me_edited" value="true"/>
+            <presentation xmi:id="-AgaIQXVHHXx6F0NRJXA_Vw" href="uma://-AgaIQXVHHXx6F0NRJXA_Vw#-AgaIQXVHHXx6F0NRJXA_Vw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_Sm_poGcCEeKiFYSF1N66Iw" name="business_model_innovation_implementation" guid="_Sm_poGcCEeKiFYSF1N66Iw" presentationName="Business model innovation implementation">
+            <methodElementProperty xmi:id="_UDF0MGcCEeKiFYSF1N66Iw" name="me_edited" value="true"/>
+            <presentation xmi:id="-mztiIg5lWn_CefSZ07kp6g" href="uma://-mztiIg5lWn_CefSZ07kp6g#-mztiIg5lWn_CefSZ07kp6g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_jYpo8GcCEeKiFYSF1N66Iw" name="business_model_innovation_leadership_viewpoints" guid="_jYpo8GcCEeKiFYSF1N66Iw" presentationName="Business model innovation leadership viewpoints">
+            <methodElementProperty xmi:id="_lLqesGcCEeKiFYSF1N66Iw" name="me_edited" value="true"/>
+            <presentation xmi:id="-bic3yzSlTmUn0RPBkFsgZA" href="uma://-bic3yzSlTmUn0RPBkFsgZA#-bic3yzSlTmUn0RPBkFsgZA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_qqrsIGcCEeKiFYSF1N66Iw" name="business_model_innovation_strategies" guid="_qqrsIGcCEeKiFYSF1N66Iw" presentationName="Business model innovation strategies">
+            <methodElementProperty xmi:id="_r91WEGcCEeKiFYSF1N66Iw" name="me_edited" value="true"/>
+            <presentation xmi:id="-Hqx-tPDhgS6q-u65TyUbxg" href="uma://-Hqx-tPDhgS6q-u65TyUbxg#-Hqx-tPDhgS6q-u65TyUbxg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_EtUHkGcDEeKiFYSF1N66Iw" name="business_model_cube" guid="_EtUHkGcDEeKiFYSF1N66Iw" presentationName="Business model cube">
+            <methodElementProperty xmi:id="_GFy9cGcDEeKiFYSF1N66Iw" name="me_edited" value="true"/>
+            <presentation xmi:id="-kkP50X6M8ODKWPH74MclAw" href="uma://-kkP50X6M8ODKWPH74MclAw#-kkP50X6M8ODKWPH74MclAw"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_jQYEELb1EeGSldvlqRCwfg" name="tool_mentors" guid="_jQYEELb1EeGSldvlqRCwfg">
           <methodElementProperty xmi:id="_j_X4ELb1EeGSldvlqRCwfg" name="me_edited" value="true"/>
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_k1r1ALb1EeGSldvlqRCwfg" name="neffics_platform" guid="_k1r1ALb1EeGSldvlqRCwfg">
             <methodElementProperty xmi:id="_lbB9wLb1EeGSldvlqRCwfg" name="me_edited" value="true"/>
-            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_nDGHwLb1EeGSldvlqRCwfg" name="neffics_platform_user_guide" guid="_nDGHwLb1EeGSldvlqRCwfg" presentationName="NEFFICS Platform: User guide">
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_nDGHwLb1EeGSldvlqRCwfg" name="neffics_platform_overview" guid="_nDGHwLb1EeGSldvlqRCwfg" presentationName="NEFFICS Platform: Overview">
               <methodElementProperty xmi:id="_pe1KYLb1EeGSldvlqRCwfg" name="me_edited" value="true"/>
               <presentation xmi:id="-F_9XNB2MQeVbBMJoH1zZVg" href="uma://-F_9XNB2MQeVbBMJoH1zZVg#-F_9XNB2MQeVbBMJoH1zZVg"/>
             </contentElements>

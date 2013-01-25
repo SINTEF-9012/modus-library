@@ -2,6 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_BbH5IMcTEd-2_-I8Ok7trA" guid="_BbH5IMcTEd-2_-I8Ok7trA">
     <subManagers xmi:id="_3qCzcaDFEeCXF5ZuS3W32Q" href="uma://_3pc9kKDFEeCXF5ZuS3W32Q#_3qCzcaDFEeCXF5ZuS3W32Q"/>
+    <subManagers xmi:id="_c4-8AGbwEeKiFYSF1N66Iw" href="uma://_b9ztMGbwEeKiFYSF1N66Iw#_c4-8AGbwEeKiFYSF1N66Iw"/>
     <resourceDescriptors xmi:id="_st-E4NqrEd-RHtsSMqnPrA" id="-qngyfwESOgwChQWQUODzlQ" uri="guidances/supportingmaterials/release_info_service_innovation.xmi"/>
     <resourceDescriptors xmi:id="_fK_DEPcdEd-Dxq-JD4zoQg" id="-8v1xieXfaQZdG__QrS2C7A" uri="guidances/practices/service_innovation.xmi"/>
     <resourceDescriptors xmi:id="_zOhp4PcdEd-Dxq-JD4zoQg" id="-L2r9g1Dt4BQ_yw_k6wOxxA" uri="guidances/roadmaps/how_to_adopt_service_innovation.xmi"/>
@@ -27,6 +28,11 @@
     <resourceDescriptors xmi:id="_lYytkRaNEeGN5IfqzXKCmQ" id="-Gf2sQ2U_rIyxShItIOUnvQ" uri="guidances/examples/hsjd_example.xmi"/>
     <resourceDescriptors xmi:id="_tcSC4RaNEeGN5IfqzXKCmQ" id="-yoqiFeBRJRq0UNOzUUdZbg" uri="guidances/examples/vlastuin_example.xmi"/>
     <resourceDescriptors xmi:id="_xM8CwFMiEeGhzdEa67rTdA" id="-wCtJe-gvNbkh7VnwUROnNg" uri="workproducts/service_concept_model.xmi"/>
+    <resourceDescriptors xmi:id="_pZxscGbXEeKmT775cktmuA" id="-Bu1JrrJC7JlKjhrb5OBquQ" uri="guidances/toolmentors/neffics_service_modelling_editor_atone_modelling.xmi"/>
+    <resourceDescriptors xmi:id="_c49t4GbwEeKiFYSF1N66Iw" id="_b9ztMGbwEeKiFYSF1N66Iw" uri="capabilitypatterns/service_innovation_workflow_extended/model.xmi"/>
+    <resourceDescriptors xmi:id="_vcn2UGbwEeKiFYSF1N66Iw" id="-348gHEtxQBt6738DgbhcJg" uri="tasks/define_core_team.xmi"/>
+    <resourceDescriptors xmi:id="_dpQs8GbxEeKiFYSF1N66Iw" id="-7L89oUpoFV7tQhrfthNoGg" uri="tasks/identify_problem_area.xmi"/>
+    <resourceDescriptors xmi:id="_DnbGQGbyEeKiFYSF1N66Iw" id="-aOyNduftIc5q752zP5kMqg" uri="tasks/invite_participants.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_BbGD8McTEd-2_-I8Ok7trA" name="practice.innovation.service_innovation.base-sintef" guid="_BbGD8McTEd-2_-I8Ok7trA" briefDescription="This plugin contains the base AT-ONE service innovation practice." authors="Brian Elvesæter (SINTEF), Marika Lüders (SINTEF)" changeDate="2012-11-08T14:11:10.096+0100">
     <methodElementProperty xmi:id="_kNugMdeMEd-Mq_S1iaxctg" name="plugin_synFree" value="true"/>
@@ -40,8 +46,9 @@
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BbGD9McTEd-2_-I8Ok7trA" name="Disciplines" guid="_BbGD9McTEd-2_-I8Ok7trA">
-          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_TVdnYOXWEd-o7-eCfuNF5g" name="innovation_modelling_discipline.assign" guid="_TVdnYOXWEd-o7-eCfuNF5g" variabilityType="contributes" tasks="_PJg8EKFqEeCuNfGI7-CeEA _R6P-UKFqEeCuNfGI7-CeEA _NJwq0KFqEeCuNfGI7-CeEA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_TVdnYOXWEd-o7-eCfuNF5g" name="innovation_modelling_discipline.assign" guid="_TVdnYOXWEd-o7-eCfuNF5g" variabilityType="contributes" tasks="_PJg8EKFqEeCuNfGI7-CeEA _R6P-UKFqEeCuNfGI7-CeEA _NJwq0KFqEeCuNfGI7-CeEA _kyf18GbwEeKiFYSF1N66Iw _OO4CkGbxEeKiFYSF1N66Iw _2sDcAGbxEeKiFYSF1N66Iw">
             <methodElementProperty xmi:id="_OarlgKF9EeCKTcfDSRMRtw" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_EZ6EYGb4EeKiFYSF1N66Iw" name="me_edited" value="true"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_r65O4BWsEeGINOUzJIOMxA"/>
           </contentElements>
         </childPackages>
@@ -64,6 +71,10 @@
             <presentation xmi:id="-q-Hbn9RTfhVTMezZJuo0bA" href="uma://-q-Hbn9RTfhVTMezZJuo0bA#-q-Hbn9RTfhVTMezZJuo0bA"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_ZrOMELSiEeGOSY51NyhYZA#_QYFegCmrEeK5vc5kbcw8xg"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_4zbXAGbXEeKmT775cktmuA" name="neffics_service_modelling_editor.assign" guid="_4zbXAGbXEeKmT775cktmuA" variabilityType="contributes" toolMentors="_jSj2kGbXEeKmT775cktmuA">
+            <methodElementProperty xmi:id="_6AAe4GbXEeKmT775cktmuA" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_ZrOMELSiEeGOSY51NyhYZA#_hPs4kLX_EeGFxaC4r7U9rA"/>
+          </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BbGD-McTEd-2_-I8Ok7trA" name="StandardCategories" guid="_BbGD-McTEd-2_-I8Ok7trA"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BbGD-ccTEd-2_-I8Ok7trA" name="CustomCategories" guid="_BbGD-ccTEd-2_-I8Ok7trA">
@@ -74,10 +85,11 @@
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BbGD_McTEd-2_-I8Ok7trA" name="CoreContent" guid="_BbGD_McTEd-2_-I8Ok7trA">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_3MPz4NqmEd-RHtsSMqnPrA" name="service_innovation" guid="_3MPz4NqmEd-RHtsSMqnPrA" presentationName="Service innovation">
-          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_AVsrsNqnEd-RHtsSMqnPrA" name="service_innovation" guid="_AVsrsNqnEd-RHtsSMqnPrA" presentationName="Service Innovation" briefDescription="This practice describes how to do Service Innovation based on the AT-ONE method." contentReferences="_q7HcYAwdEeC59ehc3xQ18A _SHeYkBUGEeG6UcYuiGlRtQ _BiA1gKFzEeCuNfGI7-CeEA _RJDd0BaNEeGN5IfqzXKCmQ _pXohsBaNEeGN5IfqzXKCmQ _T4ZaIKF3EeCuNfGI7-CeEA _cqnJkKFqEeCuNfGI7-CeEA _VYSAwBWwEeGINOUzJIOMxA _QLo0cBT6EeG6UcYuiGlRtQ _Qk02wBaKEeGN5IfqzXKCmQ _2bEj8BT6EeG6UcYuiGlRtQ _bduvAOXWEd-o7-eCfuNF5g _Zj_W4KFqEeCuNfGI7-CeEA _PJg8EKFqEeCuNfGI7-CeEA _R6P-UKFqEeCuNfGI7-CeEA _NJwq0KFqEeCuNfGI7-CeEA _0OMkIKF0EeCuNfGI7-CeEA _h8yN0KFqEeCuNfGI7-CeEA _n_NCQKF1EeCuNfGI7-CeEA _hOImkPcdEd-Dxq-JD4zoQg _ERZ9UBaKEeGN5IfqzXKCmQ _Gjt-YKF_EeCKTcfDSRMRtw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_AVsrsNqnEd-RHtsSMqnPrA" name="service_innovation" guid="_AVsrsNqnEd-RHtsSMqnPrA" presentationName="Service Innovation" briefDescription="This practice describes how to do Service Innovation based on the AT-ONE method." contentReferences="_q7HcYAwdEeC59ehc3xQ18A _SHeYkBUGEeG6UcYuiGlRtQ _BiA1gKFzEeCuNfGI7-CeEA _RJDd0BaNEeGN5IfqzXKCmQ _pXohsBaNEeGN5IfqzXKCmQ _T4ZaIKF3EeCuNfGI7-CeEA _cqnJkKFqEeCuNfGI7-CeEA _VYSAwBWwEeGINOUzJIOMxA _QLo0cBT6EeG6UcYuiGlRtQ _Qk02wBaKEeGN5IfqzXKCmQ _2bEj8BT6EeG6UcYuiGlRtQ _jSj2kGbXEeKmT775cktmuA _bduvAOXWEd-o7-eCfuNF5g _Zj_W4KFqEeCuNfGI7-CeEA _PJg8EKFqEeCuNfGI7-CeEA _kyf18GbwEeKiFYSF1N66Iw _R6P-UKFqEeCuNfGI7-CeEA _OO4CkGbxEeKiFYSF1N66Iw _2sDcAGbxEeKiFYSF1N66Iw _NJwq0KFqEeCuNfGI7-CeEA _0OMkIKF0EeCuNfGI7-CeEA _iyRjQGbzEeKiFYSF1N66Iw _h8yN0KFqEeCuNfGI7-CeEA _n_NCQKF1EeCuNfGI7-CeEA _hOImkPcdEd-Dxq-JD4zoQg _Gjt-YKF_EeCKTcfDSRMRtw _ERZ9UBaKEeGN5IfqzXKCmQ">
             <methodElementProperty xmi:id="_LxywMCmoEeKgDIEH3SkN3Q" name="me_edited" value="true"/>
             <presentation xmi:id="-8v1xieXfaQZdG__QrS2C7A" href="uma://-8v1xieXfaQZdG__QrS2C7A#-8v1xieXfaQZdG__QrS2C7A"/>
             <activityReferences href="uma://_3pc9kKDFEeCXF5ZuS3W32Q#_3pc9kaDFEeCXF5ZuS3W32Q"/>
+            <activityReferences href="uma://_b9ztMGbwEeKiFYSF1N66Iw#_b90UQGbwEeKiFYSF1N66Iw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_bduvAOXWEd-o7-eCfuNF5g" name="service_concept_model" guid="_bduvAOXWEd-o7-eCfuNF5g" presentationName="Service concept model" briefDescription="This deliverable is a container for the work products resulting from applying the Service innovation practice." deliveredWorkProducts="_cqnJkKFqEeCuNfGI7-CeEA _Zj_W4KFqEeCuNfGI7-CeEA _T4ZaIKF3EeCuNfGI7-CeEA _VYSAwBWwEeGINOUzJIOMxA">
             <presentation xmi:id="-wCtJe-gvNbkh7VnwUROnNg" href="uma://-wCtJe-gvNbkh7VnwUROnNg#-wCtJe-gvNbkh7VnwUROnNg"/>
@@ -90,7 +102,7 @@
             <presentation xmi:id="-3KEq363h7B-ISDx_Ch-_fQ" href="uma://-3KEq363h7B-ISDx_Ch-_fQ#-3KEq363h7B-ISDx_Ch-_fQ"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_7J4wUNq1Ed-RHtsSMqnPrA#_zfHv4PPWEd-GtPTRjkeUMg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_NJwq0KFqEeCuNfGI7-CeEA" name="prepare_workshop" guid="_NJwq0KFqEeCuNfGI7-CeEA" presentationName="Prepare workshop" briefDescription="This task describes how to prepare the workshop." performedBy="_h8yN0KFqEeCuNfGI7-CeEA _0OMkIKF0EeCuNfGI7-CeEA" output="_Zj_W4KFqEeCuNfGI7-CeEA _VYSAwBWwEeGINOUzJIOMxA" toolMentors="_2bEj8BT6EeG6UcYuiGlRtQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_NJwq0KFqEeCuNfGI7-CeEA" name="prepare_workshop" guid="_NJwq0KFqEeCuNfGI7-CeEA" presentationName="Prepare workshop" briefDescription="This task describes how to prepare the workshop." performedBy="_h8yN0KFqEeCuNfGI7-CeEA _0OMkIKF0EeCuNfGI7-CeEA" output="_Zj_W4KFqEeCuNfGI7-CeEA _VYSAwBWwEeGINOUzJIOMxA" toolMentors="_2bEj8BT6EeG6UcYuiGlRtQ _jSj2kGbXEeKmT775cktmuA">
             <methodElementProperty xmi:id="_o-ABICmnEeKgDIEH3SkN3Q" name="me_edited" value="true"/>
             <presentation xmi:id="-EBOTZYImaRvoTdn2oDUAOw" href="uma://-EBOTZYImaRvoTdn2oDUAOw#-EBOTZYImaRvoTdn2oDUAOw"/>
           </contentElements>
@@ -98,7 +110,8 @@
             <methodElementProperty xmi:id="_qdYJMCmnEeKgDIEH3SkN3Q" name="me_edited" value="true"/>
             <presentation xmi:id="-2YaZ5NyRojQhXYL0_PaDCQ" href="uma://-2YaZ5NyRojQhXYL0_PaDCQ#-2YaZ5NyRojQhXYL0_PaDCQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_R6P-UKFqEeCuNfGI7-CeEA" name="define_service_concepts" guid="_R6P-UKFqEeCuNfGI7-CeEA" presentationName="Define service concepts" briefDescription="This task describes how to refine the innovation opportunities identified and sketched in the workshops into more elaborate service concepts." performedBy="_h8yN0KFqEeCuNfGI7-CeEA _0OMkIKF0EeCuNfGI7-CeEA" mandatoryInput="_T4ZaIKF3EeCuNfGI7-CeEA" output="_cqnJkKFqEeCuNfGI7-CeEA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_R6P-UKFqEeCuNfGI7-CeEA" name="define_service_concepts" guid="_R6P-UKFqEeCuNfGI7-CeEA" presentationName="Define service concepts" briefDescription="This task describes how to refine the innovation opportunities identified and sketched in the workshops into more elaborate service concepts." performedBy="_h8yN0KFqEeCuNfGI7-CeEA _0OMkIKF0EeCuNfGI7-CeEA" mandatoryInput="_T4ZaIKF3EeCuNfGI7-CeEA" output="_cqnJkKFqEeCuNfGI7-CeEA" toolMentors="_jSj2kGbXEeKmT775cktmuA">
+            <methodElementProperty xmi:id="_bGrqMGbrEeKmT775cktmuA" name="me_edited" value="true"/>
             <presentation xmi:id="-9KGjNWJ2BL9fHfrYEPd8-w" href="uma://-9KGjNWJ2BL9fHfrYEPd8-w#-9KGjNWJ2BL9fHfrYEPd8-w"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_Zj_W4KFqEeCuNfGI7-CeEA" name="workshop_plan" guid="_Zj_W4KFqEeCuNfGI7-CeEA" presentationName="Workshop plan" briefDescription="This work product contains plans for the workshops and the collected data input.">
@@ -132,6 +145,22 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_VYSAwBWwEeGINOUzJIOMxA" name="service_journey" guid="_VYSAwBWwEeGINOUzJIOMxA" presentationName="Service journey" briefDescription="The service journey is a chronological mapping (from the customer point of view) of a service encounter.">
             <presentation xmi:id="-TJu-r0luR-2BTAasOU1Dgw" href="uma://-TJu-r0luR-2BTAasOU1Dgw#-TJu-r0luR-2BTAasOU1Dgw"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_kyf18GbwEeKiFYSF1N66Iw" name="define_core_team" guid="_kyf18GbwEeKiFYSF1N66Iw" presentationName="Define core team" briefDescription="This task describes how to define the core team." performedBy="_iyRjQGbzEeKiFYSF1N66Iw" toolMentors="_2bEj8BT6EeG6UcYuiGlRtQ">
+            <methodElementProperty xmi:id="_l7e3QGbwEeKiFYSF1N66Iw" name="me_edited" value="true"/>
+            <presentation xmi:id="-348gHEtxQBt6738DgbhcJg" href="uma://-348gHEtxQBt6738DgbhcJg#-348gHEtxQBt6738DgbhcJg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_OO4CkGbxEeKiFYSF1N66Iw" name="identify_problem_area" guid="_OO4CkGbxEeKiFYSF1N66Iw" presentationName="Identify problem area" briefDescription="This describes describes how to identify the problem area." performedBy="_0OMkIKF0EeCuNfGI7-CeEA" toolMentors="_2bEj8BT6EeG6UcYuiGlRtQ">
+            <methodElementProperty xmi:id="_QOz6AGbxEeKiFYSF1N66Iw" name="me_edited" value="true"/>
+            <presentation xmi:id="-7L89oUpoFV7tQhrfthNoGg" href="uma://-7L89oUpoFV7tQhrfthNoGg#-7L89oUpoFV7tQhrfthNoGg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2sDcAGbxEeKiFYSF1N66Iw" name="invite_participants" guid="_2sDcAGbxEeKiFYSF1N66Iw" presentationName="Invite participants" briefDescription="This task describes how to invite workshop participants." performedBy="_h8yN0KFqEeCuNfGI7-CeEA" toolMentors="_2bEj8BT6EeG6UcYuiGlRtQ">
+            <methodElementProperty xmi:id="_-5ILIGbxEeKiFYSF1N66Iw" name="me_edited" value="true"/>
+            <presentation xmi:id="-aOyNduftIc5q752zP5kMqg" href="uma://-aOyNduftIc5q752zP5kMqg#-aOyNduftIc5q752zP5kMqg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_iyRjQGbzEeKiFYSF1N66Iw" name="innovation_manager.assign" guid="_iyRjQGbzEeKiFYSF1N66Iw" variabilityType="contributes">
+            <methodElementProperty xmi:id="_kC0lIGbzEeKiFYSF1N66Iw" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_0wQ9MCdVEeKDGNEPRzZzCg#_vIOEsCdXEeKDGNEPRzZzCg"/>
+          </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_iJJl0NqsEd-RHtsSMqnPrA" name="release_info" guid="_iJJl0NqsEd-RHtsSMqnPrA">
           <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_o22pYNqrEd-RHtsSMqnPrA" name="release_info_service_innovation" guid="_o22pYNqrEd-RHtsSMqnPrA" presentationName="Practice: Service Innovation" briefDescription="Service Innovation practice release info." shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
@@ -147,8 +176,17 @@
             </contentElements>
           </childPackages>
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MuUfQBaKEeGN5IfqzXKCmQ" name="atone_toolbox" guid="_MuUfQBaKEeGN5IfqzXKCmQ">
-            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_Qk02wBaKEeGN5IfqzXKCmQ" name="atone_toolbox_mentor" guid="_Qk02wBaKEeGN5IfqzXKCmQ" presentationName="ATONE toolbox: Mentor">
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_Qk02wBaKEeGN5IfqzXKCmQ" name="atone_toolbox_mentor" guid="_Qk02wBaKEeGN5IfqzXKCmQ" presentationName="AT-ONE toolbox: Workshop consumables">
+              <methodElementProperty xmi:id="__HHLgGbrEeKiFYSF1N66Iw" name="me_edited" value="true"/>
               <presentation xmi:id="-V2K57qhAVGzL4b5TY3xWXQ" href="uma://-V2K57qhAVGzL4b5TY3xWXQ#-V2K57qhAVGzL4b5TY3xWXQ"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gy3hAGbXEeKmT775cktmuA" name="service_modelling_editor" guid="_gy3hAGbXEeKmT775cktmuA">
+            <methodElementProperty xmi:id="_gy4vIGbXEeKmT775cktmuA" name="pkg_loadCheck" value="true"/>
+            <methodElementProperty xmi:id="_h3wsgGbXEeKmT775cktmuA" name="me_edited" value="true"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_jSj2kGbXEeKmT775cktmuA" name="neffics_service_modelling_editor_atone_modelling" guid="_jSj2kGbXEeKmT775cktmuA" presentationName="NEFFICS Service Modelling Editor: AT-ONE modelling">
+              <methodElementProperty xmi:id="_lQdGoGbXEeKmT775cktmuA" name="me_edited" value="true"/>
+              <presentation xmi:id="-Bu1JrrJC7JlKjhrb5OBquQ" href="uma://-Bu1JrrJC7JlKjhrb5OBquQ#-Bu1JrrJC7JlKjhrb5OBquQ"/>
             </contentElements>
           </childPackages>
         </childPackages>
@@ -168,6 +206,7 @@
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_BbGD_ccTEd-2_-I8Ok7trA" name="CapabilityPatterns" guid="_BbGD_ccTEd-2_-I8Ok7trA">
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_qwiO4FGUEeGhK6PCw6rfMg" name="service_innovation" guid="_qwiO4FGUEeGhK6PCw6rfMg">
           <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_3pc9kKDFEeCXF5ZuS3W32Q" href="uma://_3pc9kKDFEeCXF5ZuS3W32Q#_3pc9kKDFEeCXF5ZuS3W32Q"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_b9ztMGbwEeKiFYSF1N66Iw" href="uma://_b9ztMGbwEeKiFYSF1N66Iw#_b9ztMGbwEeKiFYSF1N66Iw"/>
         </childPackages>
       </childPackages>
     </methodPackages>
