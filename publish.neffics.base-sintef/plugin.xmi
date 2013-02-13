@@ -32,6 +32,7 @@
     <resourceDescriptors xmi:id="_o2RIMGcCEeKiFYSF1N66Iw" id="-bic3yzSlTmUn0RPBkFsgZA" uri="guidances/termdefinitions/business_model_innovation_leadership_viewpoints.xmi"/>
     <resourceDescriptors xmi:id="_wYRhEGcCEeKiFYSF1N66Iw" id="-Hqx-tPDhgS6q-u65TyUbxg" uri="guidances/termdefinitions/business_model_innovation_strategies.xmi"/>
     <resourceDescriptors xmi:id="_H6DJUGcDEeKiFYSF1N66Iw" id="-kkP50X6M8ODKWPH74MclAw" uri="guidances/termdefinitions/business_model_cube.xmi"/>
+    <resourceDescriptors xmi:id="_5yIdgHXWEeKlyd66BcHloA" id="-bi7n6b-OD6FT9lr1hs9dfA" uri="guidances/toolmentors/neffics_platform_demonstration.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_YGMPMLzIEd-GWpfvmLDtFA" name="publish.neffics.base-sintef" guid="_YGMPMLzIEd-GWpfvmLDtFA" briefDescription="This plugin contains the NEFFICS method website structure." authors="Brian Elvesæter (SINTEF)" changeDate="2012-11-15T14:32:20.634+0100">
     <methodElementProperty xmi:id="_kDDhQteMEd-Mq_S1iaxctg" name="plugin_synFree" value="true"/>
@@ -54,8 +55,9 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_YGMPNbzIEd-GWpfvmLDtFA" name="RoleSets" guid="_YGMPNbzIEd-GWpfvmLDtFA"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_YGMPNrzIEd-GWpfvmLDtFA" name="WP Types" guid="_YGMPNrzIEd-GWpfvmLDtFA"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_YGMPN7zIEd-GWpfvmLDtFA" name="Tools" guid="_YGMPN7zIEd-GWpfvmLDtFA">
-          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_sc-9kLb1EeGSldvlqRCwfg" name="neffics_platform.assign" guid="_sc-9kLb1EeGSldvlqRCwfg" variabilityType="contributes" toolMentors="_nDGHwLb1EeGSldvlqRCwfg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_sc-9kLb1EeGSldvlqRCwfg" name="neffics_platform.assign" guid="_sc-9kLb1EeGSldvlqRCwfg" variabilityType="contributes" toolMentors="_nDGHwLb1EeGSldvlqRCwfg _ymIw4HXWEeKlyd66BcHloA">
             <methodElementProperty xmi:id="_tHsugLb1EeGSldvlqRCwfg" name="me_edited" value="true"/>
+            <methodElementProperty xmi:id="_ESL74HXXEeKlyd66BcHloA" name="CategoryElementsSortType" value="Manual"/>
             <presentation xmi:id="-YGyaFqrsKD4ITLGtYzSgzg" href="uma://-YGyaFqrsKD4ITLGtYzSgzg#-YGyaFqrsKD4ITLGtYzSgzg"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_ZrOMELSiEeGOSY51NyhYZA#_dMymcLb0EeGSldvlqRCwfg"/>
           </contentElements>
@@ -228,6 +230,10 @@
             <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_nDGHwLb1EeGSldvlqRCwfg" name="neffics_platform_overview" guid="_nDGHwLb1EeGSldvlqRCwfg" presentationName="NEFFICS Platform: Overview">
               <methodElementProperty xmi:id="_pe1KYLb1EeGSldvlqRCwfg" name="me_edited" value="true"/>
               <presentation xmi:id="-F_9XNB2MQeVbBMJoH1zZVg" href="uma://-F_9XNB2MQeVbBMJoH1zZVg#-F_9XNB2MQeVbBMJoH1zZVg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_ymIw4HXWEeKlyd66BcHloA" name="neffics_platform_demonstration" guid="_ymIw4HXWEeKlyd66BcHloA" presentationName="NEFFICS Platform: Demonstration">
+              <methodElementProperty xmi:id="_2kfc0HXWEeKlyd66BcHloA" name="me_edited" value="true"/>
+              <presentation xmi:id="-bi7n6b-OD6FT9lr1hs9dfA" href="uma://-bi7n6b-OD6FT9lr1hs9dfA#-bi7n6b-OD6FT9lr1hs9dfA"/>
             </contentElements>
           </childPackages>
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lt6h4CdhEeKDGNEPRzZzCg" name="neffics_methodology_wiki" guid="_lt6h4CdhEeKDGNEPRzZzCg">

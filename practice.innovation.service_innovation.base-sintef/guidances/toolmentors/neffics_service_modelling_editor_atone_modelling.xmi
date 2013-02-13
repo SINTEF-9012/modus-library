@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Bu1JrrJC7JlKjhrb5OBquQ" name="neffics_service_modelling_editor_atone_modelling,_jSj2kGbXEeKmT775cktmuA" guid="-Bu1JrrJC7JlKjhrb5OBquQ" changeDate="2013-01-25T11:23:15.020+0100">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Bu1JrrJC7JlKjhrb5OBquQ" name="neffics_service_modelling_editor_atone_modelling,_jSj2kGbXEeKmT775cktmuA" guid="-Bu1JrrJC7JlKjhrb5OBquQ" changeDate="2013-02-13T12:54:28.152+0100">
   <mainDescription>&lt;h3>&#xD;
     NEFFICS Service Modelling Editor: AT-ONE modelling&#xD;
 &lt;/h3>&#xD;
@@ -19,6 +19,31 @@
         color=&quot;#0066cc&quot;>http://tomcat.thingml.org/backend/poem/repository&lt;/font>&lt;/u>&lt;/a>&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
+&lt;h4>&#xD;
+    A-T-O-N-E diagrams&amp;nbsp;&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The editor supports four diagram types for modelling the AT-ONE lenses:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        ServiceML (A-T-O-N-E) is a diagram type that allows you to create a navigation map of a ServiceML model where each&#xD;
+        of the elements are further refined or detailed in separate sub-diagrams.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        ServiceML (A-O) is a diagram type that allows you to model&amp;nbsp;Actors (as Services Architectures)&amp;nbsp;and&#xD;
+        Offerings (as Service Contracts).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        ServiceML (N) is a diagram type that allows you to model&amp;nbsp;Needs (as Goals and Objectives).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        ServiceML (T-E) is a diagram type that allows you to model Touchpoints and Experiences (as Service Journey Maps).&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/oryx_atone_diagrams.png&quot; width=&quot;259&quot; height=&quot;449&quot; />&#xD;
+&lt;/p>&#xD;
 &lt;h4>&#xD;
     Actors&#xD;
 &lt;/h4>&#xD;
@@ -72,8 +97,8 @@
     Needs&#xD;
 &lt;/h4>&#xD;
 &lt;p>&#xD;
-    Needs modelling is not implemented yet, but the tool will be extended with BMM goals modelling. The&amp;nbsp;idea is to use&#xD;
-    a very small subset of BMM (Business Motivation Model) standard allowing to model goals and objectives:&#xD;
+    User needs are expressed as goals which are quantified by objectives. Goals and objectives are taken from the BMM&#xD;
+    (Business Motivation Model) standard.&amp;nbsp;&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
@@ -86,10 +111,7 @@
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    An example of Goals and Objectives diagram is shown below (Xactium tool, not Oryx-based).&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    &lt;img alt=&quot;&quot; src=&quot;resources/atone_needs.png&quot; width=&quot;600&quot; height=&quot;382&quot; />&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/atone_needs.png&quot; width=&quot;595&quot; height=&quot;445&quot; />&#xD;
 &lt;/p>&#xD;
 &lt;h4>&#xD;
     Experiences&#xD;

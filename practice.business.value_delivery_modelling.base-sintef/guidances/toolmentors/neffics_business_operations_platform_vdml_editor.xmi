@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-KrAwqLjGQR8U5QF8xvHmzw" name="new_toolmentor,_DK8DwCdmEeKDGNEPRzZzCg" guid="-KrAwqLjGQR8U5QF8xvHmzw" changeDate="2012-11-08T14:37:36.528+0100">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-KrAwqLjGQR8U5QF8xvHmzw" name="new_toolmentor,_DK8DwCdmEeKDGNEPRzZzCg" guid="-KrAwqLjGQR8U5QF8xvHmzw" changeDate="2013-02-12T15:40:28.969+0100">
   <mainDescription>&lt;h3>&#xD;
     NEFFICS Business Operations Platform: VDML editor&#xD;
 &lt;/h3>&#xD;
@@ -39,5 +39,40 @@
 &lt;/p>&#xD;
 &lt;p>&#xD;
     &lt;img alt=&quot;&quot; src=&quot;resources/vdml_editor_multiple_views_on_collaboration.png&quot; width=&quot;600&quot; height=&quot;449&quot; />&#xD;
-&lt;/p></mainDescription>
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    Importing the&amp;nbsp;VRM&amp;nbsp;library&#xD;
+&lt;/h4>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Select &quot;Workspace Documents&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Insert &quot;New Workspace&quot;. Enter the following values for the wizard option screens: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Step 1: Name = &quot;VRM&quot;, Description = &quot;VRM&quot;, Source Control Management Type = &quot;No source control&quot;&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Step 2: Project Name = &quot;VRM&quot;, Package Owner = &quot;[Company Name]&quot;, Product Name = &quot;VRM&quot;&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Step 3: Click the &quot;Create&quot; button and then the &quot;Close&quot; button when the workspace has been created.&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Right-click on the &quot;VRM&quot; workspace and select &quot;Import...&quot;. Select the following options in the wizard:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Step 1: Model Type = &quot;Capability Library&quot;, Import Plug-in = &quot;VRM 1.0 Import&quot;.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Step 2: Click &quot;Next&quot; and then select the VRM zip file to upload. Then press the &quot;Import&quot; button.&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

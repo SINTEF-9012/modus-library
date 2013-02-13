@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-jGHKn7BLy9k25sf2b5TQ-Q" name="new_toolmentor,_rHJAoCnjEeK6srRiz90qtw" guid="-jGHKn7BLy9k25sf2b5TQ-Q" changeDate="2012-11-08T21:38:31.861+0100">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-jGHKn7BLy9k25sf2b5TQ-Q" name="new_toolmentor,_rHJAoCnjEeK6srRiz90qtw" guid="-jGHKn7BLy9k25sf2b5TQ-Q" changeDate="2013-02-11T16:37:06.082+0100">
   <mainDescription>&lt;h3>&#xD;
     NEFFICS Service Modelling Editor: Installation guide&#xD;
 &lt;/h3>&#xD;
@@ -51,5 +51,21 @@
     The editor is accessible directly on the web at &lt;a&#xD;
     href=&quot;http://tomcat.thingml.org/backend/poem/repository&quot;>http://tomcat.thingml.org/backend/poem/repository&lt;/a> and thus&#xD;
     does not require any installation. The editor has been tested and works with FireFox.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    OpenID&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    In order to be able to save the models that you create in the editor you must log in using an OpenID. This allows the&#xD;
+    tool to create a&amp;nbsp;repository for your account&amp;nbsp;in which your private models are stored.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    OpenID is free and can be obtained from one of the sites listed at &lt;a&#xD;
+    href=&quot;http://openid.net/get-an-openid/&quot;>http://openid.net/get-an-openid/&lt;/a> for example &lt;a&#xD;
+    href=&quot;http://myid.net/&quot;>http://myid.net/&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>NB.&lt;/strong> If you do not&amp;nbsp;log in using an OpenID the models will only be kept in memory and will be lost&#xD;
+    when you exit the browser.&#xD;
 &lt;/p></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>
