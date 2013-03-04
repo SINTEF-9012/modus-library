@@ -1302,12 +1302,6 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7ZyWO1OvEeGcEMRXpnhBww" key="type" value="Task"/>
       </eAnnotations>
     </node>
-    <node xmi:type="uml:ActivityParameterNode" xmi:id="_7ZyWPFOvEeGcEMRXpnhBww" name="Specify capabilities" outgoing="_7ZyWVFOvEeGcEMRXpnhBww" incoming="_7ZyWU1OvEeGcEMRXpnhBww">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7ZyWPVOvEeGcEMRXpnhBww" source="uma_element">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7ZyWPlOvEeGcEMRXpnhBww" key="uri" value="uma://_UpFBcKF9EeCKTcfDSRMRtw#_7ZZUoFOvEeGcEMRXpnhBww"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7ZyWP1OvEeGcEMRXpnhBww" key="type" value="Task"/>
-      </eAnnotations>
-    </node>
     <node xmi:type="uml:ActivityParameterNode" xmi:id="_7ZyWQFOvEeGcEMRXpnhBww" name="Specify service contracts and choreographies" outgoing="_7ZyWUVOvEeGcEMRXpnhBww" incoming="_7ZyWUFOvEeGcEMRXpnhBww">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7ZyWQVOvEeGcEMRXpnhBww" source="uma_element">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7ZyWQlOvEeGcEMRXpnhBww" key="uri" value="uma://_UpFBcKF9EeCKTcfDSRMRtw#_7ZZ7sFOvEeGcEMRXpnhBww"/>
@@ -1331,8 +1325,8 @@
     <edge xmi:type="uml:ControlFlow" xmi:id="_7ZyWUFOvEeGcEMRXpnhBww" source="_7ZyWRFOvEeGcEMRXpnhBww" target="_7ZyWQFOvEeGcEMRXpnhBww"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_7ZyWUVOvEeGcEMRXpnhBww" source="_7ZyWQFOvEeGcEMRXpnhBww" target="_7ZyWS1OvEeGcEMRXpnhBww"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_7ZyWUlOvEeGcEMRXpnhBww" source="_7ZyWS1OvEeGcEMRXpnhBww" target="_7ZyWTVOvEeGcEMRXpnhBww"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_7ZyWU1OvEeGcEMRXpnhBww" source="_7ZyWSVOvEeGcEMRXpnhBww" target="_7ZyWPFOvEeGcEMRXpnhBww"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_7ZyWVFOvEeGcEMRXpnhBww" source="_7ZyWPFOvEeGcEMRXpnhBww" target="_7ZyWSlOvEeGcEMRXpnhBww"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7ZyWU1OvEeGcEMRXpnhBww" source="_7ZyWSVOvEeGcEMRXpnhBww"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7ZyWVFOvEeGcEMRXpnhBww" target="_7ZyWSlOvEeGcEMRXpnhBww"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_7ZyWVVOvEeGcEMRXpnhBww" source="_7ZyWSlOvEeGcEMRXpnhBww" target="_7ZyWRFOvEeGcEMRXpnhBww"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_7ZyWVlOvEeGcEMRXpnhBww" source="_7ZyWTFOvEeGcEMRXpnhBww" target="_7ZyWRFOvEeGcEMRXpnhBww"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_7ZyWV1OvEeGcEMRXpnhBww" name="[Refinement: Services architecture]" source="_7ZyWS1OvEeGcEMRXpnhBww" target="_7ZyWTFOvEeGcEMRXpnhBww"/>
@@ -1360,14 +1354,6 @@
       <styles xmi:type="notation:FillStyle" xmi:id="_7ZzkXFOvEeGcEMRXpnhBww"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_7ZzkXVOvEeGcEMRXpnhBww" lineColor="0"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7ZzkXlOvEeGcEMRXpnhBww" x="210" y="100"/>
-    </children>
-    <children xmi:type="notation:Node" xmi:id="_7ZzkX1OvEeGcEMRXpnhBww" type="1009" element="_7ZyWPFOvEeGcEMRXpnhBww">
-      <children xmi:type="notation:Node" xmi:id="_7ZzkYFOvEeGcEMRXpnhBww" type="4008"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_7ZzkYVOvEeGcEMRXpnhBww" fontName="Arial" fontHeight="8"/>
-      <styles xmi:type="notation:DescriptionStyle" xmi:id="_7ZzkYlOvEeGcEMRXpnhBww"/>
-      <styles xmi:type="notation:FillStyle" xmi:id="_7ZzkY1OvEeGcEMRXpnhBww"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_7ZzkZFOvEeGcEMRXpnhBww" lineColor="0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7ZzkZVOvEeGcEMRXpnhBww" x="150" y="240"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_7ZzkZlOvEeGcEMRXpnhBww" type="1009" element="_7ZyWQFOvEeGcEMRXpnhBww">
       <children xmi:type="notation:Node" xmi:id="_7ZzkZ1OvEeGcEMRXpnhBww" type="4008"/>
@@ -1483,26 +1469,6 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_7ZzkxFOvEeGcEMRXpnhBww" fontName="Arial" fontHeight="8"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_7ZzkxVOvEeGcEMRXpnhBww" lineColor="0"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7ZzkxlOvEeGcEMRXpnhBww" points="[2, 25, 0, -52]$[2, 89, 0, 12]"/>
-    </edges>
-    <edges xmi:type="notation:Edge" xmi:id="_7Zzkx1OvEeGcEMRXpnhBww" type="3001" element="_7ZyWU1OvEeGcEMRXpnhBww" source="_7ZzkfFOvEeGcEMRXpnhBww" target="_7ZzkX1OvEeGcEMRXpnhBww">
-      <children xmi:type="notation:Node" xmi:id="_7ZzkyFOvEeGcEMRXpnhBww" type="4012">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_7ZzkyVOvEeGcEMRXpnhBww" y="40"/>
-      </children>
-      <styles xmi:type="notation:RoutingStyle" xmi:id="_7ZzkylOvEeGcEMRXpnhBww"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_7Zzky1OvEeGcEMRXpnhBww" fontName="Arial" fontHeight="8"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_7ZzkzFOvEeGcEMRXpnhBww" lineColor="0"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7ZzkzVOvEeGcEMRXpnhBww" points="[25, 1, -80, 0]$[111, -10, 6, -11]"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7ZzkzlOvEeGcEMRXpnhBww" id="(0.5913978494623656,0.22448979591836735)"/>
-    </edges>
-    <edges xmi:type="notation:Edge" xmi:id="_7Zzkz1OvEeGcEMRXpnhBww" type="3001" element="_7ZyWVFOvEeGcEMRXpnhBww" source="_7ZzkX1OvEeGcEMRXpnhBww" target="_7Zzkg1OvEeGcEMRXpnhBww">
-      <children xmi:type="notation:Node" xmi:id="_7Zzk0FOvEeGcEMRXpnhBww" type="4012">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_7Zzk0VOvEeGcEMRXpnhBww" y="40"/>
-      </children>
-      <styles xmi:type="notation:RoutingStyle" xmi:id="_7Zzk0lOvEeGcEMRXpnhBww"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_7Zzk01OvEeGcEMRXpnhBww" fontName="Arial" fontHeight="8"/>
-      <styles xmi:type="notation:LineStyle" xmi:id="_7Zzk1FOvEeGcEMRXpnhBww" lineColor="0"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7Zzk1VOvEeGcEMRXpnhBww" points="[53, 2, -67, 2]$[145, 2, 25, 2]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7Zzk1lOvEeGcEMRXpnhBww" id="(0.43010752688172044,0.20408163265306123)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_7Zzk11OvEeGcEMRXpnhBww" type="3001" element="_7ZyWVVOvEeGcEMRXpnhBww" source="_7Zzkg1OvEeGcEMRXpnhBww" target="_7ZzkbVOvEeGcEMRXpnhBww">
       <children xmi:type="notation:Node" xmi:id="_7Zzk2FOvEeGcEMRXpnhBww" type="4012">

@@ -10,7 +10,6 @@
     <resourceDescriptors xmi:id="_t_pU4FGqEd6bzYAgVh5PrA" id="-bkqmI2rO4KqsFT7hi0kkfw" uri="tasks/specify_service_contracts_and_choreographies.xmi"/>
     <resourceDescriptors xmi:id="_Ky6_EE9SEd6-NZGez4d8tw" id="-wht8mrF_JzsBjGgDG79I2A" uri="guidances/examples/marketplace_soaml_interface_example.xmi"/>
     <resourceDescriptors xmi:id="_sV_HQanBEd6i-6W-cB2-Qw" id="-R013rx49qt5ZOv7w5msxfA" uri="guidances/guidelines/soaml_guidance.xmi"/>
-    <resourceDescriptors xmi:id="_qZ8eMBsIEd-bArCnVzoI8Q" id="-P_NR3mhE6KTaZPjrTmk43Q" uri="tasks/Specify_capabilities.xmi"/>
     <resourceDescriptors xmi:id="_RvoxACYTEd-_-qcazwayRQ" id="_ROZFICYTEd-_-qcazwayRQ" uri="capabilitypatterns/SoaML_system_architecture_modelling/model.xmi"/>
     <resourceDescriptors xmi:id="_YwLDACasEd-W88dSHyarAQ" id="-CZFVngSJ-Xlykua-q4BSmg" uri="tasks/Specify_service_choreographies.xmi"/>
     <resourceDescriptors xmi:id="_DZggECavEd-W88dSHyarAQ" id="_Bmd1ICavEd-W88dSHyarAQ" uri="capabilitypatterns/SoaML_business_architecture_modelling/model.xmi"/>
@@ -77,7 +76,6 @@
     <resourceDescriptors xmi:id="_-FaOIKGmEeC1A-PuG6Rlow" id="-UzJFYXkYC3wF-8guGbyfSA" uri="guidances/guidelines/community_and_participant_services_architecture.xmi"/>
     <resourceDescriptors xmi:id="_u2wAsaGoEeC1A-PuG6Rlow" id="-q9jkcZRyse28kS4-0TWCqw" uri="guidances/concepts/service_specification_using_soaml.xmi"/>
     <resourceDescriptors xmi:id="__970wKJQEeC6g8wb3xknIg" id="-fTB0eh9Yetyxc_O3-B-6jQ" uri="guidances/guidelines/bmm_to_soaml_mapping_rules.xmi"/>
-    <resourceDescriptors xmi:id="_JLDVgKJaEeCKp9wzOHzvHg" id="-5WEiOn-1mAnsOHRMDy9Kdg" uri="workproducts/capabilities.xmi"/>
     <resourceDescriptors xmi:id="_-t9ZoKJbEeCKp9wzOHzvHg" id="-kDh-XAHOrNT61zhHWnrJtg" uri="guidances/examples/cpo_business_model_example.xmi"/>
     <resourceDescriptors xmi:id="_jsefIKLxEeCs2vaY4B2J3g" id="-QIL3MNyafRmN3yP7k2-u0g" uri="workproducts/services_architectures.xmi"/>
     <resourceDescriptors xmi:id="_d1uRsKLyEeCs2vaY4B2J3g" id="-pdtLValjJqCqTSzlujm80g" uri="workproducts/business_goals.xmi"/>
@@ -385,9 +383,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_9XUg4N3ZEd--Io3WTn6Mgw" name="business_architect.assign" guid="_9XUg4N3ZEd--Io3WTn6Mgw" variabilityType="contributes" responsibleFor="_Ckb_MKGcEeCo46MenWbwvA">
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_aXK0UNeYEd-Mq_S1iaxctg#_gIqJwhntEd6VV7P4WguglA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_k96TUBsIEd-bArCnVzoI8Q" name="specify_capabilities" guid="_k96TUBsIEd-bArCnVzoI8Q" presentationName="Specify capabilities" briefDescription="This task describes how to identify and specify capabilities." guidelines="_sU8lcKnBEd6i-6W-cB2-Qw" examples="_P6qH4Cd9Ed-WoP7PlhRWug _NBwBYKL2EeCs2vaY4B2J3g" performedBy="_9XUg4N3ZEd--Io3WTn6Mgw" output="_Ckb_MKGcEeCo46MenWbwvA _oSVZ0KGaEeCo46MenWbwvA">
-            <presentation xmi:id="-P_NR3mhE6KTaZPjrTmk43Q" href="uma://-P_NR3mhE6KTaZPjrTmk43Q#-P_NR3mhE6KTaZPjrTmk43Q"/>
-          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_k96TUBsIEd-bArCnVzoI8Q" name="specify_capabilities" guid="_k96TUBsIEd-bArCnVzoI8Q" presentationName="Specify capabilities" briefDescription="This task describes how to identify and specify capabilities." guidelines="_sU8lcKnBEd6i-6W-cB2-Qw" examples="_P6qH4Cd9Ed-WoP7PlhRWug _NBwBYKL2EeCs2vaY4B2J3g" performedBy="_9XUg4N3ZEd--Io3WTn6Mgw" output="_Ckb_MKGcEeCo46MenWbwvA _oSVZ0KGaEeCo46MenWbwvA"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_azDj4C5uEd6lwuZlFT8K0A" name="specify_service_contracts_and_choreographies" guid="_azDj4C5uEd6lwuZlFT8K0A" presentationName="Specify service contracts and choreographies" briefDescription="This task describes how to specify a service contract and its choreography." conceptsAndPapers="_N-Gp8Df3Ed-Uc_4T-VlC6Q" guidelines="_sU8lcKnBEd6i-6W-cB2-Qw _UzQ70FxSEd--udEuEJEYBQ" examples="_r1fNUCd4Ed-WoP7PlhRWug _E-iloKMGEeCs2vaY4B2J3g" performedBy="_9XUg4N3ZEd--Io3WTn6Mgw" output="_Ckb_MKGcEeCo46MenWbwvA _4rEi0KGaEeCo46MenWbwvA">
             <presentation xmi:id="-bkqmI2rO4KqsFT7hi0kkfw" href="uma://-bkqmI2rO4KqsFT7hi0kkfw#-bkqmI2rO4KqsFT7hi0kkfw"/>
           </contentElements>
@@ -395,9 +391,11 @@
             <presentation xmi:id="-VAjMAIv2fxRi4fsIJaXCdw" href="uma://-VAjMAIv2fxRi4fsIJaXCdw#-VAjMAIv2fxRi4fsIJaXCdw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Fr7iUKGhEeC1A-PuG6Rlow" name="define_business_goals" guid="_Fr7iUKGhEeC1A-PuG6Rlow" presentationName="Define business goals" briefDescription="This task describes how to identify and specify business goals." guidelines="_5sBKwKJQEeC6g8wb3xknIg _sU8lcKnBEd6i-6W-cB2-Qw" examples="_uqMwMKJdEeCKp9wzOHzvHg" performedBy="_9XUg4N3ZEd--Io3WTn6Mgw" output="_vwgbkKGaEeCo46MenWbwvA _Ckb_MKGcEeCo46MenWbwvA">
+            <methodElementProperty xmi:id="_q18xcITREeK9SMmeIQke7A" name="me_edited" value="true"/>
             <presentation xmi:id="-MKh-Uf1wXyS-4Siar3osCw" href="uma://-MKh-Uf1wXyS-4Siar3osCw#-MKh-Uf1wXyS-4Siar3osCw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_cyZuoKGhEeC1A-PuG6Rlow" name="refine_business_processes" guid="_cyZuoKGhEeC1A-PuG6Rlow" presentationName="Refine business processes" briefDescription="This task describes how to refine business processes for the business perspective of an SOA." guidelines="_XTQ6gKGjEeC1A-PuG6Rlow _4S9OsKGjEeC1A-PuG6Rlow _UzQ70FxSEd--udEuEJEYBQ _sU8lcKnBEd6i-6W-cB2-Qw" examples="_pbPp8KJbEeCKp9wzOHzvHg _U5EqUKLzEeCs2vaY4B2J3g" performedBy="_9XUg4N3ZEd--Io3WTn6Mgw" mandatoryInput="_i6PE8KJkEeCtJaDYUHXYlQ" output="_Ckb_MKGcEeCo46MenWbwvA _yelLYKGaEeCo46MenWbwvA">
+            <methodElementProperty xmi:id="_rf7GEITSEeK9SMmeIQke7A" name="me_edited" value="true"/>
             <presentation xmi:id="-wlyydI6TjXZ51i-CWkeXzw" href="uma://-wlyydI6TjXZ51i-CWkeXzw#-wlyydI6TjXZ51i-CWkeXzw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_XTQ6gKGjEeC1A-PuG6Rlow" name="refining_business_process_information_elements" guid="_XTQ6gKGjEeC1A-PuG6Rlow" presentationName="Refining business process information elements" briefDescription="This guidance describes how to refine business processes information elements using SoaML concepts.">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Bu1JrrJC7JlKjhrb5OBquQ" name="neffics_service_modelling_editor_atone_modelling,_jSj2kGbXEeKmT775cktmuA" guid="-Bu1JrrJC7JlKjhrb5OBquQ" changeDate="2013-02-13T12:54:28.152+0100">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Bu1JrrJC7JlKjhrb5OBquQ" name="neffics_service_modelling_editor_atone_modelling,_jSj2kGbXEeKmT775cktmuA" guid="-Bu1JrrJC7JlKjhrb5OBquQ" changeDate="2013-03-04T12:51:29.534+0100">
   <mainDescription>&lt;h3>&#xD;
     NEFFICS Service Modelling Editor: AT-ONE modelling&#xD;
 &lt;/h3>&#xD;
@@ -15,8 +15,8 @@
 &lt;/h4>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        &lt;a href=&quot;http://tomcat.thingml.org/backend/poem/repository&quot;>&lt;u>&lt;font&#xD;
-        color=&quot;#0066cc&quot;>http://tomcat.thingml.org/backend/poem/repository&lt;/font>&lt;/u>&lt;/a>&#xD;
+        &lt;u>&lt;a href=&quot;http://tomcat.modelbased.net/backend/poem/repository&quot; target=&quot;_blank&quot;>&lt;font&#xD;
+        color=&quot;#0066cc&quot;>http://tomcat.modelbased.net/backend/poem/repository&lt;/font>&lt;/a>&lt;/u>&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;h4>&#xD;
@@ -31,18 +31,19 @@
         of the elements are further refined or detailed in separate sub-diagrams.&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        ServiceML (A-O) is a diagram type that allows you to model&amp;nbsp;Actors (as Services Architectures)&amp;nbsp;and&#xD;
-        Offerings (as Service Contracts).&#xD;
+        ServiceML (A-O) is a diagram type that allows you to model&amp;nbsp;&lt;strong>Actors&lt;/strong> (as Services&#xD;
+        Architectures)&amp;nbsp;and &lt;strong>Offerings&lt;/strong> (as Service Contracts).&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        ServiceML (N) is a diagram type that allows you to model&amp;nbsp;Needs (as Goals and Objectives).&#xD;
+        ServiceML (N) is a diagram type that allows you to model&amp;nbsp;&lt;strong>Needs&lt;/strong> (as Goals and Objectives).&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        ServiceML (T-E) is a diagram type that allows you to model Touchpoints and Experiences (as Service Journey Maps).&#xD;
+        ServiceML (T-E) is a diagram type that allows you to model &lt;strong>Touchpoints&lt;/strong> and&#xD;
+        &lt;strong>Experiences&lt;/strong> (as Service Journey Maps).&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    &lt;img alt=&quot;&quot; src=&quot;resources/oryx_atone_diagrams.png&quot; width=&quot;259&quot; height=&quot;449&quot; />&#xD;
+    &amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;resources/oryx_atone_diagrams.png&quot; width=&quot;268&quot; height=&quot;489&quot; />&#xD;
 &lt;/p>&#xD;
 &lt;h4>&#xD;
     Actors&#xD;
@@ -55,11 +56,11 @@
         Participants (from Value Network) represent the&amp;nbsp;actors in the network.&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Conversation (from BPMN 2.0) which groups a set of Flows.&#xD;
+        Conversations (from BPMN 2.0) which group a set of Flows.&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    &lt;img alt=&quot;&quot; src=&quot;./resources/atone_actors.png&quot; width=&quot;468&quot; height=&quot;280&quot; />&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/atone_actors.png&quot; width=&quot;600&quot; height=&quot;332&quot; />&#xD;
 &lt;/p>&#xD;
 &lt;h4>&#xD;
     Touchpoints&#xD;
@@ -91,7 +92,7 @@
     the protocol (behaviour) for how to use these interfaces.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    &lt;img alt=&quot;&quot; src=&quot;./resources/atone_offerings.png&quot; width=&quot;600&quot; height=&quot;396&quot; />&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/atone_offerings.png&quot; width=&quot;600&quot; height=&quot;480&quot; />&#xD;
 &lt;/p>&#xD;
 &lt;h4>&#xD;
     Needs&#xD;

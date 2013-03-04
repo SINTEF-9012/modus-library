@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-MKh-Uf1wXyS-4Siar3osCw" name="Create_Goal_Model,_5eCkYG-yEd6zv6nlDL4ZGQ" guid="-MKh-Uf1wXyS-4Siar3osCw" authors="Brian Elvesæter (SINTEF), Andrey Sadovykh (SOFTEAM)" changeDate="2010-11-03T10:24:32.086+0100" changeDescription="0.5: Revised description according to SoaML methodology book chapter.|0.4: Revised description and categorization.|0.3: Updated steps.|0.2: Updated description.|0.1: Initial outline." version="0.5">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-MKh-Uf1wXyS-4Siar3osCw" name="Create_Goal_Model,_5eCkYG-yEd6zv6nlDL4ZGQ" guid="-MKh-Uf1wXyS-4Siar3osCw" changeDate="2013-03-04T14:54:30.867+0100">
   <mainDescription>&lt;p align=&quot;left&quot;>&#xD;
     The purpose of the BMM is to agree with the business stakeholders the business goals that will be met by implementing&#xD;
     the service-oriented architecture, so that a set of required high level business processes can be identified for&#xD;
@@ -29,113 +29,29 @@
     all the business implications of any proposed changes to the service-oriented architecture.&#xD;
 &lt;/p>&#xD;
 &lt;p align=&quot;left&quot;>&#xD;
-    The specification of the goals and company’s motivations are defined in a business goals diagram. The goals can be&#xD;
-    structured by applying containers within the BMM model. The containers contain one or more goals diagrams in which you&#xD;
-    can define the goals and their relationships.&#xD;
-&lt;/p></mainDescription>
-  <sections xmi:id="_Hlnm0VF0EeGhK6PCw6rfMg" name="1. Identify goals." guid="_Hlnm0VF0EeGhK6PCw6rfMg">
-    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
-    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>Business goals are discovered by a&#xD;
-    process of workshops&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
-    face=&quot;NimbusRomNo9L-Regu&quot;>and interviews involving relevant stakeholders. The BMM describes a loose&#xD;
-    hierarchy&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>of goals of&#xD;
-    the business within the particular area of concern, from the&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;&#xD;
-    face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>goals of a business stakeholder in developing a&#xD;
-    product to the business goals met&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
-    face=&quot;NimbusRomNo9L-Regu&quot;>by the product or its users.&lt;/font>&lt;/font>&#xD;
-&lt;/p></sectionDescription>
-  </sections>
-  <sections xmi:id="_HloN4FF0EeGhK6PCw6rfMg" name="2. Specify goals and their relationships." guid="_HloN4FF0EeGhK6PCw6rfMg">
-    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
-    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>The goals are created as classes&#xD;
-    containing motivation related information. The name is expressed in a natural language and has properties such&#xD;
-    as:&lt;/font>&lt;/font>&amp;nbsp;&#xD;
+    The specification of the goals and company’s motivations are defined in a business goals diagram which allow you to&#xD;
+    define goals and objectives.&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        &lt;div align=&quot;left&quot;>&#xD;
-            Name, e.g. &quot;Minimize Risk&quot;&#xD;
-        &lt;/div>&#xD;
+        &lt;strong>Goal:&lt;/strong> A statement about a state or condition of the enterprise to be brought about or sustained&#xD;
+        through appropriate Means (i.e., Offerings expressed as Service Contracts).&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Scope, &quot; strategic|operational|relative&quot;, e.g. strategic&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        IsCorporate, &quot;true|false&quot;&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        Kind, &quot;Quantitative|Qualitative&quot;&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        Requested Satisfaction, &quot;hard|soft&quot;&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        Unit of Measurement&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        Goal Value&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        Current value&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        Problems&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        Source&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        Text, textual description of the goal&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        Describe elements using &quot;notes&quot;&#xD;
+        &lt;strong>Objective:&lt;/strong> An Objective is a statement of an attainable, time-targeted, and measurable target that&#xD;
+        the enterprise seeks to meet in order to achieve its Goals.&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>Relationships between goals can be&#xD;
-    specified as:&lt;/font>&lt;/font>&#xD;
-&lt;/p>&#xD;
-&lt;ul>&#xD;
-    &lt;li>&#xD;
-        &quot;part of&quot; link&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        &quot;positive influence&quot; link&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        &quot;negative influence&quot; link&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        &quot;guarantee&quot; link&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        &quot;measure&quot; link&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        &quot;assigned&quot; link&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        &quot;traceability&quot; link&#xD;
-    &lt;/li>&#xD;
-&lt;/ul></sectionDescription>
-  </sections>
-  <sections xmi:id="_Hlnm0lF0EeGhK6PCw6rfMg" name="3. Perform goal analysis linking the goals to existing or potential new business processes." guid="_Hlnm0lF0EeGhK6PCw6rfMg">
-    <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
-    &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>Goals may be thought of as high level&#xD;
-    statements of the&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
-    face=&quot;NimbusRomNo9L-Regu&quot;>things that have to happen in a business, each expressed as an outcome, but&#xD;
-    without&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>specifying the&#xD;
-    ”how”. As goal analysis proceeds, the analyst describes an enabling&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;&#xD;
-    face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>behaviour as the means by which a higher level&#xD;
-    outcome is to be achieved.&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
-    face=&quot;NimbusRomNo9L-Regu&quot;>Initially this is done through a brain-storming process. This results in a list of&#xD;
-    enabling&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>behaviours&#xD;
-    that is further refined and consolidated into a set of enabling&lt;/font>&lt;/font> &lt;font size=&quot;2&quot;&#xD;
-    face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>behaviours that supports all the business goals.&#xD;
-    This is the starting point for business&lt;/font>&lt;/font> &lt;font size=&quot;2&quot; face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font size=&quot;2&quot;&#xD;
-    face=&quot;NimbusRomNo9L-Regu&quot;>process modelling in a BPMN tool.&lt;/font>&lt;/font>&#xD;
-&lt;/p></sectionDescription>
-  </sections>
+    Business goals are discovered by a process of workshops and interviews involving relevant stakeholders. The BMM&#xD;
+    describes a loose hierarchy of goals of the business within the particular area of concern, from the goals of a&#xD;
+    business stakeholder in developing a product to the business goals met by the product or its users. Goals may be&#xD;
+    thought of as high level statements of the things that have to happen in a business, each expressed as an outcome, but&#xD;
+    without specifying the ”how”. As goal analysis proceeds, the analyst describes an enabling behaviour as the means by&#xD;
+    which a higher level outcome is to be achieved. Initially this is done through a brain-storming process. This results&#xD;
+    in a list of enabling behaviours that is further refined and consolidated into a set of enabling behaviours that&#xD;
+    supports all the business goals. This is the starting point for business process modelling in a BPMN tool.&#xD;
+&lt;/p></mainDescription>
   <purpose>&lt;ul>&#xD;
     &lt;li>&#xD;
         To identify and specify&amp;nbsp;business goals.&#xD;

@@ -39,6 +39,10 @@
     <resourceDescriptors xmi:id="_YBsZwinjEeK6srRiz90qtw" id="-0OBnYWYVpeUss2g4bknOGA" uri="guidances/toolmentors/neffics_service_modelling_editor_user_guide.xmi"/>
     <resourceDescriptors xmi:id="_w0OfQCnjEeK6srRiz90qtw" id="-jGHKn7BLy9k25sf2b5TQ-Q" uri="guidances/toolmentors/neffics_service_modelling_editor_installation_guide.xmi"/>
     <resourceDescriptors xmi:id="_THYbAS1IEeKyWralSrmW_A" id="-Bu5Roi-2zrwydh0m_5a8yw" uri="guidances/guidelines/business_soaml_guidance.xmi"/>
+    <resourceDescriptors xmi:id="_hHLUIITTEeK9SMmeIQke7A" id="-PEzcMNmTSYg8wAKgZh7cTw" uri="guidances/toolmentors/neffics_service_modelling_editor_goals_and_objectives.xmi"/>
+    <resourceDescriptors xmi:id="_xBCd4ITVEeK9SMmeIQke7A" id="-JRi4nK1AMIJXviecYzSORA" uri="guidances/toolmentors/neffics_service_modelling_editor_value_network.xmi"/>
+    <resourceDescriptors xmi:id="_kbhc8ITXEeK9SMmeIQke7A" id="-fTiU2jP1Yu-3mDfCVDENaw" uri="guidances/toolmentors/neffics_service_modelling_editor_business_soaml.xmi"/>
+    <resourceDescriptors xmi:id="_zlfswITXEeK9SMmeIQke7A" id="-1KrtrriCY21UFl_azWM9Sw" uri="guidances/toolmentors/neffics_service_modelling_editor_service_journey_map.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_BUtsgJvlEeCpqZ2idIvIxQ" name="practice.business.service_modelling.base-sintef" guid="_BUtsgJvlEeCpqZ2idIvIxQ" briefDescription="This plugin contains the Business service modelling practice." authors="Brian Elvesæter (SINTEF), Cyril Carrez (SINTEF)" changeDate="2012-11-07T12:20:30.369+0100">
     <methodElementProperty xmi:id="_BVBOgpvlEeCpqZ2idIvIxQ" name="plugin_synFree" value="true"/>
@@ -52,7 +56,7 @@
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BUtshJvlEeCpqZ2idIvIxQ" name="Disciplines" guid="_BUtshJvlEeCpqZ2idIvIxQ">
-          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_hlQhkEzzEeGzDcGxpv78iw" name="networked_process_and_service_modelling_discipline.assign" guid="_hlQhkEzzEeGzDcGxpv78iw" variabilityType="contributes" tasks="_Hlnm0FF0EeGhK6PCw6rfMg _HloN4VF0EeGhK6PCw6rfMg _HloN5FF0EeGhK6PCw6rfMg _Hlo08FF0EeGhK6PCw6rfMg _Hlo09VF0EeGhK6PCw6rfMg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_hlQhkEzzEeGzDcGxpv78iw" name="networked_process_and_service_modelling_discipline.assign" guid="_hlQhkEzzEeGzDcGxpv78iw" variabilityType="contributes" tasks="_Hlnm0FF0EeGhK6PCw6rfMg _HloN4VF0EeGhK6PCw6rfMg _Hlo08FF0EeGhK6PCw6rfMg _Hlo09VF0EeGhK6PCw6rfMg">
             <methodElementProperty xmi:id="_Nbsz8FF1EeGhK6PCw6rfMg" name="CategoryElementsSortType" value="Alphabetic"/>
             <methodElementProperty xmi:id="_-6-VQC0JEeKyWralSrmW_A" name="me_edited" value="true"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_kmsbEC0HEeKyWralSrmW_A"/>
@@ -61,8 +65,8 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BUtshZvlEeCpqZ2idIvIxQ" name="RoleSets" guid="_BUtshZvlEeCpqZ2idIvIxQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BUtshpvlEeCpqZ2idIvIxQ" name="WP Types" guid="_BUtshpvlEeCpqZ2idIvIxQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BUtsh5vlEeCpqZ2idIvIxQ" name="Tools" guid="_BUtsh5vlEeCpqZ2idIvIxQ">
-          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_KjbEMBT5EeG6UcYuiGlRtQ" name="neffics_service_modelling_editor.assign" guid="_KjbEMBT5EeG6UcYuiGlRtQ" variabilityType="contributes" toolMentors="_rHJAoCnjEeK6srRiz90qtw _T5B7QCnjEeK6srRiz90qtw">
-            <methodElementProperty xmi:id="_nbrEABXMEeGINOUzJIOMxA" name="CategoryElementsSortType" value="Alphabetic"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_KjbEMBT5EeG6UcYuiGlRtQ" name="neffics_service_modelling_editor.assign" guid="_KjbEMBT5EeG6UcYuiGlRtQ" variabilityType="contributes" toolMentors="_rHJAoCnjEeK6srRiz90qtw _T5B7QCnjEeK6srRiz90qtw _cg03QITXEeK9SMmeIQke7A _07aJEITSEeK9SMmeIQke7A _vX6SAITXEeK9SMmeIQke7A _regpcITVEeK9SMmeIQke7A">
+            <methodElementProperty xmi:id="_nbrEABXMEeGINOUzJIOMxA" name="CategoryElementsSortType" value="Manual"/>
             <methodElementProperty xmi:id="_hcSRILYBEeGFxaC4r7U9rA" name="me_edited" value="true"/>
             <presentation xmi:id="-9XNboJ2I4E9Gppj5sxXjZQ" href="uma://-9XNboJ2I4E9Gppj5sxXjZQ#-9XNboJ2I4E9Gppj5sxXjZQ"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_ZrOMELSiEeGOSY51NyhYZA#_hPs4kLX_EeGFxaC4r7U9rA"/>
@@ -91,27 +95,23 @@
             <methodElementProperty xmi:id="_Qc1aoCm2EeK5vc5kbcw8xg" name="me_edited" value="true"/>
             <presentation xmi:id="-RAsvygmLqGNeqSM3cZhj2Q" href="uma://-RAsvygmLqGNeqSM3cZhj2Q#-RAsvygmLqGNeqSM3cZhj2Q"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Hlnm0FF0EeGhK6PCw6rfMg" name="define_business_goals" guid="_Hlnm0FF0EeGhK6PCw6rfMg" presentationName="Define business goals" briefDescription="This task describes how to identify and specify business goals." guidelines="_M9VSYFF0EeGhK6PCw6rfMg _XJeWQlF0EeGhK6PCw6rfMg" performedBy="_I075oFF0EeGhK6PCw6rfMg" output="_vDQO0FF0EeGhK6PCw6rfMg _oC4jYFF0EeGhK6PCw6rfMg" toolMentors="_T5B7QCnjEeK6srRiz90qtw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Hlnm0FF0EeGhK6PCw6rfMg" name="define_business_goals" guid="_Hlnm0FF0EeGhK6PCw6rfMg" presentationName="Define business goals" briefDescription="This task describes how to identify and specify business goals." guidelines="_M9VSYFF0EeGhK6PCw6rfMg _XJeWQlF0EeGhK6PCw6rfMg" performedBy="_I075oFF0EeGhK6PCw6rfMg" output="_vDQO0FF0EeGhK6PCw6rfMg _oC4jYFF0EeGhK6PCw6rfMg" toolMentors="_T5B7QCnjEeK6srRiz90qtw _07aJEITSEeK9SMmeIQke7A">
             <methodElementProperty xmi:id="_ENriMC1QEeKyWralSrmW_A" name="me_edited" value="true"/>
             <presentation xmi:id="-MKh-Uf1wXyS-4Siar3osCw" href="uma://-MKh-Uf1wXyS-4Siar3osCw#-MKh-Uf1wXyS-4Siar3osCw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_HloN4VF0EeGhK6PCw6rfMg" name="refine_value_network view" guid="_HloN4VF0EeGhK6PCw6rfMg" presentationName="Refine value network view" briefDescription="This task describes how to refine the value network view for service modelling." guidelines="_XJeWQlF0EeGhK6PCw6rfMg _M9VSYFF0EeGhK6PCw6rfMg" examples="_93OexVJLEeG_AJV-uw1zUA" performedBy="_I075oFF0EeGhK6PCw6rfMg" mandatoryInput="_oC4jYVF0EeGhK6PCw6rfMg" output="_oC4jYlF0EeGhK6PCw6rfMg _vDQO0FF0EeGhK6PCw6rfMg" toolMentors="_T5B7QCnjEeK6srRiz90qtw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_HloN4VF0EeGhK6PCw6rfMg" name="refine_value_network view" guid="_HloN4VF0EeGhK6PCw6rfMg" presentationName="Refine value network view" briefDescription="This task describes how to refine the value network view for service modelling." guidelines="_XJeWQlF0EeGhK6PCw6rfMg _M9VSYFF0EeGhK6PCw6rfMg" examples="_93OexVJLEeG_AJV-uw1zUA" performedBy="_I075oFF0EeGhK6PCw6rfMg" mandatoryInput="_oC4jYVF0EeGhK6PCw6rfMg" output="_oC4jYlF0EeGhK6PCw6rfMg _vDQO0FF0EeGhK6PCw6rfMg" toolMentors="_T5B7QCnjEeK6srRiz90qtw _regpcITVEeK9SMmeIQke7A">
             <methodElementProperty xmi:id="_ZZaVkC1PEeKyWralSrmW_A" name="me_edited" value="true"/>
             <presentation xmi:id="-wlyydI6TjXZ51i-CWkeXzw" href="uma://-wlyydI6TjXZ51i-CWkeXzw#-wlyydI6TjXZ51i-CWkeXzw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_HloN5FF0EeGhK6PCw6rfMg" name="specify_capabilities" guid="_HloN5FF0EeGhK6PCw6rfMg" presentationName="Specify capabilities" briefDescription="This task describes how to identify and specify capabilities." guidelines="_XJeWQlF0EeGhK6PCw6rfMg _XJeWQVF0EeGhK6PCw6rfMg" performedBy="_I075oFF0EeGhK6PCw6rfMg" output="_vDQO0FF0EeGhK6PCw6rfMg _oC5KcFF0EeGhK6PCw6rfMg" toolMentors="_T5B7QCnjEeK6srRiz90qtw">
-            <methodElementProperty xmi:id="_8zPw8C1PEeKyWralSrmW_A" name="me_edited" value="true"/>
-            <presentation xmi:id="-P_NR3mhE6KTaZPjrTmk43Q" href="uma://-P_NR3mhE6KTaZPjrTmk43Q#-P_NR3mhE6KTaZPjrTmk43Q"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Hlo08FF0EeGhK6PCw6rfMg" name="specify_service_contracts_and_choreographies" guid="_Hlo08FF0EeGhK6PCw6rfMg" presentationName="Specify service contracts and choreographies" briefDescription="This task describes how to specify a service contract and its choreography." conceptsAndPapers="_XJdvMVF0EeGhK6PCw6rfMg" guidelines="_M9VSYVF0EeGhK6PCw6rfMg _XJeWQlF0EeGhK6PCw6rfMg _Mad3EC1IEeKyWralSrmW_A" examples="_93OexFJLEeG_AJV-uw1zUA" performedBy="_I075oFF0EeGhK6PCw6rfMg" output="_vDQO0FF0EeGhK6PCw6rfMg _oC5KcVF0EeGhK6PCw6rfMg" toolMentors="_T5B7QCnjEeK6srRiz90qtw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Hlo08FF0EeGhK6PCw6rfMg" name="specify_service_contracts_and_choreographies" guid="_Hlo08FF0EeGhK6PCw6rfMg" presentationName="Specify service contracts and choreographies" briefDescription="This task describes how to specify a service contract and its choreography." conceptsAndPapers="_XJdvMVF0EeGhK6PCw6rfMg" guidelines="_M9VSYVF0EeGhK6PCw6rfMg _XJeWQlF0EeGhK6PCw6rfMg _Mad3EC1IEeKyWralSrmW_A" examples="_93OexFJLEeG_AJV-uw1zUA" performedBy="_I075oFF0EeGhK6PCw6rfMg" output="_vDQO0FF0EeGhK6PCw6rfMg _oC5KcVF0EeGhK6PCw6rfMg" toolMentors="_T5B7QCnjEeK6srRiz90qtw _cg03QITXEeK9SMmeIQke7A">
             <methodElementProperty xmi:id="_-bYzcC1PEeKyWralSrmW_A" name="me_edited" value="true"/>
             <presentation xmi:id="-bkqmI2rO4KqsFT7hi0kkfw" href="uma://-bkqmI2rO4KqsFT7hi0kkfw#-bkqmI2rO4KqsFT7hi0kkfw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Hlo09VF0EeGhK6PCw6rfMg" name="specify_services_architectures" guid="_Hlo09VF0EeGhK6PCw6rfMg" presentationName="Specify services architectures" briefDescription="This task describes how to specify a services architecture." guidelines="_XJeWQlF0EeGhK6PCw6rfMg _M9VSYVF0EeGhK6PCw6rfMg _M9VSYlF0EeGhK6PCw6rfMg _M9VSYFF0EeGhK6PCw6rfMg _Mad3EC1IEeKyWralSrmW_A" examples="_93OexVJLEeG_AJV-uw1zUA _93OewVJLEeG_AJV-uw1zUA" performedBy="_I075oFF0EeGhK6PCw6rfMg" output="_vDQO0FF0EeGhK6PCw6rfMg _oC5KclF0EeGhK6PCw6rfMg" toolMentors="_T5B7QCnjEeK6srRiz90qtw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Hlo09VF0EeGhK6PCw6rfMg" name="specify_services_architectures" guid="_Hlo09VF0EeGhK6PCw6rfMg" presentationName="Specify services architectures" briefDescription="This task describes how to specify a services architecture." guidelines="_XJeWQlF0EeGhK6PCw6rfMg _M9VSYVF0EeGhK6PCw6rfMg _M9VSYlF0EeGhK6PCw6rfMg _M9VSYFF0EeGhK6PCw6rfMg _Mad3EC1IEeKyWralSrmW_A" examples="_93OexVJLEeG_AJV-uw1zUA _93OewVJLEeG_AJV-uw1zUA" performedBy="_I075oFF0EeGhK6PCw6rfMg" output="_vDQO0FF0EeGhK6PCw6rfMg _oC5KclF0EeGhK6PCw6rfMg" toolMentors="_T5B7QCnjEeK6srRiz90qtw _cg03QITXEeK9SMmeIQke7A">
             <methodElementProperty xmi:id="_CaiJkC1QEeKyWralSrmW_A" name="me_edited" value="true"/>
             <presentation xmi:id="-VAjMAIv2fxRi4fsIJaXCdw" href="uma://-VAjMAIv2fxRi4fsIJaXCdw#-VAjMAIv2fxRi4fsIJaXCdw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_I075oFF0EeGhK6PCw6rfMg" name="solution_architect.assign" guid="_I075oFF0EeGhK6PCw6rfMg" variabilityType="contributes" responsibleFor="_oC4jYFF0EeGhK6PCw6rfMg _oC4jYVF0EeGhK6PCw6rfMg _oC4jYlF0EeGhK6PCw6rfMg _vDQO0FF0EeGhK6PCw6rfMg _oC5KcFF0EeGhK6PCw6rfMg _oC5KcVF0EeGhK6PCw6rfMg _oC5KclF0EeGhK6PCw6rfMg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_I075oFF0EeGhK6PCw6rfMg" name="solution_architect.assign" guid="_I075oFF0EeGhK6PCw6rfMg" variabilityType="contributes" responsibleFor="_oC4jYFF0EeGhK6PCw6rfMg _oC4jYVF0EeGhK6PCw6rfMg _oC4jYlF0EeGhK6PCw6rfMg _vDQO0FF0EeGhK6PCw6rfMg _oC5KcVF0EeGhK6PCw6rfMg _oC5KclF0EeGhK6PCw6rfMg">
             <methodElementProperty xmi:id="_IU6gMCdkEeKDGNEPRzZzCg" name="me_edited" value="true"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_0wQ9MCdVEeKDGNEPRzZzCg#_qSz08CdXEeKDGNEPRzZzCg"/>
           </contentElements>
@@ -133,6 +133,7 @@
             <presentation xmi:id="-wRgZpLjleA3hVV1-J5N2ZQ" href="uma://-wRgZpLjleA3hVV1-J5N2ZQ#-wRgZpLjleA3hVV1-J5N2ZQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_oC4jYFF0EeGhK6PCw6rfMg" name="business_goals" guid="_oC4jYFF0EeGhK6PCw6rfMg" presentationName="Business goals" briefDescription="This work product specifies the business goals.">
+            <methodElementProperty xmi:id="_9tIgkITWEeK9SMmeIQke7A" name="me_edited" value="true"/>
             <presentation xmi:id="-pdtLValjJqCqTSzlujm80g" href="uma://-pdtLValjJqCqTSzlujm80g#-pdtLValjJqCqTSzlujm80g"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_oC4jYVF0EeGhK6PCw6rfMg" name="value_delivery_model.slot" guid="_oC4jYVF0EeGhK6PCw6rfMg" presentationName="[Value Delivery Model]" briefDescription="This work product slot represents the Value Delivery Model input." isAbstract="true">
@@ -142,20 +143,17 @@
             <methodElementProperty xmi:id="_cT4_IC1OEeKyWralSrmW_A" name="me_edited" value="true"/>
             <presentation xmi:id="-SlkjuRJjP-Lo82-B6mOXBA" href="uma://-SlkjuRJjP-Lo82-B6mOXBA#-SlkjuRJjP-Lo82-B6mOXBA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_oC5KcFF0EeGhK6PCw6rfMg" name="capabilities" guid="_oC5KcFF0EeGhK6PCw6rfMg" presentationName="Capabilites" briefDescription="This work product specifies the capabilities.">
-            <presentation xmi:id="-5WEiOn-1mAnsOHRMDy9Kdg" href="uma://-5WEiOn-1mAnsOHRMDy9Kdg#-5WEiOn-1mAnsOHRMDy9Kdg"/>
-          </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_oC5KcVF0EeGhK6PCw6rfMg" name="service_contracts_and_choreographies" guid="_oC5KcVF0EeGhK6PCw6rfMg" presentationName="Service contracts and choreographies" briefDescription="This work product specifies the services contracts and choreographies." examples="_93OexFJLEeG_AJV-uw1zUA">
             <presentation xmi:id="-CsX4cAZQzj-BSpVzTft4Jw" href="uma://-CsX4cAZQzj-BSpVzTft4Jw#-CsX4cAZQzj-BSpVzTft4Jw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_oC5KclF0EeGhK6PCw6rfMg" name="services_architectures" guid="_oC5KclF0EeGhK6PCw6rfMg" presentationName="Services architectures" briefDescription="This work product specifies the services architectures." examples="_93OexVJLEeG_AJV-uw1zUA">
             <presentation xmi:id="-QIL3MNyafRmN3yP7k2-u0g" href="uma://-QIL3MNyafRmN3yP7k2-u0g#-QIL3MNyafRmN3yP7k2-u0g"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_vDQO0FF0EeGhK6PCw6rfMg" name="service_model.assign" guid="_vDQO0FF0EeGhK6PCw6rfMg" variabilityType="contributes" deliveredWorkProducts="_oC4jYFF0EeGhK6PCw6rfMg _oC4jYlF0EeGhK6PCw6rfMg _oC5KcFF0EeGhK6PCw6rfMg _oC5KcVF0EeGhK6PCw6rfMg _oC5KclF0EeGhK6PCw6rfMg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_vDQO0FF0EeGhK6PCw6rfMg" name="service_model.assign" guid="_vDQO0FF0EeGhK6PCw6rfMg" variabilityType="contributes" deliveredWorkProducts="_oC4jYFF0EeGhK6PCw6rfMg _oC4jYlF0EeGhK6PCw6rfMg _oC5KcVF0EeGhK6PCw6rfMg _oC5KclF0EeGhK6PCw6rfMg">
             <methodElementProperty xmi:id="_HrlAYCm2EeK5vc5kbcw8xg" name="me_edited" value="true"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Deliverable" href="uma://_Xy_FcBWsEeGINOUzJIOMxA#_4zQQcLVlEeG-o5qJTdyH5A"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_sbyOgFI-EeG5D6en_tx4lw" name="service_modelling" guid="_sbyOgFI-EeG5D6en_tx4lw" presentationName="Service Modelling" briefDescription="This practice describes how to define services using ServiceML." contentReferences="_XJdvMFF0EeGhK6PCw6rfMg _XJdvMVF0EeGhK6PCw6rfMg _XJdvMlF0EeGhK6PCw6rfMg _XJdvM1F0EeGhK6PCw6rfMg _XJdvNFF0EeGhK6PCw6rfMg _M9VSYVF0EeGhK6PCw6rfMg _Mad3EC1IEeKyWralSrmW_A _M9VSYlF0EeGhK6PCw6rfMg _XJeWQVF0EeGhK6PCw6rfMg _M9VSY1F0EeGhK6PCw6rfMg _M9VSZFF0EeGhK6PCw6rfMg _XJeWQFF0EeGhK6PCw6rfMg _XJeWQlF0EeGhK6PCw6rfMg _M9VSYFF0EeGhK6PCw6rfMg _93OexFJLEeG_AJV-uw1zUA _93OewVJLEeG_AJV-uw1zUA _93OexVJLEeG_AJV-uw1zUA _oC4jYFF0EeGhK6PCw6rfMg _oC5KcFF0EeGhK6PCw6rfMg _oC5KcVF0EeGhK6PCw6rfMg _oC5KclF0EeGhK6PCw6rfMg _oC4jYVF0EeGhK6PCw6rfMg _oC4jYlF0EeGhK6PCw6rfMg _rHJAoCnjEeK6srRiz90qtw _T5B7QCnjEeK6srRiz90qtw _vDQO0FF0EeGhK6PCw6rfMg _Hlnm0FF0EeGhK6PCw6rfMg _HloN4VF0EeGhK6PCw6rfMg _HloN5FF0EeGhK6PCw6rfMg _Hlo08FF0EeGhK6PCw6rfMg _Hlo09VF0EeGhK6PCw6rfMg _I075oFF0EeGhK6PCw6rfMg _DQJ1cBT6EeG6UcYuiGlRtQ _KjbEMBT5EeG6UcYuiGlRtQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_sbyOgFI-EeG5D6en_tx4lw" name="service_modelling" guid="_sbyOgFI-EeG5D6en_tx4lw" presentationName="Service Modelling" briefDescription="This practice describes how to define services using ServiceML." contentReferences="_XJdvMFF0EeGhK6PCw6rfMg _XJdvMVF0EeGhK6PCw6rfMg _XJdvMlF0EeGhK6PCw6rfMg _XJdvM1F0EeGhK6PCw6rfMg _XJdvNFF0EeGhK6PCw6rfMg _M9VSYVF0EeGhK6PCw6rfMg _Mad3EC1IEeKyWralSrmW_A _M9VSYlF0EeGhK6PCw6rfMg _XJeWQVF0EeGhK6PCw6rfMg _M9VSY1F0EeGhK6PCw6rfMg _M9VSZFF0EeGhK6PCw6rfMg _XJeWQFF0EeGhK6PCw6rfMg _XJeWQlF0EeGhK6PCw6rfMg _M9VSYFF0EeGhK6PCw6rfMg _93OexFJLEeG_AJV-uw1zUA _93OewVJLEeG_AJV-uw1zUA _93OexVJLEeG_AJV-uw1zUA _oC4jYFF0EeGhK6PCw6rfMg _oC5KcVF0EeGhK6PCw6rfMg _oC5KclF0EeGhK6PCw6rfMg _oC4jYVF0EeGhK6PCw6rfMg _oC4jYlF0EeGhK6PCw6rfMg _cg03QITXEeK9SMmeIQke7A _07aJEITSEeK9SMmeIQke7A _rHJAoCnjEeK6srRiz90qtw _vX6SAITXEeK9SMmeIQke7A _T5B7QCnjEeK6srRiz90qtw _regpcITVEeK9SMmeIQke7A _vDQO0FF0EeGhK6PCw6rfMg _Hlnm0FF0EeGhK6PCw6rfMg _HloN4VF0EeGhK6PCw6rfMg _Hlo08FF0EeGhK6PCw6rfMg _Hlo09VF0EeGhK6PCw6rfMg _I075oFF0EeGhK6PCw6rfMg _DQJ1cBT6EeG6UcYuiGlRtQ _KjbEMBT5EeG6UcYuiGlRtQ">
             <methodElementProperty xmi:id="_-rFRMCf9EeKbT_45B08XTA" name="me_edited" value="true"/>
             <presentation xmi:id="-G5m16yQAl-41h59ifD9Amw" href="uma://-G5m16yQAl-41h59ifD9Amw#-G5m16yQAl-41h59ifD9Amw"/>
             <activityReferences href="uma://_BDB6IFJREeG_AJV-uw1zUA#_BDB6IVJREeG_AJV-uw1zUA"/>
@@ -182,6 +180,22 @@
             <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_rHJAoCnjEeK6srRiz90qtw" name="neffics_service_modelling_editor_installation_guide" guid="_rHJAoCnjEeK6srRiz90qtw" presentationName="NEFFICS Service Modelling Editor: Installation guide">
               <methodElementProperty xmi:id="_tx7y8CnjEeK6srRiz90qtw" name="me_edited" value="true"/>
               <presentation xmi:id="-jGHKn7BLy9k25sf2b5TQ-Q" href="uma://-jGHKn7BLy9k25sf2b5TQ-Q#-jGHKn7BLy9k25sf2b5TQ-Q"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_07aJEITSEeK9SMmeIQke7A" name="neffics_service_modelling_editor_goals_and_objectives" guid="_07aJEITSEeK9SMmeIQke7A" presentationName="NEFFICS Service Modelling Editor: Goals and Objectives modelling functionality">
+              <methodElementProperty xmi:id="_2h_FUITSEeK9SMmeIQke7A" name="me_edited" value="true"/>
+              <presentation xmi:id="-PEzcMNmTSYg8wAKgZh7cTw" href="uma://-PEzcMNmTSYg8wAKgZh7cTw#-PEzcMNmTSYg8wAKgZh7cTw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_regpcITVEeK9SMmeIQke7A" name="neffics_service_modelling_editor_value_network" guid="_regpcITVEeK9SMmeIQke7A" presentationName="NEFFICS Service Modelling Editor: Value Network modelling functionality">
+              <methodElementProperty xmi:id="_tUDOwITVEeK9SMmeIQke7A" name="me_edited" value="true"/>
+              <presentation xmi:id="-JRi4nK1AMIJXviecYzSORA" href="uma://-JRi4nK1AMIJXviecYzSORA#-JRi4nK1AMIJXviecYzSORA"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_cg03QITXEeK9SMmeIQke7A" name="neffics_service_modelling_editor_business_soaml" guid="_cg03QITXEeK9SMmeIQke7A" presentationName="NEFFICS Service Modelling Editor: Business-SoaML modelling functionality">
+              <methodElementProperty xmi:id="_hsiHIITXEeK9SMmeIQke7A" name="me_edited" value="true"/>
+              <presentation xmi:id="-fTiU2jP1Yu-3mDfCVDENaw" href="uma://-fTiU2jP1Yu-3mDfCVDENaw#-fTiU2jP1Yu-3mDfCVDENaw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_vX6SAITXEeK9SMmeIQke7A" name="neffics_service_modelling_editor_service_journey_map" guid="_vX6SAITXEeK9SMmeIQke7A" presentationName="NEFFICS Service Modelling Editor: Service Journey Map modelling functionality">
+              <methodElementProperty xmi:id="_zLB-UITXEeK9SMmeIQke7A" name="me_edited" value="true"/>
+              <presentation xmi:id="-1KrtrriCY21UFl_azWM9Sw" href="uma://-1KrtrriCY21UFl_azWM9Sw#-1KrtrriCY21UFl_azWM9Sw"/>
             </contentElements>
           </childPackages>
         </childPackages>
